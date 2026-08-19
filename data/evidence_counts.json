@@ -1,0 +1,4121 @@
+{
+  "note": "Internal curator aid only — do not display raw counts on the public website until a documented scoring method exists.",
+  "sources_scanned": [
+    "social-informal-01.txt",
+    "social-informal-02.txt",
+    "ifra-informal-paraphrase.txt",
+    "cencos-transcripts.txt",
+    "naijasenti-pcm-train.txt",
+    "pcm_nsc-ud-train.conllu",
+    "pcm_nsc-ud-dev.conllu",
+    "pcm_nsc-ud-test.conllu"
+  ],
+  "entries": [
+    {
+      "entry_id": "i",
+      "standard_spelling": "I",
+      "total": 37886,
+      "by_source": {
+        "social-informal-01.txt": 4,
+        "social-informal-02.txt": 8,
+        "cencos-transcripts.txt": 5782,
+        "pcm_nsc-ud-train.conllu": 23156,
+        "pcm_nsc-ud-dev.conllu": 4934,
+        "pcm_nsc-ud-test.conllu": 4002
+      },
+      "terms_counted": [
+        "I",
+        "i"
+      ]
+    },
+    {
+      "entry_id": "wan",
+      "standard_spelling": "wan",
+      "total": 33135,
+      "by_source": {
+        "social-informal-01.txt": 1,
+        "cencos-transcripts.txt": 2691,
+        "pcm_nsc-ud-train.conllu": 23385,
+        "pcm_nsc-ud-dev.conllu": 3779,
+        "pcm_nsc-ud-test.conllu": 3279
+      },
+      "terms_counted": [
+        "wan",
+        "one",
+        "1"
+      ]
+    },
+    {
+      "entry_id": "di",
+      "standard_spelling": "di",
+      "total": 21423,
+      "by_source": {
+        "social-informal-01.txt": 2,
+        "social-informal-02.txt": 2,
+        "ifra-informal-paraphrase.txt": 3,
+        "cencos-transcripts.txt": 1981,
+        "naijasenti-pcm-train.txt": 2,
+        "pcm_nsc-ud-train.conllu": 15444,
+        "pcm_nsc-ud-dev.conllu": 2073,
+        "pcm_nsc-ud-test.conllu": 1916
+      },
+      "terms_counted": [
+        "di",
+        "the",
+        "de"
+      ]
+    },
+    {
+      "entry_id": "de",
+      "standard_spelling": "de",
+      "total": 20937,
+      "by_source": {
+        "social-informal-01.txt": 4,
+        "social-informal-02.txt": 4,
+        "ifra-informal-paraphrase.txt": 2,
+        "cencos-transcripts.txt": 907,
+        "naijasenti-pcm-train.txt": 3,
+        "pcm_nsc-ud-train.conllu": 15917,
+        "pcm_nsc-ud-dev.conllu": 1854,
+        "pcm_nsc-ud-test.conllu": 2246
+      },
+      "terms_counted": [
+        "de",
+        "dey",
+        "deh"
+      ]
+    },
+    {
+      "entry_id": "de-copula",
+      "standard_spelling": "dé",
+      "total": 20936,
+      "by_source": {
+        "social-informal-01.txt": 4,
+        "social-informal-02.txt": 4,
+        "ifra-informal-paraphrase.txt": 2,
+        "cencos-transcripts.txt": 907,
+        "naijasenti-pcm-train.txt": 2,
+        "pcm_nsc-ud-train.conllu": 15917,
+        "pcm_nsc-ud-dev.conllu": 1854,
+        "pcm_nsc-ud-test.conllu": 2246
+      },
+      "terms_counted": [
+        "dé",
+        "de",
+        "dey"
+      ]
+    },
+    {
+      "entry_id": "yu",
+      "standard_spelling": "yu",
+      "total": 16295,
+      "by_source": {
+        "social-informal-01.txt": 1,
+        "cencos-transcripts.txt": 3145,
+        "pcm_nsc-ud-train.conllu": 11244,
+        "pcm_nsc-ud-dev.conllu": 691,
+        "pcm_nsc-ud-test.conllu": 1214
+      },
+      "terms_counted": [
+        "yu",
+        "you",
+        "u"
+      ]
+    },
+    {
+      "entry_id": "go-past",
+      "standard_spelling": "gó",
+      "total": 14860,
+      "by_source": {
+        "social-informal-01.txt": 4,
+        "social-informal-02.txt": 1,
+        "cencos-transcripts.txt": 781,
+        "pcm_nsc-ud-train.conllu": 11417,
+        "pcm_nsc-ud-dev.conllu": 1435,
+        "pcm_nsc-ud-test.conllu": 1222
+      },
+      "terms_counted": [
+        "gó",
+        "go"
+      ]
+    },
+    {
+      "entry_id": "im",
+      "standard_spelling": "im",
+      "total": 12030,
+      "by_source": {
+        "social-informal-01.txt": 1,
+        "social-informal-02.txt": 1,
+        "ifra-informal-paraphrase.txt": 2,
+        "cencos-transcripts.txt": 1131,
+        "naijasenti-pcm-train.txt": 1,
+        "pcm_nsc-ud-train.conllu": 8864,
+        "pcm_nsc-ud-dev.conllu": 1137,
+        "pcm_nsc-ud-test.conllu": 893
+      },
+      "terms_counted": [
+        "im",
+        "am",
+        "him",
+        "her"
+      ]
+    },
+    {
+      "entry_id": "se",
+      "standard_spelling": "se",
+      "total": 11189,
+      "by_source": {
+        "social-informal-01.txt": 2,
+        "ifra-informal-paraphrase.txt": 2,
+        "cencos-transcripts.txt": 563,
+        "naijasenti-pcm-train.txt": 1,
+        "pcm_nsc-ud-train.conllu": 8665,
+        "pcm_nsc-ud-dev.conllu": 1068,
+        "pcm_nsc-ud-test.conllu": 888
+      },
+      "terms_counted": [
+        "se",
+        "say",
+        "sey"
+      ]
+    },
+    {
+      "entry_id": "fo",
+      "standard_spelling": "fo",
+      "total": 10352,
+      "by_source": {
+        "social-informal-01.txt": 3,
+        "social-informal-02.txt": 1,
+        "ifra-informal-paraphrase.txt": 1,
+        "cencos-transcripts.txt": 598,
+        "pcm_nsc-ud-train.conllu": 7787,
+        "pcm_nsc-ud-dev.conllu": 867,
+        "pcm_nsc-ud-test.conllu": 1095
+      },
+      "terms_counted": [
+        "fo",
+        "for"
+      ]
+    },
+    {
+      "entry_id": "no",
+      "standard_spelling": "no",
+      "total": 10165,
+      "by_source": {
+        "social-informal-01.txt": 2,
+        "social-informal-02.txt": 2,
+        "ifra-informal-paraphrase.txt": 1,
+        "cencos-transcripts.txt": 1620,
+        "pcm_nsc-ud-train.conllu": 6736,
+        "pcm_nsc-ud-dev.conllu": 866,
+        "pcm_nsc-ud-test.conllu": 938
+      },
+      "terms_counted": [
+        "no",
+        "not"
+      ]
+    },
+    {
+      "entry_id": "dem",
+      "standard_spelling": "dem",
+      "total": 8725,
+      "by_source": {
+        "social-informal-01.txt": 3,
+        "social-informal-02.txt": 2,
+        "ifra-informal-paraphrase.txt": 3,
+        "cencos-transcripts.txt": 339,
+        "pcm_nsc-ud-train.conllu": 7029,
+        "pcm_nsc-ud-dev.conllu": 659,
+        "pcm_nsc-ud-test.conllu": 690
+      },
+      "terms_counted": [
+        "dem",
+        "them",
+        "deme"
+      ]
+    },
+    {
+      "entry_id": "dat",
+      "standard_spelling": "dat",
+      "total": 8245,
+      "by_source": {
+        "cencos-transcripts.txt": 1842,
+        "naijasenti-pcm-train.txt": 1,
+        "pcm_nsc-ud-train.conllu": 5124,
+        "pcm_nsc-ud-dev.conllu": 686,
+        "pcm_nsc-ud-test.conllu": 592
+      },
+      "terms_counted": [
+        "dat",
+        "that"
+      ]
+    },
+    {
+      "entry_id": "wi",
+      "standard_spelling": "wi",
+      "total": 7242,
+      "by_source": {
+        "social-informal-01.txt": 2,
+        "cencos-transcripts.txt": 516,
+        "pcm_nsc-ud-train.conllu": 5020,
+        "pcm_nsc-ud-dev.conllu": 651,
+        "pcm_nsc-ud-test.conllu": 1053
+      },
+      "terms_counted": [
+        "wi",
+        "we"
+      ]
+    },
+    {
+      "entry_id": "do",
+      "standard_spelling": "do",
+      "total": 5324,
+      "by_source": {
+        "cencos-transcripts.txt": 466,
+        "pcm_nsc-ud-train.conllu": 3759,
+        "pcm_nsc-ud-dev.conllu": 540,
+        "pcm_nsc-ud-test.conllu": 559
+      },
+      "terms_counted": [
+        "do",
+        "door"
+      ]
+    },
+    {
+      "entry_id": "du",
+      "standard_spelling": "du",
+      "total": 5254,
+      "by_source": {
+        "cencos-transcripts.txt": 463,
+        "pcm_nsc-ud-train.conllu": 3688,
+        "pcm_nsc-ud-dev.conllu": 540,
+        "pcm_nsc-ud-test.conllu": 563
+      },
+      "terms_counted": [
+        "du",
+        "do"
+      ]
+    },
+    {
+      "entry_id": "nau",
+      "standard_spelling": "nau",
+      "total": 5190,
+      "by_source": {
+        "cencos-transcripts.txt": 718,
+        "pcm_nsc-ud-train.conllu": 3463,
+        "pcm_nsc-ud-dev.conllu": 475,
+        "pcm_nsc-ud-test.conllu": 534
+      },
+      "terms_counted": [
+        "nau",
+        "now",
+        "naw",
+        "naww"
+      ]
+    },
+    {
+      "entry_id": "dis",
+      "standard_spelling": "dis",
+      "total": 5161,
+      "by_source": {
+        "social-informal-02.txt": 1,
+        "cencos-transcripts.txt": 694,
+        "naijasenti-pcm-train.txt": 1,
+        "pcm_nsc-ud-train.conllu": 3605,
+        "pcm_nsc-ud-dev.conllu": 498,
+        "pcm_nsc-ud-test.conllu": 362
+      },
+      "terms_counted": [
+        "dis",
+        "this",
+        "dise"
+      ]
+    },
+    {
+      "entry_id": "in",
+      "standard_spelling": "in",
+      "total": 5032,
+      "by_source": {
+        "cencos-transcripts.txt": 632,
+        "pcm_nsc-ud-train.conllu": 3801,
+        "pcm_nsc-ud-dev.conllu": 332,
+        "pcm_nsc-ud-test.conllu": 267
+      },
+      "terms_counted": [
+        "in",
+        "inside"
+      ]
+    },
+    {
+      "entry_id": "mek",
+      "standard_spelling": "mek",
+      "total": 4675,
+      "by_source": {
+        "social-informal-01.txt": 2,
+        "social-informal-02.txt": 1,
+        "cencos-transcripts.txt": 383,
+        "pcm_nsc-ud-train.conllu": 3591,
+        "pcm_nsc-ud-dev.conllu": 352,
+        "pcm_nsc-ud-test.conllu": 346
+      },
+      "terms_counted": [
+        "mek",
+        "make",
+        "let",
+        "mey"
+      ]
+    },
+    {
+      "entry_id": "don",
+      "standard_spelling": "don",
+      "total": 4574,
+      "by_source": {
+        "cencos-transcripts.txt": 669,
+        "naijasenti-pcm-train.txt": 1,
+        "pcm_nsc-ud-train.conllu": 3165,
+        "pcm_nsc-ud-dev.conllu": 382,
+        "pcm_nsc-ud-test.conllu": 357
+      },
+      "terms_counted": [
+        "don",
+        "already"
+      ]
+    },
+    {
+      "entry_id": "get",
+      "standard_spelling": "get",
+      "total": 4381,
+      "by_source": {
+        "cencos-transcripts.txt": 337,
+        "pcm_nsc-ud-train.conllu": 3287,
+        "pcm_nsc-ud-dev.conllu": 348,
+        "pcm_nsc-ud-test.conllu": 409
+      },
+      "terms_counted": [
+        "get",
+        "got"
+      ]
+    },
+    {
+      "entry_id": "kom",
+      "standard_spelling": "kom",
+      "total": 3968,
+      "by_source": {
+        "ifra-informal-paraphrase.txt": 1,
+        "cencos-transcripts.txt": 450,
+        "naijasenti-pcm-train.txt": 1,
+        "pcm_nsc-ud-train.conllu": 2797,
+        "pcm_nsc-ud-dev.conllu": 386,
+        "pcm_nsc-ud-test.conllu": 333
+      },
+      "terms_counted": [
+        "kom",
+        "come",
+        "com",
+        "kon"
+      ]
+    },
+    {
+      "entry_id": "sabi",
+      "standard_spelling": "sabi",
+      "total": 3925,
+      "by_source": {
+        "social-informal-01.txt": 1,
+        "cencos-transcripts.txt": 641,
+        "pcm_nsc-ud-train.conllu": 2340,
+        "pcm_nsc-ud-dev.conllu": 392,
+        "pcm_nsc-ud-test.conllu": 551
+      },
+      "terms_counted": [
+        "sabi",
+        "know",
+        "sabe"
+      ]
+    },
+    {
+      "entry_id": "wetin",
+      "standard_spelling": "wetin",
+      "total": 3442,
+      "by_source": {
+        "social-informal-02.txt": 1,
+        "ifra-informal-paraphrase.txt": 1,
+        "cencos-transcripts.txt": 573,
+        "naijasenti-pcm-train.txt": 1,
+        "pcm_nsc-ud-train.conllu": 2380,
+        "pcm_nsc-ud-dev.conllu": 217,
+        "pcm_nsc-ud-test.conllu": 269
+      },
+      "terms_counted": [
+        "wetin",
+        "what",
+        "watin",
+        "wating",
+        "weyim"
+      ]
+    },
+    {
+      "entry_id": "bot",
+      "standard_spelling": "bot",
+      "total": 3243,
+      "by_source": {
+        "social-informal-02.txt": 1,
+        "cencos-transcripts.txt": 400,
+        "pcm_nsc-ud-train.conllu": 2299,
+        "pcm_nsc-ud-dev.conllu": 203,
+        "pcm_nsc-ud-test.conllu": 340
+      },
+      "terms_counted": [
+        "bot",
+        "but"
+      ]
+    },
+    {
+      "entry_id": "pipul",
+      "standard_spelling": "pipul",
+      "total": 3182,
+      "by_source": {
+        "social-informal-02.txt": 2,
+        "ifra-informal-paraphrase.txt": 1,
+        "cencos-transcripts.txt": 246,
+        "naijasenti-pcm-train.txt": 2,
+        "pcm_nsc-ud-train.conllu": 2343,
+        "pcm_nsc-ud-dev.conllu": 193,
+        "pcm_nsc-ud-test.conllu": 395
+      },
+      "terms_counted": [
+        "pipul",
+        "people",
+        "people-dem",
+        "pipol",
+        "pipo",
+        "pesin"
+      ]
+    },
+    {
+      "entry_id": "somtin",
+      "standard_spelling": "somtin",
+      "total": 3159,
+      "by_source": {
+        "social-informal-02.txt": 1,
+        "cencos-transcripts.txt": 423,
+        "pcm_nsc-ud-train.conllu": 2149,
+        "pcm_nsc-ud-dev.conllu": 338,
+        "pcm_nsc-ud-test.conllu": 248
+      },
+      "terms_counted": [
+        "somtin",
+        "something",
+        "sometin",
+        "ting",
+        "thing"
+      ]
+    },
+    {
+      "entry_id": "si",
+      "standard_spelling": "si",
+      "total": 3036,
+      "by_source": {
+        "social-informal-02.txt": 1,
+        "ifra-informal-paraphrase.txt": 2,
+        "cencos-transcripts.txt": 380,
+        "pcm_nsc-ud-train.conllu": 2173,
+        "pcm_nsc-ud-dev.conllu": 290,
+        "pcm_nsc-ud-test.conllu": 190
+      },
+      "terms_counted": [
+        "si",
+        "see"
+      ]
+    },
+    {
+      "entry_id": "wen",
+      "standard_spelling": "wen",
+      "total": 3022,
+      "by_source": {
+        "cencos-transcripts.txt": 361,
+        "naijasenti-pcm-train.txt": 1,
+        "pcm_nsc-ud-train.conllu": 2124,
+        "pcm_nsc-ud-dev.conllu": 224,
+        "pcm_nsc-ud-test.conllu": 312
+      },
+      "terms_counted": [
+        "wen",
+        "when"
+      ]
+    },
+    {
+      "entry_id": "legos",
+      "standard_spelling": "Legos",
+      "total": 2894,
+      "by_source": {
+        "social-informal-01.txt": 1,
+        "cencos-transcripts.txt": 15,
+        "pcm_nsc-ud-train.conllu": 2056,
+        "pcm_nsc-ud-dev.conllu": 312,
+        "pcm_nsc-ud-test.conllu": 510
+      },
+      "terms_counted": [
+        "Legos",
+        "Lagos"
+      ]
+    },
+    {
+      "entry_id": "tok",
+      "standard_spelling": "tok",
+      "total": 2876,
+      "by_source": {
+        "social-informal-01.txt": 1,
+        "ifra-informal-paraphrase.txt": 2,
+        "cencos-transcripts.txt": 205,
+        "naijasenti-pcm-train.txt": 1,
+        "pcm_nsc-ud-train.conllu": 1822,
+        "pcm_nsc-ud-dev.conllu": 151,
+        "pcm_nsc-ud-test.conllu": 694
+      },
+      "terms_counted": [
+        "tok",
+        "talk",
+        "speak"
+      ]
+    },
+    {
+      "entry_id": "man",
+      "standard_spelling": "man",
+      "total": 2679,
+      "by_source": {
+        "ifra-informal-paraphrase.txt": 1,
+        "cencos-transcripts.txt": 411,
+        "pcm_nsc-ud-train.conllu": 1879,
+        "pcm_nsc-ud-dev.conllu": 242,
+        "pcm_nsc-ud-test.conllu": 146
+      },
+      "terms_counted": [
+        "man",
+        "guy"
+      ]
+    },
+    {
+      "entry_id": "bikos",
+      "standard_spelling": "bikos",
+      "total": 2594,
+      "by_source": {
+        "social-informal-01.txt": 1,
+        "cencos-transcripts.txt": 241,
+        "pcm_nsc-ud-train.conllu": 1888,
+        "pcm_nsc-ud-dev.conllu": 141,
+        "pcm_nsc-ud-test.conllu": 323
+      },
+      "terms_counted": [
+        "bikos",
+        "because",
+        "becos"
+      ]
+    },
+    {
+      "entry_id": "ol",
+      "standard_spelling": "ol",
+      "total": 2478,
+      "by_source": {
+        "social-informal-02.txt": 1,
+        "cencos-transcripts.txt": 213,
+        "pcm_nsc-ud-train.conllu": 1835,
+        "pcm_nsc-ud-dev.conllu": 267,
+        "pcm_nsc-ud-test.conllu": 162
+      },
+      "terms_counted": [
+        "ol",
+        "all"
+      ]
+    },
+    {
+      "entry_id": "fit",
+      "standard_spelling": "fit",
+      "total": 2314,
+      "by_source": {
+        "social-informal-01.txt": 1,
+        "ifra-informal-paraphrase.txt": 2,
+        "cencos-transcripts.txt": 274,
+        "naijasenti-pcm-train.txt": 1,
+        "pcm_nsc-ud-train.conllu": 1673,
+        "pcm_nsc-ud-dev.conllu": 219,
+        "pcm_nsc-ud-test.conllu": 144
+      },
+      "terms_counted": [
+        "fit",
+        "can"
+      ]
+    },
+    {
+      "entry_id": "ivun",
+      "standard_spelling": "ivun",
+      "total": 2312,
+      "by_source": {
+        "ifra-informal-paraphrase.txt": 1,
+        "cencos-transcripts.txt": 323,
+        "pcm_nsc-ud-train.conllu": 1505,
+        "pcm_nsc-ud-dev.conllu": 306,
+        "pcm_nsc-ud-test.conllu": 177
+      },
+      "terms_counted": [
+        "ivun",
+        "even"
+      ]
+    },
+    {
+      "entry_id": "want",
+      "standard_spelling": "want",
+      "total": 2059,
+      "by_source": {
+        "cencos-transcripts.txt": 268,
+        "pcm_nsc-ud-train.conllu": 1360,
+        "pcm_nsc-ud-dev.conllu": 262,
+        "pcm_nsc-ud-test.conllu": 169
+      },
+      "terms_counted": [
+        "want",
+        "won"
+      ]
+    },
+    {
+      "entry_id": "wit",
+      "standard_spelling": "wit",
+      "total": 2000,
+      "by_source": {
+        "social-informal-01.txt": 1,
+        "ifra-informal-paraphrase.txt": 1,
+        "cencos-transcripts.txt": 236,
+        "naijasenti-pcm-train.txt": 1,
+        "pcm_nsc-ud-train.conllu": 1124,
+        "pcm_nsc-ud-dev.conllu": 132,
+        "pcm_nsc-ud-test.conllu": 505
+      },
+      "terms_counted": [
+        "wit",
+        "with"
+      ]
+    },
+    {
+      "entry_id": "wok-job",
+      "standard_spelling": "wok",
+      "total": 1985,
+      "by_source": {
+        "cencos-transcripts.txt": 77,
+        "pcm_nsc-ud-train.conllu": 1422,
+        "pcm_nsc-ud-dev.conllu": 256,
+        "pcm_nsc-ud-test.conllu": 230
+      },
+      "terms_counted": [
+        "wok",
+        "work",
+        "job"
+      ]
+    },
+    {
+      "entry_id": "tek",
+      "standard_spelling": "tek",
+      "total": 1981,
+      "by_source": {
+        "cencos-transcripts.txt": 112,
+        "pcm_nsc-ud-train.conllu": 1674,
+        "pcm_nsc-ud-dev.conllu": 73,
+        "pcm_nsc-ud-test.conllu": 122
+      },
+      "terms_counted": [
+        "tek",
+        "take"
+      ]
+    },
+    {
+      "entry_id": "moni",
+      "standard_spelling": "moni",
+      "total": 1968,
+      "by_source": {
+        "cencos-transcripts.txt": 196,
+        "pcm_nsc-ud-train.conllu": 1398,
+        "pcm_nsc-ud-dev.conllu": 260,
+        "pcm_nsc-ud-test.conllu": 114
+      },
+      "terms_counted": [
+        "moni",
+        "money",
+        "noni"
+      ]
+    },
+    {
+      "entry_id": "wel",
+      "standard_spelling": "wel",
+      "total": 1890,
+      "by_source": {
+        "social-informal-01.txt": 2,
+        "cencos-transcripts.txt": 74,
+        "pcm_nsc-ud-train.conllu": 1319,
+        "pcm_nsc-ud-dev.conllu": 338,
+        "pcm_nsc-ud-test.conllu": 157
+      },
+      "terms_counted": [
+        "wel",
+        "well"
+      ]
+    },
+    {
+      "entry_id": "wok",
+      "standard_spelling": "wok",
+      "total": 1750,
+      "by_source": {
+        "cencos-transcripts.txt": 64,
+        "pcm_nsc-ud-train.conllu": 1216,
+        "pcm_nsc-ud-dev.conllu": 244,
+        "pcm_nsc-ud-test.conllu": 226
+      },
+      "terms_counted": [
+        "wok",
+        "work"
+      ]
+    },
+    {
+      "entry_id": "haw",
+      "standard_spelling": "haw",
+      "total": 1723,
+      "by_source": {
+        "social-informal-02.txt": 1,
+        "cencos-transcripts.txt": 308,
+        "pcm_nsc-ud-train.conllu": 1191,
+        "pcm_nsc-ud-dev.conllu": 124,
+        "pcm_nsc-ud-test.conllu": 99
+      },
+      "terms_counted": [
+        "haw",
+        "how"
+      ]
+    },
+    {
+      "entry_id": "kari",
+      "standard_spelling": "kari",
+      "total": 1662,
+      "by_source": {
+        "cencos-transcripts.txt": 63,
+        "pcm_nsc-ud-train.conllu": 1352,
+        "pcm_nsc-ud-dev.conllu": 119,
+        "pcm_nsc-ud-test.conllu": 128
+      },
+      "terms_counted": [
+        "kari",
+        "carry"
+      ]
+    },
+    {
+      "entry_id": "giv",
+      "standard_spelling": "giv",
+      "total": 1623,
+      "by_source": {
+        "cencos-transcripts.txt": 222,
+        "pcm_nsc-ud-train.conllu": 1120,
+        "pcm_nsc-ud-dev.conllu": 107,
+        "pcm_nsc-ud-test.conllu": 174
+      },
+      "terms_counted": [
+        "giv",
+        "give",
+        "gave"
+      ]
+    },
+    {
+      "entry_id": "insaid",
+      "standard_spelling": "insaid",
+      "total": 1611,
+      "by_source": {
+        "cencos-transcripts.txt": 55,
+        "pcm_nsc-ud-train.conllu": 1394,
+        "pcm_nsc-ud-dev.conllu": 98,
+        "pcm_nsc-ud-test.conllu": 64
+      },
+      "terms_counted": [
+        "insaid",
+        "inside"
+      ]
+    },
+    {
+      "entry_id": "som",
+      "standard_spelling": "som",
+      "total": 1586,
+      "by_source": {
+        "cencos-transcripts.txt": 74,
+        "pcm_nsc-ud-train.conllu": 1240,
+        "pcm_nsc-ud-dev.conllu": 115,
+        "pcm_nsc-ud-test.conllu": 157
+      },
+      "terms_counted": [
+        "som",
+        "some"
+      ]
+    },
+    {
+      "entry_id": "skul",
+      "standard_spelling": "skul",
+      "total": 1575,
+      "by_source": {
+        "social-informal-01.txt": 1,
+        "cencos-transcripts.txt": 253,
+        "pcm_nsc-ud-train.conllu": 1020,
+        "pcm_nsc-ud-dev.conllu": 197,
+        "pcm_nsc-ud-test.conllu": 104
+      },
+      "terms_counted": [
+        "skul",
+        "school"
+      ]
+    },
+    {
+      "entry_id": "taim",
+      "standard_spelling": "taim",
+      "total": 1529,
+      "by_source": {
+        "cencos-transcripts.txt": 191,
+        "pcm_nsc-ud-train.conllu": 1036,
+        "pcm_nsc-ud-dev.conllu": 101,
+        "pcm_nsc-ud-test.conllu": 201
+      },
+      "terms_counted": [
+        "taim",
+        "time"
+      ]
+    },
+    {
+      "entry_id": "haus",
+      "standard_spelling": "haus",
+      "total": 1467,
+      "by_source": {
+        "social-informal-01.txt": 1,
+        "ifra-informal-paraphrase.txt": 1,
+        "cencos-transcripts.txt": 175,
+        "pcm_nsc-ud-train.conllu": 1078,
+        "pcm_nsc-ud-dev.conllu": 81,
+        "pcm_nsc-ud-test.conllu": 131
+      },
+      "terms_counted": [
+        "haus",
+        "house",
+        "home"
+      ]
+    },
+    {
+      "entry_id": "chop",
+      "standard_spelling": "chop",
+      "total": 1198,
+      "by_source": {
+        "social-informal-01.txt": 1,
+        "social-informal-02.txt": 1,
+        "ifra-informal-paraphrase.txt": 2,
+        "cencos-transcripts.txt": 98,
+        "pcm_nsc-ud-train.conllu": 889,
+        "pcm_nsc-ud-dev.conllu": 71,
+        "pcm_nsc-ud-test.conllu": 136
+      },
+      "terms_counted": [
+        "chop",
+        "eat"
+      ]
+    },
+    {
+      "entry_id": "smol",
+      "standard_spelling": "smol",
+      "total": 1174,
+      "by_source": {
+        "social-informal-02.txt": 2,
+        "ifra-informal-paraphrase.txt": 2,
+        "cencos-transcripts.txt": 56,
+        "pcm_nsc-ud-train.conllu": 895,
+        "pcm_nsc-ud-dev.conllu": 97,
+        "pcm_nsc-ud-test.conllu": 122
+      },
+      "terms_counted": [
+        "smol",
+        "small"
+      ]
+    },
+    {
+      "entry_id": "stil",
+      "standard_spelling": "stil",
+      "total": 1149,
+      "by_source": {
+        "cencos-transcripts.txt": 125,
+        "pcm_nsc-ud-train.conllu": 828,
+        "pcm_nsc-ud-dev.conllu": 34,
+        "pcm_nsc-ud-test.conllu": 162
+      },
+      "terms_counted": [
+        "stil",
+        "still"
+      ]
+    },
+    {
+      "entry_id": "fud",
+      "standard_spelling": "fud",
+      "total": 1146,
+      "by_source": {
+        "social-informal-01.txt": 1,
+        "cencos-transcripts.txt": 61,
+        "pcm_nsc-ud-train.conllu": 973,
+        "pcm_nsc-ud-dev.conllu": 6,
+        "pcm_nsc-ud-test.conllu": 105
+      },
+      "terms_counted": [
+        "fud",
+        "food"
+      ]
+    },
+    {
+      "entry_id": "gud",
+      "standard_spelling": "gud",
+      "total": 1093,
+      "by_source": {
+        "social-informal-02.txt": 1,
+        "cencos-transcripts.txt": 85,
+        "pcm_nsc-ud-train.conllu": 794,
+        "pcm_nsc-ud-dev.conllu": 135,
+        "pcm_nsc-ud-test.conllu": 78
+      },
+      "terms_counted": [
+        "gud",
+        "good"
+      ]
+    },
+    {
+      "entry_id": "una",
+      "standard_spelling": "una",
+      "total": 1049,
+      "by_source": {
+        "cencos-transcripts.txt": 62,
+        "pcm_nsc-ud-train.conllu": 896,
+        "pcm_nsc-ud-dev.conllu": 35,
+        "pcm_nsc-ud-test.conllu": 56
+      },
+      "terms_counted": [
+        "una",
+        "unna"
+      ]
+    },
+    {
+      "entry_id": "wia",
+      "standard_spelling": "wia",
+      "total": 1046,
+      "by_source": {
+        "cencos-transcripts.txt": 145,
+        "naijasenti-pcm-train.txt": 1,
+        "pcm_nsc-ud-train.conllu": 736,
+        "pcm_nsc-ud-dev.conllu": 97,
+        "pcm_nsc-ud-test.conllu": 67
+      },
+      "terms_counted": [
+        "wia",
+        "where"
+      ]
+    },
+    {
+      "entry_id": "wie",
+      "standard_spelling": "wie",
+      "total": 1045,
+      "by_source": {
+        "cencos-transcripts.txt": 145,
+        "pcm_nsc-ud-train.conllu": 736,
+        "pcm_nsc-ud-dev.conllu": 97,
+        "pcm_nsc-ud-test.conllu": 67
+      },
+      "terms_counted": [
+        "wie",
+        "where"
+      ]
+    },
+    {
+      "entry_id": "bifo",
+      "standard_spelling": "bifo",
+      "total": 1032,
+      "by_source": {
+        "social-informal-01.txt": 1,
+        "cencos-transcripts.txt": 115,
+        "pcm_nsc-ud-train.conllu": 673,
+        "pcm_nsc-ud-dev.conllu": 124,
+        "pcm_nsc-ud-test.conllu": 119
+      },
+      "terms_counted": [
+        "bifo",
+        "before"
+      ]
+    },
+    {
+      "entry_id": "dei",
+      "standard_spelling": "dei",
+      "total": 999,
+      "by_source": {
+        "ifra-informal-paraphrase.txt": 1,
+        "cencos-transcripts.txt": 91,
+        "pcm_nsc-ud-train.conllu": 644,
+        "pcm_nsc-ud-dev.conllu": 154,
+        "pcm_nsc-ud-test.conllu": 109
+      },
+      "terms_counted": [
+        "dei",
+        "day"
+      ]
+    },
+    {
+      "entry_id": "laif",
+      "standard_spelling": "laif",
+      "total": 944,
+      "by_source": {
+        "cencos-transcripts.txt": 62,
+        "pcm_nsc-ud-train.conllu": 766,
+        "pcm_nsc-ud-dev.conllu": 58,
+        "pcm_nsc-ud-test.conllu": 58
+      },
+      "terms_counted": [
+        "laif",
+        "life"
+      ]
+    },
+    {
+      "entry_id": "luk",
+      "standard_spelling": "luk",
+      "total": 910,
+      "by_source": {
+        "cencos-transcripts.txt": 70,
+        "pcm_nsc-ud-train.conllu": 736,
+        "pcm_nsc-ud-dev.conllu": 44,
+        "pcm_nsc-ud-test.conllu": 60
+      },
+      "terms_counted": [
+        "luk",
+        "look"
+      ]
+    },
+    {
+      "entry_id": "yia",
+      "standard_spelling": "yia",
+      "total": 898,
+      "by_source": {
+        "cencos-transcripts.txt": 83,
+        "pcm_nsc-ud-train.conllu": 677,
+        "pcm_nsc-ud-dev.conllu": 114,
+        "pcm_nsc-ud-test.conllu": 24
+      },
+      "terms_counted": [
+        "yia",
+        "year"
+      ]
+    },
+    {
+      "entry_id": "wahala",
+      "standard_spelling": "wahala",
+      "total": 876,
+      "by_source": {
+        "social-informal-01.txt": 1,
+        "cencos-transcripts.txt": 86,
+        "naijasenti-pcm-train.txt": 1,
+        "pcm_nsc-ud-train.conllu": 655,
+        "pcm_nsc-ud-dev.conllu": 55,
+        "pcm_nsc-ud-test.conllu": 78
+      },
+      "terms_counted": [
+        "wahala",
+        "trouble",
+        "problem"
+      ]
+    },
+    {
+      "entry_id": "wuman",
+      "standard_spelling": "wuman",
+      "total": 817,
+      "by_source": {
+        "cencos-transcripts.txt": 39,
+        "pcm_nsc-ud-train.conllu": 607,
+        "pcm_nsc-ud-dev.conllu": 128,
+        "pcm_nsc-ud-test.conllu": 43
+      },
+      "terms_counted": [
+        "wuman",
+        "woman"
+      ]
+    },
+    {
+      "entry_id": "abi",
+      "standard_spelling": "abi",
+      "total": 768,
+      "by_source": {
+        "social-informal-02.txt": 1,
+        "cencos-transcripts.txt": 127,
+        "naijasenti-pcm-train.txt": 2,
+        "pcm_nsc-ud-train.conllu": 536,
+        "pcm_nsc-ud-dev.conllu": 51,
+        "pcm_nsc-ud-test.conllu": 51
+      },
+      "terms_counted": [
+        "abi",
+        "right",
+        "shebi",
+        "hebi",
+        "shey"
+      ]
+    },
+    {
+      "entry_id": "gel",
+      "standard_spelling": "gel",
+      "total": 718,
+      "by_source": {
+        "cencos-transcripts.txt": 252,
+        "pcm_nsc-ud-train.conllu": 346,
+        "pcm_nsc-ud-dev.conllu": 102,
+        "pcm_nsc-ud-test.conllu": 18
+      },
+      "terms_counted": [
+        "gel",
+        "girl"
+      ]
+    },
+    {
+      "entry_id": "stat",
+      "standard_spelling": "stat",
+      "total": 710,
+      "by_source": {
+        "social-informal-01.txt": 1,
+        "cencos-transcripts.txt": 50,
+        "pcm_nsc-ud-train.conllu": 461,
+        "pcm_nsc-ud-dev.conllu": 107,
+        "pcm_nsc-ud-test.conllu": 91
+      },
+      "terms_counted": [
+        "stat",
+        "start"
+      ]
+    },
+    {
+      "entry_id": "fest",
+      "standard_spelling": "fest",
+      "total": 707,
+      "by_source": {
+        "cencos-transcripts.txt": 107,
+        "pcm_nsc-ud-train.conllu": 499,
+        "pcm_nsc-ud-dev.conllu": 65,
+        "pcm_nsc-ud-test.conllu": 36
+      },
+      "terms_counted": [
+        "fest",
+        "first"
+      ]
+    },
+    {
+      "entry_id": "mama",
+      "standard_spelling": "mama",
+      "total": 698,
+      "by_source": {
+        "social-informal-01.txt": 1,
+        "cencos-transcripts.txt": 31,
+        "pcm_nsc-ud-train.conllu": 455,
+        "pcm_nsc-ud-dev.conllu": 109,
+        "pcm_nsc-ud-test.conllu": 102
+      },
+      "terms_counted": [
+        "mama",
+        "mother",
+        "mom"
+      ]
+    },
+    {
+      "entry_id": "nid",
+      "standard_spelling": "nid",
+      "total": 693,
+      "by_source": {
+        "cencos-transcripts.txt": 78,
+        "pcm_nsc-ud-train.conllu": 456,
+        "pcm_nsc-ud-dev.conllu": 122,
+        "pcm_nsc-ud-test.conllu": 37
+      },
+      "terms_counted": [
+        "nid",
+        "need"
+      ]
+    },
+    {
+      "entry_id": "sup",
+      "standard_spelling": "sup",
+      "total": 644,
+      "by_source": {
+        "cencos-transcripts.txt": 15,
+        "pcm_nsc-ud-train.conllu": 474,
+        "pcm_nsc-ud-dev.conllu": 118,
+        "pcm_nsc-ud-test.conllu": 37
+      },
+      "terms_counted": [
+        "sup",
+        "soup"
+      ]
+    },
+    {
+      "entry_id": "onli",
+      "standard_spelling": "onli",
+      "total": 642,
+      "by_source": {
+        "cencos-transcripts.txt": 91,
+        "pcm_nsc-ud-train.conllu": 392,
+        "pcm_nsc-ud-dev.conllu": 31,
+        "pcm_nsc-ud-test.conllu": 128
+      },
+      "terms_counted": [
+        "onli",
+        "only"
+      ]
+    },
+    {
+      "entry_id": "evribodi",
+      "standard_spelling": "evribodi",
+      "total": 639,
+      "by_source": {
+        "cencos-transcripts.txt": 28,
+        "pcm_nsc-ud-train.conllu": 556,
+        "pcm_nsc-ud-dev.conllu": 16,
+        "pcm_nsc-ud-test.conllu": 39
+      },
+      "terms_counted": [
+        "evribodi",
+        "everybody"
+      ]
+    },
+    {
+      "entry_id": "afta",
+      "standard_spelling": "afta",
+      "total": 633,
+      "by_source": {
+        "cencos-transcripts.txt": 58,
+        "pcm_nsc-ud-train.conllu": 439,
+        "pcm_nsc-ud-dev.conllu": 95,
+        "pcm_nsc-ud-test.conllu": 41
+      },
+      "terms_counted": [
+        "afta",
+        "after"
+      ]
+    },
+    {
+      "entry_id": "pas",
+      "standard_spelling": "pas",
+      "total": 616,
+      "by_source": {
+        "social-informal-02.txt": 1,
+        "cencos-transcripts.txt": 32,
+        "pcm_nsc-ud-train.conllu": 475,
+        "pcm_nsc-ud-dev.conllu": 30,
+        "pcm_nsc-ud-test.conllu": 78
+      },
+      "terms_counted": [
+        "pas",
+        "pass"
+      ]
+    },
+    {
+      "entry_id": "papa",
+      "standard_spelling": "papa",
+      "total": 567,
+      "by_source": {
+        "cencos-transcripts.txt": 30,
+        "pcm_nsc-ud-train.conllu": 434,
+        "pcm_nsc-ud-dev.conllu": 62,
+        "pcm_nsc-ud-test.conllu": 41
+      },
+      "terms_counted": [
+        "papa",
+        "father",
+        "dad"
+      ]
+    },
+    {
+      "entry_id": "fini",
+      "standard_spelling": "fini",
+      "total": 556,
+      "by_source": {
+        "cencos-transcripts.txt": 40,
+        "pcm_nsc-ud-train.conllu": 400,
+        "pcm_nsc-ud-dev.conllu": 83,
+        "pcm_nsc-ud-test.conllu": 33
+      },
+      "terms_counted": [
+        "fini",
+        "finish"
+      ]
+    },
+    {
+      "entry_id": "folo",
+      "standard_spelling": "folo",
+      "total": 535,
+      "by_source": {
+        "cencos-transcripts.txt": 37,
+        "pcm_nsc-ud-train.conllu": 448,
+        "pcm_nsc-ud-dev.conllu": 25,
+        "pcm_nsc-ud-test.conllu": 25
+      },
+      "terms_counted": [
+        "folo",
+        "follow"
+      ]
+    },
+    {
+      "entry_id": "han",
+      "standard_spelling": "han",
+      "total": 521,
+      "by_source": {
+        "ifra-informal-paraphrase.txt": 1,
+        "cencos-transcripts.txt": 22,
+        "pcm_nsc-ud-train.conllu": 379,
+        "pcm_nsc-ud-dev.conllu": 60,
+        "pcm_nsc-ud-test.conllu": 59
+      },
+      "terms_counted": [
+        "han",
+        "hand"
+      ]
+    },
+    {
+      "entry_id": "wata",
+      "standard_spelling": "wata",
+      "total": 505,
+      "by_source": {
+        "cencos-transcripts.txt": 24,
+        "pcm_nsc-ud-train.conllu": 369,
+        "pcm_nsc-ud-dev.conllu": 95,
+        "pcm_nsc-ud-test.conllu": 17
+      },
+      "terms_counted": [
+        "wata",
+        "water"
+      ]
+    },
+    {
+      "entry_id": "boi",
+      "standard_spelling": "boi",
+      "total": 502,
+      "by_source": {
+        "cencos-transcripts.txt": 63,
+        "pcm_nsc-ud-train.conllu": 394,
+        "pcm_nsc-ud-dev.conllu": 21,
+        "pcm_nsc-ud-test.conllu": 24
+      },
+      "terms_counted": [
+        "boi",
+        "boy"
+      ]
+    },
+    {
+      "entry_id": "na-so",
+      "standard_spelling": "na so",
+      "total": 492,
+      "by_source": {
+        "cencos-transcripts.txt": 24,
+        "pcm_nsc-ud-train.conllu": 341,
+        "pcm_nsc-ud-dev.conllu": 84,
+        "pcm_nsc-ud-test.conllu": 43
+      },
+      "terms_counted": [
+        "na so",
+        "na so!",
+        "that's how"
+      ]
+    },
+    {
+      "entry_id": "pikin",
+      "standard_spelling": "pikin",
+      "total": 484,
+      "by_source": {
+        "social-informal-01.txt": 5,
+        "social-informal-02.txt": 1,
+        "ifra-informal-paraphrase.txt": 4,
+        "cencos-transcripts.txt": 5,
+        "naijasenti-pcm-train.txt": 1,
+        "pcm_nsc-ud-train.conllu": 384,
+        "pcm_nsc-ud-dev.conllu": 48,
+        "pcm_nsc-ud-test.conllu": 36
+      },
+      "terms_counted": [
+        "pikin",
+        "pekin",
+        "pickin",
+        "pikinn",
+        "pickin dem",
+        "pikin dem",
+        "children-dem"
+      ]
+    },
+    {
+      "entry_id": "tode",
+      "standard_spelling": "tode",
+      "total": 469,
+      "by_source": {
+        "ifra-informal-paraphrase.txt": 1,
+        "cencos-transcripts.txt": 46,
+        "pcm_nsc-ud-train.conllu": 340,
+        "pcm_nsc-ud-dev.conllu": 34,
+        "pcm_nsc-ud-test.conllu": 48
+      },
+      "terms_counted": [
+        "tode",
+        "today"
+      ]
+    },
+    {
+      "entry_id": "trutru",
+      "standard_spelling": "trutru",
+      "total": 469,
+      "by_source": {
+        "cencos-transcripts.txt": 72,
+        "pcm_nsc-ud-train.conllu": 306,
+        "pcm_nsc-ud-dev.conllu": 57,
+        "pcm_nsc-ud-test.conllu": 34
+      },
+      "terms_counted": [
+        "trutru",
+        "truly",
+        "really"
+      ]
+    },
+    {
+      "entry_id": "kuk",
+      "standard_spelling": "kuk",
+      "total": 462,
+      "by_source": {
+        "social-informal-01.txt": 1,
+        "cencos-transcripts.txt": 65,
+        "pcm_nsc-ud-train.conllu": 328,
+        "pcm_nsc-ud-dev.conllu": 44,
+        "pcm_nsc-ud-test.conllu": 24
+      },
+      "terms_counted": [
+        "kuk",
+        "cook"
+      ]
+    },
+    {
+      "entry_id": "rili",
+      "standard_spelling": "rili",
+      "total": 458,
+      "by_source": {
+        "cencos-transcripts.txt": 70,
+        "pcm_nsc-ud-train.conllu": 297,
+        "pcm_nsc-ud-dev.conllu": 57,
+        "pcm_nsc-ud-test.conllu": 34
+      },
+      "terms_counted": [
+        "rili",
+        "really"
+      ]
+    },
+    {
+      "entry_id": "sha",
+      "standard_spelling": "sha",
+      "total": 432,
+      "by_source": {
+        "cencos-transcripts.txt": 56,
+        "pcm_nsc-ud-train.conllu": 271,
+        "pcm_nsc-ud-dev.conllu": 41,
+        "pcm_nsc-ud-test.conllu": 64
+      },
+      "terms_counted": [
+        "sha",
+        "though"
+      ]
+    },
+    {
+      "entry_id": "ple",
+      "standard_spelling": "ple",
+      "total": 403,
+      "by_source": {
+        "social-informal-01.txt": 1,
+        "cencos-transcripts.txt": 25,
+        "pcm_nsc-ud-train.conllu": 365,
+        "pcm_nsc-ud-test.conllu": 12
+      },
+      "terms_counted": [
+        "ple",
+        "play"
+      ]
+    },
+    {
+      "entry_id": "koret",
+      "standard_spelling": "koret",
+      "total": 400,
+      "by_source": {
+        "social-informal-02.txt": 1,
+        "cencos-transcripts.txt": 29,
+        "pcm_nsc-ud-train.conllu": 277,
+        "pcm_nsc-ud-dev.conllu": 49,
+        "pcm_nsc-ud-test.conllu": 44
+      },
+      "terms_counted": [
+        "koret",
+        "correct",
+        "right"
+      ]
+    },
+    {
+      "entry_id": "abeg",
+      "standard_spelling": "abeg",
+      "total": 393,
+      "by_source": {
+        "social-informal-01.txt": 1,
+        "social-informal-02.txt": 1,
+        "cencos-transcripts.txt": 64,
+        "naijasenti-pcm-train.txt": 1,
+        "pcm_nsc-ud-train.conllu": 286,
+        "pcm_nsc-ud-dev.conllu": 24,
+        "pcm_nsc-ud-test.conllu": 16
+      },
+      "terms_counted": [
+        "abeg",
+        "please",
+        "abegi"
+      ]
+    },
+    {
+      "entry_id": "neva",
+      "standard_spelling": "neva",
+      "total": 378,
+      "by_source": {
+        "ifra-informal-paraphrase.txt": 1,
+        "cencos-transcripts.txt": 61,
+        "pcm_nsc-ud-train.conllu": 251,
+        "pcm_nsc-ud-dev.conllu": 22,
+        "pcm_nsc-ud-test.conllu": 43
+      },
+      "terms_counted": [
+        "neva",
+        "never"
+      ]
+    },
+    {
+      "entry_id": "naija-river",
+      "standard_spelling": "Naija",
+      "total": 375,
+      "by_source": {
+        "social-informal-01.txt": 1,
+        "cencos-transcripts.txt": 3,
+        "pcm_nsc-ud-train.conllu": 345,
+        "pcm_nsc-ud-dev.conllu": 11,
+        "pcm_nsc-ud-test.conllu": 15
+      },
+      "terms_counted": [
+        "Naija",
+        "Niger"
+      ]
+    },
+    {
+      "entry_id": "len",
+      "standard_spelling": "len",
+      "total": 368,
+      "by_source": {
+        "cencos-transcripts.txt": 23,
+        "pcm_nsc-ud-train.conllu": 278,
+        "pcm_nsc-ud-dev.conllu": 61,
+        "pcm_nsc-ud-test.conllu": 6
+      },
+      "terms_counted": [
+        "len",
+        "learn"
+      ]
+    },
+    {
+      "entry_id": "bigin",
+      "standard_spelling": "bigin",
+      "total": 356,
+      "by_source": {
+        "cencos-transcripts.txt": 6,
+        "pcm_nsc-ud-train.conllu": 341,
+        "pcm_nsc-ud-dev.conllu": 7,
+        "pcm_nsc-ud-test.conllu": 2
+      },
+      "terms_counted": [
+        "bigin",
+        "begin"
+      ]
+    },
+    {
+      "entry_id": "evri",
+      "standard_spelling": "evri",
+      "total": 351,
+      "by_source": {
+        "cencos-transcripts.txt": 27,
+        "pcm_nsc-ud-train.conllu": 290,
+        "pcm_nsc-ud-dev.conllu": 3,
+        "pcm_nsc-ud-test.conllu": 31
+      },
+      "terms_counted": [
+        "evri",
+        "every"
+      ]
+    },
+    {
+      "entry_id": "find",
+      "standard_spelling": "fain",
+      "total": 350,
+      "by_source": {
+        "social-informal-02.txt": 1,
+        "cencos-transcripts.txt": 36,
+        "pcm_nsc-ud-train.conllu": 259,
+        "pcm_nsc-ud-dev.conllu": 48,
+        "pcm_nsc-ud-test.conllu": 6
+      },
+      "terms_counted": [
+        "fain",
+        "find"
+      ]
+    },
+    {
+      "entry_id": "slip",
+      "standard_spelling": "slip",
+      "total": 333,
+      "by_source": {
+        "social-informal-02.txt": 1,
+        "cencos-transcripts.txt": 25,
+        "pcm_nsc-ud-train.conllu": 247,
+        "pcm_nsc-ud-dev.conllu": 5,
+        "pcm_nsc-ud-test.conllu": 55
+      },
+      "terms_counted": [
+        "slip",
+        "sleep"
+      ]
+    },
+    {
+      "entry_id": "waka",
+      "standard_spelling": "waka",
+      "total": 321,
+      "by_source": {
+        "cencos-transcripts.txt": 16,
+        "pcm_nsc-ud-train.conllu": 295,
+        "pcm_nsc-ud-test.conllu": 10
+      },
+      "terms_counted": [
+        "waka",
+        "walk"
+      ]
+    },
+    {
+      "entry_id": "wel-wel",
+      "standard_spelling": "wel wel",
+      "total": 320,
+      "by_source": {
+        "social-informal-01.txt": 1,
+        "cencos-transcripts.txt": 1,
+        "pcm_nsc-ud-train.conllu": 232,
+        "pcm_nsc-ud-dev.conllu": 61,
+        "pcm_nsc-ud-test.conllu": 25
+      },
+      "terms_counted": [
+        "wel wel",
+        "well well",
+        "well-well"
+      ]
+    },
+    {
+      "entry_id": "rit",
+      "standard_spelling": "rit",
+      "total": 314,
+      "by_source": {
+        "cencos-transcripts.txt": 32,
+        "pcm_nsc-ud-train.conllu": 176,
+        "pcm_nsc-ud-dev.conllu": 83,
+        "pcm_nsc-ud-test.conllu": 23
+      },
+      "terms_counted": [
+        "rit",
+        "write"
+      ]
+    },
+    {
+      "entry_id": "chosh",
+      "standard_spelling": "chosh",
+      "total": 313,
+      "by_source": {
+        "cencos-transcripts.txt": 18,
+        "pcm_nsc-ud-train.conllu": 283,
+        "pcm_nsc-ud-dev.conllu": 6,
+        "pcm_nsc-ud-test.conllu": 6
+      },
+      "terms_counted": [
+        "chosh",
+        "church"
+      ]
+    },
+    {
+      "entry_id": "lov",
+      "standard_spelling": "lov",
+      "total": 313,
+      "by_source": {
+        "cencos-transcripts.txt": 44,
+        "pcm_nsc-ud-train.conllu": 222,
+        "pcm_nsc-ud-dev.conllu": 11,
+        "pcm_nsc-ud-test.conllu": 36
+      },
+      "terms_counted": [
+        "lov",
+        "love"
+      ]
+    },
+    {
+      "entry_id": "sista",
+      "standard_spelling": "sista",
+      "total": 312,
+      "by_source": {
+        "cencos-transcripts.txt": 42,
+        "pcm_nsc-ud-train.conllu": 238,
+        "pcm_nsc-ud-dev.conllu": 18,
+        "pcm_nsc-ud-test.conllu": 14
+      },
+      "terms_counted": [
+        "sista",
+        "sister",
+        "sis"
+      ]
+    },
+    {
+      "entry_id": "fain",
+      "standard_spelling": "fain",
+      "total": 310,
+      "by_source": {
+        "cencos-transcripts.txt": 73,
+        "pcm_nsc-ud-train.conllu": 217,
+        "pcm_nsc-ud-dev.conllu": 11,
+        "pcm_nsc-ud-test.conllu": 9
+      },
+      "terms_counted": [
+        "fain",
+        "fine",
+        "beautiful"
+      ]
+    },
+    {
+      "entry_id": "sel",
+      "standard_spelling": "sel",
+      "total": 302,
+      "by_source": {
+        "cencos-transcripts.txt": 18,
+        "pcm_nsc-ud-train.conllu": 261,
+        "pcm_nsc-ud-dev.conllu": 5,
+        "pcm_nsc-ud-test.conllu": 18
+      },
+      "terms_counted": [
+        "sel",
+        "sell"
+      ]
+    },
+    {
+      "entry_id": "tich",
+      "standard_spelling": "tich",
+      "total": 294,
+      "by_source": {
+        "cencos-transcripts.txt": 18,
+        "pcm_nsc-ud-train.conllu": 248,
+        "pcm_nsc-ud-dev.conllu": 28
+      },
+      "terms_counted": [
+        "tich",
+        "teach"
+      ]
+    },
+    {
+      "entry_id": "anima",
+      "standard_spelling": "anima",
+      "total": 290,
+      "by_source": {
+        "pcm_nsc-ud-train.conllu": 290
+      },
+      "terms_counted": [
+        "anima",
+        "animal"
+      ]
+    },
+    {
+      "entry_id": "fó",
+      "standard_spelling": "fó",
+      "total": 289,
+      "by_source": {
+        "cencos-transcripts.txt": 40,
+        "pcm_nsc-ud-train.conllu": 161,
+        "pcm_nsc-ud-dev.conllu": 40,
+        "pcm_nsc-ud-test.conllu": 48
+      },
+      "terms_counted": [
+        "fó",
+        "fo",
+        "four"
+      ]
+    },
+    {
+      "entry_id": "hed",
+      "standard_spelling": "hed",
+      "total": 289,
+      "by_source": {
+        "cencos-transcripts.txt": 20,
+        "pcm_nsc-ud-train.conllu": 228,
+        "pcm_nsc-ud-dev.conllu": 17,
+        "pcm_nsc-ud-test.conllu": 24
+      },
+      "terms_counted": [
+        "hed",
+        "head"
+      ]
+    },
+    {
+      "entry_id": "wét",
+      "standard_spelling": "wét",
+      "total": 288,
+      "by_source": {
+        "cencos-transcripts.txt": 73,
+        "pcm_nsc-ud-train.conllu": 198,
+        "pcm_nsc-ud-dev.conllu": 17
+      },
+      "terms_counted": [
+        "wét",
+        "wait"
+      ]
+    },
+    {
+      "entry_id": "nyu",
+      "standard_spelling": "nyu",
+      "total": 287,
+      "by_source": {
+        "cencos-transcripts.txt": 22,
+        "pcm_nsc-ud-train.conllu": 222,
+        "pcm_nsc-ud-dev.conllu": 8,
+        "pcm_nsc-ud-test.conllu": 35
+      },
+      "terms_counted": [
+        "nyu",
+        "new"
+      ]
+    },
+    {
+      "entry_id": "rod",
+      "standard_spelling": "rod",
+      "total": 282,
+      "by_source": {
+        "social-informal-01.txt": 1,
+        "cencos-transcripts.txt": 12,
+        "pcm_nsc-ud-train.conllu": 251,
+        "pcm_nsc-ud-dev.conllu": 6,
+        "pcm_nsc-ud-test.conllu": 12
+      },
+      "terms_counted": [
+        "rod",
+        "road"
+      ]
+    },
+    {
+      "entry_id": "fona",
+      "standard_spelling": "fona",
+      "total": 281,
+      "by_source": {
+        "cencos-transcripts.txt": 83,
+        "pcm_nsc-ud-train.conllu": 175,
+        "pcm_nsc-ud-dev.conllu": 13,
+        "pcm_nsc-ud-test.conllu": 10
+      },
+      "terms_counted": [
+        "fona",
+        "phone"
+      ]
+    },
+    {
+      "entry_id": "opun",
+      "standard_spelling": "opun",
+      "total": 276,
+      "by_source": {
+        "cencos-transcripts.txt": 23,
+        "pcm_nsc-ud-train.conllu": 204,
+        "pcm_nsc-ud-dev.conllu": 38,
+        "pcm_nsc-ud-test.conllu": 11
+      },
+      "terms_counted": [
+        "opun",
+        "open"
+      ]
+    },
+    {
+      "entry_id": "ron",
+      "standard_spelling": "ron",
+      "total": 273,
+      "by_source": {
+        "cencos-transcripts.txt": 24,
+        "pcm_nsc-ud-train.conllu": 214,
+        "pcm_nsc-ud-dev.conllu": 19,
+        "pcm_nsc-ud-test.conllu": 16
+      },
+      "terms_counted": [
+        "ron",
+        "run"
+      ]
+    },
+    {
+      "entry_id": "munt",
+      "standard_spelling": "munt",
+      "total": 269,
+      "by_source": {
+        "cencos-transcripts.txt": 8,
+        "pcm_nsc-ud-train.conllu": 188,
+        "pcm_nsc-ud-dev.conllu": 23,
+        "pcm_nsc-ud-test.conllu": 50
+      },
+      "terms_counted": [
+        "munt",
+        "month"
+      ]
+    },
+    {
+      "entry_id": "olt",
+      "standard_spelling": "olt",
+      "total": 265,
+      "by_source": {
+        "ifra-informal-paraphrase.txt": 1,
+        "cencos-transcripts.txt": 11,
+        "pcm_nsc-ud-train.conllu": 207,
+        "pcm_nsc-ud-dev.conllu": 7,
+        "pcm_nsc-ud-test.conllu": 39
+      },
+      "terms_counted": [
+        "olt",
+        "old"
+      ]
+    },
+    {
+      "entry_id": "faya",
+      "standard_spelling": "faya",
+      "total": 264,
+      "by_source": {
+        "cencos-transcripts.txt": 7,
+        "pcm_nsc-ud-train.conllu": 204,
+        "pcm_nsc-ud-dev.conllu": 19,
+        "pcm_nsc-ud-test.conllu": 34
+      },
+      "terms_counted": [
+        "faya",
+        "fire"
+      ]
+    },
+    {
+      "entry_id": "dai",
+      "standard_spelling": "dai",
+      "total": 262,
+      "by_source": {
+        "cencos-transcripts.txt": 25,
+        "pcm_nsc-ud-train.conllu": 162,
+        "pcm_nsc-ud-dev.conllu": 32,
+        "pcm_nsc-ud-test.conllu": 43
+      },
+      "terms_counted": [
+        "dai",
+        "die"
+      ]
+    },
+    {
+      "entry_id": "graund",
+      "standard_spelling": "graund",
+      "total": 259,
+      "by_source": {
+        "cencos-transcripts.txt": 1,
+        "pcm_nsc-ud-train.conllu": 214,
+        "pcm_nsc-ud-dev.conllu": 32,
+        "pcm_nsc-ud-test.conllu": 12
+      },
+      "terms_counted": [
+        "graund",
+        "ground"
+      ]
+    },
+    {
+      "entry_id": "rid",
+      "standard_spelling": "rid",
+      "total": 256,
+      "by_source": {
+        "cencos-transcripts.txt": 39,
+        "pcm_nsc-ud-train.conllu": 195,
+        "pcm_nsc-ud-dev.conllu": 16,
+        "pcm_nsc-ud-test.conllu": 6
+      },
+      "terms_counted": [
+        "rid",
+        "read"
+      ]
+    },
+    {
+      "entry_id": "wash",
+      "standard_spelling": "wash",
+      "total": 251,
+      "by_source": {
+        "ifra-informal-paraphrase.txt": 1,
+        "cencos-transcripts.txt": 41,
+        "pcm_nsc-ud-train.conllu": 98,
+        "pcm_nsc-ud-dev.conllu": 105,
+        "pcm_nsc-ud-test.conllu": 6
+      },
+      "terms_counted": [
+        "wash",
+        "wosh"
+      ]
+    },
+    {
+      "entry_id": "rimemba",
+      "standard_spelling": "rimemba",
+      "total": 250,
+      "by_source": {
+        "cencos-transcripts.txt": 14,
+        "pcm_nsc-ud-train.conllu": 218,
+        "pcm_nsc-ud-dev.conllu": 12,
+        "pcm_nsc-ud-test.conllu": 6
+      },
+      "terms_counted": [
+        "rimemba",
+        "remember"
+      ]
+    },
+    {
+      "entry_id": "tumoro",
+      "standard_spelling": "tumoro",
+      "total": 243,
+      "by_source": {
+        "social-informal-01.txt": 1,
+        "cencos-transcripts.txt": 44,
+        "pcm_nsc-ud-train.conllu": 176,
+        "pcm_nsc-ud-dev.conllu": 11,
+        "pcm_nsc-ud-test.conllu": 11
+      },
+      "terms_counted": [
+        "tumoro",
+        "tomorrow"
+      ]
+    },
+    {
+      "entry_id": "trut",
+      "standard_spelling": "trut",
+      "total": 242,
+      "by_source": {
+        "cencos-transcripts.txt": 46,
+        "pcm_nsc-ud-train.conllu": 151,
+        "pcm_nsc-ud-dev.conllu": 6,
+        "pcm_nsc-ud-test.conllu": 39
+      },
+      "terms_counted": [
+        "trut",
+        "truth",
+        "true"
+      ]
+    },
+    {
+      "entry_id": "wok-op",
+      "standard_spelling": "wek op",
+      "total": 241,
+      "by_source": {
+        "cencos-transcripts.txt": 8,
+        "pcm_nsc-ud-train.conllu": 171,
+        "pcm_nsc-ud-dev.conllu": 9,
+        "pcm_nsc-ud-test.conllu": 53
+      },
+      "terms_counted": [
+        "wek op",
+        "wake up",
+        "wake"
+      ]
+    },
+    {
+      "entry_id": "fren",
+      "standard_spelling": "fren",
+      "total": 240,
+      "by_source": {
+        "cencos-transcripts.txt": 29,
+        "pcm_nsc-ud-train.conllu": 169,
+        "pcm_nsc-ud-dev.conllu": 36,
+        "pcm_nsc-ud-test.conllu": 6
+      },
+      "terms_counted": [
+        "fren",
+        "friend"
+      ]
+    },
+    {
+      "entry_id": "lait",
+      "standard_spelling": "lait",
+      "total": 238,
+      "by_source": {
+        "cencos-transcripts.txt": 24,
+        "pcm_nsc-ud-train.conllu": 179,
+        "pcm_nsc-ud-dev.conllu": 18,
+        "pcm_nsc-ud-test.conllu": 17
+      },
+      "terms_counted": [
+        "lait",
+        "light"
+      ]
+    },
+    {
+      "entry_id": "wik",
+      "standard_spelling": "wik",
+      "total": 236,
+      "by_source": {
+        "cencos-transcripts.txt": 41,
+        "pcm_nsc-ud-train.conllu": 153,
+        "pcm_nsc-ud-dev.conllu": 18,
+        "pcm_nsc-ud-test.conllu": 24
+      },
+      "terms_counted": [
+        "wik",
+        "week"
+      ]
+    },
+    {
+      "entry_id": "foget",
+      "standard_spelling": "foget",
+      "total": 229,
+      "by_source": {
+        "cencos-transcripts.txt": 27,
+        "pcm_nsc-ud-train.conllu": 152,
+        "pcm_nsc-ud-dev.conllu": 6,
+        "pcm_nsc-ud-test.conllu": 44
+      },
+      "terms_counted": [
+        "foget",
+        "forget"
+      ]
+    },
+    {
+      "entry_id": "moto",
+      "standard_spelling": "moto",
+      "total": 226,
+      "by_source": {
+        "social-informal-01.txt": 1,
+        "cencos-transcripts.txt": 17,
+        "pcm_nsc-ud-train.conllu": 121,
+        "pcm_nsc-ud-dev.conllu": 1,
+        "pcm_nsc-ud-test.conllu": 86
+      },
+      "terms_counted": [
+        "moto",
+        "car"
+      ]
+    },
+    {
+      "entry_id": "nait",
+      "standard_spelling": "nait",
+      "total": 220,
+      "by_source": {
+        "cencos-transcripts.txt": 21,
+        "pcm_nsc-ud-train.conllu": 148,
+        "pcm_nsc-ud-test.conllu": 51
+      },
+      "terms_counted": [
+        "nait",
+        "night"
+      ]
+    },
+    {
+      "entry_id": "enibodi",
+      "standard_spelling": "enibodi",
+      "total": 218,
+      "by_source": {
+        "cencos-transcripts.txt": 35,
+        "pcm_nsc-ud-train.conllu": 152,
+        "pcm_nsc-ud-dev.conllu": 18,
+        "pcm_nsc-ud-test.conllu": 13
+      },
+      "terms_counted": [
+        "enibodi",
+        "anybody",
+        "anyone"
+      ]
+    },
+    {
+      "entry_id": "togeda",
+      "standard_spelling": "togeda",
+      "total": 217,
+      "by_source": {
+        "cencos-transcripts.txt": 21,
+        "pcm_nsc-ud-train.conllu": 136,
+        "pcm_nsc-ud-dev.conllu": 35,
+        "pcm_nsc-ud-test.conllu": 25
+      },
+      "terms_counted": [
+        "togeda",
+        "together"
+      ]
+    },
+    {
+      "entry_id": "smol-smol",
+      "standard_spelling": "smol smol",
+      "total": 216,
+      "by_source": {
+        "social-informal-02.txt": 1,
+        "cencos-transcripts.txt": 1,
+        "pcm_nsc-ud-train.conllu": 172,
+        "pcm_nsc-ud-dev.conllu": 18,
+        "pcm_nsc-ud-test.conllu": 24
+      },
+      "terms_counted": [
+        "smol smol",
+        "small-small",
+        "small small"
+      ]
+    },
+    {
+      "entry_id": "kach",
+      "standard_spelling": "kach",
+      "total": 206,
+      "by_source": {
+        "cencos-transcripts.txt": 14,
+        "pcm_nsc-ud-train.conllu": 181,
+        "pcm_nsc-ud-test.conllu": 11
+      },
+      "terms_counted": [
+        "kach",
+        "catch",
+        "cash"
+      ]
+    },
+    {
+      "entry_id": "famili",
+      "standard_spelling": "famili",
+      "total": 204,
+      "by_source": {
+        "ifra-informal-paraphrase.txt": 1,
+        "cencos-transcripts.txt": 18,
+        "pcm_nsc-ud-train.conllu": 121,
+        "pcm_nsc-ud-dev.conllu": 34,
+        "pcm_nsc-ud-test.conllu": 30
+      },
+      "terms_counted": [
+        "famili",
+        "family"
+      ]
+    },
+    {
+      "entry_id": "swit",
+      "standard_spelling": "swit",
+      "total": 194,
+      "by_source": {
+        "social-informal-01.txt": 1,
+        "cencos-transcripts.txt": 7,
+        "pcm_nsc-ud-train.conllu": 161,
+        "pcm_nsc-ud-dev.conllu": 10,
+        "pcm_nsc-ud-test.conllu": 15
+      },
+      "terms_counted": [
+        "swit",
+        "sweet"
+      ]
+    },
+    {
+      "entry_id": "vilej",
+      "standard_spelling": "vilej",
+      "total": 194,
+      "by_source": {
+        "cencos-transcripts.txt": 13,
+        "pcm_nsc-ud-train.conllu": 152,
+        "pcm_nsc-ud-dev.conllu": 29
+      },
+      "terms_counted": [
+        "vilej",
+        "village"
+      ]
+    },
+    {
+      "entry_id": "broda",
+      "standard_spelling": "broda",
+      "total": 189,
+      "by_source": {
+        "social-informal-01.txt": 1,
+        "cencos-transcripts.txt": 40,
+        "pcm_nsc-ud-train.conllu": 112,
+        "pcm_nsc-ud-dev.conllu": 13,
+        "pcm_nsc-ud-test.conllu": 23
+      },
+      "terms_counted": [
+        "broda",
+        "brother",
+        "bro"
+      ]
+    },
+    {
+      "entry_id": "plis",
+      "standard_spelling": "plis",
+      "total": 187,
+      "by_source": {
+        "cencos-transcripts.txt": 26,
+        "pcm_nsc-ud-train.conllu": 133,
+        "pcm_nsc-ud-dev.conllu": 12,
+        "pcm_nsc-ud-test.conllu": 16
+      },
+      "terms_counted": [
+        "plis",
+        "please",
+        "pls"
+      ]
+    },
+    {
+      "entry_id": "kloz",
+      "standard_spelling": "kloz",
+      "total": 184,
+      "by_source": {
+        "cencos-transcripts.txt": 31,
+        "pcm_nsc-ud-train.conllu": 126,
+        "pcm_nsc-ud-dev.conllu": 5,
+        "pcm_nsc-ud-test.conllu": 22
+      },
+      "terms_counted": [
+        "kloz",
+        "close"
+      ]
+    },
+    {
+      "entry_id": "shop",
+      "standard_spelling": "shop",
+      "total": 184,
+      "by_source": {
+        "cencos-transcripts.txt": 7,
+        "pcm_nsc-ud-train.conllu": 135,
+        "pcm_nsc-ud-dev.conllu": 42
+      },
+      "terms_counted": [
+        "shop",
+        "store"
+      ]
+    },
+    {
+      "entry_id": "notin",
+      "standard_spelling": "notin",
+      "total": 174,
+      "by_source": {
+        "cencos-transcripts.txt": 26,
+        "pcm_nsc-ud-train.conllu": 111,
+        "pcm_nsc-ud-dev.conllu": 32,
+        "pcm_nsc-ud-test.conllu": 5
+      },
+      "terms_counted": [
+        "notin",
+        "nothing",
+        "nutin"
+      ]
+    },
+    {
+      "entry_id": "sekond",
+      "standard_spelling": "sekond",
+      "total": 174,
+      "by_source": {
+        "cencos-transcripts.txt": 47,
+        "pcm_nsc-ud-train.conllu": 115,
+        "pcm_nsc-ud-dev.conllu": 6,
+        "pcm_nsc-ud-test.conllu": 6
+      },
+      "terms_counted": [
+        "sekond",
+        "second"
+      ]
+    },
+    {
+      "entry_id": "til",
+      "standard_spelling": "til",
+      "total": 169,
+      "by_source": {
+        "cencos-transcripts.txt": 8,
+        "pcm_nsc-ud-train.conllu": 140,
+        "pcm_nsc-ud-dev.conllu": 12,
+        "pcm_nsc-ud-test.conllu": 9
+      },
+      "terms_counted": [
+        "til",
+        "until"
+      ]
+    },
+    {
+      "entry_id": "ai",
+      "standard_spelling": "ai",
+      "total": 168,
+      "by_source": {
+        "cencos-transcripts.txt": 17,
+        "pcm_nsc-ud-train.conllu": 132,
+        "pcm_nsc-ud-dev.conllu": 9,
+        "pcm_nsc-ud-test.conllu": 10
+      },
+      "terms_counted": [
+        "ai",
+        "eye"
+      ]
+    },
+    {
+      "entry_id": "rum",
+      "standard_spelling": "rum",
+      "total": 164,
+      "by_source": {
+        "cencos-transcripts.txt": 48,
+        "pcm_nsc-ud-train.conllu": 104,
+        "pcm_nsc-ud-dev.conllu": 6,
+        "pcm_nsc-ud-test.conllu": 6
+      },
+      "terms_counted": [
+        "rum",
+        "room"
+      ]
+    },
+    {
+      "entry_id": "ospitul",
+      "standard_spelling": "ospitul",
+      "total": 161,
+      "by_source": {
+        "cencos-transcripts.txt": 6,
+        "pcm_nsc-ud-train.conllu": 114,
+        "pcm_nsc-ud-dev.conllu": 17,
+        "pcm_nsc-ud-test.conllu": 24
+      },
+      "terms_counted": [
+        "ospitul",
+        "hospital"
+      ]
+    },
+    {
+      "entry_id": "pik",
+      "standard_spelling": "pik",
+      "total": 161,
+      "by_source": {
+        "cencos-transcripts.txt": 29,
+        "pcm_nsc-ud-train.conllu": 116,
+        "pcm_nsc-ud-dev.conllu": 10,
+        "pcm_nsc-ud-test.conllu": 6
+      },
+      "terms_counted": [
+        "pik",
+        "pick",
+        "pic"
+      ]
+    },
+    {
+      "entry_id": "yestade",
+      "standard_spelling": "yestade",
+      "total": 151,
+      "by_source": {
+        "cencos-transcripts.txt": 31,
+        "pcm_nsc-ud-train.conllu": 96,
+        "pcm_nsc-ud-dev.conllu": 12,
+        "pcm_nsc-ud-test.conllu": 12
+      },
+      "terms_counted": [
+        "yestade",
+        "yesterday"
+      ]
+    },
+    {
+      "entry_id": "no-wahala",
+      "standard_spelling": "no wahala",
+      "total": 150,
+      "by_source": {
+        "cencos-transcripts.txt": 24,
+        "pcm_nsc-ud-train.conllu": 105,
+        "pcm_nsc-ud-dev.conllu": 9,
+        "pcm_nsc-ud-test.conllu": 12
+      },
+      "terms_counted": [
+        "no wahala",
+        "no problem"
+      ]
+    },
+    {
+      "entry_id": "kwik",
+      "standard_spelling": "kwik",
+      "total": 144,
+      "by_source": {
+        "cencos-transcripts.txt": 10,
+        "pcm_nsc-ud-train.conllu": 123,
+        "pcm_nsc-ud-dev.conllu": 11
+      },
+      "terms_counted": [
+        "kwik",
+        "quick",
+        "fast"
+      ]
+    },
+    {
+      "entry_id": "wetin-de",
+      "standard_spelling": "wetin de",
+      "total": 144,
+      "by_source": {
+        "social-informal-02.txt": 1,
+        "cencos-transcripts.txt": 11,
+        "pcm_nsc-ud-train.conllu": 105,
+        "pcm_nsc-ud-dev.conllu": 9,
+        "pcm_nsc-ud-test.conllu": 18
+      },
+      "terms_counted": [
+        "wetin de",
+        "wetin dey"
+      ]
+    },
+    {
+      "entry_id": "hapi",
+      "standard_spelling": "hapi",
+      "total": 143,
+      "by_source": {
+        "ifra-informal-paraphrase.txt": 1,
+        "cencos-transcripts.txt": 12,
+        "pcm_nsc-ud-train.conllu": 117,
+        "pcm_nsc-ud-test.conllu": 13
+      },
+      "terms_counted": [
+        "hapi",
+        "happy"
+      ]
+    },
+    {
+      "entry_id": "hol",
+      "standard_spelling": "hol",
+      "total": 139,
+      "by_source": {
+        "cencos-transcripts.txt": 14,
+        "pcm_nsc-ud-train.conllu": 63,
+        "pcm_nsc-ud-dev.conllu": 26,
+        "pcm_nsc-ud-test.conllu": 36
+      },
+      "terms_counted": [
+        "hol",
+        "hold"
+      ]
+    },
+    {
+      "entry_id": "leg",
+      "standard_spelling": "leg",
+      "total": 134,
+      "by_source": {
+        "cencos-transcripts.txt": 13,
+        "pcm_nsc-ud-train.conllu": 101,
+        "pcm_nsc-ud-test.conllu": 20
+      },
+      "terms_counted": [
+        "leg",
+        "foot"
+      ]
+    },
+    {
+      "entry_id": "i-no-fit",
+      "standard_spelling": "I no fit",
+      "total": 131,
+      "by_source": {
+        "cencos-transcripts.txt": 31,
+        "pcm_nsc-ud-train.conllu": 70,
+        "pcm_nsc-ud-dev.conllu": 19,
+        "pcm_nsc-ud-test.conllu": 11
+      },
+      "terms_counted": [
+        "I no fit",
+        "i no fit",
+        "I can't",
+        "i cannot"
+      ]
+    },
+    {
+      "entry_id": "polis",
+      "standard_spelling": "polis",
+      "total": 129,
+      "by_source": {
+        "cencos-transcripts.txt": 5,
+        "pcm_nsc-ud-train.conllu": 104,
+        "pcm_nsc-ud-dev.conllu": 18,
+        "pcm_nsc-ud-test.conllu": 2
+      },
+      "terms_counted": [
+        "polis",
+        "police"
+      ]
+    },
+    {
+      "entry_id": "poo",
+      "standard_spelling": "poo",
+      "total": 128,
+      "by_source": {
+        "cencos-transcripts.txt": 9,
+        "pcm_nsc-ud-train.conllu": 119
+      },
+      "terms_counted": [
+        "poo",
+        "poor"
+      ]
+    },
+    {
+      "entry_id": "buk",
+      "standard_spelling": "buk",
+      "total": 124,
+      "by_source": {
+        "social-informal-01.txt": 1,
+        "cencos-transcripts.txt": 12,
+        "pcm_nsc-ud-train.conllu": 111
+      },
+      "terms_counted": [
+        "buk",
+        "book"
+      ]
+    },
+    {
+      "entry_id": "ticha",
+      "standard_spelling": "ticha",
+      "total": 122,
+      "by_source": {
+        "pcm_nsc-ud-train.conllu": 60,
+        "pcm_nsc-ud-test.conllu": 62
+      },
+      "terms_counted": [
+        "ticha",
+        "teacher"
+      ]
+    },
+    {
+      "entry_id": "maut",
+      "standard_spelling": "maut",
+      "total": 119,
+      "by_source": {
+        "cencos-transcripts.txt": 20,
+        "pcm_nsc-ud-train.conllu": 94,
+        "pcm_nsc-ud-dev.conllu": 5
+      },
+      "terms_counted": [
+        "maut",
+        "mouth"
+      ]
+    },
+    {
+      "entry_id": "dan",
+      "standard_spelling": "dan",
+      "total": 116,
+      "by_source": {
+        "cencos-transcripts.txt": 1,
+        "pcm_nsc-ud-train.conllu": 99,
+        "pcm_nsc-ud-dev.conllu": 10,
+        "pcm_nsc-ud-test.conllu": 6
+      },
+      "terms_counted": [
+        "dan",
+        "dance"
+      ]
+    },
+    {
+      "entry_id": "sik",
+      "standard_spelling": "sik",
+      "total": 115,
+      "by_source": {
+        "cencos-transcripts.txt": 7,
+        "pcm_nsc-ud-train.conllu": 55,
+        "pcm_nsc-ud-dev.conllu": 23,
+        "pcm_nsc-ud-test.conllu": 30
+      },
+      "terms_counted": [
+        "sik",
+        "sick"
+      ]
+    },
+    {
+      "entry_id": "draiv",
+      "standard_spelling": "draiv",
+      "total": 112,
+      "by_source": {
+        "social-informal-01.txt": 1,
+        "cencos-transcripts.txt": 3,
+        "pcm_nsc-ud-train.conllu": 105,
+        "pcm_nsc-ud-test.conllu": 3
+      },
+      "terms_counted": [
+        "draiv",
+        "drive"
+      ]
+    },
+    {
+      "entry_id": "naija",
+      "standard_spelling": "Naijá",
+      "total": 110,
+      "by_source": {
+        "social-informal-01.txt": 2,
+        "cencos-transcripts.txt": 1,
+        "pcm_nsc-ud-train.conllu": 87,
+        "pcm_nsc-ud-dev.conllu": 5,
+        "pcm_nsc-ud-test.conllu": 15
+      },
+      "terms_counted": [
+        "Naijá",
+        "Naija",
+        "9ja",
+        "Naija Pidgin"
+      ]
+    },
+    {
+      "entry_id": "dro",
+      "standard_spelling": "dro",
+      "total": 109,
+      "by_source": {
+        "cencos-transcripts.txt": 20,
+        "pcm_nsc-ud-train.conllu": 65,
+        "pcm_nsc-ud-dev.conllu": 8,
+        "pcm_nsc-ud-test.conllu": 16
+      },
+      "terms_counted": [
+        "dro",
+        "drop",
+        "throw"
+      ]
+    },
+    {
+      "entry_id": "dokta",
+      "standard_spelling": "dokta",
+      "total": 106,
+      "by_source": {
+        "social-informal-02.txt": 1,
+        "cencos-transcripts.txt": 4,
+        "pcm_nsc-ud-train.conllu": 88,
+        "pcm_nsc-ud-test.conllu": 13
+      },
+      "terms_counted": [
+        "dokta",
+        "doctor"
+      ]
+    },
+    {
+      "entry_id": "laf",
+      "standard_spelling": "laf",
+      "total": 101,
+      "by_source": {
+        "cencos-transcripts.txt": 7,
+        "pcm_nsc-ud-train.conllu": 46,
+        "pcm_nsc-ud-dev.conllu": 20,
+        "pcm_nsc-ud-test.conllu": 28
+      },
+      "terms_counted": [
+        "laf",
+        "laugh"
+      ]
+    },
+    {
+      "entry_id": "belle",
+      "standard_spelling": "belle",
+      "total": 100,
+      "by_source": {
+        "cencos-transcripts.txt": 6,
+        "pcm_nsc-ud-train.conllu": 83,
+        "pcm_nsc-ud-test.conllu": 11
+      },
+      "terms_counted": [
+        "belle",
+        "belly",
+        "stomach"
+      ]
+    },
+    {
+      "entry_id": "sidon",
+      "standard_spelling": "sidon",
+      "total": 99,
+      "by_source": {
+        "cencos-transcripts.txt": 9,
+        "pcm_nsc-ud-train.conllu": 79,
+        "pcm_nsc-ud-dev.conllu": 11
+      },
+      "terms_counted": [
+        "sidon",
+        "sit down"
+      ]
+    },
+    {
+      "entry_id": "respekt",
+      "standard_spelling": "respekt",
+      "total": 97,
+      "by_source": {
+        "cencos-transcripts.txt": 4,
+        "pcm_nsc-ud-train.conllu": 93
+      },
+      "terms_counted": [
+        "respekt",
+        "respect"
+      ]
+    },
+    {
+      "entry_id": "bor",
+      "standard_spelling": "bor",
+      "total": 95,
+      "by_source": {
+        "cencos-transcripts.txt": 9,
+        "pcm_nsc-ud-train.conllu": 63,
+        "pcm_nsc-ud-dev.conllu": 11,
+        "pcm_nsc-ud-test.conllu": 12
+      },
+      "terms_counted": [
+        "bor",
+        "borrow"
+      ]
+    },
+    {
+      "entry_id": "stan",
+      "standard_spelling": "stan",
+      "total": 90,
+      "by_source": {
+        "cencos-transcripts.txt": 8,
+        "pcm_nsc-ud-train.conllu": 76,
+        "pcm_nsc-ud-test.conllu": 6
+      },
+      "terms_counted": [
+        "stan",
+        "stand"
+      ]
+    },
+    {
+      "entry_id": "rong",
+      "standard_spelling": "rong",
+      "total": 89,
+      "by_source": {
+        "cencos-transcripts.txt": 8,
+        "pcm_nsc-ud-train.conllu": 57,
+        "pcm_nsc-ud-dev.conllu": 3,
+        "pcm_nsc-ud-test.conllu": 21
+      },
+      "terms_counted": [
+        "rong",
+        "wrong"
+      ]
+    },
+    {
+      "entry_id": "tenki",
+      "standard_spelling": "tenki",
+      "total": 87,
+      "by_source": {
+        "cencos-transcripts.txt": 42,
+        "pcm_nsc-ud-train.conllu": 35,
+        "pcm_nsc-ud-dev.conllu": 7,
+        "pcm_nsc-ud-test.conllu": 3
+      },
+      "terms_counted": [
+        "tenki",
+        "thank you",
+        "thanks"
+      ]
+    },
+    {
+      "entry_id": "garri",
+      "standard_spelling": "garri",
+      "total": 84,
+      "by_source": {
+        "cencos-transcripts.txt": 12,
+        "pcm_nsc-ud-train.conllu": 67,
+        "pcm_nsc-ud-test.conllu": 5
+      },
+      "terms_counted": [
+        "garri",
+        "gari"
+      ]
+    },
+    {
+      "entry_id": "fri",
+      "standard_spelling": "fri",
+      "total": 78,
+      "by_source": {
+        "cencos-transcripts.txt": 10,
+        "pcm_nsc-ud-train.conllu": 62,
+        "pcm_nsc-ud-test.conllu": 6
+      },
+      "terms_counted": [
+        "fri",
+        "free"
+      ]
+    },
+    {
+      "entry_id": "haw-far",
+      "standard_spelling": "haw far",
+      "total": 78,
+      "by_source": {
+        "social-informal-02.txt": 1,
+        "cencos-transcripts.txt": 49,
+        "pcm_nsc-ud-train.conllu": 22,
+        "pcm_nsc-ud-test.conllu": 6
+      },
+      "terms_counted": [
+        "haw far",
+        "how far",
+        "how you dey"
+      ]
+    },
+    {
+      "entry_id": "i-no-sabi",
+      "standard_spelling": "I no sabi",
+      "total": 78,
+      "by_source": {
+        "cencos-transcripts.txt": 2,
+        "pcm_nsc-ud-train.conllu": 52,
+        "pcm_nsc-ud-dev.conllu": 10,
+        "pcm_nsc-ud-test.conllu": 14
+      },
+      "terms_counted": [
+        "I no sabi",
+        "i no sabi",
+        "I don't know",
+        "i don't know"
+      ]
+    },
+    {
+      "entry_id": "pepa",
+      "standard_spelling": "pepa",
+      "total": 76,
+      "by_source": {
+        "cencos-transcripts.txt": 9,
+        "pcm_nsc-ud-train.conllu": 62,
+        "pcm_nsc-ud-test.conllu": 5
+      },
+      "terms_counted": [
+        "pepa",
+        "paper"
+      ]
+    },
+    {
+      "entry_id": "gist",
+      "standard_spelling": "gist",
+      "total": 74,
+      "by_source": {
+        "cencos-transcripts.txt": 6,
+        "pcm_nsc-ud-train.conllu": 36,
+        "pcm_nsc-ud-dev.conllu": 21,
+        "pcm_nsc-ud-test.conllu": 11
+      },
+      "terms_counted": [
+        "gist",
+        "gossip"
+      ]
+    },
+    {
+      "entry_id": "tu-mach",
+      "standard_spelling": "tu mach",
+      "total": 73,
+      "by_source": {
+        "cencos-transcripts.txt": 19,
+        "pcm_nsc-ud-train.conllu": 39,
+        "pcm_nsc-ud-dev.conllu": 11,
+        "pcm_nsc-ud-test.conllu": 4
+      },
+      "terms_counted": [
+        "tu mach",
+        "too much"
+      ]
+    },
+    {
+      "entry_id": "shot",
+      "standard_spelling": "shot",
+      "total": 71,
+      "by_source": {
+        "cencos-transcripts.txt": 4,
+        "pcm_nsc-ud-train.conllu": 49,
+        "pcm_nsc-ud-dev.conllu": 7,
+        "pcm_nsc-ud-test.conllu": 11
+      },
+      "terms_counted": [
+        "shot",
+        "short"
+      ]
+    },
+    {
+      "entry_id": "sinio",
+      "standard_spelling": "sinio",
+      "total": 70,
+      "by_source": {
+        "cencos-transcripts.txt": 8,
+        "pcm_nsc-ud-train.conllu": 51,
+        "pcm_nsc-ud-dev.conllu": 11
+      },
+      "terms_counted": [
+        "sinio",
+        "senior"
+      ]
+    },
+    {
+      "entry_id": "ted",
+      "standard_spelling": "ted",
+      "total": 68,
+      "by_source": {
+        "cencos-transcripts.txt": 10,
+        "pcm_nsc-ud-train.conllu": 51,
+        "pcm_nsc-ud-dev.conllu": 6,
+        "pcm_nsc-ud-test.conllu": 1
+      },
+      "terms_counted": [
+        "ted",
+        "third"
+      ]
+    },
+    {
+      "entry_id": "fai",
+      "standard_spelling": "fai",
+      "total": 67,
+      "by_source": {
+        "cencos-transcripts.txt": 4,
+        "pcm_nsc-ud-train.conllu": 56,
+        "pcm_nsc-ud-dev.conllu": 6,
+        "pcm_nsc-ud-test.conllu": 1
+      },
+      "terms_counted": [
+        "fai",
+        "fight"
+      ]
+    },
+    {
+      "entry_id": "nak",
+      "standard_spelling": "nak",
+      "total": 64,
+      "by_source": {
+        "cencos-transcripts.txt": 3,
+        "pcm_nsc-ud-train.conllu": 56,
+        "pcm_nsc-ud-dev.conllu": 5
+      },
+      "terms_counted": [
+        "nak",
+        "knock",
+        "hit"
+      ]
+    },
+    {
+      "entry_id": "sori",
+      "standard_spelling": "sori",
+      "total": 64,
+      "by_source": {
+        "cencos-transcripts.txt": 45,
+        "pcm_nsc-ud-train.conllu": 13,
+        "pcm_nsc-ud-test.conllu": 6
+      },
+      "terms_counted": [
+        "sori",
+        "sorry"
+      ]
+    },
+    {
+      "entry_id": "krai",
+      "standard_spelling": "krai",
+      "total": 62,
+      "by_source": {
+        "cencos-transcripts.txt": 8,
+        "pcm_nsc-ud-train.conllu": 54
+      },
+      "terms_counted": [
+        "krai",
+        "cry"
+      ]
+    },
+    {
+      "entry_id": "strit",
+      "standard_spelling": "strit",
+      "total": 62,
+      "by_source": {
+        "cencos-transcripts.txt": 3,
+        "pcm_nsc-ud-train.conllu": 47,
+        "pcm_nsc-ud-dev.conllu": 7,
+        "pcm_nsc-ud-test.conllu": 5
+      },
+      "terms_counted": [
+        "strit",
+        "street"
+      ]
+    },
+    {
+      "entry_id": "fet",
+      "standard_spelling": "fet",
+      "total": 56,
+      "by_source": {
+        "cencos-transcripts.txt": 1,
+        "pcm_nsc-ud-train.conllu": 55
+      },
+      "terms_counted": [
+        "fet",
+        "fetch"
+      ]
+    },
+    {
+      "entry_id": "huself",
+      "standard_spelling": "huself",
+      "total": 56,
+      "by_source": {
+        "cencos-transcripts.txt": 19,
+        "pcm_nsc-ud-train.conllu": 25,
+        "pcm_nsc-ud-dev.conllu": 10,
+        "pcm_nsc-ud-test.conllu": 2
+      },
+      "terms_counted": [
+        "huself",
+        "himself",
+        "herself"
+      ]
+    },
+    {
+      "entry_id": "tif",
+      "standard_spelling": "tif",
+      "total": 49,
+      "by_source": {
+        "cencos-transcripts.txt": 5,
+        "pcm_nsc-ud-train.conllu": 44
+      },
+      "terms_counted": [
+        "tif",
+        "thief"
+      ]
+    },
+    {
+      "entry_id": "ans",
+      "standard_spelling": "ans",
+      "total": 48,
+      "by_source": {
+        "cencos-transcripts.txt": 8,
+        "pcm_nsc-ud-train.conllu": 24,
+        "pcm_nsc-ud-test.conllu": 16
+      },
+      "terms_counted": [
+        "ans",
+        "answer"
+      ]
+    },
+    {
+      "entry_id": "bad-bad",
+      "standard_spelling": "bad bad",
+      "total": 45,
+      "by_source": {
+        "social-informal-02.txt": 1,
+        "pcm_nsc-ud-train.conllu": 36,
+        "pcm_nsc-ud-dev.conllu": 5,
+        "pcm_nsc-ud-test.conllu": 3
+      },
+      "terms_counted": [
+        "bad bad",
+        "bad-bad"
+      ]
+    },
+    {
+      "entry_id": "tri",
+      "standard_spelling": "tri",
+      "total": 43,
+      "by_source": {
+        "ifra-informal-paraphrase.txt": 1,
+        "cencos-transcripts.txt": 1,
+        "pcm_nsc-ud-train.conllu": 14,
+        "pcm_nsc-ud-dev.conllu": 12,
+        "pcm_nsc-ud-test.conllu": 15
+      },
+      "terms_counted": [
+        "tri",
+        "tree"
+      ]
+    },
+    {
+      "entry_id": "bon",
+      "standard_spelling": "bon",
+      "total": 42,
+      "by_source": {
+        "pcm_nsc-ud-train.conllu": 42
+      },
+      "terms_counted": [
+        "bon",
+        "bone"
+      ]
+    },
+    {
+      "entry_id": "feil",
+      "standard_spelling": "feil",
+      "total": 42,
+      "by_source": {
+        "cencos-transcripts.txt": 4,
+        "pcm_nsc-ud-train.conllu": 28,
+        "pcm_nsc-ud-test.conllu": 10
+      },
+      "terms_counted": [
+        "feil",
+        "fail",
+        "fai"
+      ]
+    },
+    {
+      "entry_id": "wetin-de-happen",
+      "standard_spelling": "wetin de happen",
+      "total": 42,
+      "by_source": {
+        "social-informal-02.txt": 1,
+        "cencos-transcripts.txt": 8,
+        "pcm_nsc-ud-train.conllu": 28,
+        "pcm_nsc-ud-dev.conllu": 2,
+        "pcm_nsc-ud-test.conllu": 3
+      },
+      "terms_counted": [
+        "wetin de happen",
+        "wetin dey happen",
+        "what's happening",
+        "wetin dey happen?"
+      ]
+    },
+    {
+      "entry_id": "gift",
+      "standard_spelling": "gift",
+      "total": 40,
+      "by_source": {
+        "cencos-transcripts.txt": 4,
+        "pcm_nsc-ud-train.conllu": 21,
+        "pcm_nsc-ud-dev.conllu": 10,
+        "pcm_nsc-ud-test.conllu": 5
+      },
+      "terms_counted": [
+        "gift",
+        "present"
+      ]
+    },
+    {
+      "entry_id": "tebul",
+      "standard_spelling": "tebul",
+      "total": 38,
+      "by_source": {
+        "pcm_nsc-ud-train.conllu": 26,
+        "pcm_nsc-ud-dev.conllu": 12
+      },
+      "terms_counted": [
+        "tebul",
+        "table"
+      ]
+    },
+    {
+      "entry_id": "angri",
+      "standard_spelling": "angri",
+      "total": 37,
+      "by_source": {
+        "cencos-transcripts.txt": 10,
+        "pcm_nsc-ud-train.conllu": 25,
+        "pcm_nsc-ud-dev.conllu": 2
+      },
+      "terms_counted": [
+        "angri",
+        "angry"
+      ]
+    },
+    {
+      "entry_id": "kol",
+      "standard_spelling": "kol",
+      "total": 37,
+      "by_source": {
+        "cencos-transcripts.txt": 1,
+        "pcm_nsc-ud-train.conllu": 36
+      },
+      "terms_counted": [
+        "kol",
+        "cold"
+      ]
+    },
+    {
+      "entry_id": "fals",
+      "standard_spelling": "fals",
+      "total": 36,
+      "by_source": {
+        "cencos-transcripts.txt": 4,
+        "pcm_nsc-ud-train.conllu": 24,
+        "pcm_nsc-ud-dev.conllu": 1,
+        "pcm_nsc-ud-test.conllu": 7
+      },
+      "terms_counted": [
+        "fals",
+        "false",
+        "fake"
+      ]
+    },
+    {
+      "entry_id": "i-de-kom",
+      "standard_spelling": "I de kom",
+      "total": 36,
+      "by_source": {
+        "cencos-transcripts.txt": 6,
+        "pcm_nsc-ud-train.conllu": 18,
+        "pcm_nsc-ud-dev.conllu": 12
+      },
+      "terms_counted": [
+        "I de kom",
+        "I dey come",
+        "i dey come",
+        "I'm coming"
+      ]
+    },
+    {
+      "entry_id": "gud-afternoon",
+      "standard_spelling": "gud aftanun",
+      "total": 35,
+      "by_source": {
+        "cencos-transcripts.txt": 2,
+        "pcm_nsc-ud-train.conllu": 30,
+        "pcm_nsc-ud-dev.conllu": 3
+      },
+      "terms_counted": [
+        "gud aftanun",
+        "good afternoon"
+      ]
+    },
+    {
+      "entry_id": "baik",
+      "standard_spelling": "baik",
+      "total": 32,
+      "by_source": {
+        "cencos-transcripts.txt": 7,
+        "pcm_nsc-ud-train.conllu": 25
+      },
+      "terms_counted": [
+        "baik",
+        "bike"
+      ]
+    },
+    {
+      "entry_id": "luz",
+      "standard_spelling": "luz",
+      "total": 31,
+      "by_source": {
+        "pcm_nsc-ud-train.conllu": 23,
+        "pcm_nsc-ud-dev.conllu": 5,
+        "pcm_nsc-ud-test.conllu": 3
+      },
+      "terms_counted": [
+        "luz",
+        "lose"
+      ]
+    },
+    {
+      "entry_id": "spesha",
+      "standard_spelling": "spesha",
+      "total": 31,
+      "by_source": {
+        "cencos-transcripts.txt": 1,
+        "pcm_nsc-ud-train.conllu": 30
+      },
+      "terms_counted": [
+        "spesha",
+        "special"
+      ]
+    },
+    {
+      "entry_id": "shek",
+      "standard_spelling": "shek",
+      "total": 30,
+      "by_source": {
+        "cencos-transcripts.txt": 6,
+        "pcm_nsc-ud-train.conllu": 19,
+        "pcm_nsc-ud-test.conllu": 5
+      },
+      "terms_counted": [
+        "shek",
+        "shake"
+      ]
+    },
+    {
+      "entry_id": "elda",
+      "standard_spelling": "elda",
+      "total": 28,
+      "by_source": {
+        "ifra-informal-paraphrase.txt": 2,
+        "cencos-transcripts.txt": 5,
+        "pcm_nsc-ud-train.conllu": 17,
+        "pcm_nsc-ud-dev.conllu": 4
+      },
+      "terms_counted": [
+        "elda",
+        "elder",
+        "elder dem"
+      ]
+    },
+    {
+      "entry_id": "sansan",
+      "standard_spelling": "sansan",
+      "total": 28,
+      "by_source": {
+        "cencos-transcripts.txt": 4,
+        "pcm_nsc-ud-train.conllu": 24
+      },
+      "terms_counted": [
+        "sansan",
+        "sand"
+      ]
+    },
+    {
+      "entry_id": "het",
+      "standard_spelling": "het",
+      "total": 26,
+      "by_source": {
+        "cencos-transcripts.txt": 9,
+        "pcm_nsc-ud-train.conllu": 17
+      },
+      "terms_counted": [
+        "het",
+        "hate"
+      ]
+    },
+    {
+      "entry_id": "eskep",
+      "standard_spelling": "eskep",
+      "total": 25,
+      "by_source": {
+        "cencos-transcripts.txt": 2,
+        "pcm_nsc-ud-train.conllu": 2,
+        "pcm_nsc-ud-dev.conllu": 10,
+        "pcm_nsc-ud-test.conllu": 11
+      },
+      "terms_counted": [
+        "eskep",
+        "escape"
+      ]
+    },
+    {
+      "entry_id": "mezho",
+      "standard_spelling": "mezho",
+      "total": 25,
+      "by_source": {
+        "pcm_nsc-ud-train.conllu": 25
+      },
+      "terms_counted": [
+        "mezho",
+        "measure"
+      ]
+    },
+    {
+      "entry_id": "old-man",
+      "standard_spelling": "old-man",
+      "total": 25,
+      "by_source": {
+        "ifra-informal-paraphrase.txt": 1,
+        "cencos-transcripts.txt": 1,
+        "pcm_nsc-ud-train.conllu": 7,
+        "pcm_nsc-ud-test.conllu": 16
+      },
+      "terms_counted": [
+        "old-man",
+        "old man"
+      ]
+    },
+    {
+      "entry_id": "taya",
+      "standard_spelling": "taya",
+      "total": 25,
+      "by_source": {
+        "cencos-transcripts.txt": 7,
+        "pcm_nsc-ud-train.conllu": 11,
+        "pcm_nsc-ud-dev.conllu": 7
+      },
+      "terms_counted": [
+        "taya",
+        "tired"
+      ]
+    },
+    {
+      "entry_id": "pati",
+      "standard_spelling": "pati",
+      "total": 23,
+      "by_source": {
+        "cencos-transcripts.txt": 2,
+        "pcm_nsc-ud-train.conllu": 21
+      },
+      "terms_counted": [
+        "pati",
+        "party"
+      ]
+    },
+    {
+      "entry_id": "gud-moning",
+      "standard_spelling": "gud moning",
+      "total": 22,
+      "by_source": {
+        "cencos-transcripts.txt": 1,
+        "pcm_nsc-ud-train.conllu": 21
+      },
+      "terms_counted": [
+        "gud moning",
+        "good morning"
+      ]
+    },
+    {
+      "entry_id": "che",
+      "standard_spelling": "che",
+      "total": 20,
+      "by_source": {
+        "cencos-transcripts.txt": 1,
+        "pcm_nsc-ud-train.conllu": 19
+      },
+      "terms_counted": [
+        "che",
+        "chair"
+      ]
+    },
+    {
+      "entry_id": "shapshap",
+      "standard_spelling": "shapshap",
+      "total": 20,
+      "by_source": {
+        "social-informal-01.txt": 1,
+        "social-informal-02.txt": 1,
+        "cencos-transcripts.txt": 1,
+        "pcm_nsc-ud-train.conllu": 16,
+        "pcm_nsc-ud-dev.conllu": 1
+      },
+      "terms_counted": [
+        "shapshap",
+        "sharp-sharp",
+        "sharp sharp"
+      ]
+    },
+    {
+      "entry_id": "strong-hed",
+      "standard_spelling": "strong-hed",
+      "total": 20,
+      "by_source": {
+        "cencos-transcripts.txt": 7,
+        "pcm_nsc-ud-train.conllu": 13
+      },
+      "terms_counted": [
+        "strong-hed",
+        "stubborn"
+      ]
+    },
+    {
+      "entry_id": "hus",
+      "standard_spelling": "hus",
+      "total": 18,
+      "by_source": {
+        "cencos-transcripts.txt": 1,
+        "pcm_nsc-ud-train.conllu": 14,
+        "pcm_nsc-ud-dev.conllu": 1,
+        "pcm_nsc-ud-test.conllu": 2
+      },
+      "terms_counted": [
+        "hus",
+        "whose"
+      ]
+    },
+    {
+      "entry_id": "welkom",
+      "standard_spelling": "welkom",
+      "total": 18,
+      "by_source": {
+        "cencos-transcripts.txt": 4,
+        "pcm_nsc-ud-train.conllu": 14
+      },
+      "terms_counted": [
+        "welkom",
+        "welcome"
+      ]
+    },
+    {
+      "entry_id": "draiva",
+      "standard_spelling": "draiva",
+      "total": 17,
+      "by_source": {
+        "cencos-transcripts.txt": 1,
+        "pcm_nsc-ud-train.conllu": 16
+      },
+      "terms_counted": [
+        "draiva",
+        "driver"
+      ]
+    },
+    {
+      "entry_id": "honta",
+      "standard_spelling": "honta",
+      "total": 16,
+      "by_source": {
+        "pcm_nsc-ud-train.conllu": 16
+      },
+      "terms_counted": [
+        "honta",
+        "hunter"
+      ]
+    },
+    {
+      "entry_id": "jara",
+      "standard_spelling": "jara",
+      "total": 16,
+      "by_source": {
+        "pcm_nsc-ud-train.conllu": 1,
+        "pcm_nsc-ud-dev.conllu": 5,
+        "pcm_nsc-ud-test.conllu": 10
+      },
+      "terms_counted": [
+        "jara",
+        "extra"
+      ]
+    },
+    {
+      "entry_id": "kwik-kwik",
+      "standard_spelling": "kwik kwik",
+      "total": 16,
+      "by_source": {
+        "pcm_nsc-ud-train.conllu": 14,
+        "pcm_nsc-ud-dev.conllu": 2
+      },
+      "terms_counted": [
+        "kwik kwik",
+        "quick quick",
+        "quick-quick"
+      ]
+    },
+    {
+      "entry_id": "woka",
+      "standard_spelling": "woka",
+      "total": 16,
+      "by_source": {
+        "pcm_nsc-ud-train.conllu": 10,
+        "pcm_nsc-ud-test.conllu": 6
+      },
+      "terms_counted": [
+        "woka",
+        "worker"
+      ]
+    },
+    {
+      "entry_id": "no-vex",
+      "standard_spelling": "no vex",
+      "total": 15,
+      "by_source": {
+        "cencos-transcripts.txt": 3,
+        "pcm_nsc-ud-train.conllu": 8,
+        "pcm_nsc-ud-dev.conllu": 4
+      },
+      "terms_counted": [
+        "no vex",
+        "no vex!",
+        "don't vex",
+        "don't be angry"
+      ]
+    },
+    {
+      "entry_id": "wetin-be-dis",
+      "standard_spelling": "wetin be dis",
+      "total": 15,
+      "by_source": {
+        "cencos-transcripts.txt": 3,
+        "pcm_nsc-ud-train.conllu": 11,
+        "pcm_nsc-ud-dev.conllu": 1
+      },
+      "terms_counted": [
+        "wetin be dis",
+        "weytin be dis",
+        "wetin be this",
+        "what is this"
+      ]
+    },
+    {
+      "entry_id": "gragra",
+      "standard_spelling": "gragra",
+      "total": 14,
+      "by_source": {
+        "pcm_nsc-ud-train.conllu": 14
+      },
+      "terms_counted": [
+        "gragra",
+        "hasty"
+      ]
+    },
+    {
+      "entry_id": "vidio",
+      "standard_spelling": "vidio",
+      "total": 14,
+      "by_source": {
+        "cencos-transcripts.txt": 8,
+        "pcm_nsc-ud-train.conllu": 6
+      },
+      "terms_counted": [
+        "vidio",
+        "video"
+      ]
+    },
+    {
+      "entry_id": "abeg-mek",
+      "standard_spelling": "abeg mek",
+      "total": 13,
+      "by_source": {
+        "social-informal-01.txt": 1,
+        "cencos-transcripts.txt": 1,
+        "pcm_nsc-ud-train.conllu": 11
+      },
+      "terms_counted": [
+        "abeg mek",
+        "abeg make",
+        "abegi make"
+      ]
+    },
+    {
+      "entry_id": "plantin",
+      "standard_spelling": "plantin",
+      "total": 13,
+      "by_source": {
+        "cencos-transcripts.txt": 1,
+        "pcm_nsc-ud-dev.conllu": 12
+      },
+      "terms_counted": [
+        "plantin",
+        "plantain"
+      ]
+    },
+    {
+      "entry_id": "kari-go",
+      "standard_spelling": "kari go",
+      "total": 12,
+      "by_source": {
+        "pcm_nsc-ud-train.conllu": 12
+      },
+      "terms_counted": [
+        "kari go",
+        "carry go",
+        "carry-go"
+      ]
+    },
+    {
+      "entry_id": "tolotolo",
+      "standard_spelling": "tolotolo",
+      "total": 12,
+      "by_source": {
+        "cencos-transcripts.txt": 1,
+        "pcm_nsc-ud-train.conllu": 6,
+        "pcm_nsc-ud-test.conllu": 5
+      },
+      "terms_counted": [
+        "tolotolo",
+        "turkey"
+      ]
+    },
+    {
+      "entry_id": "windo",
+      "standard_spelling": "windo",
+      "total": 12,
+      "by_source": {
+        "pcm_nsc-ud-train.conllu": 12
+      },
+      "terms_counted": [
+        "windo",
+        "window"
+      ]
+    },
+    {
+      "entry_id": "haw-yu-de",
+      "standard_spelling": "haw yu de",
+      "total": 11,
+      "by_source": {
+        "cencos-transcripts.txt": 3,
+        "pcm_nsc-ud-train.conllu": 8
+      },
+      "terms_counted": [
+        "haw yu de",
+        "how you dey"
+      ]
+    },
+    {
+      "entry_id": "yansh",
+      "standard_spelling": "yansh",
+      "total": 10,
+      "by_source": {
+        "cencos-transcripts.txt": 1,
+        "pcm_nsc-ud-train.conllu": 5,
+        "pcm_nsc-ud-dev.conllu": 4
+      },
+      "terms_counted": [
+        "yansh",
+        "nyash",
+        "ass"
+      ]
+    },
+    {
+      "entry_id": "yamayama",
+      "standard_spelling": "yamayama",
+      "total": 8,
+      "by_source": {
+        "pcm_nsc-ud-train.conllu": 2,
+        "pcm_nsc-ud-dev.conllu": 6
+      },
+      "terms_counted": [
+        "yamayama",
+        "yama yama"
+      ]
+    },
+    {
+      "entry_id": "yad",
+      "standard_spelling": "yad",
+      "total": 6,
+      "by_source": {
+        "social-informal-01.txt": 1,
+        "pcm_nsc-ud-train.conllu": 5
+      },
+      "terms_counted": [
+        "yad",
+        "yard"
+      ]
+    },
+    {
+      "entry_id": "brit",
+      "standard_spelling": "brit",
+      "total": 5,
+      "by_source": {
+        "pcm_nsc-ud-train.conllu": 5
+      },
+      "terms_counted": [
+        "brit",
+        "breathe"
+      ]
+    },
+    {
+      "entry_id": "briz",
+      "standard_spelling": "briz",
+      "total": 5,
+      "by_source": {
+        "pcm_nsc-ud-train.conllu": 5
+      },
+      "terms_counted": [
+        "briz",
+        "breath",
+        "breeze"
+      ]
+    },
+    {
+      "entry_id": "ogogoro",
+      "standard_spelling": "ogogoro",
+      "total": 4,
+      "by_source": {
+        "pcm_nsc-ud-train.conllu": 4
+      },
+      "terms_counted": [
+        "ogogoro",
+        "kai-kai"
+      ]
+    },
+    {
+      "entry_id": "chop-moni",
+      "standard_spelling": "chop-moni",
+      "total": 3,
+      "by_source": {
+        "cencos-transcripts.txt": 1,
+        "pcm_nsc-ud-test.conllu": 2
+      },
+      "terms_counted": [
+        "chop-moni",
+        "chop money"
+      ]
+    },
+    {
+      "entry_id": "moimoi",
+      "standard_spelling": "moimoi",
+      "total": 3,
+      "by_source": {
+        "social-informal-01.txt": 1,
+        "cencos-transcripts.txt": 2
+      },
+      "terms_counted": [
+        "moimoi",
+        "moi moi",
+        "moi-moi"
+      ]
+    },
+    {
+      "entry_id": "abeg-nau",
+      "standard_spelling": "abeg nau",
+      "total": 2,
+      "by_source": {
+        "pcm_nsc-ud-train.conllu": 2
+      },
+      "terms_counted": [
+        "abeg nau",
+        "abeg now",
+        "abeg nao"
+      ]
+    },
+    {
+      "entry_id": "neba",
+      "standard_spelling": "neba",
+      "total": 2,
+      "by_source": {
+        "cencos-transcripts.txt": 2
+      },
+      "terms_counted": [
+        "neba",
+        "neighbor"
+      ]
+    },
+    {
+      "entry_id": "noz",
+      "standard_spelling": "noz",
+      "total": 2,
+      "by_source": {
+        "cencos-transcripts.txt": 2
+      },
+      "terms_counted": [
+        "noz",
+        "nose"
+      ]
+    },
+    {
+      "entry_id": "gbagbati",
+      "standard_spelling": "gbagbati",
+      "total": 1,
+      "by_source": {
+        "pcm_nsc-ud-train.conllu": 1
+      },
+      "terms_counted": [
+        "gbagbati",
+        "troublesome"
+      ]
+    },
+    {
+      "entry_id": "hama",
+      "standard_spelling": "hama",
+      "total": 1,
+      "by_source": {
+        "cencos-transcripts.txt": 1
+      },
+      "terms_counted": [
+        "hama",
+        "hammer"
+      ]
+    },
+    {
+      "entry_id": "zink",
+      "standard_spelling": "zink",
+      "total": 1,
+      "by_source": {
+        "cencos-transcripts.txt": 1
+      },
+      "terms_counted": [
+        "zink",
+        "zinc"
+      ]
+    },
+    {
+      "entry_id": "akada",
+      "standard_spelling": "akada",
+      "total": 0,
+      "by_source": {},
+      "terms_counted": [
+        "akada",
+        "bookish"
+      ]
+    },
+    {
+      "entry_id": "baba-barber",
+      "standard_spelling": "bába",
+      "total": 0,
+      "by_source": {},
+      "terms_counted": [
+        "bába",
+        "barber"
+      ]
+    },
+    {
+      "entry_id": "baik-man",
+      "standard_spelling": "baik-man",
+      "total": 0,
+      "by_source": {},
+      "terms_counted": [
+        "baik-man",
+        "bike rider"
+      ]
+    },
+    {
+      "entry_id": "bush-mit",
+      "standard_spelling": "bush-mit",
+      "total": 0,
+      "by_source": {},
+      "terms_counted": [
+        "bush-mit",
+        "bush meat"
+      ]
+    },
+    {
+      "entry_id": "chukuchuku",
+      "standard_spelling": "chukuchuku",
+      "total": 0,
+      "by_source": {},
+      "terms_counted": [
+        "chukuchuku",
+        "thorns"
+      ]
+    },
+    {
+      "entry_id": "e-choke",
+      "standard_spelling": "e choke",
+      "total": 0,
+      "by_source": {},
+      "terms_counted": [
+        "e choke",
+        "e choke!",
+        "echoke"
+      ]
+    },
+    {
+      "entry_id": "gud-nait",
+      "standard_spelling": "gud nait",
+      "total": 0,
+      "by_source": {},
+      "terms_counted": [
+        "gud nait",
+        "good night"
+      ]
+    },
+    {
+      "entry_id": "lori",
+      "standard_spelling": "lori",
+      "total": 0,
+      "by_source": {},
+      "terms_counted": [
+        "lori",
+        "truck",
+        "lorry"
+      ]
+    },
+    {
+      "entry_id": "majishan",
+      "standard_spelling": "majishan",
+      "total": 0,
+      "by_source": {},
+      "terms_counted": [
+        "majishan",
+        "magician"
+      ]
+    },
+    {
+      "entry_id": "potopoto",
+      "standard_spelling": "potopoto",
+      "total": 0,
+      "by_source": {},
+      "terms_counted": [
+        "potopoto",
+        "mud"
+      ]
+    },
+    {
+      "entry_id": "skeletin",
+      "standard_spelling": "skeletin",
+      "total": 0,
+      "by_source": {},
+      "terms_counted": [
+        "skeletin",
+        "skeleton"
+      ]
+    },
+    {
+      "entry_id": "smoka",
+      "standard_spelling": "smoka",
+      "total": 0,
+      "by_source": {},
+      "terms_counted": [
+        "smoka",
+        "smoker"
+      ]
+    },
+    {
+      "entry_id": "sote",
+      "standard_spelling": "soteé",
+      "total": 0,
+      "by_source": {},
+      "terms_counted": [
+        "soteé",
+        "sote",
+        "soteh"
+      ]
+    },
+    {
+      "entry_id": "spie",
+      "standard_spelling": "spie",
+      "total": 0,
+      "by_source": {},
+      "terms_counted": [
+        "spie",
+        "spear"
+      ]
+    }
+  ]
+}

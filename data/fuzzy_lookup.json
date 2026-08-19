@@ -1,0 +1,2678 @@
+{
+  "max_distance": 2,
+  "generated_from": "data\\variant_index.json",
+  "terms": [
+    {
+      "term": "1",
+      "id": "wan"
+    },
+    {
+      "term": "9ja",
+      "id": "naija"
+    },
+    {
+      "term": "abeg",
+      "id": "abeg"
+    },
+    {
+      "term": "abeg make",
+      "id": "abeg-mek"
+    },
+    {
+      "term": "abeg mek",
+      "id": "abeg-mek"
+    },
+    {
+      "term": "abeg nao",
+      "id": "abeg-nau"
+    },
+    {
+      "term": "abeg nau",
+      "id": "abeg-nau"
+    },
+    {
+      "term": "abeg now",
+      "id": "abeg-nau"
+    },
+    {
+      "term": "abegi",
+      "id": "abeg"
+    },
+    {
+      "term": "abegi make",
+      "id": "abeg-mek"
+    },
+    {
+      "term": "abi",
+      "id": "abi"
+    },
+    {
+      "term": "afta",
+      "id": "afta"
+    },
+    {
+      "term": "after",
+      "id": "afta"
+    },
+    {
+      "term": "ai",
+      "id": "ai"
+    },
+    {
+      "term": "akada",
+      "id": "akada"
+    },
+    {
+      "term": "akara",
+      "id": "akara"
+    },
+    {
+      "term": "akara-wuman",
+      "id": "akara-wuman"
+    },
+    {
+      "term": "all",
+      "id": "ol"
+    },
+    {
+      "term": "already",
+      "id": "don"
+    },
+    {
+      "term": "am",
+      "id": "im"
+    },
+    {
+      "term": "angri",
+      "id": "angri"
+    },
+    {
+      "term": "angry",
+      "id": "angri"
+    },
+    {
+      "term": "anima",
+      "id": "anima"
+    },
+    {
+      "term": "animal",
+      "id": "anima"
+    },
+    {
+      "term": "ans",
+      "id": "ans"
+    },
+    {
+      "term": "answer",
+      "id": "ans"
+    },
+    {
+      "term": "anybody",
+      "id": "enibodi"
+    },
+    {
+      "term": "anyone",
+      "id": "enibodi"
+    },
+    {
+      "term": "ask",
+      "id": "ask"
+    },
+    {
+      "term": "ass",
+      "id": "yansh"
+    },
+    {
+      "term": "baba",
+      "id": "baba"
+    },
+    {
+      "term": "bad",
+      "id": "bad"
+    },
+    {
+      "term": "bad bad",
+      "id": "bad-bad"
+    },
+    {
+      "term": "bad-bad",
+      "id": "bad-bad"
+    },
+    {
+      "term": "baik",
+      "id": "baik"
+    },
+    {
+      "term": "baik-man",
+      "id": "baik-man"
+    },
+    {
+      "term": "barber",
+      "id": "baba-barber"
+    },
+    {
+      "term": "beautiful",
+      "id": "fain"
+    },
+    {
+      "term": "because",
+      "id": "bikos"
+    },
+    {
+      "term": "becos",
+      "id": "bikos"
+    },
+    {
+      "term": "bed",
+      "id": "bed"
+    },
+    {
+      "term": "before",
+      "id": "bifo"
+    },
+    {
+      "term": "begin",
+      "id": "bigin"
+    },
+    {
+      "term": "belle",
+      "id": "belle"
+    },
+    {
+      "term": "belly",
+      "id": "belle"
+    },
+    {
+      "term": "bifo",
+      "id": "bifo"
+    },
+    {
+      "term": "big",
+      "id": "big"
+    },
+    {
+      "term": "bigin",
+      "id": "bigin"
+    },
+    {
+      "term": "bike",
+      "id": "baik"
+    },
+    {
+      "term": "bike rider",
+      "id": "baik-man"
+    },
+    {
+      "term": "bikos",
+      "id": "bikos"
+    },
+    {
+      "term": "boi",
+      "id": "boi"
+    },
+    {
+      "term": "bon",
+      "id": "bon"
+    },
+    {
+      "term": "bone",
+      "id": "bon"
+    },
+    {
+      "term": "book",
+      "id": "buk"
+    },
+    {
+      "term": "bookish",
+      "id": "akada"
+    },
+    {
+      "term": "bor",
+      "id": "bor"
+    },
+    {
+      "term": "borrow",
+      "id": "bor"
+    },
+    {
+      "term": "bot",
+      "id": "bot"
+    },
+    {
+      "term": "boy",
+      "id": "boi"
+    },
+    {
+      "term": "breath",
+      "id": "briz"
+    },
+    {
+      "term": "breathe",
+      "id": "brit"
+    },
+    {
+      "term": "breeze",
+      "id": "briz"
+    },
+    {
+      "term": "brit",
+      "id": "brit"
+    },
+    {
+      "term": "briz",
+      "id": "briz"
+    },
+    {
+      "term": "bro",
+      "id": "broda"
+    },
+    {
+      "term": "broda",
+      "id": "broda"
+    },
+    {
+      "term": "brother",
+      "id": "broda"
+    },
+    {
+      "term": "buk",
+      "id": "buk"
+    },
+    {
+      "term": "bush",
+      "id": "bush"
+    },
+    {
+      "term": "bush meat",
+      "id": "bush-mit"
+    },
+    {
+      "term": "bush-mit",
+      "id": "bush-mit"
+    },
+    {
+      "term": "but",
+      "id": "bot"
+    },
+    {
+      "term": "buy",
+      "id": "buy"
+    },
+    {
+      "term": "bába",
+      "id": "baba-barber"
+    },
+    {
+      "term": "can",
+      "id": "fit"
+    },
+    {
+      "term": "car",
+      "id": "moto"
+    },
+    {
+      "term": "carry",
+      "id": "kari"
+    },
+    {
+      "term": "carry go",
+      "id": "kari-go"
+    },
+    {
+      "term": "carry-go",
+      "id": "kari-go"
+    },
+    {
+      "term": "cash",
+      "id": "kach"
+    },
+    {
+      "term": "catch",
+      "id": "kach"
+    },
+    {
+      "term": "chair",
+      "id": "che"
+    },
+    {
+      "term": "che",
+      "id": "che"
+    },
+    {
+      "term": "children-dem",
+      "id": "pikin"
+    },
+    {
+      "term": "chop",
+      "id": "chop"
+    },
+    {
+      "term": "chop money",
+      "id": "chop-moni"
+    },
+    {
+      "term": "chop-moni",
+      "id": "chop-moni"
+    },
+    {
+      "term": "chosh",
+      "id": "chosh"
+    },
+    {
+      "term": "chukuchuku",
+      "id": "chukuchuku"
+    },
+    {
+      "term": "church",
+      "id": "chosh"
+    },
+    {
+      "term": "close",
+      "id": "kloz"
+    },
+    {
+      "term": "cold",
+      "id": "kol"
+    },
+    {
+      "term": "com",
+      "id": "kom"
+    },
+    {
+      "term": "come",
+      "id": "kom"
+    },
+    {
+      "term": "cook",
+      "id": "kuk"
+    },
+    {
+      "term": "correct",
+      "id": "koret"
+    },
+    {
+      "term": "cry",
+      "id": "krai"
+    },
+    {
+      "term": "dad",
+      "id": "papa"
+    },
+    {
+      "term": "dai",
+      "id": "dai"
+    },
+    {
+      "term": "dan",
+      "id": "dan"
+    },
+    {
+      "term": "dance",
+      "id": "dan"
+    },
+    {
+      "term": "dat",
+      "id": "dat"
+    },
+    {
+      "term": "day",
+      "id": "dei"
+    },
+    {
+      "term": "de",
+      "id": "di"
+    },
+    {
+      "term": "deh",
+      "id": "de"
+    },
+    {
+      "term": "dei",
+      "id": "dei"
+    },
+    {
+      "term": "dem",
+      "id": "dem"
+    },
+    {
+      "term": "deme",
+      "id": "dem"
+    },
+    {
+      "term": "dey",
+      "id": "de-copula"
+    },
+    {
+      "term": "di",
+      "id": "di"
+    },
+    {
+      "term": "die",
+      "id": "dai"
+    },
+    {
+      "term": "dis",
+      "id": "dis"
+    },
+    {
+      "term": "dise",
+      "id": "dis"
+    },
+    {
+      "term": "do",
+      "id": "du"
+    },
+    {
+      "term": "doctor",
+      "id": "dokta"
+    },
+    {
+      "term": "dodo",
+      "id": "dodo"
+    },
+    {
+      "term": "dokta",
+      "id": "dokta"
+    },
+    {
+      "term": "don",
+      "id": "don"
+    },
+    {
+      "term": "don't be angry",
+      "id": "no-vex"
+    },
+    {
+      "term": "don't vex",
+      "id": "no-vex"
+    },
+    {
+      "term": "door",
+      "id": "do"
+    },
+    {
+      "term": "draiv",
+      "id": "draiv"
+    },
+    {
+      "term": "draiva",
+      "id": "draiva"
+    },
+    {
+      "term": "drive",
+      "id": "draiv"
+    },
+    {
+      "term": "driver",
+      "id": "draiva"
+    },
+    {
+      "term": "dro",
+      "id": "dro"
+    },
+    {
+      "term": "drop",
+      "id": "dro"
+    },
+    {
+      "term": "du",
+      "id": "du"
+    },
+    {
+      "term": "dé",
+      "id": "de-copula"
+    },
+    {
+      "term": "e",
+      "id": "e"
+    },
+    {
+      "term": "e choke",
+      "id": "e-choke"
+    },
+    {
+      "term": "e choke!",
+      "id": "e-choke"
+    },
+    {
+      "term": "eat",
+      "id": "chop"
+    },
+    {
+      "term": "echoke",
+      "id": "e-choke"
+    },
+    {
+      "term": "elda",
+      "id": "elda"
+    },
+    {
+      "term": "elder",
+      "id": "elda"
+    },
+    {
+      "term": "elder dem",
+      "id": "elda"
+    },
+    {
+      "term": "enibodi",
+      "id": "enibodi"
+    },
+    {
+      "term": "escape",
+      "id": "eskep"
+    },
+    {
+      "term": "eskep",
+      "id": "eskep"
+    },
+    {
+      "term": "even",
+      "id": "ivun"
+    },
+    {
+      "term": "every",
+      "id": "evri"
+    },
+    {
+      "term": "everybody",
+      "id": "evribodi"
+    },
+    {
+      "term": "evri",
+      "id": "evri"
+    },
+    {
+      "term": "evribodi",
+      "id": "evribodi"
+    },
+    {
+      "term": "extra",
+      "id": "jara"
+    },
+    {
+      "term": "eye",
+      "id": "ai"
+    },
+    {
+      "term": "fai",
+      "id": "fai"
+    },
+    {
+      "term": "fail",
+      "id": "feil"
+    },
+    {
+      "term": "fain",
+      "id": "find"
+    },
+    {
+      "term": "fake",
+      "id": "fals"
+    },
+    {
+      "term": "fals",
+      "id": "fals"
+    },
+    {
+      "term": "false",
+      "id": "fals"
+    },
+    {
+      "term": "famili",
+      "id": "famili"
+    },
+    {
+      "term": "family",
+      "id": "famili"
+    },
+    {
+      "term": "fast",
+      "id": "kwik"
+    },
+    {
+      "term": "father",
+      "id": "papa"
+    },
+    {
+      "term": "faya",
+      "id": "faya"
+    },
+    {
+      "term": "feil",
+      "id": "feil"
+    },
+    {
+      "term": "fest",
+      "id": "fest"
+    },
+    {
+      "term": "fet",
+      "id": "fet"
+    },
+    {
+      "term": "fetch",
+      "id": "fet"
+    },
+    {
+      "term": "fight",
+      "id": "fai"
+    },
+    {
+      "term": "find",
+      "id": "find"
+    },
+    {
+      "term": "fine",
+      "id": "fain"
+    },
+    {
+      "term": "fini",
+      "id": "fini"
+    },
+    {
+      "term": "finish",
+      "id": "fini"
+    },
+    {
+      "term": "fire",
+      "id": "faya"
+    },
+    {
+      "term": "first",
+      "id": "fest"
+    },
+    {
+      "term": "fit",
+      "id": "fit"
+    },
+    {
+      "term": "flesh",
+      "id": "flesh"
+    },
+    {
+      "term": "fo",
+      "id": "fó"
+    },
+    {
+      "term": "foget",
+      "id": "foget"
+    },
+    {
+      "term": "follow",
+      "id": "folo"
+    },
+    {
+      "term": "folo",
+      "id": "folo"
+    },
+    {
+      "term": "fona",
+      "id": "fona"
+    },
+    {
+      "term": "food",
+      "id": "fud"
+    },
+    {
+      "term": "foot",
+      "id": "leg"
+    },
+    {
+      "term": "for",
+      "id": "fo"
+    },
+    {
+      "term": "forget",
+      "id": "foget"
+    },
+    {
+      "term": "four",
+      "id": "fó"
+    },
+    {
+      "term": "free",
+      "id": "fri"
+    },
+    {
+      "term": "fren",
+      "id": "fren"
+    },
+    {
+      "term": "fri",
+      "id": "fri"
+    },
+    {
+      "term": "friend",
+      "id": "fren"
+    },
+    {
+      "term": "from",
+      "id": "from"
+    },
+    {
+      "term": "fud",
+      "id": "fud"
+    },
+    {
+      "term": "fó",
+      "id": "fó"
+    },
+    {
+      "term": "gari",
+      "id": "garri"
+    },
+    {
+      "term": "garri",
+      "id": "garri"
+    },
+    {
+      "term": "gave",
+      "id": "giv"
+    },
+    {
+      "term": "gbagbati",
+      "id": "gbagbati"
+    },
+    {
+      "term": "gel",
+      "id": "gel"
+    },
+    {
+      "term": "get",
+      "id": "get"
+    },
+    {
+      "term": "gift",
+      "id": "gift"
+    },
+    {
+      "term": "girl",
+      "id": "gel"
+    },
+    {
+      "term": "gist",
+      "id": "gist"
+    },
+    {
+      "term": "giv",
+      "id": "giv"
+    },
+    {
+      "term": "give",
+      "id": "giv"
+    },
+    {
+      "term": "go",
+      "id": "go"
+    },
+    {
+      "term": "good",
+      "id": "gud"
+    },
+    {
+      "term": "good afternoon",
+      "id": "gud-afternoon"
+    },
+    {
+      "term": "good morning",
+      "id": "gud-moning"
+    },
+    {
+      "term": "good night",
+      "id": "gud-nait"
+    },
+    {
+      "term": "gossip",
+      "id": "gist"
+    },
+    {
+      "term": "got",
+      "id": "get"
+    },
+    {
+      "term": "gragra",
+      "id": "gragra"
+    },
+    {
+      "term": "graund",
+      "id": "graund"
+    },
+    {
+      "term": "ground",
+      "id": "graund"
+    },
+    {
+      "term": "gud",
+      "id": "gud"
+    },
+    {
+      "term": "gud aftanun",
+      "id": "gud-afternoon"
+    },
+    {
+      "term": "gud moning",
+      "id": "gud-moning"
+    },
+    {
+      "term": "gud nait",
+      "id": "gud-nait"
+    },
+    {
+      "term": "guy",
+      "id": "man"
+    },
+    {
+      "term": "gó",
+      "id": "go-past"
+    },
+    {
+      "term": "hama",
+      "id": "hama"
+    },
+    {
+      "term": "hammer",
+      "id": "hama"
+    },
+    {
+      "term": "han",
+      "id": "han"
+    },
+    {
+      "term": "hand",
+      "id": "han"
+    },
+    {
+      "term": "hapi",
+      "id": "hapi"
+    },
+    {
+      "term": "happy",
+      "id": "hapi"
+    },
+    {
+      "term": "hasty",
+      "id": "gragra"
+    },
+    {
+      "term": "hate",
+      "id": "het"
+    },
+    {
+      "term": "haus",
+      "id": "haus"
+    },
+    {
+      "term": "haw",
+      "id": "haw"
+    },
+    {
+      "term": "haw far",
+      "id": "haw-far"
+    },
+    {
+      "term": "haw yu de",
+      "id": "haw-yu-de"
+    },
+    {
+      "term": "head",
+      "id": "hed"
+    },
+    {
+      "term": "hebi",
+      "id": "abi"
+    },
+    {
+      "term": "hed",
+      "id": "hed"
+    },
+    {
+      "term": "help",
+      "id": "help"
+    },
+    {
+      "term": "her",
+      "id": "im"
+    },
+    {
+      "term": "herself",
+      "id": "huself"
+    },
+    {
+      "term": "het",
+      "id": "het"
+    },
+    {
+      "term": "him",
+      "id": "im"
+    },
+    {
+      "term": "himself",
+      "id": "huself"
+    },
+    {
+      "term": "hit",
+      "id": "nak"
+    },
+    {
+      "term": "hol",
+      "id": "hol"
+    },
+    {
+      "term": "hold",
+      "id": "hol"
+    },
+    {
+      "term": "home",
+      "id": "haus"
+    },
+    {
+      "term": "honta",
+      "id": "honta"
+    },
+    {
+      "term": "hospital",
+      "id": "ospitul"
+    },
+    {
+      "term": "hot",
+      "id": "hot"
+    },
+    {
+      "term": "house",
+      "id": "haus"
+    },
+    {
+      "term": "how",
+      "id": "haw"
+    },
+    {
+      "term": "how far",
+      "id": "haw-far"
+    },
+    {
+      "term": "how you dey",
+      "id": "haw-far"
+    },
+    {
+      "term": "hunter",
+      "id": "honta"
+    },
+    {
+      "term": "hus",
+      "id": "hus"
+    },
+    {
+      "term": "huself",
+      "id": "huself"
+    },
+    {
+      "term": "I",
+      "id": "i"
+    },
+    {
+      "term": "i",
+      "id": "i"
+    },
+    {
+      "term": "I can't",
+      "id": "i-no-fit"
+    },
+    {
+      "term": "i cannot",
+      "id": "i-no-fit"
+    },
+    {
+      "term": "I de kom",
+      "id": "i-de-kom"
+    },
+    {
+      "term": "I dey come",
+      "id": "i-de-kom"
+    },
+    {
+      "term": "i dey come",
+      "id": "i-de-kom"
+    },
+    {
+      "term": "I don't know",
+      "id": "i-no-sabi"
+    },
+    {
+      "term": "i don't know",
+      "id": "i-no-sabi"
+    },
+    {
+      "term": "I no fit",
+      "id": "i-no-fit"
+    },
+    {
+      "term": "i no fit",
+      "id": "i-no-fit"
+    },
+    {
+      "term": "I no sabi",
+      "id": "i-no-sabi"
+    },
+    {
+      "term": "i no sabi",
+      "id": "i-no-sabi"
+    },
+    {
+      "term": "I'm coming",
+      "id": "i-de-kom"
+    },
+    {
+      "term": "if",
+      "id": "if"
+    },
+    {
+      "term": "im",
+      "id": "im"
+    },
+    {
+      "term": "in",
+      "id": "in"
+    },
+    {
+      "term": "insaid",
+      "id": "insaid"
+    },
+    {
+      "term": "inside",
+      "id": "in"
+    },
+    {
+      "term": "insult",
+      "id": "insult"
+    },
+    {
+      "term": "ivun",
+      "id": "ivun"
+    },
+    {
+      "term": "jara",
+      "id": "jara"
+    },
+    {
+      "term": "job",
+      "id": "wok-job"
+    },
+    {
+      "term": "juju",
+      "id": "juju"
+    },
+    {
+      "term": "kach",
+      "id": "kach"
+    },
+    {
+      "term": "kai-kai",
+      "id": "ogogoro"
+    },
+    {
+      "term": "kainkain",
+      "id": "kainkain"
+    },
+    {
+      "term": "kari",
+      "id": "kari"
+    },
+    {
+      "term": "kari go",
+      "id": "kari-go"
+    },
+    {
+      "term": "kloz",
+      "id": "kloz"
+    },
+    {
+      "term": "knock",
+      "id": "nak"
+    },
+    {
+      "term": "know",
+      "id": "sabi"
+    },
+    {
+      "term": "kol",
+      "id": "kol"
+    },
+    {
+      "term": "kom",
+      "id": "kom"
+    },
+    {
+      "term": "kon",
+      "id": "kom"
+    },
+    {
+      "term": "koret",
+      "id": "koret"
+    },
+    {
+      "term": "kpangolo",
+      "id": "kpangolo"
+    },
+    {
+      "term": "krai",
+      "id": "krai"
+    },
+    {
+      "term": "krokro",
+      "id": "krokro"
+    },
+    {
+      "term": "kuk",
+      "id": "kuk"
+    },
+    {
+      "term": "kwik",
+      "id": "kwik"
+    },
+    {
+      "term": "kwik kwik",
+      "id": "kwik-kwik"
+    },
+    {
+      "term": "laf",
+      "id": "laf"
+    },
+    {
+      "term": "Lagos",
+      "id": "legos"
+    },
+    {
+      "term": "laif",
+      "id": "laif"
+    },
+    {
+      "term": "lait",
+      "id": "lait"
+    },
+    {
+      "term": "laugh",
+      "id": "laf"
+    },
+    {
+      "term": "learn",
+      "id": "len"
+    },
+    {
+      "term": "leg",
+      "id": "leg"
+    },
+    {
+      "term": "Legos",
+      "id": "legos"
+    },
+    {
+      "term": "len",
+      "id": "len"
+    },
+    {
+      "term": "lend",
+      "id": "lend"
+    },
+    {
+      "term": "let",
+      "id": "mek"
+    },
+    {
+      "term": "life",
+      "id": "laif"
+    },
+    {
+      "term": "light",
+      "id": "lait"
+    },
+    {
+      "term": "long",
+      "id": "long"
+    },
+    {
+      "term": "look",
+      "id": "luk"
+    },
+    {
+      "term": "lori",
+      "id": "lori"
+    },
+    {
+      "term": "lorry",
+      "id": "lori"
+    },
+    {
+      "term": "lose",
+      "id": "luz"
+    },
+    {
+      "term": "lov",
+      "id": "lov"
+    },
+    {
+      "term": "love",
+      "id": "lov"
+    },
+    {
+      "term": "luk",
+      "id": "luk"
+    },
+    {
+      "term": "luz",
+      "id": "luz"
+    },
+    {
+      "term": "magician",
+      "id": "majishan"
+    },
+    {
+      "term": "majishan",
+      "id": "majishan"
+    },
+    {
+      "term": "make",
+      "id": "mek"
+    },
+    {
+      "term": "mama",
+      "id": "mama"
+    },
+    {
+      "term": "man",
+      "id": "man"
+    },
+    {
+      "term": "market",
+      "id": "market"
+    },
+    {
+      "term": "maut",
+      "id": "maut"
+    },
+    {
+      "term": "measure",
+      "id": "mezho"
+    },
+    {
+      "term": "mek",
+      "id": "mek"
+    },
+    {
+      "term": "mey",
+      "id": "mek"
+    },
+    {
+      "term": "mezho",
+      "id": "mezho"
+    },
+    {
+      "term": "moi moi",
+      "id": "moimoi"
+    },
+    {
+      "term": "moi-moi",
+      "id": "moimoi"
+    },
+    {
+      "term": "moimoi",
+      "id": "moimoi"
+    },
+    {
+      "term": "mom",
+      "id": "mama"
+    },
+    {
+      "term": "money",
+      "id": "moni"
+    },
+    {
+      "term": "moni",
+      "id": "moni"
+    },
+    {
+      "term": "month",
+      "id": "munt"
+    },
+    {
+      "term": "mother",
+      "id": "mama"
+    },
+    {
+      "term": "moto",
+      "id": "moto"
+    },
+    {
+      "term": "mouth",
+      "id": "maut"
+    },
+    {
+      "term": "mud",
+      "id": "potopoto"
+    },
+    {
+      "term": "munt",
+      "id": "munt"
+    },
+    {
+      "term": "na",
+      "id": "na"
+    },
+    {
+      "term": "na so",
+      "id": "na-so"
+    },
+    {
+      "term": "na so!",
+      "id": "na-so"
+    },
+    {
+      "term": "Naija",
+      "id": "naija"
+    },
+    {
+      "term": "Naija Pidgin",
+      "id": "naija"
+    },
+    {
+      "term": "Naijá",
+      "id": "naija"
+    },
+    {
+      "term": "nait",
+      "id": "nait"
+    },
+    {
+      "term": "nak",
+      "id": "nak"
+    },
+    {
+      "term": "nau",
+      "id": "nau"
+    },
+    {
+      "term": "naw",
+      "id": "nau"
+    },
+    {
+      "term": "naww",
+      "id": "nau"
+    },
+    {
+      "term": "neba",
+      "id": "neba"
+    },
+    {
+      "term": "need",
+      "id": "nid"
+    },
+    {
+      "term": "neighbor",
+      "id": "neba"
+    },
+    {
+      "term": "neva",
+      "id": "neva"
+    },
+    {
+      "term": "never",
+      "id": "neva"
+    },
+    {
+      "term": "new",
+      "id": "nyu"
+    },
+    {
+      "term": "nid",
+      "id": "nid"
+    },
+    {
+      "term": "Niger",
+      "id": "naija-river"
+    },
+    {
+      "term": "night",
+      "id": "nait"
+    },
+    {
+      "term": "no",
+      "id": "no"
+    },
+    {
+      "term": "no problem",
+      "id": "no-wahala"
+    },
+    {
+      "term": "no vex",
+      "id": "no-vex"
+    },
+    {
+      "term": "no vex!",
+      "id": "no-vex"
+    },
+    {
+      "term": "no wahala",
+      "id": "no-wahala"
+    },
+    {
+      "term": "noni",
+      "id": "moni"
+    },
+    {
+      "term": "nose",
+      "id": "noz"
+    },
+    {
+      "term": "not",
+      "id": "no"
+    },
+    {
+      "term": "nothing",
+      "id": "notin"
+    },
+    {
+      "term": "notin",
+      "id": "notin"
+    },
+    {
+      "term": "now",
+      "id": "nau"
+    },
+    {
+      "term": "noz",
+      "id": "noz"
+    },
+    {
+      "term": "nutin",
+      "id": "notin"
+    },
+    {
+      "term": "nyash",
+      "id": "yansh"
+    },
+    {
+      "term": "nyu",
+      "id": "nyu"
+    },
+    {
+      "term": "o",
+      "id": "o"
+    },
+    {
+      "term": "ogogoro",
+      "id": "ogogoro"
+    },
+    {
+      "term": "ol",
+      "id": "ol"
+    },
+    {
+      "term": "old",
+      "id": "olt"
+    },
+    {
+      "term": "old man",
+      "id": "old-man"
+    },
+    {
+      "term": "old-man",
+      "id": "old-man"
+    },
+    {
+      "term": "olt",
+      "id": "olt"
+    },
+    {
+      "term": "on",
+      "id": "on"
+    },
+    {
+      "term": "one",
+      "id": "wan"
+    },
+    {
+      "term": "onli",
+      "id": "onli"
+    },
+    {
+      "term": "only",
+      "id": "onli"
+    },
+    {
+      "term": "open",
+      "id": "opun"
+    },
+    {
+      "term": "opun",
+      "id": "opun"
+    },
+    {
+      "term": "opun-ai",
+      "id": "opun-ai"
+    },
+    {
+      "term": "ospitul",
+      "id": "ospitul"
+    },
+    {
+      "term": "papa",
+      "id": "papa"
+    },
+    {
+      "term": "paper",
+      "id": "pepa"
+    },
+    {
+      "term": "party",
+      "id": "pati"
+    },
+    {
+      "term": "pas",
+      "id": "pas"
+    },
+    {
+      "term": "pass",
+      "id": "pas"
+    },
+    {
+      "term": "pati",
+      "id": "pati"
+    },
+    {
+      "term": "pay",
+      "id": "pay"
+    },
+    {
+      "term": "pekin",
+      "id": "pikin"
+    },
+    {
+      "term": "pen",
+      "id": "pen"
+    },
+    {
+      "term": "people",
+      "id": "pipul"
+    },
+    {
+      "term": "people-dem",
+      "id": "pipul"
+    },
+    {
+      "term": "pepa",
+      "id": "pepa"
+    },
+    {
+      "term": "pesin",
+      "id": "pipul"
+    },
+    {
+      "term": "phone",
+      "id": "fona"
+    },
+    {
+      "term": "pic",
+      "id": "pik"
+    },
+    {
+      "term": "pick",
+      "id": "pik"
+    },
+    {
+      "term": "pickin",
+      "id": "pikin"
+    },
+    {
+      "term": "pickin dem",
+      "id": "pikin"
+    },
+    {
+      "term": "pik",
+      "id": "pik"
+    },
+    {
+      "term": "pikin",
+      "id": "pikin"
+    },
+    {
+      "term": "pikin dem",
+      "id": "pikin"
+    },
+    {
+      "term": "pikinn",
+      "id": "pikin"
+    },
+    {
+      "term": "pipo",
+      "id": "pipul"
+    },
+    {
+      "term": "pipol",
+      "id": "pipul"
+    },
+    {
+      "term": "pipul",
+      "id": "pipul"
+    },
+    {
+      "term": "plantain",
+      "id": "plantin"
+    },
+    {
+      "term": "plantin",
+      "id": "plantin"
+    },
+    {
+      "term": "play",
+      "id": "ple"
+    },
+    {
+      "term": "ple",
+      "id": "ple"
+    },
+    {
+      "term": "please",
+      "id": "abeg"
+    },
+    {
+      "term": "plis",
+      "id": "plis"
+    },
+    {
+      "term": "pls",
+      "id": "plis"
+    },
+    {
+      "term": "police",
+      "id": "polis"
+    },
+    {
+      "term": "polis",
+      "id": "polis"
+    },
+    {
+      "term": "poo",
+      "id": "poo"
+    },
+    {
+      "term": "poor",
+      "id": "poo"
+    },
+    {
+      "term": "potopoto",
+      "id": "potopoto"
+    },
+    {
+      "term": "present",
+      "id": "gift"
+    },
+    {
+      "term": "problem",
+      "id": "wahala"
+    },
+    {
+      "term": "put",
+      "id": "put"
+    },
+    {
+      "term": "quick",
+      "id": "kwik"
+    },
+    {
+      "term": "quick quick",
+      "id": "kwik-kwik"
+    },
+    {
+      "term": "quick-quick",
+      "id": "kwik-kwik"
+    },
+    {
+      "term": "read",
+      "id": "rid"
+    },
+    {
+      "term": "really",
+      "id": "trutru"
+    },
+    {
+      "term": "remember",
+      "id": "rimemba"
+    },
+    {
+      "term": "respect",
+      "id": "respekt"
+    },
+    {
+      "term": "respekt",
+      "id": "respekt"
+    },
+    {
+      "term": "rich",
+      "id": "rich"
+    },
+    {
+      "term": "rid",
+      "id": "rid"
+    },
+    {
+      "term": "right",
+      "id": "koret"
+    },
+    {
+      "term": "rili",
+      "id": "rili"
+    },
+    {
+      "term": "rimemba",
+      "id": "rimemba"
+    },
+    {
+      "term": "rit",
+      "id": "rit"
+    },
+    {
+      "term": "road",
+      "id": "rod"
+    },
+    {
+      "term": "rod",
+      "id": "rod"
+    },
+    {
+      "term": "ron",
+      "id": "ron"
+    },
+    {
+      "term": "rong",
+      "id": "rong"
+    },
+    {
+      "term": "room",
+      "id": "rum"
+    },
+    {
+      "term": "rum",
+      "id": "rum"
+    },
+    {
+      "term": "run",
+      "id": "ron"
+    },
+    {
+      "term": "sabe",
+      "id": "sabi"
+    },
+    {
+      "term": "sabi",
+      "id": "sabi"
+    },
+    {
+      "term": "sad",
+      "id": "sad"
+    },
+    {
+      "term": "sand",
+      "id": "sansan"
+    },
+    {
+      "term": "sansan",
+      "id": "sansan"
+    },
+    {
+      "term": "say",
+      "id": "se"
+    },
+    {
+      "term": "school",
+      "id": "skul"
+    },
+    {
+      "term": "se",
+      "id": "se"
+    },
+    {
+      "term": "second",
+      "id": "sekond"
+    },
+    {
+      "term": "see",
+      "id": "si"
+    },
+    {
+      "term": "sekond",
+      "id": "sekond"
+    },
+    {
+      "term": "sel",
+      "id": "sel"
+    },
+    {
+      "term": "sell",
+      "id": "sel"
+    },
+    {
+      "term": "senior",
+      "id": "sinio"
+    },
+    {
+      "term": "sey",
+      "id": "se"
+    },
+    {
+      "term": "sha",
+      "id": "sha"
+    },
+    {
+      "term": "shake",
+      "id": "shek"
+    },
+    {
+      "term": "shapshap",
+      "id": "shapshap"
+    },
+    {
+      "term": "sharp sharp",
+      "id": "shapshap"
+    },
+    {
+      "term": "sharp-sharp",
+      "id": "shapshap"
+    },
+    {
+      "term": "shebi",
+      "id": "abi"
+    },
+    {
+      "term": "shek",
+      "id": "shek"
+    },
+    {
+      "term": "shey",
+      "id": "abi"
+    },
+    {
+      "term": "shop",
+      "id": "shop"
+    },
+    {
+      "term": "short",
+      "id": "shot"
+    },
+    {
+      "term": "shot",
+      "id": "shot"
+    },
+    {
+      "term": "si",
+      "id": "si"
+    },
+    {
+      "term": "sick",
+      "id": "sik"
+    },
+    {
+      "term": "sidon",
+      "id": "sidon"
+    },
+    {
+      "term": "sik",
+      "id": "sik"
+    },
+    {
+      "term": "sing",
+      "id": "sing"
+    },
+    {
+      "term": "sinio",
+      "id": "sinio"
+    },
+    {
+      "term": "sis",
+      "id": "sista"
+    },
+    {
+      "term": "sista",
+      "id": "sista"
+    },
+    {
+      "term": "sister",
+      "id": "sista"
+    },
+    {
+      "term": "sit down",
+      "id": "sidon"
+    },
+    {
+      "term": "skeletin",
+      "id": "skeletin"
+    },
+    {
+      "term": "skeleton",
+      "id": "skeletin"
+    },
+    {
+      "term": "skin",
+      "id": "skin"
+    },
+    {
+      "term": "skul",
+      "id": "skul"
+    },
+    {
+      "term": "sleep",
+      "id": "slip"
+    },
+    {
+      "term": "slip",
+      "id": "slip"
+    },
+    {
+      "term": "small",
+      "id": "smol"
+    },
+    {
+      "term": "small small",
+      "id": "smol-smol"
+    },
+    {
+      "term": "small-small",
+      "id": "smol-smol"
+    },
+    {
+      "term": "smoka",
+      "id": "smoka"
+    },
+    {
+      "term": "smoker",
+      "id": "smoka"
+    },
+    {
+      "term": "smol",
+      "id": "smol"
+    },
+    {
+      "term": "smol smol",
+      "id": "smol-smol"
+    },
+    {
+      "term": "som",
+      "id": "som"
+    },
+    {
+      "term": "some",
+      "id": "som"
+    },
+    {
+      "term": "something",
+      "id": "somtin"
+    },
+    {
+      "term": "sometin",
+      "id": "somtin"
+    },
+    {
+      "term": "somtin",
+      "id": "somtin"
+    },
+    {
+      "term": "sori",
+      "id": "sori"
+    },
+    {
+      "term": "sorry",
+      "id": "sori"
+    },
+    {
+      "term": "sote",
+      "id": "sote"
+    },
+    {
+      "term": "soteh",
+      "id": "sote"
+    },
+    {
+      "term": "soteé",
+      "id": "sote"
+    },
+    {
+      "term": "soup",
+      "id": "sup"
+    },
+    {
+      "term": "sour",
+      "id": "sour"
+    },
+    {
+      "term": "speak",
+      "id": "tok"
+    },
+    {
+      "term": "spear",
+      "id": "spie"
+    },
+    {
+      "term": "special",
+      "id": "spesha"
+    },
+    {
+      "term": "spesha",
+      "id": "spesha"
+    },
+    {
+      "term": "spie",
+      "id": "spie"
+    },
+    {
+      "term": "stan",
+      "id": "stan"
+    },
+    {
+      "term": "stand",
+      "id": "stan"
+    },
+    {
+      "term": "start",
+      "id": "stat"
+    },
+    {
+      "term": "stat",
+      "id": "stat"
+    },
+    {
+      "term": "stil",
+      "id": "stil"
+    },
+    {
+      "term": "still",
+      "id": "stil"
+    },
+    {
+      "term": "stomach",
+      "id": "belle"
+    },
+    {
+      "term": "stop",
+      "id": "stop"
+    },
+    {
+      "term": "store",
+      "id": "shop"
+    },
+    {
+      "term": "street",
+      "id": "strit"
+    },
+    {
+      "term": "strit",
+      "id": "strit"
+    },
+    {
+      "term": "strong",
+      "id": "strong"
+    },
+    {
+      "term": "strong-hed",
+      "id": "strong-hed"
+    },
+    {
+      "term": "stubborn",
+      "id": "strong-hed"
+    },
+    {
+      "term": "sup",
+      "id": "sup"
+    },
+    {
+      "term": "sweet",
+      "id": "swit"
+    },
+    {
+      "term": "swit",
+      "id": "swit"
+    },
+    {
+      "term": "table",
+      "id": "tebul"
+    },
+    {
+      "term": "taim",
+      "id": "taim"
+    },
+    {
+      "term": "take",
+      "id": "tek"
+    },
+    {
+      "term": "talk",
+      "id": "tok"
+    },
+    {
+      "term": "taya",
+      "id": "taya"
+    },
+    {
+      "term": "teach",
+      "id": "tich"
+    },
+    {
+      "term": "teacher",
+      "id": "ticha"
+    },
+    {
+      "term": "tebul",
+      "id": "tebul"
+    },
+    {
+      "term": "ted",
+      "id": "ted"
+    },
+    {
+      "term": "tek",
+      "id": "tek"
+    },
+    {
+      "term": "tenki",
+      "id": "tenki"
+    },
+    {
+      "term": "thank you",
+      "id": "tenki"
+    },
+    {
+      "term": "thanks",
+      "id": "tenki"
+    },
+    {
+      "term": "that",
+      "id": "dat"
+    },
+    {
+      "term": "that's how",
+      "id": "na-so"
+    },
+    {
+      "term": "the",
+      "id": "di"
+    },
+    {
+      "term": "them",
+      "id": "dem"
+    },
+    {
+      "term": "thief",
+      "id": "tif"
+    },
+    {
+      "term": "thing",
+      "id": "somtin"
+    },
+    {
+      "term": "third",
+      "id": "ted"
+    },
+    {
+      "term": "this",
+      "id": "dis"
+    },
+    {
+      "term": "thorns",
+      "id": "chukuchuku"
+    },
+    {
+      "term": "though",
+      "id": "sha"
+    },
+    {
+      "term": "throw",
+      "id": "dro"
+    },
+    {
+      "term": "tich",
+      "id": "tich"
+    },
+    {
+      "term": "ticha",
+      "id": "ticha"
+    },
+    {
+      "term": "tif",
+      "id": "tif"
+    },
+    {
+      "term": "til",
+      "id": "til"
+    },
+    {
+      "term": "time",
+      "id": "taim"
+    },
+    {
+      "term": "ting",
+      "id": "somtin"
+    },
+    {
+      "term": "tired",
+      "id": "taya"
+    },
+    {
+      "term": "to",
+      "id": "to"
+    },
+    {
+      "term": "today",
+      "id": "tode"
+    },
+    {
+      "term": "tode",
+      "id": "tode"
+    },
+    {
+      "term": "togeda",
+      "id": "togeda"
+    },
+    {
+      "term": "together",
+      "id": "togeda"
+    },
+    {
+      "term": "tok",
+      "id": "tok"
+    },
+    {
+      "term": "tolotolo",
+      "id": "tolotolo"
+    },
+    {
+      "term": "tomorrow",
+      "id": "tumoro"
+    },
+    {
+      "term": "too much",
+      "id": "tu-mach"
+    },
+    {
+      "term": "tree",
+      "id": "tri"
+    },
+    {
+      "term": "tri",
+      "id": "tri"
+    },
+    {
+      "term": "trouble",
+      "id": "wahala"
+    },
+    {
+      "term": "troublesome",
+      "id": "gbagbati"
+    },
+    {
+      "term": "truck",
+      "id": "lori"
+    },
+    {
+      "term": "true",
+      "id": "trut"
+    },
+    {
+      "term": "truly",
+      "id": "trutru"
+    },
+    {
+      "term": "trut",
+      "id": "trut"
+    },
+    {
+      "term": "truth",
+      "id": "trut"
+    },
+    {
+      "term": "trutru",
+      "id": "trutru"
+    },
+    {
+      "term": "tu mach",
+      "id": "tu-mach"
+    },
+    {
+      "term": "tumoro",
+      "id": "tumoro"
+    },
+    {
+      "term": "turkey",
+      "id": "tolotolo"
+    },
+    {
+      "term": "u",
+      "id": "yu"
+    },
+    {
+      "term": "una",
+      "id": "una"
+    },
+    {
+      "term": "unna",
+      "id": "una"
+    },
+    {
+      "term": "until",
+      "id": "til"
+    },
+    {
+      "term": "video",
+      "id": "vidio"
+    },
+    {
+      "term": "vidio",
+      "id": "vidio"
+    },
+    {
+      "term": "vilej",
+      "id": "vilej"
+    },
+    {
+      "term": "village",
+      "id": "vilej"
+    },
+    {
+      "term": "wahala",
+      "id": "wahala"
+    },
+    {
+      "term": "wait",
+      "id": "wét"
+    },
+    {
+      "term": "waka",
+      "id": "waka"
+    },
+    {
+      "term": "wake",
+      "id": "wok-op"
+    },
+    {
+      "term": "wake up",
+      "id": "wok-op"
+    },
+    {
+      "term": "walk",
+      "id": "waka"
+    },
+    {
+      "term": "wan",
+      "id": "wan"
+    },
+    {
+      "term": "want",
+      "id": "want"
+    },
+    {
+      "term": "wash",
+      "id": "wash"
+    },
+    {
+      "term": "wata",
+      "id": "wata"
+    },
+    {
+      "term": "water",
+      "id": "wata"
+    },
+    {
+      "term": "watin",
+      "id": "wetin"
+    },
+    {
+      "term": "wating",
+      "id": "wetin"
+    },
+    {
+      "term": "we",
+      "id": "wi"
+    },
+    {
+      "term": "weak",
+      "id": "weak"
+    },
+    {
+      "term": "week",
+      "id": "wik"
+    },
+    {
+      "term": "wek op",
+      "id": "wok-op"
+    },
+    {
+      "term": "wel",
+      "id": "wel"
+    },
+    {
+      "term": "wel wel",
+      "id": "wel-wel"
+    },
+    {
+      "term": "welcome",
+      "id": "welkom"
+    },
+    {
+      "term": "welkom",
+      "id": "welkom"
+    },
+    {
+      "term": "well",
+      "id": "wel"
+    },
+    {
+      "term": "well well",
+      "id": "wel-wel"
+    },
+    {
+      "term": "well-well",
+      "id": "wel-wel"
+    },
+    {
+      "term": "wen",
+      "id": "wen"
+    },
+    {
+      "term": "wetin",
+      "id": "wetin"
+    },
+    {
+      "term": "wetin be dis",
+      "id": "wetin-be-dis"
+    },
+    {
+      "term": "wetin be this",
+      "id": "wetin-be-dis"
+    },
+    {
+      "term": "wetin de",
+      "id": "wetin-de"
+    },
+    {
+      "term": "wetin de happen",
+      "id": "wetin-de-happen"
+    },
+    {
+      "term": "wetin dey",
+      "id": "wetin-de"
+    },
+    {
+      "term": "wetin dey happen",
+      "id": "wetin-de-happen"
+    },
+    {
+      "term": "wetin dey happen?",
+      "id": "wetin-de-happen"
+    },
+    {
+      "term": "weyim",
+      "id": "wetin"
+    },
+    {
+      "term": "weytin be dis",
+      "id": "wetin-be-dis"
+    },
+    {
+      "term": "what",
+      "id": "wetin"
+    },
+    {
+      "term": "what is this",
+      "id": "wetin-be-dis"
+    },
+    {
+      "term": "what's happening",
+      "id": "wetin-de-happen"
+    },
+    {
+      "term": "when",
+      "id": "wen"
+    },
+    {
+      "term": "where",
+      "id": "wia"
+    },
+    {
+      "term": "whose",
+      "id": "hus"
+    },
+    {
+      "term": "why",
+      "id": "why"
+    },
+    {
+      "term": "wi",
+      "id": "wi"
+    },
+    {
+      "term": "wia",
+      "id": "wia"
+    },
+    {
+      "term": "wie",
+      "id": "wie"
+    },
+    {
+      "term": "wik",
+      "id": "wik"
+    },
+    {
+      "term": "windo",
+      "id": "windo"
+    },
+    {
+      "term": "window",
+      "id": "windo"
+    },
+    {
+      "term": "wit",
+      "id": "wit"
+    },
+    {
+      "term": "with",
+      "id": "wit"
+    },
+    {
+      "term": "wok",
+      "id": "wok"
+    },
+    {
+      "term": "woka",
+      "id": "woka"
+    },
+    {
+      "term": "woman",
+      "id": "wuman"
+    },
+    {
+      "term": "won",
+      "id": "want"
+    },
+    {
+      "term": "work",
+      "id": "wok"
+    },
+    {
+      "term": "worker",
+      "id": "woka"
+    },
+    {
+      "term": "wosh",
+      "id": "wash"
+    },
+    {
+      "term": "write",
+      "id": "rit"
+    },
+    {
+      "term": "wrong",
+      "id": "rong"
+    },
+    {
+      "term": "wuman",
+      "id": "wuman"
+    },
+    {
+      "term": "wét",
+      "id": "wét"
+    },
+    {
+      "term": "yad",
+      "id": "yad"
+    },
+    {
+      "term": "yama yama",
+      "id": "yamayama"
+    },
+    {
+      "term": "yamayama",
+      "id": "yamayama"
+    },
+    {
+      "term": "yansh",
+      "id": "yansh"
+    },
+    {
+      "term": "yard",
+      "id": "yad"
+    },
+    {
+      "term": "year",
+      "id": "yia"
+    },
+    {
+      "term": "yes",
+      "id": "yes"
+    },
+    {
+      "term": "yestade",
+      "id": "yestade"
+    },
+    {
+      "term": "yesterday",
+      "id": "yestade"
+    },
+    {
+      "term": "yia",
+      "id": "yia"
+    },
+    {
+      "term": "you",
+      "id": "yu"
+    },
+    {
+      "term": "yu",
+      "id": "yu"
+    },
+    {
+      "term": "zinc",
+      "id": "zink"
+    },
+    {
+      "term": "zink",
+      "id": "zink"
+    }
+  ]
+}

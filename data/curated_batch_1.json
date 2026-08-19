@@ -1,0 +1,84 @@
+{
+  "batch": 1,
+  "count": 13,
+  "mappings": [
+    {
+      "variant": "mey",
+      "entry_id": "mek",
+      "source": "curated-batch-1",
+      "note": "Informal make/let spelling (CENCOS)"
+    },
+    {
+      "variant": "com",
+      "entry_id": "kom",
+      "source": "curated-batch-1",
+      "note": "Lin rule: come → kom"
+    },
+    {
+      "variant": "kon",
+      "entry_id": "kom",
+      "source": "curated-batch-1",
+      "note": "Common kom variant (NaijaSenti lexicon)"
+    },
+    {
+      "variant": "pipol",
+      "entry_id": "pipul",
+      "source": "curated-batch-1",
+      "note": "people spelling variant"
+    },
+    {
+      "variant": "pipo",
+      "entry_id": "pipul",
+      "source": "curated-batch-1",
+      "note": "people clipping (NaijaSenti)"
+    },
+    {
+      "variant": "abegi",
+      "entry_id": "abeg",
+      "source": "curated-batch-1",
+      "note": "Reduplicated abeg"
+    },
+    {
+      "variant": "wating",
+      "entry_id": "wetin",
+      "source": "curated-batch-1",
+      "note": "what spelling variant"
+    },
+    {
+      "variant": "weyim",
+      "entry_id": "wetin",
+      "source": "curated-batch-1",
+      "note": "what variant"
+    },
+    {
+      "variant": "noni",
+      "entry_id": "moni",
+      "source": "curated-batch-1",
+      "note": "money spelling variant"
+    },
+    {
+      "variant": "deh",
+      "entry_id": "de",
+      "source": "curated-batch-1",
+      "note": "Progressive de variant (NaijaSenti)"
+    },
+    {
+      "variant": "shebi",
+      "entry_id": "abi",
+      "source": "curated-batch-1",
+      "note": "Tag question variant (se + abi)"
+    },
+    {
+      "variant": "hebi",
+      "entry_id": "abi",
+      "source": "curated-batch-1",
+      "note": "Tag question variant"
+    },
+    {
+      "variant": "pesin",
+      "entry_id": "pipul",
+      "source": "curated-batch-1",
+      "note": "person → people lemma (singular informal)"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>User Guide — Naijá Live Dictionary</title>
+  <link rel="stylesheet" href="../../style.css">
+  <link rel="stylesheet" href="../docs.css">
+</head>
+<body>
+  <header class="header">
+    <div class="wrap">
+      <h1>User Guide</h1>
+      <p class="tagline">Layer 2 · how to use the Live Dictionary</p>
+    </div>
+  </header>
+  <main class="wrap docs-body">
+    <nav class="docs-nav" aria-label="Documentation">
+      <a href="../../">Dictionary</a>
+      <a href="../">Docs home</a>
+      <a href="./" aria-current="page">User Guide</a>
+      <a href="../ifra/">IFRA Knowledge</a>
+      <a href="../repro/">Reproducibility</a>
+      <a href="../tutorials/">Tutorials</a>
+    </nav>
+
+    <h2>Start the site</h2>
+    <p>From the project folder run <code>python web/serve.py</code>, then open <a href="http://localhost:8765/web/">http://localhost:8765/web/</a>. Opening the HTML file directly from disk will not load dictionary data.</p>
+
+    <h2>Search</h2>
+    <ol>
+      <li>Type a word in the search box.</li>
+      <li>You can use a <strong>standard</strong> spelling (IFRA/NLA SNO) or an <strong>informal</strong> spelling.</li>
+      <li>If your query is an informal form, a banner shows the mapping to the standard headword.</li>
+      <li>If nothing matches exactly, a “Did you mean?” suggestion may appear (close spellings).</li>
+    </ol>
+
+    <h2>Reading an entry</h2>
+    <table>
+      <thead><tr><th>Part</th><th>Meaning</th></tr></thead>
+      <tbody>
+        <tr><td>Lemma (green)</td><td>Standard SNO spelling</td></tr>
+        <tr><td>Part of speech</td><td>Word class (noun, verb, …)</td></tr>
+        <tr><td>Definitions</td><td>English glosses</td></tr>
+        <tr><td>Examples</td><td>Usage sentences (many from spoken UD Naija data)</td></tr>
+        <tr><td>Pronunciation</td><td>Broad hint, not full IPA</td></tr>
+        <tr><td>Variants</td><td>Other spellings that point here</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Try these</h2>
+    <ul>
+      <li><code>pickin</code> → <strong>pikin</strong></li>
+      <li><code>book</code> → <strong>buk</strong></li>
+      <li><code>dey</code> → progressive/locative family</li>
+      <li><code>shey</code> → <strong>abi</strong></li>
+    </ul>
+
+    <p>More detail: project user guide <code>docs/canonical/for-users.md</code> · scientific background in the <a href="../ifra/">IFRA Knowledge Center</a>.</p>
+  </main>
+  <footer class="footer wrap">
+    <p><a href="../">← Docs home</a> · <a href="../../">Dictionary</a></p>
+  </footer>
+</body>
+</html>

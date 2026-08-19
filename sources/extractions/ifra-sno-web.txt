@@ -1,0 +1,23 @@
+GUIDE TO STANDARD NAIJÁ ORTHOGRAPHY — web extract (IFRA Nigeria)
+Source: https://ifra-nigeria.org/research/former-projects/89-guide-to-standard-naija-orthography-an-nla-harmonized-writing-system-for-common-naija-publications
+Authors: Christine I. Ofulue & David O. Esizimetor (2010)
+
+KEY PRINCIPLES (SNO):
+- Phonetically based; common core Naijá (not one regional dialect)
+- Digraphs/diacritics: ch, gb, sh, kp, zh
+- Minimal tone marking: high tone acute only; low unmarked
+- 28 letters: a b ch d e f g gb h i j k kp l m n o p r s sh t u v w y z zh
+- e merges [e]/[ε]; o merges [o]/[ɔ] for typing convenience
+- Affixation: single word (woka, bois)
+- Compounds (modifier): hyphenated (strong-hed, akara-wuman)
+- Reduplication (bound): together (potopoto, chukuchuku)
+- Intensification (free morpheme): separate words (wel wel, bad bad)
+- Plural dem: hyphenated (pikin-dem); English-origin plurals may stay as one word (bois)
+- Emphatic possessive: hyphenate -im (Meri-im mama)
+
+TONE EXAMPLES:
+- baba (father) vs bába (barber)
+- de (PROG) vs dé (is/are, stay)
+- Naija (Niger) vs Naijá (Nigeria / the language)
+
+See docs/phase-0-orthography-grounding.md for cross-source comparison.

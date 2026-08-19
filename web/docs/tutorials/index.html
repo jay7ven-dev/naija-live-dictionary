@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tutorials — Naijá Live Dictionary</title>
+  <link rel="stylesheet" href="../../style.css">
+  <link rel="stylesheet" href="../docs.css">
+</head>
+<body>
+  <header class="header">
+    <div class="wrap">
+      <h1>Tutorials</h1>
+      <p class="tagline">Layer 5 · short worked examples</p>
+    </div>
+  </header>
+  <main class="wrap docs-body">
+    <nav class="docs-nav" aria-label="Documentation">
+      <a href="../../">Dictionary</a>
+      <a href="../">Docs home</a>
+      <a href="../user/">User Guide</a>
+      <a href="../ifra/">IFRA Knowledge</a>
+      <a href="../repro/">Reproducibility</a>
+      <a href="./" aria-current="page">Tutorials</a>
+    </nav>
+
+    <h2>Tutorial A — Informal → standard lookup</h2>
+    <ol>
+      <li>Start the server (<a href="../user/">User Guide</a>).</li>
+      <li>Search <code>pickin</code>.</li>
+      <li>Confirm the banner maps to <strong>pikin</strong> and the card shows “child”.</li>
+      <li>Repeat with <code>book</code> → <strong>buk</strong>.</li>
+    </ol>
+
+    <h2>Tutorial B — Fuzzy suggestion</h2>
+    <ol>
+      <li>Type a near-miss spelling that is not in the exact index.</li>
+      <li>If no exact/substring hit, check for a “Did you mean?” control.</li>
+      <li>Click the suggestion to load the standard entry.</li>
+    </ol>
+
+    <h2>Tutorial C — Curate one variant (contributors)</h2>
+    <ol>
+      <li>Run <code>python data/collect_variants.py suggest</code>.</li>
+      <li>Inspect candidates in <code>data/suggestions.json</code> (pending only).</li>
+      <li>Add only human-verified rows via <code>curate_mappings.py</code> or <code>variant_mappings.json</code>.</li>
+      <li>Run apply → index → validate → <code>web/verify.py</code> (see <a href="../repro/">Reproducibility</a>).</li>
+    </ol>
+    <p><strong>Warning:</strong> English words in code-switched speech often look like “variants” but are false positives. Prefer low volume, high confidence.</p>
+
+    <h2>Tutorial D — Export for research tools</h2>
+    <ol>
+      <li>Run <code>python export/tei_lex0.py</code>.</li>
+      <li>Open <code>export/naija-dictionary.lex0.xml</code>.</li>
+      <li>Cite using <code>docs/citation-pack.md</code>.</li>
+    </ol>
+  </main>
+  <footer class="footer wrap">
+    <p><a href="../">← Docs home</a> · Manuscript: <code>docs/manuscripts/naija-live-dictionary.md</code></p>
+  </footer>
+</body>
+</html>

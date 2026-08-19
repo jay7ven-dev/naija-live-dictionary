@@ -1,0 +1,5101 @@
+[
+  {
+    "id": "i",
+    "standard_spelling": "I",
+    "informal_variants": [
+      "i"
+    ],
+    "part_of_speech": "pronoun",
+    "definitions": [
+      "I; first person singular"
+    ],
+    "example_sentences": [
+      "I de go."
+    ],
+    "pronunciation": "EE"
+  },
+  {
+    "id": "yu",
+    "standard_spelling": "yu",
+    "informal_variants": [
+      "you",
+      "u"
+    ],
+    "part_of_speech": "pronoun",
+    "definitions": [
+      "you (singular)"
+    ],
+    "example_sentences": [
+      "Yu sabi wetin I tok?",
+      "(You know), area don develop us."
+    ],
+    "pronunciation": "Y-oo",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "wi",
+    "standard_spelling": "wi",
+    "informal_variants": [
+      "we"
+    ],
+    "part_of_speech": "pronoun",
+    "definitions": [
+      "we; first person plural"
+    ],
+    "example_sentences": [
+      "Wi go togeda.",
+      "Abeg o, make we moders dey talk to our daughters now."
+    ],
+    "pronunciation": "W-ee",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "dem",
+    "standard_spelling": "dem",
+    "informal_variants": [
+      "them",
+      "deme"
+    ],
+    "part_of_speech": "pronoun",
+    "definitions": [
+      "they; them; plural marker"
+    ],
+    "example_sentences": [
+      "Dem kom yestade.",
+      "After de tell us sey na God told dem."
+    ],
+    "pronunciation": "D-eh-m",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "una",
+    "standard_spelling": "una",
+    "informal_variants": [
+      "unna"
+    ],
+    "part_of_speech": "pronoun",
+    "definitions": [
+      "you (plural)"
+    ],
+    "example_sentences": [
+      "Una welkom."
+    ],
+    "pronunciation": "OO-n-ah"
+  },
+  {
+    "id": "im",
+    "standard_spelling": "im",
+    "informal_variants": [
+      "am",
+      "him",
+      "her"
+    ],
+    "part_of_speech": "pronoun",
+    "definitions": [
+      "he; she; him; her; his; her (possessive)"
+    ],
+    "example_sentences": [
+      "Im de ple.",
+      "A policeman, na im dey yarn sey wetin?"
+    ],
+    "pronunciation": "EE-m",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "e",
+    "standard_spelling": "e",
+    "informal_variants": [],
+    "part_of_speech": "pronoun",
+    "definitions": [
+      "he; she (alternate)"
+    ],
+    "example_sentences": [
+      "E don go."
+    ],
+    "pronunciation": "EH"
+  },
+  {
+    "id": "di",
+    "standard_spelling": "di",
+    "informal_variants": [
+      "the",
+      "de"
+    ],
+    "part_of_speech": "determiner",
+    "definitions": [
+      "the"
+    ],
+    "example_sentences": [
+      "Di man de kom."
+    ],
+    "pronunciation": "D-ee"
+  },
+  {
+    "id": "dis",
+    "standard_spelling": "dis",
+    "informal_variants": [
+      "this",
+      "dise"
+    ],
+    "part_of_speech": "determiner",
+    "definitions": [
+      "this"
+    ],
+    "example_sentences": [
+      "Dis wan na mi own.",
+      "Abi dis one na disrespect?"
+    ],
+    "pronunciation": "D-ee-s",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "dat",
+    "standard_spelling": "dat",
+    "informal_variants": [
+      "that"
+    ],
+    "part_of_speech": "determiner",
+    "definitions": [
+      "that"
+    ],
+    "example_sentences": [
+      "Dat ting no gud.",
+      "A no know who start dat discussion."
+    ],
+    "pronunciation": "D-ah-t",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "wan",
+    "standard_spelling": "wan",
+    "informal_variants": [
+      "one",
+      "1"
+    ],
+    "part_of_speech": "determiner",
+    "definitions": [
+      "one; a; an"
+    ],
+    "example_sentences": [
+      "I get wan pikin.",
+      "Abi na which country I wan begin dey call?"
+    ],
+    "pronunciation": "W-ah-n",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "ol",
+    "standard_spelling": "ol",
+    "informal_variants": [
+      "all"
+    ],
+    "part_of_speech": "determiner",
+    "definitions": [
+      "all"
+    ],
+    "example_sentences": [
+      "Ol pipul de hia.",
+      "After all, na Warri you grow up."
+    ],
+    "pronunciation": "OH-l",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "som",
+    "standard_spelling": "som",
+    "informal_variants": [
+      "some"
+    ],
+    "part_of_speech": "determiner",
+    "definitions": [
+      "some"
+    ],
+    "example_sentences": [
+      "Som bois de ple."
+    ],
+    "pronunciation": "S-oh-m"
+  },
+  {
+    "id": "enibodi",
+    "standard_spelling": "enibodi",
+    "informal_variants": [
+      "anybody",
+      "anyone"
+    ],
+    "part_of_speech": "pronoun",
+    "definitions": [
+      "anybody; anyone"
+    ],
+    "example_sentences": [
+      "Enibodi fit enta."
+    ],
+    "pronunciation": "EH-n-ee-b-oh-d-ee"
+  },
+  {
+    "id": "evribodi",
+    "standard_spelling": "evribodi",
+    "informal_variants": [
+      "everybody"
+    ],
+    "part_of_speech": "pronoun",
+    "definitions": [
+      "everybody; everyone"
+    ],
+    "example_sentences": [
+      "Evribodi de hapi."
+    ],
+    "pronunciation": "EH-v-r-ee-b-oh-d-ee"
+  },
+  {
+    "id": "notin",
+    "standard_spelling": "notin",
+    "informal_variants": [
+      "nothing",
+      "nutin"
+    ],
+    "part_of_speech": "pronoun",
+    "definitions": [
+      "nothing"
+    ],
+    "example_sentences": [
+      "I si notin.",
+      "And dis one wey our country now, notin dey at all again."
+    ],
+    "pronunciation": "N-oh-t-ee-n",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "somtin",
+    "standard_spelling": "somtin",
+    "informal_variants": [
+      "something",
+      "sometin",
+      "ting",
+      "thing"
+    ],
+    "part_of_speech": "pronoun",
+    "definitions": [
+      "something"
+    ],
+    "example_sentences": [
+      "I wan somtin chop."
+    ],
+    "pronunciation": "S-oh-m-t-ee-n"
+  },
+  {
+    "id": "wetin",
+    "standard_spelling": "wetin",
+    "informal_variants": [
+      "what",
+      "watin",
+      "wating",
+      "weyim"
+    ],
+    "part_of_speech": "pronoun",
+    "definitions": [
+      "what"
+    ],
+    "example_sentences": [
+      "Wetin yu de du?",
+      "A policeman, na im dey yarn sey wetin?"
+    ],
+    "pronunciation": "W-eh-t-ee-n",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "hus",
+    "standard_spelling": "hus",
+    "informal_variants": [
+      "whose"
+    ],
+    "part_of_speech": "pronoun",
+    "definitions": [
+      "whose"
+    ],
+    "example_sentences": [
+      "Hus buk dis?"
+    ],
+    "pronunciation": "H-oo-s"
+  },
+  {
+    "id": "huself",
+    "standard_spelling": "huself",
+    "informal_variants": [
+      "himself",
+      "herself"
+    ],
+    "part_of_speech": "pronoun",
+    "definitions": [
+      "himself; herself; itself"
+    ],
+    "example_sentences": [
+      "Im du am huself.",
+      "She don finish herself now."
+    ],
+    "pronunciation": "H-oo-s-eh-l-f",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "de",
+    "standard_spelling": "de",
+    "informal_variants": [
+      "dey",
+      "deh"
+    ],
+    "part_of_speech": "particle",
+    "definitions": [
+      "progressive aspect marker"
+    ],
+    "example_sentences": [
+      "I de wok.",
+      "Abeg, if de know, meh de tell us."
+    ],
+    "notes": "Tone pair: de (PROG) vs dé (copula). | UD_Naija-NSC example (CC BY-SA 4.0)",
+    "pronunciation": "D-eh"
+  },
+  {
+    "id": "de-copula",
+    "standard_spelling": "dé",
+    "informal_variants": [
+      "de",
+      "dey"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to be; copula (is/are)"
+    ],
+    "example_sentences": [
+      "I dé haus.",
+      "Abeg, if de know, meh de tell us."
+    ],
+    "notes": "High tone marks copula per SNO. | UD_Naija-NSC example (CC BY-SA 4.0)",
+    "pronunciation": "D-eh"
+  },
+  {
+    "id": "go",
+    "standard_spelling": "go",
+    "informal_variants": [],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to go; future marker"
+    ],
+    "example_sentences": [
+      "I go kom tumoro."
+    ],
+    "pronunciation": "G-oh"
+  },
+  {
+    "id": "go-past",
+    "standard_spelling": "gó",
+    "informal_variants": [
+      "go"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "went; past of go (tone-disambiguated)"
+    ],
+    "example_sentences": [
+      "I gó buy am."
+    ],
+    "notes": "Past/locative sense when tone matters.",
+    "pronunciation": "G-oh"
+  },
+  {
+    "id": "kom",
+    "standard_spelling": "kom",
+    "informal_variants": [
+      "come",
+      "com",
+      "kon"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to come"
+    ],
+    "example_sentences": [
+      "Kom hia nau.",
+      "Abeg o, dey come dey buy from mama o."
+    ],
+    "pronunciation": "K-oh-m",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "chop",
+    "standard_spelling": "chop",
+    "informal_variants": [
+      "eat"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to eat"
+    ],
+    "example_sentences": [
+      "Make wi chop."
+    ],
+    "pronunciation": "CH-oh-p"
+  },
+  {
+    "id": "waka",
+    "standard_spelling": "waka",
+    "informal_variants": [
+      "walk"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to walk; go"
+    ],
+    "example_sentences": [
+      "Wi waka go market."
+    ],
+    "pronunciation": "W-ah-k-ah"
+  },
+  {
+    "id": "sabi",
+    "standard_spelling": "sabi",
+    "informal_variants": [
+      "know",
+      "sabe"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to know; understand"
+    ],
+    "example_sentences": [
+      "Yu sabi di wok?"
+    ],
+    "pronunciation": "S-ah-b-ee"
+  },
+  {
+    "id": "mek",
+    "standard_spelling": "mek",
+    "informal_variants": [
+      "make",
+      "let",
+      "mey"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to make; let; cause"
+    ],
+    "example_sentences": [
+      "Mek wi go."
+    ],
+    "pronunciation": "M-eh-k"
+  },
+  {
+    "id": "fit",
+    "standard_spelling": "fit",
+    "informal_variants": [
+      "can"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "can; to be able"
+    ],
+    "example_sentences": [
+      "I fit du am.",
+      "All dose green, you fit buy dem for market."
+    ],
+    "pronunciation": "F-ee-t",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "tok",
+    "standard_spelling": "tok",
+    "informal_variants": [
+      "talk",
+      "speak"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to speak; say"
+    ],
+    "example_sentences": [
+      "Tok trut.",
+      "Abeg o, make we moders dey talk to our daughters now."
+    ],
+    "pronunciation": "T-oh-k",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "si",
+    "standard_spelling": "si",
+    "informal_variants": [
+      "see"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to see"
+    ],
+    "example_sentences": [
+      "I si am."
+    ],
+    "pronunciation": "S-ee"
+  },
+  {
+    "id": "luk",
+    "standard_spelling": "luk",
+    "informal_variants": [
+      "look"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to look; watch"
+    ],
+    "example_sentences": [
+      "Luk hia."
+    ],
+    "pronunciation": "L-oo-k"
+  },
+  {
+    "id": "giv",
+    "standard_spelling": "giv",
+    "informal_variants": [
+      "give",
+      "gave"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to give"
+    ],
+    "example_sentences": [
+      "Giv mi di buk."
+    ],
+    "pronunciation": "G-ee-v"
+  },
+  {
+    "id": "tek",
+    "standard_spelling": "tek",
+    "informal_variants": [
+      "take"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to take"
+    ],
+    "example_sentences": [
+      "Tek am go."
+    ],
+    "pronunciation": "T-eh-k"
+  },
+  {
+    "id": "put",
+    "standard_spelling": "put",
+    "informal_variants": [],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to put; place"
+    ],
+    "example_sentences": [
+      "Put am fo tebul.",
+      "After e don, you go con put your ugwu, or waterleaf."
+    ],
+    "pronunciation": "P-oo-t",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "ask",
+    "standard_spelling": "ask",
+    "informal_variants": [],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to ask"
+    ],
+    "example_sentences": [
+      "I go ask am."
+    ],
+    "pronunciation": "AH-s-k"
+  },
+  {
+    "id": "ans",
+    "standard_spelling": "ans",
+    "informal_variants": [
+      "answer"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to answer"
+    ],
+    "example_sentences": [
+      "Ans mi kweshon.",
+      "If you gave me answer, from dere, I will know what to do."
+    ],
+    "pronunciation": "AH-n-s",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "du",
+    "standard_spelling": "du",
+    "informal_variants": [
+      "do"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to do"
+    ],
+    "example_sentences": [
+      "Wetin yu de du?"
+    ],
+    "pronunciation": "D-oo"
+  },
+  {
+    "id": "get",
+    "standard_spelling": "get",
+    "informal_variants": [
+      "got"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to get; have"
+    ],
+    "example_sentences": [
+      "I get moni."
+    ],
+    "pronunciation": "G-eh-t"
+  },
+  {
+    "id": "want",
+    "standard_spelling": "want",
+    "informal_variants": [
+      "won"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to want"
+    ],
+    "example_sentences": [
+      "I want chop.",
+      "After my eh JSS three wey I come, I want enter SS."
+    ],
+    "pronunciation": "W-ah-n-t",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "nid",
+    "standard_spelling": "nid",
+    "informal_variants": [
+      "need"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to need"
+    ],
+    "example_sentences": [
+      "I nid help.",
+      "A'Ah you don't need to use plenty money now."
+    ],
+    "pronunciation": "N-ee-d",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "help",
+    "standard_spelling": "help",
+    "informal_variants": [],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to help"
+    ],
+    "example_sentences": [
+      "Help mi plis.",
+      "And e dey help person well, well."
+    ],
+    "pronunciation": "H-eh-l-p",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "ple",
+    "standard_spelling": "ple",
+    "informal_variants": [
+      "play"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to play"
+    ],
+    "example_sentences": [
+      "Di pikin-dem de ple."
+    ],
+    "pronunciation": "P-l-eh"
+  },
+  {
+    "id": "wok",
+    "standard_spelling": "wok",
+    "informal_variants": [
+      "work"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to work"
+    ],
+    "example_sentences": [
+      "I de wok."
+    ],
+    "pronunciation": "W-oh-k"
+  },
+  {
+    "id": "len",
+    "standard_spelling": "len",
+    "informal_variants": [
+      "learn"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to learn"
+    ],
+    "example_sentences": [
+      "I wan len Naijá."
+    ],
+    "pronunciation": "L-eh-n"
+  },
+  {
+    "id": "tich",
+    "standard_spelling": "tich",
+    "informal_variants": [
+      "teach"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to teach"
+    ],
+    "example_sentences": [
+      "Im de tich skul."
+    ],
+    "pronunciation": "T-ee-ch"
+  },
+  {
+    "id": "rit",
+    "standard_spelling": "rit",
+    "informal_variants": [
+      "write"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to write"
+    ],
+    "example_sentences": [
+      "Rit am fo buk.",
+      "After register, con, I con write di JAMB."
+    ],
+    "pronunciation": "R-ee-t",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "rid",
+    "standard_spelling": "rid",
+    "informal_variants": [
+      "read"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to read"
+    ],
+    "example_sentences": [
+      "Rid di leta.",
+      "After I read am finish, na so I go buy materials."
+    ],
+    "pronunciation": "R-ee-d",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "sing",
+    "standard_spelling": "sing",
+    "informal_variants": [],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to sing"
+    ],
+    "example_sentences": [
+      "Dem de sing.",
+      "De go dey sing dey come o."
+    ],
+    "pronunciation": "S-ee-ng",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "dan",
+    "standard_spelling": "dan",
+    "informal_variants": [
+      "dance"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to dance"
+    ],
+    "example_sentences": [
+      "Shi de dan."
+    ],
+    "pronunciation": "D-ah-n"
+  },
+  {
+    "id": "slip",
+    "standard_spelling": "slip",
+    "informal_variants": [
+      "sleep"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to sleep"
+    ],
+    "example_sentences": [
+      "I wan slip.",
+      "After I drink am, I go sleep."
+    ],
+    "pronunciation": "S-l-ee-p",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "wok-op",
+    "standard_spelling": "wek op",
+    "informal_variants": [
+      "wake up",
+      "wake"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to wake up"
+    ],
+    "example_sentences": [
+      "I don wek op.",
+      "Ah to dey wake up for night, anoder work."
+    ],
+    "pronunciation": "W-eh-k-oh-p",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "sidon",
+    "standard_spelling": "sidon",
+    "informal_variants": [
+      "sit down"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to sit; stay"
+    ],
+    "example_sentences": [
+      "Sidon hia."
+    ],
+    "pronunciation": "S-ee-d-oh-n"
+  },
+  {
+    "id": "stan",
+    "standard_spelling": "stan",
+    "informal_variants": [
+      "stand"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to stand"
+    ],
+    "example_sentences": [
+      "Stan up.",
+      "And people go con stand okay yes na Wazobia okay."
+    ],
+    "pronunciation": "S-t-ah-n",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "opun",
+    "standard_spelling": "opun",
+    "informal_variants": [
+      "open"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to open"
+    ],
+    "example_sentences": [
+      "Opun di do."
+    ],
+    "pronunciation": "OH-p-oo-n"
+  },
+  {
+    "id": "kloz",
+    "standard_spelling": "kloz",
+    "informal_variants": [
+      "close"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to close"
+    ],
+    "example_sentences": [
+      "Kloz di windo."
+    ],
+    "pronunciation": "K-l-oh-z"
+  },
+  {
+    "id": "kari",
+    "standard_spelling": "kari",
+    "informal_variants": [
+      "carry"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to carry; bring"
+    ],
+    "example_sentences": [
+      "Kari am kom."
+    ],
+    "pronunciation": "K-ah-r-ee"
+  },
+  {
+    "id": "ron",
+    "standard_spelling": "ron",
+    "informal_variants": [
+      "run"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to run"
+    ],
+    "example_sentences": [
+      "Ron go haus."
+    ],
+    "pronunciation": "R-oh-n"
+  },
+  {
+    "id": "draiv",
+    "standard_spelling": "draiv",
+    "informal_variants": [
+      "drive"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to drive"
+    ],
+    "example_sentences": [
+      "Im de draiv moto.",
+      "And if you dey drive, you suppose, you, you."
+    ],
+    "pronunciation": "D-r-eye-v",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "fai",
+    "standard_spelling": "fai",
+    "informal_variants": [
+      "fight"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to fight"
+    ],
+    "example_sentences": [
+      "Dem no de fai.",
+      "De no dey like fight, or anyting."
+    ],
+    "pronunciation": "F-eye",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "laf",
+    "standard_spelling": "laf",
+    "informal_variants": [
+      "laugh"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to laugh"
+    ],
+    "example_sentences": [
+      "Wi de laf.",
+      "And as I dey talk am now eh, Oyibo, you, you dey laugh kwa."
+    ],
+    "pronunciation": "L-ah-f",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "krai",
+    "standard_spelling": "krai",
+    "informal_variants": [
+      "cry"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to cry"
+    ],
+    "example_sentences": [
+      "Di pikin de krai.",
+      "And ehn im, im dey hear our cry everyday."
+    ],
+    "pronunciation": "K-r-eye",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "lov",
+    "standard_spelling": "lov",
+    "informal_variants": [
+      "love"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to love"
+    ],
+    "example_sentences": [
+      "I lov yu.",
+      "Ah dat one, na serious gbege o, but no p unto sey I love you ehn."
+    ],
+    "pronunciation": "L-oh-v",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "het",
+    "standard_spelling": "het",
+    "informal_variants": [
+      "hate"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to hate"
+    ],
+    "example_sentences": [
+      "I no het yu."
+    ],
+    "pronunciation": "H-eh-t"
+  },
+  {
+    "id": "fet",
+    "standard_spelling": "fet",
+    "informal_variants": [
+      "fetch"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to fetch"
+    ],
+    "example_sentences": [
+      "Fet wata.",
+      "And we go fetch water for di oder block."
+    ],
+    "pronunciation": "F-eh-t",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "wash",
+    "standard_spelling": "wash",
+    "informal_variants": [
+      "wosh"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to wash"
+    ],
+    "example_sentences": [
+      "Wosh yu hand."
+    ],
+    "pronunciation": "W-ah-sh"
+  },
+  {
+    "id": "kuk",
+    "standard_spelling": "kuk",
+    "informal_variants": [
+      "cook"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to cook"
+    ],
+    "example_sentences": [
+      "Shi de kuk."
+    ],
+    "pronunciation": "K-oo-k"
+  },
+  {
+    "id": "buy",
+    "standard_spelling": "buy",
+    "informal_variants": [],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to buy"
+    ],
+    "example_sentences": [
+      "I go buy buk.",
+      "Abeg o, dey come dey buy from mama o."
+    ],
+    "pronunciation": "B-oo-y",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "sel",
+    "standard_spelling": "sel",
+    "informal_variants": [
+      "sell"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to sell"
+    ],
+    "example_sentences": [
+      "Dem de sel akara."
+    ],
+    "pronunciation": "S-eh-l"
+  },
+  {
+    "id": "pay",
+    "standard_spelling": "pay",
+    "informal_variants": [],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to pay"
+    ],
+    "example_sentences": [
+      "Pay di moni."
+    ],
+    "pronunciation": "P-ah-y"
+  },
+  {
+    "id": "bor",
+    "standard_spelling": "bor",
+    "informal_variants": [
+      "borrow"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to borrow"
+    ],
+    "example_sentences": [
+      "Bor mi pen.",
+      "And di truth about wedding be sey wetin you no get, no go borrow."
+    ],
+    "pronunciation": "B-oh-r",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "lend",
+    "standard_spelling": "lend",
+    "informal_variants": [],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to lend"
+    ],
+    "example_sentences": [
+      "Lend mi moni."
+    ],
+    "pronunciation": "L-eh-n-d"
+  },
+  {
+    "id": "find",
+    "standard_spelling": "fain",
+    "informal_variants": [
+      "find"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to find"
+    ],
+    "example_sentences": [
+      "I no fit fain am."
+    ],
+    "pronunciation": "F-eye-n"
+  },
+  {
+    "id": "luz",
+    "standard_spelling": "luz",
+    "informal_variants": [
+      "lose"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to lose"
+    ],
+    "example_sentences": [
+      "I don luz di key.",
+      "Ah you dey hear sey TELCOS dey lose big money."
+    ],
+    "pronunciation": "L-oo-z",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "hol",
+    "standard_spelling": "hol",
+    "informal_variants": [
+      "hold"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to hold"
+    ],
+    "example_sentences": [
+      "Hol am tait.",
+      "Because if we no hold dem, dis country no go move forward."
+    ],
+    "pronunciation": "H-oh-l",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "dro",
+    "standard_spelling": "dro",
+    "informal_variants": [
+      "drop",
+      "throw"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to drop; throw"
+    ],
+    "example_sentences": [
+      "Dro am.",
+      "And your maggi (you go don already crumble di maggi), drop am!"
+    ],
+    "pronunciation": "D-r-oh",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "pik",
+    "standard_spelling": "pik",
+    "informal_variants": [
+      "pick",
+      "pic"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to pick"
+    ],
+    "example_sentences": [
+      "Pik di fone."
+    ],
+    "pronunciation": "P-ee-k"
+  },
+  {
+    "id": "kach",
+    "standard_spelling": "kach",
+    "informal_variants": [
+      "catch",
+      "cash"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to catch; arrest"
+    ],
+    "example_sentences": [
+      "Polis kach am.",
+      "And di tin con later pay off when di suspect, dem catch am."
+    ],
+    "pronunciation": "K-ah-ch",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "eskep",
+    "standard_spelling": "eskep",
+    "informal_variants": [
+      "escape"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to escape"
+    ],
+    "example_sentences": [
+      "Im eskep.",
+      "Na so I take escape for school."
+    ],
+    "pronunciation": "EH-s-k-eh-p",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "feil",
+    "standard_spelling": "feil",
+    "informal_variants": [
+      "fail",
+      "fai"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to fail"
+    ],
+    "example_sentences": [
+      "I feil di tes.",
+      "E say because I give am maths, and English, e fail."
+    ],
+    "pronunciation": "F-eh-ee-l",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "pas",
+    "standard_spelling": "pas",
+    "informal_variants": [
+      "pass"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to pass"
+    ],
+    "example_sentences": [
+      "I pas di eksam.",
+      "Aginnigbode popular pass ehen."
+    ],
+    "pronunciation": "P-ah-s",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "stat",
+    "standard_spelling": "stat",
+    "informal_variants": [
+      "start"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to start"
+    ],
+    "example_sentences": [
+      "Stat nau.",
+      "A no know who start dat discussion."
+    ],
+    "pronunciation": "S-t-ah-t",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "stop",
+    "standard_spelling": "stop",
+    "informal_variants": [],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to stop"
+    ],
+    "example_sentences": [
+      "Stop dat."
+    ],
+    "pronunciation": "S-t-oh-p"
+  },
+  {
+    "id": "fini",
+    "standard_spelling": "fini",
+    "informal_variants": [
+      "finish"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to finish"
+    ],
+    "example_sentences": [
+      "I don fini."
+    ],
+    "pronunciation": "F-ee-n-ee"
+  },
+  {
+    "id": "bigin",
+    "standard_spelling": "bigin",
+    "informal_variants": [
+      "begin"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to begin"
+    ],
+    "example_sentences": [
+      "Make wi bigin.",
+      "Abi na which country I wan begin dey call?"
+    ],
+    "pronunciation": "B-ee-g-ee-n",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "folo",
+    "standard_spelling": "folo",
+    "informal_variants": [
+      "follow"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to follow"
+    ],
+    "example_sentences": [
+      "Folo mi.",
+      "Ah pastor, which kind babe you come dey follow me talk like dis?"
+    ],
+    "pronunciation": "F-oh-l-oh",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "wét",
+    "standard_spelling": "wét",
+    "informal_variants": [
+      "wait"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to wait"
+    ],
+    "example_sentences": [
+      "Wét fo mi.",
+      "Because if we dey wait for our government, dem no go help us."
+    ],
+    "pronunciation": "W-eh-t",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "fó",
+    "standard_spelling": "fó",
+    "informal_variants": [
+      "fo",
+      "four"
+    ],
+    "part_of_speech": "other",
+    "definitions": [
+      "four (tone-disambiguated numeral)"
+    ],
+    "example_sentences": [
+      "I get fó pikin."
+    ],
+    "notes": "Tone pair: fo (for) vs fó (four).",
+    "pronunciation": "F-oh"
+  },
+  {
+    "id": "fo",
+    "standard_spelling": "fo",
+    "informal_variants": [
+      "for"
+    ],
+    "part_of_speech": "preposition",
+    "definitions": [
+      "for; to (purpose/location)"
+    ],
+    "example_sentences": [
+      "I de go fo skul."
+    ],
+    "pronunciation": "F-oh"
+  },
+  {
+    "id": "wit",
+    "standard_spelling": "wit",
+    "informal_variants": [
+      "with"
+    ],
+    "part_of_speech": "preposition",
+    "definitions": [
+      "with"
+    ],
+    "example_sentences": [
+      "Kom wit mi.",
+      "And I love di job as in wit all my heart."
+    ],
+    "pronunciation": "W-ee-t",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "from",
+    "standard_spelling": "from",
+    "informal_variants": [],
+    "part_of_speech": "preposition",
+    "definitions": [
+      "from"
+    ],
+    "example_sentences": [
+      "I from Legos.",
+      "Abeg o, dey come dey buy from mama o."
+    ],
+    "pronunciation": "F-r-oh-m",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "to",
+    "standard_spelling": "to",
+    "informal_variants": [],
+    "part_of_speech": "preposition",
+    "definitions": [
+      "to (direction)"
+    ],
+    "example_sentences": [
+      "Go to haus.",
+      "A'Ah you don't need to use plenty money now."
+    ],
+    "pronunciation": "T-oh",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "in",
+    "standard_spelling": "in",
+    "informal_variants": [
+      "inside"
+    ],
+    "part_of_speech": "preposition",
+    "definitions": [
+      "in; inside"
+    ],
+    "example_sentences": [
+      "Im de in haus.",
+      "After we read in di night for prep, na class I go sleep."
+    ],
+    "pronunciation": "EE-n",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "on",
+    "standard_spelling": "on",
+    "informal_variants": [],
+    "part_of_speech": "preposition",
+    "definitions": [
+      "on"
+    ],
+    "example_sentences": [
+      "Put am on tebul."
+    ],
+    "pronunciation": "OH-n"
+  },
+  {
+    "id": "bifo",
+    "standard_spelling": "bifo",
+    "informal_variants": [
+      "before"
+    ],
+    "part_of_speech": "preposition",
+    "definitions": [
+      "before"
+    ],
+    "example_sentences": [
+      "Bifo taim.",
+      "Abi you never know me before?"
+    ],
+    "pronunciation": "B-ee-f-oh",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "afta",
+    "standard_spelling": "afta",
+    "informal_variants": [
+      "after"
+    ],
+    "part_of_speech": "preposition",
+    "definitions": [
+      "after"
+    ],
+    "example_sentences": [
+      "Afta skul.",
+      "After I drink am, I go sleep."
+    ],
+    "pronunciation": "AH-f-t-ah",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "bikos",
+    "standard_spelling": "bikos",
+    "informal_variants": [
+      "because",
+      "becos"
+    ],
+    "part_of_speech": "conjunction",
+    "definitions": [
+      "because"
+    ],
+    "example_sentences": [
+      "I go bikos I nid am."
+    ],
+    "pronunciation": "B-ee-k-oh-s"
+  },
+  {
+    "id": "bot",
+    "standard_spelling": "bot",
+    "informal_variants": [
+      "but"
+    ],
+    "part_of_speech": "conjunction",
+    "definitions": [
+      "but"
+    ],
+    "example_sentences": [
+      "I wan go bot I de taya."
+    ],
+    "pronunciation": "B-oh-t"
+  },
+  {
+    "id": "if",
+    "standard_spelling": "if",
+    "informal_variants": [],
+    "part_of_speech": "conjunction",
+    "definitions": [
+      "if"
+    ],
+    "example_sentences": [
+      "If yu kom, kall mi.",
+      "Abeg, if de know, meh de tell us."
+    ],
+    "pronunciation": "EE-f",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "wen",
+    "standard_spelling": "wen",
+    "informal_variants": [
+      "when"
+    ],
+    "part_of_speech": "conjunction",
+    "definitions": [
+      "when"
+    ],
+    "example_sentences": [
+      "Wen yu dey?",
+      "And I mean am sotay reach sey even dose wen dey go church."
+    ],
+    "pronunciation": "W-eh-n",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "til",
+    "standard_spelling": "til",
+    "informal_variants": [
+      "until"
+    ],
+    "part_of_speech": "conjunction",
+    "definitions": [
+      "until"
+    ],
+    "example_sentences": [
+      "Wét til im kom."
+    ],
+    "pronunciation": "T-ee-l"
+  },
+  {
+    "id": "man",
+    "standard_spelling": "man",
+    "informal_variants": [
+      "guy"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "man; adult male"
+    ],
+    "example_sentences": [
+      "Di man de wok."
+    ],
+    "pronunciation": "M-ah-n"
+  },
+  {
+    "id": "wuman",
+    "standard_spelling": "wuman",
+    "informal_variants": [
+      "woman"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "woman"
+    ],
+    "example_sentences": [
+      "Di wuman de kuk."
+    ],
+    "pronunciation": "W-oo-m-ah-n"
+  },
+  {
+    "id": "pikin",
+    "standard_spelling": "pikin",
+    "informal_variants": [
+      "pekin",
+      "pickin",
+      "pikinn",
+      "pickin dem",
+      "pikin dem",
+      "children-dem"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "child"
+    ],
+    "example_sentences": [
+      "A big person for una must do like small pikin, and di oga must do like boy, boy."
+    ],
+    "notes": "Plural: pikin-dem.",
+    "pronunciation": "P-ee-k-ee-n"
+  },
+  {
+    "id": "boi",
+    "standard_spelling": "boi",
+    "informal_variants": [
+      "boy"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "boy"
+    ],
+    "example_sentences": [
+      "Di boi de ple."
+    ],
+    "notes": "Plural: bois (English-origin plural per IFRA).",
+    "pronunciation": "B-oh-ee"
+  },
+  {
+    "id": "gel",
+    "standard_spelling": "gel",
+    "informal_variants": [
+      "girl"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "girl"
+    ],
+    "example_sentences": [
+      "Di gel fine.",
+      "Ehn guy, university system life mehn, e no just gel."
+    ],
+    "pronunciation": "G-eh-l",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "papa",
+    "standard_spelling": "papa",
+    "informal_variants": [
+      "father",
+      "dad"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "father"
+    ],
+    "example_sentences": [
+      "Mi papa de wok.",
+      "Abi you wan form am for your papa?"
+    ],
+    "pronunciation": "P-ah-p-ah",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "mama",
+    "standard_spelling": "mama",
+    "informal_variants": [
+      "mother",
+      "mom"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "mother"
+    ],
+    "example_sentences": [
+      "Mi mama de kuk.",
+      "Abeg o, dey come dey buy from mama o."
+    ],
+    "pronunciation": "M-ah-m-ah",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "baba",
+    "standard_spelling": "baba",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "father; old man; master"
+    ],
+    "example_sentences": [
+      "Mi baba de haus.",
+      "Baba God, make e dey do wetin?"
+    ],
+    "notes": "Tone pair: baba vs bába (barber). | UD_Naija-NSC example (CC BY-SA 4.0)",
+    "pronunciation": "B-ah-b-ah"
+  },
+  {
+    "id": "baba-barber",
+    "standard_spelling": "bába",
+    "informal_variants": [
+      "barber"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "barber"
+    ],
+    "example_sentences": [
+      "Go bába shop.",
+      "Baba God, make e dey do wetin?"
+    ],
+    "notes": "High tone per SNO. | UD_Naija-NSC example (CC BY-SA 4.0)",
+    "pronunciation": "B-ah-b-ah"
+  },
+  {
+    "id": "broda",
+    "standard_spelling": "broda",
+    "informal_variants": [
+      "brother",
+      "bro"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "brother; close male friend"
+    ],
+    "example_sentences": [
+      "Mi broda de hia.",
+      "Everybody just dey dey look im broda."
+    ],
+    "pronunciation": "B-r-oh-d-ah",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "sista",
+    "standard_spelling": "sista",
+    "informal_variants": [
+      "sister",
+      "sis"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "sister; close female friend"
+    ],
+    "example_sentences": [
+      "Mi sista fine.",
+      "Even dis my sista, na my soap im dey use wash cloth."
+    ],
+    "pronunciation": "S-ee-s-t-ah",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "fren",
+    "standard_spelling": "fren",
+    "informal_variants": [
+      "friend"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "friend"
+    ],
+    "example_sentences": [
+      "Im na mi fren."
+    ],
+    "pronunciation": "F-r-eh-n"
+  },
+  {
+    "id": "neba",
+    "standard_spelling": "neba",
+    "informal_variants": [
+      "neighbor"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "neighbor"
+    ],
+    "example_sentences": [
+      "Mi neba de hapi."
+    ],
+    "pronunciation": "N-eh-b-ah"
+  },
+  {
+    "id": "elda",
+    "standard_spelling": "elda",
+    "informal_variants": [
+      "elder",
+      "elder dem"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "elder"
+    ],
+    "example_sentences": [
+      "Wi de respekt elda."
+    ],
+    "pronunciation": "EH-l-d-ah"
+  },
+  {
+    "id": "old-man",
+    "standard_spelling": "old-man",
+    "informal_variants": [
+      "old man"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "old man"
+    ],
+    "example_sentences": [
+      "Di old-man de sidon."
+    ],
+    "notes": "IFRA compound §4.2.",
+    "pronunciation": "OH-l-d-m-ah-n"
+  },
+  {
+    "id": "hed",
+    "standard_spelling": "hed",
+    "informal_variants": [
+      "head"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "head"
+    ],
+    "example_sentences": [
+      "Im tap mi hed.",
+      "And dat day, as I taste am eh, my head big."
+    ],
+    "pronunciation": "H-eh-d",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "ai",
+    "standard_spelling": "ai",
+    "informal_variants": [
+      "eye"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "eye"
+    ],
+    "example_sentences": [
+      "Opun yu ai."
+    ],
+    "pronunciation": "EYE"
+  },
+  {
+    "id": "yansh",
+    "standard_spelling": "yansh",
+    "informal_variants": [
+      "nyash",
+      "ass"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "buttocks"
+    ],
+    "example_sentences": [
+      "Siddon on yu yansh.",
+      "And if dey see men, na so de go dey blow deir yansh."
+    ],
+    "pronunciation": "Y-ah-n-sh",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "belle",
+    "standard_spelling": "belle",
+    "informal_variants": [
+      "belly",
+      "stomach"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "stomach; belly"
+    ],
+    "example_sentences": [
+      "Mi belle de hurt.",
+      "After, e be like sey di ting no come sweet im belle well, well."
+    ],
+    "pronunciation": "B-eh-l-l-eh",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "han",
+    "standard_spelling": "han",
+    "informal_variants": [
+      "hand"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "hand; arm"
+    ],
+    "example_sentences": [
+      "Wosh yu han.",
+      "Ah see as I dey di time wey I dey for my oga hand."
+    ],
+    "pronunciation": "H-ah-n",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "leg",
+    "standard_spelling": "leg",
+    "informal_variants": [
+      "foot"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "leg; foot"
+    ],
+    "example_sentences": [
+      "Im break leg.",
+      "As we dey pedal, e go dey look our leg."
+    ],
+    "pronunciation": "L-eh-g",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "noz",
+    "standard_spelling": "noz",
+    "informal_variants": [
+      "nose"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "nose"
+    ],
+    "example_sentences": [
+      "Im tap im noz."
+    ],
+    "pronunciation": "N-oh-z"
+  },
+  {
+    "id": "maut",
+    "standard_spelling": "maut",
+    "informal_variants": [
+      "mouth"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "mouth"
+    ],
+    "example_sentences": [
+      "Kloz yu maut."
+    ],
+    "pronunciation": "M-ow-t"
+  },
+  {
+    "id": "skin",
+    "standard_spelling": "skin",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "skin"
+    ],
+    "example_sentences": [
+      "Im skin de hot.",
+      "De say maybe di ting skin, e too dry."
+    ],
+    "pronunciation": "S-k-ee-n",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "bon",
+    "standard_spelling": "bon",
+    "informal_variants": [
+      "bone"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "bone"
+    ],
+    "example_sentences": [
+      "Dem si di bon-dem."
+    ],
+    "notes": "Plural: bon-dem.",
+    "pronunciation": "B-oh-n"
+  },
+  {
+    "id": "flesh",
+    "standard_spelling": "flesh",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "flesh; body tissue"
+    ],
+    "example_sentences": [
+      "Put flesh fo skeletin.",
+      "Spirits no dey get flesh, or bone as I get so."
+    ],
+    "pronunciation": "F-l-eh-sh",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "briz",
+    "standard_spelling": "briz",
+    "informal_variants": [
+      "breath",
+      "breeze"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "breath; breeze"
+    ],
+    "example_sentences": [
+      "Blo briz put fo noz."
+    ],
+    "pronunciation": "B-r-ee-z"
+  },
+  {
+    "id": "haus",
+    "standard_spelling": "haus",
+    "informal_variants": [
+      "house",
+      "home"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "house; home"
+    ],
+    "example_sentences": [
+      "I déy haus."
+    ],
+    "pronunciation": "H-ow-s"
+  },
+  {
+    "id": "yad",
+    "standard_spelling": "yad",
+    "informal_variants": [
+      "yard"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "yard; compound"
+    ],
+    "example_sentences": [
+      "Wi de ple fo yad.",
+      "O boy me, I don even tire for dis public yard for Enugu o."
+    ],
+    "pronunciation": "Y-ah-d",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "rum",
+    "standard_spelling": "rum",
+    "informal_variants": [
+      "room"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "room"
+    ],
+    "example_sentences": [
+      "Enta di rum.",
+      "Because I get hot blood, I no dey fit sleep for my room."
+    ],
+    "pronunciation": "R-oo-m",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "do",
+    "standard_spelling": "do",
+    "informal_variants": [
+      "door"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "door"
+    ],
+    "example_sentences": [
+      "Kloz di do."
+    ],
+    "pronunciation": "D-oh"
+  },
+  {
+    "id": "windo",
+    "standard_spelling": "windo",
+    "informal_variants": [
+      "window"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "window"
+    ],
+    "example_sentences": [
+      "Opun di windo.",
+      "I dey do dis one, I dey design dis window."
+    ],
+    "pronunciation": "W-ee-n-d-oh",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "bed",
+    "standard_spelling": "bed",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "bed"
+    ],
+    "example_sentences": [
+      "Go slip fo bed.",
+      "In fact e go run trough our bed."
+    ],
+    "pronunciation": "B-eh-d",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "tebul",
+    "standard_spelling": "tebul",
+    "informal_variants": [
+      "table"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "table"
+    ],
+    "example_sentences": [
+      "Put am fo tebul.",
+      "Una go chop, and drink for my table for di kingdom."
+    ],
+    "pronunciation": "T-eh-b-oo-l",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "che",
+    "standard_spelling": "che",
+    "informal_variants": [
+      "chair"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "chair"
+    ],
+    "example_sentences": [
+      "Sidon fo che.",
+      "Okay sit down for my office, sit down for dis chair."
+    ],
+    "pronunciation": "CH-eh",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "bush",
+    "standard_spelling": "bush",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "bush; forest; countryside"
+    ],
+    "example_sentences": [
+      "Enta bush.",
+      "All, all dose people sef, dem be bush people o."
+    ],
+    "pronunciation": "B-oo-sh",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "tri",
+    "standard_spelling": "tri",
+    "informal_variants": [
+      "tree"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "tree"
+    ],
+    "example_sentences": [
+      "Klaimb di tri.",
+      "Ehn de say na because tree near tree na im make monkey dey smart."
+    ],
+    "pronunciation": "T-r-ee",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "rod",
+    "standard_spelling": "rod",
+    "informal_variants": [
+      "road"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "road"
+    ],
+    "example_sentences": [
+      "Di rod don blok.",
+      "Ah even if we stay for road, you go see traffic light."
+    ],
+    "pronunciation": "R-oh-d",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "strit",
+    "standard_spelling": "strit",
+    "informal_variants": [
+      "street"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "street"
+    ],
+    "example_sentences": [
+      "Di strit de busi."
+    ],
+    "pronunciation": "S-t-r-ee-t"
+  },
+  {
+    "id": "market",
+    "standard_spelling": "market",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "market"
+    ],
+    "example_sentences": [
+      "Wi go market."
+    ],
+    "pronunciation": "M-ah-r-k-eh-t"
+  },
+  {
+    "id": "shop",
+    "standard_spelling": "shop",
+    "informal_variants": [
+      "store"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "shop; store"
+    ],
+    "example_sentences": [
+      "Buy am fo shop.",
+      "Babe, we no dey do dat kain nail for dis shop o."
+    ],
+    "pronunciation": "SH-oh-p",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "skul",
+    "standard_spelling": "skul",
+    "informal_variants": [
+      "school"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "school"
+    ],
+    "example_sentences": [
+      "Pikin go skul.",
+      "All my school na Abuja from primary, secondary to university."
+    ],
+    "pronunciation": "S-k-oo-l",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "ospitul",
+    "standard_spelling": "ospitul",
+    "informal_variants": [
+      "hospital"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "hospital"
+    ],
+    "example_sentences": [
+      "Go ospitul.",
+      "All money wey im get, e con carry am go pay im hospital bill."
+    ],
+    "pronunciation": "OH-s-p-ee-t-oo-l",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "chosh",
+    "standard_spelling": "chosh",
+    "informal_variants": [
+      "church"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "church"
+    ],
+    "example_sentences": [
+      "Wi go chosh.",
+      "And I mean am sotay reach sey even dose wen dey go church."
+    ],
+    "pronunciation": "CH-oh-sh",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "moto",
+    "standard_spelling": "moto",
+    "informal_variants": [
+      "car"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "car; vehicle"
+    ],
+    "example_sentences": [
+      "Di moto no de wok."
+    ],
+    "pronunciation": "M-oh-t-oh"
+  },
+  {
+    "id": "baik",
+    "standard_spelling": "baik",
+    "informal_variants": [
+      "bike"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "bicycle; motorcycle"
+    ],
+    "example_sentences": [
+      "Rai baik.",
+      "I gats park well wey be sey noting go hit my bike, or someting."
+    ],
+    "pronunciation": "B-eye-k",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "baik-man",
+    "standard_spelling": "baik-man",
+    "informal_variants": [
+      "bike rider"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "bike rider"
+    ],
+    "example_sentences": [
+      "Di baik-man de waka."
+    ],
+    "notes": "IFRA compound §4.2.",
+    "pronunciation": "B-eye-k-m-ah-n"
+  },
+  {
+    "id": "lori",
+    "standard_spelling": "lori",
+    "informal_variants": [
+      "truck",
+      "lorry"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "lorry; truck"
+    ],
+    "example_sentences": [
+      "Di lori de kom."
+    ],
+    "pronunciation": "L-oh-r-ee"
+  },
+  {
+    "id": "draiva",
+    "standard_spelling": "draiva",
+    "informal_variants": [
+      "driver"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "driver"
+    ],
+    "example_sentences": [
+      "Di lori draiva-dem blok rod."
+    ],
+    "notes": "Plural: draiva-dem.",
+    "pronunciation": "D-r-eye-v-ah"
+  },
+  {
+    "id": "fona",
+    "standard_spelling": "fona",
+    "informal_variants": [
+      "phone"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "phone"
+    ],
+    "example_sentences": [
+      "Kall mi fo fona.",
+      "Ah nna my man, dis your phone sef, I like am."
+    ],
+    "pronunciation": "F-oh-n-ah",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "buk",
+    "standard_spelling": "buk",
+    "informal_variants": [
+      "book"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "book"
+    ],
+    "example_sentences": [
+      "Rid di buk.",
+      "As I con manage go school reach, I put mind for book."
+    ],
+    "pronunciation": "B-oo-k",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "pen",
+    "standard_spelling": "pen",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "pen"
+    ],
+    "example_sentences": [
+      "Rit wit pen.",
+      "Get your pen, and paper!"
+    ],
+    "pronunciation": "P-eh-n",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "pepa",
+    "standard_spelling": "pepa",
+    "informal_variants": [
+      "paper"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "paper"
+    ],
+    "example_sentences": [
+      "Giv mi pepa.",
+      "But as e papa receive di paper read di ting, e just smile."
+    ],
+    "pronunciation": "P-eh-p-ah",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "moni",
+    "standard_spelling": "moni",
+    "informal_variants": [
+      "money",
+      "noni"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "money"
+    ],
+    "example_sentences": [
+      "I nid moni.",
+      "A'Ah you don't need to use plenty money now."
+    ],
+    "pronunciation": "M-oh-n-ee",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "wok-job",
+    "standard_spelling": "wok",
+    "informal_variants": [
+      "work",
+      "job"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "work; job"
+    ],
+    "example_sentences": [
+      "I get wok."
+    ],
+    "notes": "Same spelling as verb wok; distinct sense.",
+    "pronunciation": "W-oh-k"
+  },
+  {
+    "id": "taim",
+    "standard_spelling": "taim",
+    "informal_variants": [
+      "time"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "time"
+    ],
+    "example_sentences": [
+      "Wetin taim nau?"
+    ],
+    "pronunciation": "T-eye-m"
+  },
+  {
+    "id": "dei",
+    "standard_spelling": "dei",
+    "informal_variants": [
+      "day"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "day"
+    ],
+    "example_sentences": [
+      "Tumoro na nyu dei.",
+      "After dat day, I get mysef."
+    ],
+    "pronunciation": "D-eh-ee",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "nait",
+    "standard_spelling": "nait",
+    "informal_variants": [
+      "night"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "night"
+    ],
+    "example_sentences": [
+      "Gud nait.",
+      "After we read in di night for prep, na class I go sleep."
+    ],
+    "pronunciation": "N-eye-t",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "wik",
+    "standard_spelling": "wik",
+    "informal_variants": [
+      "week"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "week"
+    ],
+    "example_sentences": [
+      "Neks wik.",
+      "And after one week, dem sack am o."
+    ],
+    "pronunciation": "W-ee-k",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "munt",
+    "standard_spelling": "munt",
+    "informal_variants": [
+      "month"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "month"
+    ],
+    "example_sentences": [
+      "Dis munt."
+    ],
+    "pronunciation": "M-oo-n-t"
+  },
+  {
+    "id": "yia",
+    "standard_spelling": "yia",
+    "informal_variants": [
+      "year"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "year"
+    ],
+    "example_sentences": [
+      "Dis yia."
+    ],
+    "pronunciation": "Y-ee-ah"
+  },
+  {
+    "id": "wata",
+    "standard_spelling": "wata",
+    "informal_variants": [
+      "water"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "water"
+    ],
+    "example_sentences": [
+      "Drink wata."
+    ],
+    "pronunciation": "W-ah-t-ah"
+  },
+  {
+    "id": "faya",
+    "standard_spelling": "faya",
+    "informal_variants": [
+      "fire"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "fire"
+    ],
+    "example_sentences": [
+      "Faya de bon."
+    ],
+    "pronunciation": "F-ah-y-ah"
+  },
+  {
+    "id": "fud",
+    "standard_spelling": "fud",
+    "informal_variants": [
+      "food"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "food"
+    ],
+    "example_sentences": [
+      "Di fud sweet.",
+      "Acha na very nutritious food."
+    ],
+    "pronunciation": "F-oo-d",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "sup",
+    "standard_spelling": "sup",
+    "informal_variants": [
+      "soup"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "soup"
+    ],
+    "example_sentences": [
+      "I laik sup."
+    ],
+    "pronunciation": "S-oo-p"
+  },
+  {
+    "id": "dodo",
+    "standard_spelling": "dodo",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "fried ripe plantain"
+    ],
+    "example_sentences": [
+      "Buy dodo."
+    ],
+    "pronunciation": "D-oh-d-oh"
+  },
+  {
+    "id": "moimoi",
+    "standard_spelling": "moimoi",
+    "informal_variants": [
+      "moi moi",
+      "moi-moi"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "bean pudding"
+    ],
+    "example_sentences": [
+      "Mama de mek moimoi."
+    ],
+    "notes": "IFRA: written together §4.3.",
+    "pronunciation": "M-oh-ee-m-oh-ee"
+  },
+  {
+    "id": "akara",
+    "standard_spelling": "akara",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "bean cake; fried bean balls"
+    ],
+    "example_sentences": [
+      "Akara sweet."
+    ],
+    "pronunciation": "AH-k-ah-r-ah"
+  },
+  {
+    "id": "akara-wuman",
+    "standard_spelling": "akara-wuman",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "woman who sells akara"
+    ],
+    "example_sentences": [
+      "Di akara-wuman de kom."
+    ],
+    "notes": "IFRA compound §4.2.",
+    "pronunciation": "AH-k-ah-r-ah-w-oo-m-ah-n"
+  },
+  {
+    "id": "ogogoro",
+    "standard_spelling": "ogogoro",
+    "informal_variants": [
+      "kai-kai"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "local gin"
+    ],
+    "example_sentences": [
+      "Dem de drink ogogoro."
+    ],
+    "pronunciation": "OH-g-oh-g-oh-r-oh"
+  },
+  {
+    "id": "kainkain",
+    "standard_spelling": "kainkain",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "local gin (alternate)"
+    ],
+    "example_sentences": [
+      "Kainkain strong."
+    ],
+    "pronunciation": "K-eye-n-k-eye-n"
+  },
+  {
+    "id": "garri",
+    "standard_spelling": "garri",
+    "informal_variants": [
+      "gari"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "cassava granules; staple food"
+    ],
+    "example_sentences": [
+      "Soak garri.",
+      "As im drink garri, im get strength."
+    ],
+    "pronunciation": "G-ah-r-r-ee",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "plantin",
+    "standard_spelling": "plantin",
+    "informal_variants": [
+      "plantain"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "plantain"
+    ],
+    "example_sentences": [
+      "Frai plantin.",
+      "No, e be like burn plantain."
+    ],
+    "pronunciation": "P-l-ah-n-t-ee-n",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "legos",
+    "standard_spelling": "Legos",
+    "informal_variants": [
+      "Lagos"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "Lagos (city)"
+    ],
+    "example_sentences": [
+      "I live fo Legos.",
+      "As we leave dem Lagos, we come Ibadan."
+    ],
+    "notes": "Proper noun per IFRA §7 rule 7. | UD_Naija-NSC example (CC BY-SA 4.0)",
+    "pronunciation": "L-eh-g-oh-s"
+  },
+  {
+    "id": "naija",
+    "standard_spelling": "Naijá",
+    "informal_variants": [
+      "Naija",
+      "9ja",
+      "Naija Pidgin"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "Nigeria; Nigerian Pidgin; the language"
+    ],
+    "example_sentences": [
+      "I de len Naijá.",
+      "But di thing be sey Naija dey make person get brain."
+    ],
+    "notes": "Tone: Naija (Niger) vs Naijá (country/language). | UD_Naija-NSC example (CC BY-SA 4.0)",
+    "pronunciation": "N-eye-j-ah"
+  },
+  {
+    "id": "naija-river",
+    "standard_spelling": "Naija",
+    "informal_variants": [
+      "Niger"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "Niger (river)"
+    ],
+    "example_sentences": [
+      "Riva Naija long.",
+      "But di thing be sey Naija dey make person get brain."
+    ],
+    "notes": "Low-tone place name per SNO. | UD_Naija-NSC example (CC BY-SA 4.0)",
+    "pronunciation": "N-eye-j-ah"
+  },
+  {
+    "id": "vilej",
+    "standard_spelling": "vilej",
+    "informal_variants": [
+      "village"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "village"
+    ],
+    "example_sentences": [
+      "Ol pipul fo vilej de hapi.",
+      "Ah we no get airport like dat wey go lead to my village so."
+    ],
+    "pronunciation": "V-ee-l-eh-j",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "pipul",
+    "standard_spelling": "pipul",
+    "informal_variants": [
+      "people",
+      "people-dem",
+      "pipol",
+      "pipo",
+      "pesin"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "people"
+    ],
+    "example_sentences": [
+      "Awa pipul de tok."
+    ],
+    "pronunciation": "P-ee-p-oo-l"
+  },
+  {
+    "id": "famili",
+    "standard_spelling": "famili",
+    "informal_variants": [
+      "family"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "family"
+    ],
+    "example_sentences": [
+      "Im famili de wet.",
+      "And as we born for poor family, no money."
+    ],
+    "pronunciation": "F-ah-m-ee-l-ee",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "gift",
+    "standard_spelling": "gift",
+    "informal_variants": [
+      "present"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "gift; present"
+    ],
+    "example_sentences": [
+      "Im go giv gift."
+    ],
+    "pronunciation": "G-ee-f-t"
+  },
+  {
+    "id": "pati",
+    "standard_spelling": "pati",
+    "informal_variants": [
+      "party"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "party; celebration"
+    ],
+    "example_sentences": [
+      "Dem de du pati."
+    ],
+    "pronunciation": "P-ah-t-ee"
+  },
+  {
+    "id": "honta",
+    "standard_spelling": "honta",
+    "informal_variants": [
+      "hunter"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "hunter"
+    ],
+    "example_sentences": [
+      "Wan gret honta."
+    ],
+    "pronunciation": "H-oh-n-t-ah"
+  },
+  {
+    "id": "anima",
+    "standard_spelling": "anima",
+    "informal_variants": [
+      "animal"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "animal"
+    ],
+    "example_sentences": [
+      "Hont anima fo bush.",
+      "A don dey call am animal now."
+    ],
+    "pronunciation": "AH-n-ee-m-ah",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "majishan",
+    "standard_spelling": "majishan",
+    "informal_variants": [
+      "magician"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "magician"
+    ],
+    "example_sentences": [
+      "Di pikin kom bi majishan."
+    ],
+    "pronunciation": "M-ah-j-ee-sh-ah-n"
+  },
+  {
+    "id": "skeletin",
+    "standard_spelling": "skeletin",
+    "informal_variants": [
+      "skeleton"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "skeleton"
+    ],
+    "example_sentences": [
+      "Join bon togeda bikom skeletin."
+    ],
+    "pronunciation": "S-k-eh-l-eh-t-ee-n"
+  },
+  {
+    "id": "graund",
+    "standard_spelling": "graund",
+    "informal_variants": [
+      "ground"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "ground"
+    ],
+    "example_sentences": [
+      "Spie brok fol fo graund.",
+      "After three minutes, carry your Ewere pot, put am for ground."
+    ],
+    "pronunciation": "G-r-ow-n-d",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "spie",
+    "standard_spelling": "spie",
+    "informal_variants": [
+      "spear"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "spear"
+    ],
+    "example_sentences": [
+      "Im spie brok."
+    ],
+    "pronunciation": "S-p-ee-eh"
+  },
+  {
+    "id": "polis",
+    "standard_spelling": "polis",
+    "informal_variants": [
+      "police"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "police"
+    ],
+    "example_sentences": [
+      "Polis kach tif."
+    ],
+    "pronunciation": "P-oh-l-ee-s"
+  },
+  {
+    "id": "tif",
+    "standard_spelling": "tif",
+    "informal_variants": [
+      "thief"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "thief"
+    ],
+    "example_sentences": [
+      "Dem bi tif.",
+      "E no fit thief me because me sef, I be agboro."
+    ],
+    "pronunciation": "T-ee-f",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "dokta",
+    "standard_spelling": "dokta",
+    "informal_variants": [
+      "doctor"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "doctor"
+    ],
+    "example_sentences": [
+      "Si dokta.",
+      "Because right now, some people go come don dey claim doctor."
+    ],
+    "pronunciation": "D-oh-k-t-ah",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "ticha",
+    "standard_spelling": "ticha",
+    "informal_variants": [
+      "teacher"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "teacher"
+    ],
+    "example_sentences": [
+      "Di ticha de kom.",
+      "Di teacher con dey stay near my house."
+    ],
+    "pronunciation": "T-ee-ch-ah",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "woka",
+    "standard_spelling": "woka",
+    "informal_variants": [
+      "worker"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "worker"
+    ],
+    "example_sentences": [
+      "Im na woka."
+    ],
+    "notes": "IFRA affixation: wok/woka.",
+    "pronunciation": "W-oh-k-ah"
+  },
+  {
+    "id": "smoka",
+    "standard_spelling": "smoka",
+    "informal_variants": [
+      "smoker"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "smoker"
+    ],
+    "example_sentences": [
+      "Im na smoka."
+    ],
+    "notes": "IFRA affixation: smok/smoka.",
+    "pronunciation": "S-m-oh-k-ah"
+  },
+  {
+    "id": "vidio",
+    "standard_spelling": "vidio",
+    "informal_variants": [
+      "video"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "video"
+    ],
+    "example_sentences": [
+      "Si vidio.",
+      "De con say de want do video chatting for road."
+    ],
+    "pronunciation": "V-ee-d-ee-oh",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "lait",
+    "standard_spelling": "lait",
+    "informal_variants": [
+      "light"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "light"
+    ],
+    "example_sentences": [
+      "Opun di lait.",
+      "After we do dat one, we go put light dere."
+    ],
+    "pronunciation": "L-eye-t",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "hama",
+    "standard_spelling": "hama",
+    "informal_variants": [
+      "hammer"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "hammer"
+    ],
+    "example_sentences": [
+      "Use hama."
+    ],
+    "pronunciation": "H-ah-m-ah"
+  },
+  {
+    "id": "zink",
+    "standard_spelling": "zink",
+    "informal_variants": [
+      "zinc"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "metal roofing sheet"
+    ],
+    "example_sentences": [
+      "Put zink fo top."
+    ],
+    "pronunciation": "Z-ee-n-k"
+  },
+  {
+    "id": "kpangolo",
+    "standard_spelling": "kpangolo",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "metal container; drum"
+    ],
+    "example_sentences": [
+      "Put am insaid kpangolo."
+    ],
+    "pronunciation": "K-p-ah-ng-oh-l-oh"
+  },
+  {
+    "id": "tolotolo",
+    "standard_spelling": "tolotolo",
+    "informal_variants": [
+      "turkey"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "turkey"
+    ],
+    "example_sentences": [
+      "Tolotolo big."
+    ],
+    "pronunciation": "T-oh-l-oh-t-oh-l-oh"
+  },
+  {
+    "id": "insaid",
+    "standard_spelling": "insaid",
+    "informal_variants": [
+      "inside"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "inside"
+    ],
+    "example_sentences": [
+      "Insaid di haus.",
+      "After you don stir am finish, you turn am put inside di hot oil."
+    ],
+    "notes": "Also used as preposition/adverb. | UD_Naija-NSC example (CC BY-SA 4.0)",
+    "pronunciation": "EE-n-s-eye-d"
+  },
+  {
+    "id": "juju",
+    "standard_spelling": "juju",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "charm; fetish"
+    ],
+    "example_sentences": [
+      "Juju strong."
+    ],
+    "pronunciation": "J-oo-j-oo"
+  },
+  {
+    "id": "krokro",
+    "standard_spelling": "krokro",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "rashes; boils"
+    ],
+    "example_sentences": [
+      "Skin get krokro."
+    ],
+    "notes": "IFRA reduplication §4.3.",
+    "pronunciation": "K-r-oh-k-r-oh"
+  },
+  {
+    "id": "potopoto",
+    "standard_spelling": "potopoto",
+    "informal_variants": [
+      "mud"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "muddiness; mud"
+    ],
+    "example_sentences": [
+      "Rod ful potopoto."
+    ],
+    "notes": "IFRA: together §4.3.",
+    "pronunciation": "P-oh-t-oh-p-oh-t-oh"
+  },
+  {
+    "id": "sansan",
+    "standard_spelling": "sansan",
+    "informal_variants": [
+      "sand"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "sand"
+    ],
+    "example_sentences": [
+      "Sansan de hot.",
+      "Make you make sure sey all di sand don comot."
+    ],
+    "pronunciation": "S-ah-n-s-ah-n",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "chukuchuku",
+    "standard_spelling": "chukuchuku",
+    "informal_variants": [
+      "thorns"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "thorns"
+    ],
+    "example_sentences": [
+      "Chukuchuku pain."
+    ],
+    "pronunciation": "CH-oo-k-oo-ch-oo-k-oo"
+  },
+  {
+    "id": "yamayama",
+    "standard_spelling": "yamayama",
+    "informal_variants": [
+      "yama yama"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "rubbish; nonsense"
+    ],
+    "example_sentences": [
+      "No tok yamayama."
+    ],
+    "pronunciation": "Y-ah-m-ah-y-ah-m-ah"
+  },
+  {
+    "id": "bush-mit",
+    "standard_spelling": "bush-mit",
+    "informal_variants": [
+      "bush meat"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "bush meat; game meat"
+    ],
+    "example_sentences": [
+      "Dem de sel bush-mit."
+    ],
+    "notes": "IFRA compound §4.2.",
+    "pronunciation": "B-oo-sh-m-ee-t"
+  },
+  {
+    "id": "chop-moni",
+    "standard_spelling": "chop-moni",
+    "informal_variants": [
+      "chop money"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "feeding allowance; food money"
+    ],
+    "example_sentences": [
+      "Giv chop-moni."
+    ],
+    "notes": "IFRA compound §4.2.",
+    "pronunciation": "CH-oh-p-m-oh-n-ee"
+  },
+  {
+    "id": "strong-hed",
+    "standard_spelling": "strong-hed",
+    "informal_variants": [
+      "stubborn"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "stubborn person"
+    ],
+    "example_sentences": [
+      "Im na strong-hed.",
+      "Me, I stubborn well, well o."
+    ],
+    "notes": "IFRA compound §4.2. | UD_Naija-NSC example (CC BY-SA 4.0)",
+    "pronunciation": "S-t-r-oh-ng-h-eh-d"
+  },
+  {
+    "id": "opun-ai",
+    "standard_spelling": "opun-ai",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "worldliness"
+    ],
+    "example_sentences": [
+      "Opun-ai no gud."
+    ],
+    "notes": "IFRA compound §4.2.",
+    "pronunciation": "OH-p-oo-n-eye"
+  },
+  {
+    "id": "gbagbati",
+    "standard_spelling": "gbagbati",
+    "informal_variants": [
+      "troublesome"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "troublesome"
+    ],
+    "example_sentences": [
+      "Im pikin gbagbati."
+    ],
+    "pronunciation": "G-b-ah-g-b-ah-t-ee"
+  },
+  {
+    "id": "gragra",
+    "standard_spelling": "gragra",
+    "informal_variants": [
+      "hasty"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "hasty; rash"
+    ],
+    "example_sentences": [
+      "No de gragra.",
+      "No be sey you go dey do gragra."
+    ],
+    "pronunciation": "G-r-ah-g-r-ah",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "akada",
+    "standard_spelling": "akada",
+    "informal_variants": [
+      "bookish"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "educated person; bookish person"
+    ],
+    "example_sentences": [
+      "Im na akada."
+    ],
+    "pronunciation": "AH-k-ah-d-ah"
+  },
+  {
+    "id": "gud",
+    "standard_spelling": "gud",
+    "informal_variants": [
+      "good"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "good"
+    ],
+    "example_sentences": [
+      "Di fud gud.",
+      "Abuja na very good place to stay."
+    ],
+    "pronunciation": "G-oo-d",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "bad",
+    "standard_spelling": "bad",
+    "informal_variants": [],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "bad"
+    ],
+    "example_sentences": [
+      "Dat bad.",
+      "All di bad, bad tings wey I dey do before, I do dem no more."
+    ],
+    "pronunciation": "B-ah-d",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "big",
+    "standard_spelling": "big",
+    "informal_variants": [],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "big; large"
+    ],
+    "example_sentences": [
+      "Big haus."
+    ],
+    "pronunciation": "B-ee-g"
+  },
+  {
+    "id": "smol",
+    "standard_spelling": "smol",
+    "informal_variants": [
+      "small"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "small"
+    ],
+    "example_sentences": [
+      "Smol pikin."
+    ],
+    "pronunciation": "S-m-oh-l"
+  },
+  {
+    "id": "long",
+    "standard_spelling": "long",
+    "informal_variants": [],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "long; tall"
+    ],
+    "example_sentences": [
+      "Long rod.",
+      "All of us dey pray sey make we live long for life."
+    ],
+    "pronunciation": "L-oh-ng",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "shot",
+    "standard_spelling": "shot",
+    "informal_variants": [
+      "short"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "short"
+    ],
+    "example_sentences": [
+      "Shot taim.",
+      "And our God hand no dey too short to save us."
+    ],
+    "pronunciation": "SH-oh-t",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "fain",
+    "standard_spelling": "fain",
+    "informal_variants": [
+      "fine",
+      "beautiful"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "fine; beautiful; okay"
+    ],
+    "example_sentences": [
+      "Shi fain.",
+      "Aha di guy fine reach you die."
+    ],
+    "pronunciation": "F-eye-n",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "nyu",
+    "standard_spelling": "nyu",
+    "informal_variants": [
+      "new"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "new"
+    ],
+    "example_sentences": [
+      "Nyu moto.",
+      "All dat one, e dey inside ehm di New Telegraph."
+    ],
+    "pronunciation": "N-y-oo",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "olt",
+    "standard_spelling": "olt",
+    "informal_variants": [
+      "old"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "old"
+    ],
+    "example_sentences": [
+      "Olt man."
+    ],
+    "pronunciation": "OH-l-t"
+  },
+  {
+    "id": "hot",
+    "standard_spelling": "hot",
+    "informal_variants": [],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "hot"
+    ],
+    "example_sentences": [
+      "Wata hot.",
+      "After you don stir am finish, you turn am put inside di hot oil."
+    ],
+    "pronunciation": "H-oh-t",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "kol",
+    "standard_spelling": "kol",
+    "informal_variants": [
+      "cold"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "cold"
+    ],
+    "example_sentences": [
+      "Wata kol."
+    ],
+    "pronunciation": "K-oh-l"
+  },
+  {
+    "id": "swit",
+    "standard_spelling": "swit",
+    "informal_variants": [
+      "sweet"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "sweet; nice"
+    ],
+    "example_sentences": [
+      "Di akara swit.",
+      "After, e be like sey di ting no come sweet im belle well, well."
+    ],
+    "pronunciation": "S-w-ee-t",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "sour",
+    "standard_spelling": "sour",
+    "informal_variants": [],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "sour"
+    ],
+    "example_sentences": [
+      "Sour taste."
+    ],
+    "pronunciation": "S-ow-r"
+  },
+  {
+    "id": "strong",
+    "standard_spelling": "strong",
+    "informal_variants": [],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "strong"
+    ],
+    "example_sentences": [
+      "Im strong.",
+      "De con do strong medin wetin we dey call jazz."
+    ],
+    "pronunciation": "S-t-r-oh-ng",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "weak",
+    "standard_spelling": "weak",
+    "informal_variants": [],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "weak"
+    ],
+    "example_sentences": [
+      "Im weak.",
+      "I tell am sey no, sey I go play ball, my body come weak."
+    ],
+    "pronunciation": "W-ee-k",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "rich",
+    "standard_spelling": "rich",
+    "informal_variants": [],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "rich"
+    ],
+    "example_sentences": [
+      "Im rich.",
+      "Because dat kunu, e dey very, very rich."
+    ],
+    "pronunciation": "R-ee-ch",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "poo",
+    "standard_spelling": "poo",
+    "informal_variants": [
+      "poor"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "poor"
+    ],
+    "example_sentences": [
+      "Im poo.",
+      "And as we born for poor family, no money."
+    ],
+    "pronunciation": "P-oo",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "sik",
+    "standard_spelling": "sik",
+    "informal_variants": [
+      "sick"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "sick"
+    ],
+    "example_sentences": [
+      "Im sik."
+    ],
+    "pronunciation": "S-ee-k"
+  },
+  {
+    "id": "wel",
+    "standard_spelling": "wel",
+    "informal_variants": [
+      "well"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "well; fine (health)"
+    ],
+    "example_sentences": [
+      "I de wel.",
+      "After di ting don steam well, well, I carry am down."
+    ],
+    "pronunciation": "W-eh-l",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "taya",
+    "standard_spelling": "taya",
+    "informal_variants": [
+      "tired"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "tired"
+    ],
+    "example_sentences": [
+      "I de taya."
+    ],
+    "pronunciation": "T-ah-y-ah"
+  },
+  {
+    "id": "hapi",
+    "standard_spelling": "hapi",
+    "informal_variants": [
+      "happy"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "happy"
+    ],
+    "example_sentences": [
+      "Wi de hapi.",
+      "Alaska Pepper con dey happy."
+    ],
+    "pronunciation": "H-ah-p-ee",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "sad",
+    "standard_spelling": "sad",
+    "informal_variants": [],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "sad"
+    ],
+    "example_sentences": [
+      "Im sad."
+    ],
+    "pronunciation": "S-ah-d"
+  },
+  {
+    "id": "angri",
+    "standard_spelling": "angri",
+    "informal_variants": [
+      "angry"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "angry"
+    ],
+    "example_sentences": [
+      "Im angri."
+    ],
+    "pronunciation": "AH-ng-r-ee"
+  },
+  {
+    "id": "fri",
+    "standard_spelling": "fri",
+    "informal_variants": [
+      "free"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "free"
+    ],
+    "example_sentences": [
+      "Yu fri."
+    ],
+    "pronunciation": "F-r-ee"
+  },
+  {
+    "id": "koret",
+    "standard_spelling": "koret",
+    "informal_variants": [
+      "correct",
+      "right"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "correct; right"
+    ],
+    "example_sentences": [
+      "Dat koret.",
+      "And in fact sey all of dem bin dey inside good form right now."
+    ],
+    "pronunciation": "K-oh-r-eh-t",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "rong",
+    "standard_spelling": "rong",
+    "informal_variants": [
+      "wrong"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "wrong"
+    ],
+    "example_sentences": [
+      "Dat rong."
+    ],
+    "pronunciation": "R-oh-ng"
+  },
+  {
+    "id": "trut",
+    "standard_spelling": "trut",
+    "informal_variants": [
+      "truth",
+      "true"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "truth"
+    ],
+    "example_sentences": [
+      "Tok trut.",
+      "And di truth about wedding be sey wetin you no get, no go borrow."
+    ],
+    "pronunciation": "T-r-oo-t",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "fals",
+    "standard_spelling": "fals",
+    "informal_variants": [
+      "false",
+      "fake"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "false; fake"
+    ],
+    "example_sentences": [
+      "Dat fals."
+    ],
+    "pronunciation": "F-ah-l-s"
+  },
+  {
+    "id": "shapshap",
+    "standard_spelling": "shapshap",
+    "informal_variants": [
+      "sharp-sharp",
+      "sharp sharp"
+    ],
+    "part_of_speech": "adverb",
+    "definitions": [
+      "quickly; at once"
+    ],
+    "example_sentences": [
+      "Make wi shapshap go."
+    ],
+    "notes": "IFRA: together §4.3; Naija Guru hyphen = variant.",
+    "pronunciation": "SH-ah-p-sh-ah-p"
+  },
+  {
+    "id": "kwik-kwik",
+    "standard_spelling": "kwik kwik",
+    "informal_variants": [
+      "quick quick",
+      "quick-quick"
+    ],
+    "part_of_speech": "adverb",
+    "definitions": [
+      "quickly (intensification)"
+    ],
+    "example_sentences": [
+      "Du am kwik kwik."
+    ],
+    "notes": "IFRA intensification: separate words §4.4.",
+    "pronunciation": "K-w-ee-k-k-w-ee-k"
+  },
+  {
+    "id": "wel-wel",
+    "standard_spelling": "wel wel",
+    "informal_variants": [
+      "well well",
+      "well-well"
+    ],
+    "part_of_speech": "adverb",
+    "definitions": [
+      "extremely well"
+    ],
+    "example_sentences": [
+      "Im de wel wel."
+    ],
+    "notes": "IFRA intensification §4.4.",
+    "pronunciation": "W-eh-l-w-eh-l"
+  },
+  {
+    "id": "bad-bad",
+    "standard_spelling": "bad bad",
+    "informal_variants": [
+      "bad-bad"
+    ],
+    "part_of_speech": "adverb",
+    "definitions": [
+      "extremely bad (or extremely good, context)"
+    ],
+    "example_sentences": [
+      "Dat bad bad."
+    ],
+    "notes": "IFRA intensification §4.4.",
+    "pronunciation": "B-ah-d-b-ah-d"
+  },
+  {
+    "id": "sote",
+    "standard_spelling": "soteé",
+    "informal_variants": [
+      "sote",
+      "soteh"
+    ],
+    "part_of_speech": "adverb",
+    "definitions": [
+      "until; for a long time"
+    ],
+    "example_sentences": [
+      "Wét soteé im kom."
+    ],
+    "pronunciation": "S-oh-t-ee"
+  },
+  {
+    "id": "nau",
+    "standard_spelling": "nau",
+    "informal_variants": [
+      "now",
+      "naw",
+      "naww"
+    ],
+    "part_of_speech": "adverb",
+    "definitions": [
+      "now"
+    ],
+    "example_sentences": [
+      "Kom nau.",
+      "A don dey call am animal now."
+    ],
+    "pronunciation": "N-ow",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "tumoro",
+    "standard_spelling": "tumoro",
+    "informal_variants": [
+      "tomorrow"
+    ],
+    "part_of_speech": "adverb",
+    "definitions": [
+      "tomorrow"
+    ],
+    "example_sentences": [
+      "Si yu tumoro.",
+      "Aha na tomorrow go make sense pass."
+    ],
+    "pronunciation": "T-oo-m-oh-r-oh",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "yestade",
+    "standard_spelling": "yestade",
+    "informal_variants": [
+      "yesterday"
+    ],
+    "part_of_speech": "adverb",
+    "definitions": [
+      "yesterday"
+    ],
+    "example_sentences": [
+      "I si am yestade.",
+      "Dat yesterday ehn headache bin dey worry me."
+    ],
+    "pronunciation": "Y-eh-s-t-ah-d-eh",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "tode",
+    "standard_spelling": "tode",
+    "informal_variants": [
+      "today"
+    ],
+    "part_of_speech": "adverb",
+    "definitions": [
+      "today"
+    ],
+    "example_sentences": [
+      "Tode na Munde."
+    ],
+    "pronunciation": "T-oh-d-eh"
+  },
+  {
+    "id": "evri",
+    "standard_spelling": "evri",
+    "informal_variants": [
+      "every"
+    ],
+    "part_of_speech": "adverb",
+    "definitions": [
+      "every"
+    ],
+    "example_sentences": [
+      "Evri dei."
+    ],
+    "pronunciation": "EH-v-r-ee"
+  },
+  {
+    "id": "onli",
+    "standard_spelling": "onli",
+    "informal_variants": [
+      "only"
+    ],
+    "part_of_speech": "adverb",
+    "definitions": [
+      "only"
+    ],
+    "example_sentences": [
+      "Onli wan.",
+      "Agric banga go only thick."
+    ],
+    "pronunciation": "OH-n-l-ee",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "tu-mach",
+    "standard_spelling": "tu mach",
+    "informal_variants": [
+      "too much"
+    ],
+    "part_of_speech": "adverb",
+    "definitions": [
+      "too much"
+    ],
+    "example_sentences": [
+      "Yu tok tu mach."
+    ],
+    "pronunciation": "T-oo-m-ah-ch"
+  },
+  {
+    "id": "smol-smol",
+    "standard_spelling": "smol smol",
+    "informal_variants": [
+      "small-small",
+      "small small"
+    ],
+    "part_of_speech": "adverb",
+    "definitions": [
+      "little by little"
+    ],
+    "example_sentences": [
+      "Du am smol smol."
+    ],
+    "pronunciation": "S-m-oh-l-s-m-oh-l"
+  },
+  {
+    "id": "na",
+    "standard_spelling": "na",
+    "informal_variants": [],
+    "part_of_speech": "particle",
+    "definitions": [
+      "focus/it-is marker"
+    ],
+    "example_sentences": [
+      "Dis na mi buk.",
+      "A policeman, na im dey yarn sey wetin?"
+    ],
+    "pronunciation": "N-ah",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "o",
+    "standard_spelling": "o",
+    "informal_variants": [],
+    "part_of_speech": "interjection",
+    "definitions": [
+      "vocative/emphasis particle"
+    ],
+    "example_sentences": [
+      "Abeg o!",
+      "Abeg o, dey come dey buy from mama o."
+    ],
+    "pronunciation": "OH",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "abeg",
+    "standard_spelling": "abeg",
+    "informal_variants": [
+      "please",
+      "abegi"
+    ],
+    "part_of_speech": "interjection",
+    "definitions": [
+      "please; I beg you"
+    ],
+    "example_sentences": [
+      "Abeg help mi."
+    ],
+    "pronunciation": "AH-b-eh-g",
+    "notes": "Usage: Polite request softener ('please'); strength depends on tone and follow-up."
+  },
+  {
+    "id": "abi",
+    "standard_spelling": "abi",
+    "informal_variants": [
+      "right",
+      "shebi",
+      "hebi",
+      "shey"
+    ],
+    "part_of_speech": "particle",
+    "definitions": [
+      "right?; isn't it? (tag question)"
+    ],
+    "example_sentences": [
+      "Yu de kom, abi?"
+    ],
+    "pronunciation": "AH-b-ee"
+  },
+  {
+    "id": "sha",
+    "standard_spelling": "sha",
+    "informal_variants": [
+      "though"
+    ],
+    "part_of_speech": "particle",
+    "definitions": [
+      "anyway; emphasis"
+    ],
+    "example_sentences": [
+      "I go sha go.",
+      "And I bin so dey kajad dat time sha."
+    ],
+    "pronunciation": "SH-ah",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "se",
+    "standard_spelling": "se",
+    "informal_variants": [
+      "say",
+      "sey"
+    ],
+    "part_of_speech": "conjunction",
+    "definitions": [
+      "that (complementizer)"
+    ],
+    "example_sentences": [
+      "Ki ni Thompson se?",
+      "Dem tok se im don go."
+    ],
+    "pronunciation": "S-eh",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "make",
+    "standard_spelling": "make",
+    "informal_variants": [],
+    "part_of_speech": "verb",
+    "definitions": [
+      "let; make (alternate spelling)"
+    ],
+    "example_sentences": [
+      "Make yu kom."
+    ],
+    "pronunciation": "M-ah-k-eh"
+  },
+  {
+    "id": "don",
+    "standard_spelling": "don",
+    "informal_variants": [
+      "already"
+    ],
+    "part_of_speech": "particle",
+    "definitions": [
+      "already (perfect aspect)"
+    ],
+    "example_sentences": [
+      "I don chop.",
+      "(You know), area don develop us."
+    ],
+    "pronunciation": "D-oh-n",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "neva",
+    "standard_spelling": "neva",
+    "informal_variants": [
+      "never"
+    ],
+    "part_of_speech": "adverb",
+    "definitions": [
+      "never; not yet"
+    ],
+    "example_sentences": [
+      "I neva si am.",
+      "Abi you never know me before?"
+    ],
+    "pronunciation": "N-eh-v-ah",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "no",
+    "standard_spelling": "no",
+    "informal_variants": [
+      "not"
+    ],
+    "part_of_speech": "adverb",
+    "definitions": [
+      "not; no"
+    ],
+    "example_sentences": [
+      "I no sabi.",
+      "A no know who start dat discussion."
+    ],
+    "pronunciation": "N-oh",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "yes",
+    "standard_spelling": "yes",
+    "informal_variants": [],
+    "part_of_speech": "interjection",
+    "definitions": [
+      "yes"
+    ],
+    "example_sentences": [
+      "Yes, I go.",
+      "And people go con stand okay yes na Wazobia okay."
+    ],
+    "pronunciation": "Y-eh-s",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "plis",
+    "standard_spelling": "plis",
+    "informal_variants": [
+      "please",
+      "pls"
+    ],
+    "part_of_speech": "interjection",
+    "definitions": [
+      "please"
+    ],
+    "example_sentences": [
+      "Plis help."
+    ],
+    "pronunciation": "P-l-ee-s"
+  },
+  {
+    "id": "sori",
+    "standard_spelling": "sori",
+    "informal_variants": [
+      "sorry"
+    ],
+    "part_of_speech": "interjection",
+    "definitions": [
+      "sorry"
+    ],
+    "example_sentences": [
+      "Sori o."
+    ],
+    "pronunciation": "S-oh-r-ee"
+  },
+  {
+    "id": "tenki",
+    "standard_spelling": "tenki",
+    "informal_variants": [
+      "thank you",
+      "thanks"
+    ],
+    "part_of_speech": "interjection",
+    "definitions": [
+      "thank you"
+    ],
+    "example_sentences": [
+      "Tenki wel.",
+      "Thanks Ma o."
+    ],
+    "pronunciation": "T-eh-n-k-ee",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "welkom",
+    "standard_spelling": "welkom",
+    "informal_variants": [
+      "welcome"
+    ],
+    "part_of_speech": "interjection",
+    "definitions": [
+      "welcome"
+    ],
+    "example_sentences": [
+      "Welkom to wi haus.",
+      "My people, I welcome una to dis Sunday o."
+    ],
+    "pronunciation": "W-eh-l-k-oh-m",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "gud-moning",
+    "standard_spelling": "gud moning",
+    "informal_variants": [
+      "good morning"
+    ],
+    "part_of_speech": "phrase",
+    "definitions": [
+      "good morning"
+    ],
+    "example_sentences": [
+      "Gud moning."
+    ],
+    "pronunciation": "G-oo-d-m-oh-n-ee-ng"
+  },
+  {
+    "id": "gud-afternoon",
+    "standard_spelling": "gud aftanun",
+    "informal_variants": [
+      "good afternoon"
+    ],
+    "part_of_speech": "phrase",
+    "definitions": [
+      "good afternoon"
+    ],
+    "example_sentences": [
+      "Gud aftanun."
+    ],
+    "pronunciation": "G-oo-d-ah-f-t-ah-n-oo-n"
+  },
+  {
+    "id": "gud-nait",
+    "standard_spelling": "gud nait",
+    "informal_variants": [
+      "good night"
+    ],
+    "part_of_speech": "phrase",
+    "definitions": [
+      "good night"
+    ],
+    "example_sentences": [
+      "Gud nait."
+    ],
+    "pronunciation": "G-oo-d-n-eye-t"
+  },
+  {
+    "id": "haw-far",
+    "standard_spelling": "haw far",
+    "informal_variants": [
+      "how far",
+      "how you dey"
+    ],
+    "part_of_speech": "phrase",
+    "definitions": [
+      "how are you; what's up (greeting)"
+    ],
+    "example_sentences": [
+      "Haw far?"
+    ],
+    "pronunciation": "H-ah-w-f-ah-r",
+    "notes": "Usage: Greeting / check-in ('how's it going?'), not a question about physical distance."
+  },
+  {
+    "id": "haw-yu-de",
+    "standard_spelling": "haw yu de",
+    "informal_variants": [
+      "how you dey"
+    ],
+    "part_of_speech": "phrase",
+    "definitions": [
+      "how are you doing"
+    ],
+    "example_sentences": [
+      "Haw yu de?"
+    ],
+    "pronunciation": "H-ah-w-y-oo-d-eh"
+  },
+  {
+    "id": "wetin-de",
+    "standard_spelling": "wetin de",
+    "informal_variants": [
+      "wetin dey"
+    ],
+    "part_of_speech": "phrase",
+    "definitions": [
+      "what's happening"
+    ],
+    "example_sentences": [
+      "Wetin de?",
+      "Because den, I no even know wetin de dey call car AC sef."
+    ],
+    "pronunciation": "W-eh-t-ee-n-d-eh",
+    "notes": "Usage: Asks what's going on; shorter cousin of 'wetin de happen'. | UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "no-wahala",
+    "standard_spelling": "no wahala",
+    "informal_variants": [
+      "no problem"
+    ],
+    "part_of_speech": "phrase",
+    "definitions": [
+      "no problem"
+    ],
+    "example_sentences": [
+      "No wahala.",
+      "All dose, I say okay no wahala!"
+    ],
+    "pronunciation": "N-oh-w-ah-h-ah-l-ah",
+    "notes": "Usage: Reassurance that things are fine or a request is accepted ('no problem'). | UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "wahala",
+    "standard_spelling": "wahala",
+    "informal_variants": [
+      "trouble",
+      "problem"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "trouble; problem"
+    ],
+    "example_sentences": [
+      "Wahala de."
+    ],
+    "pronunciation": "W-ah-h-ah-l-ah"
+  },
+  {
+    "id": "jara",
+    "standard_spelling": "jara",
+    "informal_variants": [
+      "extra"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "bonus; extra (esp. in market)"
+    ],
+    "example_sentences": [
+      "Giv mi jara.",
+      "Di one wey de bring, na jara."
+    ],
+    "pronunciation": "J-ah-r-ah",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "gist",
+    "standard_spelling": "gist",
+    "informal_variants": [
+      "gossip"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "gossip; gist; chat"
+    ],
+    "example_sentences": [
+      "Wi de tok gist."
+    ],
+    "pronunciation": "G-ee-s-t"
+  },
+  {
+    "id": "shek",
+    "standard_spelling": "shek",
+    "informal_variants": [
+      "shake"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to shake"
+    ],
+    "example_sentences": [
+      "Shek am wel."
+    ],
+    "pronunciation": "SH-eh-k"
+  },
+  {
+    "id": "mezho",
+    "standard_spelling": "mezho",
+    "informal_variants": [
+      "measure"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to measure"
+    ],
+    "example_sentences": [
+      "Mezho am."
+    ],
+    "pronunciation": "M-eh-z-h-oh"
+  },
+  {
+    "id": "nak",
+    "standard_spelling": "nak",
+    "informal_variants": [
+      "knock",
+      "hit"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to hit; knock"
+    ],
+    "example_sentences": [
+      "Nak di do."
+    ],
+    "pronunciation": "N-ah-k"
+  },
+  {
+    "id": "insult",
+    "standard_spelling": "insult",
+    "informal_variants": [],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to insult"
+    ],
+    "example_sentences": [
+      "No insult mi."
+    ],
+    "pronunciation": "EE-n-s-oo-l-t"
+  },
+  {
+    "id": "respekt",
+    "standard_spelling": "respekt",
+    "informal_variants": [
+      "respect"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to respect"
+    ],
+    "example_sentences": [
+      "Respekt elda.",
+      "Ah de respect dem well, well."
+    ],
+    "pronunciation": "R-eh-s-p-eh-k-t",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "foget",
+    "standard_spelling": "foget",
+    "informal_variants": [
+      "forget"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to forget"
+    ],
+    "example_sentences": [
+      "No foget am.",
+      "Auntie, I no believe dat ting sey we go forget house o."
+    ],
+    "pronunciation": "F-oh-g-eh-t",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "rimemba",
+    "standard_spelling": "rimemba",
+    "informal_variants": [
+      "remember"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to remember"
+    ],
+    "example_sentences": [
+      "Rimemba wetin I tok."
+    ],
+    "pronunciation": "R-ee-m-eh-m-b-ah"
+  },
+  {
+    "id": "dai",
+    "standard_spelling": "dai",
+    "informal_variants": [
+      "die"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to die"
+    ],
+    "example_sentences": [
+      "Man no de rili dai ontil pipol foget am.",
+      "Even dai if I no dey, if you enter, e go dey do dis."
+    ],
+    "pronunciation": "D-eye",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "laif",
+    "standard_spelling": "laif",
+    "informal_variants": [
+      "life"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "life"
+    ],
+    "example_sentences": [
+      "Bring am kom bak fo laif.",
+      "After e form us finish, e bring life into us."
+    ],
+    "pronunciation": "L-eye-f",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "brit",
+    "standard_spelling": "brit",
+    "informal_variants": [
+      "breathe"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to breathe"
+    ],
+    "example_sentences": [
+      "Mek i fo de brit."
+    ],
+    "pronunciation": "B-r-ee-t"
+  },
+  {
+    "id": "kwik",
+    "standard_spelling": "kwik",
+    "informal_variants": [
+      "quick",
+      "fast"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "quick; fast"
+    ],
+    "example_sentences": [
+      "Kwik kwik join di bon."
+    ],
+    "pronunciation": "K-w-ee-k"
+  },
+  {
+    "id": "sinio",
+    "standard_spelling": "sinio",
+    "informal_variants": [
+      "senior"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "senior; elder (sibling rank)"
+    ],
+    "example_sentences": [
+      "Di tiri sinio pikin."
+    ],
+    "pronunciation": "S-ee-n-ee-oh"
+  },
+  {
+    "id": "fest",
+    "standard_spelling": "fest",
+    "informal_variants": [
+      "first"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "first"
+    ],
+    "example_sentences": [
+      "Di fest pikin."
+    ],
+    "pronunciation": "F-eh-s-t"
+  },
+  {
+    "id": "sekond",
+    "standard_spelling": "sekond",
+    "informal_variants": [
+      "second"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "second"
+    ],
+    "example_sentences": [
+      "Di sekond pikin.",
+      "Anoda second extension for one year."
+    ],
+    "pronunciation": "S-eh-k-oh-n-d",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "ted",
+    "standard_spelling": "ted",
+    "informal_variants": [
+      "third"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "third"
+    ],
+    "example_sentences": [
+      "Di ted pikin.",
+      "And den we go to di third one money issue."
+    ],
+    "pronunciation": "T-eh-d",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "spesha",
+    "standard_spelling": "spesha",
+    "informal_variants": [
+      "special"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "special"
+    ],
+    "example_sentences": [
+      "Spesha gift."
+    ],
+    "pronunciation": "S-p-eh-sh-ah"
+  },
+  {
+    "id": "trutru",
+    "standard_spelling": "trutru",
+    "informal_variants": [
+      "truly",
+      "really"
+    ],
+    "part_of_speech": "adverb",
+    "definitions": [
+      "truly; really"
+    ],
+    "example_sentences": [
+      "Na im trutru bring am kom bak.",
+      "But wetin I really like to do before na broadcasting."
+    ],
+    "pronunciation": "T-r-oo-t-r-oo",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "rili",
+    "standard_spelling": "rili",
+    "informal_variants": [
+      "really"
+    ],
+    "part_of_speech": "adverb",
+    "definitions": [
+      "really"
+    ],
+    "example_sentences": [
+      "Man no de rili dai.",
+      "But wetin I really like to do before na broadcasting."
+    ],
+    "pronunciation": "R-ee-l-ee",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "ivun",
+    "standard_spelling": "ivun",
+    "informal_variants": [
+      "even"
+    ],
+    "part_of_speech": "adverb",
+    "definitions": [
+      "even"
+    ],
+    "example_sentences": [
+      "No fit si am ivun.",
+      "Ah even if we stay for road, you go see traffic light."
+    ],
+    "pronunciation": "EE-v-oo-n",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "stil",
+    "standard_spelling": "stil",
+    "informal_variants": [
+      "still"
+    ],
+    "part_of_speech": "adverb",
+    "definitions": [
+      "still; also"
+    ],
+    "example_sentences": [
+      "Awa pipul kom stil tok.",
+      "Abi make I still dey talk dey go?"
+    ],
+    "pronunciation": "S-t-ee-l",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "togeda",
+    "standard_spelling": "togeda",
+    "informal_variants": [
+      "together"
+    ],
+    "part_of_speech": "adverb",
+    "definitions": [
+      "together"
+    ],
+    "example_sentences": [
+      "Wi de wok togeda.",
+      "Naim I begin dey do small, small lesson dey put money togeda."
+    ],
+    "pronunciation": "T-oh-g-eh-d-ah",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "wia",
+    "standard_spelling": "wia",
+    "informal_variants": [
+      "where"
+    ],
+    "part_of_speech": "adverb",
+    "definitions": [
+      "where"
+    ],
+    "example_sentences": [
+      "Wia yu de?",
+      "Ah I no con know where to start!"
+    ],
+    "pronunciation": "W-ee-ah",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "wie",
+    "standard_spelling": "wie",
+    "informal_variants": [
+      "where"
+    ],
+    "part_of_speech": "adverb",
+    "definitions": [
+      "where (alternate)"
+    ],
+    "example_sentences": [
+      "Wie mai papa?",
+      "Ah I no con know where to start!"
+    ],
+    "pronunciation": "W-ee-eh",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "haw",
+    "standard_spelling": "haw",
+    "informal_variants": [
+      "how"
+    ],
+    "part_of_speech": "adverb",
+    "definitions": [
+      "how"
+    ],
+    "example_sentences": [
+      "Haw yu de?"
+    ],
+    "pronunciation": "H-ah-w"
+  },
+  {
+    "id": "why",
+    "standard_spelling": "why",
+    "informal_variants": [],
+    "part_of_speech": "adverb",
+    "definitions": [
+      "why"
+    ],
+    "example_sentences": [
+      "Why yu de krai?",
+      "Aha why I go con marry you say na only kitchen you go con dey?"
+    ],
+    "pronunciation": "W-y",
+    "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
+  },
+  {
+    "id": "abeg-mek",
+    "standard_spelling": "abeg mek",
+    "informal_variants": [
+      "abeg make",
+      "abegi make"
+    ],
+    "part_of_speech": "phrase",
+    "definitions": [
+      "please let…; soft request frame"
+    ],
+    "example_sentences": [
+      "Abeg mek yu help mi."
+    ],
+    "notes": "Usage: Opens a polite request or plea (not a literal 'beg make'). Often softens a following clause."
+  },
+  {
+    "id": "e-choke",
+    "standard_spelling": "e choke",
+    "informal_variants": [
+      "e choke!",
+      "echoke"
+    ],
+    "part_of_speech": "phrase",
+    "definitions": [
+      "that's intense; wow (exclamation of impact)"
+    ],
+    "example_sentences": [
+      "Di music sweet — e choke!"
+    ],
+    "notes": "Usage: Praise or shock reaction; not literal choking. Informal/youth register."
+  },
+  {
+    "id": "wetin-de-happen",
+    "standard_spelling": "wetin de happen",
+    "informal_variants": [
+      "wetin dey happen",
+      "what's happening",
+      "wetin dey happen?"
+    ],
+    "part_of_speech": "phrase",
+    "definitions": [
+      "what's going on; what's happening"
+    ],
+    "example_sentences": [
+      "Wetin de happen hia?"
+    ],
+    "notes": "Usage: Asks for the situation or news, not a formal event schedule. Related to shorter 'wetin de'."
+  },
+  {
+    "id": "na-so",
+    "standard_spelling": "na so",
+    "informal_variants": [
+      "na so!",
+      "that's how"
+    ],
+    "part_of_speech": "phrase",
+    "definitions": [
+      "that's how it is; exactly; agreement"
+    ],
+    "example_sentences": [
+      "Na so e bi."
+    ],
+    "notes": "Usage: Confirms agreement or resigns to how things are ('that's the way')."
+  },
+  {
+    "id": "abeg-nau",
+    "standard_spelling": "abeg nau",
+    "informal_variants": [
+      "abeg now",
+      "abeg nao"
+    ],
+    "part_of_speech": "phrase",
+    "definitions": [
+      "come on; please now (emphatic plea or mild protest)"
+    ],
+    "example_sentences": [
+      "Abeg nau, no vex."
+    ],
+    "notes": "Usage: Emphatic 'please/come on' — can soften or push back depending on tone."
+  },
+  {
+    "id": "wetin-be-dis",
+    "standard_spelling": "wetin be dis",
+    "informal_variants": [
+      "weytin be dis",
+      "wetin be this",
+      "what is this"
+    ],
+    "part_of_speech": "phrase",
+    "definitions": [
+      "what is this; what's going on here (surprise or complaint)"
+    ],
+    "example_sentences": [
+      "Wetin be dis?"
+    ],
+    "notes": "Usage: Often rhetorical surprise or mild complaint, not a neutral information question."
+  },
+  {
+    "id": "kari-go",
+    "standard_spelling": "kari go",
+    "informal_variants": [
+      "carry go",
+      "carry-go"
+    ],
+    "part_of_speech": "phrase",
+    "definitions": [
+      "take (it) away; go ahead and take"
+    ],
+    "example_sentences": [
+      "Kari go — I no nid am."
+    ],
+    "notes": "Usage: Directive to take something away or proceed with taking; not 'carry' as lift only."
+  },
+  {
+    "id": "i-de-kom",
+    "standard_spelling": "I de kom",
+    "informal_variants": [
+      "I dey come",
+      "i dey come",
+      "I'm coming"
+    ],
+    "part_of_speech": "phrase",
+    "definitions": [
+      "I'm on my way; I'll be right there"
+    ],
+    "example_sentences": [
+      "Wét — I de kom."
+    ],
+    "notes": "Usage: Often means 'I'm coming soon / on my way', not always literal motion right now."
+  },
+  {
+    "id": "i-no-fit",
+    "standard_spelling": "I no fit",
+    "informal_variants": [
+      "i no fit",
+      "I can't",
+      "i cannot"
+    ],
+    "part_of_speech": "phrase",
+    "definitions": [
+      "I can't; I'm not able"
+    ],
+    "example_sentences": [
+      "I no fit kom tumoro."
+    ],
+    "notes": "Usage: Ability refusal: can't / won't be able — not 'I do not fit' physically."
+  },
+  {
+    "id": "i-no-sabi",
+    "standard_spelling": "I no sabi",
+    "informal_variants": [
+      "i no sabi",
+      "I don't know",
+      "i don't know"
+    ],
+    "part_of_speech": "phrase",
+    "definitions": [
+      "I don't know; I don't understand"
+    ],
+    "example_sentences": [
+      "I no sabi wetin e mean."
+    ],
+    "notes": "Usage: Denial of knowledge/understanding; common discourse response."
+  },
+  {
+    "id": "no-vex",
+    "standard_spelling": "no vex",
+    "informal_variants": [
+      "no vex!",
+      "don't vex",
+      "don't be angry"
+    ],
+    "part_of_speech": "phrase",
+    "definitions": [
+      "don't be angry; sorry; calm down"
+    ],
+    "example_sentences": [
+      "No vex — I go fix am."
+    ],
+    "notes": "Usage: Apology / softener asking someone not to be upset; social repair, not medical 'vexation'."
+  }
+]

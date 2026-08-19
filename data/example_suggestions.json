@@ -1,0 +1,4969 @@
+{
+  "source": "UD_Naija-NSC",
+  "license": "CC BY-SA 4.0",
+  "entry_count": 264,
+  "suggestions": [
+    {
+      "entry_id": "i",
+      "standard_spelling": "I",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "A-... as I dey dere, I con come here.",
+          "sent_id": "ABJ_GWA_10_Steven-Lifestory_MG__47",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Ab-... as in I no be ga-... Bariga boy.",
+          "sent_id": "LAG_11_Adeniyi-Lifestory_MG__7",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "yu",
+      "standard_spelling": "yu",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "(You know), area don develop us.",
+          "sent_id": "WAZL_15_MC-Abi_MG__180",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "A'Ah you don't need to use plenty money now.",
+          "sent_id": "JOS_21_Marriage-Talk-With-Oscar-1_DG__46",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "wi",
+      "standard_spelling": "wi",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Abeg o, make we moders dey talk to our daughters now.",
+          "sent_id": "JOS_10_Mothers-Against-Mini-Skirts_DG__33",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Abi dose wey dey carry dis ting do, make we leave Nigeria for una?",
+          "sent_id": "KAD_15_Money-Wahala_MG__105",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "dem",
+      "standard_spelling": "dem",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "After de tell us sey na God told dem.",
+          "sent_id": "ENU_34_Malaysia-Guy_MG__63",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Ah de respect dem well, well.",
+          "sent_id": "IBA_02_Igwe-Festival_MG__128",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "una",
+      "standard_spelling": "una",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "A big person for una must do like small pikin, and di oga must do like boy, boy.",
+          "sent_id": "IBA_41_Christ-Passion-Finale_MG__31",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Abeg, when una see wife, wife, women, when any man beat you, go report to police.",
+          "sent_id": "ABJ_INF_10_Women-Battering_MG__77",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "im",
+      "standard_spelling": "im",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "A policeman, na im dey yarn sey wetin?",
+          "sent_id": "IBA_33_News-Comments_MG__101",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "According to John chapter one verse one, dat word, na im be who?",
+          "sent_id": "PRT_11_A-Man-Named-Jesus_MG__57",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "e",
+      "standard_spelling": "e",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Actually, I wan come Port, come Port Harcourt dat time, but e no work out like dat.",
+          "sent_id": "WAZP_07_Imonirhua-Lifestory_MG__35",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "After e don boil well, den I go con pour di pumpkin leaf wey I don wash well, well.",
+          "sent_id": "ENU_01_Salomis-Egusi-Soup-Recipe_MG__20",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "di",
+      "standard_spelling": "di",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "A big person for una must do like small pikin, and di oga must do like boy, boy.",
+          "sent_id": "IBA_41_Christ-Passion-Finale_MG__31",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Abi de go find small wahala, bin beat people wey be sey dey, eh dey work behind di desk.",
+          "sent_id": "WAZL_03_News-On-Gmns_MG__29",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "dis",
+      "standard_spelling": "dis",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Abi dis one na disrespect?",
+          "sent_id": "IBA_32_Tori-By-Samuel_MG__68",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Abi dose wey dey carry dis ting do, make we leave Nigeria for una?",
+          "sent_id": "KAD_15_Money-Wahala_MG__105",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "dat",
+      "standard_spelling": "dat",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "A no know who start dat discussion.",
+          "sent_id": "ABJ_GWA_09_Journalism_MG__40",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Abeg make God go, make God just try do someting for us dat side a beg.",
+          "sent_id": "ENU_33_A-Beg_MG__67",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "wan",
+      "standard_spelling": "wan",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Abi na which country I wan begin dey call?",
+          "sent_id": "WAZA_05_Big-Mo_MG__37",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Abi you wan form am for your papa?",
+          "sent_id": "PRT_05_Ghetto-Life_MG__13",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "ol",
+      "standard_spelling": "ol",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "After all, na Warri you grow up.",
+          "sent_id": "WAZP_07_Imonirhua-Lifestory_MG__56",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "All because e want money.",
+          "sent_id": "IBA_31_Lens-Sermon_MG__78",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "som",
+      "standard_spelling": "som",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "After I finish eh dat SSCE, dey look wheder I go get some menial job to do mtschew.",
+          "sent_id": "ABJ_GWA_06_Ugo-Lifestory_MG__4",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "After some weeks like dat, de con tell us sey make we start lecture.",
+          "sent_id": "KAD_13_Entering-University_MG__20",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "enibodi",
+      "standard_spelling": "enibodi",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Any money meh we work, any money meh anybody go work some go go carry okririka.",
+          "sent_id": "ABJ_GWA_10_Steven-Lifestory_MG__41",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Anybody fit come to dis...",
+          "sent_id": "JOS_20_Beauty-Of-Jos_MG__23",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "evribodi",
+      "standard_spelling": "evribodi",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And I notice sey di issue wey everybody dey discuss, Obama, Obama.",
+          "sent_id": "ABJ_GWA_09_Journalism_MG__7",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "And de dey preach sey God kindgom don show, make everybody dem repent.",
+          "sent_id": "IBA_40_Christ-Passion-Prologue_MG__18",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "notin",
+      "standard_spelling": "notin",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And dis one wey our country now, notin dey at all again.",
+          "sent_id": "ABJ_GWA_08_David-Lifestory_MG__185",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Notin to do sef.",
+          "sent_id": "ABJ_GWA_10_Steven-Lifestory_MG__139",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "somtin",
+      "standard_spelling": "somtin",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Babe, babe, love na something wey be sey person dey show love one for everyday.",
+          "sent_id": "IBA_07_Na-Love_DG__205",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Dem dey call am eh pus, mus, eh pus, mus sometin like dat.",
+          "sent_id": "JOS_01_People-Of-Plateau_MG__34",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "wetin",
+      "standard_spelling": "wetin",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "A policeman, na im dey yarn sey wetin?",
+          "sent_id": "IBA_33_News-Comments_MG__101",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Ah na wetin my boyfriend dey do be dat now, and since you say you wan, you wan make I follow you...",
+          "sent_id": "IBA_07_Na-Love_DG__223",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "huself",
+      "standard_spelling": "huself",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "She con dey do li-... feel herself like sey she be celebrity too much.",
+          "sent_id": "KAD_22_Chatting-At-The-Restaurant_DG__83",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "She don finish herself now.",
+          "sent_id": "JOS_10_Mothers-Against-Mini-Skirts_DG__32",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "de",
+      "standard_spelling": "de",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Abeg, if de know, meh de tell us.",
+          "sent_id": "WAZK_08_Fuel-Price-Increase_MG__111",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Abi de go find small wahala, bin beat people wey be sey dey, eh dey work behind di desk.",
+          "sent_id": "WAZL_03_News-On-Gmns_MG__29",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "de-copula",
+      "standard_spelling": "dé",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Abeg, if de know, meh de tell us.",
+          "sent_id": "WAZK_08_Fuel-Price-Increase_MG__111",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Abi de go find small wahala, bin beat people wey be sey dey, eh dey work behind di desk.",
+          "sent_id": "WAZL_03_News-On-Gmns_MG__29",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "go",
+      "standard_spelling": "go",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Abeg make God go, make God just try do someting for us dat side a beg.",
+          "sent_id": "ENU_33_A-Beg_MG__67",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Abeg, when una see wife, wife, women, when any man beat you, go report to police.",
+          "sent_id": "ABJ_INF_10_Women-Battering_MG__77",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "go-past",
+      "standard_spelling": "gó",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Abeg make God go, make God just try do someting for us dat side a beg.",
+          "sent_id": "ENU_33_A-Beg_MG__67",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Abeg, when una see wife, wife, women, when any man beat you, go report to police.",
+          "sent_id": "ABJ_INF_10_Women-Battering_MG__77",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "kom",
+      "standard_spelling": "kom",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "A-... as I dey dere, I con come here.",
+          "sent_id": "ABJ_GWA_10_Steven-Lifestory_MG__47",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Abeg o, dey come dey buy from mama o.",
+          "sent_id": "ENU_17_Buying-Grocery_DG__163",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "chop",
+      "standard_spelling": "chop",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Ah another food wey Jos people dey like to dey chop, na im be dog.",
+          "sent_id": "JOS_19_Bukuru_MG__63",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "All dis people wey dey Niger Delta, na dem dey chop di soup.",
+          "sent_id": "IBA_23_Bitter-Leaf-Soup_MG__44",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "waka",
+      "standard_spelling": "waka",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Anywhere trouble dey waka follow, na dat kind place na im Alaska Pepper dey go.",
+          "sent_id": "IBA_04_Alaska-Pepe_MG__28",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "As I dey waka, I dey stagger, I dey waka, I dey stagger.",
+          "sent_id": "PRT_05_Ghetto-Life_MG__140",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "sabi",
+      "standard_spelling": "sabi",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "After I learn di work a year, and six month, I see sey I don sabi di work.",
+          "sent_id": "ABJ_GWA_06_Ugo-Lifestory_MG__38",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Ah you sabi di kind person wey person be for department now.",
+          "sent_id": "IBA_07_Na-Love_DG__46",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "mek",
+      "standard_spelling": "mek",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Abeg make God go, make God just try do someting for us dat side a beg.",
+          "sent_id": "ENU_33_A-Beg_MG__67",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Abeg make I no just spoil my country.",
+          "sent_id": "ABJ_INF_08_Impatience_DG__137",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "fit",
+      "standard_spelling": "fit",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "All dose green, you fit buy dem for market.",
+          "sent_id": "JOS_19_Bukuru_MG__46",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "And dat back wey im dey pedal go, e no go fit sew.",
+          "sent_id": "BEN_09_Tailoring-Immunization_MG__17",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "tok",
+      "standard_spelling": "tok",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Abeg o, make we moders dey talk to our daughters now.",
+          "sent_id": "JOS_10_Mothers-Against-Mini-Skirts_DG__33",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Abi make I still dey talk dey go?",
+          "sent_id": "WAZP_07_Imonirhua-Lifestory_MG__96",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "si",
+      "standard_spelling": "si",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "But sha, Mama sha, dey enjoy dey say eni ifa o to si ni pee laraamu.",
+          "sent_id": "IBA_32_Tori-By-Samuel_MG__86",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Ki ni ka ti seyi si?",
+          "sent_id": "IBA_33_News-Comments_MG__43",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "luk",
+      "standard_spelling": "luk",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "After I finish eh dat SSCE, dey look wheder I go get some menial job to do mtschew.",
+          "sent_id": "ABJ_GWA_06_Ugo-Lifestory_MG__4",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "And de still dey look for us.",
+          "sent_id": "ONI_07_Dis-Year-Na-My-Year_MG__47",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "giv",
+      "standard_spelling": "giv",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And as my papa don give me di control, na so I go pass am give una.",
+          "sent_id": "IBA_41_Christ-Passion-Finale_MG__36",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "And den, you go give me money go and buy di part wey I will use.",
+          "sent_id": "KAD_12_Mechanic-At-Work_MG__32",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "tek",
+      "standard_spelling": "tek",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "After five minutes, carry your spoon, take am take turn your banga soup.",
+          "sent_id": "PRT_01_Banga-Soup_MG__104",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Ah my sister, my junior sister bin teach me how de take dey cook am o.",
+          "sent_id": "ABJ_GWA_02_Market-Food-Church_DG__55",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "put",
+      "standard_spelling": "put",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "After dat sulphuric, after em soda ash, I go put STP-... STPP.",
+          "sent_id": "LAG_37_Soap-Making_MG__59",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "After e don, you go con put your ugwu, or waterleaf.",
+          "sent_id": "KAD_10_Egusi-Soup_MG__25",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "ask",
+      "standard_spelling": "ask",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And I don tell her, ask am (di girl) sey ah wetin e dey tell dis boy X?",
+          "sent_id": "ONI_27_A-Hotelier-Interview_MG__62",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "And una go dey ask sey wetin dem dey do for insurance company?",
+          "sent_id": "LAG_12_Insurance_MG__6",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "ans",
+      "standard_spelling": "ans",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "If you gave me answer, from dere, I will know what to do.",
+          "sent_id": "KAD_12_Mechanic-At-Work_MG__5",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Insurance na di answer wey you suppose get.",
+          "sent_id": "LAG_12_Insurance_MG__69",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "du",
+      "standard_spelling": "du",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "A big person for una must do like small pikin, and di oga must do like boy, boy.",
+          "sent_id": "IBA_41_Christ-Passion-Finale_MG__31",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "A'Ah you don't need to use plenty money now.",
+          "sent_id": "JOS_21_Marriage-Talk-With-Oscar-1_DG__46",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "get",
+      "standard_spelling": "get",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "After I finish eh dat SSCE, dey look wheder I go get some menial job to do mtschew.",
+          "sent_id": "ABJ_GWA_06_Ugo-Lifestory_MG__4",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "After dat day, I get mysef.",
+          "sent_id": "PRT_07_Drummer_MG__107",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "want",
+      "standard_spelling": "want",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "After my eh JSS three wey I come, I want enter SS.",
+          "sent_id": "LAG_11_Adeniyi-Lifestory_MG__38",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Ah I don't want, eh I don't, I, I don't care for dis eh Nigeria ehn prophet.",
+          "sent_id": "ENU_34_Malaysia-Guy_MG__78",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "nid",
+      "standard_spelling": "nid",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "A'Ah you don't need to use plenty money now.",
+          "sent_id": "JOS_21_Marriage-Talk-With-Oscar-1_DG__46",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Ah but we go, we need to rush am now.",
+          "sent_id": "ABJ_INF_08_Impatience_DG__114",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "help",
+      "standard_spelling": "help",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And e dey help person well, well.",
+          "sent_id": "JOS_19_Bukuru_MG__88",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "And na one of di tings wey help dat guy win election.",
+          "sent_id": "ABJ_GWA_09_Journalism_MG__35",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "ple",
+      "standard_spelling": "ple",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Alright for inside entertainment gist, country star Senyatuwe, na im go play now live inside UK.",
+          "sent_id": "WAZA_09_Tv-News_MG__33",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "And di day wey de win, e go be like sey na im play ball win.",
+          "sent_id": "KAD_03_Why-Men-Watch-Football_MG__29",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "wok",
+      "standard_spelling": "wok",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Abi de go find small wahala, bin beat people wey be sey dey, eh dey work behind di desk.",
+          "sent_id": "WAZL_03_News-On-Gmns_MG__29",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Actually, I wan come Port, come Port Harcourt dat time, but e no work out like dat.",
+          "sent_id": "WAZP_07_Imonirhua-Lifestory_MG__35",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "len",
+      "standard_spelling": "len",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "After I learn di work a year, and six month, I see sey I don sabi di work.",
+          "sent_id": "ABJ_GWA_06_Ugo-Lifestory_MG__38",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "And now ah as in mtschew na all dis ting make me I con dey learn dis work.",
+          "sent_id": "ENU_33_A-Beg_MG__30",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "tich",
+      "standard_spelling": "tich",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Ah my sister, my junior sister bin teach me how de take dey cook am o.",
+          "sent_id": "ABJ_GWA_02_Market-Food-Church_DG__55",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Anyting wey de teach us, I go put mind.",
+          "sent_id": "IBA_01_Fola-Lifestory_MG__10",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "rit",
+      "standard_spelling": "rit",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "After register, con, I con write di JAMB.",
+          "sent_id": "ABJ_GWA_08_David-Lifestory_MG__175",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "After write di jamb now, I con dey now.",
+          "sent_id": "ABJ_GWA_08_David-Lifestory_MG__176",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "rid",
+      "standard_spelling": "rid",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "After I read am finish, na so I go buy materials.",
+          "sent_id": "LAG_37_Soap-Making_MG__10",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "After we read in di night for prep, na class I go sleep.",
+          "sent_id": "ABJ_INF_08_Impatience_DG__58",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "sing",
+      "standard_spelling": "sing",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "De go dey sing dey come o.",
+          "sent_id": "IBA_02_Igwe-Festival_MG__40",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "E con sing if na me eat dis...",
+          "sent_id": "BEN_34_Tale_MG__19",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "dan",
+      "standard_spelling": "dan",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Better mey I go, e better mey I go die for, for China dan to stay in dis country now.",
+          "sent_id": "ENU_34_Malaysia-Guy_MG__54",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "De talk sey eh di average billionaire get more dan five job wey im dey do.",
+          "sent_id": "WAZA_10_Bluetooth-Lifestory_MG__84",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "slip",
+      "standard_spelling": "slip",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "After I drink am, I go sleep.",
+          "sent_id": "PRT_05_Ghetto-Life_MG__149",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "After we read in di night for prep, na class I go sleep.",
+          "sent_id": "ABJ_INF_08_Impatience_DG__58",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "wok-op",
+      "standard_spelling": "wek op",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Ah to dey wake up for night, anoder work.",
+          "sent_id": "ABJ_GWA_14_Mary-Lifestory_MG__28",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "And I happy dis morning when I wake up wey I see sey de no just make just anyhow decision.",
+          "sent_id": "WAZK_08_Fuel-Price-Increase_MG__39",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "sidon",
+      "standard_spelling": "sidon",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Because from wetin dey comot from di mouth of Oga Kabiru Gaya, im dey yarn sey, sey na true sey de sidon talk base on some kind bill wey de bin don dey judge, judge on top, on top of road matter.",
+          "sent_id": "WAZK_08_Fuel-Price-Increase_MG__57",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "stan",
+      "standard_spelling": "stan",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And people go con stand okay yes na Wazobia okay.",
+          "sent_id": "WAZL_08_Edewor-Lifestory_MG__57",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "As I stand dere, I look, look and noting to, as in noting to even utter to dem.",
+          "sent_id": "ENU_09_Angry-Neighbours_MG__25",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "opun",
+      "standard_spelling": "opun",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "After my national diploma now, con get work for National Open University.",
+          "sent_id": "ABJ_NOU_02_Gimba-Lifestory_MG__12",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "And but di funny ting be sey social media wey don dey ground now don open eyes of plenty people dem.",
+          "sent_id": "WAZA_05_Big-Mo_MG__19",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "kloz",
+      "standard_spelling": "kloz",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And even me sef, where I dey stay, very close to, e dey close to Bariga.",
+          "sent_id": "LAG_11_Adeniyi-Lifestory_MG__5",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "As soon as service close, I come house, go back to church again.",
+          "sent_id": "PRT_07_Drummer_MG__71",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "kari",
+      "standard_spelling": "kari",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Abi dose wey dey carry dis ting do, make we leave Nigeria for una?",
+          "sent_id": "KAD_15_Money-Wahala_MG__105",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "After di ting don steam well, well, I carry am down.",
+          "sent_id": "ENU_01_Salomis-Egusi-Soup-Recipe_MG__12",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "ron",
+      "standard_spelling": "ron",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And eh at di long run, my papa con, my mama first die, my, my mama con follow.",
+          "sent_id": "ABJ_NOU_02_Gimba-Lifestory_MG__9",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "As I tell you di name, you go run go google am, you no go see any information.",
+          "sent_id": "WAZP_04_Ponzi-Scheme_MG__27",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "draiv",
+      "standard_spelling": "draiv",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And if you dey drive, you suppose, you, you.",
+          "sent_id": "LAG_31_Road-Safety_MG__76",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Dem dey overload, and dem dey drive very, very dangerously.",
+          "sent_id": "IBA_34_News-Report-By-Samuel_MG__30",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "fai",
+      "standard_spelling": "fai",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "De no dey like fight, or anyting.",
+          "sent_id": "JOS_20_Beauty-Of-Jos_MG__35",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Na so fight im dey fight.",
+          "sent_id": "ABJ_GWA_10_Steven-Lifestory_MG__34",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "laf",
+      "standard_spelling": "laf",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And as I dey talk am now eh, Oyibo, you, you dey laugh kwa.",
+          "sent_id": "PRT_05_Ghetto-Life_MG__39",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "E just laugh to Mahatma Ghandi.",
+          "sent_id": "IBA_31_Lens-Sermon_MG__125",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "krai",
+      "standard_spelling": "krai",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And ehn im, im dey hear our cry everyday.",
+          "sent_id": "ONI_07_Dis-Year-Na-My-Year_MG__63",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Dat day I wake up, I con dey cry.",
+          "sent_id": "WAZP_07_Imonirhua-Lifestory_MG__111",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "lov",
+      "standard_spelling": "lov",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Ah dat one, na serious gbege o, but no p unto sey I love you ehn.",
+          "sent_id": "IBA_07_Na-Love_DG__84",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "And I love di job as in wit all my heart.",
+          "sent_id": "WAZA_03_Obi-Lifestory_MG__11",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "het",
+      "standard_spelling": "het",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "De dey mislead oder women, de hate to be women, de wan be men by all means.",
+          "sent_id": "WAZP_07_Imonirhua-Lifestory_MG__88",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "De hate demsefs as women.",
+          "sent_id": "WAZP_07_Imonirhua-Lifestory_MG__77",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "fet",
+      "standard_spelling": "fet",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And we go fetch water for di oder block.",
+          "sent_id": "IBA_20_Bose-Alade_MG__66",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "But in di morning, you go go fetch water.",
+          "sent_id": "IBA_07_Na-Love_DG__351",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "wash",
+      "standard_spelling": "wash",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "After e don boil well, den I go con pour di pumpkin leaf wey I don wash well, well.",
+          "sent_id": "ENU_01_Salomis-Egusi-Soup-Recipe_MG__20",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "And my soap e no dey spoil cloth, e no dey wash cloth, e dey make cloth beta.",
+          "sent_id": "LAG_37_Soap-Making_MG__27",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "kuk",
+      "standard_spelling": "kuk",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "After cooking, we go eat.",
+          "sent_id": "ENU_02_Christmas-At-New-Berries_MG__10",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Ah my sister, my junior sister bin teach me how de take dey cook am o.",
+          "sent_id": "ABJ_GWA_02_Market-Food-Church_DG__55",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "buy",
+      "standard_spelling": "buy",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Abeg o, dey come dey buy from mama o.",
+          "sent_id": "ENU_17_Buying-Grocery_DG__163",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Abi make I buy one carton self so dat de go keep am for one month.",
+          "sent_id": "ENU_17_Buying-Grocery_DG__58",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "sel",
+      "standard_spelling": "sel",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And it has to do wit you know time, and discipline for someone to sell shawarma.",
+          "sent_id": "LAG_27_Shawarma_MG__28",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Before you know, dat word wey you tink sey go, e no sell later, e fit con turn anoder ting.",
+          "sent_id": "WAZA_10_Bluetooth-Lifestory_MG__65",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "pay",
+      "standard_spelling": "pay",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "After I work wey di woman dey pay me my money, I come from dere finish my junior WAEC.",
+          "sent_id": "ABJ_GWA_08_David-Lifestory_MG__100",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "After work one month, month don end, meh di woman pay me money.",
+          "sent_id": "ABJ_GWA_08_David-Lifestory_MG__130",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "bor",
+      "standard_spelling": "bor",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And di truth about wedding be sey wetin you no get, no go borrow.",
+          "sent_id": "JOS_21_Marriage-Talk-With-Oscar-1_DG__139",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "As we don borrow Oyibo culture...",
+          "sent_id": "JOS_21_Marriage-Talk-With-Oscar-1_DG__84",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "find",
+      "standard_spelling": "fain",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Abi de go find small wahala, bin beat people wey be sey dey, eh dey work behind di desk.",
+          "sent_id": "WAZL_03_News-On-Gmns_MG__29",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Anoder one, you go find out about am.",
+          "sent_id": "WAZP_04_Ponzi-Scheme_MG__64",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "luz",
+      "standard_spelling": "luz",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Ah you dey hear sey TELCOS dey lose big money.",
+          "sent_id": "WAZL_02_Good-Morning-Nigeria_MG__2",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "De lose two zero, but de say deir car get small problem.",
+          "sent_id": "WAZA_01_Triplea-Sports_MG__12",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "hol",
+      "standard_spelling": "hol",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Because if we no hold dem, dis country no go move forward.",
+          "sent_id": "JOS_14_Chibozor-View-About-Nigeria_MG__84",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Because, and e will hold your stommy also.",
+          "sent_id": "LAG_21_I-Like-Stout_MG__9",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "dro",
+      "standard_spelling": "dro",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And I know sey when time come, at least, e go throw dat, dat aw-... ar-... ar-... windows for me.",
+          "sent_id": "ABJ_GWA_06_Ugo-Lifestory_MG__93",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "And your maggi (you go don already crumble di maggi), drop am!",
+          "sent_id": "KAD_10_Egusi-Soup_MG__8",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "pik",
+      "standard_spelling": "pik",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And if na to go report am to where de suppose to report am, pick am, go police!",
+          "sent_id": "ABJ_INF_10_Women-Battering_MG__71",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Everybody come dey open say ah one person pick second.",
+          "sent_id": "LAG_11_Adeniyi-Lifestory_MG__149",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "kach",
+      "standard_spelling": "kach",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And di tin con later pay off when di suspect, dem catch am.",
+          "sent_id": "IBA_33_News-Comments_MG__115",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "As e say make e catch am, na Alaska Pepper shoot am di last stone.",
+          "sent_id": "IBA_04_Alaska-Pepe_MG__154",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "eskep",
+      "standard_spelling": "eskep",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Na so I take escape for school.",
+          "sent_id": "WAZL_15_MC-Abi_MG__143",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Na dere I take escape.",
+          "sent_id": "WAZL_15_MC-Abi_MG__104",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "feil",
+      "standard_spelling": "feil",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "E say because I give am maths, and English, e fail.",
+          "sent_id": "WAZL_15_MC-Abi_MG__160",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Or me I, me I, me I never wan fail.",
+          "sent_id": "ENU_13_School-Life_DG__25",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "pas",
+      "standard_spelling": "pas",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Aginnigbode popular pass ehen.",
+          "sent_id": "WAZA_10_Bluetooth-Lifestory_MG__22",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Aha na tomorrow go make sense pass.",
+          "sent_id": "IBA_07_Na-Love_DG__204",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "stat",
+      "standard_spelling": "stat",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "A no know who start dat discussion.",
+          "sent_id": "ABJ_GWA_09_Journalism_MG__40",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "After six months, I go con start work again.",
+          "sent_id": "ABJ_GWA_14_Mary-Lifestory_MG__81",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "stop",
+      "standard_spelling": "stop",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "All di headache, everyting, everyting, every sickness just stop kpai!",
+          "sent_id": "ABJ_GWA_14_Mary-Lifestory_MG__18",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "And e get w-... where I bin stop last week, na dere I want start.",
+          "sent_id": "WAZP_03_Education_MG__5",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "fini",
+      "standard_spelling": "fini",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "After I finish eh dat SSCE, dey look wheder I go get some menial job to do mtschew.",
+          "sent_id": "ABJ_GWA_06_Ugo-Lifestory_MG__4",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "After I read am finish, na so I go buy materials.",
+          "sent_id": "LAG_37_Soap-Making_MG__10",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "bigin",
+      "standard_spelling": "bigin",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Abi na which country I wan begin dey call?",
+          "sent_id": "WAZA_05_Big-Mo_MG__37",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "And dem go dey talk sey change begins wit, begins with you, and me.",
+          "sent_id": "ABJ_INF_08_Impatience_DG__182",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "folo",
+      "standard_spelling": "folo",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Ah na wetin my boyfriend dey do be dat now, and since you say you wan, you wan make I follow you...",
+          "sent_id": "IBA_07_Na-Love_DG__223",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Ah pastor, which kind babe you come dey follow me talk like dis?",
+          "sent_id": "IBA_07_Na-Love_DG__145",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "wét",
+      "standard_spelling": "wét",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Because if we dey wait for our government, dem no go help us.",
+          "sent_id": "LAG_07_Johns-Biography_MG__30",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "But you no go wait meh di oil bleach before you turn everything put.",
+          "sent_id": "BEN_08_Egusi-And-Banga-Soup_MG__21",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "fó",
+      "standard_spelling": "fó",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "After dat four years now, my moder con say di work alone don dey too much for am.",
+          "sent_id": "ABJ_GWA_08_David-Lifestory_MG__9",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Alright o dat one dey inside eh page thirty four of di New Telegraph dis morning.",
+          "sent_id": "WAZL_02_Good-Morning-Nigeria_MG__14",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "fo",
+      "standard_spelling": "fo",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "A big person for una must do like small pikin, and di oga must do like boy, boy.",
+          "sent_id": "IBA_41_Christ-Passion-Finale_MG__31",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Abeg make God go, make God just try do someting for us dat side a beg.",
+          "sent_id": "ENU_33_A-Beg_MG__67",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "wit",
+      "standard_spelling": "wit",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And I love di job as in wit all my heart.",
+          "sent_id": "WAZA_03_Obi-Lifestory_MG__11",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "And dem go dey talk sey change begins wit, begins with you, and me.",
+          "sent_id": "ABJ_INF_08_Impatience_DG__182",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "from",
+      "standard_spelling": "from",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Abeg o, dey come dey buy from mama o.",
+          "sent_id": "ENU_17_Buying-Grocery_DG__163",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "After I work wey di woman dey pay me my money, I come from dere finish my junior WAEC.",
+          "sent_id": "ABJ_GWA_08_David-Lifestory_MG__100",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "to",
+      "standard_spelling": "to",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "A'Ah you don't need to use plenty money now.",
+          "sent_id": "JOS_21_Marriage-Talk-With-Oscar-1_DG__46",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Abeg o, make we moders dey talk to our daughters now.",
+          "sent_id": "JOS_10_Mothers-Against-Mini-Skirts_DG__33",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "in",
+      "standard_spelling": "in",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Ab-... as in I no be ga-... Bariga boy.",
+          "sent_id": "LAG_11_Adeniyi-Lifestory_MG__7",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "After we read in di night for prep, na class I go sleep.",
+          "sent_id": "ABJ_INF_08_Impatience_DG__58",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "on",
+      "standard_spelling": "on",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Also e bin yarn sey e be like sey de bin see some kind small, small injury on top two of di girls.",
+          "sent_id": "WAZL_03_News-On-Gmns_MG__16",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "And e depend on di money wey you talk sey you go, you go pay.",
+          "sent_id": "IBA_20_Bose-Alade_MG__20",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "bifo",
+      "standard_spelling": "bifo",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Abi you never know me before?",
+          "sent_id": "IBA_32_Tori-By-Samuel_MG__41",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Ak-... as I talk before, some do medin.",
+          "sent_id": "IBA_04_Alaska-Pepe_MG__118",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "afta",
+      "standard_spelling": "afta",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "After I drink am, I go sleep.",
+          "sent_id": "PRT_05_Ghetto-Life_MG__149",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "After I finish eh dat SSCE, dey look wheder I go get some menial job to do mtschew.",
+          "sent_id": "ABJ_GWA_06_Ugo-Lifestory_MG__4",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "bikos",
+      "standard_spelling": "bikos",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Admission na free of charge, and na because of una we go set up dat event.",
+          "sent_id": "WAZP_04_Ponzi-Scheme_MG__186",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "All because e want money.",
+          "sent_id": "IBA_31_Lens-Sermon_MG__78",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "bot",
+      "standard_spelling": "bot",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Actually, I wan come Port, come Port Harcourt dat time, but e no work out like dat.",
+          "sent_id": "WAZP_07_Imonirhua-Lifestory_MG__35",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Ah but we go, we need to rush am now.",
+          "sent_id": "ABJ_INF_08_Impatience_DG__114",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "if",
+      "standard_spelling": "if",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Abeg, if de know, meh de tell us.",
+          "sent_id": "WAZK_08_Fuel-Price-Increase_MG__111",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "After you put am, you don put your maggi, you cover am if e boil.",
+          "sent_id": "KAD_10_Egusi-Soup_MG__48",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "wen",
+      "standard_spelling": "wen",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And I mean am sotay reach sey even dose wen dey go church.",
+          "sent_id": "IBA_03_Womanisers_MG__28",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "And make I give you final tory wen dey come from Arsenal.",
+          "sent_id": "ONI_10_Sport-Commentary_MG__21",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "til",
+      "standard_spelling": "til",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Begin dey teach di people make de understand until we reorientate di youth dem.",
+          "sent_id": "WAZA_05_Big-Mo_MG__89",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Den until we get dat level, e go hard for us.",
+          "sent_id": "WAZA_05_Big-Mo_MG__6",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "man",
+      "standard_spelling": "man",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Abeg, when una see wife, wife, women, when any man beat you, go report to police.",
+          "sent_id": "ABJ_INF_10_Women-Battering_MG__77",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Ah nna my man, dis your phone sef, I like am.",
+          "sent_id": "PRT_05_Ghetto-Life_MG__70",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "wuman",
+      "standard_spelling": "wuman",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Abeg, when una see wife, wife, women, when any man beat you, go report to police.",
+          "sent_id": "ABJ_INF_10_Women-Battering_MG__77",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "After I work wey di woman dey pay me my money, I come from dere finish my junior WAEC.",
+          "sent_id": "ABJ_GWA_08_David-Lifestory_MG__100",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "pikin",
+      "standard_spelling": "pikin",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "A big person for una must do like small pikin, and di oga must do like boy, boy.",
+          "sent_id": "IBA_41_Christ-Passion-Finale_MG__31",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "And all di people wey be sey con be our lecturer, na small, small pikin wey be sey we be age mate.",
+          "sent_id": "IBA_01_Fola-Lifestory_MG__144",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "boi",
+      "standard_spelling": "boi",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "A big person for una must do like small pikin, and di oga must do like boy, boy.",
+          "sent_id": "IBA_41_Christ-Passion-Finale_MG__31",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Ab-... as in I no be ga-... Bariga boy.",
+          "sent_id": "LAG_11_Adeniyi-Lifestory_MG__7",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "gel",
+      "standard_spelling": "gel",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Ehn guy, university system life mehn, e no just gel.",
+          "sent_id": "KAD_13_Entering-University_MG__96",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Soda ash, Nitrosol, perfume, liquid gel, or foam booster, or formalin, wit colour, and perfume.",
+          "sent_id": "LAG_37_Soap-Making_MG__15",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "papa",
+      "standard_spelling": "papa",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Abi you wan form am for your papa?",
+          "sent_id": "PRT_05_Ghetto-Life_MG__13",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Ah you wan make I lie for my papa, and mama?",
+          "sent_id": "IBA_07_Na-Love_DG__115",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "mama",
+      "standard_spelling": "mama",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Abeg o, dey come dey buy from mama o.",
+          "sent_id": "ENU_17_Buying-Grocery_DG__163",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Ah you wan make I lie for my papa, and mama?",
+          "sent_id": "IBA_07_Na-Love_DG__115",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "baba",
+      "standard_spelling": "baba",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Baba God, make e dey do wetin?",
+          "sent_id": "IBA_33_News-Comments_MG__59",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Baba have come, Daddy have arrive, Papa tete oyoyo!",
+          "sent_id": "IBA_32_Tori-By-Samuel_MG__7",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "baba-barber",
+      "standard_spelling": "bába",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Baba God, make e dey do wetin?",
+          "sent_id": "IBA_33_News-Comments_MG__59",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Baba have come, Daddy have arrive, Papa tete oyoyo!",
+          "sent_id": "IBA_32_Tori-By-Samuel_MG__7",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "broda",
+      "standard_spelling": "broda",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Everybody just dey dey look im broda.",
+          "sent_id": "ENU_33_A-Beg_MG__55",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Hm mtschew dis my broda, you, you open, you sabi so?",
+          "sent_id": "IBA_03_Womanisers_MG__30",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "sista",
+      "standard_spelling": "sista",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Even dis my sista, na my soap im dey use wash cloth.",
+          "sent_id": "LAG_37_Soap-Making_MG__67",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Ah my sister o, mtschew toh I eat eba o!",
+          "sent_id": "ABJ_GWA_02_Market-Food-Church_DG__79",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "fren",
+      "standard_spelling": "fren",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And di friends dem so ehn, e, dem dey mislead dem.",
+          "sent_id": "IBA_03_Womanisers_MG__11",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "And she no get husband, and na her boy friend...",
+          "sent_id": "KAD_09_Kabir-Gymnasium_MG__74",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "elda",
+      "standard_spelling": "elda",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Me, elder man, me, I no even get problem say ah why de no call am my name o?",
+          "sent_id": "KAD_09_Kabir-Gymnasium_MG__39",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Naim I call one of my elder broder wey dey Lagos dat time.",
+          "sent_id": "ABJ_GWA_06_Ugo-Lifestory_MG__11",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "hed",
+      "standard_spelling": "hed",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And dat day, as I taste am eh, my head big.",
+          "sent_id": "PRT_05_Ghetto-Life_MG__136",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Bi-... big girl wey dey do ehn tush babe carry apple for head.",
+          "sent_id": "ENU_37_Dmoris-Restaurant_MG__25",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "ai",
+      "standard_spelling": "ai",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And but di funny ting be sey social media wey don dey ground now don open eyes of plenty people dem.",
+          "sent_id": "WAZA_05_Big-Mo_MG__19",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "But mehn when I get to see di kind babes wey dey dere, mehn my eye shun.",
+          "sent_id": "KAD_13_Entering-University_MG__46",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "yansh",
+      "standard_spelling": "yansh",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And if dey see men, na so de go dey blow deir yansh.",
+          "sent_id": "JOS_10_Mothers-Against-Mini-Skirts_DG__97",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "One naira no gum deir yansh like dis!",
+          "sent_id": "KAD_22_Chatting-At-The-Restaurant_DG__171",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "belle",
+      "standard_spelling": "belle",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "After, e be like sey di ting no come sweet im belle well, well.",
+          "sent_id": "LAG_11_Adeniyi-Lifestory_MG__17",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "As I dey here, my belle dey call me.",
+          "sent_id": "ENU_13_School-Life_DG__37",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "han",
+      "standard_spelling": "han",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Ah see as I dey di time wey I dey for my oga hand.",
+          "sent_id": "ENU_33_A-Beg_MG__72",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "All of my compound people dem dey buy soap for my hand.",
+          "sent_id": "LAG_37_Soap-Making_MG__68",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "leg",
+      "standard_spelling": "leg",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "As we dey pedal, e go dey look our leg.",
+          "sent_id": "BEN_09_Tailoring-Immunization_MG__21",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Because people dey use leg dose days dey travel go di place.",
+          "sent_id": "IBA_04_Alaska-Pepe_MG__43",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "maut",
+      "standard_spelling": "maut",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Because some people go dey go just want say I beg, make I no put mouth inside di matter.",
+          "sent_id": "ABJ_INF_10_Women-Battering_MG__67",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Because sometimes, you fit carry some kind of food now put inside dat your mouth.",
+          "sent_id": "PRT_02_Food-And-Health_MG__10",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "skin",
+      "standard_spelling": "skin",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "De say maybe di ting skin, e too dry.",
+          "sent_id": "IBA_04_Alaska-Pepe_MG__122",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "You go see rashes, you go see people skin dey spoil, but for here, di weather dey sweet us.",
+          "sent_id": "JOS_20_Beauty-Of-Jos_MG__78",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "bon",
+      "standard_spelling": "bon",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "As I, as I cut am, I go con add am on top of di bones as im dey boil for fire.",
+          "sent_id": "JOS_12_How-To-Prepare-Gote-Soup_MG__8",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Bones, di meat is proteinaceous.",
+          "sent_id": "JOS_12_How-To-Prepare-Gote-Soup_MG__45",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "flesh",
+      "standard_spelling": "flesh",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "I no know sey na my flesh I dey ta-... talk about.",
+          "sent_id": "WAZL_15_MC-Abi_MG__52",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Spirits no dey get flesh, or bone as I get so.",
+          "sent_id": "IBA_41_Christ-Passion-Finale_MG__46",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "briz",
+      "standard_spelling": "briz",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "If, except dis few days now wey rain, wey breeze blow well, well, so our light spoil.",
+          "sent_id": "IBA_20_Bose-Alade_MG__55",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "haus",
+      "standard_spelling": "haus",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "After eating, we go stay for home, watch film, drink, do everyting.",
+          "sent_id": "ENU_02_Christmas-At-New-Berries_MG__11",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Ah me, I bin dey my house.",
+          "sent_id": "ENU_22_Barman-Interview_MG__1",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "yad",
+      "standard_spelling": "yad",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "O boy me, I don even tire for dis public yard for Enugu o.",
+          "sent_id": "ENU_09_Angry-Neighbours_MG__13",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "rum",
+      "standard_spelling": "rum",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Because I get hot blood, I no dey fit sleep for my room.",
+          "sent_id": "ONI_27_A-Hotelier-Interview_MG__27",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "E go show you one room, e dey upstairs, e neat no be small.",
+          "sent_id": "IBA_41_Christ-Passion-Finale_MG__7",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "do",
+      "standard_spelling": "do",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "A big person for una must do like small pikin, and di oga must do like boy, boy.",
+          "sent_id": "IBA_41_Christ-Passion-Finale_MG__31",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Abeg make God go, make God just try do someting for us dat side a beg.",
+          "sent_id": "ENU_33_A-Beg_MG__67",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "windo",
+      "standard_spelling": "windo",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And I know sey when time come, at least, e go throw dat, dat aw-... ar-... ar-... windows for me.",
+          "sent_id": "ABJ_GWA_06_Ugo-Lifestory_MG__93",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "I dey do dis one, I dey design dis window.",
+          "sent_id": "ABJ_GWA_06_Ugo-Lifestory_MG__51",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "bed",
+      "standard_spelling": "bed",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "In fact e go run trough our bed.",
+          "sent_id": "IBA_07_Na-Love_DG__356",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Sick people dey bed.",
+          "sent_id": "IBA_21_Obodo-Barracks_MG__58",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "tebul",
+      "standard_spelling": "tebul",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Una go chop, and drink for my table for di kingdom.",
+          "sent_id": "IBA_41_Christ-Passion-Finale_MG__37",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "But I tell una di person wey go kill me, wey go even fall my hand sef dey here with us as we dey chow for dis table so.",
+          "sent_id": "IBA_41_Christ-Passion-Finale_MG__29",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "che",
+      "standard_spelling": "che",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "I just carry my chair go eh art eh, art class.",
+          "sent_id": "LAG_11_Adeniyi-Lifestory_MG__45",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Okay sit down for my office, sit down for dis chair.",
+          "sent_id": "ABJ_GWA_03_Cost-Of-Living-In-Abuja_MG__116",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "bush",
+      "standard_spelling": "bush",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "All, all dose people sef, dem be bush people o.",
+          "sent_id": "KAD_22_Chatting-At-The-Restaurant_DG__113",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Dat leaf eh, for where e dey inside bush, in fact, na only God know where dat leaf dey.",
+          "sent_id": "IBA_02_Igwe-Festival_MG__30",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "tri",
+      "standard_spelling": "tri",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Ehn de say na because tree near tree na im make monkey dey smart.",
+          "sent_id": "WAZL_15_MC-Abi_MG__185",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Na you dey make tings happen, and na still you dey make tree bring fruit.",
+          "sent_id": "IBA_41_Christ-Passion-Finale_MG__13",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "rod",
+      "standard_spelling": "rod",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And when you call me sey your, your leg full when you are driving, I only know dat is shaft, or di tie rod.",
+          "sent_id": "KAD_12_Mechanic-At-Work_MG__24",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Ah even if we stay for road, you go see traffic light.",
+          "sent_id": "ABJ_INF_08_Impatience_DG__120",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "strit",
+      "standard_spelling": "strit",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Because de dey call am sey na for people wey dey street, na for ehn low life people.",
+          "sent_id": "WAZL_08_Edewor-Lifestory_MG__91",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "But e get one boy wey dey my street, everytime, we dey play.",
+          "sent_id": "PRT_07_Drummer_MG__49",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "market",
+      "standard_spelling": "market",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Aha people con dey wonder sey three people go market, only two go come back.",
+          "sent_id": "IBA_04_Alaska-Pepe_MG__57",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "All dose green, you fit buy dem for market.",
+          "sent_id": "JOS_19_Bukuru_MG__46",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "shop",
+      "standard_spelling": "shop",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Babe, we no dey do dat kain nail for dis shop o.",
+          "sent_id": "KAD_22_Chatting-At-The-Restaurant_DG__70",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Before, before I get shop where I dey sell provision.",
+          "sent_id": "LAG_37_Soap-Making_MG__5",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "skul",
+      "standard_spelling": "skul",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "All my school na Abuja from primary, secondary to university.",
+          "sent_id": "WAZA_10_Bluetooth-Lifestory_MG__7",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "All of us say we wan go school.",
+          "sent_id": "ABJ_GWA_08_David-Lifestory_MG__25",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "ospitul",
+      "standard_spelling": "ospitul",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "All money wey im get, e con carry am go pay im hospital bill.",
+          "sent_id": "ABJ_GWA_08_David-Lifestory_MG__114",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "And many places wey we dey see now, our hospital, many people are sick.",
+          "sent_id": "KAD_15_Money-Wahala_MG__54",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "chosh",
+      "standard_spelling": "chosh",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And I mean am sotay reach sey even dose wen dey go church.",
+          "sent_id": "IBA_03_Womanisers_MG__28",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "And dat church dey try too.",
+          "sent_id": "ENU_33_A-Beg_MG__25",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "moto",
+      "standard_spelling": "moto",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And when you call me sey your car just, you kick di car no gree start, dere is two tings.",
+          "sent_id": "KAD_12_Mechanic-At-Work_MG__33",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "As motor take be reach, no be di same company wey dey do di car do everyting.",
+          "sent_id": "WAZA_05_Big-Mo_MG__50",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "baik",
+      "standard_spelling": "baik",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "I gats park well wey be sey noting go hit my bike, or someting.",
+          "sent_id": "ABJ_GWA_12_Accident_MG__40",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "I say aha again, I no get fuel for bike.",
+          "sent_id": "ABJ_GWA_12_Accident_MG__10",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "draiva",
+      "standard_spelling": "draiva",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "De say de beat players, beat coach, even come cut e cutlass cut di head of driver.",
+          "sent_id": "WAZA_01_Triplea-Sports_MG__5",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Edo State Government don tell bus drivers to dey park first for Oba Akenzua Cultural Centre so dat people wey dey enter motor no go dey suffer.",
+          "sent_id": "BEN_14_BronzeFM-News_MG__4",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "fona",
+      "standard_spelling": "fona",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Ah nna my man, dis your phone sef, I like am.",
+          "sent_id": "PRT_05_Ghetto-Life_MG__70",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "As eremu wey you be too, you wan collect your phone now, you go give am money.",
+          "sent_id": "PRT_05_Ghetto-Life_MG__86",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "buk",
+      "standard_spelling": "buk",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "As I con manage go school reach, I put mind for book.",
+          "sent_id": "IBA_01_Fola-Lifestory_MG__8",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Den my papa na somebody wey be sey e love book well, well.",
+          "sent_id": "LAG_11_Adeniyi-Lifestory_MG__81",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "pen",
+      "standard_spelling": "pen",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And on top dis one also, we hear sey Le Pen say she don concede, she don gree sey, yes na Macron na im chopulate am.",
+          "sent_id": "WAZL_03_News-On-Gmns_MG__51",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Get your pen, and paper!",
+          "sent_id": "WAZP_04_Ponzi-Scheme_MG__133",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "pepa",
+      "standard_spelling": "pepa",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "But as e papa receive di paper read di ting, e just smile.",
+          "sent_id": "IBA_31_Lens-Sermon_MG__124",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Di papa con tear di paper, e con hug di boy, e con tell am sey I don forgive you, no worry.",
+          "sent_id": "IBA_31_Lens-Sermon_MG__127",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "moni",
+      "standard_spelling": "moni",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "A'Ah you don't need to use plenty money now.",
+          "sent_id": "JOS_21_Marriage-Talk-With-Oscar-1_DG__46",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "After I work wey di woman dey pay me my money, I come from dere finish my junior WAEC.",
+          "sent_id": "ABJ_GWA_08_David-Lifestory_MG__100",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "wok-job",
+      "standard_spelling": "wok",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Abi de go find small wahala, bin beat people wey be sey dey, eh dey work behind di desk.",
+          "sent_id": "WAZL_03_News-On-Gmns_MG__29",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Actually, I wan come Port, come Port Harcourt dat time, but e no work out like dat.",
+          "sent_id": "WAZP_07_Imonirhua-Lifestory_MG__35",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "taim",
+      "standard_spelling": "taim",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Actually, I wan come Port, come Port Harcourt dat time, but e no work out like dat.",
+          "sent_id": "WAZP_07_Imonirhua-Lifestory_MG__35",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Ah see as I dey di time wey I dey for my oga hand.",
+          "sent_id": "ENU_33_A-Beg_MG__72",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "dei",
+      "standard_spelling": "dei",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "After dat day, I get mysef.",
+          "sent_id": "PRT_07_Drummer_MG__107",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "And dat day, as I taste am eh, my head big.",
+          "sent_id": "PRT_05_Ghetto-Life_MG__136",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "nait",
+      "standard_spelling": "nait",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "After we read in di night for prep, na class I go sleep.",
+          "sent_id": "ABJ_INF_08_Impatience_DG__58",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Ah to dey wake up for night, anoder work.",
+          "sent_id": "ABJ_GWA_14_Mary-Lifestory_MG__28",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "wik",
+      "standard_spelling": "wik",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "After some weeks like dat, de con tell us sey make we start lecture.",
+          "sent_id": "KAD_13_Entering-University_MG__20",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "And after one week, dem sack am o.",
+          "sent_id": "IBA_33_News-Comments_MG__63",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "munt",
+      "standard_spelling": "munt",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Abi make I buy one carton self so dat de go keep am for one month.",
+          "sent_id": "ENU_17_Buying-Grocery_DG__58",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "After I learn di work a year, and six month, I see sey I don sabi di work.",
+          "sent_id": "ABJ_GWA_06_Ugo-Lifestory_MG__38",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "yia",
+      "standard_spelling": "yia",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "After I learn di work a year, and six month, I see sey I don sabi di work.",
+          "sent_id": "ABJ_GWA_06_Ugo-Lifestory_MG__38",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "After dat four years now, my moder con say di work alone don dey too much for am.",
+          "sent_id": "ABJ_GWA_08_David-Lifestory_MG__9",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "wata",
+      "standard_spelling": "wata",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "After you stir, you go con pour water, put your maggi, put your fish, put everything.",
+          "sent_id": "KAD_10_Egusi-Soup_MG__15",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "All of us go use only one cup for one big drum take dey drink water for, during long break.",
+          "sent_id": "WAZL_15_MC-Abi_MG__125",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "faya",
+      "standard_spelling": "faya",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Allow di fire make e beat di soup inside di Ewere pot for three minutes.",
+          "sent_id": "PRT_01_Banga-Soup_MG__116",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Allow fire make fire beat di Ewere pot well, well.",
+          "sent_id": "PRT_01_Banga-Soup_MG__111",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "fud",
+      "standard_spelling": "fud",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Acha na very nutritious food.",
+          "sent_id": "JOS_19_Bukuru_MG__44",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Ah another food wey Jos people dey like to dey chop, na im be dog.",
+          "sent_id": "JOS_19_Bukuru_MG__63",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "sup",
+      "standard_spelling": "sup",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "After five minutes, carry your spoon, take am take turn your banga soup.",
+          "sent_id": "PRT_01_Banga-Soup_MG__104",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "All dis people wey dey Niger Delta, na dem dey chop di soup.",
+          "sent_id": "IBA_23_Bitter-Leaf-Soup_MG__44",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "akara",
+      "standard_spelling": "akara",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "So if you no buy akara (wey be sey na di usual thing), you fit buy masa and kunu take.",
+          "sent_id": "JOS_19_Bukuru_MG__119",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "We go come go, we go come drop one, one kobo for bowl to chop bread, and akara.",
+          "sent_id": "WAZL_15_MC-Abi_MG__128",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "ogogoro",
+      "standard_spelling": "ogogoro",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Anoda ting wey we dey tell people, if you must drive o, if e be sey you must drive motor (you don buy motor, you get licence), make you no take alcohol alcohol, all dis ogogoro, all dis tings wey dem dey sell for road.",
+          "sent_id": "LAG_31_Road-Safety_MG__69",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "garri",
+      "standard_spelling": "garri",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "As im drink garri, im get strength.",
+          "sent_id": "PRT_05_Ghetto-Life_MG__35",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Cassava, pepper, garri, ehn different tings, de go carry am put for head.",
+          "sent_id": "IBA_04_Alaska-Pepe_MG__35",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "plantin",
+      "standard_spelling": "plantin",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "No, e be like burn plantain.",
+          "sent_id": "KAD_22_Chatting-At-The-Restaurant_DG__121",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "You know as plantain wey dey burn dey, na so her hand dey.",
+          "sent_id": "KAD_22_Chatting-At-The-Restaurant_DG__122",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "legos",
+      "standard_spelling": "Legos",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "As we leave dem Lagos, we come Ibadan.",
+          "sent_id": "IBA_21_Obodo-Barracks_MG__9",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "But when I come reach Lagos State, di salary no good.",
+          "sent_id": "LAG_11_Adeniyi-Lifestory_MG__86",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "naija",
+      "standard_spelling": "Naijá",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "But di thing be sey Naija dey make person get brain.",
+          "sent_id": "ABJ_INF_08_Impatience_DG__98",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Ehen for dis our country, Naija, dis Nigeria don tire me.",
+          "sent_id": "ENU_34_Malaysia-Guy_MG__14",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "naija-river",
+      "standard_spelling": "Naija",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "But di thing be sey Naija dey make person get brain.",
+          "sent_id": "ABJ_INF_08_Impatience_DG__98",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Ehen for dis our country, Naija, dis Nigeria don tire me.",
+          "sent_id": "ENU_34_Malaysia-Guy_MG__14",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "vilej",
+      "standard_spelling": "vilej",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Ah we no get airport like dat wey go lead to my village so.",
+          "sent_id": "WAZA_10_Bluetooth-Lifestory_MG__78",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Because for my fader village sef, na only farm, farm, farm we dey go.",
+          "sent_id": "ABJ_GWA_08_David-Lifestory_MG__3",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "pipul",
+      "standard_spelling": "pipul",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Abi de go find small wahala, bin beat people wey be sey dey, eh dey work behind di desk.",
+          "sent_id": "WAZL_03_News-On-Gmns_MG__29",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Ah another food wey Jos people dey like to dey chop, na im be dog.",
+          "sent_id": "JOS_19_Bukuru_MG__63",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "famili",
+      "standard_spelling": "famili",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And as we born for poor family, no money.",
+          "sent_id": "ONI_07_Dis-Year-Na-My-Year_MG__42",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "And eh I come from family of six, and I be fourth born actually.",
+          "sent_id": "WAZL_08_Edewor-Lifestory_MG__4",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "gift",
+      "standard_spelling": "gift",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "American gift will come to Nigeria so dat we...",
+          "sent_id": "ENU_34_Malaysia-Guy_MG__116",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "E go ask you di gift wey I give you make you go practice, how you take use am?",
+          "sent_id": "WAZP_03_Education_MG__81",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "pati",
+      "standard_spelling": "pati",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And de con tell all of dem political parties to kpakpakpa go collect forms for all election.",
+          "sent_id": "ONI_26_News-Highlights_MG__5",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Di name of di gombody na Conference of Nigerian Political Parties, alias CNPP.",
+          "sent_id": "WAZK_08_Fuel-Price-Increase_MG__83",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "honta",
+      "standard_spelling": "honta",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Different group (soldier, hunter dem), con dey everywhere dey wait for dis animal, dey try.",
+          "sent_id": "IBA_04_Alaska-Pepe_MG__117",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Some hunter group, some soldier group, some, eh some area boys group.",
+          "sent_id": "IBA_04_Alaska-Pepe_MG__104",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "anima",
+      "standard_spelling": "anima",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "A don dey call am animal now.",
+          "sent_id": "IBA_04_Alaska-Pepe_MG__80",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "All dose animals wey you never even expect, dem dey.",
+          "sent_id": "JOS_19_Bukuru_MG__23",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "graund",
+      "standard_spelling": "graund",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "After three minutes, carry your Ewere pot, put am for ground.",
+          "sent_id": "PRT_01_Banga-Soup_MG__117",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "And but di funny ting be sey social media wey don dey ground now don open eyes of plenty people dem.",
+          "sent_id": "WAZA_05_Big-Mo_MG__19",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "polis",
+      "standard_spelling": "polis",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Abeg, when una see wife, wife, women, when any man beat you, go report to police.",
+          "sent_id": "ABJ_INF_10_Women-Battering_MG__77",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "And if na to go report am to where de suppose to report am, pick am, go police!",
+          "sent_id": "ABJ_INF_10_Women-Battering_MG__71",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "tif",
+      "standard_spelling": "tif",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "E no fit thief me because me sef, I be agboro.",
+          "sent_id": "ENU_01_Salomis-Egusi-Soup-Recipe_MG__33",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Guy, dat one na thief o, da-... dat guy na thief o.",
+          "sent_id": "IBA_07_Na-Love_DG__225",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "dokta",
+      "standard_spelling": "dokta",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And di government too, de should see sey de pay di doctors.",
+          "sent_id": "KAD_15_Money-Wahala_MG__70",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Because right now, some people go come don dey claim doctor.",
+          "sent_id": "WAZA_08_Body-Matter_MG__17",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "ticha",
+      "standard_spelling": "ticha",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Dem suppose to res-... respect dis teachers.",
+          "sent_id": "ABJ_INF_08_Impatience_DG__175",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Di teacher con dey stay near my house.",
+          "sent_id": "IBA_01_Fola-Lifestory_MG__54",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "woka",
+      "standard_spelling": "woka",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "But any which way sha, we, all of us, di ting be sey Nigerians, na hard workers we be.",
+          "sent_id": "ABJ_INF_12_Evictions_MG__9",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "I no get any problem for di workers, for di manager, for di, dose women wey dey here.",
+          "sent_id": "ONI_27_A-Hotelier-Interview_MG__10",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "vidio",
+      "standard_spelling": "vidio",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "De con say de want do video chatting for road.",
+          "sent_id": "ENU_02_Christmas-At-New-Berries_MG__56",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "lait",
+      "standard_spelling": "lait",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "After we do dat one, we go put light dere.",
+          "sent_id": "IBA_15_Electrician_MG__15",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Ah even if we stay for road, you go see traffic light.",
+          "sent_id": "ABJ_INF_08_Impatience_DG__120",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "kpangolo",
+      "standard_spelling": "kpangolo",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "If na me eat dis food, if na me eat dis food, Kpangolo must to swallow me, fish must to swallow me.",
+          "sent_id": "BEN_34_Tale_MG__16",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "If na me eat dis food, if na me eat dis food, Kpangolo...",
+          "sent_id": "BEN_34_Tale_MG__45",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "tolotolo",
+      "standard_spelling": "tolotolo",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "De go even produce deir own things, still put on top made in Turkey.",
+          "sent_id": "WAZP_04_Ponzi-Scheme_MG__99",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "One dog wey dey dis house, e con chop my two turkey.",
+          "sent_id": "KAD_17_Turkeys_MG__19",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "insaid",
+      "standard_spelling": "insaid",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "After you don stir am finish, you turn am put inside di hot oil.",
+          "sent_id": "BEN_08_Egusi-And-Banga-Soup_MG__20",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "All dat one, e dey inside ehm di New Telegraph.",
+          "sent_id": "WAZL_02_Good-Morning-Nigeria_MG__42",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "juju",
+      "standard_spelling": "juju",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Except you change your lifestyle, and begin dey tink of God, except you leave di old way wey you dey worship oder juju, oder tings, and begin dey worship di true God wey dey heaven, you no go fit do wetin I dey do.",
+          "sent_id": "PRT_11_A-Man-Named-Jesus_MG__22",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "sansan",
+      "standard_spelling": "sansan",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Make you make sure sey all di sand don comot.",
+          "sent_id": "JOS_12_How-To-Prepare-Gote-Soup_MG__28",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Before you go go home sef, if dey go dey drive dey go, tipper, about fifty tippers wit sand go dey follow you.",
+          "sent_id": "ONI_07_Dis-Year-Na-My-Year_MG__58",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "strong-hed",
+      "standard_spelling": "strong-hed",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Me, I stubborn well, well o.",
+          "sent_id": "PRT_05_Ghetto-Life_MG__92",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Stubborn well, well.",
+          "sent_id": "PRT_05_Ghetto-Life_MG__93",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "gragra",
+      "standard_spelling": "gragra",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "No be sey you go dey do gragra.",
+          "sent_id": "ABJ_INF_08_Impatience_DG__79",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "See money, dem wan do am gragra, you wan do impatience.",
+          "sent_id": "ABJ_INF_08_Impatience_DG__80",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "gud",
+      "standard_spelling": "gud",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Abuja na very good place to stay.",
+          "sent_id": "ABJ_NOU_02_Gimba-Lifestory_MG__16",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Alright una good morning my beautiful country people.",
+          "sent_id": "WAZL_03_News-On-Gmns_MG__1",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "bad",
+      "standard_spelling": "bad",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "All di bad, bad tings wey I dey do before, I do dem no more.",
+          "sent_id": "IBA_31_Lens-Sermon_MG__103",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "And I, I don't do bad, for school.",
+          "sent_id": "WAZP_07_Imonirhua-Lifestory_MG__19",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "big",
+      "standard_spelling": "big",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "A big person for una must do like small pikin, and di oga must do like boy, boy.",
+          "sent_id": "IBA_41_Christ-Passion-Finale_MG__31",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Ah you dey hear sey TELCOS dey lose big money.",
+          "sent_id": "WAZL_02_Good-Morning-Nigeria_MG__2",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "smol",
+      "standard_spelling": "smol",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "A big person for una must do like small pikin, and di oga must do like boy, boy.",
+          "sent_id": "IBA_41_Christ-Passion-Finale_MG__31",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Abi de go find small wahala, bin beat people wey be sey dey, eh dey work behind di desk.",
+          "sent_id": "WAZL_03_News-On-Gmns_MG__29",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "long",
+      "standard_spelling": "long",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "All of us dey pray sey make we live long for life.",
+          "sent_id": "LAG_12_Insurance_MG__63",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "All of us go use only one cup for one big drum take dey drink water for, during long break.",
+          "sent_id": "WAZL_15_MC-Abi_MG__125",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "shot",
+      "standard_spelling": "shot",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And our God hand no dey too short to save us.",
+          "sent_id": "ONI_07_Dis-Year-Na-My-Year_MG__62",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "And to cut long matter short, moh still talk about, moh still talk about Nigeria problem.",
+          "sent_id": "JOS_14_Chibozor-View-About-Nigeria_MG__32",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "fain",
+      "standard_spelling": "fain",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Aha di guy fine reach you die.",
+          "sent_id": "IBA_07_Na-Love_DG__131",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "All dose places de are very beautiful.",
+          "sent_id": "JOS_19_Bukuru_MG__17",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "nyu",
+      "standard_spelling": "nyu",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "All dat one, e dey inside ehm di New Telegraph.",
+          "sent_id": "WAZL_02_Good-Morning-Nigeria_MG__42",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Alright o dat one dey inside eh page thirty four of di New Telegraph dis morning.",
+          "sent_id": "WAZL_02_Good-Morning-Nigeria_MG__14",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "olt",
+      "standard_spelling": "olt",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Ah for some countries now (like London now), de dey pay old citizens.",
+          "sent_id": "ABJ_INF_12_Evictions_MG__61",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "But at di end of di day, e be like sey most of di old people no just get interest.",
+          "sent_id": "ABJ_GWA_09_Journalism_MG__17",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "hot",
+      "standard_spelling": "hot",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "After you don stir am finish, you turn am put inside di hot oil.",
+          "sent_id": "BEN_08_Egusi-And-Banga-Soup_MG__20",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Because I get hot blood, I no dey fit sleep for my room.",
+          "sent_id": "ONI_27_A-Hotelier-Interview_MG__27",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "kol",
+      "standard_spelling": "kol",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "As you see sey dis town, e dey very cold, you go Katako go buy your sweater.",
+          "sent_id": "JOS_19_Bukuru_MG__54",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Because di weather, I know sey una dey catch cold, but by now una don dey use to am.",
+          "sent_id": "JOS_20_Beauty-Of-Jos_MG__87",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "swit",
+      "standard_spelling": "swit",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "After, e be like sey di ting no come sweet im belle well, well.",
+          "sent_id": "LAG_11_Adeniyi-Lifestory_MG__17",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "And e no go make di soup sweet.",
+          "sent_id": "PRT_01_Banga-Soup_MG__54",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "strong",
+      "standard_spelling": "strong",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "De con do strong medin wetin we dey call jazz.",
+          "sent_id": "IBA_04_Alaska-Pepe_MG__91",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "So she go don dey strong well, well like dat.",
+          "sent_id": "ABJ_GWA_14_Mary-Lifestory_MG__84",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "weak",
+      "standard_spelling": "weak",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "I tell am sey no, sey I go play ball, my body come weak.",
+          "sent_id": "PRT_05_Ghetto-Life_MG__153",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "rich",
+      "standard_spelling": "rich",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Because dat kunu, e dey very, very rich.",
+          "sent_id": "JOS_19_Bukuru_MG__90",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "But, dat one no mean sey bag of rice for poor man, e dey difference for bag of rice for rich man.",
+          "sent_id": "WAZK_08_Fuel-Price-Increase_MG__34",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "poo",
+      "standard_spelling": "poo",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And as we born for poor family, no money.",
+          "sent_id": "ONI_07_Dis-Year-Na-My-Year_MG__42",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "And our leaders, meh de kuku see sey de help di poor one to do tings dat will help us in life.",
+          "sent_id": "KAD_15_Money-Wahala_MG__64",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "sik",
+      "standard_spelling": "sik",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And many places wey we dey see now, our hospital, many people are sick.",
+          "sent_id": "KAD_15_Money-Wahala_MG__54",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "And one of im inlaw dey sick sef.",
+          "sent_id": "ABJ_GWA_08_David-Lifestory_MG__113",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "wel",
+      "standard_spelling": "wel",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "After di ting don steam well, well, I carry am down.",
+          "sent_id": "ENU_01_Salomis-Egusi-Soup-Recipe_MG__12",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "After e don boil well, den I go con pour di pumpkin leaf wey I don wash well, well.",
+          "sent_id": "ENU_01_Salomis-Egusi-Soup-Recipe_MG__20",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "hapi",
+      "standard_spelling": "hapi",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Alaska Pepper con dey happy.",
+          "sent_id": "IBA_04_Alaska-Pepe_MG__145",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "And I happy dis morning when I wake up wey I see sey de no just make just anyhow decision.",
+          "sent_id": "WAZK_08_Fuel-Price-Increase_MG__39",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "angri",
+      "standard_spelling": "angri",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "You know sey e dey, eh e get one, one eh talk wey dem talk sey eh a hungry man is an angry man.",
+          "sent_id": "ABJ_INF_08_Impatience_DG__146",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Tell di people how to, how we go take behave, even di kind tins wey we go do so dat eh di gods no go dey angry with us.",
+          "sent_id": "IBA_02_Igwe-Festival_MG__94",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "fri",
+      "standard_spelling": "fri",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Admission na free of charge, and na because of una we go set up dat event.",
+          "sent_id": "WAZP_04_Ponzi-Scheme_MG__186",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Based on one, or two issue, I just free di place because of finance, and some oder tings.",
+          "sent_id": "ABJ_GWA_12_Accident_MG__68",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "koret",
+      "standard_spelling": "koret",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And in fact sey all of dem bin dey inside good form right now.",
+          "sent_id": "WAZL_03_News-On-Gmns_MG__15",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "And we don dey inside the country togeder right from Imo river.",
+          "sent_id": "WAZA_05_Big-Mo_MG__16",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "rong",
+      "standard_spelling": "rong",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "I just leave di school so dat meh I no go meet myself for wrong hand, or someting.",
+          "sent_id": "ABJ_GWA_12_Accident_MG__69",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "If you do wrong, meh di wrong follow you.",
+          "sent_id": "ENU_33_A-Beg_MG__46",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "trut",
+      "standard_spelling": "trut",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And di truth about wedding be sey wetin you no get, no go borrow.",
+          "sent_id": "JOS_21_Marriage-Talk-With-Oscar-1_DG__139",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "As e begin preach di good news, some people begin reason wit am sey na di truth e dey yarn.",
+          "sent_id": "IBA_40_Christ-Passion-Prologue_MG__10",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "fals",
+      "standard_spelling": "fals",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "At di end of di day, all dese thing na fake story, fake story, fake story.",
+          "sent_id": "WAZA_08_Body-Matter_MG__27",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Federal Government, for yesterday, don yarn sey e no go drag leg until im expose dose people wey deir work dey, wey deir work na to dey carry fake news up, and down for di country.",
+          "sent_id": "WAZK_07_As-E-Dey-Hot-News-Read_MG__3",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "nau",
+      "standard_spelling": "nau",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "A don dey call am animal now.",
+          "sent_id": "IBA_04_Alaska-Pepe_MG__80",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "A'Ah you don't need to use plenty money now.",
+          "sent_id": "JOS_21_Marriage-Talk-With-Oscar-1_DG__46",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "tumoro",
+      "standard_spelling": "tumoro",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Aha na tomorrow go make sense pass.",
+          "sent_id": "IBA_07_Na-Love_DG__204",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "All dat one wey de dey tell us sey di future, di leaders of tomorrow, na di youth dem, no o.",
+          "sent_id": "WAZA_05_Big-Mo_MG__33",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "yestade",
+      "standard_spelling": "yestade",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Dat yesterday ehn headache bin dey worry me.",
+          "sent_id": "PRT_05_Ghetto-Life_MG__156",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Di report sake of dis kain similar thing, we happen give dem just yesterday.",
+          "sent_id": "WAZA_09_Tv-News_MG__25",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "tode",
+      "standard_spelling": "tode",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Allright ehm and dat na di informate we don bring for una again today.",
+          "sent_id": "WAZL_03_News-On-Gmns_MG__58",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "And as we dey start today dey talk am so, boy, im dey reach God ear, and im dey hear am.",
+          "sent_id": "ONI_07_Dis-Year-Na-My-Year_MG__86",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "evri",
+      "standard_spelling": "evri",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "All di headache, everyting, everyting, every sickness just stop kpai!",
+          "sent_id": "ABJ_GWA_14_Mary-Lifestory_MG__18",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "And di third reason, every man wan be champion for someting.",
+          "sent_id": "KAD_03_Why-Men-Watch-Football_MG__51",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "onli",
+      "standard_spelling": "onli",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Agric banga go only thick.",
+          "sent_id": "PRT_01_Banga-Soup_MG__53",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Ah dat one na Sh now, na only she.",
+          "sent_id": "IBA_07_Na-Love_DG__151",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "na",
+      "standard_spelling": "na",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "A policeman, na im dey yarn sey wetin?",
+          "sent_id": "IBA_33_News-Comments_MG__101",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Abi dis one na disrespect?",
+          "sent_id": "IBA_32_Tori-By-Samuel_MG__68",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "o",
+      "standard_spelling": "o",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Abeg o, dey come dey buy from mama o.",
+          "sent_id": "ENU_17_Buying-Grocery_DG__163",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Abeg o, make we moders dey talk to our daughters now.",
+          "sent_id": "JOS_10_Mothers-Against-Mini-Skirts_DG__33",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "abeg",
+      "standard_spelling": "abeg",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Abeg make God go, make God just try do someting for us dat side a beg.",
+          "sent_id": "ENU_33_A-Beg_MG__67",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Abeg make I no just spoil my country.",
+          "sent_id": "ABJ_INF_08_Impatience_DG__137",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "abi",
+      "standard_spelling": "abi",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Abi de go find small wahala, bin beat people wey be sey dey, eh dey work behind di desk.",
+          "sent_id": "WAZL_03_News-On-Gmns_MG__29",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Abi dis one na disrespect?",
+          "sent_id": "IBA_32_Tori-By-Samuel_MG__68",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "sha",
+      "standard_spelling": "sha",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And I bin so dey kajad dat time sha.",
+          "sent_id": "LAG_11_Adeniyi-Lifestory_MG__165",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "And dat one dey sha, dat one dey.",
+          "sent_id": "JOS_21_Marriage-Talk-With-Oscar-1_DG__145",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "se",
+      "standard_spelling": "se",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Everywhere, per se, na secretariat.",
+          "sent_id": "ABJ_NOU_02_Gimba-Lifestory_MG__58",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Ki ni Thompson se?",
+          "sent_id": "IBA_33_News-Comments_MG__11",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "make",
+      "standard_spelling": "make",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Abeg make God go, make God just try do someting for us dat side a beg.",
+          "sent_id": "ENU_33_A-Beg_MG__67",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Abeg make I no just spoil my country.",
+          "sent_id": "ABJ_INF_08_Impatience_DG__137",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "don",
+      "standard_spelling": "don",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "(You know), area don develop us.",
+          "sent_id": "WAZL_15_MC-Abi_MG__180",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "A don dey call am animal now.",
+          "sent_id": "IBA_04_Alaska-Pepe_MG__80",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "neva",
+      "standard_spelling": "neva",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Abi you never know me before?",
+          "sent_id": "IBA_32_Tori-By-Samuel_MG__41",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "All dose animals wey you never even expect, dem dey.",
+          "sent_id": "JOS_19_Bukuru_MG__23",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "no",
+      "standard_spelling": "no",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "A no know who start dat discussion.",
+          "sent_id": "ABJ_GWA_09_Journalism_MG__40",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Ab-... as in I no be ga-... Bariga boy.",
+          "sent_id": "LAG_11_Adeniyi-Lifestory_MG__7",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "yes",
+      "standard_spelling": "yes",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And people go con stand okay yes na Wazobia okay.",
+          "sent_id": "WAZL_08_Edewor-Lifestory_MG__57",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "And who go school now, you go know sey yes na front im dey pedal come.",
+          "sent_id": "BEN_09_Tailoring-Immunization_MG__14",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "plis",
+      "standard_spelling": "plis",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "E get some kind tins wey be sey you go do for, to please your heart.",
+          "sent_id": "IBA_07_Na-Love_DG__117",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "God, please a beg.",
+          "sent_id": "ENU_33_A-Beg_MG__95",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "sori",
+      "standard_spelling": "sori",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Den your egusi, your grounded ogbonno, sorry your grounded ogbonno, you mix am wit oil.",
+          "sent_id": "KAD_10_Egusi-Soup_MG__61",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Sorry three tings.",
+          "sent_id": "KAD_12_Mechanic-At-Work_MG__38",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "tenki",
+      "standard_spelling": "tenki",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Thanks Ma o.",
+          "sent_id": "ENU_17_Buying-Grocery_DG__159",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "welkom",
+      "standard_spelling": "welkom",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "My people, I welcome una to dis Sunday o.",
+          "sent_id": "IBA_31_Lens-Sermon_MG__1",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "All right, sports fans, una welcome to anoder wonderful morning for sports radio, eighty eight point nine, Brilla for real, ah one station too much for di nation, one station wen dey hold di full country to ransom for di world of sport ah.",
+          "sent_id": "ONI_10_Sport-Commentary_MG__1",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "wetin-de",
+      "standard_spelling": "wetin de",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Because den, I no even know wetin de dey call car AC sef.",
+          "sent_id": "ABJ_GWA_12_Accident_MG__62",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "But if wetin de talk get contribution to di programme, you go allow dem conne-...",
+          "sent_id": "WAZP_07_Imonirhua-Lifestory_MG__42",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "no-wahala",
+      "standard_spelling": "no wahala",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "All dose, I say okay no wahala!",
+          "sent_id": "PRT_07_Drummer_MG__16",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "As I want do big bros now, I say no wahala, no wahala!",
+          "sent_id": "ENU_37_Dmoris-Restaurant_MG__83",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "wahala",
+      "standard_spelling": "wahala",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Abi de go find small wahala, bin beat people wey be sey dey, eh dey work behind di desk.",
+          "sent_id": "WAZL_03_News-On-Gmns_MG__29",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "All dose, I say okay no wahala!",
+          "sent_id": "PRT_07_Drummer_MG__16",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "jara",
+      "standard_spelling": "jara",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Di one wey de bring, na jara.",
+          "sent_id": "JOS_21_Marriage-Talk-With-Oscar-1_DG__144",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Di only ting be sey you go plan base on your own budget so dat if dey add na jara.",
+          "sent_id": "JOS_21_Marriage-Talk-With-Oscar-1_DG__119",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "gist",
+      "standard_spelling": "gist",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Alright for inside entertainment gist, country star Senyatuwe, na im go play now live inside UK.",
+          "sent_id": "WAZA_09_Tv-News_MG__33",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Di gist be sey e say a'ah.",
+          "sent_id": "KAD_09_Kabir-Gymnasium_MG__69",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "shek",
+      "standard_spelling": "shek",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "E shake my hand, e say well done young man, correct, dis one wey, dis na Nigerian.",
+          "sent_id": "WAZL_08_Edewor-Lifestory_MG__87",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "E shoot di ting, di animal con dey shake.",
+          "sent_id": "IBA_04_Alaska-Pepe_MG__147",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "mezho",
+      "standard_spelling": "mezho",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "De con measure am, de never still see di real person wey kill di animal.",
+          "sent_id": "IBA_04_Alaska-Pepe_MG__211",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "De go come, de go con measure am, de go say no dis one no be am!",
+          "sent_id": "IBA_04_Alaska-Pepe_MG__201",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "nak",
+      "standard_spelling": "nak",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Any house, any compound wey de reach like dis eh, de go begin dey knock.",
+          "sent_id": "IBA_02_Igwe-Festival_MG__38",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "I gats park well wey be sey noting go hit my bike, or someting.",
+          "sent_id": "ABJ_GWA_12_Accident_MG__40",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "respekt",
+      "standard_spelling": "respekt",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Ah de respect dem well, well.",
+          "sent_id": "IBA_02_Igwe-Festival_MG__128",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "De suppose to respect dem pass now.",
+          "sent_id": "ABJ_INF_08_Impatience_DG__165",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "foget",
+      "standard_spelling": "foget",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Auntie, I no believe dat ting sey we go forget house o.",
+          "sent_id": "JOS_21_Marriage-Talk-With-Oscar-1_DG__19",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Dat woman, I no go ever forget her in my life even if she die today, or tomorrow.",
+          "sent_id": "ENU_33_A-Beg_MG__60",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "rimemba",
+      "standard_spelling": "rimemba",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And I go try remember everyting wey happen for di story as di guy take talk am.",
+          "sent_id": "IBA_04_Alaska-Pepe_MG__8",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "But di ting wey I go remember, why...",
+          "sent_id": "LAG_11_Adeniyi-Lifestory_MG__24",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "dai",
+      "standard_spelling": "dai",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Even dai if I no dey, if you enter, e go dey do dis.",
+          "sent_id": "KAD_17_Turkeys_MG__74",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "Even dai people dey outside, de go con enter.",
+          "sent_id": "KAD_17_Turkeys_MG__75",
+          "source_file": "pcm_nsc-ud-test.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "laif",
+      "standard_spelling": "laif",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "After e form us finish, e bring life into us.",
+          "sent_id": "IBA_31_Lens-Sermon_MG__147",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Ah God, I say which kind life be dis?",
+          "sent_id": "LAG_11_Adeniyi-Lifestory_MG__114",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "brit",
+      "standard_spelling": "brit",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Di basic difference between us, and dose tings wey fine artist dey do na sey God breathe life into us, but dose tings, nobody fit put life into dem.",
+          "sent_id": "IBA_31_Lens-Sermon_MG__145",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "kwik",
+      "standard_spelling": "kwik",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "All dis children, meh dem no dey as in think sey dem wan go fast, fast.",
+          "sent_id": "ABJ_INF_08_Impatience_DG__68",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "And di thing wey cause am be sey my mama quick die.",
+          "sent_id": "IBA_01_Fola-Lifestory_MG__3",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "sinio",
+      "standard_spelling": "sinio",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And I senior all of dem o, but as in de go dey send me go...",
+          "sent_id": "ABJ_GWA_10_Steven-Lifestory_MG__65",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "And me wey dey talk to you, I senior you wit like two, three years.",
+          "sent_id": "KAD_09_Kabir-Gymnasium_MG__95",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "fest",
+      "standard_spelling": "fest",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And eh at di long run, my papa con, my mama first die, my, my mama con follow.",
+          "sent_id": "ABJ_NOU_02_Gimba-Lifestory_MG__9",
+          "source_file": "pcm_nsc-ud-dev.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Anyting wey dey happen now for dis life bah, meh first put, you must put God first inside.",
+          "sent_id": "JOS_14_Chibozor-View-About-Nigeria_MG__15",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "sekond",
+      "standard_spelling": "sekond",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Anoda second extension for one year.",
+          "sent_id": "IBA_32_Tori-By-Samuel_MG__75",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Dem say mama don still get a second extension according to di minister.",
+          "sent_id": "IBA_32_Tori-By-Samuel_MG__57",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "ted",
+      "standard_spelling": "ted",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "And den we go to di third one money issue.",
+          "sent_id": "IBA_31_Lens-Sermon_MG__75",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "And di third reason, every man wan be champion for someting.",
+          "sent_id": "KAD_03_Why-Men-Watch-Football_MG__51",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "spesha",
+      "standard_spelling": "spesha",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Na here we dey do shawarma, and dis place na Lucky Special Shawarma wey we dey do here.",
+          "sent_id": "LAG_27_Shawarma_MG__1",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "So e con get special likeness for me.",
+          "sent_id": "IBA_01_Fola-Lifestory_MG__22",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "trutru",
+      "standard_spelling": "trutru",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "But wetin I really like to do before na broadcasting.",
+          "sent_id": "WAZP_07_Imonirhua-Lifestory_MG__22",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Con really see sey ah me dey on admission.",
+          "sent_id": "BEN_02_Andrew-Lifestory_MG__24",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "rili",
+      "standard_spelling": "rili",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "But wetin I really like to do before na broadcasting.",
+          "sent_id": "WAZP_07_Imonirhua-Lifestory_MG__22",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "Con really see sey ah me dey on admission.",
+          "sent_id": "BEN_02_Andrew-Lifestory_MG__24",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "ivun",
+      "standard_spelling": "ivun",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Ah even if we stay for road, you go see traffic light.",
+          "sent_id": "ABJ_INF_08_Impatience_DG__120",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "All dose animals wey you never even expect, dem dey.",
+          "sent_id": "JOS_19_Bukuru_MG__23",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "stil",
+      "standard_spelling": "stil",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Abi make I still dey talk dey go?",
+          "sent_id": "WAZP_07_Imonirhua-Lifestory_MG__96",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "All dose ones still take follow join.",
+          "sent_id": "WAZA_10_Bluetooth-Lifestory_MG__99",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "togeda",
+      "standard_spelling": "togeda",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Naim I begin dey do small, small lesson dey put money togeda.",
+          "sent_id": "IBA_01_Fola-Lifestory_MG__85",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "So all dese things put togeda, and when you go enter gallop, pah!",
+          "sent_id": "LAG_31_Road-Safety_MG__58",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    },
+    {
+      "entry_id": "wia",
+      "standard_spelling": "wia",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Ah I no con know where to start!",
+          "sent_id": "ENU_09_Angry-Neighbours_MG__24",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "And e get w-... where I bin stop last week, na dere I want start.",
+          "sent_id": "WAZP_03_Education_MG__5",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "wie",
+      "standard_spelling": "wie",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Ah I no con know where to start!",
+          "sent_id": "ENU_09_Angry-Neighbours_MG__24",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "And e get w-... where I bin stop last week, na dere I want start.",
+          "sent_id": "WAZP_03_Education_MG__5",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "haw",
+      "standard_spelling": "haw",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Ah my sister, my junior sister bin teach me how de take dey cook am o.",
+          "sent_id": "ABJ_GWA_02_Market-Food-Church_DG__55",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        },
+        {
+          "sentence": "All of us need to gather together, talk about am, know how we go take solve our problem.",
+          "sent_id": "LAG_07_Johns-Biography_MG__12",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": false
+        }
+      ]
+    },
+    {
+      "entry_id": "why",
+      "standard_spelling": "why",
+      "existing_count": 1,
+      "candidates": [
+        {
+          "sentence": "Aha why I go con marry you say na only kitchen you go con dey?",
+          "sent_id": "IBA_07_Na-Love_DG__360",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        },
+        {
+          "sentence": "And I bin even wonder like why?",
+          "sent_id": "ABJ_GWA_09_Journalism_MG__10",
+          "source_file": "pcm_nsc-ud-train.conllu",
+          "sno_surface": true
+        }
+      ]
+    }
+  ]
+}

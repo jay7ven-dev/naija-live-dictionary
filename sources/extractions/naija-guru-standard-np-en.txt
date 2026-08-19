@@ -1,0 +1,17 @@
+How to write Nigerian Pidgin — web extract (Naija Guru Standard NP)
+Source: https://naija.guru/en/grammar/how-to-write-nigerian-pidgin/
+Standard NP (2024) — engineered for English-keyboard adoption and tooling.
+
+KEY PRINCIPLES:
+- Latin alphabet; English keyboard friendly
+- Minimal tone marking: acute on "tone words" only; low tone unmarked
+- Examples: dey gym vs déy gym; go vs gó
+- Most English loanwords spelled same as English; exceptions in Naija Guru dictionary
+- Standard English punctuation
+- Plural dem: hyphenated (man-dem, people-dem, army-dem)
+- Reduplicated words: hyphenated (sharp-sharp, small-small, wuru-wuru)
+- Some compound nouns hyphenated (i-too-know, ghana-must-go, bend-down-select)
+
+CONSONANTS documented with IPA (includes gb, kp, ch, sh, j, ny, zh in examples).
+
+See docs/phase-0-orthography-grounding.md for cross-source comparison.

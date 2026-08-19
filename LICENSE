@@ -1,0 +1,55 @@
+Naijá Live Dictionary — license notice
+Copyright (c) 2026 Naijá Live Dictionary contributors
+
+This repository contains mixed-licensed material. One SPDX identifier does
+not cover every file. See docs/d4-public-release-licensing.md.
+
+---------------------------------------------------------------------------
+1. Project-authored software (MIT)
+
+Applies to: web/, schema/, export/*.py, data/*.py, and other original
+scripts in this repository.
+
+Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the "Software"),
+to deal in the Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+
+---------------------------------------------------------------------------
+2. Project-authored lexical data
+
+Applies to: project-written glosses, seed examples, schema, and UI copy
+in data/dictionary.json and related project JSON (except corpus-derived
+example sentences noted below).
+
+You may use and redistribute this project-authored lexical content with
+attribution to Naijá Live Dictionary. Headwords follow the IFRA/NLA
+Standard Naijá Orthography (2010) as a published standard; this project
+is not affiliated with IFRA Nigeria and does not license the IFRA Guide.
+
+---------------------------------------------------------------------------
+3. Third-party corpora (keep their licenses)
+
+- UD_Naija-NSC example sentences in dictionary entries: CC BY-SA 4.0
+  (Caron et al.). Share-alike applies to those sentences and close
+  derivatives. https://github.com/UniversalDependencies/UD_Naija-NSC
+- CENCOS (Agbo & Plag, 2022): cite; see Zenodo 10.5281/zenodo.7314016
+- NaijaSenti (Muhammad et al., 2022): cite; variant mining only
+
+Do not redistribute the IFRA Guide to Standard Naijá Orthography (PDF or
+long verbatim body) without permission from IFRA Nigeria.
+
+Full citations: docs/citation-pack.md

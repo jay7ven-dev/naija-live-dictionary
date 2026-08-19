@@ -1,0 +1,84 @@
+{
+  "batch": 4,
+  "count": 13,
+  "mappings": [
+    {
+      "variant": "watin",
+      "entry_id": "wetin",
+      "source": "curated-batch-4",
+      "note": "What spelling variant (watin)"
+    },
+    {
+      "variant": "give",
+      "entry_id": "giv",
+      "source": "curated-batch-4",
+      "note": "English give → giv"
+    },
+    {
+      "variant": "because",
+      "entry_id": "bikos",
+      "source": "curated-batch-4",
+      "note": "English because → bikos"
+    },
+    {
+      "variant": "becos",
+      "entry_id": "bikos",
+      "source": "curated-batch-4",
+      "note": "Common because spelling (CENCOS)"
+    },
+    {
+      "variant": "before",
+      "entry_id": "bifo",
+      "source": "curated-batch-4",
+      "note": "English before → bifo"
+    },
+    {
+      "variant": "tomorrow",
+      "entry_id": "tumoro",
+      "source": "curated-batch-4",
+      "note": "English tomorrow → tumoro"
+    },
+    {
+      "variant": "something",
+      "entry_id": "somtin",
+      "source": "curated-batch-4",
+      "note": "English something → somtin"
+    },
+    {
+      "variant": "ting",
+      "entry_id": "somtin",
+      "source": "curated-batch-4",
+      "note": "Thing/something spelling (ting)"
+    },
+    {
+      "variant": "thing",
+      "entry_id": "somtin",
+      "source": "curated-batch-4",
+      "note": "English thing → somtin (not sing)"
+    },
+    {
+      "variant": "shey",
+      "entry_id": "abi",
+      "source": "curated-batch-4",
+      "note": "Tag question shey → abi"
+    },
+    {
+      "variant": "people",
+      "entry_id": "pipul",
+      "source": "curated-batch-4",
+      "note": "English people → pipul"
+    },
+    {
+      "variant": "money",
+      "entry_id": "moni",
+      "source": "curated-batch-4",
+      "note": "English money → moni"
+    },
+    {
+      "variant": "come",
+      "entry_id": "kom",
+      "source": "curated-batch-4",
+      "note": "English come → kom"
+    }
+  ]
+}

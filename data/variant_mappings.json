@@ -1,0 +1,466 @@
+{
+  "mappings": [
+    {
+      "variant": "pickin",
+      "entry_id": "pikin",
+      "source": "project-sample-social-01",
+      "note": "English-style spelling"
+    },
+    {
+      "variant": "pekin",
+      "entry_id": "pikin",
+      "source": "project-sample-social-02",
+      "note": "Common misspelling"
+    },
+    {
+      "variant": "pickin dem",
+      "entry_id": "pikin",
+      "source": "project-sample-social-01",
+      "note": "Plural phrase → lemma pikin"
+    },
+    {
+      "variant": "pikin dem",
+      "entry_id": "pikin",
+      "source": "project-sample-social-01",
+      "note": "Space before dem"
+    },
+    {
+      "variant": "children-dem",
+      "entry_id": "pikin",
+      "source": "ifra-sample-paraphrase",
+      "note": "English plural + dem"
+    },
+    {
+      "variant": "dey",
+      "entry_id": "de-copula",
+      "source": "project-sample-social-01",
+      "note": "Locative copula → SNO déy"
+    },
+    {
+      "variant": "sharp sharp",
+      "entry_id": "shapshap",
+      "source": "project-sample-social-01",
+      "note": "Intensification spacing"
+    },
+    {
+      "variant": "sharp-sharp",
+      "entry_id": "shapshap",
+      "source": "project-sample-social-02",
+      "note": "Naija Guru style"
+    },
+    {
+      "variant": "book",
+      "entry_id": "buk",
+      "source": "project-sample-social-01",
+      "note": "English loan"
+    },
+    {
+      "variant": "Lagos",
+      "entry_id": "legos",
+      "source": "project-sample-social-01",
+      "note": "City name SNO Legos"
+    },
+    {
+      "variant": "moi moi",
+      "entry_id": "moimoi",
+      "source": "project-sample-social-01",
+      "note": "Spaced reduplication"
+    },
+    {
+      "variant": "moi-moi",
+      "entry_id": "moimoi",
+      "source": "project-sample-social-01",
+      "note": "Hyphenated variant"
+    },
+    {
+      "variant": "well well",
+      "entry_id": "wel-wel",
+      "source": "project-sample-social-01",
+      "note": "Intensification"
+    },
+    {
+      "variant": "well-well",
+      "entry_id": "wel-wel",
+      "source": "project-sample-social-01",
+      "note": "Hyphenated intensification"
+    },
+    {
+      "variant": "bad bad",
+      "entry_id": "bad-bad",
+      "source": "project-sample-social-02",
+      "note": "Intensification"
+    },
+    {
+      "variant": "small small",
+      "entry_id": "smol-smol",
+      "source": "project-sample-social-02",
+      "note": "Intensification"
+    },
+    {
+      "variant": "small-small",
+      "entry_id": "smol-smol",
+      "source": "project-sample-social-02",
+      "note": "Hyphenated"
+    },
+    {
+      "variant": "people-dem",
+      "entry_id": "pipul",
+      "source": "project-sample-social-02",
+      "note": "English head + dem"
+    },
+    {
+      "variant": "elder dem",
+      "entry_id": "elda",
+      "source": "ifra-sample-paraphrase",
+      "note": "English elder + dem"
+    },
+    {
+      "variant": "old man",
+      "entry_id": "old-man",
+      "source": "ifra-sample-paraphrase",
+      "note": "Unhyphenated compound"
+    },
+    {
+      "variant": "tree",
+      "entry_id": "tri",
+      "source": "ifra-sample-paraphrase",
+      "note": "English spelling"
+    },
+    {
+      "variant": "wash",
+      "entry_id": "wash",
+      "source": "ifra-sample-paraphrase",
+      "note": "English spelling → SNO wosh preferred; maps to wash entry"
+    },
+    {
+      "variant": "wosh",
+      "entry_id": "wash",
+      "source": "ifra-sample-paraphrase",
+      "note": "SNO wosh on wash lemma"
+    },
+    {
+      "variant": "sey",
+      "entry_id": "se",
+      "source": "project-sample-social-01",
+      "note": "Alternate complementizer spelling"
+    },
+    {
+      "variant": "Naija Pidgin",
+      "entry_id": "naija",
+      "source": "project-sample-social-01",
+      "note": "Language name unmarked tone"
+    },
+    {
+      "variant": "9ja",
+      "entry_id": "naija",
+      "source": "project-sample-social-01",
+      "note": "Informal Nigeria"
+    },
+    {
+      "variant": "correct",
+      "entry_id": "koret",
+      "source": "project-sample-social-02",
+      "note": "English spelling"
+    },
+    {
+      "variant": "mey",
+      "entry_id": "mek",
+      "source": "curated-batch-1",
+      "note": "Informal make/let spelling (CENCOS)"
+    },
+    {
+      "variant": "com",
+      "entry_id": "kom",
+      "source": "curated-batch-1",
+      "note": "Lin rule: come → kom"
+    },
+    {
+      "variant": "kon",
+      "entry_id": "kom",
+      "source": "curated-batch-1",
+      "note": "Common kom variant (NaijaSenti lexicon)"
+    },
+    {
+      "variant": "pipol",
+      "entry_id": "pipul",
+      "source": "curated-batch-1",
+      "note": "people spelling variant"
+    },
+    {
+      "variant": "pipo",
+      "entry_id": "pipul",
+      "source": "curated-batch-1",
+      "note": "people clipping (NaijaSenti)"
+    },
+    {
+      "variant": "abegi",
+      "entry_id": "abeg",
+      "source": "curated-batch-1",
+      "note": "Reduplicated abeg"
+    },
+    {
+      "variant": "wating",
+      "entry_id": "wetin",
+      "source": "curated-batch-1",
+      "note": "what spelling variant"
+    },
+    {
+      "variant": "weyim",
+      "entry_id": "wetin",
+      "source": "curated-batch-1",
+      "note": "what variant"
+    },
+    {
+      "variant": "noni",
+      "entry_id": "moni",
+      "source": "curated-batch-1",
+      "note": "money spelling variant"
+    },
+    {
+      "variant": "deh",
+      "entry_id": "de",
+      "source": "curated-batch-1",
+      "note": "Progressive de variant (NaijaSenti)"
+    },
+    {
+      "variant": "shebi",
+      "entry_id": "abi",
+      "source": "curated-batch-1",
+      "note": "Tag question variant (se + abi)"
+    },
+    {
+      "variant": "hebi",
+      "entry_id": "abi",
+      "source": "curated-batch-1",
+      "note": "Tag question variant"
+    },
+    {
+      "variant": "pesin",
+      "entry_id": "pipul",
+      "source": "curated-batch-1",
+      "note": "person → people lemma (singular informal)"
+    },
+    {
+      "variant": "cash",
+      "entry_id": "kach",
+      "source": "curated-batch-2-lin",
+      "note": "Lin auto (count=9, forward-validated)"
+    },
+    {
+      "variant": "pic",
+      "entry_id": "pik",
+      "source": "curated-batch-3",
+      "note": "Lin review: pick spelling"
+    },
+    {
+      "variant": "dise",
+      "entry_id": "dis",
+      "source": "curated-batch-3",
+      "note": "Lin review: this spelling"
+    },
+    {
+      "variant": "deme",
+      "entry_id": "dem",
+      "source": "curated-batch-3",
+      "note": "Lin review: dem variant"
+    },
+    {
+      "variant": "gave",
+      "entry_id": "giv",
+      "source": "curated-batch-3",
+      "note": "English past → giv (like give)"
+    },
+    {
+      "variant": "naw",
+      "entry_id": "nau",
+      "source": "curated-batch-3",
+      "note": "Now spelling variant"
+    },
+    {
+      "variant": "naww",
+      "entry_id": "nau",
+      "source": "curated-batch-3",
+      "note": "Now emphatic spelling"
+    },
+    {
+      "variant": "true",
+      "entry_id": "trut",
+      "source": "curated-batch-3",
+      "note": "True → trut (truth lemma family)"
+    },
+    {
+      "variant": "becos",
+      "entry_id": "bikos",
+      "source": "curated-batch-4",
+      "note": "Common because spelling (CENCOS)"
+    },
+    {
+      "variant": "ting",
+      "entry_id": "somtin",
+      "source": "curated-batch-4",
+      "note": "Thing/something spelling (ting)"
+    },
+    {
+      "variant": "thing",
+      "entry_id": "somtin",
+      "source": "curated-batch-4",
+      "note": "English thing → somtin (not sing)"
+    },
+    {
+      "variant": "shey",
+      "entry_id": "abi",
+      "source": "curated-batch-4",
+      "note": "Tag question shey → abi"
+    },
+    {
+      "variant": "abeg make",
+      "entry_id": "abeg-mek",
+      "source": "phrase-bank-option-a",
+      "note": "Phrase-bank informal spelling"
+    },
+    {
+      "variant": "abegi make",
+      "entry_id": "abeg-mek",
+      "source": "phrase-bank-option-a",
+      "note": "Phrase-bank informal spelling"
+    },
+    {
+      "variant": "e choke!",
+      "entry_id": "e-choke",
+      "source": "phrase-bank-option-a",
+      "note": "Phrase-bank informal spelling"
+    },
+    {
+      "variant": "echoke",
+      "entry_id": "e-choke",
+      "source": "phrase-bank-option-a",
+      "note": "Phrase-bank informal spelling"
+    },
+    {
+      "variant": "wetin dey happen",
+      "entry_id": "wetin-de-happen",
+      "source": "phrase-bank-option-a",
+      "note": "Phrase-bank informal spelling"
+    },
+    {
+      "variant": "what's happening",
+      "entry_id": "wetin-de-happen",
+      "source": "phrase-bank-option-a",
+      "note": "Phrase-bank informal spelling"
+    },
+    {
+      "variant": "wetin dey happen?",
+      "entry_id": "wetin-de-happen",
+      "source": "phrase-bank-option-a",
+      "note": "Phrase-bank informal spelling"
+    },
+    {
+      "variant": "na so!",
+      "entry_id": "na-so",
+      "source": "phrase-bank-option-a",
+      "note": "Phrase-bank informal spelling"
+    },
+    {
+      "variant": "that's how",
+      "entry_id": "na-so",
+      "source": "phrase-bank-option-a",
+      "note": "Phrase-bank informal spelling"
+    },
+    {
+      "variant": "abeg now",
+      "entry_id": "abeg-nau",
+      "source": "phrase-bank-option-a",
+      "note": "Phrase-bank informal spelling"
+    },
+    {
+      "variant": "abeg nao",
+      "entry_id": "abeg-nau",
+      "source": "phrase-bank-option-a",
+      "note": "Phrase-bank informal spelling"
+    },
+    {
+      "variant": "weytin be dis",
+      "entry_id": "wetin-be-dis",
+      "source": "phrase-bank-option-a",
+      "note": "Phrase-bank informal spelling"
+    },
+    {
+      "variant": "wetin be this",
+      "entry_id": "wetin-be-dis",
+      "source": "phrase-bank-option-a",
+      "note": "Phrase-bank informal spelling"
+    },
+    {
+      "variant": "what is this",
+      "entry_id": "wetin-be-dis",
+      "source": "phrase-bank-option-a",
+      "note": "Phrase-bank informal spelling"
+    },
+    {
+      "variant": "carry go",
+      "entry_id": "kari-go",
+      "source": "phrase-bank-option-a",
+      "note": "Phrase-bank informal spelling"
+    },
+    {
+      "variant": "carry-go",
+      "entry_id": "kari-go",
+      "source": "phrase-bank-option-a",
+      "note": "Phrase-bank informal spelling"
+    },
+    {
+      "variant": "I dey come",
+      "entry_id": "i-de-kom",
+      "source": "phrase-bank-option-a",
+      "note": "Phrase-bank informal spelling"
+    },
+    {
+      "variant": "I'm coming",
+      "entry_id": "i-de-kom",
+      "source": "phrase-bank-option-a",
+      "note": "Phrase-bank informal spelling"
+    },
+    {
+      "variant": "I can't",
+      "entry_id": "i-no-fit",
+      "source": "phrase-bank-option-a",
+      "note": "Phrase-bank informal spelling"
+    },
+    {
+      "variant": "i cannot",
+      "entry_id": "i-no-fit",
+      "source": "phrase-bank-option-a",
+      "note": "Phrase-bank informal spelling"
+    },
+    {
+      "variant": "I don't know",
+      "entry_id": "i-no-sabi",
+      "source": "phrase-bank-option-a",
+      "note": "Phrase-bank informal spelling"
+    },
+    {
+      "variant": "no vex!",
+      "entry_id": "no-vex",
+      "source": "phrase-bank-option-a",
+      "note": "Phrase-bank informal spelling"
+    },
+    {
+      "variant": "don't vex",
+      "entry_id": "no-vex",
+      "source": "phrase-bank-option-a",
+      "note": "Phrase-bank informal spelling"
+    },
+    {
+      "variant": "don't be angry",
+      "entry_id": "no-vex",
+      "source": "phrase-bank-option-a",
+      "note": "Phrase-bank informal spelling"
+    },
+    {
+      "variant": "how far",
+      "entry_id": "haw-far",
+      "source": "phrase-bank-option-a",
+      "note": "Greeting phrase English spelling"
+    }
+  ]
+}

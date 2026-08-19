@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Naijá Live Dictionary — IFRA SNO</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="wrap">
+      <h1>Naijá Live Dictionary</h1>
+      <p class="tagline">IFRA/NLA Standard Naijá Orthography · variant → standard lookup</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="search-panel" aria-label="Search dictionary">
+      <label for="q" class="sr-only">Search word or variant spelling</label>
+      <input
+        id="q"
+        type="search"
+        placeholder="Search SNO spelling or informal variant (e.g. pickin, dey, book)…"
+        autocomplete="off"
+        autofocus
+      >
+      <p id="status" class="status" aria-live="polite"></p>
+    </section>
+
+    <section id="redirect" class="redirect hidden" aria-live="polite"></section>
+    <section id="results" class="results" aria-label="Search results"></section>
+  </main>
+
+  <footer class="footer wrap">
+    <p>IFRA/NLA SNO · <a href="docs/">Docs</a> · <a href="docs/user/">User Guide</a> · <a href="docs/ifra/">IFRA Knowledge</a> · <a href="docs/repro/">Reproducibility</a> · <a href="docs/tutorials/">Tutorials</a></p>
+    <p>Also: <a href="../docs/manuscripts/naija-live-dictionary.md">Manuscript</a> · <a href="../docs/citation-pack.md">Citations</a> · <a href="../docs/d4-public-release-licensing.md">Licensing</a> · <a href="../export/naija-dictionary.lex0.xml">TEI export</a></p>
+    <p class="footer-note">Not affiliated with IFRA Nigeria. Orthography follows the IFRA/NLA Standard Naijá Orthography (2010).</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

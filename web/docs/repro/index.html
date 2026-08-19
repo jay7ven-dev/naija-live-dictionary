@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reproducibility — Naijá Live Dictionary</title>
+  <link rel="stylesheet" href="../../style.css">
+  <link rel="stylesheet" href="../docs.css">
+</head>
+<body>
+  <header class="header">
+    <div class="wrap">
+      <h1>Reproducibility</h1>
+      <p class="tagline">Layer 4 · verify claims against live data</p>
+    </div>
+  </header>
+  <main class="wrap docs-body">
+    <nav class="docs-nav" aria-label="Documentation">
+      <a href="../../">Dictionary</a>
+      <a href="../">Docs home</a>
+      <a href="../user/">User Guide</a>
+      <a href="../ifra/">IFRA Knowledge</a>
+      <a href="./" aria-current="page">Reproducibility</a>
+      <a href="../tutorials/">Tutorials</a>
+    </nav>
+
+    <p class="lede">Numbers in docs age. Re-run these commands before citing metrics. Canonical scientific write-up: manuscript Appendix A.</p>
+
+    <h2>Core checks</h2>
+<pre>python schema/validate.py data/dictionary.json
+python web/verify.py
+python data/enrich_examples.py report
+python export/tei_lex0.py</pre>
+
+    <h2>Expected shape (snapshot class)</h2>
+    <table>
+      <thead><tr><th>Check</th><th>Expect</th></tr></thead>
+      <tbody>
+        <tr><td>Schema validate</td><td>OK: 306 entries (count may grow)</td></tr>
+        <tr><td>web/verify.py</td><td>entries + index + fuzzy present; sample lookups pass</td></tr>
+        <tr><td>Example report</td><td>Many entries UD-tagged; not necessarily all</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Variant rebuild</h2>
+<pre>python data/collect_variants.py apply
+python data/collect_variants.py index
+python schema/validate.py data/dictionary.json
+python web/verify.py</pre>
+    <p>Never auto-merge <code>suggestions.json</code> without human curation.</p>
+
+    <h2>Serve UI</h2>
+<pre>python web/serve.py
+# open http://localhost:8765/web/</pre>
+
+    <h2>Artifacts</h2>
+    <ul>
+      <li>Canonical JSON: <code>data/dictionary.json</code></li>
+      <li>Mappings: <code>data/variant_mappings.json</code></li>
+      <li>Indexes: <code>data/variant_index.json</code>, <code>data/fuzzy_lookup.json</code></li>
+      <li>TEI export: <code>export/naija-dictionary.lex0.xml</code></li>
+      <li>Sources registry: <code>data/corpus/sources.json</code></li>
+    </ul>
+  </main>
+  <footer class="footer wrap">
+    <p><a href="../">← Docs home</a> · Developer mirror: <code>docs/canonical/for-developers.md</code></p>
+  </footer>
+</body>
+</html>

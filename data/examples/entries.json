@@ -1,0 +1,35 @@
+[
+  {
+    "id": "pikin",
+    "standard_spelling": "pikin",
+    "informal_variants": ["pekin", "pikinn", "pickin"],
+    "part_of_speech": "noun",
+    "definitions": ["child"],
+    "example_sentences": [
+      "Di pikin-dem de ple fo yad."
+    ],
+    "notes": "Plural: pikin-dem (IFRA §6.2). English-origin 'children' spellings map as variants only."
+  },
+  {
+    "id": "dey",
+    "standard_spelling": "déy",
+    "informal_variants": ["dey", "de"],
+    "part_of_speech": "verb",
+    "definitions": ["to be at a location; locative copula"],
+    "example_sentences": [
+      "I déy haus."
+    ],
+    "notes": "Tone pair: de (progressive) vs déy (locative). Variant 'dey' is unmarked tone; standard uses acute per SNO minimal marking."
+  },
+  {
+    "id": "sharp-sharp",
+    "standard_spelling": "shapshap",
+    "informal_variants": ["sharp-sharp", "sharp sharp"],
+    "part_of_speech": "adverb",
+    "definitions": ["quickly; at once"],
+    "example_sentences": [
+      "Make wi shapshap go."
+    ],
+    "notes": "IFRA reduplication/intensification: written together (§4.3–4.4). Naija Guru hyphenated form kept as variant for lookup."
+  }
+]

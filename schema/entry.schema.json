@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pidgin-writing-system.local/schema/entry.schema.json",
+  "title": "Naijá Dictionary Entry",
+  "description": "Live Dictionary entry — standard_spelling follows IFRA/NLA SNO (D1/D2).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "standard_spelling",
+    "part_of_speech",
+    "definitions",
+    "example_sentences"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable slug for URLs and storage. Lowercase; derived from standard_spelling (ASCII fold diacritics for slug only).",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "examples": ["pikin", "sharp-sharp", "dey"]
+    },
+    "standard_spelling": {
+      "type": "string",
+      "minLength": 1,
+      "description": "IFRA/NLA SNO headword. Include tone diacritics when required (e.g. dé, Naijá)."
+    },
+    "informal_variants": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true,
+      "default": [],
+      "description": "Alternate spellings (Naija Guru, English-etymology, social). Must not duplicate standard_spelling."
+    },
+    "part_of_speech": {
+      "type": "string",
+      "enum": [
+        "noun",
+        "verb",
+        "adjective",
+        "adverb",
+        "interjection",
+        "particle",
+        "pronoun",
+        "determiner",
+        "preposition",
+        "conjunction",
+        "phrase",
+        "other"
+      ]
+    },
+    "definitions": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "minItems": 1,
+      "description": "One or more glosses, ordered most common first."
+    },
+    "example_sentences": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "minItems": 1,
+      "description": "Example(s) in SNO spelling where possible."
+    },
+    "notes": {
+      "type": "string",
+      "description": "Orthography notes, tone pairs, register, or variant-mapping rationale."
+    },
+    "pronunciation": {
+      "type": "string",
+      "description": "Optional broad phonetic hint (not full IPA required)."
+    }
+  }
+}

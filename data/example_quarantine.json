@@ -1,0 +1,117 @@
+{
+  "policy": "disciplined-A+B",
+  "note": "Rejected or surplus examples — not shown in web UI. Do not auto-merge back without review.",
+  "count": 22,
+  "items": [
+    {
+      "entry_id": "evribodi",
+      "sentence": "And I notice sey di issue wey everybody dey discuss, Obama, Obama.",
+      "reason": "too_long>65"
+    },
+    {
+      "entry_id": "go",
+      "sentence": "Abeg make God go, make God just try do someting for us dat side a beg.",
+      "reason": "too_long>65"
+    },
+    {
+      "entry_id": "go-past",
+      "sentence": "Abeg make God go, make God just try do someting for us dat side a beg.",
+      "reason": "too_long>65"
+    },
+    {
+      "entry_id": "chop",
+      "sentence": "Ah another food wey Jos people dey like to dey chop, na im be dog.",
+      "reason": "too_long>65"
+    },
+    {
+      "entry_id": "mek",
+      "sentence": "Abeg make God go, make God just try do someting for us dat side a beg.",
+      "reason": "too_long>65"
+    },
+    {
+      "entry_id": "si",
+      "sentence": "But sha, Mama sha, dey enjoy dey say eni ifa o to si ni pee laraamu.",
+      "reason": "too_long>65"
+    },
+    {
+      "entry_id": "giv",
+      "sentence": "And as my papa don give me di control, na so I go pass am give una.",
+      "reason": "too_long>65"
+    },
+    {
+      "entry_id": "tich",
+      "sentence": "Ah my sister, my junior sister bin teach me how de take dey cook am o.",
+      "reason": "too_long>65"
+    },
+    {
+      "entry_id": "kari",
+      "sentence": "Abi dose wey dey carry dis ting do, make we leave Nigeria for una?",
+      "reason": "too_long>65"
+    },
+    {
+      "entry_id": "kuk",
+      "sentence": "Ah my sister, my junior sister bin teach me how de take dey cook am o.",
+      "reason": "too_long>65"
+    },
+    {
+      "entry_id": "stop",
+      "sentence": "All di headache, everyting, everyting, every sickness just stop kpai!",
+      "reason": "too_long>65"
+    },
+    {
+      "entry_id": "haus",
+      "sentence": "After eating, we go stay for home, watch film, drink, do everyting.",
+      "reason": "too_long>65"
+    },
+    {
+      "entry_id": "munt",
+      "sentence": "Abi make I buy one carton self so dat de go keep am for one month.",
+      "reason": "too_long>65"
+    },
+    {
+      "entry_id": "tolotolo",
+      "sentence": "De go even produce deir own things, still put on top made in Turkey.",
+      "reason": "too_long>65"
+    },
+    {
+      "entry_id": "olt",
+      "sentence": "Ah for some countries now (like London now), de dey pay old citizens.",
+      "reason": "too_long>65"
+    },
+    {
+      "entry_id": "tode",
+      "sentence": "Allright ehm and dat na di informate we don bring for una again today.",
+      "reason": "too_long>65"
+    },
+    {
+      "entry_id": "evri",
+      "sentence": "All di headache, everyting, everyting, every sickness just stop kpai!",
+      "reason": "too_long>65"
+    },
+    {
+      "entry_id": "abeg",
+      "sentence": "Abeg make God go, make God just try do someting for us dat side a beg.",
+      "reason": "too_long>65"
+    },
+    {
+      "entry_id": "make",
+      "sentence": "Abeg make God go, make God just try do someting for us dat side a beg.",
+      "reason": "too_long>65"
+    },
+    {
+      "entry_id": "plis",
+      "sentence": "E get some kind tins wey be sey you go do for, to please your heart.",
+      "reason": "too_long>65"
+    },
+    {
+      "entry_id": "sinio",
+      "sentence": "And me wey dey talk to you, I senior you wit like two, three years.",
+      "reason": "too_long>65"
+    },
+    {
+      "entry_id": "haw",
+      "sentence": "Ah my sister, my junior sister bin teach me how de take dey cook am o.",
+      "reason": "too_long>65"
+    }
+  ]
+}

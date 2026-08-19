@@ -1,0 +1,68 @@
+{
+  "sources": [
+    {
+      "id": "project-sample-social-01",
+      "path": "samples/social-informal-01.txt",
+      "source_type": "project_sample",
+      "license": "project-internal",
+      "collected": "2026-07-10",
+      "notes": "Synthetic informal spellings for pipeline demo; no third-party text."
+    },
+    {
+      "id": "project-sample-social-02",
+      "path": "samples/social-informal-02.txt",
+      "source_type": "project_sample",
+      "license": "project-internal",
+      "collected": "2026-07-10",
+      "notes": "Synthetic market/chat style informal spellings."
+    },
+    {
+      "id": "ifra-sample-paraphrase",
+      "path": "samples/ifra-informal-paraphrase.txt",
+      "source_type": "project_sample",
+      "license": "project-internal",
+      "collected": "2026-07-10",
+      "notes": "Paraphrase of IFRA sample themes with deliberate non-SNO spellings."
+    },
+    {
+      "id": "cencos-zenodo",
+      "path": "external/cencos-transcripts.txt",
+      "source_type": "licensed_corpus",
+      "license": "see source",
+      "collected": "2026-07-10",
+      "notes": "Zenodo 7314016 CENCOS — text only; cite Agbo & Plag 2022."
+    },
+    {
+      "id": "naijasenti-pcm-train",
+      "path": "external/naijasenti-pcm-train.txt",
+      "source_type": "licensed_corpus",
+      "license": "see source",
+      "collected": "2026-07-10",
+      "notes": "HausaNLP/NaijaSenti — variant mining only; cite Muhammad et al. 2022."
+    },
+    {
+      "id": "ud-naija-pcm_nsc-ud-train",
+      "path": "external/pcm_nsc-ud-train.conllu",
+      "source_type": "licensed_corpus",
+      "license": "CC BY-SA 4.0",
+      "collected": "2026-07-10",
+      "notes": "UniversalDependencies/UD_Naija-NSC — example_sentences enrichment only; cite Caron et al."
+    },
+    {
+      "id": "ud-naija-pcm_nsc-ud-dev",
+      "path": "external/pcm_nsc-ud-dev.conllu",
+      "source_type": "licensed_corpus",
+      "license": "CC BY-SA 4.0",
+      "collected": "2026-07-10",
+      "notes": "UniversalDependencies/UD_Naija-NSC — example_sentences enrichment only; cite Caron et al."
+    },
+    {
+      "id": "ud-naija-pcm_nsc-ud-test",
+      "path": "external/pcm_nsc-ud-test.conllu",
+      "source_type": "licensed_corpus",
+      "license": "CC BY-SA 4.0",
+      "collected": "2026-07-10",
+      "notes": "UniversalDependencies/UD_Naija-NSC — example_sentences enrichment only; cite Caron et al."
+    }
+  ]
+}

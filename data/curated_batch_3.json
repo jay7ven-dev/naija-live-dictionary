@@ -1,0 +1,54 @@
+{
+  "batch": 3,
+  "count": 8,
+  "mappings": [
+    {
+      "variant": "pic",
+      "entry_id": "pik",
+      "source": "curated-batch-3",
+      "note": "Lin review: pick spelling"
+    },
+    {
+      "variant": "dise",
+      "entry_id": "dis",
+      "source": "curated-batch-3",
+      "note": "Lin review: this spelling"
+    },
+    {
+      "variant": "deme",
+      "entry_id": "dem",
+      "source": "curated-batch-3",
+      "note": "Lin review: dem variant"
+    },
+    {
+      "variant": "gave",
+      "entry_id": "giv",
+      "source": "curated-batch-3",
+      "note": "English past → giv (like give)"
+    },
+    {
+      "variant": "naw",
+      "entry_id": "nau",
+      "source": "curated-batch-3",
+      "note": "Now spelling variant"
+    },
+    {
+      "variant": "naww",
+      "entry_id": "nau",
+      "source": "curated-batch-3",
+      "note": "Now emphatic spelling"
+    },
+    {
+      "variant": "true",
+      "entry_id": "trut",
+      "source": "curated-batch-3",
+      "note": "True → trut (truth lemma family)"
+    },
+    {
+      "variant": "truth",
+      "entry_id": "trut",
+      "source": "curated-batch-3",
+      "note": "English noun → trut"
+    }
+  ]
+}

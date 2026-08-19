@@ -1,0 +1,16 @@
+# D4 Tier C — never commit IFRA guide body
+*.pdf
+sources/**/*.pdf
+**/ifra-guide.pdf
+
+# Third-party full corpora (D3: do not republish dumps; re-fetch via ingest)
+data/corpus/external/*.conllu
+data/corpus/external/cencos-transcripts.txt
+
+# Python / OS
+__pycache__/
+*.py[cod]
+.Python
+.DS_Store
+Thumbs.db
+desktop.ini
