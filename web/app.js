@@ -7,6 +7,12 @@ const $q = /** @type {HTMLInputElement} */ (document.getElementById("q"));
 const $status = document.getElementById("status");
 const $results = document.getElementById("results");
 const $redirect = document.getElementById("redirect");
+const $suggest = document.getElementById("suggest");
+
+const SUGGEST_MIN = 3;
+const SUGGEST_CAP = 5;
+let suggestItems = [];
+let suggestActive = -1;
 
 /** @type {Entry[]} */
 let entries = [];
@@ -64,6 +70,82 @@ function fuzzySuggest(query, limit = 3) {
   return out;
 }
 
+/**
+ * GOV.UK-style query suggestions: prefix only, after 3 chars, cap 5.
+ * @returns {{ id: string, term: string, label: string }[]}
+ */
+function prefixSuggest(query, limit = SUGGEST_CAP) {
+  const nq = norm(query);
+  if (nq.length < SUGGEST_MIN) return [];
+  const ranked = [];
+  for (const e of entries) {
+    const std = e.standard_spelling;
+    if (norm(std).startsWith(nq)) {
+      ranked.push({ id: e.id, term: std, label: std, tier: 0 });
+    }
+    for (const v of e.informal_variants ?? []) {
+      if (norm(v).startsWith(nq)) {
+        ranked.push({ id: e.id, term: v, label: `${v} → ${std}`, tier: 1 });
+      }
+    }
+  }
+  ranked.sort((a, b) => a.tier - b.tier || a.label.localeCompare(b.label, undefined, { sensitivity: "base" }));
+  const seen = new Set();
+  const out = [];
+  for (const r of ranked) {
+    const key = `${r.id}:${norm(r.term)}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push({ id: r.id, term: r.term, label: r.label });
+    if (out.length >= limit) break;
+  }
+  return out;
+}
+
+function hideSuggest() {
+  suggestItems = [];
+  suggestActive = -1;
+  $suggest.innerHTML = "";
+  $suggest.classList.add("hidden");
+  $q.setAttribute("aria-expanded", "false");
+  $q.removeAttribute("aria-activedescendant");
+}
+
+function setSuggestActive(i) {
+  const opts = [...$suggest.querySelectorAll("[role=option]")];
+  suggestActive = i;
+  opts.forEach((el, idx) => {
+    const on = idx === i;
+    el.setAttribute("aria-selected", on ? "true" : "false");
+    if (on) $q.setAttribute("aria-activedescendant", el.id);
+  });
+  if (i < 0) $q.removeAttribute("aria-activedescendant");
+}
+
+function renderSuggest(query) {
+  const items = prefixSuggest(query);
+  suggestItems = items;
+  suggestActive = -1;
+  if (!items.length) {
+    hideSuggest();
+    return;
+  }
+  $suggest.classList.remove("hidden");
+  $q.setAttribute("aria-expanded", "true");
+  $suggest.innerHTML = items
+    .map(
+      (it, i) =>
+        `<li role="option" id="suggest-${i}" data-term="${escapeHtml(it.term)}" aria-selected="false">${escapeHtml(it.label)}</li>`
+    )
+    .join("");
+}
+
+function applySuggest(term) {
+  $q.value = term;
+  hideSuggest();
+  onSearch();
+}
+
 async function load() {
   const [dictRes, indexRes, fuzzyRes] = await Promise.all([
     fetch(`${DATA}/dictionary.json`),
@@ -87,8 +169,9 @@ async function load() {
   } else {
     fuzzyTerms = [...variantLookup.entries()].map(([term, id]) => ({ term, id }));
   }
-  $status.textContent = `${entries.length} entries loaded · type to search`;
-  renderBrowse();
+  $results.removeAttribute("aria-busy");
+  $status.textContent = `${entries.length} entries loaded`;
+  renderIdle();
 }
 
 function entryMatches(entry, nq) {
@@ -175,13 +258,23 @@ function escapeHtml(s) {
   return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 }
 
+function renderIdle() {
+  hideSuggest();
+  $redirect.classList.add("hidden");
+  $redirect.innerHTML = "";
+  $results.innerHTML = `<p class="idle">Type a spelling to look up the IFRA/NLA standard form. After three letters, suggestions appear under the field.</p>
+    <p class="idle-actions"><button type="button" class="text-btn" data-browse>Browse first 40 entries</button></p>`;
+  $status.textContent = `${entries.length} entries loaded`;
+}
+
 function renderBrowse() {
+  hideSuggest();
   const sorted = [...entries].sort((a, b) =>
     a.standard_spelling.localeCompare(b.standard_spelling, undefined, { sensitivity: "base" })
   );
   $results.innerHTML = sorted.slice(0, 40).map(renderCard).join("");
   $redirect.classList.add("hidden");
-  $status.textContent = `${entries.length} entries · showing first 40 (search to filter)`;
+  $status.textContent = `${entries.length} entries · showing first 40`;
 }
 
 function onSearch() {
@@ -190,12 +283,14 @@ function onSearch() {
   $redirect.innerHTML = "";
 
   if (!raw) {
-    renderBrowse();
+    renderIdle();
     return;
   }
 
   const nq = norm(raw);
   const exact = resolveExact(raw);
+  if (exact) hideSuggest();
+  else renderSuggest(raw);
   const isVariantRedirect = exact && norm(exact.standard_spelling) !== nq;
 
   let hits = entries.filter((e) => entryMatches(e, nq));
@@ -242,6 +337,29 @@ $q.addEventListener("input", () => {
   debounce = window.setTimeout(onSearch, 120);
 });
 
+$q.addEventListener("keydown", (ev) => {
+  if ($suggest.classList.contains("hidden") || !suggestItems.length) return;
+  if (ev.key === "ArrowDown") {
+    ev.preventDefault();
+    setSuggestActive(Math.min(suggestActive + 1, suggestItems.length - 1));
+  } else if (ev.key === "ArrowUp") {
+    ev.preventDefault();
+    setSuggestActive(Math.max(suggestActive - 1, 0));
+  } else if (ev.key === "Enter" && suggestActive >= 0) {
+    ev.preventDefault();
+    applySuggest(suggestItems[suggestActive].term);
+  } else if (ev.key === "Escape") {
+    hideSuggest();
+  }
+});
+
+$suggest.addEventListener("mousedown", (ev) => {
+  const opt = ev.target instanceof Element ? ev.target.closest("[data-term]") : null;
+  if (!opt) return;
+  ev.preventDefault();
+  applySuggest(opt.getAttribute("data-term") ?? "");
+});
+
 $redirect.addEventListener("click", (ev) => {
   const btn = ev.target instanceof Element ? ev.target.closest("[data-suggest]") : null;
   if (!btn) return;
@@ -251,7 +369,17 @@ $redirect.addEventListener("click", (ev) => {
   onSearch();
 });
 
+$results.addEventListener("click", (ev) => {
+  const btn = ev.target instanceof Element ? ev.target.closest("[data-browse]") : null;
+  if (!btn) return;
+  renderBrowse();
+});
+
+$status.textContent = "Loading dictionary…";
+$results.setAttribute("aria-busy", "true");
+
 load().catch((err) => {
+  $results.removeAttribute("aria-busy");
   $status.textContent = "Dictionary data could not load.";
   $results.innerHTML = `<p class="empty"><strong>Local server required.</strong> Do not open this file directly from disk.<br><br>
     From the project folder run:<br>
@@ -276,6 +404,8 @@ if (new URLSearchParams(location.search).get("test") === "1") {
       entries.length >= 300,
       exact?.id === "kom",
       hits[0]?.id === "kom",
+      prefixSuggest("pic").length >= 1 && prefixSuggest("pic").length <= 5,
+      prefixSuggest("pi").length === 0,
     ];
     console.assert(checks.every(Boolean), "smoke checks failed", checks);
   });

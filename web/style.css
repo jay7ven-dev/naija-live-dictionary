@@ -1,15 +1,15 @@
 :root {
-  --bg: #faf8f5;
+  --bg: #f4f6f5;
   --surface: #fff;
   --text: #1a1a1a;
-  --muted: #5c5c5c;
+  --muted: #3d4a45;
   --accent: #0d5c4b;
   --accent-light: #e8f3ef;
-  --border: #ddd6cc;
+  --border: #cfd6d3;
   --redirect: #7a4f01;
   --redirect-bg: #fff8eb;
-  --radius: 8px;
-  --font: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --radius: 6px;
+  --font: system-ui, -apple-system, "Segoe UI", sans-serif;
 }
 
 * { box-sizing: border-box; }
@@ -22,18 +22,40 @@ body {
   line-height: 1.5;
 }
 
-.wrap { max-width: 720px; margin: 0 auto; padding: 0 1rem; }
+.wrap { max-width: 40rem; margin: 0 auto; padding: 0 1rem; }
 
 .header {
   background: var(--accent);
   color: #fff;
-  padding: 1.5rem 0 1.25rem;
+  padding: 1.15rem 0 1rem;
 }
 
-.header h1 { margin: 0; font-size: 1.5rem; font-weight: 700; }
-.tagline { margin: 0.35rem 0 0; opacity: 0.9; font-size: 0.9rem; }
+.header h1 {
+  margin: 0;
+  font-size: 1.35rem;
+  font-weight: 600;
+  text-wrap: balance;
+}
+
+.tagline {
+  margin: 0.3rem 0 0;
+  font-size: 0.9rem;
+  color: #d7efe7;
+}
 
 .search-panel { padding: 1.25rem 0 0.5rem; }
+
+.search-panel label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.field-hint {
+  margin: 0 0 0.5rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
 
 #q {
   width: 100%;
@@ -42,11 +64,53 @@ body {
   border: 1px solid var(--border);
   border-radius: var(--radius);
   background: var(--surface);
+  color: var(--text);
 }
 
-#q:focus {
+#q::placeholder {
+  color: var(--muted);
+  opacity: 1;
+}
+
+#q:focus { outline: none; }
+
+#q:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
+}
+
+.suggest {
+  list-style: none;
+  margin: 0.35rem 0 0;
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.suggest [role="option"] {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 0.55rem 0.85rem;
+  border: 0;
+  background: none;
+  font: inherit;
+  color: var(--text);
+  cursor: pointer;
+  border-bottom: 1px solid var(--border);
+}
+
+.suggest [role="option"]:last-child { border-bottom: 0; }
+
+.suggest [role="option"]:hover,
+.suggest [role="option"][aria-selected="true"] {
+  background: var(--accent-light);
+}
+
+.suggest [role="option"]:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
 }
 
 .status { font-size: 0.85rem; color: var(--muted); min-height: 1.25rem; margin: 0.5rem 0 0; }
@@ -63,7 +127,8 @@ body {
 
 .redirect strong { color: var(--text); }
 
-.redirect .linkish {
+.redirect .linkish,
+.text-btn {
   background: none;
   border: none;
   padding: 0;
@@ -73,7 +138,19 @@ body {
   text-decoration: underline;
 }
 
+.redirect .linkish:hover,
+.text-btn:hover { text-decoration-thickness: 2px; }
+
+.redirect .linkish:focus-visible,
+.text-btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
 .hidden { display: none; }
+
+.idle { margin: 0.75rem 0 0.5rem; color: var(--muted); }
+.idle-actions { margin: 0; }
 
 .results { display: flex; flex-direction: column; gap: 0.75rem; padding-bottom: 2rem; }
 
@@ -94,7 +171,7 @@ body {
 
 .lemma {
   font-size: 1.35rem;
-  font-weight: 700;
+  font-weight: 600;
   color: var(--accent);
 }
 
@@ -113,16 +190,14 @@ body {
 
 .examples {
   margin: 0.5rem 0 0;
-  padding-left: 1rem;
+  padding-left: 1.1rem;
   font-size: 0.9rem;
   color: var(--muted);
-  border-left: 3px solid var(--border);
 }
 
 .examples .example-secondary {
   margin-top: 0.35rem;
   font-size: 0.85rem;
-  opacity: 0.92;
 }
 
 .examples .ex-label {
@@ -140,7 +215,7 @@ body {
 }
 
 .variants code {
-  background: #f0ebe3;
+  background: var(--accent-light);
   padding: 0.1rem 0.35rem;
   border-radius: 3px;
   font-size: 0.8rem;
@@ -176,18 +251,6 @@ body {
 .footer-note {
   margin: 0.35rem 0 0;
   font-size: 0.8rem;
-  opacity: 0.85;
-}
-
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
 }
 
 .empty a { color: var(--accent); }
@@ -196,9 +259,8 @@ body {
   display: block;
   margin-top: 0.75rem;
   font-size: 0.8rem;
-  opacity: 0.85;
 }
 
 @media (min-width: 600px) {
-  .header h1 { font-size: 1.75rem; }
+  .header h1 { font-size: 1.5rem; }
 }

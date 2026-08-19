@@ -22,7 +22,7 @@ python web/verify.py
 
 ## Features
 
-- Browse first 40 entries (alphabetical)
+- Idle search (visible label + in-flow suggestions after 3 characters, cap 5); optional browse first 40
 - Search `standard_spelling`, definitions, examples, variants
 - **Variant → standard redirect** banner (e.g. `pickin` → `pikin`, `book` → `buk`)
 - Uses `data/dictionary.json` + `data/variant_index.json`
