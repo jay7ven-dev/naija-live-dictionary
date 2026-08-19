@@ -7,6 +7,11 @@ sources/**/*.pdf
 data/corpus/external/*.conllu
 data/corpus/external/cencos-transcripts.txt
 
+# Local agent / editor / run-state (keep on this machine)
+.agents/
+.cursor/
+.kybernetes/
+
 # Python / OS
 __pycache__/
 *.py[cod]
