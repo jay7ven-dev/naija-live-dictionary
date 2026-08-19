@@ -27,6 +27,7 @@ ENGLISH_BLOCKLIST = frozenset(
     amen mtv fsc alabi asaba benin hausa within taxi skibi neck meal korom
     mere weren whats among fin con were try than reach check three state both
     date bath done she they than reach check three state both date bath
+    fry
     """.split()
 )
 
@@ -52,6 +53,7 @@ LIN_PAIR_REJECT = frozenset(
         ("Both", "bot"),
         ("date", "dat"),
         ("bath", "bad"),
+        ("fry", "fri"),
     }
 )
 
@@ -81,6 +83,10 @@ BATCH_3_VERIFIED: list[tuple[str, str, str]] = [
     ("naww", "nau", "Now emphatic spelling"),
     ("true", "trut", "True → trut (truth lemma family)"),
     ("truth", "trut", "English noun → trut"),
+    ("Beacause", "bikos", "CENCOS typo of because → bikos"),
+    ("spy", "spie", "Lin review: spy → spie"),
+    ("bell", "belle", "Lin review: bell → belle"),
+    ("vain", "find", "Lin review: vain → fain (find lemma, not adj fain)"),
 ]
 
 # Batch 4 — English loans + high-frequency informal spellings (dictionary informal_variants)

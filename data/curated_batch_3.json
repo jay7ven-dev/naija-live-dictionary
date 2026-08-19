@@ -1,6 +1,6 @@
 {
   "batch": 3,
-  "count": 8,
+  "count": 12,
   "mappings": [
     {
       "variant": "pic",
@@ -49,6 +49,30 @@
       "entry_id": "trut",
       "source": "curated-batch-3",
       "note": "English noun → trut"
+    },
+    {
+      "variant": "Beacause",
+      "entry_id": "bikos",
+      "source": "curated-batch-3",
+      "note": "CENCOS typo of because → bikos"
+    },
+    {
+      "variant": "spy",
+      "entry_id": "spie",
+      "source": "curated-batch-3",
+      "note": "Lin review: spy → spie"
+    },
+    {
+      "variant": "bell",
+      "entry_id": "belle",
+      "source": "curated-batch-3",
+      "note": "Lin review: bell → belle"
+    },
+    {
+      "variant": "vain",
+      "entry_id": "find",
+      "source": "curated-batch-3",
+      "note": "Lin review: vain → fain (find lemma, not adj fain)"
     }
   ]
 }

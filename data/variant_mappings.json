@@ -461,6 +461,30 @@
       "entry_id": "haw-far",
       "source": "phrase-bank-option-a",
       "note": "Greeting phrase English spelling"
+    },
+    {
+      "variant": "Beacause",
+      "entry_id": "bikos",
+      "source": "curated-batch-3",
+      "note": "CENCOS typo of because → bikos"
+    },
+    {
+      "variant": "spy",
+      "entry_id": "spie",
+      "source": "curated-batch-3",
+      "note": "Lin review: spy → spie"
+    },
+    {
+      "variant": "bell",
+      "entry_id": "belle",
+      "source": "curated-batch-3",
+      "note": "Lin review: bell → belle"
+    },
+    {
+      "variant": "vain",
+      "entry_id": "find",
+      "source": "curated-batch-3",
+      "note": "Lin review: vain → fain (find lemma, not adj fain)"
     }
   ]
 }

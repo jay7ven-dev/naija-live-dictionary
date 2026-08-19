@@ -151,6 +151,10 @@
       "id": "baba-barber"
     },
     {
+      "term": "Beacause",
+      "id": "bikos"
+    },
+    {
       "term": "beautiful",
       "id": "fain"
     },
@@ -173,6 +177,10 @@
     {
       "term": "begin",
       "id": "bigin"
+    },
+    {
+      "term": "bell",
+      "id": "belle"
     },
     {
       "term": "belle",
@@ -2063,6 +2071,10 @@
       "id": "spie"
     },
     {
+      "term": "spy",
+      "id": "spie"
+    },
+    {
       "term": "stan",
       "id": "stan"
     },
@@ -2357,6 +2369,10 @@
     {
       "term": "until",
       "id": "til"
+    },
+    {
+      "term": "vain",
+      "id": "find"
     },
     {
       "term": "video",

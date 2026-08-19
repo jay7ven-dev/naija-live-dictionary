@@ -1,12 +1,5 @@
 {
   "batch": 2,
-  "count": 1,
-  "mappings": [
-    {
-      "variant": "cash",
-      "entry_id": "kach",
-      "source": "curated-batch-2-lin",
-      "note": "Lin auto (count=9, forward-validated)"
-    }
-  ]
+  "count": 0,
+  "mappings": []
 }
