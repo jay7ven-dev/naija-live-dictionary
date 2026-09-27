@@ -25,10 +25,16 @@
   </Info>
   <Files>
     <File>
-      <Name>naija_sno.kmn</Name>
-      <Description>Naijá SNO keyboard source</Description>
+      <Name>build\naija_sno.kmx</Name>
+      <Description>File naija_sno.kmx</Description>
       <CopyLocation>0</CopyLocation>
-      <FileType>.kmn</FileType>
+      <FileType>.kmx</FileType>
+    </File>
+    <File>
+      <Name>build\naija_sno.js</Name>
+      <Description>File naija_sno.js</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.js</FileType>
     </File>
     <File>
       <Name>naija_sno.wordlist.tsv</Name>
@@ -49,7 +55,7 @@
       <ID>naija_sno</ID>
       <Version>1.0</Version>
       <Languages>
-        <Language ID="pcm-Latn">Nigerian Pidgin</Language>
+        <Language ID="pcm">Nigerian Pidgin</Language>
       </Languages>
     </Keyboard>
   </Keyboards>

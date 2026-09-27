@@ -41,12 +41,17 @@ python data/export_keyman_wordlist.py --self-check
 
 ## Build and install (local)
 
-1. Install [Keyman](https://keyman.com/) for your OS, and optionally [Keyman Developer](https://keyman.com/developer/) to compile the package.
-2. Open `naija_sno.kps` (or this folder) in Keyman Developer.
-3. Build → produce `naija_sno.kmp`.
-4. Install the `.kmp` in Keyman and enable **Naijá SNO**.
+Requires Node.js 20+ (for `npx @keymanapp/kmc`). Keyman Developer GUI is optional.
 
-Prebuilt `.kmp` binaries are not committed; build locally. Keyman Developer is not required on CI or agent machines.
+```bash
+cd ime/keyman/naija_sno
+npx --yes @keymanapp/kmc@18 build naija_sno.kmn -o build/naija_sno.kmx
+npx --yes @keymanapp/kmc@18 build naija_sno.kps -o build/naija_sno.kmp
+```
+
+Then install [Keyman](https://keyman.com/), open `build/naija_sno.kmp`, enable **Naijá SNO**.
+
+Prebuilt `.kmp` binaries are not committed (`build/` is gitignored).
 
 ## Related
 

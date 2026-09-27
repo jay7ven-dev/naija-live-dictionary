@@ -19,3 +19,8 @@ __pycache__/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Keyman local build artifacts (II-5b; build with kmc)
+ime/keyman/**/build/
+*.kmx
+*.kmp

@@ -26,6 +26,16 @@ python data/export_keyman_wordlist.py --self-check
 python web/verify.py
 ```
 
+## Build `.kmp` (local)
+
+```bash
+cd ime/keyman/naija_sno
+npx --yes @keymanapp/kmc@18 build naija_sno.kmn -o build/naija_sno.kmx
+npx --yes @keymanapp/kmc@18 build naija_sno.kps -o build/naija_sno.kmp
+```
+
+Output: `ime/keyman/naija_sno/build/naija_sno.kmp` (gitignored). Install with [Keyman](https://keyman.com/).
+
 ## Runtime for users
 
-Install [Keyman](https://keyman.com/), open `ime/keyman/naija_sno/` in Keyman Developer, build `.kmp`, install.
+Install Keyman, install the built `.kmp`, enable **Naijá SNO**.

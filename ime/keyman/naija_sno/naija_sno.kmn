@@ -6,7 +6,7 @@ store(&VERSION) '15.0'
 store(&NAME) 'Naijá SNO'
 store(&COPYRIGHT) 'Project-internal · IFRA/NLA SNO digraphs'
 store(&KEYBOARDVERSION) '1.0'
-store(&TARGETS) 'windows android linux macos'
+store(&TARGETS) 'any'
 store(&MESSAGE) 'Nigerian Pidgin / Naijá Standard Orthography digraphs (ch gb sh kp zh) and high-tone acute vowels.'
 
 begin Unicode > use(main)
