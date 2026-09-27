@@ -215,6 +215,14 @@
       "id": "bikos"
     },
     {
+      "term": "bodi",
+      "id": "bodi"
+    },
+    {
+      "term": "body",
+      "id": "bodi"
+    },
+    {
       "term": "boi",
       "id": "boi"
     },
@@ -375,8 +383,16 @@
       "id": "chosh"
     },
     {
+      "term": "clean",
+      "id": "klin"
+    },
+    {
       "term": "close",
       "id": "kloz"
+    },
+    {
+      "term": "coffee",
+      "id": "kofe"
     },
     {
       "term": "cold",
@@ -429,6 +445,10 @@
     {
       "term": "de",
       "id": "di"
+    },
+    {
+      "term": "dea",
+      "id": "dea"
     },
     {
       "term": "deh",
@@ -505,6 +525,10 @@
     {
       "term": "draiva",
       "id": "draiva"
+    },
+    {
+      "term": "drink",
+      "id": "drink"
     },
     {
       "term": "drive",
@@ -603,6 +627,10 @@
       "id": "ai"
     },
     {
+      "term": "fa",
+      "id": "fa"
+    },
+    {
       "term": "fai",
       "id": "fai"
     },
@@ -633,6 +661,10 @@
     {
       "term": "family",
       "id": "famili"
+    },
+    {
+      "term": "far",
+      "id": "fa"
     },
     {
       "term": "fast",
@@ -717,6 +749,10 @@
     {
       "term": "fona",
       "id": "fona"
+    },
+    {
+      "term": "fone",
+      "id": "fone"
     },
     {
       "term": "food",
@@ -891,8 +927,16 @@
       "id": "han"
     },
     {
+      "term": "hapen",
+      "id": "hapen"
+    },
+    {
       "term": "hapi",
       "id": "hapi"
+    },
+    {
+      "term": "happen",
+      "id": "hapen"
     },
     {
       "term": "happy",
@@ -943,12 +987,20 @@
       "id": "im"
     },
     {
+      "term": "here",
+      "id": "hia"
+    },
+    {
       "term": "herself",
       "id": "huself"
     },
     {
       "term": "het",
       "id": "het"
+    },
+    {
+      "term": "hia",
+      "id": "hia"
     },
     {
       "term": "him",
@@ -1131,6 +1183,10 @@
       "id": "kari-go"
     },
     {
+      "term": "klin",
+      "id": "klin"
+    },
+    {
       "term": "kloz",
       "id": "kloz"
     },
@@ -1141,6 +1197,10 @@
     {
       "term": "know",
       "id": "sabi"
+    },
+    {
+      "term": "kofe",
+      "id": "kofe"
     },
     {
       "term": "kol",
@@ -1351,6 +1411,10 @@
       "id": "moto"
     },
     {
+      "term": "mout",
+      "id": "mout"
+    },
+    {
       "term": "mouth",
       "id": "maut"
     },
@@ -1443,6 +1507,10 @@
       "id": "nait"
     },
     {
+      "term": "niu",
+      "id": "niu"
+    },
+    {
       "term": "no",
       "id": "no"
     },
@@ -1465,6 +1533,10 @@
     {
       "term": "noni",
       "id": "moni"
+    },
+    {
+      "term": "nos",
+      "id": "nos"
     },
     {
       "term": "nose",
@@ -1561,6 +1633,18 @@
     {
       "term": "ospitul",
       "id": "ospitul"
+    },
+    {
+      "term": "out",
+      "id": "outsai"
+    },
+    {
+      "term": "outsai",
+      "id": "outsai"
+    },
+    {
+      "term": "outside",
+      "id": "outsai"
     },
     {
       "term": "papa",
@@ -1663,6 +1747,10 @@
       "id": "pipul"
     },
     {
+      "term": "place",
+      "id": "ples"
+    },
+    {
       "term": "plantain",
       "id": "plantin"
     },
@@ -1681,6 +1769,10 @@
     {
       "term": "please",
       "id": "abeg"
+    },
+    {
+      "term": "ples",
+      "id": "ples"
     },
     {
       "term": "plis",
@@ -1735,6 +1827,14 @@
       "id": "kwik-kwik"
     },
     {
+      "term": "rain",
+      "id": "ren"
+    },
+    {
+      "term": "rais",
+      "id": "rais"
+    },
+    {
       "term": "read",
       "id": "rid"
     },
@@ -1747,12 +1847,20 @@
       "id": "rimemba"
     },
     {
+      "term": "ren",
+      "id": "ren"
+    },
+    {
       "term": "respect",
       "id": "respekt"
     },
     {
       "term": "respekt",
       "id": "respekt"
+    },
+    {
+      "term": "rice",
+      "id": "rais"
     },
     {
       "term": "rich",
@@ -1887,6 +1995,10 @@
       "id": "shapshap"
     },
     {
+      "term": "shaut",
+      "id": "shaut"
+    },
+    {
       "term": "shebi",
       "id": "abi"
     },
@@ -1899,6 +2011,14 @@
       "id": "abi"
     },
     {
+      "term": "shoe",
+      "id": "shuz"
+    },
+    {
+      "term": "shoes",
+      "id": "shuz"
+    },
+    {
       "term": "shop",
       "id": "shop"
     },
@@ -1909,6 +2029,14 @@
     {
       "term": "shot",
       "id": "shot"
+    },
+    {
+      "term": "shout",
+      "id": "shaut"
+    },
+    {
+      "term": "shuz",
+      "id": "shuz"
     },
     {
       "term": "si",
@@ -2163,6 +2291,10 @@
       "id": "taya"
     },
     {
+      "term": "tea",
+      "id": "tii"
+    },
+    {
       "term": "teach",
       "id": "tich"
     },
@@ -2181,6 +2313,10 @@
     {
       "term": "tek",
       "id": "tek"
+    },
+    {
+      "term": "telephone",
+      "id": "fone"
     },
     {
       "term": "tenki",
@@ -2209,6 +2345,10 @@
     {
       "term": "them",
       "id": "dem"
+    },
+    {
+      "term": "there",
+      "id": "dea"
     },
     {
       "term": "thief",
@@ -2249,6 +2389,10 @@
     {
       "term": "tif",
       "id": "tif"
+    },
+    {
+      "term": "tii",
+      "id": "tii"
     },
     {
       "term": "til",
@@ -2523,6 +2667,10 @@
       "id": "wetin-de-happen"
     },
     {
+      "term": "wey",
+      "id": "wey"
+    },
+    {
       "term": "weyim",
       "id": "wetin"
     },
@@ -2549,6 +2697,14 @@
     {
       "term": "where",
       "id": "wia"
+    },
+    {
+      "term": "which",
+      "id": "wey"
+    },
+    {
+      "term": "who",
+      "id": "wey"
     },
     {
       "term": "whose",
@@ -2619,6 +2775,10 @@
       "id": "wash"
     },
     {
+      "term": "wota",
+      "id": "wota"
+    },
+    {
       "term": "write",
       "id": "rit"
     },
@@ -2675,8 +2835,16 @@
       "id": "yia"
     },
     {
+      "term": "yong",
+      "id": "yong"
+    },
+    {
       "term": "you",
       "id": "yu"
+    },
+    {
+      "term": "young",
+      "id": "yong"
     },
     {
       "term": "yu",

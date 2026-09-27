@@ -4934,7 +4934,8 @@
     "example_sentences": [
       "Abeg mek yu help mi."
     ],
-    "notes": "Usage: Opens a polite request or plea (not a literal 'beg make'). Often softens a following clause."
+    "notes": "Usage: Opens a polite request or plea (not a literal 'beg make'). Often softens a following clause.",
+    "pronunciation": "AH-b-eh-g-m-eh-k"
   },
   {
     "id": "e-choke",
@@ -4950,7 +4951,8 @@
     "example_sentences": [
       "Di music sweet — e choke!"
     ],
-    "notes": "Usage: Praise or shock reaction; not literal choking. Informal/youth register."
+    "notes": "Usage: Praise or shock reaction; not literal choking. Informal/youth register.",
+    "pronunciation": "EH-ch-oh-k-eh"
   },
   {
     "id": "wetin-de-happen",
@@ -4967,7 +4969,8 @@
     "example_sentences": [
       "Wetin de happen hia?"
     ],
-    "notes": "Usage: Asks for the situation or news, not a formal event schedule. Related to shorter 'wetin de'."
+    "notes": "Usage: Asks for the situation or news, not a formal event schedule. Related to shorter 'wetin de'.",
+    "pronunciation": "W-eh-t-ee-n-d-eh-h-ah-p-p-eh-n"
   },
   {
     "id": "na-so",
@@ -4983,7 +4986,8 @@
     "example_sentences": [
       "Na so e bi."
     ],
-    "notes": "Usage: Confirms agreement or resigns to how things are ('that's the way')."
+    "notes": "Usage: Confirms agreement or resigns to how things are ('that's the way').",
+    "pronunciation": "N-ah-s-oh"
   },
   {
     "id": "abeg-nau",
@@ -4999,7 +5003,8 @@
     "example_sentences": [
       "Abeg nau, no vex."
     ],
-    "notes": "Usage: Emphatic 'please/come on' — can soften or push back depending on tone."
+    "notes": "Usage: Emphatic 'please/come on' — can soften or push back depending on tone.",
+    "pronunciation": "AH-b-eh-g-n-ow"
   },
   {
     "id": "wetin-be-dis",
@@ -5016,7 +5021,8 @@
     "example_sentences": [
       "Wetin be dis?"
     ],
-    "notes": "Usage: Often rhetorical surprise or mild complaint, not a neutral information question."
+    "notes": "Usage: Often rhetorical surprise or mild complaint, not a neutral information question.",
+    "pronunciation": "W-eh-t-ee-n-b-eh-d-ee-s"
   },
   {
     "id": "kari-go",
@@ -5032,7 +5038,8 @@
     "example_sentences": [
       "Kari go — I no nid am."
     ],
-    "notes": "Usage: Directive to take something away or proceed with taking; not 'carry' as lift only."
+    "notes": "Usage: Directive to take something away or proceed with taking; not 'carry' as lift only.",
+    "pronunciation": "K-ah-r-ee-g-oh"
   },
   {
     "id": "i-de-kom",
@@ -5049,7 +5056,8 @@
     "example_sentences": [
       "Wét — I de kom."
     ],
-    "notes": "Usage: Often means 'I'm coming soon / on my way', not always literal motion right now."
+    "notes": "Usage: Often means 'I'm coming soon / on my way', not always literal motion right now.",
+    "pronunciation": "EE-d-eh-k-oh-m"
   },
   {
     "id": "i-no-fit",
@@ -5066,7 +5074,8 @@
     "example_sentences": [
       "I no fit kom tumoro."
     ],
-    "notes": "Usage: Ability refusal: can't / won't be able — not 'I do not fit' physically."
+    "notes": "Usage: Ability refusal: can't / won't be able — not 'I do not fit' physically.",
+    "pronunciation": "EE-n-oh-f-ee-t"
   },
   {
     "id": "i-no-sabi",
@@ -5083,7 +5092,8 @@
     "example_sentences": [
       "I no sabi wetin e mean."
     ],
-    "notes": "Usage: Denial of knowledge/understanding; common discourse response."
+    "notes": "Usage: Denial of knowledge/understanding; common discourse response.",
+    "pronunciation": "EE-n-oh-s-ah-b-ee"
   },
   {
     "id": "no-vex",
@@ -5100,6 +5110,341 @@
     "example_sentences": [
       "No vex — I go fix am."
     ],
-    "notes": "Usage: Apology / softener asking someone not to be upset; social repair, not medical 'vexation'."
+    "notes": "Usage: Apology / softener asking someone not to be upset; social repair, not medical 'vexation'.",
+    "pronunciation": "N-oh-v-eh-ks"
+  },
+  {
+    "id": "wey",
+    "standard_spelling": "wey",
+    "informal_variants": [
+      "who",
+      "which",
+      "that"
+    ],
+    "part_of_speech": "pronoun",
+    "definitions": [
+      "who; which; that (relativizer)"
+    ],
+    "example_sentences": [
+      "Di man wey kom yestade."
+    ],
+    "pronunciation": "W-eh-y"
+  },
+  {
+    "id": "hia",
+    "standard_spelling": "hia",
+    "informal_variants": [
+      "here"
+    ],
+    "part_of_speech": "adverb",
+    "definitions": [
+      "here"
+    ],
+    "example_sentences": [
+      "Kom hia nau."
+    ],
+    "pronunciation": "H-ee-ah"
+  },
+  {
+    "id": "dea",
+    "standard_spelling": "dea",
+    "informal_variants": [
+      "there"
+    ],
+    "part_of_speech": "adverb",
+    "definitions": [
+      "there"
+    ],
+    "example_sentences": [
+      "Put di buk dea."
+    ],
+    "pronunciation": "D-ee"
+  },
+  {
+    "id": "fone",
+    "standard_spelling": "fone",
+    "informal_variants": [
+      "phone",
+      "telephone"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "phone; telephone"
+    ],
+    "example_sentences": [
+      "Kari di fone."
+    ],
+    "pronunciation": "F-oh-n-eh"
+  },
+  {
+    "id": "wota",
+    "standard_spelling": "wota",
+    "informal_variants": [
+      "water"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "water"
+    ],
+    "example_sentences": [
+      "Bring wota kom."
+    ],
+    "pronunciation": "W-oh-t-ah"
+  },
+  {
+    "id": "rais",
+    "standard_spelling": "rais",
+    "informal_variants": [
+      "rice"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "rice"
+    ],
+    "example_sentences": [
+      "I wan chop rais."
+    ],
+    "pronunciation": "R-eye-s"
+  },
+  {
+    "id": "ren",
+    "standard_spelling": "ren",
+    "informal_variants": [
+      "rain"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "rain"
+    ],
+    "example_sentences": [
+      "Ren de fol."
+    ],
+    "pronunciation": "R-eh-n"
+  },
+  {
+    "id": "bodi",
+    "standard_spelling": "bodi",
+    "informal_variants": [
+      "body"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "body"
+    ],
+    "example_sentences": [
+      "Mai bodi de pein."
+    ],
+    "pronunciation": "B-oh-d-ee"
+  },
+  {
+    "id": "nos",
+    "standard_spelling": "nos",
+    "informal_variants": [
+      "nose"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "nose"
+    ],
+    "example_sentences": [
+      "Im nos de run."
+    ],
+    "pronunciation": "N-oh-s"
+  },
+  {
+    "id": "mout",
+    "standard_spelling": "mout",
+    "informal_variants": [
+      "mouth"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "mouth"
+    ],
+    "example_sentences": [
+      "Lok yu mout."
+    ],
+    "pronunciation": "M-ow-t"
+  },
+  {
+    "id": "drink",
+    "standard_spelling": "drink",
+    "informal_variants": [],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to drink"
+    ],
+    "example_sentences": [
+      "I wan drink wota."
+    ],
+    "pronunciation": "D-r-ee-n-k"
+  },
+  {
+    "id": "ples",
+    "standard_spelling": "ples",
+    "informal_variants": [
+      "place"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "place"
+    ],
+    "example_sentences": [
+      "Dis ples fine."
+    ],
+    "pronunciation": "P-l-eh-s"
+  },
+  {
+    "id": "outsai",
+    "standard_spelling": "outsai",
+    "informal_variants": [
+      "outside",
+      "out"
+    ],
+    "part_of_speech": "adverb",
+    "definitions": [
+      "outside"
+    ],
+    "example_sentences": [
+      "Go outsai."
+    ],
+    "pronunciation": "OW-t-s-eye"
+  },
+  {
+    "id": "klin",
+    "standard_spelling": "klin",
+    "informal_variants": [
+      "clean"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "clean; also used as verb “to clean”"
+    ],
+    "example_sentences": [
+      "Di haus klin.",
+      "Klin di rum."
+    ],
+    "pronunciation": "K-l-ee-n"
+  },
+  {
+    "id": "shaut",
+    "standard_spelling": "shaut",
+    "informal_variants": [
+      "shout"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to shout"
+    ],
+    "example_sentences": [
+      "No shaut fo hia."
+    ],
+    "pronunciation": "SH-ow-t"
+  },
+  {
+    "id": "hapen",
+    "standard_spelling": "hapen",
+    "informal_variants": [
+      "happen"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to happen"
+    ],
+    "example_sentences": [
+      "Wetin hapen?"
+    ],
+    "pronunciation": "H-ah-p-eh-n"
+  },
+  {
+    "id": "fa",
+    "standard_spelling": "fa",
+    "informal_variants": [
+      "far"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "far"
+    ],
+    "example_sentences": [
+      "Di ples fa."
+    ],
+    "pronunciation": "F-ah"
+  },
+  {
+    "id": "yong",
+    "standard_spelling": "yong",
+    "informal_variants": [
+      "young"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "young"
+    ],
+    "example_sentences": [
+      "Yong man de waka."
+    ],
+    "pronunciation": "Y-oh-ng"
+  },
+  {
+    "id": "niu",
+    "standard_spelling": "niu",
+    "informal_variants": [
+      "new"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "new"
+    ],
+    "example_sentences": [
+      "I get niu buk."
+    ],
+    "pronunciation": "N-ee-oo"
+  },
+  {
+    "id": "tii",
+    "standard_spelling": "tii",
+    "informal_variants": [
+      "tea"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "tea"
+    ],
+    "example_sentences": [
+      "I wan tii."
+    ],
+    "pronunciation": "T-ee-ee"
+  },
+  {
+    "id": "kofe",
+    "standard_spelling": "kofe",
+    "informal_variants": [
+      "coffee"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "coffee"
+    ],
+    "example_sentences": [
+      "I wan kofe."
+    ],
+    "pronunciation": "K-oh-f-eh"
+  },
+  {
+    "id": "shuz",
+    "standard_spelling": "shuz",
+    "informal_variants": [
+      "shoe",
+      "shoes"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "shoe; shoes"
+    ],
+    "example_sentences": [
+      "Put yu shuz."
+    ],
+    "pronunciation": "SH-oo-z"
   }
 ]

@@ -99,6 +99,6 @@ python schema/validate.py data/dictionary.json
 
 ## Phase 2 (complete)
 
-- **Corpus:** `data/dictionary.json` — **317** seed entries (IFRA SNO; live count — re-run validators)
+- **Corpus:** `data/dictionary.json` — **339** seed entries (IFRA SNO; live count — re-run validators)
 - **Builder:** `python data/build_seed.py`
 - **Validate:** `python schema/validate.py data/dictionary.json`

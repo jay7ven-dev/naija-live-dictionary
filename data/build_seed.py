@@ -348,6 +348,30 @@ SEED = [
     entry("wie", "wie", "adverb", ["where (alternate)"], ["Wie mai papa?"], ["where"]),
     entry("haw", "haw", "adverb", ["how"], ["Haw yu de?"], ["how"]),
     entry("why", "why", "adverb", ["why"], ["Why yu de krai?"], []),
+
+    # --- Lexicon growth 2026-09-27 (sample-unmatched + core gaps) ---
+    entry("wey", "wey", "pronoun", ["who; which; that (relativizer)"], ["Di man wey kom yestade."], ["who", "which", "that"]),
+    entry("hia", "hia", "adverb", ["here"], ["Kom hia nau."], ["here"]),
+    entry("dea", "dea", "adverb", ["there"], ["Put di buk dea."], ["there"]),
+    entry("fone", "fone", "noun", ["phone; telephone"], ["Kari di fone."], ["phone", "telephone"]),
+    entry("wota", "wota", "noun", ["water"], ["Bring wota kom."], ["water"]),
+    entry("rais", "rais", "noun", ["rice"], ["I wan chop rais."], ["rice"]),
+    entry("ren", "ren", "noun", ["rain"], ["Ren de fol."], ["rain"]),
+    entry("bodi", "bodi", "noun", ["body"], ["Mai bodi de pein."], ["body"]),
+    entry("nos", "nos", "noun", ["nose"], ["Im nos de run."], ["nose"]),
+    entry("mout", "mout", "noun", ["mouth"], ["Lok yu mout."], ["mouth"]),
+    entry("drink", "drink", "verb", ["to drink"], ["I wan drink wota."], []),
+    entry("ples", "ples", "noun", ["place"], ["Dis ples fine."], ["place"]),
+    entry("outsai", "outsai", "adverb", ["outside"], ["Go outsai."], ["outside", "out"]),
+    entry("klin", "klin", "adjective", ["clean; also used as verb “to clean”"], ["Di haus klin.", "Klin di rum."], ["clean"]),
+    entry("shaut", "shaut", "verb", ["to shout"], ["No shaut fo hia."], ["shout"]),
+    entry("hapen", "hapen", "verb", ["to happen"], ["Wetin hapen?"], ["happen"]),
+    entry("fa", "fa", "adjective", ["far"], ["Di ples fa."], ["far"]),
+    entry("yong", "yong", "adjective", ["young"], ["Yong man de waka."], ["young"]),
+    entry("niu", "niu", "adjective", ["new"], ["I get niu buk."], ["new"]),
+    entry("tii", "tii", "noun", ["tea"], ["I wan tii."], ["tea"]),
+    entry("kofe", "kofe", "noun", ["coffee"], ["I wan kofe."], ["coffee"]),
+    entry("shuz", "shuz", "noun", ["shoe; shoes"], ["Put yu shuz."], ["shoe", "shoes"]),
 ]
 # fmt: on
 
