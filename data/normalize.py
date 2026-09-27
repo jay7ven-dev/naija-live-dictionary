@@ -85,16 +85,22 @@ def resolve_token_rules(
         return {"input": core, "output": std, "method": method, "entry_id": eid}
 
     nq = norm_key(core)
-    if len(nq) < 2:
+    # Fuzzy on 1–2 letter tokens is almost always English residue noise (be→bed).
+    if len(nq) <= 2:
         return {"input": core, "output": core, "method": "unknown", "entry_id": None}
+
+    # 3-letter: same-length edits only, max distance 1 (bok→buk; not be-length traps).
+    lim = 1 if len(nq) <= 3 else max_d
 
     best: list[tuple[int, str, str]] = []
     for term, tid in fuzzy_terms:
         nt = norm_key(term)
-        if abs(len(nt) - len(nq)) > max_d:
+        if abs(len(nt) - len(nq)) > lim:
+            continue
+        if len(nq) <= 3 and len(nt) != len(nq):
             continue
         d = levenshtein(nq, nt)
-        if 0 < d <= max_d:
+        if 0 < d <= lim:
             best.append((d, term, tid))
     if not best:
         return {"input": core, "output": core, "method": "unknown", "entry_id": None}

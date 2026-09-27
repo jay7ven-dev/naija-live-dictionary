@@ -34,7 +34,13 @@ python web/serve.py
 # POST /api/translate {"text":"..."}
 ```
 
-Pipeline: English → `NITHUB-AI/marian-mt-bbc-en-pcm` → rules normalize → SNO output.
+Pipeline: English → Moses tokenize (sacremoses, optional) → `NITHUB-AI/marian-mt-bbc-en-pcm` → Moses detokenize → rules normalize → SNO output.
+
+### MT quality (2026-09-27)
+
+- **sacremoses:** Moses tokenize EN input / detokenize Marian pcm (default; `--no-moses` to compare)
+- **`--eval`:** soft smoke cases (expected Pidgin substrings in raw or SNO)
+- **Fuzzy guard:** rules normalizer skips fuzzy on ≤2-letter tokens and tightens 3-letter matches (blocks `be`→`bed` after MT)
 
 ## UX Option B (2026-09-23)
 
