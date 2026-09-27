@@ -9,7 +9,7 @@
 - `data/ime/naija-ime-lexicon.json` — digraphs, acute vowels, suggestion rows
 - `data/ime/naija-ime-lexicon.tsv` — `variant / standard / entry_id`
 - Does **not** write `dictionary.json` or mappings
-- Native OS/mobile IME remains **II-5b+**
+- Native Keyman keyboard is **II-5b** (`docs/phase-ii-5b-keyman.md`); TSF / Android / iOS remain **II-5c+**
 
 ## Check
 

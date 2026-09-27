@@ -54,6 +54,24 @@ def main() -> int:
         )
         return 1
 
+    kmn = ROOT / "ime" / "keyman" / "naija_sno" / "naija_sno.kmn"
+    kps = ROOT / "ime" / "keyman" / "naija_sno" / "naija_sno.kps"
+    wordlist = ROOT / "ime" / "keyman" / "naija_sno" / "naija_sno.wordlist.tsv"
+    for p in (kmn, kps, wordlist):
+        if not p.is_file():
+            print(f"missing: {p.relative_to(ROOT)} (II-5b Keyman)", file=sys.stderr)
+            return 1
+    kmn_text = kmn.read_text(encoding="utf-8")
+    for dig in ("gb", "kp", "sh", "ch", "zh"):
+        needle = f"'{dig[0]}' + '{dig[1]}' > '{dig}'"
+        if needle not in kmn_text:
+            print(f"keyman kmn missing digraph: {dig}", file=sys.stderr)
+            return 1
+    wl_rows = [ln for ln in wordlist.read_text(encoding="utf-8").splitlines() if ln.strip()]
+    if len(wl_rows) < 2:
+        print("keyman wordlist empty", file=sys.stderr)
+        return 1
+
     def resolve(variant: str) -> str | None:
         return index.get(variant) or index.get(variant.lower())
 
@@ -74,7 +92,8 @@ def main() -> int:
     print(
         f"OK: {len(entries)} entries, {len(index)} index keys, "
         f"{len(fuzzy.get('terms', []))} fuzzy terms, "
-        f"ime export {len(ime['suggestions'])}, web + docs layers present"
+        f"ime export {len(ime['suggestions'])}, "
+        f"keyman wordlist {len(wl_rows) - 1}, web + docs layers present"
     )
     return 0
 

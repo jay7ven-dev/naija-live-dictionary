@@ -21,4 +21,4 @@ python web/verify.py
 
 ## Later
 
-OS / mobile IME apps remain II-5b+ (consume `data/ime/` export from II-5a).
+System-wide typing is II-5b Keyman (`ime/keyman/naija_sno/`); native TSF / Android / iOS apps remain II-5c+.

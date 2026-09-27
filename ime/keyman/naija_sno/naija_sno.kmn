@@ -1,0 +1,52 @@
+c Naijá SNO — IFRA/NLA digraph + acute compose (II-5b Keyman)
+c Consumes Live Dictionary export; does not write dictionary.json
+c Repo: ime/keyman/naija_sno/
+
+store(&VERSION) '15.0'
+store(&NAME) 'Naijá SNO'
+store(&COPYRIGHT) 'Project-internal · IFRA/NLA SNO digraphs'
+store(&KEYBOARDVERSION) '1.0'
+store(&TARGETS) 'windows android linux macos'
+store(&MESSAGE) 'Nigerian Pidgin / Naijá Standard Orthography digraphs (ch gb sh kp zh) and high-tone acute vowels.'
+
+begin Unicode > use(main)
+
+group(main) using keys
+
+c --- Digraphs (second key completes) ---
+'g' + 'b' > 'gb'
+'G' + 'b' > 'Gb'
+'G' + 'B' > 'GB'
+'g' + 'B' > 'gB'
+
+'k' + 'p' > 'kp'
+'K' + 'p' > 'Kp'
+'K' + 'P' > 'KP'
+'k' + 'P' > 'kP'
+
+'s' + 'h' > 'sh'
+'S' + 'h' > 'Sh'
+'S' + 'H' > 'SH'
+'s' + 'H' > 'sH'
+
+'c' + 'h' > 'ch'
+'C' + 'h' > 'Ch'
+'C' + 'H' > 'CH'
+'c' + 'H' > 'cH'
+
+'z' + 'h' > 'zh'
+'Z' + 'h' > 'Zh'
+'Z' + 'H' > 'ZH'
+'z' + 'H' > 'zH'
+
+c --- High tone acute: apostrophe then vowel ---
+"'" + 'a' > U+00E1
+"'" + 'e' > U+00E9
+"'" + 'i' > U+00ED
+"'" + 'o' > U+00F3
+"'" + 'u' > U+00FA
+"'" + 'A' > U+00C1
+"'" + 'E' > U+00C9
+"'" + 'I' > U+00CD
+"'" + 'O' > U+00D3
+"'" + 'U' > U+00DA

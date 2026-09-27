@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Keyman package source for Naijá SNO (II-5b).
+  Open this folder / .kps in Keyman Developer, Build → .kmp, then install in Keyman.
+  Wordlist: regenerate with python data/export_keyman_wordlist.py
+-->
+<Package>
+  <System>
+    <KeymanDeveloperVersion>17.0.326.0</KeymanDeveloperVersion>
+    <FileVersion>7.0</FileVersion>
+  </System>
+  <Options>
+    <ExecuteProgram></ExecuteProgram>
+    <ReadMeFile>readme.txt</ReadMeFile>
+    <GraphicFile></GraphicFile>
+    <MsiFileName></MsiFileName>
+    <MsiInstall0></MsiInstall0>
+  </Options>
+  <Info>
+    <Version URL="">1.0</Version>
+    <Name URL="">Naijá SNO</Name>
+    <Copyright URL="">Project-internal · IFRA/NLA SNO</Copyright>
+    <Author URL="">Naijá Live Dictionary</Author>
+    <WebSite URL="https://github.com/jay7ven-dev/naija-live-dictionary">naija-live-dictionary</WebSite>
+  </Info>
+  <Files>
+    <File>
+      <Name>naija_sno.kmn</Name>
+      <Description>Naijá SNO keyboard source</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kmn</FileType>
+    </File>
+    <File>
+      <Name>naija_sno.wordlist.tsv</Name>
+      <Description>Wordlist from Live Dictionary IME export</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.tsv</FileType>
+    </File>
+    <File>
+      <Name>readme.txt</Name>
+      <Description>Package readme</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.txt</FileType>
+    </File>
+  </Files>
+  <Keyboards>
+    <Keyboard>
+      <Name>Naijá SNO</Name>
+      <ID>naija_sno</ID>
+      <Version>1.0</Version>
+      <Languages>
+        <Language ID="pcm-Latn">Nigerian Pidgin</Language>
+      </Languages>
+    </Keyboard>
+  </Keyboards>
+  <Strings/>
+</Package>

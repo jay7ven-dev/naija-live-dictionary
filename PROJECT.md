@@ -156,7 +156,8 @@ A structured, growing reference containing:
 | **5 legacy seeds** | Fuzzy, Lin suggest, G2P, FST, TEI | Done (5a–5c); consumed by II-1 |
 | **II-4** | Keyboard / IME (web compose assist first) | **Done** — `docs/phase-ii-4-keyboard-ime.md` · spec `docs/superpowers/specs/2026-09-27-part-ii-4-keyboard-ime-design.md` |
 | **II-5a** | IME lexicon export (JSON/TSV) | **Done** — `docs/phase-ii-5-ime-export.md` · spec `docs/superpowers/specs/2026-09-27-part-ii-5-ime-export-design.md` |
-| **II-5b+** | OS / mobile IME packaging | Deferred (consumes `data/ime/`) |
+| **II-5b** | Keyman keyboard (digraph/acute + wordlist) | **Done (Keyman sources)** — `docs/phase-ii-5b-keyman.md` · spec `docs/superpowers/specs/2026-09-27-part-ii-5b-keyman-design.md` · `.kmp` built locally |
+| **II-5c+** | Native OS / store IME apps (TSF / Android / iOS) | Deferred (Keyman covers system-wide typing for now) |
 
 **Future reference:** arXiv paper — Modeling Orthographic Variation Improves NLP Performance for Nigerian Pidgin (2024) — relevant for II-2.
 
