@@ -1,8 +1,8 @@
 # Pidgin Writing System — Project Planning Document
 
 **Document role:** Authoritative planning document (Strategy A: execution-first)  
-**Last updated:** 2026-08-18  
-**Status:** Live Dictionary mini-project complete; canonical scientific reference = `docs/manuscripts/naija-live-dictionary.md` (see `docs/CANONICAL.md`)
+**Last updated:** 2026-09-23  
+**Status:** Part I complete. Part II normalizer II-1–II-3 landed (harden + local EN→Pidgin translate).
 
 ---
 
@@ -130,9 +130,9 @@ A structured, growing reference containing:
 
 ---
 
-# PART II — NORTH STAR (orientation; not current sprint)
+# PART II — NORTH STAR (active: normalizer)
 
-> **Not in current scope.** Preserved program vision. Execute only after Part I exit criteria are met.
+> Part I exit criteria met. **Sentence UX (Option B):** English → Pidgin (Marian + SNO) is primary; spelling-fix is secondary. Live Dictionary unchanged. Spec trail: `docs/superpowers/specs/2026-09-22-part-ii-normalizer-design.md`, `…/2026-09-23-part-ii-3-translate-harden-design.md`. Keyboard layouts remain deferred.
 
 ## 10. Program Vision — Main Goal
 
@@ -142,17 +142,21 @@ A structured, growing reference containing:
 
 3. **Data & NLP layer** — a structured corpus and/or model that can recognize, normalize, and work with the natural variation in how people actually write Pidgin today, bridging the "expert vs. user" gap rather than ignoring it.
 
-**Relationship to active milestone:** The Live Dictionary delivers the reference/corpus foundation for Pillar 1 (partial) and Pillar 3 (data layer seed).
+**Relationship to active milestone:** The Live Dictionary delivers the reference/corpus foundation for Pillar 1 (partial) and Pillar 3 (data layer seed). Phase II-1 operationalizes Pillar 2 (rule-based); Phase II-2 adds Pillar 3 model compare.
 
 ---
 
-## 11. Extended Roadmap (Phase 5+)
+## 11. Extended Roadmap (Phase 5+ / Part II)
 
-| Phase | Name | North Star pillar |
-|-------|------|-------------------|
-| **5** | Tooling & NLP extension | Pillars 2–3: keyboard, autocorrect, normalization tools; model training on corpus |
+| Phase | Name | Status |
+|-------|------|--------|
+| **II-1** | Rule-based sentence normalizer (CLI + thin web) | **Done** — `docs/phase-ii-1-normalizer.md` |
+| **II-2** | Trained normalizer + eval vs rules | **Done** — `docs/phase-ii-2-normalizer-model.md` |
+| **II-3** | Harden fold + local EN→Pidgin translate | **Done** — `docs/phase-ii-3-translate-harden.md` |
+| **5 legacy seeds** | Fuzzy, Lin suggest, G2P, FST, TEI | Done (5a–5c); consumed by II-1 |
+| **Later** | Keyboard / IME | Deferred |
 
-**Future reference:** arXiv paper — Modeling Orthographic Variation Improves NLP Performance for Nigerian Pidgin (2024) — relevant for NLP layer.
+**Future reference:** arXiv paper — Modeling Orthographic Variation Improves NLP Performance for Nigerian Pidgin (2024) — relevant for II-2.
 
 ---
 

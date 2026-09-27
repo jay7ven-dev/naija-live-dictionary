@@ -1,0 +1,2802 @@
+{
+  "version": 2,
+  "backend": "model",
+  "type": "exact_plus_edits_plus_nn_vote",
+  "max_distance": 2,
+  "seed": 42,
+  "holdout_frac": 0.2,
+  "n_pairs_total": 303,
+  "n_train": 242,
+  "n_holdout": 61,
+  "lookup": {
+    "food": "fud",
+    "animal": "anima",
+    "borrow": "bor",
+    "until": "til",
+    "new": "nyu",
+    "light": "lait",
+    "hold": "hol",
+    "u": "yu",
+    "troublesome": "gbagbati",
+    "knock": "nak",
+    "pipo": "pipul",
+    "brother": "broda",
+    "even": "ivun",
+    "watin": "wetin",
+    "com": "kom",
+    "lorry": "lori",
+    "stubborn": "strong-hed",
+    "gossip": "gist",
+    "answer": "ans",
+    "sand": "sansan",
+    "anyone": "enibodi",
+    "not": "no",
+    "say": "se",
+    "noni": "moni",
+    "people-dem": "pipul",
+    "yard": "yad",
+    "week": "wik",
+    "now": "nau",
+    "speak": "tok",
+    "job": "wok",
+    "look": "luk",
+    "but": "bot",
+    "woman": "wuman",
+    "zinc": "zink",
+    "every": "evri",
+    "pipol": "pipul",
+    "unna": "una",
+    "well": "wel",
+    "follow": "folo",
+    "deh": "de",
+    "sleep": "slip",
+    "free": "fri",
+    "the": "di",
+    "for": "fo",
+    "measure": "mezho",
+    "give": "giv",
+    "some": "som",
+    "mouth": "maut",
+    "sabe": "sabi",
+    "fetch": "fet",
+    "together": "togeda",
+    "car": "moto",
+    "bone": "bon",
+    "fai": "feil",
+    "driver": "draiva",
+    "fo": "fó",
+    "sometin": "somtin",
+    "throw": "dro",
+    "paper": "pepa",
+    "nose": "noz",
+    "short": "shot",
+    "sharp-sharp": "shapshap",
+    "hand": "han",
+    "sote": "soteé",
+    "take": "tek",
+    "ass": "yansh",
+    "third": "ted",
+    "still": "stil",
+    "shey": "abi",
+    "drop": "dro",
+    "fight": "fai",
+    "plantain": "plantin",
+    "night": "nait",
+    "am": "im",
+    "year": "yia",
+    "fire": "faya",
+    "need": "nid",
+    "right": "abi",
+    "make": "mek",
+    "sorry": "sori",
+    "girl": "gel",
+    "start": "stat",
+    "de": "dé",
+    "mud": "potopoto",
+    "father": "papa",
+    "breathe": "brit",
+    "learn": "len",
+    "correct": "koret",
+    "laugh": "laf",
+    "poor": "poo",
+    "abegi": "abeg",
+    "teacher": "ticha",
+    "vain": "fain",
+    "window": "windo",
+    "fast": "kwik",
+    "sister": "sista",
+    "foot": "leg",
+    "sell": "sel",
+    "present": "gift",
+    "bro": "broda",
+    "all": "ol",
+    "moi-moi": "moimoi",
+    "escape": "eskep",
+    "true": "trut",
+    "whose": "hus",
+    "pass": "pas",
+    "them": "dem",
+    "tired": "taya",
+    "see": "si",
+    "neighbor": "neba",
+    "head": "hed",
+    "tomorrow": "tumoro",
+    "nothing": "notin",
+    "church": "chosh",
+    "breeze": "briz",
+    "you": "yu",
+    "time": "taim",
+    "kon": "kom",
+    "let": "mek",
+    "read": "rid",
+    "water": "wata",
+    "friend": "fren",
+    "shake": "shek",
+    "soteh": "soteé",
+    "hebi": "abi",
+    "naw": "nau",
+    "really": "rili",
+    "magician": "majishan",
+    "money": "moni",
+    "trouble": "wahala",
+    "ting": "somtin",
+    "everybody": "evribodi",
+    "catch": "kach",
+    "hospital": "ospitul",
+    "old": "olt",
+    "what": "wetin",
+    "lagos": "Legos",
+    "open": "opun",
+    "second": "sekond",
+    "sey": "se",
+    "truth": "trut",
+    "mother": "mama",
+    "die": "dai",
+    "won": "want",
+    "stomach": "belle",
+    "guy": "man",
+    "fine": "fain",
+    "senior": "sinio",
+    "anybody": "enibodi",
+    "though": "sha",
+    "because": "bikos",
+    "run": "ron",
+    "road": "rod",
+    "first": "fest",
+    "phone": "fona",
+    "do": "du",
+    "wait": "wét",
+    "truly": "trutru",
+    "nyash": "yansh",
+    "eye": "ai",
+    "that": "dat",
+    "house": "haus",
+    "table": "tebul",
+    "eat": "chop",
+    "police": "polis",
+    "love": "lov",
+    "come": "kom",
+    "teach": "tich",
+    "niger": "Naija",
+    "bell": "belle",
+    "one": "wan",
+    "walk": "waka",
+    "pikinn": "pikin",
+    "extra": "jara",
+    "pekin": "pikin",
+    "dey": "dé",
+    "four": "fó",
+    "gave": "giv",
+    "cold": "kol",
+    "gari": "garri",
+    "sick": "sik",
+    "nutin": "notin",
+    "home": "haus",
+    "wrong": "rong",
+    "go": "gó",
+    "boy": "boi",
+    "something": "somtin",
+    "drive": "draiv",
+    "small": "smol",
+    "bike": "baik",
+    "family": "famili",
+    "room": "rum",
+    "door": "do",
+    "party": "pati",
+    "bookish": "akada",
+    "cash": "kach",
+    "good": "gud",
+    "pls": "plis",
+    "naww": "nau",
+    "close": "kloz",
+    "remember": "rimemba",
+    "elder": "elda",
+    "store": "shop",
+    "book": "buk",
+    "lose": "luz",
+    "pic": "pik",
+    "play": "ple",
+    "day": "dei",
+    "respect": "respekt",
+    "with": "wit",
+    "write": "rit",
+    "people": "pipul",
+    "her": "im",
+    "find": "fain",
+    "we": "wi",
+    "pesin": "pipul",
+    "work": "wok",
+    "finish": "fini",
+    "already": "don",
+    "mom": "mama",
+    "special": "spesha",
+    "him": "im",
+    "sis": "sista",
+    "wosh": "wash",
+    "ground": "graund",
+    "beautiful": "fain",
+    "today": "tode",
+    "how": "haw",
+    "herself": "huself",
+    "dad": "papa",
+    "becos": "bikos",
+    "before": "bifo",
+    "skeleton": "skeletin",
+    "cook": "kuk",
+    "wating": "wetin",
+    "deme": "dem",
+    "fail": "feil",
+    "hit": "nak",
+    "know": "sabi",
+    "mey": "mek",
+    "beacause": "bikos",
+    "doctor": "dokta",
+    "vud": "fud",
+    "anyma": "anima",
+    "tyl": "til",
+    "niu": "nyu",
+    "layt": "lait",
+    "iu": "yu",
+    "gbagbaty": "gbagbati",
+    "nac": "nak",
+    "pypul": "pipul",
+    "yvun": "ivun",
+    "wetyn": "wetin",
+    "lory": "lori",
+    "gyst": "gist",
+    "enybody": "enibodi",
+    "mony": "moni",
+    "iad": "yad",
+    "wic": "wik",
+    "wyc": "wik",
+    "wyk": "wik",
+    "no": "nau",
+    "toc": "tok",
+    "woc": "wok",
+    "luc": "luk",
+    "zync": "zink",
+    "zynk": "zink",
+    "evry": "evri",
+    "volo": "folo",
+    "slyp": "slip",
+    "fry": "fri",
+    "vri": "fri",
+    "vry": "fri",
+    "dy": "di",
+    "vo": "fo",
+    "gyv": "giv",
+    "mot": "maut",
+    "saby": "sabi",
+    "vet": "fet",
+    "feyl": "feil",
+    "veil": "feil",
+    "veyl": "feil",
+    "drayva": "draiva",
+    "vó": "fó",
+    "somtyn": "somtin",
+    "tec": "tek",
+    "iansh": "yansh",
+    "styl": "stil",
+    "aby": "abi",
+    "fay": "fai",
+    "vai": "fai",
+    "vay": "fai",
+    "plantyn": "plantin",
+    "nayt": "nait",
+    "ym": "im",
+    "iia": "yia",
+    "yya": "yia",
+    "faia": "faya",
+    "vaia": "faya",
+    "vaya": "faya",
+    "nyd": "nid",
+    "mec": "mek",
+    "sory": "sori",
+    "bryt": "brit",
+    "coret": "koret",
+    "lav": "laf",
+    "pu": "poo",
+    "tikha": "ticha",
+    "tisha": "ticha",
+    "tycha": "ticha",
+    "tykha": "ticha",
+    "tysha": "ticha",
+    "fayn": "fain",
+    "vayn": "fain",
+    "wyndo": "windo",
+    "cwic": "kwik",
+    "cwyc": "kwik",
+    "kwyk": "kwik",
+    "systa": "sista",
+    "givt": "gift",
+    "gyft": "gift",
+    "gyvt": "gift",
+    "moymoy": "moimoi",
+    "escep": "eskep",
+    "taia": "taya",
+    "sy": "si",
+    "notyn": "notin",
+    "khosh": "chosh",
+    "shosh": "chosh",
+    "bryz": "briz",
+    "taym": "taim",
+    "ryd": "rid",
+    "vren": "fren",
+    "shec": "shek",
+    "ryly": "rili",
+    "majyshan": "majishan",
+    "evrybody": "evribodi",
+    "cach": "kach",
+    "kakh": "kach",
+    "kash": "kach",
+    "ospytul": "ospitul",
+    "synyo": "sinio",
+    "bicos": "bikos",
+    "bycos": "bikos",
+    "bykos": "bikos",
+    "vest": "fest",
+    "vona": "fona",
+    "ay": "ai",
+    "hos": "haus",
+    "khop": "chop",
+    "shop": "chop",
+    "polys": "polis",
+    "tikh": "tich",
+    "tish": "tich",
+    "tych": "tich",
+    "tykh": "tich",
+    "tysh": "tich",
+    "nayja": "Naija",
+    "waca": "waka",
+    "picin": "pikin",
+    "pycyn": "pikin",
+    "pykyn": "pikin",
+    "col": "kol",
+    "garry": "garri",
+    "sic": "sik",
+    "syc": "sik",
+    "syk": "sik",
+    "drayv": "draiv",
+    "baic": "baik",
+    "bayc": "baik",
+    "bayk": "baik",
+    "famyly": "famili",
+    "vamili": "famili",
+    "vamyly": "famili",
+    "paty": "pati",
+    "acada": "akada",
+    "plys": "plis",
+    "cloz": "kloz",
+    "rymemba": "rimemba",
+    "buc": "buk",
+    "pyc": "pik",
+    "pyk": "pik",
+    "pol": "ple",
+    "wyt": "wit",
+    "ryt": "rit",
+    "wy": "wi",
+    "fyny": "fini",
+    "vini": "fini",
+    "vyny": "fini",
+    "grond": "graund",
+    "tod": "tode",
+    "huselv": "huself",
+    "bivo": "bifo",
+    "byfo": "bifo",
+    "byvo": "bifo",
+    "sceletin": "skeletin",
+    "sceletyn": "skeletin",
+    "skeletyn": "skeletin",
+    "cuc": "kuk",
+    "docta": "dokta"
+  },
+  "memory": [
+    {
+      "src": "food",
+      "tgt": "fud"
+    },
+    {
+      "src": "animal",
+      "tgt": "anima"
+    },
+    {
+      "src": "borrow",
+      "tgt": "bor"
+    },
+    {
+      "src": "until",
+      "tgt": "til"
+    },
+    {
+      "src": "new",
+      "tgt": "nyu"
+    },
+    {
+      "src": "light",
+      "tgt": "lait"
+    },
+    {
+      "src": "hold",
+      "tgt": "hol"
+    },
+    {
+      "src": "u",
+      "tgt": "yu"
+    },
+    {
+      "src": "troublesome",
+      "tgt": "gbagbati"
+    },
+    {
+      "src": "knock",
+      "tgt": "nak"
+    },
+    {
+      "src": "pipo",
+      "tgt": "pipul"
+    },
+    {
+      "src": "brother",
+      "tgt": "broda"
+    },
+    {
+      "src": "even",
+      "tgt": "ivun"
+    },
+    {
+      "src": "watin",
+      "tgt": "wetin"
+    },
+    {
+      "src": "com",
+      "tgt": "kom"
+    },
+    {
+      "src": "lorry",
+      "tgt": "lori"
+    },
+    {
+      "src": "stubborn",
+      "tgt": "strong-hed"
+    },
+    {
+      "src": "gossip",
+      "tgt": "gist"
+    },
+    {
+      "src": "answer",
+      "tgt": "ans"
+    },
+    {
+      "src": "sand",
+      "tgt": "sansan"
+    },
+    {
+      "src": "anyone",
+      "tgt": "enibodi"
+    },
+    {
+      "src": "not",
+      "tgt": "no"
+    },
+    {
+      "src": "say",
+      "tgt": "se"
+    },
+    {
+      "src": "noni",
+      "tgt": "moni"
+    },
+    {
+      "src": "people-dem",
+      "tgt": "pipul"
+    },
+    {
+      "src": "yard",
+      "tgt": "yad"
+    },
+    {
+      "src": "week",
+      "tgt": "wik"
+    },
+    {
+      "src": "now",
+      "tgt": "nau"
+    },
+    {
+      "src": "speak",
+      "tgt": "tok"
+    },
+    {
+      "src": "job",
+      "tgt": "wok"
+    },
+    {
+      "src": "look",
+      "tgt": "luk"
+    },
+    {
+      "src": "but",
+      "tgt": "bot"
+    },
+    {
+      "src": "woman",
+      "tgt": "wuman"
+    },
+    {
+      "src": "zinc",
+      "tgt": "zink"
+    },
+    {
+      "src": "every",
+      "tgt": "evri"
+    },
+    {
+      "src": "pipol",
+      "tgt": "pipul"
+    },
+    {
+      "src": "unna",
+      "tgt": "una"
+    },
+    {
+      "src": "well",
+      "tgt": "wel"
+    },
+    {
+      "src": "follow",
+      "tgt": "folo"
+    },
+    {
+      "src": "deh",
+      "tgt": "de"
+    },
+    {
+      "src": "sleep",
+      "tgt": "slip"
+    },
+    {
+      "src": "free",
+      "tgt": "fri"
+    },
+    {
+      "src": "the",
+      "tgt": "di"
+    },
+    {
+      "src": "for",
+      "tgt": "fo"
+    },
+    {
+      "src": "measure",
+      "tgt": "mezho"
+    },
+    {
+      "src": "give",
+      "tgt": "giv"
+    },
+    {
+      "src": "some",
+      "tgt": "som"
+    },
+    {
+      "src": "mouth",
+      "tgt": "maut"
+    },
+    {
+      "src": "sabe",
+      "tgt": "sabi"
+    },
+    {
+      "src": "fetch",
+      "tgt": "fet"
+    },
+    {
+      "src": "together",
+      "tgt": "togeda"
+    },
+    {
+      "src": "car",
+      "tgt": "moto"
+    },
+    {
+      "src": "bone",
+      "tgt": "bon"
+    },
+    {
+      "src": "fai",
+      "tgt": "feil"
+    },
+    {
+      "src": "driver",
+      "tgt": "draiva"
+    },
+    {
+      "src": "fo",
+      "tgt": "fó"
+    },
+    {
+      "src": "sometin",
+      "tgt": "somtin"
+    },
+    {
+      "src": "throw",
+      "tgt": "dro"
+    },
+    {
+      "src": "paper",
+      "tgt": "pepa"
+    },
+    {
+      "src": "nose",
+      "tgt": "noz"
+    },
+    {
+      "src": "short",
+      "tgt": "shot"
+    },
+    {
+      "src": "sharp-sharp",
+      "tgt": "shapshap"
+    },
+    {
+      "src": "hand",
+      "tgt": "han"
+    },
+    {
+      "src": "sote",
+      "tgt": "soteé"
+    },
+    {
+      "src": "take",
+      "tgt": "tek"
+    },
+    {
+      "src": "ass",
+      "tgt": "yansh"
+    },
+    {
+      "src": "third",
+      "tgt": "ted"
+    },
+    {
+      "src": "still",
+      "tgt": "stil"
+    },
+    {
+      "src": "shey",
+      "tgt": "abi"
+    },
+    {
+      "src": "drop",
+      "tgt": "dro"
+    },
+    {
+      "src": "fight",
+      "tgt": "fai"
+    },
+    {
+      "src": "plantain",
+      "tgt": "plantin"
+    },
+    {
+      "src": "night",
+      "tgt": "nait"
+    },
+    {
+      "src": "am",
+      "tgt": "im"
+    },
+    {
+      "src": "year",
+      "tgt": "yia"
+    },
+    {
+      "src": "fire",
+      "tgt": "faya"
+    },
+    {
+      "src": "need",
+      "tgt": "nid"
+    },
+    {
+      "src": "right",
+      "tgt": "abi"
+    },
+    {
+      "src": "make",
+      "tgt": "mek"
+    },
+    {
+      "src": "sorry",
+      "tgt": "sori"
+    },
+    {
+      "src": "girl",
+      "tgt": "gel"
+    },
+    {
+      "src": "start",
+      "tgt": "stat"
+    },
+    {
+      "src": "de",
+      "tgt": "dé"
+    },
+    {
+      "src": "mud",
+      "tgt": "potopoto"
+    },
+    {
+      "src": "father",
+      "tgt": "papa"
+    },
+    {
+      "src": "breathe",
+      "tgt": "brit"
+    },
+    {
+      "src": "learn",
+      "tgt": "len"
+    },
+    {
+      "src": "correct",
+      "tgt": "koret"
+    },
+    {
+      "src": "laugh",
+      "tgt": "laf"
+    },
+    {
+      "src": "poor",
+      "tgt": "poo"
+    },
+    {
+      "src": "abegi",
+      "tgt": "abeg"
+    },
+    {
+      "src": "teacher",
+      "tgt": "ticha"
+    },
+    {
+      "src": "vain",
+      "tgt": "fain"
+    },
+    {
+      "src": "window",
+      "tgt": "windo"
+    },
+    {
+      "src": "fast",
+      "tgt": "kwik"
+    },
+    {
+      "src": "sister",
+      "tgt": "sista"
+    },
+    {
+      "src": "foot",
+      "tgt": "leg"
+    },
+    {
+      "src": "sell",
+      "tgt": "sel"
+    },
+    {
+      "src": "present",
+      "tgt": "gift"
+    },
+    {
+      "src": "bro",
+      "tgt": "broda"
+    },
+    {
+      "src": "all",
+      "tgt": "ol"
+    },
+    {
+      "src": "moi-moi",
+      "tgt": "moimoi"
+    },
+    {
+      "src": "escape",
+      "tgt": "eskep"
+    },
+    {
+      "src": "true",
+      "tgt": "trut"
+    },
+    {
+      "src": "whose",
+      "tgt": "hus"
+    },
+    {
+      "src": "pass",
+      "tgt": "pas"
+    },
+    {
+      "src": "them",
+      "tgt": "dem"
+    },
+    {
+      "src": "tired",
+      "tgt": "taya"
+    },
+    {
+      "src": "see",
+      "tgt": "si"
+    },
+    {
+      "src": "neighbor",
+      "tgt": "neba"
+    },
+    {
+      "src": "head",
+      "tgt": "hed"
+    },
+    {
+      "src": "tomorrow",
+      "tgt": "tumoro"
+    },
+    {
+      "src": "nothing",
+      "tgt": "notin"
+    },
+    {
+      "src": "church",
+      "tgt": "chosh"
+    },
+    {
+      "src": "breeze",
+      "tgt": "briz"
+    },
+    {
+      "src": "you",
+      "tgt": "yu"
+    },
+    {
+      "src": "time",
+      "tgt": "taim"
+    },
+    {
+      "src": "kon",
+      "tgt": "kom"
+    },
+    {
+      "src": "let",
+      "tgt": "mek"
+    },
+    {
+      "src": "read",
+      "tgt": "rid"
+    },
+    {
+      "src": "water",
+      "tgt": "wata"
+    },
+    {
+      "src": "friend",
+      "tgt": "fren"
+    },
+    {
+      "src": "shake",
+      "tgt": "shek"
+    },
+    {
+      "src": "soteh",
+      "tgt": "soteé"
+    },
+    {
+      "src": "hebi",
+      "tgt": "abi"
+    },
+    {
+      "src": "naw",
+      "tgt": "nau"
+    },
+    {
+      "src": "really",
+      "tgt": "rili"
+    },
+    {
+      "src": "magician",
+      "tgt": "majishan"
+    },
+    {
+      "src": "money",
+      "tgt": "moni"
+    },
+    {
+      "src": "trouble",
+      "tgt": "wahala"
+    },
+    {
+      "src": "ting",
+      "tgt": "somtin"
+    },
+    {
+      "src": "everybody",
+      "tgt": "evribodi"
+    },
+    {
+      "src": "catch",
+      "tgt": "kach"
+    },
+    {
+      "src": "hospital",
+      "tgt": "ospitul"
+    },
+    {
+      "src": "old",
+      "tgt": "olt"
+    },
+    {
+      "src": "what",
+      "tgt": "wetin"
+    },
+    {
+      "src": "lagos",
+      "tgt": "Legos"
+    },
+    {
+      "src": "open",
+      "tgt": "opun"
+    },
+    {
+      "src": "second",
+      "tgt": "sekond"
+    },
+    {
+      "src": "sey",
+      "tgt": "se"
+    },
+    {
+      "src": "truth",
+      "tgt": "trut"
+    },
+    {
+      "src": "mother",
+      "tgt": "mama"
+    },
+    {
+      "src": "die",
+      "tgt": "dai"
+    },
+    {
+      "src": "won",
+      "tgt": "want"
+    },
+    {
+      "src": "stomach",
+      "tgt": "belle"
+    },
+    {
+      "src": "guy",
+      "tgt": "man"
+    },
+    {
+      "src": "fine",
+      "tgt": "fain"
+    },
+    {
+      "src": "senior",
+      "tgt": "sinio"
+    },
+    {
+      "src": "anybody",
+      "tgt": "enibodi"
+    },
+    {
+      "src": "though",
+      "tgt": "sha"
+    },
+    {
+      "src": "because",
+      "tgt": "bikos"
+    },
+    {
+      "src": "run",
+      "tgt": "ron"
+    },
+    {
+      "src": "road",
+      "tgt": "rod"
+    },
+    {
+      "src": "first",
+      "tgt": "fest"
+    },
+    {
+      "src": "phone",
+      "tgt": "fona"
+    },
+    {
+      "src": "do",
+      "tgt": "du"
+    },
+    {
+      "src": "wait",
+      "tgt": "wét"
+    },
+    {
+      "src": "truly",
+      "tgt": "trutru"
+    },
+    {
+      "src": "nyash",
+      "tgt": "yansh"
+    },
+    {
+      "src": "eye",
+      "tgt": "ai"
+    },
+    {
+      "src": "that",
+      "tgt": "dat"
+    },
+    {
+      "src": "house",
+      "tgt": "haus"
+    },
+    {
+      "src": "table",
+      "tgt": "tebul"
+    },
+    {
+      "src": "eat",
+      "tgt": "chop"
+    },
+    {
+      "src": "police",
+      "tgt": "polis"
+    },
+    {
+      "src": "love",
+      "tgt": "lov"
+    },
+    {
+      "src": "come",
+      "tgt": "kom"
+    },
+    {
+      "src": "teach",
+      "tgt": "tich"
+    },
+    {
+      "src": "niger",
+      "tgt": "Naija"
+    },
+    {
+      "src": "bell",
+      "tgt": "belle"
+    },
+    {
+      "src": "one",
+      "tgt": "wan"
+    },
+    {
+      "src": "walk",
+      "tgt": "waka"
+    },
+    {
+      "src": "pikinn",
+      "tgt": "pikin"
+    },
+    {
+      "src": "extra",
+      "tgt": "jara"
+    },
+    {
+      "src": "pekin",
+      "tgt": "pikin"
+    },
+    {
+      "src": "dey",
+      "tgt": "dé"
+    },
+    {
+      "src": "four",
+      "tgt": "fó"
+    },
+    {
+      "src": "gave",
+      "tgt": "giv"
+    },
+    {
+      "src": "cold",
+      "tgt": "kol"
+    },
+    {
+      "src": "gari",
+      "tgt": "garri"
+    },
+    {
+      "src": "sick",
+      "tgt": "sik"
+    },
+    {
+      "src": "nutin",
+      "tgt": "notin"
+    },
+    {
+      "src": "home",
+      "tgt": "haus"
+    },
+    {
+      "src": "wrong",
+      "tgt": "rong"
+    },
+    {
+      "src": "go",
+      "tgt": "gó"
+    },
+    {
+      "src": "boy",
+      "tgt": "boi"
+    },
+    {
+      "src": "something",
+      "tgt": "somtin"
+    },
+    {
+      "src": "drive",
+      "tgt": "draiv"
+    },
+    {
+      "src": "small",
+      "tgt": "smol"
+    },
+    {
+      "src": "bike",
+      "tgt": "baik"
+    },
+    {
+      "src": "family",
+      "tgt": "famili"
+    },
+    {
+      "src": "room",
+      "tgt": "rum"
+    },
+    {
+      "src": "door",
+      "tgt": "do"
+    },
+    {
+      "src": "party",
+      "tgt": "pati"
+    },
+    {
+      "src": "bookish",
+      "tgt": "akada"
+    },
+    {
+      "src": "cash",
+      "tgt": "kach"
+    },
+    {
+      "src": "good",
+      "tgt": "gud"
+    },
+    {
+      "src": "pls",
+      "tgt": "plis"
+    },
+    {
+      "src": "naww",
+      "tgt": "nau"
+    },
+    {
+      "src": "close",
+      "tgt": "kloz"
+    },
+    {
+      "src": "remember",
+      "tgt": "rimemba"
+    },
+    {
+      "src": "elder",
+      "tgt": "elda"
+    },
+    {
+      "src": "store",
+      "tgt": "shop"
+    },
+    {
+      "src": "book",
+      "tgt": "buk"
+    },
+    {
+      "src": "lose",
+      "tgt": "luz"
+    },
+    {
+      "src": "pic",
+      "tgt": "pik"
+    },
+    {
+      "src": "play",
+      "tgt": "ple"
+    },
+    {
+      "src": "day",
+      "tgt": "dei"
+    },
+    {
+      "src": "respect",
+      "tgt": "respekt"
+    },
+    {
+      "src": "with",
+      "tgt": "wit"
+    },
+    {
+      "src": "write",
+      "tgt": "rit"
+    },
+    {
+      "src": "people",
+      "tgt": "pipul"
+    },
+    {
+      "src": "her",
+      "tgt": "im"
+    },
+    {
+      "src": "find",
+      "tgt": "fain"
+    },
+    {
+      "src": "we",
+      "tgt": "wi"
+    },
+    {
+      "src": "pesin",
+      "tgt": "pipul"
+    },
+    {
+      "src": "work",
+      "tgt": "wok"
+    },
+    {
+      "src": "finish",
+      "tgt": "fini"
+    },
+    {
+      "src": "already",
+      "tgt": "don"
+    },
+    {
+      "src": "mom",
+      "tgt": "mama"
+    },
+    {
+      "src": "special",
+      "tgt": "spesha"
+    },
+    {
+      "src": "him",
+      "tgt": "im"
+    },
+    {
+      "src": "sis",
+      "tgt": "sista"
+    },
+    {
+      "src": "wosh",
+      "tgt": "wash"
+    },
+    {
+      "src": "ground",
+      "tgt": "graund"
+    },
+    {
+      "src": "beautiful",
+      "tgt": "fain"
+    },
+    {
+      "src": "today",
+      "tgt": "tode"
+    },
+    {
+      "src": "how",
+      "tgt": "haw"
+    },
+    {
+      "src": "herself",
+      "tgt": "huself"
+    },
+    {
+      "src": "dad",
+      "tgt": "papa"
+    },
+    {
+      "src": "becos",
+      "tgt": "bikos"
+    },
+    {
+      "src": "before",
+      "tgt": "bifo"
+    },
+    {
+      "src": "skeleton",
+      "tgt": "skeletin"
+    },
+    {
+      "src": "cook",
+      "tgt": "kuk"
+    },
+    {
+      "src": "wating",
+      "tgt": "wetin"
+    },
+    {
+      "src": "deme",
+      "tgt": "dem"
+    },
+    {
+      "src": "fail",
+      "tgt": "feil"
+    },
+    {
+      "src": "hit",
+      "tgt": "nak"
+    },
+    {
+      "src": "know",
+      "tgt": "sabi"
+    },
+    {
+      "src": "mey",
+      "tgt": "mek"
+    },
+    {
+      "src": "beacause",
+      "tgt": "bikos"
+    },
+    {
+      "src": "doctor",
+      "tgt": "dokta"
+    },
+    {
+      "src": "vud",
+      "tgt": "fud"
+    },
+    {
+      "src": "anyma",
+      "tgt": "anima"
+    },
+    {
+      "src": "tyl",
+      "tgt": "til"
+    },
+    {
+      "src": "niu",
+      "tgt": "nyu"
+    },
+    {
+      "src": "layt",
+      "tgt": "lait"
+    },
+    {
+      "src": "iu",
+      "tgt": "yu"
+    },
+    {
+      "src": "gbagbaty",
+      "tgt": "gbagbati"
+    },
+    {
+      "src": "nac",
+      "tgt": "nak"
+    },
+    {
+      "src": "pypul",
+      "tgt": "pipul"
+    },
+    {
+      "src": "yvun",
+      "tgt": "ivun"
+    },
+    {
+      "src": "wetyn",
+      "tgt": "wetin"
+    },
+    {
+      "src": "lory",
+      "tgt": "lori"
+    },
+    {
+      "src": "gyst",
+      "tgt": "gist"
+    },
+    {
+      "src": "enybody",
+      "tgt": "enibodi"
+    },
+    {
+      "src": "mony",
+      "tgt": "moni"
+    },
+    {
+      "src": "iad",
+      "tgt": "yad"
+    },
+    {
+      "src": "wic",
+      "tgt": "wik"
+    },
+    {
+      "src": "wyc",
+      "tgt": "wik"
+    },
+    {
+      "src": "wyk",
+      "tgt": "wik"
+    },
+    {
+      "src": "no",
+      "tgt": "nau"
+    },
+    {
+      "src": "toc",
+      "tgt": "tok"
+    },
+    {
+      "src": "woc",
+      "tgt": "wok"
+    },
+    {
+      "src": "luc",
+      "tgt": "luk"
+    },
+    {
+      "src": "zync",
+      "tgt": "zink"
+    },
+    {
+      "src": "zynk",
+      "tgt": "zink"
+    },
+    {
+      "src": "evry",
+      "tgt": "evri"
+    },
+    {
+      "src": "volo",
+      "tgt": "folo"
+    },
+    {
+      "src": "slyp",
+      "tgt": "slip"
+    },
+    {
+      "src": "fry",
+      "tgt": "fri"
+    },
+    {
+      "src": "vri",
+      "tgt": "fri"
+    },
+    {
+      "src": "vry",
+      "tgt": "fri"
+    },
+    {
+      "src": "dy",
+      "tgt": "di"
+    },
+    {
+      "src": "vo",
+      "tgt": "fo"
+    },
+    {
+      "src": "gyv",
+      "tgt": "giv"
+    },
+    {
+      "src": "mot",
+      "tgt": "maut"
+    },
+    {
+      "src": "saby",
+      "tgt": "sabi"
+    },
+    {
+      "src": "vet",
+      "tgt": "fet"
+    },
+    {
+      "src": "feyl",
+      "tgt": "feil"
+    },
+    {
+      "src": "veil",
+      "tgt": "feil"
+    },
+    {
+      "src": "veyl",
+      "tgt": "feil"
+    },
+    {
+      "src": "drayva",
+      "tgt": "draiva"
+    },
+    {
+      "src": "vó",
+      "tgt": "fó"
+    },
+    {
+      "src": "somtyn",
+      "tgt": "somtin"
+    },
+    {
+      "src": "tec",
+      "tgt": "tek"
+    },
+    {
+      "src": "iansh",
+      "tgt": "yansh"
+    },
+    {
+      "src": "styl",
+      "tgt": "stil"
+    },
+    {
+      "src": "aby",
+      "tgt": "abi"
+    },
+    {
+      "src": "fay",
+      "tgt": "fai"
+    },
+    {
+      "src": "vai",
+      "tgt": "fai"
+    },
+    {
+      "src": "vay",
+      "tgt": "fai"
+    },
+    {
+      "src": "plantyn",
+      "tgt": "plantin"
+    },
+    {
+      "src": "nayt",
+      "tgt": "nait"
+    },
+    {
+      "src": "ym",
+      "tgt": "im"
+    },
+    {
+      "src": "iia",
+      "tgt": "yia"
+    },
+    {
+      "src": "yya",
+      "tgt": "yia"
+    },
+    {
+      "src": "faia",
+      "tgt": "faya"
+    },
+    {
+      "src": "vaia",
+      "tgt": "faya"
+    },
+    {
+      "src": "vaya",
+      "tgt": "faya"
+    },
+    {
+      "src": "nyd",
+      "tgt": "nid"
+    },
+    {
+      "src": "mec",
+      "tgt": "mek"
+    },
+    {
+      "src": "sory",
+      "tgt": "sori"
+    },
+    {
+      "src": "bryt",
+      "tgt": "brit"
+    },
+    {
+      "src": "coret",
+      "tgt": "koret"
+    },
+    {
+      "src": "lav",
+      "tgt": "laf"
+    },
+    {
+      "src": "pu",
+      "tgt": "poo"
+    },
+    {
+      "src": "tikha",
+      "tgt": "ticha"
+    },
+    {
+      "src": "tisha",
+      "tgt": "ticha"
+    },
+    {
+      "src": "tycha",
+      "tgt": "ticha"
+    },
+    {
+      "src": "tykha",
+      "tgt": "ticha"
+    },
+    {
+      "src": "tysha",
+      "tgt": "ticha"
+    },
+    {
+      "src": "fayn",
+      "tgt": "fain"
+    },
+    {
+      "src": "vayn",
+      "tgt": "fain"
+    },
+    {
+      "src": "wyndo",
+      "tgt": "windo"
+    },
+    {
+      "src": "cwic",
+      "tgt": "kwik"
+    },
+    {
+      "src": "cwyc",
+      "tgt": "kwik"
+    },
+    {
+      "src": "kwyk",
+      "tgt": "kwik"
+    },
+    {
+      "src": "systa",
+      "tgt": "sista"
+    },
+    {
+      "src": "givt",
+      "tgt": "gift"
+    },
+    {
+      "src": "gyft",
+      "tgt": "gift"
+    },
+    {
+      "src": "gyvt",
+      "tgt": "gift"
+    },
+    {
+      "src": "moymoy",
+      "tgt": "moimoi"
+    },
+    {
+      "src": "escep",
+      "tgt": "eskep"
+    },
+    {
+      "src": "taia",
+      "tgt": "taya"
+    },
+    {
+      "src": "sy",
+      "tgt": "si"
+    },
+    {
+      "src": "notyn",
+      "tgt": "notin"
+    },
+    {
+      "src": "khosh",
+      "tgt": "chosh"
+    },
+    {
+      "src": "shosh",
+      "tgt": "chosh"
+    },
+    {
+      "src": "bryz",
+      "tgt": "briz"
+    },
+    {
+      "src": "taym",
+      "tgt": "taim"
+    },
+    {
+      "src": "ryd",
+      "tgt": "rid"
+    },
+    {
+      "src": "vren",
+      "tgt": "fren"
+    },
+    {
+      "src": "shec",
+      "tgt": "shek"
+    },
+    {
+      "src": "ryly",
+      "tgt": "rili"
+    },
+    {
+      "src": "majyshan",
+      "tgt": "majishan"
+    },
+    {
+      "src": "evrybody",
+      "tgt": "evribodi"
+    },
+    {
+      "src": "cach",
+      "tgt": "kach"
+    },
+    {
+      "src": "kakh",
+      "tgt": "kach"
+    },
+    {
+      "src": "kash",
+      "tgt": "kach"
+    },
+    {
+      "src": "ospytul",
+      "tgt": "ospitul"
+    },
+    {
+      "src": "synyo",
+      "tgt": "sinio"
+    },
+    {
+      "src": "bicos",
+      "tgt": "bikos"
+    },
+    {
+      "src": "bycos",
+      "tgt": "bikos"
+    },
+    {
+      "src": "bykos",
+      "tgt": "bikos"
+    },
+    {
+      "src": "vest",
+      "tgt": "fest"
+    },
+    {
+      "src": "vona",
+      "tgt": "fona"
+    },
+    {
+      "src": "ay",
+      "tgt": "ai"
+    },
+    {
+      "src": "hos",
+      "tgt": "haus"
+    },
+    {
+      "src": "khop",
+      "tgt": "chop"
+    },
+    {
+      "src": "shop",
+      "tgt": "chop"
+    },
+    {
+      "src": "polys",
+      "tgt": "polis"
+    },
+    {
+      "src": "tikh",
+      "tgt": "tich"
+    },
+    {
+      "src": "tish",
+      "tgt": "tich"
+    },
+    {
+      "src": "tych",
+      "tgt": "tich"
+    },
+    {
+      "src": "tykh",
+      "tgt": "tich"
+    },
+    {
+      "src": "tysh",
+      "tgt": "tich"
+    },
+    {
+      "src": "nayja",
+      "tgt": "Naija"
+    },
+    {
+      "src": "waca",
+      "tgt": "waka"
+    },
+    {
+      "src": "picin",
+      "tgt": "pikin"
+    },
+    {
+      "src": "pycyn",
+      "tgt": "pikin"
+    },
+    {
+      "src": "pykyn",
+      "tgt": "pikin"
+    },
+    {
+      "src": "col",
+      "tgt": "kol"
+    },
+    {
+      "src": "garry",
+      "tgt": "garri"
+    },
+    {
+      "src": "sic",
+      "tgt": "sik"
+    },
+    {
+      "src": "syc",
+      "tgt": "sik"
+    },
+    {
+      "src": "syk",
+      "tgt": "sik"
+    },
+    {
+      "src": "drayv",
+      "tgt": "draiv"
+    },
+    {
+      "src": "baic",
+      "tgt": "baik"
+    },
+    {
+      "src": "bayc",
+      "tgt": "baik"
+    },
+    {
+      "src": "bayk",
+      "tgt": "baik"
+    },
+    {
+      "src": "famyly",
+      "tgt": "famili"
+    },
+    {
+      "src": "vamili",
+      "tgt": "famili"
+    },
+    {
+      "src": "vamyly",
+      "tgt": "famili"
+    },
+    {
+      "src": "paty",
+      "tgt": "pati"
+    },
+    {
+      "src": "acada",
+      "tgt": "akada"
+    },
+    {
+      "src": "plys",
+      "tgt": "plis"
+    },
+    {
+      "src": "cloz",
+      "tgt": "kloz"
+    },
+    {
+      "src": "rymemba",
+      "tgt": "rimemba"
+    },
+    {
+      "src": "buc",
+      "tgt": "buk"
+    },
+    {
+      "src": "pyc",
+      "tgt": "pik"
+    },
+    {
+      "src": "pyk",
+      "tgt": "pik"
+    },
+    {
+      "src": "pol",
+      "tgt": "ple"
+    },
+    {
+      "src": "wyt",
+      "tgt": "wit"
+    },
+    {
+      "src": "ryt",
+      "tgt": "rit"
+    },
+    {
+      "src": "wy",
+      "tgt": "wi"
+    },
+    {
+      "src": "fyny",
+      "tgt": "fini"
+    },
+    {
+      "src": "vini",
+      "tgt": "fini"
+    },
+    {
+      "src": "vyny",
+      "tgt": "fini"
+    },
+    {
+      "src": "grond",
+      "tgt": "graund"
+    },
+    {
+      "src": "tod",
+      "tgt": "tode"
+    },
+    {
+      "src": "huselv",
+      "tgt": "huself"
+    },
+    {
+      "src": "bivo",
+      "tgt": "bifo"
+    },
+    {
+      "src": "byfo",
+      "tgt": "bifo"
+    },
+    {
+      "src": "byvo",
+      "tgt": "bifo"
+    },
+    {
+      "src": "sceletin",
+      "tgt": "skeletin"
+    },
+    {
+      "src": "sceletyn",
+      "tgt": "skeletin"
+    },
+    {
+      "src": "skeletyn",
+      "tgt": "skeletin"
+    },
+    {
+      "src": "cuc",
+      "tgt": "kuk"
+    },
+    {
+      "src": "docta",
+      "tgt": "dokta"
+    }
+  ],
+  "edits": [
+    {
+      "frm": "asure",
+      "to": "zho",
+      "count": 1
+    },
+    {
+      "frm": "ating",
+      "to": "etin",
+      "count": 1
+    },
+    {
+      "frm": "close",
+      "to": "kloz",
+      "count": 1
+    },
+    {
+      "frm": "eally",
+      "to": "ili",
+      "count": 1
+    },
+    {
+      "frm": "eathe",
+      "to": "it",
+      "count": 1
+    },
+    {
+      "frm": "efore",
+      "to": "ifo",
+      "count": 1
+    },
+    {
+      "frm": "enior",
+      "to": "inio",
+      "count": 1
+    },
+    {
+      "frm": "eople",
+      "to": "ipul",
+      "count": 1
+    },
+    {
+      "frm": "ossip",
+      "to": "ist",
+      "count": 1
+    },
+    {
+      "frm": "other",
+      "to": "ama",
+      "count": 1
+    },
+    {
+      "frm": "phone",
+      "to": "fona",
+      "count": 1
+    },
+    {
+      "frm": "right",
+      "to": "abi",
+      "count": 1
+    },
+    {
+      "frm": "throw",
+      "to": "dro",
+      "count": 1
+    },
+    {
+      "frm": "whose",
+      "to": "hus",
+      "count": 1
+    },
+    {
+      "frm": "write",
+      "to": "rit",
+      "count": 1
+    },
+    {
+      "frm": "ther",
+      "to": "da",
+      "count": 2
+    },
+    {
+      "frm": "able",
+      "to": "ebul",
+      "count": 1
+    },
+    {
+      "frm": "aper",
+      "to": "epa",
+      "count": 1
+    },
+    {
+      "frm": "cape",
+      "to": "kep",
+      "count": 1
+    },
+    {
+      "frm": "cial",
+      "to": "sha",
+      "count": 1
+    },
+    {
+      "frm": "cold",
+      "to": "kol",
+      "count": 1
+    },
+    {
+      "frm": "come",
+      "to": "kom",
+      "count": 1
+    },
+    {
+      "frm": "ctor",
+      "to": "kta",
+      "count": 1
+    },
+    {
+      "frm": "eeze",
+      "to": "iz",
+      "count": 1
+    },
+    {
+      "frm": "esin",
+      "to": "ipul",
+      "count": 1
+    },
+    {
+      "frm": "fast",
+      "to": "kwik",
+      "count": 1
+    },
+    {
+      "frm": "foot",
+      "to": "leg",
+      "count": 1
+    },
+    {
+      "frm": "gici",
+      "to": "jish",
+      "count": 1
+    },
+    {
+      "frm": "hing",
+      "to": "in",
+      "count": 1
+    },
+    {
+      "frm": "iend",
+      "to": "en",
+      "count": 1
+    },
+    {
+      "frm": "iger",
+      "to": "aija",
+      "count": 1
+    },
+    {
+      "frm": "ight",
+      "to": "ai",
+      "count": 1
+    },
+    {
+      "frm": "ired",
+      "to": "aya",
+      "count": 1
+    },
+    {
+      "frm": "iver",
+      "to": "aiva",
+      "count": 1
+    },
+    {
+      "frm": "knoc",
+      "to": "na",
+      "count": 1
+    },
+    {
+      "frm": "know",
+      "to": "sabi",
+      "count": 1
+    },
+    {
+      "frm": "ouse",
+      "to": "aus",
+      "count": 1
+    },
+    {
+      "frm": "outh",
+      "to": "aut",
+      "count": 1
+    },
+    {
+      "frm": "shey",
+      "to": "abi",
+      "count": 1
+    },
+    {
+      "frm": "spea",
+      "to": "to",
+      "count": 1
+    },
+    {
+      "frm": "tore",
+      "to": "hop",
+      "count": 1
+    },
+    {
+      "frm": "ake",
+      "to": "ek",
+      "count": 3
+    },
+    {
+      "frm": "igh",
+      "to": "ai",
+      "count": 2
+    },
+    {
+      "frm": "ass",
+      "to": "yansh",
+      "count": 1
+    },
+    {
+      "frm": "ave",
+      "to": "iv",
+      "count": 1
+    },
+    {
+      "frm": "car",
+      "to": "moto",
+      "count": 1
+    },
+    {
+      "frm": "cas",
+      "to": "kac",
+      "count": 1
+    },
+    {
+      "frm": "cat",
+      "to": "ka",
+      "count": 1
+    },
+    {
+      "frm": "coo",
+      "to": "ku",
+      "count": 1
+    },
+    {
+      "frm": "dad",
+      "to": "papa",
+      "count": 1
+    },
+    {
+      "frm": "ear",
+      "to": "ia",
+      "count": 1
+    },
+    {
+      "frm": "eat",
+      "to": "chop",
+      "count": 1
+    },
+    {
+      "frm": "ery",
+      "to": "ri",
+      "count": 1
+    },
+    {
+      "frm": "eve",
+      "to": "ivu",
+      "count": 1
+    },
+    {
+      "frm": "ext",
+      "to": "ja",
+      "count": 1
+    },
+    {
+      "frm": "eye",
+      "to": "ai",
+      "count": 1
+    },
+    {
+      "frm": "guy",
+      "to": "man",
+      "count": 1
+    },
+    {
+      "frm": "hat",
+      "to": "etin",
+      "count": 1
+    },
+    {
+      "frm": "her",
+      "to": "im",
+      "count": 1
+    },
+    {
+      "frm": "hir",
+      "to": "e",
+      "count": 1
+    },
+    {
+      "frm": "hit",
+      "to": "nak",
+      "count": 1
+    },
+    {
+      "frm": "ike",
+      "to": "aik",
+      "count": 1
+    },
+    {
+      "frm": "ime",
+      "to": "aim",
+      "count": 1
+    },
+    {
+      "frm": "ind",
+      "to": "ain",
+      "count": 1
+    },
+    {
+      "frm": "ine",
+      "to": "ain",
+      "count": 1
+    },
+    {
+      "frm": "ire",
+      "to": "aya",
+      "count": 1
+    },
+    {
+      "frm": "ive",
+      "to": "aiv",
+      "count": 1
+    },
+    {
+      "frm": "job",
+      "to": "wok",
+      "count": 1
+    },
+    {
+      "frm": "let",
+      "to": "mek",
+      "count": 1
+    },
+    {
+      "frm": "low",
+      "to": "o",
+      "count": 1
+    },
+    {
+      "frm": "nya",
+      "to": "yan",
+      "count": 1
+    },
+    {
+      "frm": "ome",
+      "to": "aus",
+      "count": 1
+    },
+    {
+      "frm": "one",
+      "to": "wan",
+      "count": 1
+    },
+    {
+      "frm": "ose",
+      "to": "uz",
+      "count": 1
+    },
+    {
+      "frm": "our",
+      "to": "ó",
+      "count": 1
+    },
+    {
+      "frm": "row",
+      "to": "",
+      "count": 1
+    },
+    {
+      "frm": "rty",
+      "to": "ti",
+      "count": 1
+    },
+    {
+      "frm": "the",
+      "to": "di",
+      "count": 1
+    },
+    {
+      "frm": "ugh",
+      "to": "f",
+      "count": 1
+    },
+    {
+      "frm": "urc",
+      "to": "os",
+      "count": 1
+    },
+    {
+      "frm": "wer",
+      "to": "",
+      "count": 1
+    },
+    {
+      "frm": "ee",
+      "to": "i",
+      "count": 5
+    },
+    {
+      "frm": "oo",
+      "to": "u",
+      "count": 5
+    },
+    {
+      "frm": "ay",
+      "to": "e",
+      "count": 3
+    },
+    {
+      "frm": "er",
+      "to": "a",
+      "count": 3
+    },
+    {
+      "frm": "al",
+      "to": "o",
+      "count": 2
+    },
+    {
+      "frm": "ea",
+      "to": "i",
+      "count": 2
+    },
+    {
+      "frm": "ir",
+      "to": "e",
+      "count": 2
+    },
+    {
+      "frm": "ry",
+      "to": "i",
+      "count": 2
+    },
+    {
+      "frm": "th",
+      "to": "d",
+      "count": 2
+    },
+    {
+      "frm": "ai",
+      "to": "eil",
+      "count": 1
+    },
+    {
+      "frm": "ai",
+      "to": "é",
+      "count": 1
+    },
+    {
+      "frm": "ar",
+      "to": "",
+      "count": 1
+    },
+    {
+      "frm": "ay",
+      "to": "ei",
+      "count": 1
+    },
+    {
+      "frm": "ce",
+      "to": "s",
+      "count": 1
+    },
+    {
+      "frm": "ch",
+      "to": "",
+      "count": 1
+    },
+    {
+      "frm": "ec",
+      "to": "ik",
+      "count": 1
+    },
+    {
+      "frm": "er",
+      "to": "u",
+      "count": 1
+    },
+    {
+      "frm": "ew",
+      "to": "yu",
+      "count": 1
+    },
+    {
+      "frm": "ey",
+      "to": "i",
+      "count": 1
+    },
+    {
+      "frm": "ey",
+      "to": "é",
+      "count": 1
+    },
+    {
+      "frm": "he",
+      "to": "a",
+      "count": 1
+    },
+    {
+      "frm": "ie",
+      "to": "ai",
+      "count": 1
+    },
+    {
+      "frm": "lk",
+      "to": "ka",
+      "count": 1
+    },
+    {
+      "frm": "ly",
+      "to": "tru",
+      "count": 1
+    },
+    {
+      "frm": "om",
+      "to": "ama",
+      "count": 1
+    },
+    {
+      "frm": "on",
+      "to": "ant",
+      "count": 1
+    },
+    {
+      "frm": "or",
+      "to": "",
+      "count": 1
+    },
+    {
+      "frm": "ow",
+      "to": "au",
+      "count": 1
+    },
+    {
+      "frm": "se",
+      "to": "z",
+      "count": 1
+    },
+    {
+      "frm": "sh",
+      "to": "",
+      "count": 1
+    },
+    {
+      "frm": "un",
+      "to": "",
+      "count": 1
+    },
+    {
+      "frm": "ww",
+      "to": "u",
+      "count": 1
+    },
+    {
+      "frm": "e",
+      "to": "",
+      "count": 6
+    },
+    {
+      "frm": "r",
+      "to": "",
+      "count": 6
+    },
+    {
+      "frm": "c",
+      "to": "k",
+      "count": 5
+    },
+    {
+      "frm": "h",
+      "to": "",
+      "count": 4
+    },
+    {
+      "frm": "l",
+      "to": "",
+      "count": 4
+    },
+    {
+      "frm": "a",
+      "to": "",
+      "count": 3
+    },
+    {
+      "frm": "a",
+      "to": "e",
+      "count": 3
+    },
+    {
+      "frm": "e",
+      "to": "i",
+      "count": 3
+    },
+    {
+      "frm": "o",
+      "to": "a",
+      "count": 3
+    },
+    {
+      "frm": "o",
+      "to": "u",
+      "count": 3
+    },
+    {
+      "frm": "u",
+      "to": "o",
+      "count": 3
+    },
+    {
+      "frm": "d",
+      "to": "",
+      "count": 2
+    },
+    {
+      "frm": "n",
+      "to": "",
+      "count": 2
+    },
+    {
+      "frm": "n",
+      "to": "m",
+      "count": 2
+    },
+    {
+      "frm": "o",
+      "to": "ó",
+      "count": 2
+    },
+    {
+      "frm": "w",
+      "to": "",
+      "count": 2
+    },
+    {
+      "frm": "y",
+      "to": "i",
+      "count": 2
+    },
+    {
+      "frm": "-",
+      "to": "",
+      "count": 1
+    },
+    {
+      "frm": "a",
+      "to": "i",
+      "count": 1
+    },
+    {
+      "frm": "c",
+      "to": "",
+      "count": 1
+    },
+    {
+      "frm": "d",
+      "to": "san",
+      "count": 1
+    },
+    {
+      "frm": "d",
+      "to": "t",
+      "count": 1
+    },
+    {
+      "frm": "e",
+      "to": "t",
+      "count": 1
+    },
+    {
+      "frm": "e",
+      "to": "u",
+      "count": 1
+    },
+    {
+      "frm": "e",
+      "to": "é",
+      "count": 1
+    },
+    {
+      "frm": "h",
+      "to": "é",
+      "count": 1
+    },
+    {
+      "frm": "i",
+      "to": "",
+      "count": 1
+    },
+    {
+      "frm": "o",
+      "to": "",
+      "count": 1
+    },
+    {
+      "frm": "o",
+      "to": "i",
+      "count": 1
+    },
+    {
+      "frm": "o",
+      "to": "ul",
+      "count": 1
+    },
+    {
+      "frm": "p",
+      "to": "",
+      "count": 1
+    },
+    {
+      "frm": "s",
+      "to": "",
+      "count": 1
+    },
+    {
+      "frm": "t",
+      "to": "",
+      "count": 1
+    },
+    {
+      "frm": "v",
+      "to": "f",
+      "count": 1
+    },
+    {
+      "frm": "w",
+      "to": "u",
+      "count": 1
+    },
+    {
+      "frm": "y",
+      "to": "",
+      "count": 1
+    },
+    {
+      "frm": "y",
+      "to": "k",
+      "count": 1
+    },
+    {
+      "frm": "",
+      "to": "da",
+      "count": 1
+    },
+    {
+      "frm": "",
+      "to": "e",
+      "count": 1
+    },
+    {
+      "frm": "",
+      "to": "i",
+      "count": 1
+    },
+    {
+      "frm": "",
+      "to": "r",
+      "count": 1
+    },
+    {
+      "frm": "",
+      "to": "ta",
+      "count": 1
+    },
+    {
+      "frm": "",
+      "to": "y",
+      "count": 1
+    },
+    {
+      "frm": "",
+      "to": "é",
+      "count": 1
+    }
+  ]
+}

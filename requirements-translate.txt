@@ -1,0 +1,4 @@
+# Part II-3b only: local English → Pidgin (Marian)
+torch>=2.0.0
+transformers>=4.36.0
+sentencepiece>=0.1.99

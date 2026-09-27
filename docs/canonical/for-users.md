@@ -9,6 +9,7 @@ Open the Live Dictionary in a browser (after starting the local server) and:
 1. Search a **standard** Naijá spelling (IFRA/NLA style).
 2. Search an **informal** spelling (e.g. `pickin`, `book`, `dey`).
 3. See the **standard form**, meaning, examples, and pronunciation hint.
+4. Optionally open **English → Pidgin** (`/web/normalize.html`) for a full English sentence → Pidgin (SNO). Use **Fix spelling only** on that page when the text is already Pidgin with messy spelling — not for English→Pidgin conversion.
 
 If your spelling is close but not exact, the site may suggest a nearby match (“Did you mean?”).
 

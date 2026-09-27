@@ -24,7 +24,12 @@ python data/collect_variants.py suggest    # pending only
 python data/collect_variants.py apply
 python data/collect_variants.py index
 python web/verify.py
-python web/serve.py                        # http://localhost:8765/web/
+python data/normalize.py --self-check
+python data/normalize.py --train
+python data/normalize.py --compare
+python data/translate_en_pcm.py --check-deps
+python data/translate_en_pcm.py "I want a book."   # needs optional deps
+python web/serve.py                        # /web/normalize.html + POST /api/translate
 python export/tei_lex0.py
 ```
 

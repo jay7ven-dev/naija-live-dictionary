@@ -261,6 +261,135 @@ body {
   font-size: 0.8rem;
 }
 
+/* Normalize page (Part II-1) */
+#in {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  font-family: inherit;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--text);
+  resize: vertical;
+  min-height: 6rem;
+}
+
+#in:focus { outline: none; }
+
+#in:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.normalize-actions {
+  margin: 0.75rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.75rem;
+  align-items: center;
+}
+
+.backend-label {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+#backend {
+  font: inherit;
+  padding: 0.4rem 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.btn {
+  font: inherit;
+  font-weight: 600;
+  padding: 0.55rem 1.1rem;
+  border: 1px solid var(--accent);
+  border-radius: var(--radius);
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.btn-secondary {
+  background: var(--surface);
+  color: var(--accent);
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.spell-fix {
+  margin: 1.25rem 0 0;
+  padding: 0.75rem 0 0;
+  border-top: 1px solid var(--border);
+  font-size: 0.9rem;
+}
+
+.spell-fix summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.spell-fix[open] summary {
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.normalize-tokens .norm-model_edit { color: var(--accent); }
+.normalize-tokens .norm-model_nn { color: var(--redirect); }
+.normalize-tokens .norm-model_exact { color: var(--accent); }
+
+.normalize-out-label {
+  margin: 1rem 0 0.35rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.normalize-out {
+  margin: 0;
+  padding: 0.85rem 1rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.normalize-tokens {
+  margin: 0.75rem 0 0;
+  padding-left: 1.25rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.normalize-tokens .norm-exact { color: var(--accent); }
+.normalize-tokens .norm-fuzzy { color: var(--redirect); }
+.normalize-tokens .norm-unknown { color: var(--text); }
+
 @media (min-width: 600px) {
   .header h1 { font-size: 1.5rem; }
 }

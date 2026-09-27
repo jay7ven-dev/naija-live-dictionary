@@ -56,6 +56,29 @@
       <li><code>shey</code> → <strong>abi</strong></li>
     </ul>
 
+    <h2>Three tools (do not mix them up)</h2>
+    <table>
+      <thead><tr><th>Tool</th><th>Use when</th><th>What it does</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><a href="../../">Dictionary search</a></td>
+          <td>You want one word or variant</td>
+          <td>Looks up SNO headwords and informal → standard mappings</td>
+        </tr>
+        <tr>
+          <td><a href="../../normalize.html">English → Pidgin</a></td>
+          <td>You have an English sentence</td>
+          <td>Converts meaning to Pidgin (local model), then applies SNO spelling</td>
+        </tr>
+        <tr>
+          <td>Fix spelling only <em>(on that same page, under the details panel)</em></td>
+          <td>The text is already Pidgin with messy spelling</td>
+          <td>Token spelling → SNO via the dictionary index — does <strong>not</strong> rewrite English grammar</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>Example: English <code>I want to see you</code> belongs on <strong>English → Pidgin</strong> (sentence conversion). Pasting it into spelling-fix alone may leave English words unchanged.</p>
+
     <p>More detail: project user guide <code>docs/canonical/for-users.md</code> · scientific background in the <a href="../ifra/">IFRA Knowledge Center</a>.</p>
   </main>
   <footer class="footer wrap">

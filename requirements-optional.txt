@@ -1,3 +1,18 @@
-# Optional dependencies for Phase 5c (not required for core dictionary)
-pynini>=2.1.0
+# Optional dependencies (not required for core dictionary / rules normalizer)
+#
+# Translate (Part II-3b) — install these on Windows:
+#   pip install torch transformers sentencepiece
+#
+# Or:
+#   pip install -r requirements-translate.txt
+
+# Phase 5c corpus helpers (optional)
 datasets>=2.14.0
+
+# Part II-3b local EN→Pidgin (Marian)
+torch>=2.0.0
+transformers>=4.36.0
+sentencepiece>=0.1.99
+
+# Phase 5c FST (often fails to build on Windows — skip unless you need it)
+# pynini>=2.1.0
