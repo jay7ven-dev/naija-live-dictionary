@@ -506,9 +506,9 @@
     },
     {
       "variant": "freind",
-      "entry_id": "frend",
+      "entry_id": "fren",
       "source": "curated-batch-5",
-      "note": "friend typo"
+      "note": "friend typo [retarget frend->fren]"
     },
     {
       "variant": "docta",
@@ -530,9 +530,9 @@
     },
     {
       "variant": "watta",
-      "entry_id": "wota",
+      "entry_id": "wata",
       "source": "curated-batch-5",
-      "note": "water spelling"
+      "note": "water spelling [retarget wota->wata]"
     },
     {
       "variant": "fon",
@@ -548,9 +548,9 @@
     },
     {
       "variant": "mauth",
-      "entry_id": "mout",
+      "entry_id": "maut",
       "source": "curated-batch-5",
-      "note": "mouth spelling"
+      "note": "mouth spelling [retarget mout->maut]"
     },
     {
       "variant": "plase",

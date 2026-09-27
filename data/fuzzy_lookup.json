@@ -51,8 +51,20 @@
       "id": "afta"
     },
     {
+      "term": "aftanoon",
+      "id": "aftanun"
+    },
+    {
+      "term": "aftanun",
+      "id": "aftanun"
+    },
+    {
       "term": "after",
       "id": "afta"
+    },
+    {
+      "term": "afternoon",
+      "id": "aftanun"
     },
     {
       "term": "ai",
@@ -184,11 +196,11 @@
     },
     {
       "term": "bele",
-      "id": "bele"
+      "id": "belle"
     },
     {
       "term": "beli",
-      "id": "bele"
+      "id": "belle"
     },
     {
       "term": "bell",
@@ -225,6 +237,10 @@
     {
       "term": "bike rider",
       "id": "baik-man"
+    },
+    {
+      "term": "biko",
+      "id": "biko"
     },
     {
       "term": "bikos",
@@ -271,6 +287,10 @@
       "id": "bor"
     },
     {
+      "term": "boro",
+      "id": "boro"
+    },
+    {
       "term": "borrow",
       "id": "bor"
     },
@@ -305,6 +325,10 @@
     {
       "term": "breeze",
       "id": "briz"
+    },
+    {
+      "term": "bring",
+      "id": "bring"
     },
     {
       "term": "brit",
@@ -419,6 +443,10 @@
       "id": "chosh"
     },
     {
+      "term": "city",
+      "id": "siti"
+    },
+    {
       "term": "clean",
       "id": "klin"
     },
@@ -457,6 +485,10 @@
     {
       "term": "correct",
       "id": "koret"
+    },
+    {
+      "term": "country",
+      "id": "kontri"
     },
     {
       "term": "cry",
@@ -595,6 +627,10 @@
       "id": "drink"
     },
     {
+      "term": "driva",
+      "id": "driva"
+    },
+    {
       "term": "drive",
       "id": "draiv"
     },
@@ -677,6 +713,14 @@
     {
       "term": "even",
       "id": "ivun"
+    },
+    {
+      "term": "evenin",
+      "id": "ivnin"
+    },
+    {
+      "term": "evening",
+      "id": "ivnin"
     },
     {
       "term": "every",
@@ -775,6 +819,10 @@
       "id": "fet"
     },
     {
+      "term": "fever",
+      "id": "fiva"
+    },
+    {
       "term": "fight",
       "id": "fai"
     },
@@ -825,6 +873,10 @@
     {
       "term": "fit",
       "id": "fit"
+    },
+    {
+      "term": "fiva",
+      "id": "fiva"
     },
     {
       "term": "flesh",
@@ -884,7 +936,7 @@
     },
     {
       "term": "freind",
-      "id": "frend"
+      "id": "fren"
     },
     {
       "term": "fren",
@@ -892,7 +944,7 @@
     },
     {
       "term": "frend",
-      "id": "frend"
+      "id": "fren"
     },
     {
       "term": "fri",
@@ -1027,6 +1079,10 @@
       "id": "go-past"
     },
     {
+      "term": "had",
+      "id": "had"
+    },
+    {
       "term": "hama",
       "id": "hama"
     },
@@ -1061,6 +1117,10 @@
     {
       "term": "happy",
       "id": "hapi"
+    },
+    {
+      "term": "hard",
+      "id": "had"
     },
     {
       "term": "hasty",
@@ -1287,6 +1347,10 @@
       "id": "insult"
     },
     {
+      "term": "ivnin",
+      "id": "ivnin"
+    },
+    {
       "term": "ivun",
       "id": "ivun"
     },
@@ -1303,8 +1367,16 @@
       "id": "wok-job"
     },
     {
+      "term": "jomp",
+      "id": "jomp"
+    },
+    {
       "term": "juju",
       "id": "juju"
+    },
+    {
+      "term": "jump",
+      "id": "jomp"
     },
     {
       "term": "kach",
@@ -1367,6 +1439,10 @@
       "id": "kom"
     },
     {
+      "term": "kontri",
+      "id": "kontri"
+    },
+    {
       "term": "koret",
       "id": "koret"
     },
@@ -1385,6 +1461,10 @@
     {
       "term": "kuk",
       "id": "kuk"
+    },
+    {
+      "term": "kwaiet",
+      "id": "kwaiet"
     },
     {
       "term": "kwik",
@@ -1445,6 +1525,14 @@
     {
       "term": "light",
       "id": "lait"
+    },
+    {
+      "term": "lock",
+      "id": "lok"
+    },
+    {
+      "term": "lok",
+      "id": "lok"
     },
     {
       "term": "long",
@@ -1512,7 +1600,7 @@
     },
     {
       "term": "mauth",
-      "id": "mout"
+      "id": "maut"
     },
     {
       "term": "mawning",
@@ -1521,6 +1609,22 @@
     {
       "term": "measure",
       "id": "mezho"
+    },
+    {
+      "term": "meat",
+      "id": "mit"
+    },
+    {
+      "term": "medicine",
+      "id": "medisin"
+    },
+    {
+      "term": "medin",
+      "id": "medisin"
+    },
+    {
+      "term": "medisin",
+      "id": "medisin"
     },
     {
       "term": "mek",
@@ -1533,6 +1637,22 @@
     {
       "term": "mezho",
       "id": "mezho"
+    },
+    {
+      "term": "minit",
+      "id": "minit"
+    },
+    {
+      "term": "minute",
+      "id": "minit"
+    },
+    {
+      "term": "minutes",
+      "id": "minit"
+    },
+    {
+      "term": "mit",
+      "id": "mit"
     },
     {
       "term": "moi moi",
@@ -1580,7 +1700,7 @@
     },
     {
       "term": "mout",
-      "id": "mout"
+      "id": "maut"
     },
     {
       "term": "mouth",
@@ -1715,12 +1835,20 @@
       "id": "no-wahala"
     },
     {
+      "term": "noise",
+      "id": "noiz"
+    },
+    {
+      "term": "noiz",
+      "id": "noiz"
+    },
+    {
       "term": "noni",
       "id": "moni"
     },
     {
       "term": "nos",
-      "id": "nos"
+      "id": "noz"
     },
     {
       "term": "nose",
@@ -2015,8 +2143,16 @@
       "id": "potopoto"
     },
     {
+      "term": "prais",
+      "id": "prais"
+    },
+    {
       "term": "present",
       "id": "gift"
+    },
+    {
+      "term": "price",
+      "id": "prais"
     },
     {
       "term": "problem",
@@ -2037,6 +2173,10 @@
     {
       "term": "quick-quick",
       "id": "kwik-kwik"
+    },
+    {
+      "term": "quiet",
+      "id": "kwaiet"
     },
     {
       "term": "rain",
@@ -2139,12 +2279,20 @@
       "id": "sad"
     },
     {
+      "term": "san",
+      "id": "san"
+    },
+    {
       "term": "sand",
       "id": "sansan"
     },
     {
       "term": "sansan",
       "id": "sansan"
+    },
+    {
+      "term": "sawa",
+      "id": "sawa"
     },
     {
       "term": "say",
@@ -2307,6 +2455,10 @@
       "id": "sidon"
     },
     {
+      "term": "siti",
+      "id": "siti"
+    },
+    {
       "term": "skeletin",
       "id": "skeletin"
     },
@@ -2331,6 +2483,10 @@
       "id": "slip"
     },
     {
+      "term": "smail",
+      "id": "smail"
+    },
+    {
       "term": "small",
       "id": "smol"
     },
@@ -2341,6 +2497,18 @@
     {
       "term": "small-small",
       "id": "smol-smol"
+    },
+    {
+      "term": "smel",
+      "id": "smel"
+    },
+    {
+      "term": "smell",
+      "id": "smel"
+    },
+    {
+      "term": "smile",
+      "id": "smail"
     },
     {
       "term": "smoka",
@@ -2357,6 +2525,18 @@
     {
       "term": "smol smol",
       "id": "smol-smol"
+    },
+    {
+      "term": "soft",
+      "id": "soft"
+    },
+    {
+      "term": "soldia",
+      "id": "soldia"
+    },
+    {
+      "term": "soldier",
+      "id": "soldia"
     },
     {
       "term": "som",
@@ -2487,6 +2667,18 @@
       "id": "strong-hed"
     },
     {
+      "term": "student",
+      "id": "studet"
+    },
+    {
+      "term": "studet",
+      "id": "studet"
+    },
+    {
+      "term": "sun",
+      "id": "san"
+    },
+    {
       "term": "sup",
       "id": "sup"
     },
@@ -2515,6 +2707,10 @@
       "id": "tok"
     },
     {
+      "term": "taun",
+      "id": "taun"
+    },
+    {
       "term": "taya",
       "id": "taya"
     },
@@ -2537,6 +2733,10 @@
     {
       "term": "ted",
       "id": "ted"
+    },
+    {
+      "term": "teja",
+      "id": "teja"
     },
     {
       "term": "tek",
@@ -2673,6 +2873,10 @@
     {
       "term": "too much",
       "id": "tu-mach"
+    },
+    {
+      "term": "town",
+      "id": "taun"
     },
     {
       "term": "tree",
@@ -2816,7 +3020,7 @@
     },
     {
       "term": "watta",
-      "id": "wota"
+      "id": "wata"
     },
     {
       "term": "we",
@@ -3012,7 +3216,7 @@
     },
     {
       "term": "wota",
-      "id": "wota"
+      "id": "wata"
     },
     {
       "term": "write",

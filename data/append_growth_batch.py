@@ -44,14 +44,6 @@ NEW = [
         "example_sentences": ["Mai fut de pein."],
     },
     {
-        "id": "bele",
-        "standard_spelling": "bele",
-        "informal_variants": ["beli", "belly", "stomach"],
-        "part_of_speech": "noun",
-        "definitions": ["belly; stomach"],
-        "example_sentences": ["Mai bele don ful."],
-    },
-    {
         "id": "yam",
         "standard_spelling": "yam",
         "informal_variants": [],
@@ -170,14 +162,6 @@ NEW = [
         "part_of_speech": "noun",
         "definitions": ["morning"],
         "example_sentences": ["Gud mornin."],
-    },
-    {
-        "id": "frend",
-        "standard_spelling": "frend",
-        "informal_variants": ["friend"],
-        "part_of_speech": "noun",
-        "definitions": ["friend"],
-        "example_sentences": ["Im na mai frend."],
     },
     {
         "id": "oga",

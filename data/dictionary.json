@@ -1840,14 +1840,17 @@
     "id": "fren",
     "standard_spelling": "fren",
     "informal_variants": [
-      "friend"
+      "friend",
+      "freind",
+      "frend"
     ],
     "part_of_speech": "noun",
     "definitions": [
       "friend"
     ],
     "example_sentences": [
-      "Im na mi fren."
+      "Im na mi fren.",
+      "Im na mai frend."
     ],
     "pronunciation": "F-r-eh-n"
   },
@@ -1954,7 +1957,9 @@
     "informal_variants": [
       "belly",
       "stomach",
-      "bell"
+      "bell",
+      "beli",
+      "bele"
     ],
     "part_of_speech": "noun",
     "definitions": [
@@ -1962,7 +1967,8 @@
     ],
     "example_sentences": [
       "Mi belle de hurt.",
-      "After, e be like sey di ting no come sweet im belle well, well."
+      "After, e be like sey di ting no come sweet im belle well, well.",
+      "Mai bele don ful."
     ],
     "pronunciation": "B-eh-l-l-eh",
     "notes": "UD_Naija-NSC example (CC BY-SA 4.0)"
@@ -2005,14 +2011,16 @@
     "id": "noz",
     "standard_spelling": "noz",
     "informal_variants": [
-      "nose"
+      "nose",
+      "nos"
     ],
     "part_of_speech": "noun",
     "definitions": [
       "nose"
     ],
     "example_sentences": [
-      "Im tap im noz."
+      "Im tap im noz.",
+      "Im nos de run."
     ],
     "pronunciation": "N-oh-z"
   },
@@ -2020,14 +2028,17 @@
     "id": "maut",
     "standard_spelling": "maut",
     "informal_variants": [
-      "mouth"
+      "mouth",
+      "mauth",
+      "mout"
     ],
     "part_of_speech": "noun",
     "definitions": [
       "mouth"
     ],
     "example_sentences": [
-      "Kloz yu maut."
+      "Kloz yu maut.",
+      "Lok yu mout."
     ],
     "pronunciation": "M-ow-t"
   },
@@ -2650,14 +2661,17 @@
     "id": "wata",
     "standard_spelling": "wata",
     "informal_variants": [
-      "water"
+      "water",
+      "watta",
+      "wota"
     ],
     "part_of_speech": "noun",
     "definitions": [
       "water"
     ],
     "example_sentences": [
-      "Drink wata."
+      "Drink wata.",
+      "Bring wota kom."
     ],
     "pronunciation": "W-ah-t-ah"
   },
@@ -5182,22 +5196,6 @@
     "pronunciation": "F-oh-n-eh"
   },
   {
-    "id": "wota",
-    "standard_spelling": "wota",
-    "informal_variants": [
-      "water",
-      "watta"
-    ],
-    "part_of_speech": "noun",
-    "definitions": [
-      "water"
-    ],
-    "example_sentences": [
-      "Bring wota kom."
-    ],
-    "pronunciation": "W-oh-t-ah"
-  },
-  {
     "id": "rais",
     "standard_spelling": "rais",
     "informal_variants": [
@@ -5242,37 +5240,6 @@
       "Mai bodi de pein."
     ],
     "pronunciation": "B-oh-d-ee"
-  },
-  {
-    "id": "nos",
-    "standard_spelling": "nos",
-    "informal_variants": [
-      "nose"
-    ],
-    "part_of_speech": "noun",
-    "definitions": [
-      "nose"
-    ],
-    "example_sentences": [
-      "Im nos de run."
-    ],
-    "pronunciation": "N-oh-s"
-  },
-  {
-    "id": "mout",
-    "standard_spelling": "mout",
-    "informal_variants": [
-      "mouth",
-      "mauth"
-    ],
-    "part_of_speech": "noun",
-    "definitions": [
-      "mouth"
-    ],
-    "example_sentences": [
-      "Lok yu mout."
-    ],
-    "pronunciation": "M-ow-t"
   },
   {
     "id": "drink",
@@ -5521,23 +5488,6 @@
     "pronunciation": "F-oo-t"
   },
   {
-    "id": "bele",
-    "standard_spelling": "bele",
-    "informal_variants": [
-      "beli",
-      "belly",
-      "stomach"
-    ],
-    "part_of_speech": "noun",
-    "definitions": [
-      "belly; stomach"
-    ],
-    "example_sentences": [
-      "Mai bele don ful."
-    ],
-    "pronunciation": "B-eh-l-eh"
-  },
-  {
     "id": "yam",
     "standard_spelling": "yam",
     "informal_variants": [],
@@ -5769,22 +5719,6 @@
     "pronunciation": "M-oh-r-n-ee-n"
   },
   {
-    "id": "frend",
-    "standard_spelling": "frend",
-    "informal_variants": [
-      "friend",
-      "freind"
-    ],
-    "part_of_speech": "noun",
-    "definitions": [
-      "friend"
-    ],
-    "example_sentences": [
-      "Im na mai frend."
-    ],
-    "pronunciation": "F-r-eh-n-d"
-  },
-  {
     "id": "oga",
     "standard_spelling": "oga",
     "informal_variants": [
@@ -5799,5 +5733,408 @@
       "Oga, abeg help mi."
     ],
     "pronunciation": "OH-g-ah"
+  },
+  {
+    "id": "aftanun",
+    "standard_spelling": "aftanun",
+    "informal_variants": [
+      "afternoon",
+      "aftanoon"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "afternoon"
+    ],
+    "example_sentences": [
+      "Si yu aftanun."
+    ],
+    "pronunciation": "AH-f-t-ah-n-oo-n"
+  },
+  {
+    "id": "ivnin",
+    "standard_spelling": "ivnin",
+    "informal_variants": [
+      "evening",
+      "evenin"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "evening"
+    ],
+    "example_sentences": [
+      "Gud ivnin."
+    ],
+    "pronunciation": "EE-v-n-ee-n"
+  },
+  {
+    "id": "minit",
+    "standard_spelling": "minit",
+    "informal_variants": [
+      "minute",
+      "minutes"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "minute"
+    ],
+    "example_sentences": [
+      "Weit wan minit."
+    ],
+    "pronunciation": "M-ee-n-ee-t"
+  },
+  {
+    "id": "san",
+    "standard_spelling": "san",
+    "informal_variants": [
+      "sun"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "sun"
+    ],
+    "example_sentences": [
+      "San de hot."
+    ],
+    "pronunciation": "S-ah-n"
+  },
+  {
+    "id": "teja",
+    "standard_spelling": "teja",
+    "informal_variants": [
+      "teacher"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "teacher"
+    ],
+    "example_sentences": [
+      "Di teja de tish."
+    ],
+    "pronunciation": "T-eh-j-ah"
+  },
+  {
+    "id": "studet",
+    "standard_spelling": "studet",
+    "informal_variants": [
+      "student"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "student"
+    ],
+    "example_sentences": [
+      "Im na gud studet."
+    ],
+    "pronunciation": "S-t-oo-d-eh-t"
+  },
+  {
+    "id": "driva",
+    "standard_spelling": "driva",
+    "informal_variants": [
+      "driver"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "driver"
+    ],
+    "example_sentences": [
+      "Di driva de wait."
+    ],
+    "pronunciation": "D-r-ee-v-ah"
+  },
+  {
+    "id": "soldia",
+    "standard_spelling": "soldia",
+    "informal_variants": [
+      "soldier"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "soldier"
+    ],
+    "example_sentences": [
+      "Soldia de fo gate."
+    ],
+    "pronunciation": "S-oh-l-d-ee-ah"
+  },
+  {
+    "id": "mit",
+    "standard_spelling": "mit",
+    "informal_variants": [
+      "meat"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "meat"
+    ],
+    "example_sentences": [
+      "I wan chop mit."
+    ],
+    "pronunciation": "M-ee-t"
+  },
+  {
+    "id": "had",
+    "standard_spelling": "had",
+    "informal_variants": [
+      "hard"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "hard; difficult"
+    ],
+    "example_sentences": [
+      "Di wok had."
+    ],
+    "pronunciation": "H-ah-d"
+  },
+  {
+    "id": "soft",
+    "standard_spelling": "soft",
+    "informal_variants": [],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "soft"
+    ],
+    "example_sentences": [
+      "Di bed soft."
+    ],
+    "pronunciation": "S-oh-f-t"
+  },
+  {
+    "id": "kwaiet",
+    "standard_spelling": "kwaiet",
+    "informal_variants": [
+      "quiet"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "quiet"
+    ],
+    "example_sentences": [
+      "Mek di ples kwaiet."
+    ],
+    "pronunciation": "K-w-eye-eh-t"
+  },
+  {
+    "id": "sawa",
+    "standard_spelling": "sawa",
+    "informal_variants": [
+      "sour"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "sour"
+    ],
+    "example_sentences": [
+      "Di orenj sawa."
+    ],
+    "pronunciation": "S-ah-w-ah"
+  },
+  {
+    "id": "smel",
+    "standard_spelling": "smel",
+    "informal_variants": [
+      "smell"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to smell; a smell"
+    ],
+    "example_sentences": [
+      "Smel di fud."
+    ],
+    "pronunciation": "S-m-eh-l"
+  },
+  {
+    "id": "noiz",
+    "standard_spelling": "noiz",
+    "informal_variants": [
+      "noise"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "noise"
+    ],
+    "example_sentences": [
+      "Tu noiz fo hia."
+    ],
+    "pronunciation": "N-oh-ee-z"
+  },
+  {
+    "id": "jomp",
+    "standard_spelling": "jomp",
+    "informal_variants": [
+      "jump"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to jump"
+    ],
+    "example_sentences": [
+      "Pikin de jomp."
+    ],
+    "pronunciation": "J-oh-m-p"
+  },
+  {
+    "id": "smail",
+    "standard_spelling": "smail",
+    "informal_variants": [
+      "smile"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to smile"
+    ],
+    "example_sentences": [
+      "Im de smail."
+    ],
+    "pronunciation": "S-m-eye-l"
+  },
+  {
+    "id": "boro",
+    "standard_spelling": "boro",
+    "informal_variants": [
+      "borrow"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to borrow"
+    ],
+    "example_sentences": [
+      "I wan boro moni."
+    ],
+    "pronunciation": "B-oh-r-oh"
+  },
+  {
+    "id": "lok",
+    "standard_spelling": "lok",
+    "informal_variants": [
+      "lock"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to lock"
+    ],
+    "example_sentences": [
+      "Lok di do."
+    ],
+    "pronunciation": "L-oh-k"
+  },
+  {
+    "id": "bring",
+    "standard_spelling": "bring",
+    "informal_variants": [],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to bring"
+    ],
+    "example_sentences": [
+      "Bring wata kom."
+    ],
+    "pronunciation": "B-r-ee-ng"
+  },
+  {
+    "id": "taun",
+    "standard_spelling": "taun",
+    "informal_variants": [
+      "town"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "town"
+    ],
+    "example_sentences": [
+      "I de go taun."
+    ],
+    "pronunciation": "T-ow-n"
+  },
+  {
+    "id": "siti",
+    "standard_spelling": "siti",
+    "informal_variants": [
+      "city"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "city"
+    ],
+    "example_sentences": [
+      "Lagos na big siti."
+    ],
+    "pronunciation": "S-ee-t-ee"
+  },
+  {
+    "id": "kontri",
+    "standard_spelling": "kontri",
+    "informal_variants": [
+      "country"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "country"
+    ],
+    "example_sentences": [
+      "Mai kontri na Naija."
+    ],
+    "pronunciation": "K-oh-n-t-r-ee"
+  },
+  {
+    "id": "prais",
+    "standard_spelling": "prais",
+    "informal_variants": [
+      "price"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "price"
+    ],
+    "example_sentences": [
+      "Hau mush prais?"
+    ],
+    "pronunciation": "P-r-eye-s"
+  },
+  {
+    "id": "biko",
+    "standard_spelling": "biko",
+    "informal_variants": [],
+    "part_of_speech": "interjection",
+    "definitions": [
+      "please (Igbo-origin polite particle)"
+    ],
+    "example_sentences": [
+      "Biko help mi."
+    ],
+    "pronunciation": "B-ee-k-oh"
+  },
+  {
+    "id": "fiva",
+    "standard_spelling": "fiva",
+    "informal_variants": [
+      "fever"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "fever"
+    ],
+    "example_sentences": [
+      "Im get fiva."
+    ],
+    "pronunciation": "F-ee-v-ah"
+  },
+  {
+    "id": "medisin",
+    "standard_spelling": "medisin",
+    "informal_variants": [
+      "medicine",
+      "medin"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "medicine"
+    ],
+    "example_sentences": [
+      "Tek yu medisin."
+    ],
+    "pronunciation": "M-eh-d-ee-s-ee-n"
   }
 ]

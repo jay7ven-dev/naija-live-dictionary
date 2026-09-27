@@ -6,19 +6,10 @@
     "data\\corpus\\external\\cencos-transcripts.txt",
     "data\\corpus\\external\\naijasenti-pcm-train.txt"
   ],
-  "total_tokens": 81996,
-  "unique_tokens": 4975,
-  "unmatched_count": 4521,
+  "total_tokens": 76035,
+  "unique_tokens": 4988,
+  "unmatched_count": 4428,
   "candidates": [
-    {
-      "token": "Speaker",
-      "count": 3293,
-      "status": "unmatched",
-      "entry_id": null,
-      "sources": [
-        "external\\cencos-transcripts.txt"
-      ]
-    },
     {
       "token": "I",
       "count": 2839,
@@ -40,15 +31,6 @@
       ]
     },
     {
-      "token": "SPEAKER",
-      "count": 2667,
-      "status": "unmatched",
-      "entry_id": null,
-      "sources": [
-        "external\\cencos-transcripts.txt"
-      ]
-    },
-    {
       "token": "the",
       "count": 1781,
       "status": "known",
@@ -61,7 +43,7 @@
       "token": "that",
       "count": 1582,
       "status": "known",
-      "entry_id": "dat",
+      "entry_id": "wey",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -482,8 +464,8 @@
     {
       "token": "thing",
       "count": 312,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "somtin",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -576,7 +558,7 @@
       "token": "That",
       "count": 251,
       "status": "known",
-      "entry_id": "dat",
+      "entry_id": "wey",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -593,8 +575,8 @@
     {
       "token": "there",
       "count": 248,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "dea",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -702,8 +684,8 @@
     {
       "token": "wey",
       "count": 214,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "wey",
       "sources": [
         "samples\\ifra-informal-paraphrase.txt",
         "external\\cencos-transcripts.txt"
@@ -861,8 +843,8 @@
     {
       "token": "here",
       "count": 163,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "hia",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -947,8 +929,8 @@
     {
       "token": "naw",
       "count": 141,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "nau",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -1193,8 +1175,8 @@
     {
       "token": "sef",
       "count": 105,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "sef",
       "sources": [
         "external\\cencos-transcripts.txt",
         "external\\naijasenti-pcm-train.txt"
@@ -1342,8 +1324,8 @@
     {
       "token": "out",
       "count": 93,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "outsai",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -1506,8 +1488,8 @@
     {
       "token": "far",
       "count": 78,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "fa",
       "sources": [
         "samples\\social-informal-02.txt",
         "external\\cencos-transcripts.txt"
@@ -1545,7 +1527,7 @@
       "token": "phone",
       "count": 78,
       "status": "known",
-      "entry_id": "fona",
+      "entry_id": "fone",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -1636,8 +1618,8 @@
     {
       "token": "place",
       "count": 71,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "ples",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -2007,8 +1989,8 @@
     {
       "token": "had",
       "count": 57,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "had",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -2172,8 +2154,8 @@
     {
       "token": "who",
       "count": 52,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "wey",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -2199,8 +2181,8 @@
     {
       "token": "which",
       "count": 52,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "wey",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -2291,8 +2273,8 @@
     {
       "token": "happen",
       "count": 49,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "hapen",
       "sources": [
         "samples\\social-informal-02.txt",
         "external\\cencos-transcripts.txt"
@@ -2356,7 +2338,7 @@
       "token": "wait",
       "count": 45,
       "status": "known",
-      "entry_id": "wét",
+      "entry_id": "weit",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -2392,8 +2374,8 @@
     {
       "token": "gave",
       "count": 44,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "giv",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -2619,7 +2601,7 @@
       "token": "finish",
       "count": 39,
       "status": "known",
-      "entry_id": "fini",
+      "entry_id": "finis",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -2636,8 +2618,8 @@
     {
       "token": "mey",
       "count": 39,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "mek",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -2784,8 +2766,8 @@
     {
       "token": "Which",
       "count": 37,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "wey",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -2856,8 +2838,8 @@
     {
       "token": "There",
       "count": 36,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "dea",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -2956,8 +2938,8 @@
     {
       "token": "Who",
       "count": 34,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "wey",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -3003,8 +2985,8 @@
     {
       "token": "bring",
       "count": 33,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "bring",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -3048,8 +3030,8 @@
     {
       "token": "morning",
       "count": 33,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "mornin",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -3222,8 +3204,8 @@
     {
       "token": "naww",
       "count": 31,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "nau",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -3339,8 +3321,8 @@
     {
       "token": "true",
       "count": 29,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "trut",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -3603,7 +3585,7 @@
       "token": "Wait",
       "count": 26,
       "status": "known",
-      "entry_id": "wét",
+      "entry_id": "weit",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -3793,8 +3775,8 @@
     {
       "token": "body",
       "count": 24,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "bodi",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -3967,7 +3949,7 @@
       "token": "open",
       "count": 23,
       "status": "known",
-      "entry_id": "opun",
+      "entry_id": "opin",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -3975,8 +3957,8 @@
     {
       "token": "student",
       "count": 23,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "studet",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -4158,7 +4140,7 @@
       "token": "new",
       "count": 22,
       "status": "known",
-      "entry_id": "nyu",
+      "entry_id": "niu",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -4481,8 +4463,8 @@
     {
       "token": "drink",
       "count": 20,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "drink",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -4599,8 +4581,8 @@
     {
       "token": "outside",
       "count": 18,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "outsai",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -4716,8 +4698,8 @@
     {
       "token": "Shey",
       "count": 18,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "abi",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -4779,8 +4761,8 @@
     {
       "token": "evening",
       "count": 17,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "ivnin",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -4806,8 +4788,8 @@
     {
       "token": "easy",
       "count": 17,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "izi",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -5140,8 +5122,8 @@
     {
       "token": "shey",
       "count": 15,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "abi",
       "sources": [
         "external\\cencos-transcripts.txt",
         "external\\naijasenti-pcm-train.txt"
@@ -5259,8 +5241,8 @@
     {
       "token": "Wey",
       "count": 15,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "wey",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -5477,8 +5459,8 @@
     {
       "token": "meat",
       "count": 14,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "mit",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -5486,8 +5468,8 @@
     {
       "token": "self",
       "count": 14,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "sef",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -5495,8 +5477,8 @@
     {
       "token": "bread",
       "count": 14,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "bred",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -5690,8 +5672,8 @@
     {
       "token": "young",
       "count": 13,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "yong",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -5896,24 +5878,6 @@
     },
     {
       "token": "roll",
-      "count": 13,
-      "status": "unmatched",
-      "entry_id": null,
-      "sources": [
-        "external\\cencos-transcripts.txt"
-      ]
-    },
-    {
-      "token": "Speaker dem",
-      "count": 13,
-      "status": "unmatched",
-      "entry_id": null,
-      "sources": [
-        "external\\cencos-transcripts.txt"
-      ]
-    },
-    {
-      "token": "Speaker-dem",
       "count": 13,
       "status": "unmatched",
       "entry_id": null,
@@ -6294,8 +6258,8 @@
     {
       "token": "shout",
       "count": 11,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "shaut",
       "sources": [
         "samples\\social-informal-02.txt",
         "external\\cencos-transcripts.txt"
@@ -6304,8 +6268,8 @@
     {
       "token": "clean",
       "count": 11,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "klin",
       "sources": [
         "samples\\ifra-informal-paraphrase.txt",
         "external\\cencos-transcripts.txt"
@@ -6711,8 +6675,8 @@
     {
       "token": "Mey",
       "count": 10,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "mek",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -7106,24 +7070,6 @@
       ]
     },
     {
-      "token": "SPEAKER dem",
-      "count": 10,
-      "status": "unmatched",
-      "entry_id": null,
-      "sources": [
-        "external\\cencos-transcripts.txt"
-      ]
-    },
-    {
-      "token": "SPEAKER-dem",
-      "count": 10,
-      "status": "unmatched",
-      "entry_id": null,
-      "sources": [
-        "external\\cencos-transcripts.txt"
-      ]
-    },
-    {
       "token": "pikin",
       "count": 9,
       "status": "known",
@@ -7232,8 +7178,8 @@
     {
       "token": "cash",
       "count": 9,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "kach",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -7295,8 +7241,8 @@
     {
       "token": "hard",
       "count": 9,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "had",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -7332,7 +7278,7 @@
       "token": "borrow",
       "count": 9,
       "status": "known",
-      "entry_id": "bor",
+      "entry_id": "boro",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -8033,8 +7979,8 @@
     {
       "token": "minutes",
       "count": 8,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "minit",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -8483,8 +8429,8 @@
     {
       "token": "sharp",
       "count": 7,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "sharp",
       "sources": [
         "samples\\social-informal-01.txt",
         "external\\cencos-transcripts.txt"
@@ -8621,8 +8567,8 @@
     {
       "token": "City",
       "count": 7,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "siti",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -8774,8 +8720,8 @@
     {
       "token": "Here",
       "count": 7,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "hia",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -8801,8 +8747,8 @@
     {
       "token": "biko",
       "count": 7,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "biko",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -9259,6 +9205,24 @@
     },
     {
       "token": "shift",
+      "count": 7,
+      "status": "unmatched",
+      "entry_id": null,
+      "sources": [
+        "external\\cencos-transcripts.txt"
+      ]
+    },
+    {
+      "token": "wey dem",
+      "count": 7,
+      "status": "unmatched",
+      "entry_id": null,
+      "sources": [
+        "external\\cencos-transcripts.txt"
+      ]
+    },
+    {
+      "token": "wey-dem",
       "count": 7,
       "status": "unmatched",
       "entry_id": null,
@@ -9731,8 +9695,8 @@
     {
       "token": "egusi",
       "count": 6,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "egusi",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -10198,28 +10162,10 @@
       ]
     },
     {
-      "token": "wey dem",
-      "count": 6,
-      "status": "unmatched",
-      "entry_id": null,
-      "sources": [
-        "external\\cencos-transcripts.txt"
-      ]
-    },
-    {
-      "token": "wey-dem",
-      "count": 6,
-      "status": "unmatched",
-      "entry_id": null,
-      "sources": [
-        "external\\cencos-transcripts.txt"
-      ]
-    },
-    {
       "token": "rice",
       "count": 5,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "rais",
       "sources": [
         "samples\\social-informal-02.txt",
         "external\\cencos-transcripts.txt"
@@ -10969,8 +10915,8 @@
     {
       "token": "afternoon",
       "count": 5,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "aftanun",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -11293,8 +11239,8 @@
     {
       "token": "Oga",
       "count": 5,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "oga",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -11437,8 +11383,8 @@
     {
       "token": "Shebi",
       "count": 5,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "abi",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -11889,8 +11835,8 @@
     {
       "token": "town",
       "count": 4,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "taun",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -12402,8 +12348,8 @@
     {
       "token": "com",
       "count": 4,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "kom",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -12438,8 +12384,8 @@
     {
       "token": "dark",
       "count": 4,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "dak",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -12951,8 +12897,8 @@
     {
       "token": "quiet",
       "count": 4,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "kwaiet",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -13356,8 +13302,8 @@
     {
       "token": "True",
       "count": 4,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "trut",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -13581,8 +13527,8 @@
     {
       "token": "shebi",
       "count": 4,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "abi",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -13716,8 +13662,8 @@
     {
       "token": "boss",
       "count": 4,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "oga",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -13905,8 +13851,8 @@
     {
       "token": "Price",
       "count": 4,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "prais",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -14012,6 +13958,42 @@
     },
     {
       "token": "Machine",
+      "count": 4,
+      "status": "unmatched",
+      "entry_id": null,
+      "sources": [
+        "external\\cencos-transcripts.txt"
+      ]
+    },
+    {
+      "token": "there dem",
+      "count": 4,
+      "status": "unmatched",
+      "entry_id": null,
+      "sources": [
+        "external\\cencos-transcripts.txt"
+      ]
+    },
+    {
+      "token": "there-dem",
+      "count": 4,
+      "status": "unmatched",
+      "entry_id": null,
+      "sources": [
+        "external\\cencos-transcripts.txt"
+      ]
+    },
+    {
+      "token": "nah dem",
+      "count": 4,
+      "status": "unmatched",
+      "entry_id": null,
+      "sources": [
+        "external\\cencos-transcripts.txt"
+      ]
+    },
+    {
+      "token": "nah-dem",
       "count": 4,
       "status": "unmatched",
       "entry_id": null,
@@ -15235,7 +15217,7 @@
       "token": "Phone",
       "count": 3,
       "status": "known",
-      "entry_id": "fona",
+      "entry_id": "fone",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -15261,8 +15243,8 @@
     {
       "token": "oga",
       "count": 3,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "oga",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -15288,8 +15270,8 @@
     {
       "token": "near",
       "count": 3,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "nia",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -15783,8 +15765,8 @@
     {
       "token": "Hia",
       "count": 3,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "hia",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -16521,8 +16503,8 @@
     {
       "token": "smell",
       "count": 3,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "smel",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -17502,8 +17484,8 @@
     {
       "token": "Bread",
       "count": 3,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "bred",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -17719,8 +17701,8 @@
     {
       "token": "rain",
       "count": 2,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "ren",
       "sources": [
         "samples\\social-informal-01.txt",
         "external\\cencos-transcripts.txt"
@@ -17739,8 +17721,8 @@
     {
       "token": "ting",
       "count": 2,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "somtin",
       "sources": [
         "samples\\social-informal-02.txt",
         "external\\cencos-transcripts.txt"
@@ -17749,8 +17731,8 @@
     {
       "token": "hia",
       "count": 2,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "hia",
       "sources": [
         "samples\\social-informal-02.txt",
         "external\\cencos-transcripts.txt"
@@ -17978,8 +17960,8 @@
     {
       "token": "noise",
       "count": 2,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "noiz",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -18617,8 +18599,8 @@
     {
       "token": "Easy",
       "count": 2,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "izi",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -18707,8 +18689,8 @@
     {
       "token": "san",
       "count": 2,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "san",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -20400,8 +20382,8 @@
     {
       "token": "soldier",
       "count": 2,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "soldia",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -20418,8 +20400,8 @@
     {
       "token": "Biko",
       "count": 2,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "biko",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -20535,8 +20517,8 @@
     {
       "token": "Young",
       "count": 2,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "yong",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -20625,8 +20607,8 @@
     {
       "token": "price",
       "count": 2,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "prais",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -21544,7 +21526,7 @@
       "token": "PHONE",
       "count": 2,
       "status": "known",
-      "entry_id": "fona",
+      "entry_id": "fone",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -22965,8 +22947,8 @@
     {
       "token": "kon",
       "count": 2,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "kom",
       "sources": [
         "external\\cencos-transcripts.txt",
         "external\\naijasenti-pcm-train.txt"
@@ -23092,8 +23074,8 @@
     {
       "token": "soft",
       "count": 2,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "soft",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -24046,8 +24028,8 @@
     {
       "token": "pesin",
       "count": 2,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "pipul",
       "sources": [
         "external\\cencos-transcripts.txt",
         "external\\naijasenti-pcm-train.txt"
@@ -24056,8 +24038,8 @@
     {
       "token": "heavy",
       "count": 2,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "hevi",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -24191,8 +24173,8 @@
     {
       "token": "Meat",
       "count": 2,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "mit",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -24272,8 +24254,8 @@
     {
       "token": "Bring",
       "count": 2,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "bring",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -24414,7 +24396,7 @@
       ]
     },
     {
-      "token": "there dem",
+      "token": "carry dem",
       "count": 2,
       "status": "unmatched",
       "entry_id": null,
@@ -24423,7 +24405,25 @@
       ]
     },
     {
-      "token": "there-dem",
+      "token": "carry-dem",
+      "count": 2,
+      "status": "unmatched",
+      "entry_id": null,
+      "sources": [
+        "external\\cencos-transcripts.txt"
+      ]
+    },
+    {
+      "token": "room dem",
+      "count": 2,
+      "status": "unmatched",
+      "entry_id": null,
+      "sources": [
+        "external\\cencos-transcripts.txt"
+      ]
+    },
+    {
+      "token": "room-dem",
       "count": 2,
       "status": "unmatched",
       "entry_id": null,
@@ -24478,6 +24478,24 @@
     },
     {
       "token": "im-dem",
+      "count": 2,
+      "status": "unmatched",
+      "entry_id": null,
+      "sources": [
+        "external\\cencos-transcripts.txt"
+      ]
+    },
+    {
+      "token": "happen dem",
+      "count": 2,
+      "status": "unmatched",
+      "entry_id": null,
+      "sources": [
+        "external\\cencos-transcripts.txt"
+      ]
+    },
+    {
+      "token": "happen-dem",
       "count": 2,
       "status": "unmatched",
       "entry_id": null,
@@ -24558,6 +24576,42 @@
       ]
     },
     {
+      "token": "am dem",
+      "count": 2,
+      "status": "unmatched",
+      "entry_id": null,
+      "sources": [
+        "external\\cencos-transcripts.txt"
+      ]
+    },
+    {
+      "token": "am-dem",
+      "count": 2,
+      "status": "unmatched",
+      "entry_id": null,
+      "sources": [
+        "external\\cencos-transcripts.txt"
+      ]
+    },
+    {
+      "token": "prison dem",
+      "count": 2,
+      "status": "unmatched",
+      "entry_id": null,
+      "sources": [
+        "external\\cencos-transcripts.txt"
+      ]
+    },
+    {
+      "token": "prison-dem",
+      "count": 2,
+      "status": "unmatched",
+      "entry_id": null,
+      "sources": [
+        "external\\cencos-transcripts.txt"
+      ]
+    },
+    {
       "token": "tell dem",
       "count": 2,
       "status": "unmatched",
@@ -24568,6 +24622,24 @@
     },
     {
       "token": "tell-dem",
+      "count": 2,
+      "status": "unmatched",
+      "entry_id": null,
+      "sources": [
+        "external\\cencos-transcripts.txt"
+      ]
+    },
+    {
+      "token": "get dem",
+      "count": 2,
+      "status": "unmatched",
+      "entry_id": null,
+      "sources": [
+        "external\\cencos-transcripts.txt"
+      ]
+    },
+    {
+      "token": "get-dem",
       "count": 2,
       "status": "unmatched",
       "entry_id": null,
@@ -24693,7 +24765,7 @@
       ]
     },
     {
-      "token": "nah dem",
+      "token": "o dem",
       "count": 2,
       "status": "unmatched",
       "entry_id": null,
@@ -24702,7 +24774,25 @@
       ]
     },
     {
-      "token": "nah-dem",
+      "token": "o-dem",
+      "count": 2,
+      "status": "unmatched",
+      "entry_id": null,
+      "sources": [
+        "external\\cencos-transcripts.txt"
+      ]
+    },
+    {
+      "token": "Where dem",
+      "count": 2,
+      "status": "unmatched",
+      "entry_id": null,
+      "sources": [
+        "external\\cencos-transcripts.txt"
+      ]
+    },
+    {
+      "token": "Where-dem",
       "count": 2,
       "status": "unmatched",
       "entry_id": null,
@@ -24731,8 +24821,8 @@
     {
       "token": "becos",
       "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "bikos",
       "sources": [
         "samples\\social-informal-01.txt"
       ]
@@ -24857,8 +24947,8 @@
     {
       "token": "fone",
       "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "fone",
       "sources": [
         "samples\\social-informal-02.txt"
       ]
@@ -24920,8 +25010,8 @@
     {
       "token": "pipol",
       "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "pipul",
       "sources": [
         "samples\\ifra-informal-paraphrase.txt"
       ]
@@ -24929,8 +25019,8 @@
     {
       "token": "climb",
       "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "klaim",
       "sources": [
         "samples\\ifra-informal-paraphrase.txt"
       ]
@@ -25207,15 +25297,6 @@
     },
     {
       "token": "TG",
-      "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
-      "sources": [
-        "external\\cencos-transcripts.txt"
-      ]
-    },
-    {
-      "token": "speaker",
       "count": 1,
       "status": "unmatched",
       "entry_id": null,
@@ -26018,8 +26099,8 @@
     {
       "token": "Gave",
       "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "giv",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -26261,8 +26342,8 @@
     {
       "token": "Student",
       "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "studet",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -27998,8 +28079,8 @@
     {
       "token": "abegi",
       "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "abeg",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -28377,7 +28458,7 @@
       "token": "Finish",
       "count": 1,
       "status": "known",
-      "entry_id": "fini",
+      "entry_id": "finis",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -28988,8 +29069,8 @@
     {
       "token": "dise",
       "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "dis",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -29132,8 +29213,8 @@
     {
       "token": "minute",
       "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "minit",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -29294,8 +29375,8 @@
     {
       "token": "smile",
       "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "smail",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -30239,8 +30320,8 @@
     {
       "token": "bia",
       "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "bia",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -31328,8 +31409,8 @@
     {
       "token": "sawa",
       "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "sawa",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -31904,8 +31985,8 @@
     {
       "token": "wating",
       "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "wetin",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -33138,7 +33219,7 @@
       "token": "dance",
       "count": 1,
       "status": "known",
-      "entry_id": "dan",
+      "entry_id": "dans",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -33911,8 +33992,8 @@
     {
       "token": "seLf",
       "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "sef",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -34154,8 +34235,8 @@
     {
       "token": "medicine",
       "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "medisin",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -34263,7 +34344,7 @@
       "token": "sour",
       "count": 1,
       "status": "known",
-      "entry_id": "sour",
+      "entry_id": "sawa",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -34739,8 +34820,8 @@
     {
       "token": "bell",
       "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "belle",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -36053,8 +36134,8 @@
     {
       "token": "hebi",
       "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "abi",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -36999,7 +37080,7 @@
       "token": "driver",
       "count": 1,
       "status": "known",
-      "entry_id": "draiva",
+      "entry_id": "driva",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -38015,8 +38096,8 @@
     {
       "token": "tHing",
       "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "somtin",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -38996,8 +39077,8 @@
     {
       "token": "noni",
       "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "moni",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -40085,8 +40166,8 @@
     {
       "token": "pic",
       "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "pik",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -40868,8 +40949,8 @@
     {
       "token": "country",
       "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "kontri",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -41156,8 +41237,8 @@
     {
       "token": "jump",
       "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "jomp",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -41624,8 +41705,8 @@
     {
       "token": "deme",
       "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "dem",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -41669,8 +41750,8 @@
     {
       "token": "weyim",
       "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "wetin",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -41957,8 +42038,8 @@
     {
       "token": "Pesin",
       "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "pipul",
       "sources": [
         "external\\cencos-transcripts.txt"
       ]
@@ -43521,6 +43602,24 @@
       ]
     },
     {
+      "token": "bro dem",
+      "count": 1,
+      "status": "unmatched",
+      "entry_id": null,
+      "sources": [
+        "external\\cencos-transcripts.txt"
+      ]
+    },
+    {
+      "token": "bro-dem",
+      "count": 1,
+      "status": "unmatched",
+      "entry_id": null,
+      "sources": [
+        "external\\cencos-transcripts.txt"
+      ]
+    },
+    {
       "token": "City dem",
       "count": 1,
       "status": "unmatched",
@@ -43611,24 +43710,6 @@
       ]
     },
     {
-      "token": "carry dem",
-      "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
-      "sources": [
-        "external\\cencos-transcripts.txt"
-      ]
-    },
-    {
-      "token": "carry-dem",
-      "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
-      "sources": [
-        "external\\cencos-transcripts.txt"
-      ]
-    },
-    {
       "token": "the dem",
       "count": 1,
       "status": "unmatched",
@@ -43665,6 +43746,24 @@
       ]
     },
     {
+      "token": "kind dem",
+      "count": 1,
+      "status": "unmatched",
+      "entry_id": null,
+      "sources": [
+        "external\\cencos-transcripts.txt"
+      ]
+    },
+    {
+      "token": "kind-dem",
+      "count": 1,
+      "status": "unmatched",
+      "entry_id": null,
+      "sources": [
+        "external\\cencos-transcripts.txt"
+      ]
+    },
+    {
       "token": "outside dem",
       "count": 1,
       "status": "unmatched",
@@ -43675,6 +43774,24 @@
     },
     {
       "token": "outside-dem",
+      "count": 1,
+      "status": "unmatched",
+      "entry_id": null,
+      "sources": [
+        "external\\cencos-transcripts.txt"
+      ]
+    },
+    {
+      "token": "join dem",
+      "count": 1,
+      "status": "unmatched",
+      "entry_id": null,
+      "sources": [
+        "external\\cencos-transcripts.txt"
+      ]
+    },
+    {
+      "token": "join-dem",
       "count": 1,
       "status": "unmatched",
       "entry_id": null,
@@ -43737,24 +43854,6 @@
       ]
     },
     {
-      "token": "happen dem",
-      "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
-      "sources": [
-        "external\\cencos-transcripts.txt"
-      ]
-    },
-    {
-      "token": "happen-dem",
-      "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
-      "sources": [
-        "external\\cencos-transcripts.txt"
-      ]
-    },
-    {
       "token": "hear dem",
       "count": 1,
       "status": "unmatched",
@@ -43783,6 +43882,24 @@
     },
     {
       "token": "las-dem",
+      "count": 1,
+      "status": "unmatched",
+      "entry_id": null,
+      "sources": [
+        "external\\cencos-transcripts.txt"
+      ]
+    },
+    {
+      "token": "wahala dem",
+      "count": 1,
+      "status": "unmatched",
+      "entry_id": null,
+      "sources": [
+        "external\\cencos-transcripts.txt"
+      ]
+    },
+    {
+      "token": "wahala-dem",
       "count": 1,
       "status": "unmatched",
       "entry_id": null,
@@ -43917,6 +44034,24 @@
       ]
     },
     {
+      "token": "yesterday dem",
+      "count": 1,
+      "status": "unmatched",
+      "entry_id": null,
+      "sources": [
+        "external\\cencos-transcripts.txt"
+      ]
+    },
+    {
+      "token": "yesterday-dem",
+      "count": 1,
+      "status": "unmatched",
+      "entry_id": null,
+      "sources": [
+        "external\\cencos-transcripts.txt"
+      ]
+    },
+    {
       "token": "jonse dem",
       "count": 1,
       "status": "unmatched",
@@ -43927,24 +44062,6 @@
     },
     {
       "token": "jonse-dem",
-      "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
-      "sources": [
-        "external\\cencos-transcripts.txt"
-      ]
-    },
-    {
-      "token": "am dem",
-      "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
-      "sources": [
-        "external\\cencos-transcripts.txt"
-      ]
-    },
-    {
-      "token": "am-dem",
       "count": 1,
       "status": "unmatched",
       "entry_id": null,
@@ -43999,24 +44116,6 @@
     },
     {
       "token": "if-dem",
-      "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
-      "sources": [
-        "external\\cencos-transcripts.txt"
-      ]
-    },
-    {
-      "token": "get dem",
-      "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
-      "sources": [
-        "external\\cencos-transcripts.txt"
-      ]
-    },
-    {
-      "token": "get-dem",
       "count": 1,
       "status": "unmatched",
       "entry_id": null,
@@ -44187,6 +44286,42 @@
       ]
     },
     {
+      "token": "no dem",
+      "count": 1,
+      "status": "unmatched",
+      "entry_id": null,
+      "sources": [
+        "external\\cencos-transcripts.txt"
+      ]
+    },
+    {
+      "token": "no-dem",
+      "count": 1,
+      "status": "unmatched",
+      "entry_id": null,
+      "sources": [
+        "external\\cencos-transcripts.txt"
+      ]
+    },
+    {
+      "token": "graduate dem",
+      "count": 1,
+      "status": "unmatched",
+      "entry_id": null,
+      "sources": [
+        "external\\cencos-transcripts.txt"
+      ]
+    },
+    {
+      "token": "graduate-dem",
+      "count": 1,
+      "status": "unmatched",
+      "entry_id": null,
+      "sources": [
+        "external\\cencos-transcripts.txt"
+      ]
+    },
+    {
       "token": "understand dem",
       "count": 1,
       "status": "unmatched",
@@ -44259,6 +44394,24 @@
       ]
     },
     {
+      "token": "master dem",
+      "count": 1,
+      "status": "unmatched",
+      "entry_id": null,
+      "sources": [
+        "external\\cencos-transcripts.txt"
+      ]
+    },
+    {
+      "token": "master-dem",
+      "count": 1,
+      "status": "unmatched",
+      "entry_id": null,
+      "sources": [
+        "external\\cencos-transcripts.txt"
+      ]
+    },
+    {
       "token": "eh dem",
       "count": 1,
       "status": "unmatched",
@@ -44323,24 +44476,6 @@
     },
     {
       "token": "die-dem",
-      "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
-      "sources": [
-        "external\\cencos-transcripts.txt"
-      ]
-    },
-    {
-      "token": "o dem",
-      "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
-      "sources": [
-        "external\\cencos-transcripts.txt"
-      ]
-    },
-    {
-      "token": "o-dem",
       "count": 1,
       "status": "unmatched",
       "entry_id": null,
@@ -44493,24 +44628,6 @@
       ]
     },
     {
-      "token": "room dem",
-      "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
-      "sources": [
-        "external\\cencos-transcripts.txt"
-      ]
-    },
-    {
-      "token": "room-dem",
-      "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
-      "sources": [
-        "external\\cencos-transcripts.txt"
-      ]
-    },
-    {
       "token": "girls dem",
       "count": 1,
       "status": "unmatched",
@@ -44521,24 +44638,6 @@
     },
     {
       "token": "girls-dem",
-      "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
-      "sources": [
-        "external\\cencos-transcripts.txt"
-      ]
-    },
-    {
-      "token": "Where dem",
-      "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
-      "sources": [
-        "external\\cencos-transcripts.txt"
-      ]
-    },
-    {
-      "token": "Where-dem",
       "count": 1,
       "status": "unmatched",
       "entry_id": null,
@@ -44683,6 +44782,24 @@
     },
     {
       "token": "whether-dem",
+      "count": 1,
+      "status": "unmatched",
+      "entry_id": null,
+      "sources": [
+        "external\\cencos-transcripts.txt"
+      ]
+    },
+    {
+      "token": "chop dem",
+      "count": 1,
+      "status": "unmatched",
+      "entry_id": null,
+      "sources": [
+        "external\\cencos-transcripts.txt"
+      ]
+    },
+    {
+      "token": "chop-dem",
       "count": 1,
       "status": "unmatched",
       "entry_id": null,
@@ -44873,8 +44990,8 @@
     {
       "token": "deh",
       "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "de",
       "sources": [
         "external\\naijasenti-pcm-train.txt"
       ]
@@ -44891,8 +45008,8 @@
     {
       "token": "pipo",
       "count": 1,
-      "status": "unmatched",
-      "entry_id": null,
+      "status": "known",
+      "entry_id": "pipul",
       "sources": [
         "external\\naijasenti-pcm-train.txt"
       ]

@@ -21,6 +21,8 @@ FUZZY_PATH = ROOT / "data" / "fuzzy_lookup.json"
 TOKEN = re.compile(
     r"[a-zA-ZàáèéìíòóùúÀÁÈÉÌÍÒÓÙÚ]+(?:[-'][a-zA-ZàáèéìíòóùúÀÁÈÉÌÍÒÓÙÚ]+)*"
 )
+# CENCOS-style turn labels (SPEAKER1:, Speaker2, …) — not lexical variants
+SPEAKER_LABEL = re.compile(r"\bspeaker\d*\b", re.IGNORECASE)
 
 
 def load_json(path: Path):
@@ -71,7 +73,17 @@ def corpus_files() -> list[Path]:
     return paths
 
 
+def extract_corpus_files() -> list[Path]:
+    """Sources for variant candidate extract.
+
+    Skip .conllu: UD_Naija-NSC is registered for example enrichment only.
+    Raw CoNLL-U dumps MISC/metadata (AlignBegin, Gloss, …) into token counts.
+    """
+    return [p for p in corpus_files() if p.suffix.lower() != ".conllu"]
+
+
 def tokenize(text: str) -> list[str]:
+    text = SPEAKER_LABEL.sub(" ", text)
     tokens = TOKEN.findall(text)
     out = list(tokens)
     # bigrams ending in dem (e.g. pickin dem, people-dem already single token if hyphenated)
@@ -88,8 +100,9 @@ def cmd_extract() -> int:
     known = build_known_index(entries)
     counts: Counter[str] = Counter()
     by_source: dict[str, Counter[str]] = {}
+    files = extract_corpus_files()
 
-    for path in corpus_files():
+    for path in files:
         text = path.read_text(encoding="utf-8")
         toks = tokenize(text)
         rel = str(path.relative_to(CORPUS_DIR))
@@ -117,7 +130,7 @@ def cmd_extract() -> int:
     save_json(
         CANDIDATES_PATH,
         {
-            "generated_from": [str(p.relative_to(ROOT)) for p in corpus_files()],
+            "generated_from": [str(p.relative_to(ROOT)) for p in files],
             "total_tokens": sum(counts.values()),
             "unique_tokens": len(counts),
             "unmatched_count": unmatched,
