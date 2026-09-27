@@ -1,7 +1,7 @@
 # Naijá Live Dictionary: An IFRA/NLA-Grounded Lexical Resource for Orthographic Standardization
 
 **Document type:** Scientific manuscript (project-canonical)  
-**Status:** Canonical reference for documentation (2026-07-12)  
+**Status:** Canonical reference for documentation (snapshot 2026-09-27)  
 **Canonical data:** `data/dictionary.json`  
 **Orthography authority:** IFRA/NLA Standard Naijá Orthography (SNO) [1]
 
@@ -9,9 +9,9 @@
 
 ## Abstract
 
-Nigerian Pidgin (Naijá) is widely spoken but lacks a single, widely adopted written standard in everyday digital use. Prior orthographies exist, yet accessible tooling that operationalizes a linguistic standard remains scarce. This paper presents the **Naijá Live Dictionary**, a structured, searchable lexical resource whose headwords follow the IFRA/Nigeria Linguistic Association (NLA) Standard Naijá Orthography (SNO) [1]. The system links informal and English-etymology spellings to SNO forms through a human-gated variant pipeline, and exposes lookup via a local web interface. The current release contains **306** validated entries, **52** curated variant mappings, and **629** indexed lookup keys, with pronunciation hints on all entries and Universal Dependencies (UD) Naija–NSC example enrichment for **264** entries [5]. Licensed corpora (NaijaSenti [2], CENCOS [3]) inform suggestion generation but do not auto-write dictionary content. We document methodology, data sources, validation, and limitations, and position the resource as a reproducible foundation for later normalization and NLP tools rather than a finished writing system.
+Nigerian Pidgin (Naijá) is widely spoken but lacks a single, widely adopted written standard in everyday digital use. Prior orthographies exist, yet accessible tooling that operationalizes a linguistic standard remains scarce. This paper presents the **Naijá Live Dictionary**, a structured, searchable lexical resource whose headwords follow the IFRA/Nigeria Linguistic Association (NLA) Standard Naijá Orthography (SNO) [1]. The system links informal and English-etymology spellings to SNO forms through a human-gated variant pipeline, and exposes lookup via a local web interface. The current release contains **317** validated entries, **81** curated variant mappings, and **672** indexed lookup keys, with pronunciation hints on most entries and Universal Dependencies (UD) Naija–NSC example enrichment where matched [5]. Licensed corpora (NaijaSenti [2], CENCOS [3]) inform suggestion generation but do not auto-write dictionary content. Beyond the Part I dictionary milestone, the repository now also ships Part II **sentence tools**: a rules-based orthographic normalizer over the variant index, an experimental thin spell-mapping model for offline comparison, and an optional local English→Pidgin Marian MT path post-processed with SNO spelling (UI Option B: MT-first; spelling-fix secondary) [11], [12]. We document methodology, data sources, validation, and limitations, and position the resource as a reproducible foundation for orthography-aware tools rather than a finished writing system or production MT product.
 
-**Keywords:** Nigerian Pidgin, Naijá, orthography, lexicography, variant mapping, IFRA/NLA SNO, low-resource languages
+**Keywords:** Nigerian Pidgin, Naijá, orthography, lexicography, variant mapping, IFRA/NLA SNO, normalization, low-resource languages
 
 ---
 
@@ -29,9 +29,11 @@ The gap addressed here is therefore practical as well as linguistic: **a living,
 
 **Hypothesis (program-level).** If an accessible, IFRA/NLA-grounded dictionary and variant index exist in digital form, standardized spelling becomes easier to check against and to adopt in tools—addressing tooling and documentation failures more than linguistic merit alone (see project planning document).
 
-**In scope (completed mini-milestone).** Schema design; seed lexicon; ethics-constrained corpus ingest; curated variant mapping; local web search with exact and fuzzy tiers; TEI Lex-0 export; pronunciation hints; UD-based example enrichment.
+**In scope (completed Part I mini-milestone).** Schema design; seed lexicon; ethics-constrained corpus ingest; curated variant mapping; local web search with exact and fuzzy tiers; TEI Lex-0 export; pronunciation hints; UD-based example enrichment.
 
-**Out of scope (North Star / future).** Keyboard layouts, online autocorrect, and trained neural normalization models. Rule-based G2P hints and optional FST/Lin-style suggesters are seeds only.
+**In scope (Part II sentence tools, landed).** Rules-based sentence orthographic normalizer consuming the variant index; experimental thin spell-mapping model for offline rules-vs-model comparison; optional local English→Pidgin Marian translation with SNO post-normalize; UI Option B (English→Pidgin primary; spelling-fix secondary) [11], [12].
+
+**Out of scope (still deferred).** Keyboard / IME layouts; production-grade neural orthographic autocorrect; claiming MT output as IFRA orthography authority without the SNO post-pass and human review.
 
 ### 1.3 Contributions
 
@@ -40,6 +42,7 @@ The gap addressed here is therefore practical as well as linguistic: **a living,
 3. **Human-gated variant pipeline** over licensed corpora, with explicit rejection of English code-switch false positives.
 4. **Operational lookup stack:** exact variant index, substring search, and Levenshtein fuzzy suggestions (distance ≤ 2).
 5. **Interop and attribution:** TEI Lex-0 export, citation pack, and tiered public-release licensing (Decision D4).
+6. **Sentence tooling (Part II):** orthographic normalize over dictionary assets; optional local EN→PCM MT with SNO post-processing; clear separation from word-level Live Dictionary lookup [11], [12].
 
 ### 1.4 Paper organization
 
@@ -88,7 +91,7 @@ Orthography encoding rules (project schema documentation):
 
 ### 3.3 Seed lexicon
 
-A seed builder (`data/build_seed.py`) populates IFRA-aligned core vocabulary. Current size: **306** entries (few-hundred target for Phase 2).
+A seed builder (`data/build_seed.py`) populates IFRA-aligned core vocabulary. Current size: **317** entries (few-hundred target for Phase 2; live count from `schema/validate.py` / `web/verify.py`).
 
 ### 3.4 Variant pipeline
 
@@ -123,7 +126,13 @@ Rule-based broad G2P hints (`g2p_hints.py` / `enrich_pronunciation.py`) fill opt
 
 A static browser UI (`web/`) loads `dictionary.json`, `variant_index.json`, and `fuzzy_lookup.json` from a local server rooted at the project directory (`web/serve.py`). Lookup order: exact variant index → substring search → fuzzy “Did you mean?” (Levenshtein ≤ 2).
 
-### 3.8 Interoperability
+### 3.8 Sentence tools (Part II)
+
+Orthographic **normalize** (`data/normalize.py`, spelling-fix panel on `/web/normalize.html`) maps each token via the variant index (exact → fuzzy ≤ 2 → leave unknown). It does **not** rewrite English grammar; English residue on English inputs is expected. An experimental **model** backend (exact curated pairs + edit/NN heuristics) exists for offline `--compare` against rules; fold generalization remains weak relative to rules and is not the primary UX [11], [12].
+
+**English → Pidgin** (primary sentence UX, Option B) runs local Marian MT (`NITHUB-AI/marian-mt-bbc-en-pcm` via optional `transformers`/`torch`) then applies rules normalize for SNO spelling (`data/translate_en_pcm.py`, `POST /api/translate`). MT output is not treated as IFRA authority by itself. Keyboard/IME remains deferred.
+
+### 3.9 Interoperability
 
 `export/tei_lex0.py` produces `export/naija-dictionary.lex0.xml` from the canonical JSON (one-way). Citations are maintained in `docs/citation-pack.md`.
 
@@ -152,7 +161,7 @@ All ingested files must be registered in `data/corpus/sources.json` with license
 
 ```text
 python schema/validate.py data/dictionary.json
-→ OK: 306 entries validated
+→ OK: 317 entries validated   # live 2026-09-27; prior Part I snapshot was 306
 ```
 
 Schema enforces required fields, POS enum, and `additionalProperties: false`.
@@ -161,30 +170,30 @@ Schema enforces required fields, POS enum, and `additionalProperties: false`.
 
 ```text
 python web/verify.py
-→ OK: 306 entries, 629 index keys, 629 fuzzy terms, web files present
+→ OK: 317 entries, 672 index keys, 672 fuzzy terms, web + docs layers present
 ```
 
-Hard-coded regression lookups include `pickin`→`pikin`, `book`→`buk`, `dey`→`de-copula`.
+Hard-coded regression lookups include `pickin`→`pikin`, `book`→`buk`, `dey`→`de-copula`. Orthographic normalize self-check: `python data/normalize.py --self-check`.
 
 ### 5.3 Example enrichment report
 
 ```text
 python data/enrich_examples.py report
-→ 306 entries; 264 with 2+ examples; 264 tagged UD_Naija-NSC
 ```
 
-Pipeline summary: 8,790 UD sentences parsed; 519 examples applied across 264 entries [8].
+Historical Part I run (2026-07): 8,790 UD sentences parsed; 519 examples applied across 264 entries [8]. Re-run the report before citing live multi-example counts (validators first when numbers conflict).
 
-### 5.4 Quantitative snapshot (2026-07-12)
+### 5.4 Quantitative snapshot (live 2026-09-27)
 
 | Metric | Value |
 |--------|------:|
-| Dictionary entries | 306 |
-| Schema-valid | 306/306 |
-| Pronunciation present | 306/306 |
-| Curated variant mappings | 52 |
-| Exact / fuzzy index keys | 629 |
-| Entries with ≥2 examples | 264 |
+| Dictionary entries | 317 |
+| Schema-valid | 317/317 |
+| Pronunciation present | 306/317 |
+| Curated variant mappings | 81 |
+| Index / fuzzy terms | 672 |
+| Orthographic normalizer | Rules default; model CLI/`--compare` only |
+| EN→Pidgin sentence path | Local Marian + rules SNO post-pass (optional deps) |
 | Pending auto-suggestions (uncurated) | large (~1.6k historically); not applied |
 
 ### 5.5 Negative validation (lessons)
@@ -195,15 +204,16 @@ An early batch-1 auto-heuristic (~124 fuzzy mappings) produced systematic false 
 
 ## 6. Limitations
 
-1. **Coverage.** 306 entries is a seed, not a comprehensive dictionary of Naijá.
+1. **Coverage.** 317 entries is a seed, not a comprehensive dictionary of Naijá.
 2. **Authority completeness.** Full IFRA PDF is not redistributed; SNO encoding relies on documented principles and web/guide summaries plus editorial judgment [1], [7].
 3. **Corpus bias.** CENCOS is code-switched English–Pidgin speech; raw frequency rankings over-represent English function words.
 4. **NaijaSenti ingest.** Full tweet-scale ingest may require additional dependencies (`datasets`); current pcm sample may be partial.
-5. **Examples.** UD matching is heuristic; orthography in `# text_ortho` may still diverge from SNO; 42 entries lack multi-example enrichment.
-6. **Pronunciation.** Broad hyphenated hints, not IPA or audio alignment.
-7. **Evaluation.** No user study yet of adoption or spelling-normalization accuracy beyond smoke tests.
-8. **Licensing.** Public release must respect D4 tiers and CC BY-SA share-alike for UD-derived example bundles.
+5. **Examples.** UD matching is heuristic; orthography in `# text_ortho` may still diverge from SNO; enrichment counts drift—re-run `enrich_examples.py report` before citing.
+6. **Pronunciation.** Broad hyphenated hints, not IPA or audio alignment; a minority of newer entries may lack hints.
+7. **Evaluation.** No user study yet of adoption; orthographic model fold accuracy remains far below rules on held-out pairs; MT quality is not systematically scored here.
+8. **Licensing.** Public release must respect D4 tiers and CC BY-SA share-alike for UD-derived example bundles; third-party Marian weights have their own terms.
 9. **Hypothesis untested.** The program claim that tooling increases SNO adoption is motivational, not empirically confirmed here.
+10. **Sentence MT ≠ orthography authority.** English→Pidgin changes meaning/structure; only the SNO post-pass and dictionary policy encode IFRA spelling. Spelling-fix alone leaves English residue on English inputs by design.
 
 ---
 
@@ -211,7 +221,7 @@ An early batch-1 auto-heuristic (~124 fuzzy mappings) produced systematic false 
 
 ### 7.1 Alignment with initial goals
 
-The Live Dictionary mini-project exit criteria—authority decision, schema, seed lexicon, variant pipeline + ethics, and searchable UI—are met. The resource therefore satisfies the *immediate* aim: an IFRA-grounded living reference with informal→standard lookup. North Star tooling (keyboard, autocorrect, trained models) remains future work; current NLP artifacts are intentionally thin seeds.
+The Live Dictionary mini-project exit criteria—authority decision, schema, seed lexicon, variant pipeline + ethics, and searchable UI—are met. The resource therefore satisfies the *immediate* Part I aim: an IFRA-grounded living reference with informal→standard lookup. Part II sentence tooling now consumes that lexicon for orthographic normalize and optional local EN→Pidgin conversion [11], [12]; keyboard/IME and strong orthographic neural models remain open. UX Option B treats English→Pidgin as the primary sentence action and spelling-fix as secondary so users do not confuse token SNO mapping with translation.
 
 ### 7.2 Design implications
 
@@ -225,9 +235,11 @@ Canonical scientific claims in this manuscript should drive developer, researche
 
 - Expand curated mappings from pending suggestions with continued human review.
 - Complete licensed corpus ingest where technically blocked.
-- User studies of lookup success and spelling preference.
-- Part II: normalization tools and models that consume `dictionary.json` / variant index as supervision.
+- User studies of lookup success, spelling preference, and sentence-tool usefulness.
+- Stronger orthographic models or eval suites (rules still dominate the thin fold baseline).
+- Keyboard / IME support.
 - Public release packaging under D4 Tier A/B with clear attribution.
+- Keep manuscript metrics aligned with live validators after each lexicon growth pass.
 
 ---
 
@@ -259,6 +271,10 @@ Orthography follows IFRA/NLA SNO [1]. This project is not affiliated with IFRA N
 
 [10] Naijá Live Dictionary project, “D4 — IFRA Public-Release Licensing Policy,” 2026. (`docs/d4-public-release-licensing.md`)
 
+[11] Naijá Live Dictionary project, “Part II — Sentence Normalizer (rules → model compare),” design + phase notes, 2026. (`docs/superpowers/specs/2026-09-22-part-ii-normalizer-design.md`, `docs/phase-ii-1-normalizer.md`, `docs/phase-ii-2-normalizer-model.md`)
+
+[12] Naijá Live Dictionary project, “Part II-3 — Harden + EN→Pidgin translate (Option B UX),” 2026. (`docs/superpowers/specs/2026-09-23-part-ii-3-translate-harden-design.md`, `docs/phase-ii-3-translate-harden.md`)
+
 ---
 
 ## Appendix A — Reproducibility commands
@@ -266,9 +282,13 @@ Orthography follows IFRA/NLA SNO [1]. This project is not affiliated with IFRA N
 ```bash
 python schema/validate.py data/dictionary.json
 python web/verify.py
+python data/normalize.py --self-check
 python data/enrich_examples.py report
 python export/tei_lex0.py
-python web/serve.py   # http://localhost:8765/web/
+python web/serve.py   # http://localhost:8765/web/  ·  /web/normalize.html
+# optional MT:
+# pip install -r requirements-translate.txt
+# python data/translate_en_pcm.py "I want a book."
 ```
 
 ## Appendix B — Decision register (project)

@@ -12,7 +12,7 @@ An IFRA/NLA **Standard Naijá Orthography (SNO)**–grounded lexical inventory w
 - optional broad pronunciation hints
 - TEI Lex-0 export for interop
 
-It is **not** a trained NLP model and **not** a full descriptive grammar.
+It is **not** a finished writing system, **not** a production MT product, and **not** a substitute for IFRA guide republication. The Live Dictionary remains the word-level authority; Part II adds sentence orthographic normalize and optional local EN→Pidgin conversion [see manuscript §1.2, §3.8].
 
 ## Orthography policy (D1/D2)
 
@@ -24,16 +24,18 @@ It is **not** a trained NLP model and **not** a full descriptive grammar.
 
 Use BibTeX in [`../citation-pack.md`](../citation-pack.md). Always cite corpus sources you rely on (NaijaSenti, CENCOS, UD_Naija-NSC).
 
-## Key quantitative claims (snapshot)
+## Key quantitative claims (snapshot 2026-09-27)
 
-Re-verify before publication:
+Re-verify before publication (`python web/verify.py`):
 
 | Metric | Typical value |
 |--------|----------------|
-| Entries | 306 |
-| Curated mappings | 52 |
-| Index keys | 629 |
-| Entries with ≥2 examples | 264 |
+| Entries | 317 |
+| Curated mappings | 81 |
+| Index keys | 672 |
+| Pronunciation present | 306/317 |
+
+Older Part I prose citing 306/52/629 remains historically correct for the 2026-07 snapshot.
 
 ## Licensing
 
