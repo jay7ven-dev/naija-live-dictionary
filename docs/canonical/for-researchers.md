@@ -30,10 +30,10 @@ Re-verify before publication (`python web/verify.py`):
 
 | Metric | Typical value |
 |--------|----------------|
-| Entries | 361 |
+| Entries | 383 |
 | Curated mappings | 104 |
-| Index keys | 775 |
-| Pronunciation present | 361/361 |
+| Index keys | 826 |
+| Pronunciation present | 383/383 |
 
 Older Part I prose citing 306/52/629 remains historically correct for the 2026-07 snapshot.
 

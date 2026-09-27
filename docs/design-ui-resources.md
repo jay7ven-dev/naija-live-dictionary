@@ -122,7 +122,7 @@ Do not run these until approved. Catalog: https://www.skills.sh/topic/design · 
 | TEI Lex-0 (CLARIN) | https://standards.clarin.eu/sis/views/view-format.xq?id=fLex0 | reference | Schema/docs, not chrome |
 | TEI Lex-0 (HAL) | https://hal.science/hal-01757108v1 | reference | Same |
 | **uFuzzy** | https://github.com/leeoniya/uFuzzy | **uninstalled** (library) | Strongest client-side fuzzy for short headwords |
-| **Typesense** | https://github.com/typesense/typesense | **uninstalled** (engine) | Overkill at ~361 entries / ~775 index keys |
+| **Typesense** | https://github.com/typesense/typesense | **uninstalled** (engine) | Overkill at ~383 entries / ~826 index keys |
 | Meilisearch relevance | https://www.meilisearch.com/blog/search-relevance | reference | Ranking model: typo ≠ synonym |
 | GOV.UK search autocomplete | https://design-guide.publishing.service.gov.uk/components/search-autocomplete/ | reference | When to autocomplete; ~3-char threshold; cap ~5 suggestions |
 | Figma forum: typo-tolerant search | https://forum.figma.com/t/better-component-finders-adding-typo-tolerant-search-for-enhanced-usability/50981 | reference | Typo tolerance as baseline UX |

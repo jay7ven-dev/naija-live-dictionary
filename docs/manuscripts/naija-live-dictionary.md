@@ -9,7 +9,7 @@
 
 ## Abstract
 
-Nigerian Pidgin (Naijá) is widely spoken but lacks a single, widely adopted written standard in everyday digital use. Prior orthographies exist, yet accessible tooling that operationalizes a linguistic standard remains scarce. This paper presents the **Naijá Live Dictionary**, a structured, searchable lexical resource whose headwords follow the IFRA/Nigeria Linguistic Association (NLA) Standard Naijá Orthography (SNO) [1]. The system links informal and English-etymology spellings to SNO forms through a human-gated variant pipeline, and exposes lookup via a local web interface. The current release contains **361** validated entries, **104** curated variant mappings, and **775** indexed lookup keys, with pronunciation hints on most entries and Universal Dependencies (UD) Naija–NSC example enrichment where matched [5]. Licensed corpora (NaijaSenti [2], CENCOS [3]) inform suggestion generation but do not auto-write dictionary content. Beyond the Part I dictionary milestone, the repository now also ships Part II **sentence tools**: a rules-based orthographic normalizer over the variant index, an experimental thin spell-mapping model for offline comparison, and an optional local English→Pidgin Marian MT path post-processed with SNO spelling (UI Option B: MT-first; spelling-fix secondary) [11], [12]. We document methodology, data sources, validation, and limitations, and position the resource as a reproducible foundation for orthography-aware tools rather than a finished writing system or production MT product.
+Nigerian Pidgin (Naijá) is widely spoken but lacks a single, widely adopted written standard in everyday digital use. Prior orthographies exist, yet accessible tooling that operationalizes a linguistic standard remains scarce. This paper presents the **Naijá Live Dictionary**, a structured, searchable lexical resource whose headwords follow the IFRA/Nigeria Linguistic Association (NLA) Standard Naijá Orthography (SNO) [1]. The system links informal and English-etymology spellings to SNO forms through a human-gated variant pipeline, and exposes lookup via a local web interface. The current release contains **383** validated entries, **104** curated variant mappings, and **826** indexed lookup keys, with pronunciation hints on most entries and Universal Dependencies (UD) Naija–NSC example enrichment where matched [5]. Licensed corpora (NaijaSenti [2], CENCOS [3]) inform suggestion generation but do not auto-write dictionary content. Beyond the Part I dictionary milestone, the repository now also ships Part II **sentence tools**: a rules-based orthographic normalizer over the variant index, an experimental thin spell-mapping model for offline comparison, and an optional local English→Pidgin Marian MT path post-processed with SNO spelling (UI Option B: MT-first; spelling-fix secondary) [11], [12]. We document methodology, data sources, validation, and limitations, and position the resource as a reproducible foundation for orthography-aware tools rather than a finished writing system or production MT product.
 
 **Keywords:** Nigerian Pidgin, Naijá, orthography, lexicography, variant mapping, IFRA/NLA SNO, normalization, low-resource languages
 
@@ -91,7 +91,7 @@ Orthography encoding rules (project schema documentation):
 
 ### 3.3 Seed lexicon
 
-A seed builder (`data/build_seed.py`) populates IFRA-aligned core vocabulary. Current size: **361** entries (few-hundred target for Phase 2; live count from `schema/validate.py` / `web/verify.py`).
+A seed builder (`data/build_seed.py`) populates IFRA-aligned core vocabulary. Current size: **383** entries (few-hundred target for Phase 2; live count from `schema/validate.py` / `web/verify.py`).
 
 ### 3.4 Variant pipeline
 
@@ -161,7 +161,7 @@ All ingested files must be registered in `data/corpus/sources.json` with license
 
 ```text
 python schema/validate.py data/dictionary.json
-→ OK: 361 entries validated   # live 2026-09-27; prior snapshot was 339
+→ OK: 383 entries validated   # live 2026-09-27; prior snapshot was 361
 ```
 
 Schema enforces required fields, POS enum, and `additionalProperties: false`.
@@ -170,7 +170,7 @@ Schema enforces required fields, POS enum, and `additionalProperties: false`.
 
 ```text
 python web/verify.py
-→ OK: 361 entries, 775 index keys, 775 fuzzy terms, web + docs layers present
+→ OK: 383 entries, 826 index keys, 826 fuzzy terms, web + docs layers present
 ```
 
 Hard-coded regression lookups include `pickin`→`pikin`, `book`→`buk`, `dey`→`de-copula`. Orthographic normalize self-check: `python data/normalize.py --self-check`.
@@ -187,11 +187,11 @@ Historical Part I run (2026-07): 8,790 UD sentences parsed; 519 examples applied
 
 | Metric | Value |
 |--------|------:|
-| Dictionary entries | 361 |
-| Schema-valid | 361/361 |
-| Pronunciation present | 361/361 |
+| Dictionary entries | 383 |
+| Schema-valid | 383/383 |
+| Pronunciation present | 383/383 |
 | Curated variant mappings | 104 |
-| Index / fuzzy terms | 775 |
+| Index / fuzzy terms | 826 |
 | Orthographic normalizer | Rules default; model CLI/`--compare` only |
 | EN→Pidgin sentence path | Local Marian + rules SNO post-pass (optional deps) |
 | Pending auto-suggestions (uncurated) | large (~1.6k historically); not applied |
@@ -204,7 +204,7 @@ An early batch-1 auto-heuristic (~124 fuzzy mappings) produced systematic false 
 
 ## 6. Limitations
 
-1. **Coverage.** 361 entries is a seed, not a comprehensive dictionary of Naijá.
+1. **Coverage.** 383 entries is a seed, not a comprehensive dictionary of Naijá.
 2. **Authority completeness.** Full IFRA PDF is not redistributed; SNO encoding relies on documented principles and web/guide summaries plus editorial judgment [1], [7].
 3. **Corpus bias.** CENCOS is code-switched English–Pidgin speech; raw frequency rankings over-represent English function words.
 4. **NaijaSenti ingest.** Full tweet-scale ingest may require additional dependencies (`datasets`); current pcm sample may be partial.
