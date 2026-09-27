@@ -282,6 +282,44 @@ body {
   outline-offset: 2px;
 }
 
+.compose-assist {
+  margin: 0.65rem 0 0;
+}
+
+.compose-keys {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin: 0.35rem 0 0.25rem;
+}
+
+.compose-key {
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.3rem 0.55rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+  min-width: 2.25rem;
+}
+
+.compose-key:hover {
+  border-color: var(--accent);
+}
+
+.compose-key:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.compose-assist .suggest {
+  position: relative;
+  margin-top: 0.35rem;
+}
+
 .normalize-actions {
   margin: 0.75rem 0 0;
   display: flex;

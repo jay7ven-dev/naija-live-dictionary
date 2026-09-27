@@ -25,12 +25,18 @@
         autocomplete="off"
         autocorrect="off"
         spellcheck="false"
-        aria-describedby="q-hint"
+        aria-describedby="q-hint compose-hint"
         aria-autocomplete="list"
         aria-controls="suggest"
         aria-expanded="false"
         autofocus
       >
+      <div class="compose-assist" aria-label="SNO compose assist">
+        <p id="compose-hint" class="field-hint">
+          Digraphs and high-tone vowels (IFRA SNO). Click to insert at the cursor.
+        </p>
+        <div id="compose-keys" class="compose-keys" role="group" aria-label="Digraph and tone inserts"></div>
+      </div>
       <ul id="suggest" class="suggest hidden" role="listbox" aria-label="Spelling suggestions"></ul>
       <p id="status" class="status" aria-live="polite"></p>
     </section>
@@ -44,6 +50,7 @@
     <p class="footer-note">Not affiliated with IFRA Nigeria. Orthography follows the IFRA/NLA Standard Naijá Orthography (2010).</p>
   </footer>
 
+  <script src="compose.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

@@ -21,6 +21,7 @@ def main() -> int:
         ROOT / "web" / "app.js",
         ROOT / "web" / "normalize.html",
         ROOT / "web" / "normalize.js",
+        ROOT / "web" / "compose.js",
         ROOT / "web" / "docs" / "index.html",
         ROOT / "web" / "docs" / "user" / "index.html",
         ROOT / "web" / "docs" / "ifra" / "index.html",

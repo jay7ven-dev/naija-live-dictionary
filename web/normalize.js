@@ -279,6 +279,13 @@ async function boot() {
       model = null;
       $status.textContent = "Ready · English → Pidgin (primary). Spelling fix uses rules only.";
     }
+    window.ComposeAssist.mountComposeAssist({
+      input: $in,
+      keysEl: document.getElementById("compose-keys"),
+      suggestEl: document.getElementById("compose-suggest"),
+      catalog: window.ComposeAssist.catalogFromIndex(index, byId),
+      enableSuggest: true,
+    });
   } catch (err) {
     $status.textContent = String(err.message || err);
   } finally {

@@ -169,6 +169,11 @@ async function load() {
   } else {
     fuzzyTerms = [...variantLookup.entries()].map(([term, id]) => ({ term, id }));
   }
+  window.ComposeAssist.mountComposeAssist({
+    input: $q,
+    keysEl: document.getElementById("compose-keys"),
+    enableSuggest: false,
+  });
   $results.removeAttribute("aria-busy");
   $status.textContent = `${entries.length} entries loaded`;
   renderIdle();

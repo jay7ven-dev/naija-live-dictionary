@@ -29,8 +29,18 @@
         placeholder="e.g. I want to see you"
         autocomplete="off"
         spellcheck="false"
-        aria-describedby="in-hint"
+        aria-describedby="in-hint compose-hint"
+        aria-autocomplete="list"
+        aria-controls="compose-suggest"
+        aria-expanded="false"
       ></textarea>
+      <div class="compose-assist" aria-label="SNO compose assist">
+        <p id="compose-hint" class="field-hint">
+          Digraphs and high-tone vowels (IFRA SNO). Click to insert at the cursor. Typing also shows dictionary prefix suggestions.
+        </p>
+        <div id="compose-keys" class="compose-keys" role="group" aria-label="Digraph and tone inserts"></div>
+        <ul id="compose-suggest" class="suggest hidden" role="listbox" aria-label="SNO spelling suggestions"></ul>
+      </div>
       <p class="normalize-actions">
         <button type="button" id="translate" class="btn">English → Pidgin</button>
       </p>
@@ -64,6 +74,7 @@
     <p class="footer-note">Not affiliated with IFRA Nigeria. Orthography follows the IFRA/NLA Standard Naijá Orthography (2010). Sentence conversion uses a local Marian model then rules spelling; MT alone is not IFRA authority.</p>
   </footer>
 
+  <script src="compose.js"></script>
   <script src="normalize.js"></script>
 </body>
 </html>
