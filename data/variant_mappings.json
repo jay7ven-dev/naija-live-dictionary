@@ -485,6 +485,144 @@
       "entry_id": "find",
       "source": "curated-batch-3",
       "note": "Lin review: vain → fain (find lemma, not adj fain)"
+    },
+    {
+      "variant": "happun",
+      "entry_id": "hapen",
+      "source": "curated-batch-5",
+      "note": "happen spelling"
+    },
+    {
+      "variant": "finsh",
+      "entry_id": "finis",
+      "source": "curated-batch-5",
+      "note": "finish clip/typo"
+    },
+    {
+      "variant": "clim",
+      "entry_id": "klaim",
+      "source": "curated-batch-5",
+      "note": "climb clip"
+    },
+    {
+      "variant": "freind",
+      "entry_id": "frend",
+      "source": "curated-batch-5",
+      "note": "friend typo"
+    },
+    {
+      "variant": "docta",
+      "entry_id": "dokta",
+      "source": "curated-batch-5",
+      "note": "doctor spelling"
+    },
+    {
+      "variant": "mawning",
+      "entry_id": "mornin",
+      "source": "curated-batch-5",
+      "note": "morning spelling"
+    },
+    {
+      "variant": "shoutin",
+      "entry_id": "shaut",
+      "source": "curated-batch-5",
+      "note": "shouting clip"
+    },
+    {
+      "variant": "watta",
+      "entry_id": "wota",
+      "source": "curated-batch-5",
+      "note": "water spelling"
+    },
+    {
+      "variant": "fon",
+      "entry_id": "fone",
+      "source": "curated-batch-5",
+      "note": "phone clip"
+    },
+    {
+      "variant": "boddy",
+      "entry_id": "bodi",
+      "source": "curated-batch-5",
+      "note": "body spelling"
+    },
+    {
+      "variant": "mauth",
+      "entry_id": "mout",
+      "source": "curated-batch-5",
+      "note": "mouth spelling"
+    },
+    {
+      "variant": "plase",
+      "entry_id": "ples",
+      "source": "curated-batch-5",
+      "note": "place spelling"
+    },
+    {
+      "variant": "yung",
+      "entry_id": "yong",
+      "source": "curated-batch-5",
+      "note": "young spelling"
+    },
+    {
+      "variant": "okrah",
+      "entry_id": "okro",
+      "source": "curated-batch-5",
+      "note": "okra spelling"
+    },
+    {
+      "variant": "fis",
+      "entry_id": "fisi",
+      "source": "curated-batch-5",
+      "note": "fish clip"
+    },
+    {
+      "variant": "biya",
+      "entry_id": "bia",
+      "source": "curated-batch-5",
+      "note": "beer spelling"
+    },
+    {
+      "variant": "eazy",
+      "entry_id": "izi",
+      "source": "curated-batch-5",
+      "note": "easy spelling"
+    },
+    {
+      "variant": "hevy",
+      "entry_id": "hevi",
+      "source": "curated-batch-5",
+      "note": "heavy spelling"
+    },
+    {
+      "variant": "ogah",
+      "entry_id": "oga",
+      "source": "curated-batch-5",
+      "note": "oga spelling"
+    },
+    {
+      "variant": "helep",
+      "entry_id": "help",
+      "source": "curated-batch-5",
+      "note": "help spelling"
+    },
+    {
+      "variant": "helpu",
+      "entry_id": "help",
+      "source": "curated-batch-5",
+      "note": "help spelling"
+    },
+    {
+      "variant": "neare",
+      "entry_id": "nia",
+      "source": "curated-batch-5",
+      "note": "near spelling"
+    },
+    {
+      "variant": "dakk",
+      "entry_id": "dak",
+      "source": "curated-batch-5",
+      "note": "dark spelling"
     }
   ]
 }

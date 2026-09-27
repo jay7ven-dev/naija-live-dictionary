@@ -372,6 +372,30 @@ SEED = [
     entry("tii", "tii", "noun", ["tea"], ["I wan tii."], ["tea"]),
     entry("kofe", "kofe", "noun", ["coffee"], ["I wan kofe."], ["coffee"]),
     entry("shuz", "shuz", "noun", ["shoe; shoes"], ["Put yu shuz."], ["shoe", "shoes"]),
+
+    # --- Lexicon growth batch 2 2026-09-27 (core gaps + sample sharp/climb) ---
+    entry("sharp", "sharp", "adjective", ["sharp; quick; also intensifier in sharp-sharp"], ["Make we go sharp-sharp."], []),
+    entry("sef", "sef", "particle", ["emphatic particle (even; self)"], ["I sef go go."], ["self"]),
+    entry("nia", "nia", "adverb", ["near; nearby"], ["Di skul nia."], ["near", "nearby"]),
+    entry("fut", "fut", "noun", ["foot; feet"], ["Mai fut de pein."], ["foot", "feet"]),
+    entry("bele", "bele", "noun", ["belly; stomach"], ["Mai bele don ful."], ["beli", "belly", "stomach"]),
+    entry("yam", "yam", "noun", ["yam"], ["I wan chop yam."], []),
+    entry("egusi", "egusi", "noun", ["egusi (melon-seed soup or stew)"], ["Mama kuk egusi."], []),
+    entry("okro", "okro", "noun", ["okra"], ["Okro soup sweet."], ["okra"]),
+    entry("fisi", "fisi", "noun", ["fish"], ["I wan fisi."], ["fish"]),
+    entry("bred", "bred", "noun", ["bread"], ["Buy bred fo mi."], ["bread"]),
+    entry("bia", "bia", "noun", ["beer"], ["Im de drink bia."], ["beer"]),
+    entry("klaim", "klaim", "verb", ["to climb"], ["E klaim di tri."], ["climb", "klimb"]),
+    entry("finis", "finis", "verb", ["to finish"], ["Finis yu wok."], ["finish"]),
+    entry("opin", "opin", "verb", ["to open"], ["Opin di do."], ["open"]),
+    entry("weit", "weit", "verb", ["to wait"], ["Weit fo mi."], ["wait"]),
+    entry("dans", "dans", "verb", ["to dance"], ["Dem de dans."], ["dance"]),
+    entry("izi", "izi", "adjective", ["easy"], ["Di wok izi."], ["easy"]),
+    entry("hevi", "hevi", "adjective", ["heavy"], ["Dis bag hevi."], ["heavy"]),
+    entry("dak", "dak", "adjective", ["dark"], ["Di rum dak."], ["dark"]),
+    entry("mornin", "mornin", "noun", ["morning"], ["Gud mornin."], ["morning"]),
+    entry("frend", "frend", "noun", ["friend"], ["Im na mai frend."], ["friend"]),
+    entry("oga", "oga", "noun", ["boss; sir; master"], ["Oga, abeg help mi."], ["boss"]),
 ]
 # fmt: on
 

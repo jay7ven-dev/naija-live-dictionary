@@ -14,6 +14,7 @@ BATCH1_OUT = ROOT / "data" / "curated_batch_1.json"
 BATCH2_OUT = ROOT / "data" / "curated_batch_2.json"
 BATCH3_OUT = ROOT / "data" / "curated_batch_3.json"
 BATCH4_OUT = ROOT / "data" / "curated_batch_4.json"
+BATCH5_OUT = ROOT / "data" / "curated_batch_5.json"
 REVIEW_OUT = ROOT / "docs" / "review-lin-suggestions.md"
 
 # Common English / code-switch tokens in CENCOS — never auto-map via lin
@@ -106,6 +107,33 @@ BATCH_4_VERIFIED: list[tuple[str, str, str]] = [
     ("come", "kom", "English come → kom"),
 ]
 
+# Batch 5 — alternate spellings for growth entries + help (index gaps only; no Lin FPs)
+BATCH_5_VERIFIED: list[tuple[str, str, str]] = [
+    ("happun", "hapen", "happen spelling"),
+    ("finsh", "finis", "finish clip/typo"),
+    ("clim", "klaim", "climb clip"),
+    ("freind", "frend", "friend typo"),
+    ("docta", "dokta", "doctor spelling"),
+    ("mawning", "mornin", "morning spelling"),
+    ("shoutin", "shaut", "shouting clip"),
+    ("watta", "wota", "water spelling"),
+    ("fon", "fone", "phone clip"),
+    ("boddy", "bodi", "body spelling"),
+    ("mauth", "mout", "mouth spelling"),
+    ("plase", "ples", "place spelling"),
+    ("yung", "yong", "young spelling"),
+    ("okrah", "okro", "okra spelling"),
+    ("fis", "fisi", "fish clip"),
+    ("biya", "bia", "beer spelling"),
+    ("eazy", "izi", "easy spelling"),
+    ("hevy", "hevi", "heavy spelling"),
+    ("ogah", "oga", "oga spelling"),
+    ("helep", "help", "help spelling"),
+    ("helpu", "help", "help spelling"),
+    ("neare", "nia", "near spelling"),
+    ("dakk", "dak", "dark spelling"),
+]
+
 
 def norm(s: str) -> str:
     return s.casefold()
@@ -170,6 +198,24 @@ def assess_lin_row(s: dict, by_id: dict, known: set[str]) -> dict:
         "reject_reasons": reasons,
         "sources": s.get("sources", []),
     }
+
+
+def build_batch5(by_id: dict, known: set[str] | None = None) -> list[dict]:
+    """Build batch 5 list. If known is set, skip already-mapped variants (for --apply)."""
+    out: list[dict] = []
+    seen: set[str] = set()
+    for variant, eid, note in BATCH_5_VERIFIED:
+        if eid not in by_id:
+            continue
+        if norm(variant) == norm(by_id[eid]["standard_spelling"]):
+            continue
+        if norm(variant) in seen:
+            continue
+        if known is not None and norm(variant) in known:
+            continue
+        seen.add(norm(variant))
+        out.append({"variant": variant, "entry_id": eid, "source": "curated-batch-5", "note": note})
+    return out
 
 
 def build_batch4(by_id: dict, known: set[str] | None = None) -> list[dict]:
@@ -345,6 +391,28 @@ def cmd_batch2(apply: bool) -> int:
     return 0
 
 
+def cmd_batch5(apply: bool) -> int:
+    entries = json.loads(DICT.read_text(encoding="utf-8"))
+    mappings = json.loads(MAPPINGS.read_text(encoding="utf-8"))["mappings"]
+    by_id = {e["id"]: e for e in entries}
+    known = load_known_variants(entries, mappings)
+    catalog = build_batch5(by_id, known=None)
+    to_apply = build_batch5(by_id, known=known)
+    BATCH5_OUT.write_text(
+        json.dumps({"batch": 5, "count": len(catalog), "mappings": catalog}, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    print(f"Batch 5 (growth alts + help): {len(catalog)} mappings -> {BATCH5_OUT}")
+    if apply and to_apply:
+        added, total = merge_mappings(to_apply, True)
+        print(f"Applied {added} new (total {total}) -> {MAPPINGS}")
+    elif apply:
+        print(f"All batch 5 variants already in mappings ({len(mappings)} total)")
+    for m in catalog:
+        print(f"  {m['variant']!r} -> {by_id[m['entry_id']]['standard_spelling']}")
+    return 0
+
+
 def cmd_batch4(apply: bool) -> int:
     entries = json.loads(DICT.read_text(encoding="utf-8"))
     mappings = json.loads(MAPPINGS.read_text(encoding="utf-8"))["mappings"]
@@ -402,6 +470,8 @@ def main(argv: list[str]) -> int:
     apply = "--apply" in argv
     if "review-lin" in argv:
         return cmd_review_lin()
+    if "batch5" in argv:
+        return cmd_batch5(apply)
     if "batch4" in argv:
         return cmd_batch4(apply)
     if "batch3" in argv:
@@ -411,11 +481,12 @@ def main(argv: list[str]) -> int:
     if "batch1" in argv:
         return cmd_batch1(apply)
     print(
-        "Usage: curate_mappings.py batch1|batch2|batch3|batch4|review-lin [--apply]\n"
+        "Usage: curate_mappings.py batch1|batch2|batch3|batch4|batch5|review-lin [--apply]\n"
         "  batch1      — human-verified batch 1\n"
         "  batch2      — lin-only, count>=5, forward-validated, blocklist\n"
         "  batch3      — manual review (lin low-count + English loans)\n"
         "  batch4      — English loans + informal spellings from dictionary\n"
+        "  batch5      — growth-entry alternate spellings + help\n"
         "  review-lin  — write docs/review-lin-suggestions.md",
         file=sys.stderr,
     )

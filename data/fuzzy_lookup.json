@@ -171,12 +171,24 @@
       "id": "bed"
     },
     {
+      "term": "beer",
+      "id": "bia"
+    },
+    {
       "term": "before",
       "id": "bifo"
     },
     {
       "term": "begin",
       "id": "bigin"
+    },
+    {
+      "term": "bele",
+      "id": "bele"
+    },
+    {
+      "term": "beli",
+      "id": "bele"
     },
     {
       "term": "bell",
@@ -189,6 +201,10 @@
     {
       "term": "belly",
       "id": "belle"
+    },
+    {
+      "term": "bia",
+      "id": "bia"
     },
     {
       "term": "bifo",
@@ -213,6 +229,14 @@
     {
       "term": "bikos",
       "id": "bikos"
+    },
+    {
+      "term": "biya",
+      "id": "bia"
+    },
+    {
+      "term": "boddy",
+      "id": "bodi"
     },
     {
       "term": "bodi",
@@ -251,6 +275,10 @@
       "id": "bor"
     },
     {
+      "term": "boss",
+      "id": "oga"
+    },
+    {
       "term": "bot",
       "id": "bot"
     },
@@ -259,12 +287,20 @@
       "id": "boi"
     },
     {
+      "term": "bread",
+      "id": "bred"
+    },
+    {
       "term": "breath",
       "id": "briz"
     },
     {
       "term": "breathe",
       "id": "brit"
+    },
+    {
+      "term": "bred",
+      "id": "bred"
     },
     {
       "term": "breeze",
@@ -387,6 +423,14 @@
       "id": "klin"
     },
     {
+      "term": "clim",
+      "id": "klaim"
+    },
+    {
+      "term": "climb",
+      "id": "klaim"
+    },
+    {
       "term": "close",
       "id": "kloz"
     },
@@ -427,12 +471,28 @@
       "id": "dai"
     },
     {
+      "term": "dak",
+      "id": "dak"
+    },
+    {
+      "term": "dakk",
+      "id": "dak"
+    },
+    {
       "term": "dan",
       "id": "dan"
     },
     {
       "term": "dance",
       "id": "dan"
+    },
+    {
+      "term": "dans",
+      "id": "dans"
+    },
+    {
+      "term": "dark",
+      "id": "dak"
     },
     {
       "term": "dat",
@@ -489,6 +549,10 @@
     {
       "term": "do",
       "id": "du"
+    },
+    {
+      "term": "docta",
+      "id": "dokta"
     },
     {
       "term": "doctor",
@@ -567,12 +631,24 @@
       "id": "e-choke"
     },
     {
+      "term": "easy",
+      "id": "izi"
+    },
+    {
       "term": "eat",
       "id": "chop"
     },
     {
+      "term": "eazy",
+      "id": "izi"
+    },
+    {
       "term": "echoke",
       "id": "e-choke"
+    },
+    {
+      "term": "egusi",
+      "id": "egusi"
     },
     {
       "term": "elda",
@@ -679,6 +755,10 @@
       "id": "faya"
     },
     {
+      "term": "feet",
+      "id": "fut"
+    },
+    {
       "term": "feil",
       "id": "feil"
     },
@@ -711,8 +791,16 @@
       "id": "fini"
     },
     {
+      "term": "finis",
+      "id": "finis"
+    },
+    {
       "term": "finish",
       "id": "fini"
+    },
+    {
+      "term": "finsh",
+      "id": "finis"
     },
     {
       "term": "fire",
@@ -721,6 +809,18 @@
     {
       "term": "first",
       "id": "fest"
+    },
+    {
+      "term": "fis",
+      "id": "fisi"
+    },
+    {
+      "term": "fish",
+      "id": "fisi"
+    },
+    {
+      "term": "fisi",
+      "id": "fisi"
     },
     {
       "term": "fit",
@@ -745,6 +845,10 @@
     {
       "term": "folo",
       "id": "folo"
+    },
+    {
+      "term": "fon",
+      "id": "fone"
     },
     {
       "term": "fona",
@@ -779,8 +883,16 @@
       "id": "fri"
     },
     {
+      "term": "freind",
+      "id": "frend"
+    },
+    {
       "term": "fren",
       "id": "fren"
+    },
+    {
+      "term": "frend",
+      "id": "frend"
     },
     {
       "term": "fri",
@@ -797,6 +909,10 @@
     {
       "term": "fud",
       "id": "fud"
+    },
+    {
+      "term": "fut",
+      "id": "fut"
     },
     {
       "term": "fó",
@@ -939,6 +1055,10 @@
       "id": "hapen"
     },
     {
+      "term": "happun",
+      "id": "hapen"
+    },
+    {
       "term": "happy",
       "id": "hapi"
     },
@@ -971,6 +1091,10 @@
       "id": "hed"
     },
     {
+      "term": "heavy",
+      "id": "hevi"
+    },
+    {
       "term": "hebi",
       "id": "abi"
     },
@@ -979,7 +1103,15 @@
       "id": "hed"
     },
     {
+      "term": "helep",
+      "id": "help"
+    },
+    {
       "term": "help",
+      "id": "help"
+    },
+    {
+      "term": "helpu",
       "id": "help"
     },
     {
@@ -997,6 +1129,14 @@
     {
       "term": "het",
       "id": "het"
+    },
+    {
+      "term": "hevi",
+      "id": "hevi"
+    },
+    {
+      "term": "hevy",
+      "id": "hevi"
     },
     {
       "term": "hia",
@@ -1151,6 +1291,10 @@
       "id": "ivun"
     },
     {
+      "term": "izi",
+      "id": "izi"
+    },
+    {
       "term": "jara",
       "id": "jara"
     },
@@ -1181,6 +1325,14 @@
     {
       "term": "kari go",
       "id": "kari-go"
+    },
+    {
+      "term": "klaim",
+      "id": "klaim"
+    },
+    {
+      "term": "klimb",
+      "id": "klaim"
     },
     {
       "term": "klin",
@@ -1359,6 +1511,14 @@
       "id": "maut"
     },
     {
+      "term": "mauth",
+      "id": "mout"
+    },
+    {
+      "term": "mawning",
+      "id": "mornin"
+    },
+    {
       "term": "measure",
       "id": "mezho"
     },
@@ -1401,6 +1561,14 @@
     {
       "term": "month",
       "id": "munt"
+    },
+    {
+      "term": "mornin",
+      "id": "mornin"
+    },
+    {
+      "term": "morning",
+      "id": "mornin"
     },
     {
       "term": "mother",
@@ -1471,6 +1639,18 @@
       "id": "nau"
     },
     {
+      "term": "near",
+      "id": "nia"
+    },
+    {
+      "term": "nearby",
+      "id": "nia"
+    },
+    {
+      "term": "neare",
+      "id": "nia"
+    },
+    {
       "term": "neba",
       "id": "neba"
     },
@@ -1493,6 +1673,10 @@
     {
       "term": "new",
       "id": "nyu"
+    },
+    {
+      "term": "nia",
+      "id": "nia"
     },
     {
       "term": "nid",
@@ -1579,8 +1763,28 @@
       "id": "o"
     },
     {
+      "term": "oga",
+      "id": "oga"
+    },
+    {
+      "term": "ogah",
+      "id": "oga"
+    },
+    {
       "term": "ogogoro",
       "id": "ogogoro"
+    },
+    {
+      "term": "okra",
+      "id": "okro"
+    },
+    {
+      "term": "okrah",
+      "id": "okro"
+    },
+    {
+      "term": "okro",
+      "id": "okro"
     },
     {
       "term": "ol",
@@ -1621,6 +1825,10 @@
     {
       "term": "open",
       "id": "opun"
+    },
+    {
+      "term": "opin",
+      "id": "opin"
     },
     {
       "term": "opun",
@@ -1757,6 +1965,10 @@
     {
       "term": "plantin",
       "id": "plantin"
+    },
+    {
+      "term": "plase",
+      "id": "ples"
     },
     {
       "term": "play",
@@ -1955,12 +2167,20 @@
       "id": "si"
     },
     {
+      "term": "sef",
+      "id": "sef"
+    },
+    {
       "term": "sekond",
       "id": "sekond"
     },
     {
       "term": "sel",
       "id": "sel"
+    },
+    {
+      "term": "self",
+      "id": "sef"
     },
     {
       "term": "sell",
@@ -1985,6 +2205,10 @@
     {
       "term": "shapshap",
       "id": "shapshap"
+    },
+    {
+      "term": "sharp",
+      "id": "sharp"
     },
     {
       "term": "sharp sharp",
@@ -2032,6 +2256,10 @@
     },
     {
       "term": "shout",
+      "id": "shaut"
+    },
+    {
+      "term": "shoutin",
       "id": "shaut"
     },
     {
@@ -2587,6 +2815,10 @@
       "id": "wetin"
     },
     {
+      "term": "watta",
+      "id": "wota"
+    },
+    {
       "term": "we",
       "id": "wi"
     },
@@ -2597,6 +2829,10 @@
     {
       "term": "week",
       "id": "wik"
+    },
+    {
+      "term": "weit",
+      "id": "weit"
     },
     {
       "term": "wek op",
@@ -2799,6 +3035,10 @@
       "id": "yad"
     },
     {
+      "term": "yam",
+      "id": "yam"
+    },
+    {
       "term": "yama yama",
       "id": "yamayama"
     },
@@ -2849,6 +3089,10 @@
     {
       "term": "yu",
       "id": "yu"
+    },
+    {
+      "term": "yung",
+      "id": "yong"
     },
     {
       "term": "zinc",

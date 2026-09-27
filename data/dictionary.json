@@ -690,7 +690,10 @@
   {
     "id": "help",
     "standard_spelling": "help",
-    "informal_variants": [],
+    "informal_variants": [
+      "helep",
+      "helpu"
+    ],
     "part_of_speech": "verb",
     "definitions": [
       "to help"
@@ -3091,7 +3094,8 @@
     "id": "dokta",
     "standard_spelling": "dokta",
     "informal_variants": [
-      "doctor"
+      "doctor",
+      "docta"
     ],
     "part_of_speech": "noun",
     "definitions": [
@@ -5165,7 +5169,8 @@
     "standard_spelling": "fone",
     "informal_variants": [
       "phone",
-      "telephone"
+      "telephone",
+      "fon"
     ],
     "part_of_speech": "noun",
     "definitions": [
@@ -5180,7 +5185,8 @@
     "id": "wota",
     "standard_spelling": "wota",
     "informal_variants": [
-      "water"
+      "water",
+      "watta"
     ],
     "part_of_speech": "noun",
     "definitions": [
@@ -5225,7 +5231,8 @@
     "id": "bodi",
     "standard_spelling": "bodi",
     "informal_variants": [
-      "body"
+      "body",
+      "boddy"
     ],
     "part_of_speech": "noun",
     "definitions": [
@@ -5255,7 +5262,8 @@
     "id": "mout",
     "standard_spelling": "mout",
     "informal_variants": [
-      "mouth"
+      "mouth",
+      "mauth"
     ],
     "part_of_speech": "noun",
     "definitions": [
@@ -5283,7 +5291,8 @@
     "id": "ples",
     "standard_spelling": "ples",
     "informal_variants": [
-      "place"
+      "place",
+      "plase"
     ],
     "part_of_speech": "noun",
     "definitions": [
@@ -5330,7 +5339,8 @@
     "id": "shaut",
     "standard_spelling": "shaut",
     "informal_variants": [
-      "shout"
+      "shout",
+      "shoutin"
     ],
     "part_of_speech": "verb",
     "definitions": [
@@ -5345,7 +5355,8 @@
     "id": "hapen",
     "standard_spelling": "hapen",
     "informal_variants": [
-      "happen"
+      "happen",
+      "happun"
     ],
     "part_of_speech": "verb",
     "definitions": [
@@ -5375,7 +5386,8 @@
     "id": "yong",
     "standard_spelling": "yong",
     "informal_variants": [
-      "young"
+      "young",
+      "yung"
     ],
     "part_of_speech": "adjective",
     "definitions": [
@@ -5446,5 +5458,346 @@
       "Put yu shuz."
     ],
     "pronunciation": "SH-oo-z"
+  },
+  {
+    "id": "sharp",
+    "standard_spelling": "sharp",
+    "informal_variants": [],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "sharp; quick; also intensifier in sharp-sharp"
+    ],
+    "example_sentences": [
+      "Make we go sharp-sharp."
+    ],
+    "pronunciation": "SH-ah-r-p"
+  },
+  {
+    "id": "sef",
+    "standard_spelling": "sef",
+    "informal_variants": [
+      "self"
+    ],
+    "part_of_speech": "particle",
+    "definitions": [
+      "emphatic particle (even; self)"
+    ],
+    "example_sentences": [
+      "I sef go go."
+    ],
+    "pronunciation": "S-eh-f"
+  },
+  {
+    "id": "nia",
+    "standard_spelling": "nia",
+    "informal_variants": [
+      "near",
+      "nearby",
+      "neare"
+    ],
+    "part_of_speech": "adverb",
+    "definitions": [
+      "near; nearby"
+    ],
+    "example_sentences": [
+      "Di skul nia."
+    ],
+    "pronunciation": "N-ee-ah"
+  },
+  {
+    "id": "fut",
+    "standard_spelling": "fut",
+    "informal_variants": [
+      "foot",
+      "feet"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "foot; feet"
+    ],
+    "example_sentences": [
+      "Mai fut de pein."
+    ],
+    "pronunciation": "F-oo-t"
+  },
+  {
+    "id": "bele",
+    "standard_spelling": "bele",
+    "informal_variants": [
+      "beli",
+      "belly",
+      "stomach"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "belly; stomach"
+    ],
+    "example_sentences": [
+      "Mai bele don ful."
+    ],
+    "pronunciation": "B-eh-l-eh"
+  },
+  {
+    "id": "yam",
+    "standard_spelling": "yam",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "yam"
+    ],
+    "example_sentences": [
+      "I wan chop yam."
+    ],
+    "pronunciation": "Y-ah-m"
+  },
+  {
+    "id": "egusi",
+    "standard_spelling": "egusi",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "egusi (melon-seed soup or stew)"
+    ],
+    "example_sentences": [
+      "Mama kuk egusi."
+    ],
+    "pronunciation": "EH-g-oo-s-ee"
+  },
+  {
+    "id": "okro",
+    "standard_spelling": "okro",
+    "informal_variants": [
+      "okra",
+      "okrah"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "okra"
+    ],
+    "example_sentences": [
+      "Okro soup sweet."
+    ],
+    "pronunciation": "OH-k-r-oh"
+  },
+  {
+    "id": "fisi",
+    "standard_spelling": "fisi",
+    "informal_variants": [
+      "fish",
+      "fis"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "fish"
+    ],
+    "example_sentences": [
+      "I wan fisi."
+    ],
+    "pronunciation": "F-ee-s-ee"
+  },
+  {
+    "id": "bred",
+    "standard_spelling": "bred",
+    "informal_variants": [
+      "bread"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "bread"
+    ],
+    "example_sentences": [
+      "Buy bred fo mi."
+    ],
+    "pronunciation": "B-r-eh-d"
+  },
+  {
+    "id": "bia",
+    "standard_spelling": "bia",
+    "informal_variants": [
+      "beer",
+      "biya"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "beer"
+    ],
+    "example_sentences": [
+      "Im de drink bia."
+    ],
+    "pronunciation": "B-ee-ah"
+  },
+  {
+    "id": "klaim",
+    "standard_spelling": "klaim",
+    "informal_variants": [
+      "climb",
+      "klimb",
+      "clim"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to climb"
+    ],
+    "example_sentences": [
+      "E klaim di tri."
+    ],
+    "pronunciation": "K-l-eye-m"
+  },
+  {
+    "id": "finis",
+    "standard_spelling": "finis",
+    "informal_variants": [
+      "finish",
+      "finsh"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to finish"
+    ],
+    "example_sentences": [
+      "Finis yu wok."
+    ],
+    "pronunciation": "F-ee-n-ee-s"
+  },
+  {
+    "id": "opin",
+    "standard_spelling": "opin",
+    "informal_variants": [
+      "open"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to open"
+    ],
+    "example_sentences": [
+      "Opin di do."
+    ],
+    "pronunciation": "OH-p-ee-n"
+  },
+  {
+    "id": "weit",
+    "standard_spelling": "weit",
+    "informal_variants": [
+      "wait"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to wait"
+    ],
+    "example_sentences": [
+      "Weit fo mi."
+    ],
+    "pronunciation": "W-eh-ee-t"
+  },
+  {
+    "id": "dans",
+    "standard_spelling": "dans",
+    "informal_variants": [
+      "dance"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to dance"
+    ],
+    "example_sentences": [
+      "Dem de dans."
+    ],
+    "pronunciation": "D-ah-n-s"
+  },
+  {
+    "id": "izi",
+    "standard_spelling": "izi",
+    "informal_variants": [
+      "easy",
+      "eazy"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "easy"
+    ],
+    "example_sentences": [
+      "Di wok izi."
+    ],
+    "pronunciation": "EE-z-ee"
+  },
+  {
+    "id": "hevi",
+    "standard_spelling": "hevi",
+    "informal_variants": [
+      "heavy",
+      "hevy"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "heavy"
+    ],
+    "example_sentences": [
+      "Dis bag hevi."
+    ],
+    "pronunciation": "H-eh-v-ee"
+  },
+  {
+    "id": "dak",
+    "standard_spelling": "dak",
+    "informal_variants": [
+      "dark",
+      "dakk"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "dark"
+    ],
+    "example_sentences": [
+      "Di rum dak."
+    ],
+    "pronunciation": "D-ah-k"
+  },
+  {
+    "id": "mornin",
+    "standard_spelling": "mornin",
+    "informal_variants": [
+      "morning",
+      "mawning"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "morning"
+    ],
+    "example_sentences": [
+      "Gud mornin."
+    ],
+    "pronunciation": "M-oh-r-n-ee-n"
+  },
+  {
+    "id": "frend",
+    "standard_spelling": "frend",
+    "informal_variants": [
+      "friend",
+      "freind"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "friend"
+    ],
+    "example_sentences": [
+      "Im na mai frend."
+    ],
+    "pronunciation": "F-r-eh-n-d"
+  },
+  {
+    "id": "oga",
+    "standard_spelling": "oga",
+    "informal_variants": [
+      "boss",
+      "ogah"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "boss; sir; master"
+    ],
+    "example_sentences": [
+      "Oga, abeg help mi."
+    ],
+    "pronunciation": "OH-g-ah"
   }
 ]
