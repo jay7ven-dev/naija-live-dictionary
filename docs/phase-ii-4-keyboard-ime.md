@@ -21,4 +21,4 @@ python web/verify.py
 
 ## Later
 
-OS / mobile IME packaging remains II-5+ (same digraph + export contract).
+OS / mobile IME apps remain II-5b+ (consume `data/ime/` export from II-5a).

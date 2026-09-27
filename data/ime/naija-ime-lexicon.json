@@ -1,0 +1,4159 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-27T22:45:17Z",
+  "source": {
+    "dictionary": "data/dictionary.json",
+    "variant_index": "data/variant_index.json"
+  },
+  "counts": {
+    "entries": 383,
+    "index_keys": 826,
+    "suggestions": 826
+  },
+  "digraphs": [
+    "ch",
+    "gb",
+    "sh",
+    "kp",
+    "zh"
+  ],
+  "acute_vowels": [
+    "á",
+    "é",
+    "í",
+    "ó",
+    "ú"
+  ],
+  "suggestions": [
+    {
+      "variant": "1",
+      "entry_id": "wan",
+      "standard": "wan"
+    },
+    {
+      "variant": "9ja",
+      "entry_id": "naija",
+      "standard": "Naijá"
+    },
+    {
+      "variant": "abeg",
+      "entry_id": "abeg",
+      "standard": "abeg"
+    },
+    {
+      "variant": "abeg make",
+      "entry_id": "abeg-mek",
+      "standard": "abeg mek"
+    },
+    {
+      "variant": "abeg mek",
+      "entry_id": "abeg-mek",
+      "standard": "abeg mek"
+    },
+    {
+      "variant": "abeg nao",
+      "entry_id": "abeg-nau",
+      "standard": "abeg nau"
+    },
+    {
+      "variant": "abeg nau",
+      "entry_id": "abeg-nau",
+      "standard": "abeg nau"
+    },
+    {
+      "variant": "abeg now",
+      "entry_id": "abeg-nau",
+      "standard": "abeg nau"
+    },
+    {
+      "variant": "abegi",
+      "entry_id": "abeg",
+      "standard": "abeg"
+    },
+    {
+      "variant": "abegi make",
+      "entry_id": "abeg-mek",
+      "standard": "abeg mek"
+    },
+    {
+      "variant": "abi",
+      "entry_id": "abi",
+      "standard": "abi"
+    },
+    {
+      "variant": "afta",
+      "entry_id": "afta",
+      "standard": "afta"
+    },
+    {
+      "variant": "aftanoon",
+      "entry_id": "aftanun",
+      "standard": "aftanun"
+    },
+    {
+      "variant": "aftanun",
+      "entry_id": "aftanun",
+      "standard": "aftanun"
+    },
+    {
+      "variant": "after",
+      "entry_id": "afta",
+      "standard": "afta"
+    },
+    {
+      "variant": "afternoon",
+      "entry_id": "aftanun",
+      "standard": "aftanun"
+    },
+    {
+      "variant": "ai",
+      "entry_id": "ai",
+      "standard": "ai"
+    },
+    {
+      "variant": "akada",
+      "entry_id": "akada",
+      "standard": "akada"
+    },
+    {
+      "variant": "akara",
+      "entry_id": "akara",
+      "standard": "akara"
+    },
+    {
+      "variant": "akara-wuman",
+      "entry_id": "akara-wuman",
+      "standard": "akara-wuman"
+    },
+    {
+      "variant": "all",
+      "entry_id": "ol",
+      "standard": "ol"
+    },
+    {
+      "variant": "already",
+      "entry_id": "don",
+      "standard": "don"
+    },
+    {
+      "variant": "am",
+      "entry_id": "im",
+      "standard": "im"
+    },
+    {
+      "variant": "angri",
+      "entry_id": "angri",
+      "standard": "angri"
+    },
+    {
+      "variant": "angry",
+      "entry_id": "angri",
+      "standard": "angri"
+    },
+    {
+      "variant": "anima",
+      "entry_id": "anima",
+      "standard": "anima"
+    },
+    {
+      "variant": "animal",
+      "entry_id": "anima",
+      "standard": "anima"
+    },
+    {
+      "variant": "ans",
+      "entry_id": "ans",
+      "standard": "ans"
+    },
+    {
+      "variant": "answer",
+      "entry_id": "ans",
+      "standard": "ans"
+    },
+    {
+      "variant": "anybody",
+      "entry_id": "enibodi",
+      "standard": "enibodi"
+    },
+    {
+      "variant": "anyone",
+      "entry_id": "enibodi",
+      "standard": "enibodi"
+    },
+    {
+      "variant": "ask",
+      "entry_id": "ask",
+      "standard": "ask"
+    },
+    {
+      "variant": "ass",
+      "entry_id": "yansh",
+      "standard": "yansh"
+    },
+    {
+      "variant": "baba",
+      "entry_id": "baba",
+      "standard": "baba"
+    },
+    {
+      "variant": "bad",
+      "entry_id": "bad",
+      "standard": "bad"
+    },
+    {
+      "variant": "bad bad",
+      "entry_id": "bad-bad",
+      "standard": "bad bad"
+    },
+    {
+      "variant": "bad-bad",
+      "entry_id": "bad-bad",
+      "standard": "bad bad"
+    },
+    {
+      "variant": "baik",
+      "entry_id": "baik",
+      "standard": "baik"
+    },
+    {
+      "variant": "baik-man",
+      "entry_id": "baik-man",
+      "standard": "baik-man"
+    },
+    {
+      "variant": "barber",
+      "entry_id": "baba-barber",
+      "standard": "bába"
+    },
+    {
+      "variant": "Beacause",
+      "entry_id": "bikos",
+      "standard": "bikos"
+    },
+    {
+      "variant": "beautiful",
+      "entry_id": "fain",
+      "standard": "fain"
+    },
+    {
+      "variant": "because",
+      "entry_id": "bikos",
+      "standard": "bikos"
+    },
+    {
+      "variant": "becos",
+      "entry_id": "bikos",
+      "standard": "bikos"
+    },
+    {
+      "variant": "bed",
+      "entry_id": "bed",
+      "standard": "bed"
+    },
+    {
+      "variant": "beer",
+      "entry_id": "bia",
+      "standard": "bia"
+    },
+    {
+      "variant": "before",
+      "entry_id": "bifo",
+      "standard": "bifo"
+    },
+    {
+      "variant": "begin",
+      "entry_id": "bigin",
+      "standard": "bigin"
+    },
+    {
+      "variant": "bele",
+      "entry_id": "belle",
+      "standard": "belle"
+    },
+    {
+      "variant": "beli",
+      "entry_id": "belle",
+      "standard": "belle"
+    },
+    {
+      "variant": "bell",
+      "entry_id": "belle",
+      "standard": "belle"
+    },
+    {
+      "variant": "belle",
+      "entry_id": "belle",
+      "standard": "belle"
+    },
+    {
+      "variant": "belly",
+      "entry_id": "belle",
+      "standard": "belle"
+    },
+    {
+      "variant": "bia",
+      "entry_id": "bia",
+      "standard": "bia"
+    },
+    {
+      "variant": "bifo",
+      "entry_id": "bifo",
+      "standard": "bifo"
+    },
+    {
+      "variant": "big",
+      "entry_id": "big",
+      "standard": "big"
+    },
+    {
+      "variant": "bigin",
+      "entry_id": "bigin",
+      "standard": "bigin"
+    },
+    {
+      "variant": "bike",
+      "entry_id": "baik",
+      "standard": "baik"
+    },
+    {
+      "variant": "bike rider",
+      "entry_id": "baik-man",
+      "standard": "baik-man"
+    },
+    {
+      "variant": "biko",
+      "entry_id": "biko",
+      "standard": "biko"
+    },
+    {
+      "variant": "bikos",
+      "entry_id": "bikos",
+      "standard": "bikos"
+    },
+    {
+      "variant": "biya",
+      "entry_id": "bia",
+      "standard": "bia"
+    },
+    {
+      "variant": "boddy",
+      "entry_id": "bodi",
+      "standard": "bodi"
+    },
+    {
+      "variant": "bodi",
+      "entry_id": "bodi",
+      "standard": "bodi"
+    },
+    {
+      "variant": "body",
+      "entry_id": "bodi",
+      "standard": "bodi"
+    },
+    {
+      "variant": "boi",
+      "entry_id": "boi",
+      "standard": "boi"
+    },
+    {
+      "variant": "bon",
+      "entry_id": "bon",
+      "standard": "bon"
+    },
+    {
+      "variant": "bone",
+      "entry_id": "bon",
+      "standard": "bon"
+    },
+    {
+      "variant": "book",
+      "entry_id": "buk",
+      "standard": "buk"
+    },
+    {
+      "variant": "bookish",
+      "entry_id": "akada",
+      "standard": "akada"
+    },
+    {
+      "variant": "bor",
+      "entry_id": "bor",
+      "standard": "bor"
+    },
+    {
+      "variant": "boro",
+      "entry_id": "boro",
+      "standard": "boro"
+    },
+    {
+      "variant": "borrow",
+      "entry_id": "bor",
+      "standard": "bor"
+    },
+    {
+      "variant": "boss",
+      "entry_id": "oga",
+      "standard": "oga"
+    },
+    {
+      "variant": "bot",
+      "entry_id": "bot",
+      "standard": "bot"
+    },
+    {
+      "variant": "boy",
+      "entry_id": "boi",
+      "standard": "boi"
+    },
+    {
+      "variant": "bread",
+      "entry_id": "bred",
+      "standard": "bred"
+    },
+    {
+      "variant": "breath",
+      "entry_id": "briz",
+      "standard": "briz"
+    },
+    {
+      "variant": "breathe",
+      "entry_id": "brit",
+      "standard": "brit"
+    },
+    {
+      "variant": "bred",
+      "entry_id": "bred",
+      "standard": "bred"
+    },
+    {
+      "variant": "breeze",
+      "entry_id": "briz",
+      "standard": "briz"
+    },
+    {
+      "variant": "bring",
+      "entry_id": "bring",
+      "standard": "bring"
+    },
+    {
+      "variant": "brit",
+      "entry_id": "brit",
+      "standard": "brit"
+    },
+    {
+      "variant": "briz",
+      "entry_id": "briz",
+      "standard": "briz"
+    },
+    {
+      "variant": "bro",
+      "entry_id": "broda",
+      "standard": "broda"
+    },
+    {
+      "variant": "broda",
+      "entry_id": "broda",
+      "standard": "broda"
+    },
+    {
+      "variant": "brother",
+      "entry_id": "broda",
+      "standard": "broda"
+    },
+    {
+      "variant": "buk",
+      "entry_id": "buk",
+      "standard": "buk"
+    },
+    {
+      "variant": "bush",
+      "entry_id": "bush",
+      "standard": "bush"
+    },
+    {
+      "variant": "bush meat",
+      "entry_id": "bush-mit",
+      "standard": "bush-mit"
+    },
+    {
+      "variant": "bush-mit",
+      "entry_id": "bush-mit",
+      "standard": "bush-mit"
+    },
+    {
+      "variant": "but",
+      "entry_id": "bot",
+      "standard": "bot"
+    },
+    {
+      "variant": "buy",
+      "entry_id": "buy",
+      "standard": "buy"
+    },
+    {
+      "variant": "bába",
+      "entry_id": "baba-barber",
+      "standard": "bába"
+    },
+    {
+      "variant": "can",
+      "entry_id": "fit",
+      "standard": "fit"
+    },
+    {
+      "variant": "car",
+      "entry_id": "moto",
+      "standard": "moto"
+    },
+    {
+      "variant": "carry",
+      "entry_id": "kari",
+      "standard": "kari"
+    },
+    {
+      "variant": "carry go",
+      "entry_id": "kari-go",
+      "standard": "kari go"
+    },
+    {
+      "variant": "carry-go",
+      "entry_id": "kari-go",
+      "standard": "kari go"
+    },
+    {
+      "variant": "cash",
+      "entry_id": "kach",
+      "standard": "kach"
+    },
+    {
+      "variant": "catch",
+      "entry_id": "kach",
+      "standard": "kach"
+    },
+    {
+      "variant": "chair",
+      "entry_id": "che",
+      "standard": "che"
+    },
+    {
+      "variant": "che",
+      "entry_id": "che",
+      "standard": "che"
+    },
+    {
+      "variant": "children-dem",
+      "entry_id": "pikin",
+      "standard": "pikin"
+    },
+    {
+      "variant": "chop",
+      "entry_id": "chop",
+      "standard": "chop"
+    },
+    {
+      "variant": "chop money",
+      "entry_id": "chop-moni",
+      "standard": "chop-moni"
+    },
+    {
+      "variant": "chop-moni",
+      "entry_id": "chop-moni",
+      "standard": "chop-moni"
+    },
+    {
+      "variant": "chosh",
+      "entry_id": "chosh",
+      "standard": "chosh"
+    },
+    {
+      "variant": "chukuchuku",
+      "entry_id": "chukuchuku",
+      "standard": "chukuchuku"
+    },
+    {
+      "variant": "church",
+      "entry_id": "chosh",
+      "standard": "chosh"
+    },
+    {
+      "variant": "city",
+      "entry_id": "siti",
+      "standard": "siti"
+    },
+    {
+      "variant": "clean",
+      "entry_id": "klin",
+      "standard": "klin"
+    },
+    {
+      "variant": "clim",
+      "entry_id": "klaim",
+      "standard": "klaim"
+    },
+    {
+      "variant": "climb",
+      "entry_id": "klaim",
+      "standard": "klaim"
+    },
+    {
+      "variant": "close",
+      "entry_id": "kloz",
+      "standard": "kloz"
+    },
+    {
+      "variant": "coffee",
+      "entry_id": "kofe",
+      "standard": "kofe"
+    },
+    {
+      "variant": "cold",
+      "entry_id": "kol",
+      "standard": "kol"
+    },
+    {
+      "variant": "com",
+      "entry_id": "kom",
+      "standard": "kom"
+    },
+    {
+      "variant": "come",
+      "entry_id": "kom",
+      "standard": "kom"
+    },
+    {
+      "variant": "cook",
+      "entry_id": "kuk",
+      "standard": "kuk"
+    },
+    {
+      "variant": "correct",
+      "entry_id": "koret",
+      "standard": "koret"
+    },
+    {
+      "variant": "country",
+      "entry_id": "kontri",
+      "standard": "kontri"
+    },
+    {
+      "variant": "cry",
+      "entry_id": "krai",
+      "standard": "krai"
+    },
+    {
+      "variant": "dad",
+      "entry_id": "papa",
+      "standard": "papa"
+    },
+    {
+      "variant": "dai",
+      "entry_id": "dai",
+      "standard": "dai"
+    },
+    {
+      "variant": "dak",
+      "entry_id": "dak",
+      "standard": "dak"
+    },
+    {
+      "variant": "dakk",
+      "entry_id": "dak",
+      "standard": "dak"
+    },
+    {
+      "variant": "dan",
+      "entry_id": "dan",
+      "standard": "dan"
+    },
+    {
+      "variant": "dance",
+      "entry_id": "dan",
+      "standard": "dan"
+    },
+    {
+      "variant": "dans",
+      "entry_id": "dans",
+      "standard": "dans"
+    },
+    {
+      "variant": "dark",
+      "entry_id": "dak",
+      "standard": "dak"
+    },
+    {
+      "variant": "dat",
+      "entry_id": "dat",
+      "standard": "dat"
+    },
+    {
+      "variant": "day",
+      "entry_id": "dei",
+      "standard": "dei"
+    },
+    {
+      "variant": "de",
+      "entry_id": "di",
+      "standard": "di"
+    },
+    {
+      "variant": "dea",
+      "entry_id": "dea",
+      "standard": "dea"
+    },
+    {
+      "variant": "deh",
+      "entry_id": "de",
+      "standard": "de"
+    },
+    {
+      "variant": "dei",
+      "entry_id": "dei",
+      "standard": "dei"
+    },
+    {
+      "variant": "dem",
+      "entry_id": "dem",
+      "standard": "dem"
+    },
+    {
+      "variant": "deme",
+      "entry_id": "dem",
+      "standard": "dem"
+    },
+    {
+      "variant": "dey",
+      "entry_id": "de-copula",
+      "standard": "dé"
+    },
+    {
+      "variant": "di",
+      "entry_id": "di",
+      "standard": "di"
+    },
+    {
+      "variant": "die",
+      "entry_id": "dai",
+      "standard": "dai"
+    },
+    {
+      "variant": "dis",
+      "entry_id": "dis",
+      "standard": "dis"
+    },
+    {
+      "variant": "dise",
+      "entry_id": "dis",
+      "standard": "dis"
+    },
+    {
+      "variant": "do",
+      "entry_id": "du",
+      "standard": "du"
+    },
+    {
+      "variant": "docta",
+      "entry_id": "dokta",
+      "standard": "dokta"
+    },
+    {
+      "variant": "doctor",
+      "entry_id": "dokta",
+      "standard": "dokta"
+    },
+    {
+      "variant": "dodo",
+      "entry_id": "dodo",
+      "standard": "dodo"
+    },
+    {
+      "variant": "dokta",
+      "entry_id": "dokta",
+      "standard": "dokta"
+    },
+    {
+      "variant": "don",
+      "entry_id": "don",
+      "standard": "don"
+    },
+    {
+      "variant": "don't be angry",
+      "entry_id": "no-vex",
+      "standard": "no vex"
+    },
+    {
+      "variant": "don't vex",
+      "entry_id": "no-vex",
+      "standard": "no vex"
+    },
+    {
+      "variant": "door",
+      "entry_id": "do",
+      "standard": "do"
+    },
+    {
+      "variant": "draiv",
+      "entry_id": "draiv",
+      "standard": "draiv"
+    },
+    {
+      "variant": "draiva",
+      "entry_id": "draiva",
+      "standard": "draiva"
+    },
+    {
+      "variant": "drink",
+      "entry_id": "drink",
+      "standard": "drink"
+    },
+    {
+      "variant": "driva",
+      "entry_id": "driva",
+      "standard": "driva"
+    },
+    {
+      "variant": "drive",
+      "entry_id": "draiv",
+      "standard": "draiv"
+    },
+    {
+      "variant": "driver",
+      "entry_id": "draiva",
+      "standard": "draiva"
+    },
+    {
+      "variant": "dro",
+      "entry_id": "dro",
+      "standard": "dro"
+    },
+    {
+      "variant": "drop",
+      "entry_id": "dro",
+      "standard": "dro"
+    },
+    {
+      "variant": "du",
+      "entry_id": "du",
+      "standard": "du"
+    },
+    {
+      "variant": "dé",
+      "entry_id": "de-copula",
+      "standard": "dé"
+    },
+    {
+      "variant": "e",
+      "entry_id": "e",
+      "standard": "e"
+    },
+    {
+      "variant": "e choke",
+      "entry_id": "e-choke",
+      "standard": "e choke"
+    },
+    {
+      "variant": "e choke!",
+      "entry_id": "e-choke",
+      "standard": "e choke"
+    },
+    {
+      "variant": "easy",
+      "entry_id": "izi",
+      "standard": "izi"
+    },
+    {
+      "variant": "eat",
+      "entry_id": "chop",
+      "standard": "chop"
+    },
+    {
+      "variant": "eazy",
+      "entry_id": "izi",
+      "standard": "izi"
+    },
+    {
+      "variant": "echoke",
+      "entry_id": "e-choke",
+      "standard": "e choke"
+    },
+    {
+      "variant": "egusi",
+      "entry_id": "egusi",
+      "standard": "egusi"
+    },
+    {
+      "variant": "elda",
+      "entry_id": "elda",
+      "standard": "elda"
+    },
+    {
+      "variant": "elder",
+      "entry_id": "elda",
+      "standard": "elda"
+    },
+    {
+      "variant": "elder dem",
+      "entry_id": "elda",
+      "standard": "elda"
+    },
+    {
+      "variant": "enibodi",
+      "entry_id": "enibodi",
+      "standard": "enibodi"
+    },
+    {
+      "variant": "escape",
+      "entry_id": "eskep",
+      "standard": "eskep"
+    },
+    {
+      "variant": "eskep",
+      "entry_id": "eskep",
+      "standard": "eskep"
+    },
+    {
+      "variant": "even",
+      "entry_id": "ivun",
+      "standard": "ivun"
+    },
+    {
+      "variant": "evenin",
+      "entry_id": "ivnin",
+      "standard": "ivnin"
+    },
+    {
+      "variant": "evening",
+      "entry_id": "ivnin",
+      "standard": "ivnin"
+    },
+    {
+      "variant": "every",
+      "entry_id": "evri",
+      "standard": "evri"
+    },
+    {
+      "variant": "everybody",
+      "entry_id": "evribodi",
+      "standard": "evribodi"
+    },
+    {
+      "variant": "evri",
+      "entry_id": "evri",
+      "standard": "evri"
+    },
+    {
+      "variant": "evribodi",
+      "entry_id": "evribodi",
+      "standard": "evribodi"
+    },
+    {
+      "variant": "extra",
+      "entry_id": "jara",
+      "standard": "jara"
+    },
+    {
+      "variant": "eye",
+      "entry_id": "ai",
+      "standard": "ai"
+    },
+    {
+      "variant": "fa",
+      "entry_id": "fa",
+      "standard": "fa"
+    },
+    {
+      "variant": "fai",
+      "entry_id": "fai",
+      "standard": "fai"
+    },
+    {
+      "variant": "fail",
+      "entry_id": "feil",
+      "standard": "feil"
+    },
+    {
+      "variant": "fain",
+      "entry_id": "find",
+      "standard": "fain"
+    },
+    {
+      "variant": "fake",
+      "entry_id": "fals",
+      "standard": "fals"
+    },
+    {
+      "variant": "fals",
+      "entry_id": "fals",
+      "standard": "fals"
+    },
+    {
+      "variant": "false",
+      "entry_id": "fals",
+      "standard": "fals"
+    },
+    {
+      "variant": "famili",
+      "entry_id": "famili",
+      "standard": "famili"
+    },
+    {
+      "variant": "family",
+      "entry_id": "famili",
+      "standard": "famili"
+    },
+    {
+      "variant": "far",
+      "entry_id": "fa",
+      "standard": "fa"
+    },
+    {
+      "variant": "fast",
+      "entry_id": "kwik",
+      "standard": "kwik"
+    },
+    {
+      "variant": "father",
+      "entry_id": "papa",
+      "standard": "papa"
+    },
+    {
+      "variant": "faya",
+      "entry_id": "faya",
+      "standard": "faya"
+    },
+    {
+      "variant": "feet",
+      "entry_id": "fut",
+      "standard": "fut"
+    },
+    {
+      "variant": "feil",
+      "entry_id": "feil",
+      "standard": "feil"
+    },
+    {
+      "variant": "fest",
+      "entry_id": "fest",
+      "standard": "fest"
+    },
+    {
+      "variant": "fet",
+      "entry_id": "fet",
+      "standard": "fet"
+    },
+    {
+      "variant": "fetch",
+      "entry_id": "fet",
+      "standard": "fet"
+    },
+    {
+      "variant": "fever",
+      "entry_id": "fiva",
+      "standard": "fiva"
+    },
+    {
+      "variant": "fight",
+      "entry_id": "fai",
+      "standard": "fai"
+    },
+    {
+      "variant": "find",
+      "entry_id": "find",
+      "standard": "fain"
+    },
+    {
+      "variant": "fine",
+      "entry_id": "fain",
+      "standard": "fain"
+    },
+    {
+      "variant": "fini",
+      "entry_id": "fini",
+      "standard": "fini"
+    },
+    {
+      "variant": "finis",
+      "entry_id": "finis",
+      "standard": "finis"
+    },
+    {
+      "variant": "finish",
+      "entry_id": "fini",
+      "standard": "fini"
+    },
+    {
+      "variant": "finsh",
+      "entry_id": "finis",
+      "standard": "finis"
+    },
+    {
+      "variant": "fire",
+      "entry_id": "faya",
+      "standard": "faya"
+    },
+    {
+      "variant": "first",
+      "entry_id": "fest",
+      "standard": "fest"
+    },
+    {
+      "variant": "fis",
+      "entry_id": "fisi",
+      "standard": "fisi"
+    },
+    {
+      "variant": "fish",
+      "entry_id": "fisi",
+      "standard": "fisi"
+    },
+    {
+      "variant": "fisi",
+      "entry_id": "fisi",
+      "standard": "fisi"
+    },
+    {
+      "variant": "fit",
+      "entry_id": "fit",
+      "standard": "fit"
+    },
+    {
+      "variant": "fiva",
+      "entry_id": "fiva",
+      "standard": "fiva"
+    },
+    {
+      "variant": "flesh",
+      "entry_id": "flesh",
+      "standard": "flesh"
+    },
+    {
+      "variant": "fo",
+      "entry_id": "fó",
+      "standard": "fó"
+    },
+    {
+      "variant": "foget",
+      "entry_id": "foget",
+      "standard": "foget"
+    },
+    {
+      "variant": "follow",
+      "entry_id": "folo",
+      "standard": "folo"
+    },
+    {
+      "variant": "folo",
+      "entry_id": "folo",
+      "standard": "folo"
+    },
+    {
+      "variant": "fon",
+      "entry_id": "fone",
+      "standard": "fone"
+    },
+    {
+      "variant": "fona",
+      "entry_id": "fona",
+      "standard": "fona"
+    },
+    {
+      "variant": "fone",
+      "entry_id": "fone",
+      "standard": "fone"
+    },
+    {
+      "variant": "food",
+      "entry_id": "fud",
+      "standard": "fud"
+    },
+    {
+      "variant": "foot",
+      "entry_id": "leg",
+      "standard": "leg"
+    },
+    {
+      "variant": "for",
+      "entry_id": "fo",
+      "standard": "fo"
+    },
+    {
+      "variant": "forget",
+      "entry_id": "foget",
+      "standard": "foget"
+    },
+    {
+      "variant": "four",
+      "entry_id": "fó",
+      "standard": "fó"
+    },
+    {
+      "variant": "free",
+      "entry_id": "fri",
+      "standard": "fri"
+    },
+    {
+      "variant": "freind",
+      "entry_id": "fren",
+      "standard": "fren"
+    },
+    {
+      "variant": "fren",
+      "entry_id": "fren",
+      "standard": "fren"
+    },
+    {
+      "variant": "frend",
+      "entry_id": "fren",
+      "standard": "fren"
+    },
+    {
+      "variant": "fri",
+      "entry_id": "fri",
+      "standard": "fri"
+    },
+    {
+      "variant": "friend",
+      "entry_id": "fren",
+      "standard": "fren"
+    },
+    {
+      "variant": "from",
+      "entry_id": "from",
+      "standard": "from"
+    },
+    {
+      "variant": "fud",
+      "entry_id": "fud",
+      "standard": "fud"
+    },
+    {
+      "variant": "fut",
+      "entry_id": "fut",
+      "standard": "fut"
+    },
+    {
+      "variant": "fó",
+      "entry_id": "fó",
+      "standard": "fó"
+    },
+    {
+      "variant": "gari",
+      "entry_id": "garri",
+      "standard": "garri"
+    },
+    {
+      "variant": "garri",
+      "entry_id": "garri",
+      "standard": "garri"
+    },
+    {
+      "variant": "gave",
+      "entry_id": "giv",
+      "standard": "giv"
+    },
+    {
+      "variant": "gbagbati",
+      "entry_id": "gbagbati",
+      "standard": "gbagbati"
+    },
+    {
+      "variant": "gel",
+      "entry_id": "gel",
+      "standard": "gel"
+    },
+    {
+      "variant": "get",
+      "entry_id": "get",
+      "standard": "get"
+    },
+    {
+      "variant": "gift",
+      "entry_id": "gift",
+      "standard": "gift"
+    },
+    {
+      "variant": "girl",
+      "entry_id": "gel",
+      "standard": "gel"
+    },
+    {
+      "variant": "gist",
+      "entry_id": "gist",
+      "standard": "gist"
+    },
+    {
+      "variant": "giv",
+      "entry_id": "giv",
+      "standard": "giv"
+    },
+    {
+      "variant": "give",
+      "entry_id": "giv",
+      "standard": "giv"
+    },
+    {
+      "variant": "go",
+      "entry_id": "go",
+      "standard": "go"
+    },
+    {
+      "variant": "good",
+      "entry_id": "gud",
+      "standard": "gud"
+    },
+    {
+      "variant": "good afternoon",
+      "entry_id": "gud-afternoon",
+      "standard": "gud aftanun"
+    },
+    {
+      "variant": "good morning",
+      "entry_id": "gud-moning",
+      "standard": "gud moning"
+    },
+    {
+      "variant": "good night",
+      "entry_id": "gud-nait",
+      "standard": "gud nait"
+    },
+    {
+      "variant": "gossip",
+      "entry_id": "gist",
+      "standard": "gist"
+    },
+    {
+      "variant": "got",
+      "entry_id": "get",
+      "standard": "get"
+    },
+    {
+      "variant": "gragra",
+      "entry_id": "gragra",
+      "standard": "gragra"
+    },
+    {
+      "variant": "graund",
+      "entry_id": "graund",
+      "standard": "graund"
+    },
+    {
+      "variant": "ground",
+      "entry_id": "graund",
+      "standard": "graund"
+    },
+    {
+      "variant": "gud",
+      "entry_id": "gud",
+      "standard": "gud"
+    },
+    {
+      "variant": "gud aftanun",
+      "entry_id": "gud-afternoon",
+      "standard": "gud aftanun"
+    },
+    {
+      "variant": "gud moning",
+      "entry_id": "gud-moning",
+      "standard": "gud moning"
+    },
+    {
+      "variant": "gud nait",
+      "entry_id": "gud-nait",
+      "standard": "gud nait"
+    },
+    {
+      "variant": "guy",
+      "entry_id": "man",
+      "standard": "man"
+    },
+    {
+      "variant": "gó",
+      "entry_id": "go-past",
+      "standard": "gó"
+    },
+    {
+      "variant": "had",
+      "entry_id": "had",
+      "standard": "had"
+    },
+    {
+      "variant": "hama",
+      "entry_id": "hama",
+      "standard": "hama"
+    },
+    {
+      "variant": "hammer",
+      "entry_id": "hama",
+      "standard": "hama"
+    },
+    {
+      "variant": "han",
+      "entry_id": "han",
+      "standard": "han"
+    },
+    {
+      "variant": "hand",
+      "entry_id": "han",
+      "standard": "han"
+    },
+    {
+      "variant": "hapen",
+      "entry_id": "hapen",
+      "standard": "hapen"
+    },
+    {
+      "variant": "hapi",
+      "entry_id": "hapi",
+      "standard": "hapi"
+    },
+    {
+      "variant": "happen",
+      "entry_id": "hapen",
+      "standard": "hapen"
+    },
+    {
+      "variant": "happun",
+      "entry_id": "hapen",
+      "standard": "hapen"
+    },
+    {
+      "variant": "happy",
+      "entry_id": "hapi",
+      "standard": "hapi"
+    },
+    {
+      "variant": "hard",
+      "entry_id": "had",
+      "standard": "had"
+    },
+    {
+      "variant": "hasty",
+      "entry_id": "gragra",
+      "standard": "gragra"
+    },
+    {
+      "variant": "hate",
+      "entry_id": "het",
+      "standard": "het"
+    },
+    {
+      "variant": "haus",
+      "entry_id": "haus",
+      "standard": "haus"
+    },
+    {
+      "variant": "haw",
+      "entry_id": "haw",
+      "standard": "haw"
+    },
+    {
+      "variant": "haw far",
+      "entry_id": "haw-far",
+      "standard": "haw far"
+    },
+    {
+      "variant": "haw yu de",
+      "entry_id": "haw-yu-de",
+      "standard": "haw yu de"
+    },
+    {
+      "variant": "head",
+      "entry_id": "hed",
+      "standard": "hed"
+    },
+    {
+      "variant": "heavy",
+      "entry_id": "hevi",
+      "standard": "hevi"
+    },
+    {
+      "variant": "hebi",
+      "entry_id": "abi",
+      "standard": "abi"
+    },
+    {
+      "variant": "hed",
+      "entry_id": "hed",
+      "standard": "hed"
+    },
+    {
+      "variant": "helep",
+      "entry_id": "help",
+      "standard": "help"
+    },
+    {
+      "variant": "help",
+      "entry_id": "help",
+      "standard": "help"
+    },
+    {
+      "variant": "helpu",
+      "entry_id": "help",
+      "standard": "help"
+    },
+    {
+      "variant": "her",
+      "entry_id": "im",
+      "standard": "im"
+    },
+    {
+      "variant": "here",
+      "entry_id": "hia",
+      "standard": "hia"
+    },
+    {
+      "variant": "herself",
+      "entry_id": "huself",
+      "standard": "huself"
+    },
+    {
+      "variant": "het",
+      "entry_id": "het",
+      "standard": "het"
+    },
+    {
+      "variant": "hevi",
+      "entry_id": "hevi",
+      "standard": "hevi"
+    },
+    {
+      "variant": "hevy",
+      "entry_id": "hevi",
+      "standard": "hevi"
+    },
+    {
+      "variant": "hia",
+      "entry_id": "hia",
+      "standard": "hia"
+    },
+    {
+      "variant": "him",
+      "entry_id": "im",
+      "standard": "im"
+    },
+    {
+      "variant": "himself",
+      "entry_id": "huself",
+      "standard": "huself"
+    },
+    {
+      "variant": "hit",
+      "entry_id": "nak",
+      "standard": "nak"
+    },
+    {
+      "variant": "hol",
+      "entry_id": "hol",
+      "standard": "hol"
+    },
+    {
+      "variant": "hold",
+      "entry_id": "hol",
+      "standard": "hol"
+    },
+    {
+      "variant": "home",
+      "entry_id": "haus",
+      "standard": "haus"
+    },
+    {
+      "variant": "honta",
+      "entry_id": "honta",
+      "standard": "honta"
+    },
+    {
+      "variant": "hospital",
+      "entry_id": "ospitul",
+      "standard": "ospitul"
+    },
+    {
+      "variant": "hot",
+      "entry_id": "hot",
+      "standard": "hot"
+    },
+    {
+      "variant": "house",
+      "entry_id": "haus",
+      "standard": "haus"
+    },
+    {
+      "variant": "how",
+      "entry_id": "haw",
+      "standard": "haw"
+    },
+    {
+      "variant": "how far",
+      "entry_id": "haw-far",
+      "standard": "haw far"
+    },
+    {
+      "variant": "how you dey",
+      "entry_id": "haw-far",
+      "standard": "haw far"
+    },
+    {
+      "variant": "hunter",
+      "entry_id": "honta",
+      "standard": "honta"
+    },
+    {
+      "variant": "hus",
+      "entry_id": "hus",
+      "standard": "hus"
+    },
+    {
+      "variant": "huself",
+      "entry_id": "huself",
+      "standard": "huself"
+    },
+    {
+      "variant": "I",
+      "entry_id": "i",
+      "standard": "I"
+    },
+    {
+      "variant": "i",
+      "entry_id": "i",
+      "standard": "I"
+    },
+    {
+      "variant": "I can't",
+      "entry_id": "i-no-fit",
+      "standard": "I no fit"
+    },
+    {
+      "variant": "i cannot",
+      "entry_id": "i-no-fit",
+      "standard": "I no fit"
+    },
+    {
+      "variant": "I de kom",
+      "entry_id": "i-de-kom",
+      "standard": "I de kom"
+    },
+    {
+      "variant": "I dey come",
+      "entry_id": "i-de-kom",
+      "standard": "I de kom"
+    },
+    {
+      "variant": "i dey come",
+      "entry_id": "i-de-kom",
+      "standard": "I de kom"
+    },
+    {
+      "variant": "I don't know",
+      "entry_id": "i-no-sabi",
+      "standard": "I no sabi"
+    },
+    {
+      "variant": "i don't know",
+      "entry_id": "i-no-sabi",
+      "standard": "I no sabi"
+    },
+    {
+      "variant": "I no fit",
+      "entry_id": "i-no-fit",
+      "standard": "I no fit"
+    },
+    {
+      "variant": "i no fit",
+      "entry_id": "i-no-fit",
+      "standard": "I no fit"
+    },
+    {
+      "variant": "I no sabi",
+      "entry_id": "i-no-sabi",
+      "standard": "I no sabi"
+    },
+    {
+      "variant": "i no sabi",
+      "entry_id": "i-no-sabi",
+      "standard": "I no sabi"
+    },
+    {
+      "variant": "I'm coming",
+      "entry_id": "i-de-kom",
+      "standard": "I de kom"
+    },
+    {
+      "variant": "if",
+      "entry_id": "if",
+      "standard": "if"
+    },
+    {
+      "variant": "im",
+      "entry_id": "im",
+      "standard": "im"
+    },
+    {
+      "variant": "in",
+      "entry_id": "in",
+      "standard": "in"
+    },
+    {
+      "variant": "insaid",
+      "entry_id": "insaid",
+      "standard": "insaid"
+    },
+    {
+      "variant": "inside",
+      "entry_id": "in",
+      "standard": "in"
+    },
+    {
+      "variant": "insult",
+      "entry_id": "insult",
+      "standard": "insult"
+    },
+    {
+      "variant": "ivnin",
+      "entry_id": "ivnin",
+      "standard": "ivnin"
+    },
+    {
+      "variant": "ivun",
+      "entry_id": "ivun",
+      "standard": "ivun"
+    },
+    {
+      "variant": "izi",
+      "entry_id": "izi",
+      "standard": "izi"
+    },
+    {
+      "variant": "jara",
+      "entry_id": "jara",
+      "standard": "jara"
+    },
+    {
+      "variant": "job",
+      "entry_id": "wok-job",
+      "standard": "wok"
+    },
+    {
+      "variant": "jomp",
+      "entry_id": "jomp",
+      "standard": "jomp"
+    },
+    {
+      "variant": "juju",
+      "entry_id": "juju",
+      "standard": "juju"
+    },
+    {
+      "variant": "jump",
+      "entry_id": "jomp",
+      "standard": "jomp"
+    },
+    {
+      "variant": "kach",
+      "entry_id": "kach",
+      "standard": "kach"
+    },
+    {
+      "variant": "kai-kai",
+      "entry_id": "ogogoro",
+      "standard": "ogogoro"
+    },
+    {
+      "variant": "kainkain",
+      "entry_id": "kainkain",
+      "standard": "kainkain"
+    },
+    {
+      "variant": "kari",
+      "entry_id": "kari",
+      "standard": "kari"
+    },
+    {
+      "variant": "kari go",
+      "entry_id": "kari-go",
+      "standard": "kari go"
+    },
+    {
+      "variant": "klaim",
+      "entry_id": "klaim",
+      "standard": "klaim"
+    },
+    {
+      "variant": "klimb",
+      "entry_id": "klaim",
+      "standard": "klaim"
+    },
+    {
+      "variant": "klin",
+      "entry_id": "klin",
+      "standard": "klin"
+    },
+    {
+      "variant": "kloz",
+      "entry_id": "kloz",
+      "standard": "kloz"
+    },
+    {
+      "variant": "knock",
+      "entry_id": "nak",
+      "standard": "nak"
+    },
+    {
+      "variant": "know",
+      "entry_id": "sabi",
+      "standard": "sabi"
+    },
+    {
+      "variant": "kofe",
+      "entry_id": "kofe",
+      "standard": "kofe"
+    },
+    {
+      "variant": "kol",
+      "entry_id": "kol",
+      "standard": "kol"
+    },
+    {
+      "variant": "kom",
+      "entry_id": "kom",
+      "standard": "kom"
+    },
+    {
+      "variant": "kon",
+      "entry_id": "kom",
+      "standard": "kom"
+    },
+    {
+      "variant": "kontri",
+      "entry_id": "kontri",
+      "standard": "kontri"
+    },
+    {
+      "variant": "koret",
+      "entry_id": "koret",
+      "standard": "koret"
+    },
+    {
+      "variant": "kpangolo",
+      "entry_id": "kpangolo",
+      "standard": "kpangolo"
+    },
+    {
+      "variant": "krai",
+      "entry_id": "krai",
+      "standard": "krai"
+    },
+    {
+      "variant": "krokro",
+      "entry_id": "krokro",
+      "standard": "krokro"
+    },
+    {
+      "variant": "kuk",
+      "entry_id": "kuk",
+      "standard": "kuk"
+    },
+    {
+      "variant": "kwaiet",
+      "entry_id": "kwaiet",
+      "standard": "kwaiet"
+    },
+    {
+      "variant": "kwik",
+      "entry_id": "kwik",
+      "standard": "kwik"
+    },
+    {
+      "variant": "kwik kwik",
+      "entry_id": "kwik-kwik",
+      "standard": "kwik kwik"
+    },
+    {
+      "variant": "laf",
+      "entry_id": "laf",
+      "standard": "laf"
+    },
+    {
+      "variant": "Lagos",
+      "entry_id": "legos",
+      "standard": "Legos"
+    },
+    {
+      "variant": "laif",
+      "entry_id": "laif",
+      "standard": "laif"
+    },
+    {
+      "variant": "lait",
+      "entry_id": "lait",
+      "standard": "lait"
+    },
+    {
+      "variant": "laugh",
+      "entry_id": "laf",
+      "standard": "laf"
+    },
+    {
+      "variant": "learn",
+      "entry_id": "len",
+      "standard": "len"
+    },
+    {
+      "variant": "leg",
+      "entry_id": "leg",
+      "standard": "leg"
+    },
+    {
+      "variant": "Legos",
+      "entry_id": "legos",
+      "standard": "Legos"
+    },
+    {
+      "variant": "len",
+      "entry_id": "len",
+      "standard": "len"
+    },
+    {
+      "variant": "lend",
+      "entry_id": "lend",
+      "standard": "lend"
+    },
+    {
+      "variant": "let",
+      "entry_id": "mek",
+      "standard": "mek"
+    },
+    {
+      "variant": "life",
+      "entry_id": "laif",
+      "standard": "laif"
+    },
+    {
+      "variant": "light",
+      "entry_id": "lait",
+      "standard": "lait"
+    },
+    {
+      "variant": "lock",
+      "entry_id": "lok",
+      "standard": "lok"
+    },
+    {
+      "variant": "lok",
+      "entry_id": "lok",
+      "standard": "lok"
+    },
+    {
+      "variant": "long",
+      "entry_id": "long",
+      "standard": "long"
+    },
+    {
+      "variant": "look",
+      "entry_id": "luk",
+      "standard": "luk"
+    },
+    {
+      "variant": "lori",
+      "entry_id": "lori",
+      "standard": "lori"
+    },
+    {
+      "variant": "lorry",
+      "entry_id": "lori",
+      "standard": "lori"
+    },
+    {
+      "variant": "lose",
+      "entry_id": "luz",
+      "standard": "luz"
+    },
+    {
+      "variant": "lov",
+      "entry_id": "lov",
+      "standard": "lov"
+    },
+    {
+      "variant": "love",
+      "entry_id": "lov",
+      "standard": "lov"
+    },
+    {
+      "variant": "luk",
+      "entry_id": "luk",
+      "standard": "luk"
+    },
+    {
+      "variant": "luz",
+      "entry_id": "luz",
+      "standard": "luz"
+    },
+    {
+      "variant": "magician",
+      "entry_id": "majishan",
+      "standard": "majishan"
+    },
+    {
+      "variant": "majishan",
+      "entry_id": "majishan",
+      "standard": "majishan"
+    },
+    {
+      "variant": "make",
+      "entry_id": "mek",
+      "standard": "mek"
+    },
+    {
+      "variant": "mama",
+      "entry_id": "mama",
+      "standard": "mama"
+    },
+    {
+      "variant": "man",
+      "entry_id": "man",
+      "standard": "man"
+    },
+    {
+      "variant": "market",
+      "entry_id": "market",
+      "standard": "market"
+    },
+    {
+      "variant": "maut",
+      "entry_id": "maut",
+      "standard": "maut"
+    },
+    {
+      "variant": "mauth",
+      "entry_id": "maut",
+      "standard": "maut"
+    },
+    {
+      "variant": "mawning",
+      "entry_id": "mornin",
+      "standard": "mornin"
+    },
+    {
+      "variant": "measure",
+      "entry_id": "mezho",
+      "standard": "mezho"
+    },
+    {
+      "variant": "meat",
+      "entry_id": "mit",
+      "standard": "mit"
+    },
+    {
+      "variant": "medicine",
+      "entry_id": "medisin",
+      "standard": "medisin"
+    },
+    {
+      "variant": "medin",
+      "entry_id": "medisin",
+      "standard": "medisin"
+    },
+    {
+      "variant": "medisin",
+      "entry_id": "medisin",
+      "standard": "medisin"
+    },
+    {
+      "variant": "mek",
+      "entry_id": "mek",
+      "standard": "mek"
+    },
+    {
+      "variant": "mey",
+      "entry_id": "mek",
+      "standard": "mek"
+    },
+    {
+      "variant": "mezho",
+      "entry_id": "mezho",
+      "standard": "mezho"
+    },
+    {
+      "variant": "minit",
+      "entry_id": "minit",
+      "standard": "minit"
+    },
+    {
+      "variant": "minute",
+      "entry_id": "minit",
+      "standard": "minit"
+    },
+    {
+      "variant": "minutes",
+      "entry_id": "minit",
+      "standard": "minit"
+    },
+    {
+      "variant": "mit",
+      "entry_id": "mit",
+      "standard": "mit"
+    },
+    {
+      "variant": "moi moi",
+      "entry_id": "moimoi",
+      "standard": "moimoi"
+    },
+    {
+      "variant": "moi-moi",
+      "entry_id": "moimoi",
+      "standard": "moimoi"
+    },
+    {
+      "variant": "moimoi",
+      "entry_id": "moimoi",
+      "standard": "moimoi"
+    },
+    {
+      "variant": "mom",
+      "entry_id": "mama",
+      "standard": "mama"
+    },
+    {
+      "variant": "money",
+      "entry_id": "moni",
+      "standard": "moni"
+    },
+    {
+      "variant": "moni",
+      "entry_id": "moni",
+      "standard": "moni"
+    },
+    {
+      "variant": "month",
+      "entry_id": "munt",
+      "standard": "munt"
+    },
+    {
+      "variant": "mornin",
+      "entry_id": "mornin",
+      "standard": "mornin"
+    },
+    {
+      "variant": "morning",
+      "entry_id": "mornin",
+      "standard": "mornin"
+    },
+    {
+      "variant": "mother",
+      "entry_id": "mama",
+      "standard": "mama"
+    },
+    {
+      "variant": "moto",
+      "entry_id": "moto",
+      "standard": "moto"
+    },
+    {
+      "variant": "mout",
+      "entry_id": "maut",
+      "standard": "maut"
+    },
+    {
+      "variant": "mouth",
+      "entry_id": "maut",
+      "standard": "maut"
+    },
+    {
+      "variant": "mud",
+      "entry_id": "potopoto",
+      "standard": "potopoto"
+    },
+    {
+      "variant": "munt",
+      "entry_id": "munt",
+      "standard": "munt"
+    },
+    {
+      "variant": "na",
+      "entry_id": "na",
+      "standard": "na"
+    },
+    {
+      "variant": "na so",
+      "entry_id": "na-so",
+      "standard": "na so"
+    },
+    {
+      "variant": "na so!",
+      "entry_id": "na-so",
+      "standard": "na so"
+    },
+    {
+      "variant": "Naija",
+      "entry_id": "naija",
+      "standard": "Naijá"
+    },
+    {
+      "variant": "Naija Pidgin",
+      "entry_id": "naija",
+      "standard": "Naijá"
+    },
+    {
+      "variant": "Naijá",
+      "entry_id": "naija",
+      "standard": "Naijá"
+    },
+    {
+      "variant": "nait",
+      "entry_id": "nait",
+      "standard": "nait"
+    },
+    {
+      "variant": "nak",
+      "entry_id": "nak",
+      "standard": "nak"
+    },
+    {
+      "variant": "nau",
+      "entry_id": "nau",
+      "standard": "nau"
+    },
+    {
+      "variant": "naw",
+      "entry_id": "nau",
+      "standard": "nau"
+    },
+    {
+      "variant": "naww",
+      "entry_id": "nau",
+      "standard": "nau"
+    },
+    {
+      "variant": "near",
+      "entry_id": "nia",
+      "standard": "nia"
+    },
+    {
+      "variant": "nearby",
+      "entry_id": "nia",
+      "standard": "nia"
+    },
+    {
+      "variant": "neare",
+      "entry_id": "nia",
+      "standard": "nia"
+    },
+    {
+      "variant": "neba",
+      "entry_id": "neba",
+      "standard": "neba"
+    },
+    {
+      "variant": "need",
+      "entry_id": "nid",
+      "standard": "nid"
+    },
+    {
+      "variant": "neighbor",
+      "entry_id": "neba",
+      "standard": "neba"
+    },
+    {
+      "variant": "neva",
+      "entry_id": "neva",
+      "standard": "neva"
+    },
+    {
+      "variant": "never",
+      "entry_id": "neva",
+      "standard": "neva"
+    },
+    {
+      "variant": "new",
+      "entry_id": "nyu",
+      "standard": "nyu"
+    },
+    {
+      "variant": "nia",
+      "entry_id": "nia",
+      "standard": "nia"
+    },
+    {
+      "variant": "nid",
+      "entry_id": "nid",
+      "standard": "nid"
+    },
+    {
+      "variant": "Niger",
+      "entry_id": "naija-river",
+      "standard": "Naija"
+    },
+    {
+      "variant": "night",
+      "entry_id": "nait",
+      "standard": "nait"
+    },
+    {
+      "variant": "niu",
+      "entry_id": "niu",
+      "standard": "niu"
+    },
+    {
+      "variant": "no",
+      "entry_id": "no",
+      "standard": "no"
+    },
+    {
+      "variant": "no problem",
+      "entry_id": "no-wahala",
+      "standard": "no wahala"
+    },
+    {
+      "variant": "no vex",
+      "entry_id": "no-vex",
+      "standard": "no vex"
+    },
+    {
+      "variant": "no vex!",
+      "entry_id": "no-vex",
+      "standard": "no vex"
+    },
+    {
+      "variant": "no wahala",
+      "entry_id": "no-wahala",
+      "standard": "no wahala"
+    },
+    {
+      "variant": "noise",
+      "entry_id": "noiz",
+      "standard": "noiz"
+    },
+    {
+      "variant": "noiz",
+      "entry_id": "noiz",
+      "standard": "noiz"
+    },
+    {
+      "variant": "noni",
+      "entry_id": "moni",
+      "standard": "moni"
+    },
+    {
+      "variant": "nos",
+      "entry_id": "noz",
+      "standard": "noz"
+    },
+    {
+      "variant": "nose",
+      "entry_id": "noz",
+      "standard": "noz"
+    },
+    {
+      "variant": "not",
+      "entry_id": "no",
+      "standard": "no"
+    },
+    {
+      "variant": "nothing",
+      "entry_id": "notin",
+      "standard": "notin"
+    },
+    {
+      "variant": "notin",
+      "entry_id": "notin",
+      "standard": "notin"
+    },
+    {
+      "variant": "now",
+      "entry_id": "nau",
+      "standard": "nau"
+    },
+    {
+      "variant": "noz",
+      "entry_id": "noz",
+      "standard": "noz"
+    },
+    {
+      "variant": "nutin",
+      "entry_id": "notin",
+      "standard": "notin"
+    },
+    {
+      "variant": "nyash",
+      "entry_id": "yansh",
+      "standard": "yansh"
+    },
+    {
+      "variant": "nyu",
+      "entry_id": "nyu",
+      "standard": "nyu"
+    },
+    {
+      "variant": "o",
+      "entry_id": "o",
+      "standard": "o"
+    },
+    {
+      "variant": "oga",
+      "entry_id": "oga",
+      "standard": "oga"
+    },
+    {
+      "variant": "ogah",
+      "entry_id": "oga",
+      "standard": "oga"
+    },
+    {
+      "variant": "ogogoro",
+      "entry_id": "ogogoro",
+      "standard": "ogogoro"
+    },
+    {
+      "variant": "okra",
+      "entry_id": "okro",
+      "standard": "okro"
+    },
+    {
+      "variant": "okrah",
+      "entry_id": "okro",
+      "standard": "okro"
+    },
+    {
+      "variant": "okro",
+      "entry_id": "okro",
+      "standard": "okro"
+    },
+    {
+      "variant": "ol",
+      "entry_id": "ol",
+      "standard": "ol"
+    },
+    {
+      "variant": "old",
+      "entry_id": "olt",
+      "standard": "olt"
+    },
+    {
+      "variant": "old man",
+      "entry_id": "old-man",
+      "standard": "old-man"
+    },
+    {
+      "variant": "old-man",
+      "entry_id": "old-man",
+      "standard": "old-man"
+    },
+    {
+      "variant": "olt",
+      "entry_id": "olt",
+      "standard": "olt"
+    },
+    {
+      "variant": "on",
+      "entry_id": "on",
+      "standard": "on"
+    },
+    {
+      "variant": "one",
+      "entry_id": "wan",
+      "standard": "wan"
+    },
+    {
+      "variant": "onli",
+      "entry_id": "onli",
+      "standard": "onli"
+    },
+    {
+      "variant": "only",
+      "entry_id": "onli",
+      "standard": "onli"
+    },
+    {
+      "variant": "open",
+      "entry_id": "opun",
+      "standard": "opun"
+    },
+    {
+      "variant": "opin",
+      "entry_id": "opin",
+      "standard": "opin"
+    },
+    {
+      "variant": "opun",
+      "entry_id": "opun",
+      "standard": "opun"
+    },
+    {
+      "variant": "opun-ai",
+      "entry_id": "opun-ai",
+      "standard": "opun-ai"
+    },
+    {
+      "variant": "ospitul",
+      "entry_id": "ospitul",
+      "standard": "ospitul"
+    },
+    {
+      "variant": "out",
+      "entry_id": "outsai",
+      "standard": "outsai"
+    },
+    {
+      "variant": "outsai",
+      "entry_id": "outsai",
+      "standard": "outsai"
+    },
+    {
+      "variant": "outside",
+      "entry_id": "outsai",
+      "standard": "outsai"
+    },
+    {
+      "variant": "papa",
+      "entry_id": "papa",
+      "standard": "papa"
+    },
+    {
+      "variant": "paper",
+      "entry_id": "pepa",
+      "standard": "pepa"
+    },
+    {
+      "variant": "party",
+      "entry_id": "pati",
+      "standard": "pati"
+    },
+    {
+      "variant": "pas",
+      "entry_id": "pas",
+      "standard": "pas"
+    },
+    {
+      "variant": "pass",
+      "entry_id": "pas",
+      "standard": "pas"
+    },
+    {
+      "variant": "pati",
+      "entry_id": "pati",
+      "standard": "pati"
+    },
+    {
+      "variant": "pay",
+      "entry_id": "pay",
+      "standard": "pay"
+    },
+    {
+      "variant": "pekin",
+      "entry_id": "pikin",
+      "standard": "pikin"
+    },
+    {
+      "variant": "pen",
+      "entry_id": "pen",
+      "standard": "pen"
+    },
+    {
+      "variant": "people",
+      "entry_id": "pipul",
+      "standard": "pipul"
+    },
+    {
+      "variant": "people-dem",
+      "entry_id": "pipul",
+      "standard": "pipul"
+    },
+    {
+      "variant": "pepa",
+      "entry_id": "pepa",
+      "standard": "pepa"
+    },
+    {
+      "variant": "pesin",
+      "entry_id": "pipul",
+      "standard": "pipul"
+    },
+    {
+      "variant": "phone",
+      "entry_id": "fona",
+      "standard": "fona"
+    },
+    {
+      "variant": "pic",
+      "entry_id": "pik",
+      "standard": "pik"
+    },
+    {
+      "variant": "pick",
+      "entry_id": "pik",
+      "standard": "pik"
+    },
+    {
+      "variant": "pickin",
+      "entry_id": "pikin",
+      "standard": "pikin"
+    },
+    {
+      "variant": "pickin dem",
+      "entry_id": "pikin",
+      "standard": "pikin"
+    },
+    {
+      "variant": "pik",
+      "entry_id": "pik",
+      "standard": "pik"
+    },
+    {
+      "variant": "pikin",
+      "entry_id": "pikin",
+      "standard": "pikin"
+    },
+    {
+      "variant": "pikin dem",
+      "entry_id": "pikin",
+      "standard": "pikin"
+    },
+    {
+      "variant": "pikinn",
+      "entry_id": "pikin",
+      "standard": "pikin"
+    },
+    {
+      "variant": "pipo",
+      "entry_id": "pipul",
+      "standard": "pipul"
+    },
+    {
+      "variant": "pipol",
+      "entry_id": "pipul",
+      "standard": "pipul"
+    },
+    {
+      "variant": "pipul",
+      "entry_id": "pipul",
+      "standard": "pipul"
+    },
+    {
+      "variant": "place",
+      "entry_id": "ples",
+      "standard": "ples"
+    },
+    {
+      "variant": "plantain",
+      "entry_id": "plantin",
+      "standard": "plantin"
+    },
+    {
+      "variant": "plantin",
+      "entry_id": "plantin",
+      "standard": "plantin"
+    },
+    {
+      "variant": "plase",
+      "entry_id": "ples",
+      "standard": "ples"
+    },
+    {
+      "variant": "play",
+      "entry_id": "ple",
+      "standard": "ple"
+    },
+    {
+      "variant": "ple",
+      "entry_id": "ple",
+      "standard": "ple"
+    },
+    {
+      "variant": "please",
+      "entry_id": "abeg",
+      "standard": "abeg"
+    },
+    {
+      "variant": "ples",
+      "entry_id": "ples",
+      "standard": "ples"
+    },
+    {
+      "variant": "plis",
+      "entry_id": "plis",
+      "standard": "plis"
+    },
+    {
+      "variant": "pls",
+      "entry_id": "plis",
+      "standard": "plis"
+    },
+    {
+      "variant": "police",
+      "entry_id": "polis",
+      "standard": "polis"
+    },
+    {
+      "variant": "polis",
+      "entry_id": "polis",
+      "standard": "polis"
+    },
+    {
+      "variant": "poo",
+      "entry_id": "poo",
+      "standard": "poo"
+    },
+    {
+      "variant": "poor",
+      "entry_id": "poo",
+      "standard": "poo"
+    },
+    {
+      "variant": "potopoto",
+      "entry_id": "potopoto",
+      "standard": "potopoto"
+    },
+    {
+      "variant": "prais",
+      "entry_id": "prais",
+      "standard": "prais"
+    },
+    {
+      "variant": "present",
+      "entry_id": "gift",
+      "standard": "gift"
+    },
+    {
+      "variant": "price",
+      "entry_id": "prais",
+      "standard": "prais"
+    },
+    {
+      "variant": "problem",
+      "entry_id": "wahala",
+      "standard": "wahala"
+    },
+    {
+      "variant": "put",
+      "entry_id": "put",
+      "standard": "put"
+    },
+    {
+      "variant": "quick",
+      "entry_id": "kwik",
+      "standard": "kwik"
+    },
+    {
+      "variant": "quick quick",
+      "entry_id": "kwik-kwik",
+      "standard": "kwik kwik"
+    },
+    {
+      "variant": "quick-quick",
+      "entry_id": "kwik-kwik",
+      "standard": "kwik kwik"
+    },
+    {
+      "variant": "quiet",
+      "entry_id": "kwaiet",
+      "standard": "kwaiet"
+    },
+    {
+      "variant": "rain",
+      "entry_id": "ren",
+      "standard": "ren"
+    },
+    {
+      "variant": "rais",
+      "entry_id": "rais",
+      "standard": "rais"
+    },
+    {
+      "variant": "read",
+      "entry_id": "rid",
+      "standard": "rid"
+    },
+    {
+      "variant": "really",
+      "entry_id": "trutru",
+      "standard": "trutru"
+    },
+    {
+      "variant": "remember",
+      "entry_id": "rimemba",
+      "standard": "rimemba"
+    },
+    {
+      "variant": "ren",
+      "entry_id": "ren",
+      "standard": "ren"
+    },
+    {
+      "variant": "respect",
+      "entry_id": "respekt",
+      "standard": "respekt"
+    },
+    {
+      "variant": "respekt",
+      "entry_id": "respekt",
+      "standard": "respekt"
+    },
+    {
+      "variant": "rice",
+      "entry_id": "rais",
+      "standard": "rais"
+    },
+    {
+      "variant": "rich",
+      "entry_id": "rich",
+      "standard": "rich"
+    },
+    {
+      "variant": "rid",
+      "entry_id": "rid",
+      "standard": "rid"
+    },
+    {
+      "variant": "right",
+      "entry_id": "koret",
+      "standard": "koret"
+    },
+    {
+      "variant": "rili",
+      "entry_id": "rili",
+      "standard": "rili"
+    },
+    {
+      "variant": "rimemba",
+      "entry_id": "rimemba",
+      "standard": "rimemba"
+    },
+    {
+      "variant": "rit",
+      "entry_id": "rit",
+      "standard": "rit"
+    },
+    {
+      "variant": "road",
+      "entry_id": "rod",
+      "standard": "rod"
+    },
+    {
+      "variant": "rod",
+      "entry_id": "rod",
+      "standard": "rod"
+    },
+    {
+      "variant": "ron",
+      "entry_id": "ron",
+      "standard": "ron"
+    },
+    {
+      "variant": "rong",
+      "entry_id": "rong",
+      "standard": "rong"
+    },
+    {
+      "variant": "room",
+      "entry_id": "rum",
+      "standard": "rum"
+    },
+    {
+      "variant": "rum",
+      "entry_id": "rum",
+      "standard": "rum"
+    },
+    {
+      "variant": "run",
+      "entry_id": "ron",
+      "standard": "ron"
+    },
+    {
+      "variant": "sabe",
+      "entry_id": "sabi",
+      "standard": "sabi"
+    },
+    {
+      "variant": "sabi",
+      "entry_id": "sabi",
+      "standard": "sabi"
+    },
+    {
+      "variant": "sad",
+      "entry_id": "sad",
+      "standard": "sad"
+    },
+    {
+      "variant": "san",
+      "entry_id": "san",
+      "standard": "san"
+    },
+    {
+      "variant": "sand",
+      "entry_id": "sansan",
+      "standard": "sansan"
+    },
+    {
+      "variant": "sansan",
+      "entry_id": "sansan",
+      "standard": "sansan"
+    },
+    {
+      "variant": "sawa",
+      "entry_id": "sawa",
+      "standard": "sawa"
+    },
+    {
+      "variant": "say",
+      "entry_id": "se",
+      "standard": "se"
+    },
+    {
+      "variant": "school",
+      "entry_id": "skul",
+      "standard": "skul"
+    },
+    {
+      "variant": "se",
+      "entry_id": "se",
+      "standard": "se"
+    },
+    {
+      "variant": "second",
+      "entry_id": "sekond",
+      "standard": "sekond"
+    },
+    {
+      "variant": "see",
+      "entry_id": "si",
+      "standard": "si"
+    },
+    {
+      "variant": "sef",
+      "entry_id": "sef",
+      "standard": "sef"
+    },
+    {
+      "variant": "sekond",
+      "entry_id": "sekond",
+      "standard": "sekond"
+    },
+    {
+      "variant": "sel",
+      "entry_id": "sel",
+      "standard": "sel"
+    },
+    {
+      "variant": "self",
+      "entry_id": "sef",
+      "standard": "sef"
+    },
+    {
+      "variant": "sell",
+      "entry_id": "sel",
+      "standard": "sel"
+    },
+    {
+      "variant": "senior",
+      "entry_id": "sinio",
+      "standard": "sinio"
+    },
+    {
+      "variant": "sey",
+      "entry_id": "se",
+      "standard": "se"
+    },
+    {
+      "variant": "sha",
+      "entry_id": "sha",
+      "standard": "sha"
+    },
+    {
+      "variant": "shake",
+      "entry_id": "shek",
+      "standard": "shek"
+    },
+    {
+      "variant": "shapshap",
+      "entry_id": "shapshap",
+      "standard": "shapshap"
+    },
+    {
+      "variant": "sharp",
+      "entry_id": "sharp",
+      "standard": "sharp"
+    },
+    {
+      "variant": "sharp sharp",
+      "entry_id": "shapshap",
+      "standard": "shapshap"
+    },
+    {
+      "variant": "sharp-sharp",
+      "entry_id": "shapshap",
+      "standard": "shapshap"
+    },
+    {
+      "variant": "shaut",
+      "entry_id": "shaut",
+      "standard": "shaut"
+    },
+    {
+      "variant": "shebi",
+      "entry_id": "abi",
+      "standard": "abi"
+    },
+    {
+      "variant": "shek",
+      "entry_id": "shek",
+      "standard": "shek"
+    },
+    {
+      "variant": "shey",
+      "entry_id": "abi",
+      "standard": "abi"
+    },
+    {
+      "variant": "shoe",
+      "entry_id": "shuz",
+      "standard": "shuz"
+    },
+    {
+      "variant": "shoes",
+      "entry_id": "shuz",
+      "standard": "shuz"
+    },
+    {
+      "variant": "shop",
+      "entry_id": "shop",
+      "standard": "shop"
+    },
+    {
+      "variant": "short",
+      "entry_id": "shot",
+      "standard": "shot"
+    },
+    {
+      "variant": "shot",
+      "entry_id": "shot",
+      "standard": "shot"
+    },
+    {
+      "variant": "shout",
+      "entry_id": "shaut",
+      "standard": "shaut"
+    },
+    {
+      "variant": "shoutin",
+      "entry_id": "shaut",
+      "standard": "shaut"
+    },
+    {
+      "variant": "shuz",
+      "entry_id": "shuz",
+      "standard": "shuz"
+    },
+    {
+      "variant": "si",
+      "entry_id": "si",
+      "standard": "si"
+    },
+    {
+      "variant": "sick",
+      "entry_id": "sik",
+      "standard": "sik"
+    },
+    {
+      "variant": "sidon",
+      "entry_id": "sidon",
+      "standard": "sidon"
+    },
+    {
+      "variant": "sik",
+      "entry_id": "sik",
+      "standard": "sik"
+    },
+    {
+      "variant": "sing",
+      "entry_id": "sing",
+      "standard": "sing"
+    },
+    {
+      "variant": "sinio",
+      "entry_id": "sinio",
+      "standard": "sinio"
+    },
+    {
+      "variant": "sis",
+      "entry_id": "sista",
+      "standard": "sista"
+    },
+    {
+      "variant": "sista",
+      "entry_id": "sista",
+      "standard": "sista"
+    },
+    {
+      "variant": "sister",
+      "entry_id": "sista",
+      "standard": "sista"
+    },
+    {
+      "variant": "sit down",
+      "entry_id": "sidon",
+      "standard": "sidon"
+    },
+    {
+      "variant": "siti",
+      "entry_id": "siti",
+      "standard": "siti"
+    },
+    {
+      "variant": "skeletin",
+      "entry_id": "skeletin",
+      "standard": "skeletin"
+    },
+    {
+      "variant": "skeleton",
+      "entry_id": "skeletin",
+      "standard": "skeletin"
+    },
+    {
+      "variant": "skin",
+      "entry_id": "skin",
+      "standard": "skin"
+    },
+    {
+      "variant": "skul",
+      "entry_id": "skul",
+      "standard": "skul"
+    },
+    {
+      "variant": "sleep",
+      "entry_id": "slip",
+      "standard": "slip"
+    },
+    {
+      "variant": "slip",
+      "entry_id": "slip",
+      "standard": "slip"
+    },
+    {
+      "variant": "smail",
+      "entry_id": "smail",
+      "standard": "smail"
+    },
+    {
+      "variant": "small",
+      "entry_id": "smol",
+      "standard": "smol"
+    },
+    {
+      "variant": "small small",
+      "entry_id": "smol-smol",
+      "standard": "smol smol"
+    },
+    {
+      "variant": "small-small",
+      "entry_id": "smol-smol",
+      "standard": "smol smol"
+    },
+    {
+      "variant": "smel",
+      "entry_id": "smel",
+      "standard": "smel"
+    },
+    {
+      "variant": "smell",
+      "entry_id": "smel",
+      "standard": "smel"
+    },
+    {
+      "variant": "smile",
+      "entry_id": "smail",
+      "standard": "smail"
+    },
+    {
+      "variant": "smoka",
+      "entry_id": "smoka",
+      "standard": "smoka"
+    },
+    {
+      "variant": "smoker",
+      "entry_id": "smoka",
+      "standard": "smoka"
+    },
+    {
+      "variant": "smol",
+      "entry_id": "smol",
+      "standard": "smol"
+    },
+    {
+      "variant": "smol smol",
+      "entry_id": "smol-smol",
+      "standard": "smol smol"
+    },
+    {
+      "variant": "soft",
+      "entry_id": "soft",
+      "standard": "soft"
+    },
+    {
+      "variant": "soldia",
+      "entry_id": "soldia",
+      "standard": "soldia"
+    },
+    {
+      "variant": "soldier",
+      "entry_id": "soldia",
+      "standard": "soldia"
+    },
+    {
+      "variant": "som",
+      "entry_id": "som",
+      "standard": "som"
+    },
+    {
+      "variant": "some",
+      "entry_id": "som",
+      "standard": "som"
+    },
+    {
+      "variant": "something",
+      "entry_id": "somtin",
+      "standard": "somtin"
+    },
+    {
+      "variant": "sometin",
+      "entry_id": "somtin",
+      "standard": "somtin"
+    },
+    {
+      "variant": "somtin",
+      "entry_id": "somtin",
+      "standard": "somtin"
+    },
+    {
+      "variant": "sori",
+      "entry_id": "sori",
+      "standard": "sori"
+    },
+    {
+      "variant": "sorry",
+      "entry_id": "sori",
+      "standard": "sori"
+    },
+    {
+      "variant": "sote",
+      "entry_id": "sote",
+      "standard": "soteé"
+    },
+    {
+      "variant": "soteh",
+      "entry_id": "sote",
+      "standard": "soteé"
+    },
+    {
+      "variant": "soteé",
+      "entry_id": "sote",
+      "standard": "soteé"
+    },
+    {
+      "variant": "soup",
+      "entry_id": "sup",
+      "standard": "sup"
+    },
+    {
+      "variant": "sour",
+      "entry_id": "sour",
+      "standard": "sour"
+    },
+    {
+      "variant": "speak",
+      "entry_id": "tok",
+      "standard": "tok"
+    },
+    {
+      "variant": "spear",
+      "entry_id": "spie",
+      "standard": "spie"
+    },
+    {
+      "variant": "special",
+      "entry_id": "spesha",
+      "standard": "spesha"
+    },
+    {
+      "variant": "spesha",
+      "entry_id": "spesha",
+      "standard": "spesha"
+    },
+    {
+      "variant": "spie",
+      "entry_id": "spie",
+      "standard": "spie"
+    },
+    {
+      "variant": "spy",
+      "entry_id": "spie",
+      "standard": "spie"
+    },
+    {
+      "variant": "stan",
+      "entry_id": "stan",
+      "standard": "stan"
+    },
+    {
+      "variant": "stand",
+      "entry_id": "stan",
+      "standard": "stan"
+    },
+    {
+      "variant": "start",
+      "entry_id": "stat",
+      "standard": "stat"
+    },
+    {
+      "variant": "stat",
+      "entry_id": "stat",
+      "standard": "stat"
+    },
+    {
+      "variant": "stil",
+      "entry_id": "stil",
+      "standard": "stil"
+    },
+    {
+      "variant": "still",
+      "entry_id": "stil",
+      "standard": "stil"
+    },
+    {
+      "variant": "stomach",
+      "entry_id": "belle",
+      "standard": "belle"
+    },
+    {
+      "variant": "stop",
+      "entry_id": "stop",
+      "standard": "stop"
+    },
+    {
+      "variant": "store",
+      "entry_id": "shop",
+      "standard": "shop"
+    },
+    {
+      "variant": "street",
+      "entry_id": "strit",
+      "standard": "strit"
+    },
+    {
+      "variant": "strit",
+      "entry_id": "strit",
+      "standard": "strit"
+    },
+    {
+      "variant": "strong",
+      "entry_id": "strong",
+      "standard": "strong"
+    },
+    {
+      "variant": "strong-hed",
+      "entry_id": "strong-hed",
+      "standard": "strong-hed"
+    },
+    {
+      "variant": "stubborn",
+      "entry_id": "strong-hed",
+      "standard": "strong-hed"
+    },
+    {
+      "variant": "student",
+      "entry_id": "studet",
+      "standard": "studet"
+    },
+    {
+      "variant": "studet",
+      "entry_id": "studet",
+      "standard": "studet"
+    },
+    {
+      "variant": "sun",
+      "entry_id": "san",
+      "standard": "san"
+    },
+    {
+      "variant": "sup",
+      "entry_id": "sup",
+      "standard": "sup"
+    },
+    {
+      "variant": "sweet",
+      "entry_id": "swit",
+      "standard": "swit"
+    },
+    {
+      "variant": "swit",
+      "entry_id": "swit",
+      "standard": "swit"
+    },
+    {
+      "variant": "table",
+      "entry_id": "tebul",
+      "standard": "tebul"
+    },
+    {
+      "variant": "taim",
+      "entry_id": "taim",
+      "standard": "taim"
+    },
+    {
+      "variant": "take",
+      "entry_id": "tek",
+      "standard": "tek"
+    },
+    {
+      "variant": "talk",
+      "entry_id": "tok",
+      "standard": "tok"
+    },
+    {
+      "variant": "taun",
+      "entry_id": "taun",
+      "standard": "taun"
+    },
+    {
+      "variant": "taya",
+      "entry_id": "taya",
+      "standard": "taya"
+    },
+    {
+      "variant": "tea",
+      "entry_id": "tii",
+      "standard": "tii"
+    },
+    {
+      "variant": "teach",
+      "entry_id": "tich",
+      "standard": "tich"
+    },
+    {
+      "variant": "teacher",
+      "entry_id": "ticha",
+      "standard": "ticha"
+    },
+    {
+      "variant": "tebul",
+      "entry_id": "tebul",
+      "standard": "tebul"
+    },
+    {
+      "variant": "ted",
+      "entry_id": "ted",
+      "standard": "ted"
+    },
+    {
+      "variant": "teja",
+      "entry_id": "teja",
+      "standard": "teja"
+    },
+    {
+      "variant": "tek",
+      "entry_id": "tek",
+      "standard": "tek"
+    },
+    {
+      "variant": "telephone",
+      "entry_id": "fone",
+      "standard": "fone"
+    },
+    {
+      "variant": "tenki",
+      "entry_id": "tenki",
+      "standard": "tenki"
+    },
+    {
+      "variant": "thank you",
+      "entry_id": "tenki",
+      "standard": "tenki"
+    },
+    {
+      "variant": "thanks",
+      "entry_id": "tenki",
+      "standard": "tenki"
+    },
+    {
+      "variant": "that",
+      "entry_id": "dat",
+      "standard": "dat"
+    },
+    {
+      "variant": "that's how",
+      "entry_id": "na-so",
+      "standard": "na so"
+    },
+    {
+      "variant": "the",
+      "entry_id": "di",
+      "standard": "di"
+    },
+    {
+      "variant": "them",
+      "entry_id": "dem",
+      "standard": "dem"
+    },
+    {
+      "variant": "there",
+      "entry_id": "dea",
+      "standard": "dea"
+    },
+    {
+      "variant": "thief",
+      "entry_id": "tif",
+      "standard": "tif"
+    },
+    {
+      "variant": "thing",
+      "entry_id": "somtin",
+      "standard": "somtin"
+    },
+    {
+      "variant": "third",
+      "entry_id": "ted",
+      "standard": "ted"
+    },
+    {
+      "variant": "this",
+      "entry_id": "dis",
+      "standard": "dis"
+    },
+    {
+      "variant": "thorns",
+      "entry_id": "chukuchuku",
+      "standard": "chukuchuku"
+    },
+    {
+      "variant": "though",
+      "entry_id": "sha",
+      "standard": "sha"
+    },
+    {
+      "variant": "throw",
+      "entry_id": "dro",
+      "standard": "dro"
+    },
+    {
+      "variant": "tich",
+      "entry_id": "tich",
+      "standard": "tich"
+    },
+    {
+      "variant": "ticha",
+      "entry_id": "ticha",
+      "standard": "ticha"
+    },
+    {
+      "variant": "tif",
+      "entry_id": "tif",
+      "standard": "tif"
+    },
+    {
+      "variant": "tii",
+      "entry_id": "tii",
+      "standard": "tii"
+    },
+    {
+      "variant": "til",
+      "entry_id": "til",
+      "standard": "til"
+    },
+    {
+      "variant": "time",
+      "entry_id": "taim",
+      "standard": "taim"
+    },
+    {
+      "variant": "ting",
+      "entry_id": "somtin",
+      "standard": "somtin"
+    },
+    {
+      "variant": "tired",
+      "entry_id": "taya",
+      "standard": "taya"
+    },
+    {
+      "variant": "to",
+      "entry_id": "to",
+      "standard": "to"
+    },
+    {
+      "variant": "today",
+      "entry_id": "tode",
+      "standard": "tode"
+    },
+    {
+      "variant": "tode",
+      "entry_id": "tode",
+      "standard": "tode"
+    },
+    {
+      "variant": "togeda",
+      "entry_id": "togeda",
+      "standard": "togeda"
+    },
+    {
+      "variant": "together",
+      "entry_id": "togeda",
+      "standard": "togeda"
+    },
+    {
+      "variant": "tok",
+      "entry_id": "tok",
+      "standard": "tok"
+    },
+    {
+      "variant": "tolotolo",
+      "entry_id": "tolotolo",
+      "standard": "tolotolo"
+    },
+    {
+      "variant": "tomorrow",
+      "entry_id": "tumoro",
+      "standard": "tumoro"
+    },
+    {
+      "variant": "too much",
+      "entry_id": "tu-mach",
+      "standard": "tu mach"
+    },
+    {
+      "variant": "town",
+      "entry_id": "taun",
+      "standard": "taun"
+    },
+    {
+      "variant": "tree",
+      "entry_id": "tri",
+      "standard": "tri"
+    },
+    {
+      "variant": "tri",
+      "entry_id": "tri",
+      "standard": "tri"
+    },
+    {
+      "variant": "trouble",
+      "entry_id": "wahala",
+      "standard": "wahala"
+    },
+    {
+      "variant": "troublesome",
+      "entry_id": "gbagbati",
+      "standard": "gbagbati"
+    },
+    {
+      "variant": "truck",
+      "entry_id": "lori",
+      "standard": "lori"
+    },
+    {
+      "variant": "true",
+      "entry_id": "trut",
+      "standard": "trut"
+    },
+    {
+      "variant": "truly",
+      "entry_id": "trutru",
+      "standard": "trutru"
+    },
+    {
+      "variant": "trut",
+      "entry_id": "trut",
+      "standard": "trut"
+    },
+    {
+      "variant": "truth",
+      "entry_id": "trut",
+      "standard": "trut"
+    },
+    {
+      "variant": "trutru",
+      "entry_id": "trutru",
+      "standard": "trutru"
+    },
+    {
+      "variant": "tu mach",
+      "entry_id": "tu-mach",
+      "standard": "tu mach"
+    },
+    {
+      "variant": "tumoro",
+      "entry_id": "tumoro",
+      "standard": "tumoro"
+    },
+    {
+      "variant": "turkey",
+      "entry_id": "tolotolo",
+      "standard": "tolotolo"
+    },
+    {
+      "variant": "u",
+      "entry_id": "yu",
+      "standard": "yu"
+    },
+    {
+      "variant": "una",
+      "entry_id": "una",
+      "standard": "una"
+    },
+    {
+      "variant": "unna",
+      "entry_id": "una",
+      "standard": "una"
+    },
+    {
+      "variant": "until",
+      "entry_id": "til",
+      "standard": "til"
+    },
+    {
+      "variant": "vain",
+      "entry_id": "find",
+      "standard": "fain"
+    },
+    {
+      "variant": "video",
+      "entry_id": "vidio",
+      "standard": "vidio"
+    },
+    {
+      "variant": "vidio",
+      "entry_id": "vidio",
+      "standard": "vidio"
+    },
+    {
+      "variant": "vilej",
+      "entry_id": "vilej",
+      "standard": "vilej"
+    },
+    {
+      "variant": "village",
+      "entry_id": "vilej",
+      "standard": "vilej"
+    },
+    {
+      "variant": "wahala",
+      "entry_id": "wahala",
+      "standard": "wahala"
+    },
+    {
+      "variant": "wait",
+      "entry_id": "wét",
+      "standard": "wét"
+    },
+    {
+      "variant": "waka",
+      "entry_id": "waka",
+      "standard": "waka"
+    },
+    {
+      "variant": "wake",
+      "entry_id": "wok-op",
+      "standard": "wek op"
+    },
+    {
+      "variant": "wake up",
+      "entry_id": "wok-op",
+      "standard": "wek op"
+    },
+    {
+      "variant": "walk",
+      "entry_id": "waka",
+      "standard": "waka"
+    },
+    {
+      "variant": "wan",
+      "entry_id": "wan",
+      "standard": "wan"
+    },
+    {
+      "variant": "want",
+      "entry_id": "want",
+      "standard": "want"
+    },
+    {
+      "variant": "wash",
+      "entry_id": "wash",
+      "standard": "wash"
+    },
+    {
+      "variant": "wata",
+      "entry_id": "wata",
+      "standard": "wata"
+    },
+    {
+      "variant": "water",
+      "entry_id": "wata",
+      "standard": "wata"
+    },
+    {
+      "variant": "watin",
+      "entry_id": "wetin",
+      "standard": "wetin"
+    },
+    {
+      "variant": "wating",
+      "entry_id": "wetin",
+      "standard": "wetin"
+    },
+    {
+      "variant": "watta",
+      "entry_id": "wata",
+      "standard": "wata"
+    },
+    {
+      "variant": "we",
+      "entry_id": "wi",
+      "standard": "wi"
+    },
+    {
+      "variant": "weak",
+      "entry_id": "weak",
+      "standard": "weak"
+    },
+    {
+      "variant": "week",
+      "entry_id": "wik",
+      "standard": "wik"
+    },
+    {
+      "variant": "weit",
+      "entry_id": "weit",
+      "standard": "weit"
+    },
+    {
+      "variant": "wek op",
+      "entry_id": "wok-op",
+      "standard": "wek op"
+    },
+    {
+      "variant": "wel",
+      "entry_id": "wel",
+      "standard": "wel"
+    },
+    {
+      "variant": "wel wel",
+      "entry_id": "wel-wel",
+      "standard": "wel wel"
+    },
+    {
+      "variant": "welcome",
+      "entry_id": "welkom",
+      "standard": "welkom"
+    },
+    {
+      "variant": "welkom",
+      "entry_id": "welkom",
+      "standard": "welkom"
+    },
+    {
+      "variant": "well",
+      "entry_id": "wel",
+      "standard": "wel"
+    },
+    {
+      "variant": "well well",
+      "entry_id": "wel-wel",
+      "standard": "wel wel"
+    },
+    {
+      "variant": "well-well",
+      "entry_id": "wel-wel",
+      "standard": "wel wel"
+    },
+    {
+      "variant": "wen",
+      "entry_id": "wen",
+      "standard": "wen"
+    },
+    {
+      "variant": "wetin",
+      "entry_id": "wetin",
+      "standard": "wetin"
+    },
+    {
+      "variant": "wetin be dis",
+      "entry_id": "wetin-be-dis",
+      "standard": "wetin be dis"
+    },
+    {
+      "variant": "wetin be this",
+      "entry_id": "wetin-be-dis",
+      "standard": "wetin be dis"
+    },
+    {
+      "variant": "wetin de",
+      "entry_id": "wetin-de",
+      "standard": "wetin de"
+    },
+    {
+      "variant": "wetin de happen",
+      "entry_id": "wetin-de-happen",
+      "standard": "wetin de happen"
+    },
+    {
+      "variant": "wetin dey",
+      "entry_id": "wetin-de",
+      "standard": "wetin de"
+    },
+    {
+      "variant": "wetin dey happen",
+      "entry_id": "wetin-de-happen",
+      "standard": "wetin de happen"
+    },
+    {
+      "variant": "wetin dey happen?",
+      "entry_id": "wetin-de-happen",
+      "standard": "wetin de happen"
+    },
+    {
+      "variant": "wey",
+      "entry_id": "wey",
+      "standard": "wey"
+    },
+    {
+      "variant": "weyim",
+      "entry_id": "wetin",
+      "standard": "wetin"
+    },
+    {
+      "variant": "weytin be dis",
+      "entry_id": "wetin-be-dis",
+      "standard": "wetin be dis"
+    },
+    {
+      "variant": "what",
+      "entry_id": "wetin",
+      "standard": "wetin"
+    },
+    {
+      "variant": "what is this",
+      "entry_id": "wetin-be-dis",
+      "standard": "wetin be dis"
+    },
+    {
+      "variant": "what's happening",
+      "entry_id": "wetin-de-happen",
+      "standard": "wetin de happen"
+    },
+    {
+      "variant": "when",
+      "entry_id": "wen",
+      "standard": "wen"
+    },
+    {
+      "variant": "where",
+      "entry_id": "wia",
+      "standard": "wia"
+    },
+    {
+      "variant": "which",
+      "entry_id": "wey",
+      "standard": "wey"
+    },
+    {
+      "variant": "who",
+      "entry_id": "wey",
+      "standard": "wey"
+    },
+    {
+      "variant": "whose",
+      "entry_id": "hus",
+      "standard": "hus"
+    },
+    {
+      "variant": "why",
+      "entry_id": "why",
+      "standard": "why"
+    },
+    {
+      "variant": "wi",
+      "entry_id": "wi",
+      "standard": "wi"
+    },
+    {
+      "variant": "wia",
+      "entry_id": "wia",
+      "standard": "wia"
+    },
+    {
+      "variant": "wie",
+      "entry_id": "wie",
+      "standard": "wie"
+    },
+    {
+      "variant": "wik",
+      "entry_id": "wik",
+      "standard": "wik"
+    },
+    {
+      "variant": "windo",
+      "entry_id": "windo",
+      "standard": "windo"
+    },
+    {
+      "variant": "window",
+      "entry_id": "windo",
+      "standard": "windo"
+    },
+    {
+      "variant": "wit",
+      "entry_id": "wit",
+      "standard": "wit"
+    },
+    {
+      "variant": "with",
+      "entry_id": "wit",
+      "standard": "wit"
+    },
+    {
+      "variant": "wok",
+      "entry_id": "wok",
+      "standard": "wok"
+    },
+    {
+      "variant": "woka",
+      "entry_id": "woka",
+      "standard": "woka"
+    },
+    {
+      "variant": "woman",
+      "entry_id": "wuman",
+      "standard": "wuman"
+    },
+    {
+      "variant": "won",
+      "entry_id": "want",
+      "standard": "want"
+    },
+    {
+      "variant": "work",
+      "entry_id": "wok",
+      "standard": "wok"
+    },
+    {
+      "variant": "worker",
+      "entry_id": "woka",
+      "standard": "woka"
+    },
+    {
+      "variant": "wosh",
+      "entry_id": "wash",
+      "standard": "wash"
+    },
+    {
+      "variant": "wota",
+      "entry_id": "wata",
+      "standard": "wata"
+    },
+    {
+      "variant": "write",
+      "entry_id": "rit",
+      "standard": "rit"
+    },
+    {
+      "variant": "wrong",
+      "entry_id": "rong",
+      "standard": "rong"
+    },
+    {
+      "variant": "wuman",
+      "entry_id": "wuman",
+      "standard": "wuman"
+    },
+    {
+      "variant": "wét",
+      "entry_id": "wét",
+      "standard": "wét"
+    },
+    {
+      "variant": "yad",
+      "entry_id": "yad",
+      "standard": "yad"
+    },
+    {
+      "variant": "yam",
+      "entry_id": "yam",
+      "standard": "yam"
+    },
+    {
+      "variant": "yama yama",
+      "entry_id": "yamayama",
+      "standard": "yamayama"
+    },
+    {
+      "variant": "yamayama",
+      "entry_id": "yamayama",
+      "standard": "yamayama"
+    },
+    {
+      "variant": "yansh",
+      "entry_id": "yansh",
+      "standard": "yansh"
+    },
+    {
+      "variant": "yard",
+      "entry_id": "yad",
+      "standard": "yad"
+    },
+    {
+      "variant": "year",
+      "entry_id": "yia",
+      "standard": "yia"
+    },
+    {
+      "variant": "yes",
+      "entry_id": "yes",
+      "standard": "yes"
+    },
+    {
+      "variant": "yestade",
+      "entry_id": "yestade",
+      "standard": "yestade"
+    },
+    {
+      "variant": "yesterday",
+      "entry_id": "yestade",
+      "standard": "yestade"
+    },
+    {
+      "variant": "yia",
+      "entry_id": "yia",
+      "standard": "yia"
+    },
+    {
+      "variant": "yong",
+      "entry_id": "yong",
+      "standard": "yong"
+    },
+    {
+      "variant": "you",
+      "entry_id": "yu",
+      "standard": "yu"
+    },
+    {
+      "variant": "young",
+      "entry_id": "yong",
+      "standard": "yong"
+    },
+    {
+      "variant": "yu",
+      "entry_id": "yu",
+      "standard": "yu"
+    },
+    {
+      "variant": "yung",
+      "entry_id": "yong",
+      "standard": "yong"
+    },
+    {
+      "variant": "zinc",
+      "entry_id": "zink",
+      "standard": "zink"
+    },
+    {
+      "variant": "zink",
+      "entry_id": "zink",
+      "standard": "zink"
+    }
+  ]
+}

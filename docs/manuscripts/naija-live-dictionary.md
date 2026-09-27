@@ -33,7 +33,7 @@ The gap addressed here is therefore practical as well as linguistic: **a living,
 
 **In scope (Part II sentence tools, landed).** Rules-based sentence orthographic normalizer consuming the variant index; experimental thin spell-mapping model for offline rules-vs-model comparison; optional local English→Pidgin Marian translation with SNO post-normalize; UI Option B (English→Pidgin primary; spelling-fix secondary) [11], [12].
 
-**Out of scope (still deferred).** Production-grade neural orthographic autocorrect; claiming MT output as IFRA orthography authority without the SNO post-pass and human review. OS / mobile IME packaging (II-5+) remains deferred; **II-4 web compose assist** (digraph panel + prefix suggest) is implemented — see `docs/phase-ii-4-keyboard-ime.md`.
+**Out of scope (still deferred).** Production-grade neural orthographic autocorrect; claiming MT output as IFRA orthography authority without the SNO post-pass and human review. OS / mobile IME **apps** (II-5b+) remain deferred; **II-4** web compose assist and **II-5a** IME lexicon export (`data/ime/`) are implemented.
 
 ### 1.3 Contributions
 
@@ -130,7 +130,7 @@ A static browser UI (`web/`) loads `dictionary.json`, `variant_index.json`, and 
 
 Orthographic **normalize** (`data/normalize.py`, spelling-fix panel on `/web/normalize.html`) maps each token via the variant index (exact → fuzzy ≤ 2 → leave unknown). It does **not** rewrite English grammar; English residue on English inputs is expected. An experimental **model** backend (exact curated pairs + edit/NN heuristics) exists for offline `--compare` against rules; fold generalization remains weak relative to rules and is not the primary UX [11], [12].
 
-**English → Pidgin** (primary sentence UX, Option B) runs local Marian MT (`NITHUB-AI/marian-mt-bbc-en-pcm` via optional `transformers`/`torch`) then applies rules normalize for SNO spelling (`data/translate_en_pcm.py`, `POST /api/translate`). MT output is not treated as IFRA authority by itself. II-4 web compose assist (digraphs + prefix suggest) is available on the sentence and dictionary pages; OS/mobile IME remains deferred.
+**English → Pidgin** (primary sentence UX, Option B) runs local Marian MT (`NITHUB-AI/marian-mt-bbc-en-pcm` via optional `transformers`/`torch`) then applies rules normalize for SNO spelling (`data/translate_en_pcm.py`, `POST /api/translate`). MT output is not treated as IFRA authority by itself. II-4 web compose assist (digraphs + prefix suggest) is available on the sentence and dictionary pages; II-5a ships a regenerable IME lexicon export under `data/ime/` for future native IMEs (II-5b+).
 
 ### 3.9 Interoperability
 
@@ -221,7 +221,7 @@ An early batch-1 auto-heuristic (~124 fuzzy mappings) produced systematic false 
 
 ### 7.1 Alignment with initial goals
 
-The Live Dictionary mini-project exit criteria—authority decision, schema, seed lexicon, variant pipeline + ethics, and searchable UI—are met. The resource therefore satisfies the *immediate* Part I aim: an IFRA-grounded living reference with informal→standard lookup. Part II sentence tooling now consumes that lexicon for orthographic normalize and optional local EN→Pidgin conversion [11], [12]; II-4 web compose assist is available while OS/mobile IME and strong orthographic neural models remain open. UX Option B treats English→Pidgin as the primary sentence action and spelling-fix as secondary so users do not confuse token SNO mapping with translation.
+The Live Dictionary mini-project exit criteria—authority decision, schema, seed lexicon, variant pipeline + ethics, and searchable UI—are met. The resource therefore satisfies the *immediate* Part I aim: an IFRA-grounded living reference with informal→standard lookup. Part II sentence tooling now consumes that lexicon for orthographic normalize and optional local EN→Pidgin conversion [11], [12]; II-4 web compose assist is available while II-5a provides an IME lexicon export for future OS/mobile packages; strong orthographic neural models remain open. UX Option B treats English→Pidgin as the primary sentence action and spelling-fix as secondary so users do not confuse token SNO mapping with translation.
 
 ### 7.2 Design implications
 
@@ -237,7 +237,7 @@ Canonical scientific claims in this manuscript should drive developer, researche
 - Complete licensed corpus ingest where technically blocked.
 - User studies of lookup success, spelling preference, and sentence-tool usefulness.
 - Stronger orthographic models or eval suites (rules still dominate the thin fold baseline).
-- Keyboard / IME: OS / mobile packaging (II-5+); web compose assist shipped in II-4.
+- Keyboard / IME: OS / mobile apps (II-5b+); web compose (II-4) and lexicon export (II-5a, `data/ime/`) shipped.
 - Public release packaging under D4 Tier A/B with clear attribution.
 - Keep manuscript metrics aligned with live validators after each lexicon growth pass.
 

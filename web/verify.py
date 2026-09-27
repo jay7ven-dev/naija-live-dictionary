@@ -38,6 +38,22 @@ def main() -> int:
     fuzzy = json.loads(fuzzy_path.read_text(encoding="utf-8"))
     by_id = {e["id"]: e for e in entries}
 
+    ime_json = ROOT / "data" / "ime" / "naija-ime-lexicon.json"
+    ime_tsv = ROOT / "data" / "ime" / "naija-ime-lexicon.tsv"
+    if not ime_json.is_file() or not ime_tsv.is_file():
+        print("missing: data/ime/naija-ime-lexicon.json or .tsv (run data/export_ime_lexicon.py)", file=sys.stderr)
+        return 1
+    ime = json.loads(ime_json.read_text(encoding="utf-8"))
+    if ime.get("digraphs") != ["ch", "gb", "sh", "kp", "zh"]:
+        print(f"ime digraphs mismatch: {ime.get('digraphs')}", file=sys.stderr)
+        return 1
+    if len(ime.get("suggestions") or []) != len(index):
+        print(
+            f"ime suggestions {len(ime.get('suggestions') or [])} != index {len(index)}",
+            file=sys.stderr,
+        )
+        return 1
+
     def resolve(variant: str) -> str | None:
         return index.get(variant) or index.get(variant.lower())
 
@@ -57,7 +73,8 @@ def main() -> int:
 
     print(
         f"OK: {len(entries)} entries, {len(index)} index keys, "
-        f"{len(fuzzy.get('terms', []))} fuzzy terms, web + docs layers present"
+        f"{len(fuzzy.get('terms', []))} fuzzy terms, "
+        f"ime export {len(ime['suggestions'])}, web + docs layers present"
     )
     return 0
 
