@@ -24,3 +24,6 @@ desktop.ini
 ime/keyman/**/build/
 *.kmx
 *.kmp
+
+# D4 offline release zips (regenerate with data/package_release.py)
+dist/

@@ -30,4 +30,10 @@ python web/verify.py
 Checklist: [`docs/public-release-checklist.md`](docs/public-release-checklist.md)  
 License: [`LICENSE`](LICENSE)
 
+Offline Tier A/B zip (no IFRA guide body, no full corpus dumps):
+
+```bash
+python data/package_release.py
+```
+
 Do **not** add the IFRA Guide PDF or long verbatim guide text to a public remote.

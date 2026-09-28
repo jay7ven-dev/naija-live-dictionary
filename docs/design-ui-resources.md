@@ -63,7 +63,7 @@ Standing (not under `.agents/skills/`): `/kybernetes-loop-governor`, `/ponytail`
 
 ## B. Design / UI skills — installed on this machine, **not** in the Pidgin repo
 
-Location: `C:\Users\boija\.claude\skills\`. Cursor’s project skill list does not include them; attach explicitly when chosen.
+Location: `~/.claude/skills/` (machine-local Claude skills). Cursor’s project skill list does not include them; attach explicitly when chosen.
 
 ### High fit for `web/` (existing tool UI)
 
@@ -107,7 +107,7 @@ Do not run these until approved. Catalog: https://www.skills.sh/topic/design · 
 | sleek-design-mobile-apps | sleekdotdesign/agent-skills | skills.sh listing | Mobile apps — Part II / out of Part I |
 | **awesome-design-md** | https://github.com/VoltAgent/awesome-design-md | clone / copy a `DESIGN.md` | Brand DESIGN.md files for agents |
 | ComposioHQ/awesome-claude-skills | catalog (via find-skills) | — | Index of skills, not a single UI skill |
-| find-skills (method) | `C:\Users\boija\.agents\skills\find-skills\` | `npx skills find [query]` | Discover more; still requires user approval to add |
+| find-skills (method) | `~/.agents/skills/find-skills/` | `npx skills find [query]` | Discover more; still requires user approval to add |
 
 **Recommended first uninstalled skill if one is added later:** `web-design-guidelines` (a11y / public-tool), not a marketing taste pack.
 
@@ -145,10 +145,9 @@ Do not run these until approved. Catalog: https://www.skills.sh/topic/design · 
 
 | Location | What |
 |----------|------|
-| `C:\Users\boija\design-skill-src\` | Clones from a prior Website COde_File session: `awesome` (VoltAgent/awesome-design-md), `emil` (emilkowalski/skill), `impeccable` (pbakaus/impeccable), `taste` (Leonxlnx/taste-skill) |
-| `'26Hussell shit\Website COde_File\gym-booking-site-previewVVV22\DESIGN.md` | Stitch-style Nike DESIGN.md — commerce look; **not** this dictionary’s visual identity |
-| `'26Hussell shit\Project tracker\ProjDOC\project-skill-library.md` | Tracker-only skills; no UI/design skills for Pidgin |
-| `'26Hussell shit\Project tracker\frontend\index.html` | Separate tracker UI |
+| `~/design-skill-src/` (optional local clones) | Prior session clones: `awesome` (VoltAgent/awesome-design-md), `emil` (emilkowalski/skill), `impeccable` (pbakaus/impeccable), `taste` (Leonxlnx/taste-skill) |
+| Sibling Hussell folder `Website COde_File/.../DESIGN.md` | Stitch-style Nike DESIGN.md — commerce look; **not** this dictionary’s visual identity |
+| Sibling Hussell folder `Project tracker/...` | Tracker-only skills / separate tracker UI — not Pidgin UI |
 | This project `docs/phase-4-web-ui.md` | What the Live Dictionary UI already does |
 
 This project has **no** `DESIGN.md` of its own.

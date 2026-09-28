@@ -80,6 +80,7 @@ Operational copy: `docs/public-release-checklist.md`.
 - [x] Add IFRA/NLA attribution to `web/index.html` footer
 - [x] Confirm no IFRA PDF in `sources/` is published to remote (none present; `.gitignore` blocks PDFs)
 - [x] Include `docs/citation-pack.md` in release
+- [x] Offline Tier A/B zip via `python data/package_release.py` → `dist/`
 - [ ] Optional: confirm with IFRA Nigeria in writing for institutional/grant requirements
 
 ---

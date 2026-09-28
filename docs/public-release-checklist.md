@@ -18,6 +18,7 @@ Required notice (README + footer):
 | `docs/citation-pack.md` in the tree | **Done** |
 | No IFRA PDF in `sources/` | **Pass** — none present; `.gitignore` blocks `*.pdf` / `ifra-guide.pdf` |
 | IFRA web extract is short notes, not guide body | **Pass** — `sources/extractions/ifra-sno-web.txt` is a principle list |
+| `data/candidates.json` (token stats only) | **OK for research** — frequencies / review queue; never raw tweets, DMs, or PII |
 | Optional written OK from IFRA Nigeria | **Not done** — only if a grant/institution requires it |
 
 ## Do not put on a public remote
@@ -44,3 +45,12 @@ Local copies of ignored corpora may stay on disk for pipelines. Re-fetch with `p
 
 - Ask IFRA Nigeria for educational republication / CC terms (only if you need the guide body online).
 - Dual-license SPDX in GitHub repo settings to match `LICENSE` (do not claim a single license for UD sentences).
+
+## Offline Tier A/B zip
+
+```bash
+python data/package_release.py
+python data/package_release.py --self-check
+```
+
+Output: `dist/naija-live-dictionary-tier-ab-YYYY-MM-DD.zip` (gitignored). Includes dictionary, schema, web, citation/D4 docs, TEI export, Keyman **sources** (not `.kmp`). Excludes IFRA PDF, UD `.conllu`, CENCOS dump.

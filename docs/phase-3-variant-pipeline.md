@@ -88,6 +88,9 @@ Writes `data/variant_index.json`: `{ "dey": "de-copula", "pickin": "pikin", ... 
 | `data/corpus/` | Input text samples |
 | `data/corpus/sources.json` | Ethics manifest |
 | `data/candidates.json` | Extract output (review queue) |
+
+**Public-repo note:** `candidates.json` may hold corpus-derived **token frequencies** for review. That is fine for research packaging. Do **not** add raw tweet dumps, private messages, usernames/handles, or other personal content into this file or the public remote (D3/D4).
+
 | `data/variant_mappings.json` | Approved mappings |
 | `data/variant_index.json` | Flat lookup for search UI |
 | `data/collect_variants.py` | Extract / apply / index |
