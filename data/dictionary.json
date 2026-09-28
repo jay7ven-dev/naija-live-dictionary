@@ -6580,5 +6580,420 @@
       "Buy pure water."
     ],
     "pronunciation": "P-oo-r-eh-w-ah-t-eh-r"
+  },
+  {
+    "id": "oya",
+    "standard_spelling": "oya",
+    "informal_variants": [],
+    "part_of_speech": "interjection",
+    "definitions": [
+      "come on; let's go; hurry"
+    ],
+    "example_sentences": [
+      "Oya make we go."
+    ],
+    "pronunciation": "OH-y-ah"
+  },
+  {
+    "id": "japa",
+    "standard_spelling": "japa",
+    "informal_variants": [],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to flee; emigrate quickly; escape"
+    ],
+    "example_sentences": [
+      "Plenti pipul don japa."
+    ],
+    "pronunciation": "J-ah-p-ah"
+  },
+  {
+    "id": "hustle",
+    "standard_spelling": "hustle",
+    "informal_variants": [],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to work hard for money; grind"
+    ],
+    "example_sentences": [
+      "I de hustle every day."
+    ],
+    "pronunciation": "H-oo-s-t-l-eh"
+  },
+  {
+    "id": "gbese",
+    "standard_spelling": "gbese",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "debt"
+    ],
+    "example_sentences": [
+      "Gbese don plenti."
+    ],
+    "pronunciation": "G-b-eh-s-eh"
+  },
+  {
+    "id": "fashi",
+    "standard_spelling": "fashi",
+    "informal_variants": [
+      "fashion"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to ignore; leave alone; forget about"
+    ],
+    "example_sentences": [
+      "Fashi am."
+    ],
+    "pronunciation": "F-ah-sh-ee"
+  },
+  {
+    "id": "para",
+    "standard_spelling": "para",
+    "informal_variants": [],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to get angry; overreact"
+    ],
+    "example_sentences": [
+      "No para."
+    ],
+    "pronunciation": "P-ah-r-ah"
+  },
+  {
+    "id": "lamba",
+    "standard_spelling": "lamba",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "lie; false story"
+    ],
+    "example_sentences": [
+      "Na lamba."
+    ],
+    "pronunciation": "L-ah-m-b-ah"
+  },
+  {
+    "id": "kolo",
+    "standard_spelling": "kolo",
+    "informal_variants": [],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "crazy; mad"
+    ],
+    "example_sentences": [
+      "Di ting kolo."
+    ],
+    "pronunciation": "K-oh-l-oh"
+  },
+  {
+    "id": "wuruwuru",
+    "standard_spelling": "wuruwuru",
+    "informal_variants": [
+      "wuru-wuru"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "fraud; shady dealing"
+    ],
+    "example_sentences": [
+      "No do wuruwuru."
+    ],
+    "pronunciation": "W-oo-r-oo-w-oo-r-oo"
+  },
+  {
+    "id": "haba",
+    "standard_spelling": "haba",
+    "informal_variants": [],
+    "part_of_speech": "interjection",
+    "definitions": [
+      "exclamation of disbelief or protest"
+    ],
+    "example_sentences": [
+      "Haba, no be so."
+    ],
+    "pronunciation": "H-ah-b-ah"
+  },
+  {
+    "id": "kai",
+    "standard_spelling": "kai",
+    "informal_variants": [],
+    "part_of_speech": "interjection",
+    "definitions": [
+      "exclamation of surprise or sympathy"
+    ],
+    "example_sentences": [
+      "Kai, wetin hapen?"
+    ],
+    "pronunciation": "K-eye"
+  },
+  {
+    "id": "shuo",
+    "standard_spelling": "shuo",
+    "informal_variants": [
+      "sho"
+    ],
+    "part_of_speech": "interjection",
+    "definitions": [
+      "exclamation of surprise or emphasis"
+    ],
+    "example_sentences": [
+      "Shuo! Di fud sweet."
+    ],
+    "pronunciation": "SH-oo-oh"
+  },
+  {
+    "id": "belleful",
+    "standard_spelling": "belleful",
+    "informal_variants": [
+      "belle full",
+      "beli-ful"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "full (from eating); satisfied"
+    ],
+    "example_sentences": [
+      "I don belleful."
+    ],
+    "pronunciation": "B-eh-l-l-eh-f-oo-l"
+  },
+  {
+    "id": "gbege",
+    "standard_spelling": "gbege",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "trouble; serious problem"
+    ],
+    "example_sentences": [
+      "Gbege don start."
+    ],
+    "pronunciation": "G-b-eh-g-eh"
+  },
+  {
+    "id": "agbero",
+    "standard_spelling": "agbero",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "motor-park tout / loader"
+    ],
+    "example_sentences": [
+      "Agbero de fo park."
+    ],
+    "pronunciation": "AH-g-b-eh-r-oh"
+  },
+  {
+    "id": "molue",
+    "standard_spelling": "molue",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "old Lagos mass-transit bus"
+    ],
+    "example_sentences": [
+      "I enta molue."
+    ],
+    "pronunciation": "M-oh-l-oo-eh"
+  },
+  {
+    "id": "ofada",
+    "standard_spelling": "ofada",
+    "informal_variants": [
+      "ofada-rice"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "local ofada rice (often with sauce)"
+    ],
+    "example_sentences": [
+      "I wan chop ofada."
+    ],
+    "pronunciation": "OH-f-ah-d-ah"
+  },
+  {
+    "id": "efo",
+    "standard_spelling": "efo",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "vegetable leaf soup / stew"
+    ],
+    "example_sentences": [
+      "Mama kuk efo."
+    ],
+    "pronunciation": "EH-f-oh"
+  },
+  {
+    "id": "ewedu",
+    "standard_spelling": "ewedu",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "ewedu (jute-leaf soup)"
+    ],
+    "example_sentences": [
+      "Ewedu wit amala."
+    ],
+    "pronunciation": "EH-w-eh-d-oo"
+  },
+  {
+    "id": "banga",
+    "standard_spelling": "banga",
+    "informal_variants": [
+      "banga-soup"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "palm-nut soup"
+    ],
+    "example_sentences": [
+      "Banga soup sweet."
+    ],
+    "pronunciation": "B-ah-ng-ah"
+  },
+  {
+    "id": "gala",
+    "standard_spelling": "gala",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "sausage roll snack (brand-generic use)"
+    ],
+    "example_sentences": [
+      "Buy gala fo mi."
+    ],
+    "pronunciation": "G-ah-l-ah"
+  },
+  {
+    "id": "puff-puff",
+    "standard_spelling": "puff-puff",
+    "informal_variants": [
+      "puff puff",
+      "puffpuff"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "fried dough snack"
+    ],
+    "example_sentences": [
+      "I wan puff-puff."
+    ],
+    "pronunciation": "P-oo-f-f-p-oo-f-f"
+  },
+  {
+    "id": "eba",
+    "standard_spelling": "eba",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "garri meal (eba)"
+    ],
+    "example_sentences": [
+      "I chop eba."
+    ],
+    "pronunciation": "EH-b-ah"
+  },
+  {
+    "id": "fufu",
+    "standard_spelling": "fufu",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "pounded starch swallow"
+    ],
+    "example_sentences": [
+      "Fufu wit soup."
+    ],
+    "pronunciation": "F-oo-f-oo"
+  },
+  {
+    "id": "amala",
+    "standard_spelling": "amala",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "yam-flour swallow"
+    ],
+    "example_sentences": [
+      "Amala wit ewedu."
+    ],
+    "pronunciation": "AH-m-ah-l-ah"
+  },
+  {
+    "id": "gari",
+    "standard_spelling": "gari",
+    "informal_variants": [
+      "garri"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "cassava flakes / garri"
+    ],
+    "example_sentences": [
+      "Soak gari."
+    ],
+    "pronunciation": "G-ah-r-ee"
+  },
+  {
+    "id": "ponmo",
+    "standard_spelling": "ponmo",
+    "informal_variants": [
+      "pomo",
+      "kpomo"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "cow skin (food)"
+    ],
+    "example_sentences": [
+      "Put ponmo fo soup."
+    ],
+    "pronunciation": "P-oh-n-m-oh"
+  },
+  {
+    "id": "zobo",
+    "standard_spelling": "zobo",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "hibiscus drink"
+    ],
+    "example_sentences": [
+      "I wan drink zobo."
+    ],
+    "pronunciation": "Z-oh-b-oh"
+  },
+  {
+    "id": "gen",
+    "standard_spelling": "gen",
+    "informal_variants": [
+      "generator"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "generator (colloquial)"
+    ],
+    "example_sentences": [
+      "Put on di gen."
+    ],
+    "pronunciation": "G-eh-n"
+  },
+  {
+    "id": "owambe",
+    "standard_spelling": "owambe",
+    "informal_variants": [
+      "owambe-party"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "lavish party / celebration"
+    ],
+    "example_sentences": [
+      "Dem go owambe."
+    ],
+    "pronunciation": "OH-w-ah-m-b-eh"
   }
 ]

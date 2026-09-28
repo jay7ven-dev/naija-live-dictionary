@@ -67,6 +67,10 @@
       "id": "aftanun"
     },
     {
+      "term": "agbero",
+      "id": "agbero"
+    },
+    {
       "term": "ai",
       "id": "ai"
     },
@@ -109,6 +113,10 @@
     {
       "term": "am",
       "id": "im"
+    },
+    {
+      "term": "amala",
+      "id": "amala"
     },
     {
       "term": "angri",
@@ -175,6 +183,14 @@
       "id": "baik-man"
     },
     {
+      "term": "banga",
+      "id": "banga"
+    },
+    {
+      "term": "banga-soup",
+      "id": "banga"
+    },
+    {
       "term": "barber",
       "id": "baba-barber"
     },
@@ -219,12 +235,24 @@
       "id": "belle"
     },
     {
+      "term": "beli-ful",
+      "id": "belleful"
+    },
+    {
       "term": "bell",
       "id": "belle"
     },
     {
       "term": "belle",
       "id": "belle"
+    },
+    {
+      "term": "belle full",
+      "id": "belleful"
+    },
+    {
+      "term": "belleful",
+      "id": "belleful"
     },
     {
       "term": "belly",
@@ -723,8 +751,16 @@
       "id": "izi"
     },
     {
+      "term": "eba",
+      "id": "eba"
+    },
+    {
       "term": "echoke",
       "id": "e-choke"
+    },
+    {
+      "term": "efo",
+      "id": "efo"
     },
     {
       "term": "egusi",
@@ -799,6 +835,10 @@
       "id": "evribodi"
     },
     {
+      "term": "ewedu",
+      "id": "ewedu"
+    },
+    {
       "term": "extra",
       "id": "jara"
     },
@@ -845,6 +885,14 @@
     {
       "term": "far",
       "id": "fa"
+    },
+    {
+      "term": "fashi",
+      "id": "fashi"
+    },
+    {
+      "term": "fashion",
+      "id": "fashi"
     },
     {
       "term": "fast",
@@ -1023,12 +1071,20 @@
       "id": "fud"
     },
     {
+      "term": "fufu",
+      "id": "fufu"
+    },
+    {
       "term": "fut",
       "id": "fut"
     },
     {
       "term": "fó",
       "id": "fó"
+    },
+    {
+      "term": "gala",
+      "id": "gala"
     },
     {
       "term": "gari",
@@ -1047,8 +1103,24 @@
       "id": "gbagbati"
     },
     {
+      "term": "gbege",
+      "id": "gbege"
+    },
+    {
+      "term": "gbese",
+      "id": "gbese"
+    },
+    {
       "term": "gel",
       "id": "gel"
+    },
+    {
+      "term": "gen",
+      "id": "gen"
+    },
+    {
+      "term": "generator",
+      "id": "gen"
     },
     {
       "term": "get",
@@ -1137,6 +1209,10 @@
     {
       "term": "gó",
       "id": "go-past"
+    },
+    {
+      "term": "haba",
+      "id": "haba"
     },
     {
       "term": "had",
@@ -1335,6 +1411,10 @@
       "id": "huself"
     },
     {
+      "term": "hustle",
+      "id": "hustle"
+    },
+    {
       "term": "I",
       "id": "i"
     },
@@ -1427,6 +1507,10 @@
       "id": "izi"
     },
     {
+      "term": "japa",
+      "id": "japa"
+    },
+    {
       "term": "jara",
       "id": "jara"
     },
@@ -1465,6 +1549,10 @@
     {
       "term": "kach",
       "id": "kach"
+    },
+    {
+      "term": "kai",
+      "id": "kai"
     },
     {
       "term": "kai-kai",
@@ -1531,6 +1619,10 @@
       "id": "kolekt"
     },
     {
+      "term": "kolo",
+      "id": "kolo"
+    },
+    {
       "term": "kom",
       "id": "kom"
     },
@@ -1553,6 +1645,10 @@
     {
       "term": "kpangolo",
       "id": "kpangolo"
+    },
+    {
+      "term": "kpomo",
+      "id": "ponmo"
     },
     {
       "term": "krai",
@@ -1593,6 +1689,10 @@
     {
       "term": "lait",
       "id": "lait"
+    },
+    {
+      "term": "lamba",
+      "id": "lamba"
     },
     {
       "term": "laugh",
@@ -1773,6 +1873,10 @@
     {
       "term": "moimoi",
       "id": "moimoi"
+    },
+    {
+      "term": "molue",
+      "id": "molue"
     },
     {
       "term": "mom",
@@ -2055,6 +2159,14 @@
       "id": "o"
     },
     {
+      "term": "ofada",
+      "id": "ofada"
+    },
+    {
+      "term": "ofada-rice",
+      "id": "ofada"
+    },
+    {
       "term": "oga",
       "id": "oga"
     },
@@ -2155,6 +2267,18 @@
       "id": "outsai"
     },
     {
+      "term": "owambe",
+      "id": "owambe"
+    },
+    {
+      "term": "owambe-party",
+      "id": "owambe"
+    },
+    {
+      "term": "oya",
+      "id": "oya"
+    },
+    {
       "term": "oyibo",
       "id": "oyibo"
     },
@@ -2169,6 +2293,10 @@
     {
       "term": "paper",
       "id": "pepa"
+    },
+    {
+      "term": "para",
+      "id": "para"
     },
     {
       "term": "party",
@@ -2315,6 +2443,14 @@
       "id": "polis"
     },
     {
+      "term": "pomo",
+      "id": "ponmo"
+    },
+    {
+      "term": "ponmo",
+      "id": "ponmo"
+    },
+    {
       "term": "poo",
       "id": "poo"
     },
@@ -2341,6 +2477,18 @@
     {
       "term": "problem",
       "id": "wahala"
+    },
+    {
+      "term": "puff puff",
+      "id": "puff-puff"
+    },
+    {
+      "term": "puff-puff",
+      "id": "puff-puff"
+    },
+    {
+      "term": "puffpuff",
+      "id": "puff-puff"
     },
     {
       "term": "pure water",
@@ -2591,6 +2739,10 @@
       "id": "abi"
     },
     {
+      "term": "sho",
+      "id": "shuo"
+    },
+    {
       "term": "shoe",
       "id": "shuz"
     },
@@ -2617,6 +2769,10 @@
     {
       "term": "shoutin",
       "id": "shaut"
+    },
+    {
+      "term": "shuo",
+      "id": "shuo"
     },
     {
       "term": "shuz",
@@ -3455,6 +3611,14 @@
       "id": "wuman"
     },
     {
+      "term": "wuru-wuru",
+      "id": "wuruwuru"
+    },
+    {
+      "term": "wuruwuru",
+      "id": "wuruwuru"
+    },
+    {
       "term": "wét",
       "id": "wét"
     },
@@ -3541,6 +3705,10 @@
     {
       "term": "zink",
       "id": "zink"
+    },
+    {
+      "term": "zobo",
+      "id": "zobo"
     }
   ]
 }
