@@ -6995,5 +6995,446 @@
       "Dem go owambe."
     ],
     "pronunciation": "OH-w-ah-m-b-eh"
+  },
+  {
+    "id": "ajepako",
+    "standard_spelling": "ajepako",
+    "informal_variants": [
+      "aje pako"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "person from a rough / street background (contrast ajebutter)"
+    ],
+    "example_sentences": [
+      "Im na ajepako."
+    ],
+    "pronunciation": "AH-j-eh-p-ah-k-oh"
+  },
+  {
+    "id": "kpali",
+    "standard_spelling": "kpali",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "trouble; serious problem (slang)"
+    ],
+    "example_sentences": [
+      "Kpali don enter."
+    ],
+    "pronunciation": "K-p-ah-l-ee"
+  },
+  {
+    "id": "area-boy",
+    "standard_spelling": "area boy",
+    "informal_variants": [
+      "areaboy",
+      "area-boys"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "street tout / neighborhood hustler"
+    ],
+    "example_sentences": [
+      "Area boy de fo junction."
+    ],
+    "pronunciation": "AH-r-ee-b-oh-y"
+  },
+  {
+    "id": "one-chance",
+    "standard_spelling": "one chance",
+    "informal_variants": [
+      "onechance",
+      "one-chance"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "shared informal taxi / ride (Lagos slang)"
+    ],
+    "example_sentences": [
+      "I tek one chance go wok."
+    ],
+    "pronunciation": "OH-n-eh-ch-ah-n-k-eh"
+  },
+  {
+    "id": "no-dulling",
+    "standard_spelling": "no dulling",
+    "informal_variants": [
+      "nodulling",
+      "no-dulling"
+    ],
+    "part_of_speech": "phrase",
+    "definitions": [
+      "don't mess around; stay sharp / serious"
+    ],
+    "example_sentences": [
+      "No dulling for this mata."
+    ],
+    "pronunciation": "N-oh-d-oo-l-l-ee-ng"
+  },
+  {
+    "id": "sabi-book",
+    "standard_spelling": "sabi book",
+    "informal_variants": [
+      "sabibook",
+      "sabi-book"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "book-smart person; academic type"
+    ],
+    "example_sentences": [
+      "Im na sabi book."
+    ],
+    "pronunciation": "S-ah-b-ee-b-oo-k"
+  },
+  {
+    "id": "shine-your-eye",
+    "standard_spelling": "shine your eye",
+    "informal_variants": [
+      "shine-your-eye",
+      "shine ya eye"
+    ],
+    "part_of_speech": "phrase",
+    "definitions": [
+      "be alert; watch out; wise up"
+    ],
+    "example_sentences": [
+      "Shine your eye fo market."
+    ],
+    "pronunciation": "SH-ee-n-eh-y-ow-r-eh-y-eh"
+  },
+  {
+    "id": "soft-life",
+    "standard_spelling": "soft life",
+    "informal_variants": [
+      "softlife",
+      "soft-life"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "comfortable / easy living"
+    ],
+    "example_sentences": [
+      "Im de live soft life."
+    ],
+    "pronunciation": "S-oh-f-t-l-ee-f-eh"
+  },
+  {
+    "id": "hard-life",
+    "standard_spelling": "hard life",
+    "informal_variants": [
+      "hardlife",
+      "hard-life"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "difficult living; struggle"
+    ],
+    "example_sentences": [
+      "Hard life no easy."
+    ],
+    "pronunciation": "H-ah-r-d-l-ee-f-eh"
+  },
+  {
+    "id": "my-guy",
+    "standard_spelling": "my guy",
+    "informal_variants": [
+      "myguy",
+      "my-guy"
+    ],
+    "part_of_speech": "phrase",
+    "definitions": [
+      "friendly address; mate"
+    ],
+    "example_sentences": [
+      "How far, my guy?"
+    ],
+    "pronunciation": "M-y-g-oo-y"
+  },
+  {
+    "id": "bros",
+    "standard_spelling": "bros",
+    "informal_variants": [
+      "bro",
+      "brother"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "brother; male peer (address)"
+    ],
+    "example_sentences": [
+      "Bros, abeg help mi."
+    ],
+    "pronunciation": "B-r-oh-s"
+  },
+  {
+    "id": "padi",
+    "standard_spelling": "padi",
+    "informal_variants": [
+      "paddy",
+      "padie"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "friend; buddy"
+    ],
+    "example_sentences": [
+      "Im na mai padi."
+    ],
+    "pronunciation": "P-ah-d-ee"
+  },
+  {
+    "id": "omo",
+    "standard_spelling": "omo",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "child; person (address / slang)"
+    ],
+    "example_sentences": [
+      "Omo, yu try."
+    ],
+    "pronunciation": "OH-m-oh"
+  },
+  {
+    "id": "alaye",
+    "standard_spelling": "alaye",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "street-smart person; also used as address"
+    ],
+    "example_sentences": [
+      "Alaye, wetin de happen?"
+    ],
+    "pronunciation": "AH-l-ah-y-eh"
+  },
+  {
+    "id": "shey",
+    "standard_spelling": "shey",
+    "informal_variants": [
+      "sey"
+    ],
+    "part_of_speech": "particle",
+    "definitions": [
+      "tag / confirmation particle (right; isn't it)"
+    ],
+    "example_sentences": [
+      "Shey yu de go?"
+    ],
+    "pronunciation": "SH-eh-y"
+  },
+  {
+    "id": "pepper-soup",
+    "standard_spelling": "pepper soup",
+    "informal_variants": [
+      "peppersoup",
+      "pepper-soup"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "spicy broth (often fish or meat)"
+    ],
+    "example_sentences": [
+      "I wan pepper soup."
+    ],
+    "pronunciation": "P-eh-p-p-eh-r-s-ow-p"
+  },
+  {
+    "id": "isi-ewu",
+    "standard_spelling": "isi ewu",
+    "informal_variants": [
+      "isiewu",
+      "isi-ewu"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "spicy goat-head dish"
+    ],
+    "example_sentences": [
+      "Dem chop isi ewu."
+    ],
+    "pronunciation": "EE-s-ee-eh-w-oo"
+  },
+  {
+    "id": "asun",
+    "standard_spelling": "asun",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "spicy grilled goat meat"
+    ],
+    "example_sentences": [
+      "Buy asun fo mi."
+    ],
+    "pronunciation": "AH-s-oo-n"
+  },
+  {
+    "id": "nkwobi",
+    "standard_spelling": "nkwobi",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "spicy cow-foot dish"
+    ],
+    "example_sentences": [
+      "Nkwobi sweet."
+    ],
+    "pronunciation": "N-k-w-oh-b-ee"
+  },
+  {
+    "id": "kilishi",
+    "standard_spelling": "kilishi",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "spiced dried meat (jerky-style)"
+    ],
+    "example_sentences": [
+      "I buy kilishi."
+    ],
+    "pronunciation": "K-ee-l-ee-sh-ee"
+  },
+  {
+    "id": "agege",
+    "standard_spelling": "agege",
+    "informal_variants": [
+      "agege-bread"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "Agege-style soft bread"
+    ],
+    "example_sentences": [
+      "Agege bread wit stew."
+    ],
+    "pronunciation": "AH-g-eh-g-eh"
+  },
+  {
+    "id": "shawarma",
+    "standard_spelling": "shawarma",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "shawarma wrap (street food)"
+    ],
+    "example_sentences": [
+      "I wan shawarma."
+    ],
+    "pronunciation": "SH-ah-w-ah-r-m-ah"
+  },
+  {
+    "id": "indomie",
+    "standard_spelling": "indomie",
+    "informal_variants": [
+      "indo"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "instant noodles (genericized brand use)"
+    ],
+    "example_sentences": [
+      "Kuk indomie fo mi."
+    ],
+    "pronunciation": "EE-n-d-oh-m-ee-eh"
+  },
+  {
+    "id": "akpu",
+    "standard_spelling": "akpu",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "fermented cassava swallow"
+    ],
+    "example_sentences": [
+      "Akpu wit soup."
+    ],
+    "pronunciation": "AH-k-p-oo"
+  },
+  {
+    "id": "okpa",
+    "standard_spelling": "okpa",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "bambara-nut pudding"
+    ],
+    "example_sentences": [
+      "I chop okpa."
+    ],
+    "pronunciation": "OH-k-p-ah"
+  },
+  {
+    "id": "kpekere",
+    "standard_spelling": "kpekere",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "fried plantain chips"
+    ],
+    "example_sentences": [
+      "Buy kpekere."
+    ],
+    "pronunciation": "K-p-eh-k-eh-r-eh"
+  },
+  {
+    "id": "plantain",
+    "standard_spelling": "plantain",
+    "informal_variants": [
+      "plaintain"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "plantain"
+    ],
+    "example_sentences": [
+      "Fry di plantain."
+    ],
+    "pronunciation": "P-l-ah-n-t-eye-n"
+  },
+  {
+    "id": "beans",
+    "standard_spelling": "beans",
+    "informal_variants": [
+      "binch"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "beans (food)"
+    ],
+    "example_sentences": [
+      "Beans wit dodo."
+    ],
+    "pronunciation": "B-ee-n-s"
+  },
+  {
+    "id": "stew",
+    "standard_spelling": "stew",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "tomato-based stew"
+    ],
+    "example_sentences": [
+      "Put stew fo rais."
+    ],
+    "pronunciation": "S-t-eh-w"
+  },
+  {
+    "id": "palm-wine",
+    "standard_spelling": "palm wine",
+    "informal_variants": [
+      "palmwine",
+      "palm-wine"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "palm wine"
+    ],
+    "example_sentences": [
+      "Dem drink palm wine."
+    ],
+    "pronunciation": "P-ah-l-m-w-ee-n-eh"
   }
 ]

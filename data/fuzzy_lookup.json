@@ -71,6 +71,14 @@
       "id": "agbero"
     },
     {
+      "term": "agege",
+      "id": "agege"
+    },
+    {
+      "term": "agege-bread",
+      "id": "agege"
+    },
+    {
       "term": "ai",
       "id": "ai"
     },
@@ -83,12 +91,20 @@
       "id": "ajebutter"
     },
     {
+      "term": "aje pako",
+      "id": "ajepako"
+    },
+    {
       "term": "ajebo",
       "id": "ajebutter"
     },
     {
       "term": "ajebutter",
       "id": "ajebutter"
+    },
+    {
+      "term": "ajepako",
+      "id": "ajepako"
     },
     {
       "term": "akada",
@@ -101,6 +117,14 @@
     {
       "term": "akara-wuman",
       "id": "akara-wuman"
+    },
+    {
+      "term": "akpu",
+      "id": "akpu"
+    },
+    {
+      "term": "alaye",
+      "id": "alaye"
     },
     {
       "term": "all",
@@ -151,12 +175,28 @@
       "id": "enibodi"
     },
     {
+      "term": "area boy",
+      "id": "area-boy"
+    },
+    {
+      "term": "area-boys",
+      "id": "area-boy"
+    },
+    {
+      "term": "areaboy",
+      "id": "area-boy"
+    },
+    {
       "term": "ask",
       "id": "ask"
     },
     {
       "term": "ass",
       "id": "yansh"
+    },
+    {
+      "term": "asun",
+      "id": "asun"
     },
     {
       "term": "baba",
@@ -197,6 +237,10 @@
     {
       "term": "Beacause",
       "id": "bikos"
+    },
+    {
+      "term": "beans",
+      "id": "beans"
     },
     {
       "term": "beautiful",
@@ -289,6 +333,10 @@
     {
       "term": "bikos",
       "id": "bikos"
+    },
+    {
+      "term": "binch",
+      "id": "beans"
     },
     {
       "term": "biya",
@@ -393,6 +441,10 @@
     {
       "term": "broda",
       "id": "broda"
+    },
+    {
+      "term": "bros",
+      "id": "bros"
     },
     {
       "term": "brother",
@@ -1259,6 +1311,18 @@
       "id": "had"
     },
     {
+      "term": "hard life",
+      "id": "hard-life"
+    },
+    {
+      "term": "hard-life",
+      "id": "hard-life"
+    },
+    {
+      "term": "hardlife",
+      "id": "hard-life"
+    },
+    {
       "term": "hasty",
       "id": "gragra"
     },
@@ -1483,6 +1547,14 @@
       "id": "in"
     },
     {
+      "term": "indo",
+      "id": "indomie"
+    },
+    {
+      "term": "indomie",
+      "id": "indomie"
+    },
+    {
       "term": "insaid",
       "id": "insaid"
     },
@@ -1493,6 +1565,18 @@
     {
       "term": "insult",
       "id": "insult"
+    },
+    {
+      "term": "isi ewu",
+      "id": "isi-ewu"
+    },
+    {
+      "term": "isi-ewu",
+      "id": "isi-ewu"
+    },
+    {
+      "term": "isiewu",
+      "id": "isi-ewu"
     },
     {
       "term": "ivnin",
@@ -1579,6 +1663,10 @@
       "id": "keke"
     },
     {
+      "term": "kilishi",
+      "id": "kilishi"
+    },
+    {
       "term": "klaim",
       "id": "klaim"
     },
@@ -1643,8 +1731,16 @@
       "id": "koret"
     },
     {
+      "term": "kpali",
+      "id": "kpali"
+    },
+    {
       "term": "kpangolo",
       "id": "kpangolo"
+    },
+    {
+      "term": "kpekere",
+      "id": "kpekere"
     },
     {
       "term": "kpomo",
@@ -1939,6 +2035,18 @@
       "id": "munt"
     },
     {
+      "term": "my guy",
+      "id": "my-guy"
+    },
+    {
+      "term": "my-guy",
+      "id": "my-guy"
+    },
+    {
+      "term": "myguy",
+      "id": "my-guy"
+    },
+    {
       "term": "na",
       "id": "na"
     },
@@ -2071,8 +2179,16 @@
       "id": "niu"
     },
     {
+      "term": "nkwobi",
+      "id": "nkwobi"
+    },
+    {
       "term": "no",
       "id": "no"
+    },
+    {
+      "term": "no dulling",
+      "id": "no-dulling"
     },
     {
       "term": "no problem",
@@ -2089,6 +2205,14 @@
     {
       "term": "no wahala",
       "id": "no-wahala"
+    },
+    {
+      "term": "no-dulling",
+      "id": "no-dulling"
+    },
+    {
+      "term": "nodulling",
+      "id": "no-dulling"
     },
     {
       "term": "noise",
@@ -2187,6 +2311,10 @@
       "id": "okada"
     },
     {
+      "term": "okpa",
+      "id": "okpa"
+    },
+    {
       "term": "okra",
       "id": "okro"
     },
@@ -2219,12 +2347,28 @@
       "id": "olt"
     },
     {
+      "term": "omo",
+      "id": "omo"
+    },
+    {
       "term": "on",
       "id": "on"
     },
     {
       "term": "one",
       "id": "wan"
+    },
+    {
+      "term": "one chance",
+      "id": "one-chance"
+    },
+    {
+      "term": "one-chance",
+      "id": "one-chance"
+    },
+    {
+      "term": "onechance",
+      "id": "one-chance"
     },
     {
       "term": "onli",
@@ -2287,6 +2431,30 @@
       "id": "oyibo"
     },
     {
+      "term": "paddy",
+      "id": "padi"
+    },
+    {
+      "term": "padi",
+      "id": "padi"
+    },
+    {
+      "term": "padie",
+      "id": "padi"
+    },
+    {
+      "term": "palm wine",
+      "id": "palm-wine"
+    },
+    {
+      "term": "palm-wine",
+      "id": "palm-wine"
+    },
+    {
+      "term": "palmwine",
+      "id": "palm-wine"
+    },
+    {
       "term": "papa",
       "id": "papa"
     },
@@ -2337,6 +2505,18 @@
     {
       "term": "pepa",
       "id": "pepa"
+    },
+    {
+      "term": "pepper soup",
+      "id": "pepper-soup"
+    },
+    {
+      "term": "pepper-soup",
+      "id": "pepper-soup"
+    },
+    {
+      "term": "peppersoup",
+      "id": "pepper-soup"
     },
     {
       "term": "pesin",
@@ -2397,6 +2577,10 @@
     {
       "term": "place",
       "id": "ples"
+    },
+    {
+      "term": "plaintain",
+      "id": "plantain"
     },
     {
       "term": "plantain",
@@ -2619,6 +2803,18 @@
       "id": "sabi"
     },
     {
+      "term": "sabi book",
+      "id": "sabi-book"
+    },
+    {
+      "term": "sabi-book",
+      "id": "sabi-book"
+    },
+    {
+      "term": "sabibook",
+      "id": "sabi-book"
+    },
+    {
       "term": "sachet-water",
       "id": "pure-water"
     },
@@ -2727,6 +2923,10 @@
       "id": "shaut"
     },
     {
+      "term": "shawarma",
+      "id": "shawarma"
+    },
+    {
       "term": "shebi",
       "id": "abi"
     },
@@ -2737,6 +2937,18 @@
     {
       "term": "shey",
       "id": "abi"
+    },
+    {
+      "term": "shine ya eye",
+      "id": "shine-your-eye"
+    },
+    {
+      "term": "shine your eye",
+      "id": "shine-your-eye"
+    },
+    {
+      "term": "shine-your-eye",
+      "id": "shine-your-eye"
     },
     {
       "term": "sho",
@@ -2895,6 +3107,18 @@
       "id": "soft"
     },
     {
+      "term": "soft life",
+      "id": "soft-life"
+    },
+    {
+      "term": "soft-life",
+      "id": "soft-life"
+    },
+    {
+      "term": "softlife",
+      "id": "soft-life"
+    },
+    {
       "term": "soldia",
       "id": "soldia"
     },
@@ -2989,6 +3213,10 @@
     {
       "term": "stat",
       "id": "stat"
+    },
+    {
+      "term": "stew",
+      "id": "stew"
     },
     {
       "term": "stil",
