@@ -38,4 +38,4 @@ Output: `ime/keyman/naija_sno/build/naija_sno.kmp` (gitignored). Install with [K
 
 ## Runtime for users
 
-Install Keyman, install the built `.kmp`, enable **Naijá SNO**.
+Install Keyman, install the built `.kmp`, enable **Naija SNO**.

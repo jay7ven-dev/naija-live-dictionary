@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  Keyman package source for Naijá SNO (II-5b).
+  Keyman package source for Naija SNO (II-5b).
   Open this folder / .kps in Keyman Developer, Build → .kmp, then install in Keyman.
   Wordlist: regenerate with python data/export_keyman_wordlist.py
 -->
@@ -18,7 +18,7 @@
   </Options>
   <Info>
     <Version URL="">1.0</Version>
-    <Name URL="">Naijá SNO</Name>
+    <Name URL="">Naija SNO</Name>
     <Copyright URL="">Project-internal · IFRA/NLA SNO</Copyright>
     <Author URL="">Naijá Live Dictionary</Author>
     <WebSite URL="https://github.com/jay7ven-dev/naija-live-dictionary">naija-live-dictionary</WebSite>
@@ -51,7 +51,7 @@
   </Files>
   <Keyboards>
     <Keyboard>
-      <Name>Naijá SNO</Name>
+      <Name>Naija SNO</Name>
       <ID>naija_sno</ID>
       <Version>1.0</Version>
       <Languages>

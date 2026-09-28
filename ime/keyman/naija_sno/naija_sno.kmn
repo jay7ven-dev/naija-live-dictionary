@@ -1,9 +1,9 @@
-c Naijá SNO — IFRA/NLA digraph + acute compose (II-5b Keyman)
+c Naija SNO — IFRA/NLA digraph + acute compose (II-5b Keyman)
 c Consumes Live Dictionary export; does not write dictionary.json
 c Repo: ime/keyman/naija_sno/
 
 store(&VERSION) '15.0'
-store(&NAME) 'Naijá SNO'
+store(&NAME) 'Naija SNO'
 store(&COPYRIGHT) 'Project-internal · IFRA/NLA SNO digraphs'
 store(&KEYBOARDVERSION) '1.0'
 store(&TARGETS) 'any'

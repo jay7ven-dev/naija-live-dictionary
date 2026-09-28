@@ -1,4 +1,4 @@
-# Naijá SNO — Keyman keyboard (II-5b)
+# Naija SNO — Keyman keyboard (II-5b)
 
 System-wide typing for IFRA/NLA Standard Naijá Orthography digraphs and high-tone acute vowels. Consumes the II-5a lexicon export; does **not** write `data/dictionary.json`.
 
@@ -49,7 +49,7 @@ npx --yes @keymanapp/kmc@18 build naija_sno.kmn -o build/naija_sno.kmx
 npx --yes @keymanapp/kmc@18 build naija_sno.kps -o build/naija_sno.kmp
 ```
 
-Then install [Keyman](https://keyman.com/), open `build/naija_sno.kmp`, enable **Naijá SNO**.
+Then install [Keyman](https://keyman.com/), open `build/naija_sno.kmp`, enable **Naija SNO**.
 
 Prebuilt `.kmp` binaries are not committed (`build/` is gitignored).
 

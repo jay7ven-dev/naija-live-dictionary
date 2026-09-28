@@ -1,4 +1,4 @@
-Naijá SNO (Keyman)
+Naija SNO (Keyman)
 ==================
 
 IFRA/NLA Standard Naijá Orthography digraphs and high-tone acute vowels.
