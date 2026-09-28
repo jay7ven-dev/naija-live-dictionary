@@ -6,6 +6,8 @@ abi	100
 afta	100
 aftanun	100
 ai	100
+airtime	100
+ajebutter	100
 akada	100
 akara	100
 akara-wuman	100
@@ -28,6 +30,7 @@ biko	100
 bikos	100
 bodi	100
 boi	100
+bole	100
 bon	100
 bor	100
 boro	100
@@ -42,6 +45,7 @@ bush	100
 bush-mit	100
 buy	100
 bába	100
+chai	100
 che	100
 chop	100
 chop-moni	100
@@ -50,6 +54,7 @@ chukuchuku	100
 dai	100
 dak	100
 dan	100
+danfo	100
 dans	100
 dat	100
 de	100
@@ -72,8 +77,10 @@ dé	100
 e	100
 e choke	100
 egusi	100
+ehen	100
 elda	100
 enibodi	100
+enta	100
 eskep	100
 evri	100
 evribodi	100
@@ -135,6 +142,7 @@ hia	100
 hol	100
 honta	100
 hot	100
+how far	100
 hus	100
 huself	100
 I	100
@@ -150,18 +158,23 @@ ivnin	100
 ivun	100
 izi	100
 jara	100
+jare	100
+jollof	100
 jomp	100
 juju	100
 kach	100
 kainkain	100
 kari	100
 kari go	100
+keke	100
 klaim	100
 klin	100
 kloz	100
 kofe	100
 kol	100
+kolekt	100
 kom	100
+komot	100
 kontri	100
 koret	100
 kpangolo	100
@@ -198,15 +211,21 @@ moimoi	100
 moni	100
 mornin	100
 moto	100
+mtchew	100
+mugu	100
+mumu	100
 munt	100
 na	100
 na so	100
+na wa	100
+nah	100
 Naija	100
 Naijá	100
 nait	100
 nak	100
 nau	100
 neba	100
+nepa	100
 neva	100
 nia	100
 nid	100
@@ -216,11 +235,14 @@ no vex	100
 no wahala	100
 noiz	100
 notin	100
+now-now	100
 noz	100
 nyu	100
 o	100
 oga	100
+ogbono	100
 ogogoro	100
+okada	100
 okro	100
 ol	100
 old-man	100
@@ -232,6 +254,7 @@ opun	100
 opun-ai	100
 ospitul	100
 outsai	100
+oyibo	100
 papa	100
 pas	100
 pati	100
@@ -249,6 +272,7 @@ polis	100
 poo	100
 potopoto	100
 prais	100
+pure water	100
 put	100
 rais	100
 ren	100
@@ -275,6 +299,7 @@ sha	100
 shapshap	100
 sharp	100
 shaut	100
+shebi	100
 shek	100
 shop	100
 shot	100
@@ -313,6 +338,7 @@ strong	100
 strong-hed	100
 studet	100
 sup	100
+suya	100
 swit	100
 taim	100
 taun	100
@@ -331,6 +357,7 @@ to	100
 tode	100
 togeda	100
 tok	100
+tokunbo	100
 tolotolo	100
 tri	100
 trut	100
@@ -373,6 +400,8 @@ yad	100
 yam	100
 yamayama	100
 yansh	100
+yarn	100
+yawa	100
 yes	100
 yestade	100
 yia	100
@@ -389,6 +418,8 @@ abegi make	10
 aftanoon	10
 after	10
 afternoon	10
+aje butter	10
+ajebo	10
 all	10
 already	10
 am	10
@@ -448,8 +479,12 @@ climb	10
 close	10
 coffee	10
 cold	10
+collect	10
 com	10
 come	10
+come-out	10
+commot	10
+comot	10
 cook	10
 correct	10
 country	10
@@ -477,8 +512,10 @@ easy	10
 eat	10
 eazy	10
 echoke	10
+ehhen	10
 elder	10
 elder dem	10
+enter	10
 escape	10
 even	10
 evenin	10
@@ -554,8 +591,9 @@ home	10
 hospital	10
 house	10
 how	10
-how far	10
 how you dey	10
+how-far	10
+howfar	10
 hunter	10
 I can't	10
 i cannot	10
@@ -565,12 +603,16 @@ I don't know	10
 i don't know	10
 I'm coming	10
 inside	10
+jaree	10
 job	10
+jollof-rice	10
 jump	10
 kai-kai	10
+keke-napep	10
 klimb	10
 knock	10
 know	10
+kolec	10
 kon	10
 Lagos	10
 laugh	10
@@ -587,6 +629,7 @@ magician	10
 make	10
 mauth	10
 mawning	10
+mchew	10
 measure	10
 meat	10
 medicine	10
@@ -605,8 +648,13 @@ mout	10
 mouth	10
 mud	10
 na so!	10
+na wa o	10
+na-wa-o	10
+naa	10
+naah	10
 Naija Pidgin	10
 naw	10
+nawa	10
 naww	10
 near	10
 nearby	10
@@ -626,6 +674,8 @@ nose	10
 not	10
 nothing	10
 now	10
+now now	10
+nownow	10
 nutin	10
 nyash	10
 ogah	10
@@ -638,6 +688,7 @@ only	10
 open	10
 out	10
 outside	10
+oyinbo	10
 paper	10
 party	10
 pass	10
@@ -645,6 +696,7 @@ pekin	10
 people	10
 people-dem	10
 pesin	10
+phcn	10
 phone	10
 pic	10
 pick	10
@@ -665,6 +717,7 @@ poor	10
 present	10
 price	10
 problem	10
+purewater	10
 quick	10
 quick quick	10
 quick-quick	10
@@ -672,6 +725,7 @@ quiet	10
 rain	10
 read	10
 really	10
+recharge-card	10
 remember	10
 respect	10
 rice	10
@@ -680,10 +734,13 @@ road	10
 room	10
 run	10
 sabe	10
+sachet-water	10
 sand	10
 say	10
 school	10
+sebi	10
 second	10
+second-hand	10
 see	10
 self	10
 sell	10
@@ -692,7 +749,6 @@ sey	10
 shake	10
 sharp sharp	10
 sharp-sharp	10
-shebi	10
 shey	10
 shoe	10
 shoes	10
@@ -759,6 +815,7 @@ ting	10
 tired	10
 today	10
 together	10
+tokumbo	10
 tomorrow	10
 too much	10
 town	10
@@ -802,6 +859,7 @@ what's happening	10
 when	10
 where	10
 which	10
+white-man	10
 who	10
 whose	10
 window	10
@@ -815,6 +873,7 @@ wota	10
 write	10
 wrong	10
 yama yama	10
+yan	10
 yard	10
 year	10
 yesterday	10

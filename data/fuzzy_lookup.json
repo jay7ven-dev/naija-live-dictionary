@@ -71,6 +71,22 @@
       "id": "ai"
     },
     {
+      "term": "airtime",
+      "id": "airtime"
+    },
+    {
+      "term": "aje butter",
+      "id": "ajebutter"
+    },
+    {
+      "term": "ajebo",
+      "id": "ajebutter"
+    },
+    {
+      "term": "ajebutter",
+      "id": "ajebutter"
+    },
+    {
       "term": "akada",
       "id": "akada"
     },
@@ -267,6 +283,10 @@
       "id": "boi"
     },
     {
+      "term": "bole",
+      "id": "bole"
+    },
+    {
       "term": "bon",
       "id": "bon"
     },
@@ -407,6 +427,10 @@
       "id": "kach"
     },
     {
+      "term": "chai",
+      "id": "chai"
+    },
+    {
       "term": "chair",
       "id": "che"
     },
@@ -471,12 +495,28 @@
       "id": "kol"
     },
     {
+      "term": "collect",
+      "id": "kolekt"
+    },
+    {
       "term": "com",
       "id": "kom"
     },
     {
       "term": "come",
       "id": "kom"
+    },
+    {
+      "term": "come-out",
+      "id": "komot"
+    },
+    {
+      "term": "commot",
+      "id": "komot"
+    },
+    {
+      "term": "comot",
+      "id": "komot"
     },
     {
       "term": "cook",
@@ -517,6 +557,10 @@
     {
       "term": "dance",
       "id": "dan"
+    },
+    {
+      "term": "danfo",
+      "id": "danfo"
     },
     {
       "term": "dans",
@@ -687,6 +731,14 @@
       "id": "egusi"
     },
     {
+      "term": "ehen",
+      "id": "ehen"
+    },
+    {
+      "term": "ehhen",
+      "id": "ehen"
+    },
+    {
       "term": "elda",
       "id": "elda"
     },
@@ -701,6 +753,14 @@
     {
       "term": "enibodi",
       "id": "enibodi"
+    },
+    {
+      "term": "enta",
+      "id": "enta"
+    },
+    {
+      "term": "enter",
+      "id": "enta"
     },
     {
       "term": "escape",
@@ -1255,6 +1315,14 @@
       "id": "haw-far"
     },
     {
+      "term": "how-far",
+      "id": "how-far"
+    },
+    {
+      "term": "howfar",
+      "id": "how-far"
+    },
+    {
       "term": "hunter",
       "id": "honta"
     },
@@ -1363,8 +1431,24 @@
       "id": "jara"
     },
     {
+      "term": "jare",
+      "id": "jare"
+    },
+    {
+      "term": "jaree",
+      "id": "jare"
+    },
+    {
       "term": "job",
       "id": "wok-job"
+    },
+    {
+      "term": "jollof",
+      "id": "jollof"
+    },
+    {
+      "term": "jollof-rice",
+      "id": "jollof"
     },
     {
       "term": "jomp",
@@ -1399,6 +1483,14 @@
       "id": "kari-go"
     },
     {
+      "term": "keke",
+      "id": "keke"
+    },
+    {
+      "term": "keke-napep",
+      "id": "keke"
+    },
+    {
       "term": "klaim",
       "id": "klaim"
     },
@@ -1431,8 +1523,20 @@
       "id": "kol"
     },
     {
+      "term": "kolec",
+      "id": "kolekt"
+    },
+    {
+      "term": "kolekt",
+      "id": "kolekt"
+    },
+    {
       "term": "kom",
       "id": "kom"
+    },
+    {
+      "term": "komot",
+      "id": "komot"
     },
     {
       "term": "kon",
@@ -1607,6 +1711,10 @@
       "id": "mornin"
     },
     {
+      "term": "mchew",
+      "id": "mtchew"
+    },
+    {
       "term": "measure",
       "id": "mezho"
     },
@@ -1707,8 +1815,20 @@
       "id": "maut"
     },
     {
+      "term": "mtchew",
+      "id": "mtchew"
+    },
+    {
       "term": "mud",
       "id": "potopoto"
+    },
+    {
+      "term": "mugu",
+      "id": "mugu"
+    },
+    {
+      "term": "mumu",
+      "id": "mumu"
     },
     {
       "term": "munt",
@@ -1725,6 +1845,30 @@
     {
       "term": "na so!",
       "id": "na-so"
+    },
+    {
+      "term": "na wa",
+      "id": "na-wa"
+    },
+    {
+      "term": "na wa o",
+      "id": "na-wa"
+    },
+    {
+      "term": "na-wa-o",
+      "id": "na-wa"
+    },
+    {
+      "term": "naa",
+      "id": "nah"
+    },
+    {
+      "term": "naah",
+      "id": "nah"
+    },
+    {
+      "term": "nah",
+      "id": "nah"
     },
     {
       "term": "Naija",
@@ -1755,6 +1899,10 @@
       "id": "nau"
     },
     {
+      "term": "nawa",
+      "id": "na-wa"
+    },
+    {
       "term": "naww",
       "id": "nau"
     },
@@ -1781,6 +1929,10 @@
     {
       "term": "neighbor",
       "id": "neba"
+    },
+    {
+      "term": "nepa",
+      "id": "nepa"
     },
     {
       "term": "neva",
@@ -1871,6 +2023,18 @@
       "id": "nau"
     },
     {
+      "term": "now now",
+      "id": "now-now"
+    },
+    {
+      "term": "now-now",
+      "id": "now-now"
+    },
+    {
+      "term": "nownow",
+      "id": "now-now"
+    },
+    {
       "term": "noz",
       "id": "noz"
     },
@@ -1899,8 +2063,16 @@
       "id": "oga"
     },
     {
+      "term": "ogbono",
+      "id": "ogbono"
+    },
+    {
       "term": "ogogoro",
       "id": "ogogoro"
+    },
+    {
+      "term": "okada",
+      "id": "okada"
     },
     {
       "term": "okra",
@@ -1983,6 +2155,14 @@
       "id": "outsai"
     },
     {
+      "term": "oyibo",
+      "id": "oyibo"
+    },
+    {
+      "term": "oyinbo",
+      "id": "oyibo"
+    },
+    {
       "term": "papa",
       "id": "papa"
     },
@@ -2033,6 +2213,10 @@
     {
       "term": "pesin",
       "id": "pipul"
+    },
+    {
+      "term": "phcn",
+      "id": "nepa"
     },
     {
       "term": "phone",
@@ -2159,6 +2343,14 @@
       "id": "wahala"
     },
     {
+      "term": "pure water",
+      "id": "pure-water"
+    },
+    {
+      "term": "purewater",
+      "id": "pure-water"
+    },
+    {
       "term": "put",
       "id": "put"
     },
@@ -2193,6 +2385,10 @@
     {
       "term": "really",
       "id": "trutru"
+    },
+    {
+      "term": "recharge-card",
+      "id": "airtime"
     },
     {
       "term": "remember",
@@ -2275,6 +2471,10 @@
       "id": "sabi"
     },
     {
+      "term": "sachet-water",
+      "id": "pure-water"
+    },
+    {
       "term": "sad",
       "id": "sad"
     },
@@ -2307,8 +2507,16 @@
       "id": "se"
     },
     {
+      "term": "sebi",
+      "id": "shebi"
+    },
+    {
       "term": "second",
       "id": "sekond"
+    },
+    {
+      "term": "second-hand",
+      "id": "tokunbo"
     },
     {
       "term": "see",
@@ -2683,6 +2891,10 @@
       "id": "sup"
     },
     {
+      "term": "suya",
+      "id": "suya"
+    },
+    {
       "term": "sweet",
       "id": "swit"
     },
@@ -2861,6 +3073,14 @@
     {
       "term": "tok",
       "id": "tok"
+    },
+    {
+      "term": "tokumbo",
+      "id": "tokunbo"
+    },
+    {
+      "term": "tokunbo",
+      "id": "tokunbo"
     },
     {
       "term": "tolotolo",
@@ -3143,6 +3363,10 @@
       "id": "wey"
     },
     {
+      "term": "white-man",
+      "id": "oyibo"
+    },
+    {
       "term": "who",
       "id": "wey"
     },
@@ -3251,12 +3475,24 @@
       "id": "yamayama"
     },
     {
+      "term": "yan",
+      "id": "yarn"
+    },
+    {
       "term": "yansh",
       "id": "yansh"
     },
     {
       "term": "yard",
       "id": "yad"
+    },
+    {
+      "term": "yarn",
+      "id": "yarn"
+    },
+    {
+      "term": "yawa",
+      "id": "yawa"
     },
     {
       "term": "year",

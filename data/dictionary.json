@@ -6136,5 +6136,449 @@
       "Tek yu medisin."
     ],
     "pronunciation": "M-eh-d-ee-s-ee-n"
+  },
+  {
+    "id": "nah",
+    "standard_spelling": "nah",
+    "informal_variants": [
+      "naah",
+      "naa"
+    ],
+    "part_of_speech": "particle",
+    "definitions": [
+      "agreement / soft yeah; okay"
+    ],
+    "example_sentences": [
+      "Nah, I de kom."
+    ],
+    "pronunciation": "N-ah-h"
+  },
+  {
+    "id": "ehen",
+    "standard_spelling": "ehen",
+    "informal_variants": [
+      "ehhen"
+    ],
+    "part_of_speech": "interjection",
+    "definitions": [
+      "discourse particle (recognition, interest, go-on)"
+    ],
+    "example_sentences": [
+      "Ehen, wetin hapen?"
+    ],
+    "pronunciation": "EH-h-eh-n"
+  },
+  {
+    "id": "mtchew",
+    "standard_spelling": "mtchew",
+    "informal_variants": [
+      "mchew"
+    ],
+    "part_of_speech": "interjection",
+    "definitions": [
+      "suck-teeth; disapproval or dismissal"
+    ],
+    "example_sentences": [
+      "Mtchew, leave mi."
+    ],
+    "pronunciation": "M-t-ch-eh-w"
+  },
+  {
+    "id": "yawa",
+    "standard_spelling": "yawa",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "trouble; serious problem"
+    ],
+    "example_sentences": [
+      "Yawa don gas."
+    ],
+    "pronunciation": "Y-ah-w-ah"
+  },
+  {
+    "id": "komot",
+    "standard_spelling": "komot",
+    "informal_variants": [
+      "commot",
+      "comot",
+      "come-out"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to come out; leave; get out"
+    ],
+    "example_sentences": [
+      "Komot fo rod."
+    ],
+    "pronunciation": "K-oh-m-oh-t"
+  },
+  {
+    "id": "enta",
+    "standard_spelling": "enta",
+    "informal_variants": [
+      "enter"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to enter; go in"
+    ],
+    "example_sentences": [
+      "Enta di rum."
+    ],
+    "pronunciation": "EH-n-t-ah"
+  },
+  {
+    "id": "kolekt",
+    "standard_spelling": "kolekt",
+    "informal_variants": [
+      "collect",
+      "kolec"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to collect; pick up"
+    ],
+    "example_sentences": [
+      "I go kolekt di moni."
+    ],
+    "pronunciation": "K-oh-l-eh-k-t"
+  },
+  {
+    "id": "tokunbo",
+    "standard_spelling": "tokunbo",
+    "informal_variants": [
+      "tokumbo",
+      "second-hand"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "used; second-hand (esp. imported goods)"
+    ],
+    "example_sentences": [
+      "I buy tokunbo laptop."
+    ],
+    "pronunciation": "T-oh-k-oo-n-b-oh"
+  },
+  {
+    "id": "oyibo",
+    "standard_spelling": "oyibo",
+    "informal_variants": [
+      "oyinbo",
+      "white-man"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "white person; foreigner; Western-style"
+    ],
+    "example_sentences": [
+      "Oyibo de fo hia."
+    ],
+    "pronunciation": "OH-y-ee-b-oh"
+  },
+  {
+    "id": "jare",
+    "standard_spelling": "jare",
+    "informal_variants": [
+      "jaree"
+    ],
+    "part_of_speech": "particle",
+    "definitions": [
+      "emphatic / softener particle (please; indeed)"
+    ],
+    "example_sentences": [
+      "Abeg jare, help mi."
+    ],
+    "pronunciation": "J-ah-r-eh"
+  },
+  {
+    "id": "yarn",
+    "standard_spelling": "yarn",
+    "informal_variants": [
+      "yan"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to talk; chat; narrate"
+    ],
+    "example_sentences": [
+      "Make we yarn."
+    ],
+    "pronunciation": "Y-ah-r-n"
+  },
+  {
+    "id": "mumu",
+    "standard_spelling": "mumu",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "fool; foolish person"
+    ],
+    "example_sentences": [
+      "No be mumu."
+    ],
+    "pronunciation": "M-oo-m-oo"
+  },
+  {
+    "id": "mugu",
+    "standard_spelling": "mugu",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "dupe; gullible person (scam context)"
+    ],
+    "example_sentences": [
+      "Dem find mugu."
+    ],
+    "pronunciation": "M-oo-g-oo"
+  },
+  {
+    "id": "danfo",
+    "standard_spelling": "danfo",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "yellow Lagos minibus"
+    ],
+    "example_sentences": [
+      "I enta danfo go wok."
+    ],
+    "pronunciation": "D-ah-n-f-oh"
+  },
+  {
+    "id": "okada",
+    "standard_spelling": "okada",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "commercial motorcycle taxi"
+    ],
+    "example_sentences": [
+      "Tek okada go skul."
+    ],
+    "pronunciation": "OH-k-ah-d-ah"
+  },
+  {
+    "id": "keke",
+    "standard_spelling": "keke",
+    "informal_variants": [
+      "keke-napep"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "tricycle taxi"
+    ],
+    "example_sentences": [
+      "Keke de wait."
+    ],
+    "pronunciation": "K-eh-k-eh"
+  },
+  {
+    "id": "bole",
+    "standard_spelling": "bole",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "roasted plantain (street food)"
+    ],
+    "example_sentences": [
+      "I wan chop bole."
+    ],
+    "pronunciation": "B-oh-l-eh"
+  },
+  {
+    "id": "suya",
+    "standard_spelling": "suya",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "spiced grilled meat skewer"
+    ],
+    "example_sentences": [
+      "Buy suya fo mi."
+    ],
+    "pronunciation": "S-oo-y-ah"
+  },
+  {
+    "id": "jollof",
+    "standard_spelling": "jollof",
+    "informal_variants": [
+      "jollof-rice"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "jollof rice"
+    ],
+    "example_sentences": [
+      "Di jollof sweet."
+    ],
+    "pronunciation": "J-oh-l-l-oh-f"
+  },
+  {
+    "id": "ogbono",
+    "standard_spelling": "ogbono",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "ogbono (draw soup)"
+    ],
+    "example_sentences": [
+      "Mama kuk ogbono."
+    ],
+    "pronunciation": "OH-g-b-oh-n-oh"
+  },
+  {
+    "id": "nepa",
+    "standard_spelling": "nepa",
+    "informal_variants": [
+      "phcn"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "electricity supply / power authority (colloquial)"
+    ],
+    "example_sentences": [
+      "Nepa don kom."
+    ],
+    "pronunciation": "N-eh-p-ah"
+  },
+  {
+    "id": "airtime",
+    "standard_spelling": "airtime",
+    "informal_variants": [
+      "recharge-card"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "mobile phone credit"
+    ],
+    "example_sentences": [
+      "I no get airtime."
+    ],
+    "pronunciation": "EYE-r-t-ee-m-eh"
+  },
+  {
+    "id": "small-small",
+    "standard_spelling": "small-small",
+    "informal_variants": [
+      "small small"
+    ],
+    "part_of_speech": "adverb",
+    "definitions": [
+      "gradually; little by little"
+    ],
+    "example_sentences": [
+      "Small-small we go rich."
+    ],
+    "pronunciation": "S-m-ah-l-l-s-m-ah-l-l"
+  },
+  {
+    "id": "now-now",
+    "standard_spelling": "now-now",
+    "informal_variants": [
+      "now now",
+      "nownow"
+    ],
+    "part_of_speech": "adverb",
+    "definitions": [
+      "right away; immediately"
+    ],
+    "example_sentences": [
+      "I de kom now-now."
+    ],
+    "pronunciation": "N-oh-w-n-oh-w"
+  },
+  {
+    "id": "how-far",
+    "standard_spelling": "how far",
+    "informal_variants": [
+      "howfar",
+      "how-far"
+    ],
+    "part_of_speech": "phrase",
+    "definitions": [
+      "greeting; how are you / what's up"
+    ],
+    "example_sentences": [
+      "How far, my guy?"
+    ],
+    "pronunciation": "H-oh-w-f-ah-r"
+  },
+  {
+    "id": "na-wa",
+    "standard_spelling": "na wa",
+    "informal_variants": [
+      "nawa",
+      "na-wa-o",
+      "na wa o"
+    ],
+    "part_of_speech": "interjection",
+    "definitions": [
+      "expression of surprise or exasperation"
+    ],
+    "example_sentences": [
+      "Na wa o!"
+    ],
+    "pronunciation": "N-ah-w-ah"
+  },
+  {
+    "id": "chai",
+    "standard_spelling": "chai",
+    "informal_variants": [],
+    "part_of_speech": "interjection",
+    "definitions": [
+      "exclamation of surprise or empathy"
+    ],
+    "example_sentences": [
+      "Chai, wetin hapen?"
+    ],
+    "pronunciation": "CH-eye"
+  },
+  {
+    "id": "shebi",
+    "standard_spelling": "shebi",
+    "informal_variants": [
+      "sebi"
+    ],
+    "part_of_speech": "particle",
+    "definitions": [
+      "tag / confirmation particle (isn't it; right)"
+    ],
+    "example_sentences": [
+      "Shebi yu de go?"
+    ],
+    "pronunciation": "SH-eh-b-ee"
+  },
+  {
+    "id": "ajebutter",
+    "standard_spelling": "ajebutter",
+    "informal_variants": [
+      "aje butter",
+      "ajebo"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "wealthy / soft-life person (slang)"
+    ],
+    "example_sentences": [
+      "Im na ajebutter."
+    ],
+    "pronunciation": "AH-j-eh-b-oo-t-t-eh-r"
+  },
+  {
+    "id": "pure-water",
+    "standard_spelling": "pure water",
+    "informal_variants": [
+      "purewater",
+      "sachet-water"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "sachet drinking water"
+    ],
+    "example_sentences": [
+      "Buy pure water."
+    ],
+    "pronunciation": "P-oo-r-eh-w-ah-t-eh-r"
   }
 ]

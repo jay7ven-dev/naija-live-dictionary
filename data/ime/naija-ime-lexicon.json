@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-27T22:45:17Z",
+  "generated_at": "2026-09-28T00:31:29Z",
   "source": {
     "dictionary": "data/dictionary.json",
     "variant_index": "data/variant_index.json"
   },
   "counts": {
-    "entries": 383,
-    "index_keys": 826,
-    "suggestions": 826
+    "entries": 413,
+    "index_keys": 885,
+    "suggestions": 885
   },
   "digraphs": [
     "ch",
@@ -109,6 +109,26 @@
       "variant": "ai",
       "entry_id": "ai",
       "standard": "ai"
+    },
+    {
+      "variant": "airtime",
+      "entry_id": "airtime",
+      "standard": "airtime"
+    },
+    {
+      "variant": "aje butter",
+      "entry_id": "ajebutter",
+      "standard": "ajebutter"
+    },
+    {
+      "variant": "ajebo",
+      "entry_id": "ajebutter",
+      "standard": "ajebutter"
+    },
+    {
+      "variant": "ajebutter",
+      "entry_id": "ajebutter",
+      "standard": "ajebutter"
     },
     {
       "variant": "akada",
@@ -356,6 +376,11 @@
       "standard": "boi"
     },
     {
+      "variant": "bole",
+      "entry_id": "bole",
+      "standard": "bole"
+    },
+    {
       "variant": "bon",
       "entry_id": "bon",
       "standard": "bon"
@@ -531,6 +556,11 @@
       "standard": "kach"
     },
     {
+      "variant": "chai",
+      "entry_id": "chai",
+      "standard": "chai"
+    },
+    {
       "variant": "chair",
       "entry_id": "che",
       "standard": "che"
@@ -611,6 +641,11 @@
       "standard": "kol"
     },
     {
+      "variant": "collect",
+      "entry_id": "kolekt",
+      "standard": "kolekt"
+    },
+    {
       "variant": "com",
       "entry_id": "kom",
       "standard": "kom"
@@ -619,6 +654,21 @@
       "variant": "come",
       "entry_id": "kom",
       "standard": "kom"
+    },
+    {
+      "variant": "come-out",
+      "entry_id": "komot",
+      "standard": "komot"
+    },
+    {
+      "variant": "commot",
+      "entry_id": "komot",
+      "standard": "komot"
+    },
+    {
+      "variant": "comot",
+      "entry_id": "komot",
+      "standard": "komot"
     },
     {
       "variant": "cook",
@@ -669,6 +719,11 @@
       "variant": "dance",
       "entry_id": "dan",
       "standard": "dan"
+    },
+    {
+      "variant": "danfo",
+      "entry_id": "danfo",
+      "standard": "danfo"
     },
     {
       "variant": "dans",
@@ -881,6 +936,16 @@
       "standard": "egusi"
     },
     {
+      "variant": "ehen",
+      "entry_id": "ehen",
+      "standard": "ehen"
+    },
+    {
+      "variant": "ehhen",
+      "entry_id": "ehen",
+      "standard": "ehen"
+    },
+    {
       "variant": "elda",
       "entry_id": "elda",
       "standard": "elda"
@@ -899,6 +964,16 @@
       "variant": "enibodi",
       "entry_id": "enibodi",
       "standard": "enibodi"
+    },
+    {
+      "variant": "enta",
+      "entry_id": "enta",
+      "standard": "enta"
+    },
+    {
+      "variant": "enter",
+      "entry_id": "enta",
+      "standard": "enta"
     },
     {
       "variant": "escape",
@@ -1591,6 +1666,16 @@
       "standard": "haw far"
     },
     {
+      "variant": "how-far",
+      "entry_id": "how-far",
+      "standard": "how far"
+    },
+    {
+      "variant": "howfar",
+      "entry_id": "how-far",
+      "standard": "how far"
+    },
+    {
       "variant": "hunter",
       "entry_id": "honta",
       "standard": "honta"
@@ -1726,9 +1811,29 @@
       "standard": "jara"
     },
     {
+      "variant": "jare",
+      "entry_id": "jare",
+      "standard": "jare"
+    },
+    {
+      "variant": "jaree",
+      "entry_id": "jare",
+      "standard": "jare"
+    },
+    {
       "variant": "job",
       "entry_id": "wok-job",
       "standard": "wok"
+    },
+    {
+      "variant": "jollof",
+      "entry_id": "jollof",
+      "standard": "jollof"
+    },
+    {
+      "variant": "jollof-rice",
+      "entry_id": "jollof",
+      "standard": "jollof"
     },
     {
       "variant": "jomp",
@@ -1771,6 +1876,16 @@
       "standard": "kari go"
     },
     {
+      "variant": "keke",
+      "entry_id": "keke",
+      "standard": "keke"
+    },
+    {
+      "variant": "keke-napep",
+      "entry_id": "keke",
+      "standard": "keke"
+    },
+    {
       "variant": "klaim",
       "entry_id": "klaim",
       "standard": "klaim"
@@ -1811,9 +1926,24 @@
       "standard": "kol"
     },
     {
+      "variant": "kolec",
+      "entry_id": "kolekt",
+      "standard": "kolekt"
+    },
+    {
+      "variant": "kolekt",
+      "entry_id": "kolekt",
+      "standard": "kolekt"
+    },
+    {
       "variant": "kom",
       "entry_id": "kom",
       "standard": "kom"
+    },
+    {
+      "variant": "komot",
+      "entry_id": "komot",
+      "standard": "komot"
     },
     {
       "variant": "kon",
@@ -2031,6 +2161,11 @@
       "standard": "mornin"
     },
     {
+      "variant": "mchew",
+      "entry_id": "mtchew",
+      "standard": "mtchew"
+    },
+    {
       "variant": "measure",
       "entry_id": "mezho",
       "standard": "mezho"
@@ -2156,9 +2291,24 @@
       "standard": "maut"
     },
     {
+      "variant": "mtchew",
+      "entry_id": "mtchew",
+      "standard": "mtchew"
+    },
+    {
       "variant": "mud",
       "entry_id": "potopoto",
       "standard": "potopoto"
+    },
+    {
+      "variant": "mugu",
+      "entry_id": "mugu",
+      "standard": "mugu"
+    },
+    {
+      "variant": "mumu",
+      "entry_id": "mumu",
+      "standard": "mumu"
     },
     {
       "variant": "munt",
@@ -2179,6 +2329,36 @@
       "variant": "na so!",
       "entry_id": "na-so",
       "standard": "na so"
+    },
+    {
+      "variant": "na wa",
+      "entry_id": "na-wa",
+      "standard": "na wa"
+    },
+    {
+      "variant": "na wa o",
+      "entry_id": "na-wa",
+      "standard": "na wa"
+    },
+    {
+      "variant": "na-wa-o",
+      "entry_id": "na-wa",
+      "standard": "na wa"
+    },
+    {
+      "variant": "naa",
+      "entry_id": "nah",
+      "standard": "nah"
+    },
+    {
+      "variant": "naah",
+      "entry_id": "nah",
+      "standard": "nah"
+    },
+    {
+      "variant": "nah",
+      "entry_id": "nah",
+      "standard": "nah"
     },
     {
       "variant": "Naija",
@@ -2216,6 +2396,11 @@
       "standard": "nau"
     },
     {
+      "variant": "nawa",
+      "entry_id": "na-wa",
+      "standard": "na wa"
+    },
+    {
       "variant": "naww",
       "entry_id": "nau",
       "standard": "nau"
@@ -2249,6 +2434,11 @@
       "variant": "neighbor",
       "entry_id": "neba",
       "standard": "neba"
+    },
+    {
+      "variant": "nepa",
+      "entry_id": "nepa",
+      "standard": "nepa"
     },
     {
       "variant": "neva",
@@ -2361,6 +2551,21 @@
       "standard": "nau"
     },
     {
+      "variant": "now now",
+      "entry_id": "now-now",
+      "standard": "now-now"
+    },
+    {
+      "variant": "now-now",
+      "entry_id": "now-now",
+      "standard": "now-now"
+    },
+    {
+      "variant": "nownow",
+      "entry_id": "now-now",
+      "standard": "now-now"
+    },
+    {
       "variant": "noz",
       "entry_id": "noz",
       "standard": "noz"
@@ -2396,9 +2601,19 @@
       "standard": "oga"
     },
     {
+      "variant": "ogbono",
+      "entry_id": "ogbono",
+      "standard": "ogbono"
+    },
+    {
       "variant": "ogogoro",
       "entry_id": "ogogoro",
       "standard": "ogogoro"
+    },
+    {
+      "variant": "okada",
+      "entry_id": "okada",
+      "standard": "okada"
     },
     {
       "variant": "okra",
@@ -2501,6 +2716,16 @@
       "standard": "outsai"
     },
     {
+      "variant": "oyibo",
+      "entry_id": "oyibo",
+      "standard": "oyibo"
+    },
+    {
+      "variant": "oyinbo",
+      "entry_id": "oyibo",
+      "standard": "oyibo"
+    },
+    {
       "variant": "papa",
       "entry_id": "papa",
       "standard": "papa"
@@ -2564,6 +2789,11 @@
       "variant": "pesin",
       "entry_id": "pipul",
       "standard": "pipul"
+    },
+    {
+      "variant": "phcn",
+      "entry_id": "nepa",
+      "standard": "nepa"
     },
     {
       "variant": "phone",
@@ -2721,6 +2951,16 @@
       "standard": "wahala"
     },
     {
+      "variant": "pure water",
+      "entry_id": "pure-water",
+      "standard": "pure water"
+    },
+    {
+      "variant": "purewater",
+      "entry_id": "pure-water",
+      "standard": "pure water"
+    },
+    {
       "variant": "put",
       "entry_id": "put",
       "standard": "put"
@@ -2764,6 +3004,11 @@
       "variant": "really",
       "entry_id": "trutru",
       "standard": "trutru"
+    },
+    {
+      "variant": "recharge-card",
+      "entry_id": "airtime",
+      "standard": "airtime"
     },
     {
       "variant": "remember",
@@ -2866,6 +3111,11 @@
       "standard": "sabi"
     },
     {
+      "variant": "sachet-water",
+      "entry_id": "pure-water",
+      "standard": "pure water"
+    },
+    {
       "variant": "sad",
       "entry_id": "sad",
       "standard": "sad"
@@ -2906,9 +3156,19 @@
       "standard": "se"
     },
     {
+      "variant": "sebi",
+      "entry_id": "shebi",
+      "standard": "shebi"
+    },
+    {
       "variant": "second",
       "entry_id": "sekond",
       "standard": "sekond"
+    },
+    {
+      "variant": "second-hand",
+      "entry_id": "tokunbo",
+      "standard": "tokunbo"
     },
     {
       "variant": "see",
@@ -3376,6 +3636,11 @@
       "standard": "sup"
     },
     {
+      "variant": "suya",
+      "entry_id": "suya",
+      "standard": "suya"
+    },
+    {
       "variant": "sweet",
       "entry_id": "swit",
       "standard": "swit"
@@ -3599,6 +3864,16 @@
       "variant": "tok",
       "entry_id": "tok",
       "standard": "tok"
+    },
+    {
+      "variant": "tokumbo",
+      "entry_id": "tokunbo",
+      "standard": "tokunbo"
+    },
+    {
+      "variant": "tokunbo",
+      "entry_id": "tokunbo",
+      "standard": "tokunbo"
     },
     {
       "variant": "tolotolo",
@@ -3951,6 +4226,11 @@
       "standard": "wey"
     },
     {
+      "variant": "white-man",
+      "entry_id": "oyibo",
+      "standard": "oyibo"
+    },
+    {
       "variant": "who",
       "entry_id": "wey",
       "standard": "wey"
@@ -4086,6 +4366,11 @@
       "standard": "yamayama"
     },
     {
+      "variant": "yan",
+      "entry_id": "yarn",
+      "standard": "yarn"
+    },
+    {
       "variant": "yansh",
       "entry_id": "yansh",
       "standard": "yansh"
@@ -4094,6 +4379,16 @@
       "variant": "yard",
       "entry_id": "yad",
       "standard": "yad"
+    },
+    {
+      "variant": "yarn",
+      "entry_id": "yarn",
+      "standard": "yarn"
+    },
+    {
+      "variant": "yawa",
+      "entry_id": "yawa",
+      "standard": "yawa"
     },
     {
       "variant": "year",
