@@ -131,6 +131,14 @@
       "id": "ol"
     },
     {
+      "term": "allowance",
+      "id": "allowee"
+    },
+    {
+      "term": "allowee",
+      "id": "allowee"
+    },
+    {
       "term": "already",
       "id": "don"
     },
@@ -199,8 +207,20 @@
       "id": "asun"
     },
     {
+      "term": "auntie",
+      "id": "aunty"
+    },
+    {
+      "term": "aunty",
+      "id": "aunty"
+    },
+    {
       "term": "baba",
       "id": "baba"
+    },
+    {
+      "term": "babe",
+      "id": "babe"
     },
     {
       "term": "bad",
@@ -221,6 +241,10 @@
     {
       "term": "baik-man",
       "id": "baik-man"
+    },
+    {
+      "term": "balangu",
+      "id": "balangu"
     },
     {
       "term": "banga",
@@ -301,6 +325,18 @@
     {
       "term": "belly",
       "id": "belle"
+    },
+    {
+      "term": "bend down",
+      "id": "bend-down"
+    },
+    {
+      "term": "bend-down",
+      "id": "bend-down"
+    },
+    {
+      "term": "bendown",
+      "id": "bend-down"
     },
     {
       "term": "bia",
@@ -455,6 +491,10 @@
       "id": "buk"
     },
     {
+      "term": "burukutu",
+      "id": "burukutu"
+    },
+    {
       "term": "bush",
       "id": "bush"
     },
@@ -463,8 +503,16 @@
       "id": "bush-mit"
     },
     {
+      "term": "bush-meat",
+      "id": "bushmeat"
+    },
+    {
       "term": "bush-mit",
       "id": "bush-mit"
+    },
+    {
+      "term": "bushmeat",
+      "id": "bushmeat"
     },
     {
       "term": "but",
@@ -499,6 +547,10 @@
       "id": "kari-go"
     },
     {
+      "term": "carrygo",
+      "id": "carry-go"
+    },
+    {
       "term": "cash",
       "id": "kach"
     },
@@ -515,8 +567,16 @@
       "id": "che"
     },
     {
+      "term": "chairman",
+      "id": "chairman"
+    },
+    {
       "term": "che",
       "id": "che"
+    },
+    {
+      "term": "chief",
+      "id": "chief"
     },
     {
       "term": "children-dem",
@@ -995,6 +1055,30 @@
       "id": "fain"
     },
     {
+      "term": "fine boy",
+      "id": "fine-boy"
+    },
+    {
+      "term": "fine girl",
+      "id": "fine-girl"
+    },
+    {
+      "term": "fine-boy",
+      "id": "fine-boy"
+    },
+    {
+      "term": "fine-girl",
+      "id": "fine-girl"
+    },
+    {
+      "term": "fineboy",
+      "id": "fine-boy"
+    },
+    {
+      "term": "finegirl",
+      "id": "fine-girl"
+    },
+    {
       "term": "fini",
       "id": "fini"
     },
@@ -1153,6 +1237,10 @@
     {
       "term": "gbagbati",
       "id": "gbagbati"
+    },
+    {
+      "term": "gbana",
+      "id": "gbana"
     },
     {
       "term": "gbege",
@@ -1447,6 +1535,10 @@
       "id": "haw"
     },
     {
+      "term": "how body",
+      "id": "how-body"
+    },
+    {
       "term": "how far",
       "id": "haw-far"
     },
@@ -1455,8 +1547,16 @@
       "id": "haw-far"
     },
     {
+      "term": "how-body",
+      "id": "how-body"
+    },
+    {
       "term": "how-far",
       "id": "how-far"
+    },
+    {
+      "term": "howbody",
+      "id": "how-body"
     },
     {
       "term": "howfar",
@@ -1605,6 +1705,10 @@
     {
       "term": "jaree",
       "id": "jare"
+    },
+    {
+      "term": "jazz",
+      "id": "jazz"
     },
     {
       "term": "job",
@@ -1819,6 +1923,10 @@
       "id": "mek"
     },
     {
+      "term": "level",
+      "id": "level"
+    },
+    {
       "term": "life",
       "id": "laif"
     },
@@ -1869,6 +1977,14 @@
     {
       "term": "luz",
       "id": "luz"
+    },
+    {
+      "term": "madam",
+      "id": "madam"
+    },
+    {
+      "term": "maga",
+      "id": "maga"
     },
     {
       "term": "magician",
@@ -2711,6 +2827,10 @@
       "id": "rais"
     },
     {
+      "term": "razz",
+      "id": "razz"
+    },
+    {
       "term": "read",
       "id": "rid"
     },
@@ -2795,6 +2915,10 @@
       "id": "ron"
     },
     {
+      "term": "s-code",
+      "id": "scode"
+    },
+    {
       "term": "sabe",
       "id": "sabi"
     },
@@ -2845,6 +2969,10 @@
     {
       "term": "school",
       "id": "skul"
+    },
+    {
+      "term": "scode",
+      "id": "scode"
     },
     {
       "term": "se",
@@ -3067,12 +3195,24 @@
       "id": "smol"
     },
     {
+      "term": "small chop",
+      "id": "small-chop"
+    },
+    {
       "term": "small small",
       "id": "smol-smol"
     },
     {
+      "term": "small-chop",
+      "id": "small-chop"
+    },
+    {
       "term": "small-small",
       "id": "smol-smol"
+    },
+    {
+      "term": "smallchop",
+      "id": "small-chop"
     },
     {
       "term": "smel",
@@ -3439,6 +3579,10 @@
       "id": "to"
     },
     {
+      "term": "toast",
+      "id": "toast"
+    },
+    {
       "term": "today",
       "id": "tode"
     },
@@ -3539,8 +3683,16 @@
       "id": "yu"
     },
     {
+      "term": "ukwa",
+      "id": "ukwa"
+    },
+    {
       "term": "una",
       "id": "una"
+    },
+    {
+      "term": "uncle",
+      "id": "uncle"
     },
     {
       "term": "unna",
@@ -3553,6 +3705,14 @@
     {
       "term": "vain",
       "id": "find"
+    },
+    {
+      "term": "vibe",
+      "id": "vibe"
+    },
+    {
+      "term": "vibes",
+      "id": "vibe"
     },
     {
       "term": "video",
@@ -3853,6 +4013,14 @@
     {
       "term": "yad",
       "id": "yad"
+    },
+    {
+      "term": "yahoo",
+      "id": "yahoo"
+    },
+    {
+      "term": "yahoo-yahoo",
+      "id": "yahoo"
     },
     {
       "term": "yam",

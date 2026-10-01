@@ -7436,5 +7436,428 @@
       "Dem drink palm wine."
     ],
     "pronunciation": "P-ah-l-m-w-ee-n-eh"
+  },
+  {
+    "id": "vibe",
+    "standard_spelling": "vibe",
+    "informal_variants": [
+      "vibes"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "mood; atmosphere; good energy"
+    ],
+    "example_sentences": [
+      "Di vibe sweet."
+    ],
+    "pronunciation": "V-ee-b-eh"
+  },
+  {
+    "id": "razz",
+    "standard_spelling": "razz",
+    "informal_variants": [],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to tease; mock; play with"
+    ],
+    "example_sentences": [
+      "No razz mi."
+    ],
+    "pronunciation": "R-ah-z-z"
+  },
+  {
+    "id": "maga",
+    "standard_spelling": "maga",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "dupe; scam victim (slang)"
+    ],
+    "example_sentences": [
+      "Dem find maga."
+    ],
+    "pronunciation": "M-ah-g-ah"
+  },
+  {
+    "id": "yahoo",
+    "standard_spelling": "yahoo",
+    "informal_variants": [
+      "yahoo-yahoo"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "internet fraud (slang); fraudster scene"
+    ],
+    "example_sentences": [
+      "E no de do yahoo."
+    ],
+    "pronunciation": "Y-ah-h-oo"
+  },
+  {
+    "id": "level",
+    "standard_spelling": "level",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "status; standard; situation"
+    ],
+    "example_sentences": [
+      "Wetin be di level?"
+    ],
+    "pronunciation": "L-eh-v-eh-l"
+  },
+  {
+    "id": "correct",
+    "standard_spelling": "correct",
+    "informal_variants": [],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "proper; solid; reliable (slang praise)"
+    ],
+    "example_sentences": [
+      "Di guy correct."
+    ],
+    "pronunciation": "K-oh-r-r-eh-k-t"
+  },
+  {
+    "id": "hammer",
+    "standard_spelling": "hammer",
+    "informal_variants": [],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to succeed big; cash out (slang)"
+    ],
+    "example_sentences": [
+      "E don hammer."
+    ],
+    "pronunciation": "H-ah-m-m-eh-r"
+  },
+  {
+    "id": "gbana",
+    "standard_spelling": "gbana",
+    "informal_variants": [],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to snatch; steal by force (slang)"
+    ],
+    "example_sentences": [
+      "Dem wan gbana di fone."
+    ],
+    "pronunciation": "G-b-ah-n-ah"
+  },
+  {
+    "id": "bend-down",
+    "standard_spelling": "bend down",
+    "informal_variants": [
+      "bend-down",
+      "bendown"
+    ],
+    "part_of_speech": "phrase",
+    "definitions": [
+      "cheap roadside goods market"
+    ],
+    "example_sentences": [
+      "I buy am fo bend down."
+    ],
+    "pronunciation": "B-eh-n-d-d-oh-w-n"
+  },
+  {
+    "id": "allowee",
+    "standard_spelling": "allowee",
+    "informal_variants": [
+      "allowance"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "pocket money; allowance"
+    ],
+    "example_sentences": [
+      "Mai allowee don finish."
+    ],
+    "pronunciation": "AH-l-l-oh-w-ee"
+  },
+  {
+    "id": "madam",
+    "standard_spelling": "madam",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "woman of status; polite female address"
+    ],
+    "example_sentences": [
+      "Madam, abeg."
+    ],
+    "pronunciation": "M-ah-d-ah-m"
+  },
+  {
+    "id": "chief",
+    "standard_spelling": "chief",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "chief; also playful male address"
+    ],
+    "example_sentences": [
+      "Chief, how far?"
+    ],
+    "pronunciation": "CH-ee-eh-f"
+  },
+  {
+    "id": "sis",
+    "standard_spelling": "sis",
+    "informal_variants": [
+      "sister"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "sister; female peer (address)"
+    ],
+    "example_sentences": [
+      "Sis, yu try."
+    ],
+    "pronunciation": "S-ee-s"
+  },
+  {
+    "id": "aunty",
+    "standard_spelling": "aunty",
+    "informal_variants": [
+      "auntie"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "aunt; respectful address for older woman"
+    ],
+    "example_sentences": [
+      "Aunty, good morning."
+    ],
+    "pronunciation": "OW-n-t-y"
+  },
+  {
+    "id": "uncle",
+    "standard_spelling": "uncle",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "uncle; respectful address for older man"
+    ],
+    "example_sentences": [
+      "Uncle, abeg help mi."
+    ],
+    "pronunciation": "OO-n-k-l-eh"
+  },
+  {
+    "id": "babe",
+    "standard_spelling": "babe",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "attractive woman; informal address"
+    ],
+    "example_sentences": [
+      "Babe, how you dey?"
+    ],
+    "pronunciation": "B-ah-b-eh"
+  },
+  {
+    "id": "fine-boy",
+    "standard_spelling": "fine boy",
+    "informal_variants": [
+      "fineboy",
+      "fine-boy"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "handsome young man"
+    ],
+    "example_sentences": [
+      "Im na fine boy."
+    ],
+    "pronunciation": "F-ee-n-eh-b-oh-y"
+  },
+  {
+    "id": "fine-girl",
+    "standard_spelling": "fine girl",
+    "informal_variants": [
+      "finegirl",
+      "fine-girl"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "beautiful young woman"
+    ],
+    "example_sentences": [
+      "Im na fine girl."
+    ],
+    "pronunciation": "F-ee-n-eh-g-ee-r-l"
+  },
+  {
+    "id": "how-body",
+    "standard_spelling": "how body",
+    "informal_variants": [
+      "howbody",
+      "how-body"
+    ],
+    "part_of_speech": "phrase",
+    "definitions": [
+      "how are you; how is health"
+    ],
+    "example_sentences": [
+      "How body?"
+    ],
+    "pronunciation": "H-oh-w-b-oh-d-y"
+  },
+  {
+    "id": "small-chop",
+    "standard_spelling": "small chop",
+    "informal_variants": [
+      "smallchop",
+      "small-chop"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "finger food; party snacks"
+    ],
+    "example_sentences": [
+      "Small chop don ready."
+    ],
+    "pronunciation": "S-m-ah-l-l-ch-oh-p"
+  },
+  {
+    "id": "ukwa",
+    "standard_spelling": "ukwa",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "breadfruit (food)"
+    ],
+    "example_sentences": [
+      "I chop ukwa."
+    ],
+    "pronunciation": "OO-k-w-ah"
+  },
+  {
+    "id": "bushmeat",
+    "standard_spelling": "bushmeat",
+    "informal_variants": [
+      "bush-meat",
+      "bush meat"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "wild game meat"
+    ],
+    "example_sentences": [
+      "Dem sell bushmeat."
+    ],
+    "pronunciation": "B-oo-sh-m-ee-t"
+  },
+  {
+    "id": "jazz",
+    "standard_spelling": "jazz",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "charm; juju; spiritual concoction (slang)"
+    ],
+    "example_sentences": [
+      "E use jazz."
+    ],
+    "pronunciation": "J-ah-z-z"
+  },
+  {
+    "id": "scode",
+    "standard_spelling": "scode",
+    "informal_variants": [
+      "s-code"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "street code; unspoken street rules"
+    ],
+    "example_sentences": [
+      "Sabi di scode."
+    ],
+    "pronunciation": "S-k-oh-d-eh"
+  },
+  {
+    "id": "carry-go",
+    "standard_spelling": "carry go",
+    "informal_variants": [
+      "carrygo",
+      "carry-go"
+    ],
+    "part_of_speech": "phrase",
+    "definitions": [
+      "take away; pack and leave; to-go"
+    ],
+    "example_sentences": [
+      "Make e carry go."
+    ],
+    "pronunciation": "K-ah-r-r-y-g-oh"
+  },
+  {
+    "id": "toast",
+    "standard_spelling": "toast",
+    "informal_variants": [],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to praise; hype; celebrate someone (slang)"
+    ],
+    "example_sentences": [
+      "Dem de toast am."
+    ],
+    "pronunciation": "T-oh-ah-s-t"
+  },
+  {
+    "id": "street",
+    "standard_spelling": "street",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "the street; street life / hustle"
+    ],
+    "example_sentences": [
+      "Street no easy."
+    ],
+    "pronunciation": "S-t-r-ee-t"
+  },
+  {
+    "id": "chairman",
+    "standard_spelling": "chairman",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "chairman; also playful respectful address"
+    ],
+    "example_sentences": [
+      "Chairman, abeg."
+    ],
+    "pronunciation": "CH-eye-r-m-ah-n"
+  },
+  {
+    "id": "balangu",
+    "standard_spelling": "balangu",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "grilled spiced meat (northern style)"
+    ],
+    "example_sentences": [
+      "I wan balangu."
+    ],
+    "pronunciation": "B-ah-l-ah-ng-oo"
+  },
+  {
+    "id": "burukutu",
+    "standard_spelling": "burukutu",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "local fermented cereal drink"
+    ],
+    "example_sentences": [
+      "Dem drink burukutu."
+    ],
+    "pronunciation": "B-oo-r-oo-k-oo-t-oo"
   }
 ]
