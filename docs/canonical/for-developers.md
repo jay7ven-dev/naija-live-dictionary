@@ -9,10 +9,11 @@ IFRA SNO headwords → data/dictionary.json
                    → data/variant_mappings.json (human-approved)
                    → data/collect_variants.py (extract|suggest|apply|index)
                    → data/variant_index.json + data/fuzzy_lookup.json
-                   → web/ (search + variant→standard + fuzzy)
+                   → web/index.html (lookup) + web/normalize.html (Fix spelling primary)
+                   → data/export_ime_lexicon.py + data/export_keyman_wordlist.py (on growth)
 ```
 
-Do **not** auto-apply `suggestions.json` into the dictionary.
+Do **not** auto-apply `suggestions.json` into the dictionary. Growth policy: `../live-growth.md`.
 
 ## Day-to-day commands
 
@@ -23,14 +24,18 @@ python data/collect_variants.py suggest    # pending only
 # edit / curate_mappings.py batchN --apply
 python data/collect_variants.py apply
 python data/collect_variants.py index
+# then on growth: update data/last_grown.json + export IME/Keyman wordlist
+python data/export_ime_lexicon.py
+python data/export_keyman_wordlist.py
 python web/verify.py
 python data/normalize.py --self-check
-python data/normalize.py --train
-python data/normalize.py --compare
+python data/normalize.py --eval data/eval/messy_pidgin_sample.jsonl
+python data/normalize.py --train          # research model
+python data/normalize.py --compare        # research only
 python data/translate_en_pcm.py --check-deps
-python data/translate_en_pcm.py "I want a book."   # needs optional deps
-python web/serve.py                        # /web/normalize.html + POST /api/translate
-python export/tei_lex0.py
+python data/translate_en_pcm.py "I want a book."   # Advanced MT; optional deps
+python web/serve.py                        # default → Fix spelling; POST /api/translate Advanced
+python export/tei_lex0.py                  # research sidecar
 ```
 
 ## Schema

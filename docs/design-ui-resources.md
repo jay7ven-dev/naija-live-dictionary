@@ -4,7 +4,7 @@
 
 **Do not install, clone, or copy uninstalled items** unless the user explicitly approves. Uninstalled rows stay uninstalled; they are listed so they can be chosen later.
 
-**Project direction (selection filter):** Part I Live Dictionary — static HTML/CSS/JS in `web/`, IFRA/NLA SNO spelling authority, teaching + lookup tool, Ponytail/YAGNI (no premature search engine). Part II sentence tools + II-4 web compose assist are in scope; OS/mobile IME remains deferred (II-5+).
+**Project direction (selection filter):** Part I Live Dictionary — static HTML/CSS/JS in `web/`, IFRA/NLA SNO spelling authority, teaching + lookup tool, Ponytail/YAGNI. Part II: **Fix spelling (rules) primary** on `normalize.html`; English→Pidgin Advanced; Keyman II-5b Done; web compose (II-4) removed; native store IMEs deferred (II-5c+).
 
 Source conversation for the search/UX slice: `conversation-export_1.md` (Dictionary Project — Status Table & UI Improvement). **IFRA** here means IFRA/NLA Standard Naijá Orthography, not infrastructure.
 

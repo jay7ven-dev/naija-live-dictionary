@@ -25,14 +25,14 @@
     </nav>
 
     <h2>Start the site</h2>
-    <p>From the project folder run <code>python web/serve.py</code>, then open <a href="http://localhost:8765/web/">http://localhost:8765/web/</a>. Opening the HTML file directly from disk will not load dictionary data.</p>
+    <p>From the project folder run <code>python web/serve.py</code>. The default page is <a href="../../normalize.html"><strong>Fix spelling</strong></a> (http://localhost:8765/web/normalize.html). Dictionary search is at <a href="../../index.html">index.html</a>. Opening HTML directly from disk will not load dictionary data.</p>
 
-    <h2>Search</h2>
+    <h2>Search (dictionary)</h2>
     <ol>
-      <li>Type a word in the search box.</li>
-      <li>You can use a <strong>standard</strong> spelling (IFRA/NLA SNO) or an <strong>informal</strong> spelling.</li>
+      <li>Open <a href="../../index.html">Dictionary search</a>.</li>
+      <li>Type a word — <strong>standard</strong> SNO or an <strong>informal</strong> spelling.</li>
       <li>If your query is an informal form, a banner shows the mapping to the standard headword.</li>
-      <li>If nothing matches exactly, a “Did you mean?” suggestion may appear (close spellings).</li>
+      <li>If nothing matches exactly, a “Did you mean?” <em>spelling suggestion</em> may appear (close spellings). This is not full autocorrect.</li>
     </ol>
 
     <h2>Reading an entry</h2>
@@ -42,7 +42,7 @@
         <tr><td>Lemma (green)</td><td>Standard SNO spelling</td></tr>
         <tr><td>Part of speech</td><td>Word class (noun, verb, …)</td></tr>
         <tr><td>Definitions</td><td>English glosses</td></tr>
-        <tr><td>Examples</td><td>Usage sentences (many from spoken UD Naija data)</td></tr>
+        <tr><td>Examples</td><td>Usage sentences</td></tr>
         <tr><td>Pronunciation</td><td>Broad hint, not full IPA</td></tr>
         <tr><td>Variants</td><td>Other spellings that point here</td></tr>
       </tbody>
@@ -56,38 +56,35 @@
       <li><code>shey</code> → <strong>abi</strong></li>
     </ul>
 
-    <h2>Three tools (do not mix them up)</h2>
+    <h2>Tools (do not mix them up)</h2>
     <table>
       <thead><tr><th>Tool</th><th>Use when</th><th>What it does</th></tr></thead>
       <tbody>
         <tr>
-          <td><a href="../../">Dictionary search</a></td>
+          <td><a href="../../normalize.html"><strong>Fix spelling</strong></a> (primary)</td>
+          <td>The text is already Pidgin with messy spelling</td>
+          <td>Token spelling → SNO via the dictionary index (rules) — does <strong>not</strong> rewrite English grammar</td>
+        </tr>
+        <tr>
+          <td><a href="../../index.html">Dictionary search</a></td>
           <td>You want one word or variant</td>
           <td>Looks up SNO headwords and informal → standard mappings</td>
         </tr>
         <tr>
-          <td><a href="../../normalize.html">English → Pidgin</a></td>
+          <td>English → Pidgin <em>(Advanced on Fix spelling page)</em></td>
           <td>You have an English sentence</td>
-          <td>Converts meaning to Pidgin (local model), then applies SNO spelling</td>
+          <td>Optional local Marian MT, then SNO spelling — MT alone is not IFRA authority</td>
         </tr>
         <tr>
-          <td>Fix spelling only <em>(on that same page, under the details panel)</em></td>
-          <td>The text is already Pidgin with messy spelling</td>
-          <td>Token spelling → SNO via the dictionary index — does <strong>not</strong> rewrite English grammar</td>
+          <td>Keyman (Naija SNO)</td>
+          <td>You type in other apps</td>
+          <td>System keyboard: digraphs + acutes; see <code>ime/keyman/naija_sno/</code></td>
         </tr>
       </tbody>
     </table>
-    <p>Example: English <code>I want to see you</code> belongs on <strong>English → Pidgin</strong> (sentence conversion). Pasting it into spelling-fix alone may leave English words unchanged.</p>
+    <p>Example: English <code>I want to see you</code> belongs under <strong>Advanced: English → Pidgin</strong>. Pasting it into Fix spelling alone may leave English words unchanged.</p>
 
-    <h2>Compose assist (digraphs)</h2>
-    <p>
-      On Dictionary search and English → Pidgin, use the digraph / tone buttons
-      (<code>gb</code>, <code>kp</code>, <code>sh</code>, <code>ch</code>, <code>zh</code>, and acute vowels)
-      to insert IFRA SNO characters at the cursor. On the sentence page, typing also offers
-      prefix suggestions from the variant index (accept replaces the current token with the SNO form).
-    </p>
-
-    <p>More detail: project user guide <code>docs/canonical/for-users.md</code> · scientific background in the <a href="../ifra/">IFRA Knowledge Center</a>.</p>
+    <p>More detail: project user guide <code>docs/canonical/for-users.md</code> · scientific background in the <a href="../ifra/">IFRA Knowledge Center</a> · growth policy <code>docs/live-growth.md</code>.</p>
   </main>
   <footer class="footer wrap">
     <p><a href="../">← Docs home</a> · <a href="../../">Dictionary</a></p>

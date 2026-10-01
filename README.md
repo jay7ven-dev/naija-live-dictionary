@@ -1,6 +1,6 @@
 # Naijá Live Dictionary
 
-IFRA/NLA Standard Naijá Orthography (SNO) reference with informal → standard lookup.
+IFRA/NLA Standard Naijá Orthography (SNO) lexical resource with informal → standard lookup, **Fix spelling** (rules), and Keyman keyboard sources.
 
 **Orthography follows the IFRA/NLA Standard Naijá Orthography (2010). This project is not affiliated with IFRA Nigeria.** See [`docs/citation-pack.md`](docs/citation-pack.md) and [`docs/d4-public-release-licensing.md`](docs/d4-public-release-licensing.md).
 
@@ -10,19 +10,22 @@ IFRA/NLA Standard Naijá Orthography (SNO) reference with informal → standard 
 python web/serve.py
 ```
 
-Open http://localhost:8765/web/
+Opens **Fix spelling** at http://localhost:8765/web/normalize.html  
+Dictionary: http://localhost:8765/web/index.html  
 
-Do not open `web/index.html` as a `file://` URL — dictionary data will not load.
+Do not open HTML as a `file://` URL — dictionary data will not load.
 
 ## What this is
 
-A structured Live Dictionary: SNO headwords, variants, short examples, pronunciation hints, and a local search UI. Canonical science write-up: [`docs/manuscripts/naija-live-dictionary.md`](docs/manuscripts/naija-live-dictionary.md).
+A living SNO lexicon (headwords + curated variants, evidence-triggered growth) plus tools: Fix spelling, optional Advanced English→Pidgin, Keyman. Canonical science write-up: [`docs/manuscripts/naija-live-dictionary.md`](docs/manuscripts/naija-live-dictionary.md). Growth policy: [`docs/live-growth.md`](docs/live-growth.md).
 
 ## Checks
 
 ```bash
 python schema/validate.py data/dictionary.json
 python web/verify.py
+python data/normalize.py --self-check
+python data/normalize.py --eval data/eval/messy_pidgin_sample.jsonl
 ```
 
 ## Public release

@@ -3,60 +3,53 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>English → Pidgin — Naijá Live Dictionary</title>
+  <title>Fix spelling — Naijá Live Dictionary</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="header">
     <div class="wrap">
-      <h1>English → Pidgin</h1>
-      <p class="tagline">Sentence conversion to IFRA/NLA SNO · Live Dictionary stays for word lookup</p>
+      <h1>Fix spelling</h1>
+      <p class="tagline">Informal Pidgin → IFRA/NLA SNO · rules from the Live Dictionary</p>
     </div>
   </header>
 
   <main class="wrap">
-    <p class="field-hint"><a href="./">← Dictionary search</a></p>
+    <p class="field-hint">
+      <a href="./index.html">Dictionary search</a>
+      · <span id="last-grown"></span>
+    </p>
 
-    <section class="search-panel" aria-label="English to Pidgin">
-      <label for="in">Paste an English sentence</label>
+    <section class="search-panel" aria-label="Fix spelling to SNO">
+      <label for="in">Paste Pidgin text (messy spelling OK)</label>
       <p id="in-hint" class="field-hint">
-        Primary: convert meaning to Pidgin (local Marian), then apply SNO spelling.
-        Optional below: fix spelling only if the text is already Pidgin.
+        Maps informal spellings to SNO via the dictionary index. Does not rewrite English grammar.
+        Model normalize is research/CLI only (<code>python data/normalize.py --backend model</code>).
       </p>
       <textarea
         id="in"
         rows="4"
-        placeholder="e.g. I want to see you"
+        placeholder="e.g. Di pickin wan book"
         autocomplete="off"
         spellcheck="false"
-        aria-describedby="in-hint compose-hint"
-        aria-autocomplete="list"
-        aria-controls="compose-suggest"
-        aria-expanded="false"
+        aria-describedby="in-hint"
       ></textarea>
-      <div class="compose-assist" aria-label="SNO compose assist">
-        <p id="compose-hint" class="field-hint">
-          Digraphs and high-tone vowels (IFRA SNO). Click to insert at the cursor. Typing also shows dictionary prefix suggestions.
-        </p>
-        <div id="compose-keys" class="compose-keys" role="group" aria-label="Digraph and tone inserts"></div>
-        <ul id="compose-suggest" class="suggest hidden" role="listbox" aria-label="SNO spelling suggestions"></ul>
-      </div>
       <p class="normalize-actions">
-        <button type="button" id="translate" class="btn">English → Pidgin</button>
+        <button type="button" id="run" class="btn">Fix spelling</button>
       </p>
       <p id="status" class="status" aria-live="polite"></p>
 
       <details class="spell-fix">
-        <summary>Fix spelling only (already Pidgin)</summary>
+        <summary>Advanced: English → Pidgin</summary>
         <p class="field-hint">
-          Maps informal spellings to SNO via the dictionary index. Does not rewrite English grammar.
-          Experimental model backend is CLI-only (<code>python data/normalize.py --backend model</code>).
+          Optional local Marian MT, then rules SNO. MT alone is not IFRA authority.
+          Use when the input is English; for already-Pidgin text, use Fix spelling above.
         </p>
         <p class="normalize-actions">
-          <button type="button" id="run" class="btn btn-secondary">Fix spelling</button>
+          <button type="button" id="translate" class="btn btn-secondary">English → Pidgin</button>
         </p>
       </details>
-      <!-- Hidden: rules backend fixed for spelling-fix UI (model demoted from dropdown). -->
+      <!-- Hidden: rules backend fixed for spelling-fix UI (model = research only). -->
       <select id="backend" class="visually-hidden" aria-hidden="true" tabindex="-1">
         <option value="rules" selected>rules</option>
       </select>
@@ -70,11 +63,10 @@
   </main>
 
   <footer class="footer wrap">
-    <p><a href="./">Dictionary</a> · <a href="docs/">Docs</a> · <a href="docs/user/">User Guide</a></p>
-    <p class="footer-note">Not affiliated with IFRA Nigeria. Orthography follows the IFRA/NLA Standard Naijá Orthography (2010). Sentence conversion uses a local Marian model then rules spelling; MT alone is not IFRA authority.</p>
+    <p><a href="./index.html">Dictionary</a> · <a href="docs/">Docs</a> · <a href="docs/user/">User Guide</a></p>
+    <p class="footer-note">Not affiliated with IFRA Nigeria. Orthography follows the IFRA/NLA Standard Naijá Orthography (2010). System typing: install the Naija SNO Keyman keyboard (see <code>ime/keyman/naija_sno/</code>).</p>
   </footer>
 
-  <script src="compose.js"></script>
   <script src="normalize.js"></script>
 </body>
 </html>

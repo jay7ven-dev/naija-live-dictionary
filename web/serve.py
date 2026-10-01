@@ -25,9 +25,9 @@ class Handler(SimpleHTTPRequestHandler):
 
     def do_GET(self) -> None:
         path = _api_path(self.path)
-        if path in ("", "/", "/index.html"):
+        if path in ("", "/", "/index.html", "/web", "/web/"):
             self.send_response(302)
-            self.send_header("Location", "/web/")
+            self.send_header("Location", "/web/normalize.html")
             self.end_headers()
             return
         if path == "/api/translate":
@@ -88,9 +88,9 @@ class ReuseTCPServer(TCPServer):
 def main() -> None:
     with ReuseTCPServer(("", PORT), Handler) as httpd:
         print(f"Serving {ROOT}")
-        print(f"Open http://localhost:{PORT}/web/")
-        print(f"English → Pidgin  http://localhost:{PORT}/web/normalize.html")
-        print(f"POST /api/translate  {{\"text\": \"...\"}}")
+        print(f"Fix spelling     http://localhost:{PORT}/web/normalize.html")
+        print(f"Dictionary       http://localhost:{PORT}/web/index.html")
+        print(f"POST /api/translate  {{\"text\": \"...\"}}  (advanced)")
         httpd.serve_forever()
 
 

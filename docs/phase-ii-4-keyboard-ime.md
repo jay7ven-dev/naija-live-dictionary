@@ -1,24 +1,13 @@
 # Phase II-4 — Keyboard / IME (web compose assist)
 
-**Status:** Implemented (2026-09-27)  
-**Spec:** `docs/superpowers/specs/2026-09-27-part-ii-4-keyboard-ime-design.md`
+**Status:** **Removed from product** (North Star scope realign 2026-10-01). Historical design: `docs/superpowers/specs/2026-09-27-part-ii-4-keyboard-ime-design.md`.
 
-## Delivered
+## What replaced it
 
-- Shared `web/compose.js`: digraph inserts (`gb` `kp` `sh` `ch` `zh`) + high-tone vowels (`á é í ó ú`)
-- **Primary:** `web/normalize.html` — digraph panel + live prefix suggestions from `variant_index.json` (accept replaces current token with SNO standard)
-- **Secondary:** `web/index.html` — digraph panel only (search already has GOV.UK-style prefix suggest)
-- Does not auto-write the lexicon; does not replace English → Pidgin / Fix spelling
+| Need | Product path |
+|------|----------------|
+| System-wide SNO typing | **II-5b Keyman** (`ime/keyman/naija_sno/`) — Done (sources + local `.kmp` recipe) |
+| Informal → SNO on the web | **Fix spelling** (`web/normalize.html`, rules) — primary sentence tool |
+| Lexicon for IMEs | **II-5a** `data/ime/` export |
 
-## Check
-
-```bash
-python web/serve.py
-# /web/normalize.html — insert digraph; type a prefix → pick suggestion
-# /web/ — digraph insert into search
-python web/verify.py
-```
-
-## Later
-
-System-wide typing is II-5b Keyman (`ime/keyman/naija_sno/`); native TSF / Android / iOS apps remain II-5c+.
+`web/compose.js` was deleted; digraph UI is no longer shipped. Native OS/store IME apps remain **II-5c+ deferred**.

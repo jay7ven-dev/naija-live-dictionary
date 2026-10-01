@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-01",
+  "sample": "data/eval/messy_pidgin_sample.jsonl",
+  "backend": "rules",
+  "n": 12,
+  "word_accuracy": 1.0,
+  "sentence_exact": 1.0,
+  "word_ok": 12,
+  "sent_ok": 12,
+  "note": "Frozen messy-Pidgin coverage baseline after North Star realign. Re-run: python data/normalize.py --eval data/eval/messy_pidgin_sample.jsonl"
+}

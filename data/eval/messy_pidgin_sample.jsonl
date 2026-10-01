@@ -1,0 +1,12 @@
+{"id": "s01", "input": "Di pickin wan book.", "expected": "di pikin wan buk."}
+{"id": "s02", "input": "I wan book.", "expected": "I wan buk."}
+{"id": "s03", "input": "Yu sabi wetin?", "expected": "yu sabi wetin?"}
+{"id": "s04", "input": "Abeg comot for road.", "expected": "abeg komot fo rod."}
+{"id": "s05", "input": "Wetin dey happen?", "expected": "wetin dé hapen?"}
+{"id": "s06", "input": "How far, my guy?", "expected": "haw fa, my man?"}
+{"id": "s07", "input": "Shey you dey go?", "expected": "abi yu dé go?"}
+{"id": "s08", "input": "No wahala for me.", "expected": "no wahala fo me."}
+{"id": "s09", "input": "Dem don chop finish.", "expected": "dem don chop fini."}
+{"id": "s10", "input": "Make we yarn small.", "expected": "mek wi yarn smol."}
+{"id": "s11", "input": "I no sabi book well.", "expected": "I no sabi buk wel."}
+{"id": "s12", "input": "Abeg give me chance.", "expected": "abeg giv me dan."}

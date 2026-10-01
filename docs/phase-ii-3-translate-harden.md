@@ -42,9 +42,10 @@ Pipeline: English → Moses tokenize (sacremoses, optional) → `NITHUB-AI/maria
 - **`--eval`:** soft smoke cases (expected Pidgin substrings in raw or SNO)
 - **Fuzzy guard:** rules normalizer skips fuzzy on ≤2-letter tokens and tightens 3-letter matches (blocks `be`→`bed` after MT)
 
-## UX Option B (2026-09-23)
+## UX (realigned 2026-10-01)
 
-- **Primary:** English → Pidgin on `/web/normalize.html` (and dictionary footer link).
-- **Secondary:** “Fix spelling only” under a details panel (rules; already-Pidgin text).
-- **Model normalize:** demoted from UI dropdown; use CLI `--backend model` / `--compare` only.
-- **Live Dictionary** schema and word search unchanged.
+- **Primary:** Fix spelling (rules) on `/web/normalize.html` (default entry from `web/serve.py`).
+- **Advanced:** English → Pidgin under a details panel (optional Marian + SNO).
+- **Model normalize:** research/CLI only (`--backend model` / `--compare`).
+- **Live Dictionary** word search at `/web/index.html`.
+- Historical note: 2026-09-23 “Option B” (MT primary) is superseded by this realign.

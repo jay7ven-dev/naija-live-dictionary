@@ -1,0 +1,7 @@
+{
+  "date": "2026-10-01",
+  "entries": 503,
+  "index_keys": 1026,
+  "note": "growth batch 7",
+  "policy": "evidence-triggered: grow when suggestions/misses queue warrants human review; update this file on each apply"
+}

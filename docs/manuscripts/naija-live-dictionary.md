@@ -9,7 +9,7 @@
 
 ## Abstract
 
-Nigerian Pidgin (Naijá) is widely spoken but lacks a single, widely adopted written standard in everyday digital use. Prior orthographies exist, yet accessible tooling that operationalizes a linguistic standard remains scarce. This paper presents the **Naijá Live Dictionary**, a structured, searchable lexical resource whose headwords follow the IFRA/Nigeria Linguistic Association (NLA) Standard Naijá Orthography (SNO) [1]. The system links informal and English-etymology spellings to SNO forms through a human-gated variant pipeline, and exposes lookup via a local web interface. The current release contains **503** validated entries, **104** curated variant mappings, and **1026** indexed lookup keys, with pronunciation hints on most entries and Universal Dependencies (UD) Naija–NSC example enrichment where matched [5]. Licensed corpora (NaijaSenti [2], CENCOS [3]) inform suggestion generation but do not auto-write dictionary content. Beyond the Part I dictionary milestone, the repository now also ships Part II **sentence tools**: a rules-based orthographic normalizer over the variant index, an experimental thin spell-mapping model for offline comparison, and an optional local English→Pidgin Marian MT path post-processed with SNO spelling (UI Option B: MT-first; spelling-fix secondary) [11], [12]. We document methodology, data sources, validation, and limitations, and position the resource as a reproducible foundation for orthography-aware tools rather than a finished writing system or production MT product.
+Nigerian Pidgin (Naijá) is widely spoken but lacks a single, widely adopted written standard in everyday digital use. Prior orthographies exist, yet accessible tooling that operationalizes a linguistic standard remains scarce. This paper presents the **Naijá Live Dictionary**, a structured, searchable **lexical resource** whose headwords follow the IFRA/Nigeria Linguistic Association (NLA) Standard Naijá Orthography (SNO) [1]. The system links informal and English-etymology spellings to SNO forms through a human-gated variant pipeline, and exposes lookup via a local web interface. The current release contains **503** validated entries, **104** curated variant mappings, and **1026** indexed lookup keys, with pronunciation hints on most entries. Universal Dependencies (UD) Naija–NSC example enrichment, TEI Lex-0 export, and FST candidate generators are maintained as **research sidecars**, not product claims [5]. Licensed **development corpora** (NaijaSenti [2], CENCOS [3]) inform suggestion generation but do not auto-write dictionary content and are not marketed as a released text corpus. Beyond the Part I dictionary milestone, the repository ships Part II **sentence tools**: a rules-based orthographic normalizer (primary **Fix spelling** UX), an experimental thin spell-mapping model for offline comparison only, optional local English→Pidgin Marian MT under **Advanced**, and a Keyman keyboard (II-5b) for system-wide SNO typing [11], [12]. We document methodology, data sources, validation, and limitations, and position the resource as a reproducible foundation for orthography-aware tools rather than a finished writing system or production MT product.
 
 **Keywords:** Nigerian Pidgin, Naijá, orthography, lexicography, variant mapping, IFRA/NLA SNO, normalization, low-resource languages
 
@@ -21,7 +21,7 @@ Nigerian Pidgin (Naijá) is widely spoken but lacks a single, widely adopted wri
 
 Naijá (also known as Nigerian Pidgin) is used by tens of millions of speakers across Nigeria and the diaspora, yet writing practice remains highly variable [6]. Historical and contemporary standardization efforts have produced linguistic guidance, but adoption has been limited by complexity and by the absence of everyday digital references and tools [1], [6]. Existing online dictionaries and apps (e.g., crowdsourced slang resources, auto-generated bilingual pages, or polished commercial UIs) typically do not treat a published linguistic orthography as the exclusive spelling backbone for headwords.
 
-The gap addressed here is therefore practical as well as linguistic: **a living, structured dictionary and corpus layer anchored to IFRA/NLA SNO**, usable by humans for lookup and by machines as structured data.
+The gap addressed here is therefore practical as well as linguistic: **a living lexical resource (SNO headwords + curated variant links, with evidence-triggered growth) anchored to IFRA/NLA SNO**, usable by humans for lookup and by machines as structured data. Internal licensed text used for suggestions is termed **development corpora**, not a public corpus product.
 
 ### 1.2 Aim and scope
 
@@ -29,11 +29,11 @@ The gap addressed here is therefore practical as well as linguistic: **a living,
 
 **Hypothesis (program-level).** If an accessible, IFRA/NLA-grounded dictionary and variant index exist in digital form, standardized spelling becomes easier to check against and to adopt in tools—addressing tooling and documentation failures more than linguistic merit alone (see project planning document).
 
-**In scope (completed Part I mini-milestone).** Schema design; seed lexicon; ethics-constrained corpus ingest; curated variant mapping; local web search with exact and fuzzy tiers; TEI Lex-0 export; pronunciation hints; UD-based example enrichment.
+**In scope (completed Part I mini-milestone).** Schema design; seed lexicon; ethics-constrained development-corpus ingest; curated variant mapping; local web search with exact and fuzzy tiers; pronunciation hints. TEI Lex-0 export, UD example enrichment, and FST generators exist as research sidecars.
 
-**In scope (Part II sentence tools, landed).** Rules-based sentence orthographic normalizer consuming the variant index; experimental thin spell-mapping model for offline rules-vs-model comparison; optional local English→Pidgin Marian translation with SNO post-normalize; UI Option B (English→Pidgin primary; spelling-fix secondary) [11], [12].
+**In scope (Part II sentence tools, landed).** Rules-based sentence orthographic normalizer as **primary Fix spelling** UX; experimental thin spell-mapping model for offline rules-vs-model comparison only; optional local English→Pidgin Marian translation with SNO post-normalize under Advanced; Keyman SNO keyboard (II-5b) and regenerable IME lexicon export (II-5a) [11], [12].
 
-**Out of scope (still deferred).** Production-grade neural orthographic autocorrect; claiming MT output as IFRA orthography authority without the SNO post-pass and human review. Native TSF / Android / iOS **apps** (II-5c+) remain deferred; **II-4** web compose assist, **II-5a** IME lexicon export (`data/ime/`), and **II-5b** Keyman keyboard sources (`ime/keyman/naija_sno/`) are implemented.
+**Out of scope (still deferred).** Production-grade neural orthographic autocorrect (we expose **spelling suggestions** via fuzzy lookup and Keyman wordlist only); claiming MT output as IFRA orthography authority without the SNO post-pass and human review. Native TSF / Android / iOS **apps** (II-5c+) remain deferred. Web compose assist (II-4) was removed from the product surface.
 
 ### 1.3 Contributions
 
@@ -41,12 +41,10 @@ The gap addressed here is therefore practical as well as linguistic: **a living,
 2. **Reproducible lexicon schema** with machine validation (`schema/entry.schema.json`).
 3. **Human-gated variant pipeline** over licensed corpora, with explicit rejection of English code-switch false positives.
 4. **Operational lookup stack:** exact variant index, substring search, and Levenshtein fuzzy suggestions (distance ≤ 2).
-5. **Interop and attribution:** TEI Lex-0 export, citation pack, and tiered public-release licensing (Decision D4).
-6. **Sentence tooling (Part II):** orthographic normalize over dictionary assets; optional local EN→PCM MT with SNO post-processing; clear separation from word-level Live Dictionary lookup [11], [12].
+5. **Interop and attribution (research):** TEI Lex-0 export, citation pack, and tiered public-release licensing (Decision D4).
+6. **Sentence tooling (Part II):** primary Fix spelling (rules) over dictionary assets; optional Advanced EN→PCM MT with SNO post-processing; Keyman keyboard; clear separation from word-level Live Dictionary lookup [11], [12].
 
-### 1.4 Paper organization
 
-Section 2 situates related work. Section 3 describes methodology. Section 4 lists data sources. Section 5 reports validation. Section 6 states limitations. Section 7 discusses implications. References close the manuscript.
 
 ---
 
@@ -120,7 +118,7 @@ Batch policy (simplified):
 
 ### 3.6 Pronunciation and NLP seeds
 
-Rule-based broad G2P hints (`g2p_hints.py` / `enrich_pronunciation.py`) fill optional `pronunciation` fields (not full IPA). Optional Pynini FST rules (`fst_variants.py`) feed suggestion mode with Lin fallback. These do not alter SNO headwords.
+Rule-based broad G2P hints (`g2p_hints.py` / `enrich_pronunciation.py`) fill optional `pronunciation` fields (not full IPA). Optional Pynini FST rules (`fst_variants.py`) feed **research** suggestion mode with Lin fallback. These do not alter SNO headwords and are not product features.
 
 ### 3.7 User interface
 
@@ -128,13 +126,13 @@ A static browser UI (`web/`) loads `dictionary.json`, `variant_index.json`, and 
 
 ### 3.8 Sentence tools (Part II)
 
-Orthographic **normalize** (`data/normalize.py`, spelling-fix panel on `/web/normalize.html`) maps each token via the variant index (exact → fuzzy ≤ 2 → leave unknown). It does **not** rewrite English grammar; English residue on English inputs is expected. An experimental **model** backend (exact curated pairs + edit/NN heuristics) exists for offline `--compare` against rules; fold generalization remains weak relative to rules and is not the primary UX [11], [12].
+Orthographic **normalize** (`data/normalize.py`, primary **Fix spelling** on `/web/normalize.html`) maps each token via the variant index (exact → fuzzy ≤ 2 → leave unknown). It does **not** rewrite English grammar; English residue on English inputs is expected. An experimental **model** backend (exact curated pairs + edit/NN heuristics) exists for offline `--compare` against rules only; it is not the product UX [11], [12]. A frozen messy-Pidgin coverage sample lives at `data/eval/messy_pidgin_sample.jsonl` with baseline `data/eval/coverage_baseline.json`.
 
-**English → Pidgin** (primary sentence UX, Option B) runs local Marian MT (`NITHUB-AI/marian-mt-bbc-en-pcm` via optional `transformers`/`torch`) then applies rules normalize for SNO spelling (`data/translate_en_pcm.py`, `POST /api/translate`). MT output is not treated as IFRA authority by itself. II-4 web compose assist (digraphs + prefix suggest) is available on the sentence and dictionary pages; II-5a ships a regenerable IME lexicon export under `data/ime/`; II-5b provides Keyman keyboard sources under `ime/keyman/naija_sno/` for system-wide typing (local `.kmp` build).
+**English → Pidgin** (optional Advanced) runs local Marian MT (`NITHUB-AI/marian-mt-bbc-en-pcm` via optional `transformers`/`torch`) then applies rules normalize for SNO spelling (`data/translate_en_pcm.py`, `POST /api/translate`). MT output is not treated as IFRA authority by itself. II-5a ships a regenerable IME lexicon export under `data/ime/` (refreshed on lexicon growth); II-5b provides Keyman keyboard sources under `ime/keyman/naija_sno/` for system-wide typing (local `.kmp` build). Web compose assist (II-4) is not shipped.
 
-### 3.9 Interoperability
+### 3.9 Interoperability (research)
 
-`export/tei_lex0.py` produces `export/naija-dictionary.lex0.xml` from the canonical JSON (one-way). Citations are maintained in `docs/citation-pack.md`.
+`export/tei_lex0.py` produces `export/naija-dictionary.lex0.xml` from the canonical JSON (one-way research interchange). Citations are maintained in `docs/citation-pack.md`.
 
 ---
 
@@ -221,23 +219,23 @@ An early batch-1 auto-heuristic (~124 fuzzy mappings) produced systematic false 
 
 ### 7.1 Alignment with initial goals
 
-The Live Dictionary mini-project exit criteria—authority decision, schema, seed lexicon, variant pipeline + ethics, and searchable UI—are met. The resource therefore satisfies the *immediate* Part I aim: an IFRA-grounded living reference with informal→standard lookup. Part II sentence tooling now consumes that lexicon for orthographic normalize and optional local EN→Pidgin conversion [11], [12]; II-4 web compose assist is available while II-5a provides an IME lexicon export for future OS/mobile packages; strong orthographic neural models remain open. UX Option B treats English→Pidgin as the primary sentence action and spelling-fix as secondary so users do not confuse token SNO mapping with translation.
+The Live Dictionary mini-project exit criteria—authority decision, schema, seed lexicon, variant pipeline + ethics, and searchable UI—are met. The resource therefore satisfies the *immediate* Part I aim: an IFRA-grounded living lexical reference with informal→standard lookup. Part II now centers **Fix spelling (rules)** as the primary sentence tool, with optional Advanced EN→Pidgin, Keyman (II-5b) for system typing, and IME lexicon export (II-5a); strong orthographic neural models and native store IMEs (II-5c+) remain open. Separating Fix spelling from MT avoids confusing token SNO mapping with translation.
 
 ### 7.2 Design implications
 
-Human gating is not a temporary inconvenience: for code-switched corpora it is a **correctness requirement**. Lin-style orthographic rules [4] are useful as *candidate generators* when combined with blocklists, forward validation, and low auto-thresholds. Fuzzy search improves UX after exact miss but must not write the lexicon.
+Human gating is not a temporary inconvenience: for code-switched development corpora it is a **correctness requirement**. Lin-style orthographic rules [4] are useful as *candidate generators* when combined with blocklists, forward validation, and low auto-thresholds. Fuzzy search improves UX after exact miss (spelling suggestions) but must not write the lexicon and is not claimed as full autocorrect.
 
 ### 7.3 Reproducibility and documentation
 
-Canonical scientific claims in this manuscript should drive developer, researcher, and user documentation. Phase docs under `docs/phase-*.md` remain historical execution logs; when numbers conflict, prefer live validators and this manuscript’s snapshot date.
+Canonical scientific claims in this manuscript should drive developer, researcher, and user documentation. Phase docs under `docs/phase-*.md` remain historical execution logs; when numbers conflict, prefer live validators and this manuscript’s snapshot date. Lexicon growth policy: `docs/live-growth.md`.
 
 ### 7.4 Future work
 
-- Expand curated mappings from pending suggestions with continued human review.
-- Complete licensed corpus ingest where technically blocked.
+- Expand curated mappings from pending suggestions with continued human review (evidence-triggered).
+- Complete licensed development-corpus ingest where technically blocked.
 - User studies of lookup success, spelling preference, and sentence-tool usefulness.
 - Stronger orthographic models or eval suites (rules still dominate the thin fold baseline).
-- Keyboard / IME: native TSF / Android / iOS apps (II-5c+); web compose (II-4), lexicon export (II-5a), and Keyman sources (II-5b, `ime/keyman/naija_sno/`) shipped.
+- Keyboard / IME: native TSF / Android / iOS apps (II-5c+); Keyman sources (II-5b) and lexicon export (II-5a) shipped; web compose (II-4) withdrawn from product.
 - Public release packaging under D4 Tier A/B with clear attribution.
 - Keep manuscript metrics aligned with live validators after each lexicon growth pass.
 

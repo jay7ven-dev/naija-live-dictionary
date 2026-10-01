@@ -15,6 +15,10 @@
   </header>
 
   <main class="wrap">
+    <p class="field-hint">
+      <a href="normalize.html">← Fix spelling (primary tool)</a>
+      · <span id="last-grown"></span>
+    </p>
     <section class="search-panel" aria-label="Search dictionary">
       <label for="q">Search a word or variant</label>
       <p id="q-hint" class="field-hint">Standard spelling or informal form (e.g. pickin, dey, book). Informal matches map to IFRA/NLA standard.</p>
@@ -25,18 +29,12 @@
         autocomplete="off"
         autocorrect="off"
         spellcheck="false"
-        aria-describedby="q-hint compose-hint"
+        aria-describedby="q-hint"
         aria-autocomplete="list"
         aria-controls="suggest"
         aria-expanded="false"
         autofocus
       >
-      <div class="compose-assist" aria-label="SNO compose assist">
-        <p id="compose-hint" class="field-hint">
-          Digraphs and high-tone vowels (IFRA SNO). Click to insert at the cursor.
-        </p>
-        <div id="compose-keys" class="compose-keys" role="group" aria-label="Digraph and tone inserts"></div>
-      </div>
       <ul id="suggest" class="suggest hidden" role="listbox" aria-label="Spelling suggestions"></ul>
       <p id="status" class="status" aria-live="polite"></p>
     </section>
@@ -46,11 +44,10 @@
   </main>
 
   <footer class="footer wrap">
-    <p><a href="normalize.html">English → Pidgin</a> · <a href="docs/">Docs</a> · <a href="docs/user/">User Guide</a></p>
+    <p><a href="normalize.html">Fix spelling</a> · <a href="docs/">Docs</a> · <a href="docs/user/">User Guide</a></p>
     <p class="footer-note">Not affiliated with IFRA Nigeria. Orthography follows the IFRA/NLA Standard Naijá Orthography (2010).</p>
   </footer>
 
-  <script src="compose.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

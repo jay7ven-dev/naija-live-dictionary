@@ -274,18 +274,24 @@ async function boot() {
     fuzzyMaxDistance = fuzzy.max_distance ?? 2;
     if (modelRes.ok) {
       model = await modelRes.json();
-      $status.textContent = "Ready · English → Pidgin (primary). Spelling fix under the details panel.";
     } else {
       model = null;
-      $status.textContent = "Ready · English → Pidgin (primary). Spelling fix uses rules only.";
     }
-    window.ComposeAssist.mountComposeAssist({
-      input: $in,
-      keysEl: document.getElementById("compose-keys"),
-      suggestEl: document.getElementById("compose-suggest"),
-      catalog: window.ComposeAssist.catalogFromIndex(index, byId),
-      enableSuggest: true,
-    });
+    $status.textContent = "Ready · Fix spelling (rules). English → Pidgin under Advanced.";
+    const grownEl = document.getElementById("last-grown");
+    if (grownEl) {
+      try {
+        const gRes = await fetch(`${DATA}/last_grown.json`);
+        if (gRes.ok) {
+          const g = await gRes.json();
+          grownEl.textContent = g.date
+            ? `Lexicon last grown ${g.date}`
+            : "";
+        }
+      } catch {
+        /* optional */
+      }
+    }
   } catch (err) {
     $status.textContent = String(err.message || err);
   } finally {
@@ -298,7 +304,7 @@ $translate.addEventListener("click", translate);
 $in.addEventListener("keydown", (e) => {
   if (e.key === "Enter" && (e.ctrlKey || e.metaKey)) {
     e.preventDefault();
-    translate();
+    run();
   }
 });
 

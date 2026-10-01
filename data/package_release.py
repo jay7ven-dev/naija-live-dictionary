@@ -25,6 +25,9 @@ INCLUDE_FILES = [
     "data/ime/naija-ime-lexicon.json",
     "data/ime/naija-ime-lexicon.tsv",
     "data/ime/README.md",
+    "data/last_grown.json",
+    "data/eval/messy_pidgin_sample.jsonl",
+    "data/eval/coverage_baseline.json",
     "export/naija-dictionary.lex0.xml",
     "export/tei_lex0.py",
     "export/verify_tei.py",
@@ -42,7 +45,7 @@ INCLUDE_FILES = [
     "web/style.css",
     "web/normalize.html",
     "web/normalize.js",
-    "web/compose.js",
+    "data/last_grown.json",
     "ime/keyman/naija_sno/naija_sno.kmn",
     "ime/keyman/naija_sno/naija_sno.kps",
     "ime/keyman/naija_sno/naija_sno.wordlist.tsv",
@@ -77,7 +80,8 @@ This zip excludes:
 - Full third-party corpus dumps (UD .conllu, CENCOS transcripts)
 - Keyman compiled binaries (.kmx / .kmp); rebuild locally if needed
 
-Run: python web/serve.py  →  http://localhost:8765/web/
+Run: python web/serve.py  →  http://localhost:8765/web/normalize.html (Fix spelling)
+Dictionary: http://localhost:8765/web/index.html
 """
 
 

@@ -169,13 +169,20 @@ async function load() {
   } else {
     fuzzyTerms = [...variantLookup.entries()].map(([term, id]) => ({ term, id }));
   }
-  window.ComposeAssist.mountComposeAssist({
-    input: $q,
-    keysEl: document.getElementById("compose-keys"),
-    enableSuggest: false,
-  });
   $results.removeAttribute("aria-busy");
   $status.textContent = `${entries.length} entries loaded`;
+  const grownEl = document.getElementById("last-grown");
+  if (grownEl) {
+    try {
+      const gRes = await fetch(`${DATA}/last_grown.json`);
+      if (gRes.ok) {
+        const g = await gRes.json();
+        grownEl.textContent = g.date ? `Lexicon last grown ${g.date}` : "";
+      }
+    } catch {
+      /* optional */
+    }
+  }
   renderIdle();
 }
 
