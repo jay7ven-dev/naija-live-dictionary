@@ -7,7 +7,7 @@ import re
 import sys
 from pathlib import Path
 from urllib.error import HTTPError, URLError
-from urllib.parse import quote
+from urllib.parse import quote, urlparse
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -17,6 +17,15 @@ SOURCES = ROOT / "data" / "corpus" / "sources.json"
 CV_OUT = CORPUS / "common-voice-pcm-sentences.txt"
 
 TOKEN = re.compile(r"[a-zA-Zàáèéìíòóùú'-]+")
+
+
+def _urlopen(url_or_req, timeout: float):
+    """urlopen restricted to http(s) (bandit B310)."""
+    url = url_or_req.full_url if isinstance(url_or_req, Request) else str(url_or_req)
+    scheme = urlparse(url).scheme.lower()
+    if scheme not in ("http", "https"):
+        raise ValueError(f"refusing non-http(s) URL scheme: {scheme!r}")
+    return urlopen(url_or_req, timeout=timeout)  # nosec B310 — scheme checked above
 
 
 def load_json(path: Path):
@@ -60,7 +69,7 @@ def ingest_common_voice(max_rows: int = 800) -> int:
             f"&offset={offset}&length={length}"
         )
         req = Request(url, headers={"User-Agent": "pidgin-dictionary-ingest/1.0"})
-        with urlopen(req, timeout=120) as resp:
+        with _urlopen(req, timeout=120) as resp:
             payload = json.loads(resp.read().decode("utf-8"))
         rows = payload.get("rows") or []
         if not rows:
@@ -109,10 +118,10 @@ def cmd_report() -> int:
 
 
 def main(argv: list[str]) -> int:
-    if len(argv) < 2:
+    if not argv or argv[0] in {"-h", "--help"}:
         print("Usage: enrich_pronunciation.py apply|ingest-cv|report", file=sys.stderr)
         return 1
-    cmd = argv[1]
+    cmd = argv[0]
     if cmd == "apply":
         return cmd_apply()
     if cmd == "report":
@@ -130,4 +139,4 @@ def main(argv: list[str]) -> int:
 
 
 if __name__ == "__main__":
-    raise SystemExit(main(sys.argv))
+    raise SystemExit(main(sys.argv[1:]))

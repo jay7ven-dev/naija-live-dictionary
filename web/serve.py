@@ -11,7 +11,18 @@ from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parent.parent
 PORT = 8765
-sys.path.insert(0, str(ROOT / "data"))
+_DATA_ON_PATH = False
+
+
+def _ensure_data_path() -> None:
+    """Add data/ to sys.path only when the translate API needs it."""
+    global _DATA_ON_PATH
+    if _DATA_ON_PATH:
+        return
+    data = str(ROOT / "data")
+    if data not in sys.path:
+        sys.path.insert(0, data)
+    _DATA_ON_PATH = True
 
 
 def _api_path(raw: str) -> str:
@@ -53,6 +64,7 @@ class Handler(SimpleHTTPRequestHandler):
             self._json(400, {"error": "missing text"})
             return
         try:
+            _ensure_data_path()
             from translate_en_pcm import translate_and_normalize
 
             result = translate_and_normalize(text)

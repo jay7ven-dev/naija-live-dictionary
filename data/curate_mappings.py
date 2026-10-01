@@ -6,6 +6,8 @@ import json
 import sys
 from pathlib import Path
 
+from text_norm import norm
+
 ROOT = Path(__file__).resolve().parent.parent
 SUGGESTIONS = ROOT / "data" / "suggestions.json"
 MAPPINGS = ROOT / "data" / "variant_mappings.json"
@@ -133,10 +135,6 @@ BATCH_5_VERIFIED: list[tuple[str, str, str]] = [
     ("neare", "nia", "near spelling"),
     ("dakk", "dak", "dark spelling"),
 ]
-
-
-def norm(s: str) -> str:
-    return s.casefold()
 
 
 def load_known_variants(entries: list[dict], mappings: list[dict]) -> set[str]:
@@ -494,4 +492,4 @@ def main(argv: list[str]) -> int:
 
 
 if __name__ == "__main__":
-    raise SystemExit(main(sys.argv))
+    raise SystemExit(main(sys.argv[1:]))

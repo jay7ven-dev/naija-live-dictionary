@@ -1,4 +1,4 @@
-/** Sentence normalizer (Part II). Backends: rules | model. */
+/** Sentence normalizer (Part II) — Fix spelling via dictionary rules (exact + fuzzy). */
 
 const DATA = "../data";
 
@@ -11,11 +11,9 @@ function apiRoot() {
 
 const $in = /** @type {HTMLTextAreaElement} */ (document.getElementById("in"));
 const $run = /** @type {HTMLButtonElement} */ (document.getElementById("run"));
-const $backend = /** @type {HTMLSelectElement} */ (document.getElementById("backend"));
 const $status = document.getElementById("status");
 const $out = document.getElementById("out");
 const $tokenList = document.getElementById("token-list");
-
 const $translate = /** @type {HTMLButtonElement} */ (document.getElementById("translate"));
 
 /** @type {Map<string, string>} */
@@ -25,21 +23,6 @@ let byId = new Map();
 /** @type {{ term: string, id: string }[]} */
 let fuzzyTerms = [];
 let fuzzyMaxDistance = 2;
-/** @type {{ lookup: Record<string, string>, memory: {src:string,tgt:string}[], edits?: {frm:string,to:string}[], max_distance?: number } | null} */
-let model = null;
-
-const BOOTSTRAP_EDITS = [
-  { frm: "ck", to: "k" },
-  { frm: "oo", to: "u" },
-  { frm: "ee", to: "i" },
-  { frm: "ea", to: "i" },
-  { frm: "ph", to: "f" },
-  { frm: "wh", to: "w" },
-  { frm: "ough", to: "of" },
-  { frm: "ight", to: "ite" },
-  { frm: "tion", to: "shon" },
-  { frm: "c", to: "k" },
-];
 
 const WORD_RE =
   /[a-zA-ZàáèéìíòóùúÀÁÈÉÌÍÒÓÙÚ]+(?:[-'][a-zA-ZàáèéìíòóùúÀÁÈÉÌÍÒÓÙÚ]+)*/;
@@ -67,6 +50,10 @@ function levenshtein(a, b) {
   return row[b.length];
 }
 
+/**
+ * Rules resolve — keep in sync with data/normalize.py resolve_token_rules
+ * (short-token fuzzy guards: len<=2 skip; len<=3 → distance 1 + same length).
+ */
 function resolveRules(core) {
   if (!core) return { input: core, output: core, method: "identity", entry_id: null };
   const eid = variantLookup.get(norm(core));
@@ -76,75 +63,24 @@ function resolveRules(core) {
     return { input: core, output: std, method, entry_id: eid };
   }
   const nq = norm(core);
-  if (nq.length < 2) return { input: core, output: core, method: "unknown", entry_id: null };
+  // Fuzzy on 1–2 letter tokens is almost always English residue noise (be→bed).
+  if (nq.length <= 2) return { input: core, output: core, method: "unknown", entry_id: null };
+
+  // 3-letter: same-length edits only, max distance 1 (bok→buk; not be-length traps).
+  const lim = nq.length <= 3 ? 1 : fuzzyMaxDistance;
+
   const hits = [];
   for (const { term, id } of fuzzyTerms) {
     const nt = norm(term);
-    if (Math.abs(nt.length - nq.length) > fuzzyMaxDistance) continue;
+    if (Math.abs(nt.length - nq.length) > lim) continue;
+    if (nq.length <= 3 && nt.length !== nq.length) continue;
     const d = levenshtein(nq, nt);
-    if (d > 0 && d <= fuzzyMaxDistance) hits.push({ d, term, id });
+    if (d > 0 && d <= lim) hits.push({ d, term, id });
   }
   if (!hits.length) return { input: core, output: core, method: "unknown", entry_id: null };
   hits.sort((a, b) => a.d - b.d || a.term.localeCompare(b.term));
   const tid = hits[0].id;
   return { input: core, output: byId.get(tid) ?? core, method: "fuzzy", entry_id: tid };
-}
-
-function resolveModel(core) {
-  if (!core || !model) return { input: core, output: core, method: "unknown", entry_id: null };
-  const nk = norm(core);
-  if (Object.prototype.hasOwnProperty.call(model.lookup, nk)) {
-    const tgt = model.lookup[nk];
-    const method = norm(tgt) === nk ? "identity" : "model_exact";
-    return { input: core, output: tgt, method, entry_id: null };
-  }
-  // Already a known SNO target — do not NN-corrupt.
-  const known = new Set(Object.values(model.lookup || {}).map(norm));
-  for (const row of model.memory || []) known.add(norm(row.tgt));
-  if (known.has(nk)) {
-    return { input: core, output: core, method: "identity", entry_id: null };
-  }
-
-  const edits = [...(model.edits || []), ...BOOTSTRAP_EDITS];
-  for (const e of edits) {
-    if (!e.frm || !nk.includes(e.frm)) continue;
-    let cand = nk.replace(e.frm, e.to);
-    if (cand !== nk && known.has(cand)) {
-      return { input: core, output: cand, method: "model_edit", entry_id: null };
-    }
-    cand = nk.replace(e.frm, e.to);
-    // first-only already covered by replace once; try single replace:
-    const idx = nk.indexOf(e.frm);
-    if (idx >= 0) {
-      cand = nk.slice(0, idx) + e.to + nk.slice(idx + e.frm.length);
-      if (cand !== nk && known.has(cand)) {
-        return { input: core, output: cand, method: "model_edit", entry_id: null };
-      }
-    }
-  }
-
-  // Weighted vote among neighbors within max_distance.
-  const maxD = model.max_distance ?? 2;
-  if (nk.length < 2) return { input: core, output: core, method: "unknown", entry_id: null };
-  /** @type {Record<string, number>} */
-  const scores = {};
-  /** @type {Record<string, number>} */
-  const bestD = {};
-  for (const row of model.memory || []) {
-    if (Math.abs(row.src.length - nk.length) > maxD) continue;
-    const d = levenshtein(nk, row.src);
-    if (d > 0 && d <= maxD) {
-      scores[row.tgt] = (scores[row.tgt] || 0) + 1 / d;
-      if (bestD[row.tgt] === undefined || d < bestD[row.tgt]) bestD[row.tgt] = d;
-    }
-  }
-  const tgts = Object.keys(scores);
-  if (!tgts.length) return { input: core, output: core, method: "unknown", entry_id: null };
-  tgts.sort(
-    (a, b) =>
-      scores[b] - scores[a] || bestD[a] - bestD[b] || b.length - a.length || a.localeCompare(b)
-  );
-  return { input: core, output: tgts[0], method: "model_nn", entry_id: null };
 }
 
 function splitEdge(raw) {
@@ -153,11 +89,10 @@ function splitEdge(raw) {
   return [raw.slice(0, m.index), m[0], raw.slice(m.index + m[0].length)];
 }
 
-function normalizeSentence(text, backend) {
+function normalizeSentence(text) {
   const parts = text.split(/(\s+)/);
   const tokens = [];
   const outParts = [];
-  const resolve = backend === "model" ? resolveModel : resolveRules;
   for (const part of parts) {
     if (part === "" || /^\s+$/.test(part)) {
       outParts.push(part);
@@ -170,11 +105,11 @@ function normalizeSentence(text, backend) {
       tokens.push({ input: part, output: part, method: "identity", entry_id: null });
       continue;
     }
-    const dec = resolve(core);
+    const dec = resolveRules(core);
     tokens.push(dec);
     outParts.push(`${lead}${dec.output}${trail}`);
   }
-  return { input: text, output: outParts.join(""), tokens, backend };
+  return { input: text, output: outParts.join(""), tokens, backend: "rules" };
 }
 
 function render(result) {
@@ -203,12 +138,10 @@ function run() {
     $tokenList.hidden = true;
     return;
   }
-  const result = normalizeSentence(text, "rules");
-  const fuzzyN = result.tokens.filter((t) =>
-    ["fuzzy", "model_nn", "model_edit"].includes(t.method)
-  ).length;
+  const result = normalizeSentence(text);
+  const fuzzyN = result.tokens.filter((t) => t.method === "fuzzy").length;
   const unkN = result.tokens.filter((t) => t.method === "unknown").length;
-  $status.textContent = `Spelling fix (rules) · ${fuzzyN} changed via fuzzy/edit · ${unkN} unknown`;
+  $status.textContent = `Spelling fix (rules) · ${fuzzyN} changed via fuzzy · ${unkN} unknown`;
   render(result);
 }
 
@@ -240,9 +173,10 @@ async function translate() {
     if (!res.ok) {
       throw new Error(data.error || res.statusText);
     }
-    $status.textContent = data.pcm_raw && data.pcm_raw !== data.output
-      ? `English → Pidgin · raw MT: ${data.pcm_raw}`
-      : "English → Pidgin · SNO spelling applied";
+    $status.textContent =
+      data.pcm_raw && data.pcm_raw !== data.output
+        ? `English → Pidgin · raw MT: ${data.pcm_raw}`
+        : "English → Pidgin · SNO spelling applied";
     render({
       output: data.output,
       tokens: data.tokens || [],
@@ -260,11 +194,10 @@ async function boot() {
   $status.textContent = "Loading indexes…";
   $status.setAttribute("aria-busy", "true");
   try {
-    const [dictRes, indexRes, fuzzyRes, modelRes] = await Promise.all([
+    const [dictRes, indexRes, fuzzyRes] = await Promise.all([
       fetch(`${DATA}/dictionary.json`),
       fetch(`${DATA}/variant_index.json`),
       fetch(`${DATA}/fuzzy_lookup.json`),
-      fetch(`${DATA}/normalizer_model.json`),
     ]);
     if (!dictRes.ok || !indexRes.ok || !fuzzyRes.ok) {
       throw new Error("Failed to load data files (serve via python web/serve.py)");
@@ -280,11 +213,6 @@ async function boot() {
     }
     fuzzyTerms = fuzzy.terms ?? [];
     fuzzyMaxDistance = fuzzy.max_distance ?? 2;
-    if (modelRes.ok) {
-      model = await modelRes.json();
-    } else {
-      model = null;
-    }
     $status.textContent = "Ready · Fix spelling (rules). English → Pidgin under Advanced.";
     const grownEl = document.getElementById("last-grown");
     if (grownEl) {
@@ -292,9 +220,7 @@ async function boot() {
         const gRes = await fetch(`${DATA}/last_grown.json`);
         if (gRes.ok) {
           const g = await gRes.json();
-          grownEl.textContent = g.date
-            ? `Lexicon last grown ${g.date}`
-            : "";
+          grownEl.textContent = g.date ? `Lexicon last grown ${g.date}` : "";
         }
       } catch {
         /* optional */

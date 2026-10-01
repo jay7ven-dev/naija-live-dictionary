@@ -5,7 +5,8 @@ from __future__ import annotations
 import json
 import sys
 from pathlib import Path
-from xml.etree import ElementTree as ET
+
+from defusedxml import ElementTree as ET
 
 ROOT = Path(__file__).resolve().parent.parent
 TEI_NS = {"tei": "http://www.tei-c.org/ns/1.0"}

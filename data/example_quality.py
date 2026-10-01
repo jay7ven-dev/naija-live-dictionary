@@ -5,6 +5,8 @@ from __future__ import annotations
 import re
 import unicodedata
 
+from text_norm import norm
+
 MAX_PRIMARY_LEN = 70
 MAX_SECONDARY_LEN = 65
 MAX_PUBLIC_EXAMPLES = 2  # primary + at most one secondary
@@ -21,10 +23,6 @@ ENGLISH_HEAVY = re.compile(
     re.IGNORECASE,
 )
 WORD = re.compile(r"[a-zA-ZàáèéìíòóùúÀÁÈÉÌÍÒÓÙÚ]+(?:[-'][a-zA-ZàáèéìíòóùúÀÁÈÉÌÍÒÓÙÚ]+)*")
-
-
-def norm(s: str) -> str:
-    return unicodedata.normalize("NFC", s).casefold()
 
 
 def strip_diacritics(s: str) -> str:

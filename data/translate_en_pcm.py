@@ -13,6 +13,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_MODEL = "NITHUB-AI/marian-mt-bbc-en-pcm"
+# Pin HF Hub revision; bump intentionally when upgrading.
+DEFAULT_MODEL_REVISION = "main"
 
 _tokenizer = None
 _model = None
@@ -89,8 +91,12 @@ def load_mt(model_name: str = DEFAULT_MODEL):
         return _tokenizer, _model
     from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 
-    _tokenizer = AutoTokenizer.from_pretrained(model_name)
-    _model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
+    _tokenizer = AutoTokenizer.from_pretrained(
+        model_name, revision=DEFAULT_MODEL_REVISION
+    )
+    _model = AutoModelForSeq2SeqLM.from_pretrained(
+        model_name, revision=DEFAULT_MODEL_REVISION
+    )
     _model.eval()
     _model_name = model_name
     return _tokenizer, _model
@@ -115,13 +121,19 @@ def translate_raw(
 
 
 def translate_and_normalize(
-    text: str, model_name: str = DEFAULT_MODEL, *, use_moses: bool = True
+    text: str,
+    model_name: str = DEFAULT_MODEL,
+    max_length: int = 128,
+    *,
+    use_moses: bool = True,
 ) -> dict:
     """EN → pcm (Marian) → SNO via rules normalizer."""
     sys.path.insert(0, str(Path(__file__).resolve().parent))
     from normalize import normalize_sentence
 
-    raw = translate_raw(text, model_name=model_name, use_moses=use_moses)
+    raw = translate_raw(
+        text, model_name=model_name, max_length=max_length, use_moses=use_moses
+    )
     normed = normalize_sentence(raw, backend="rules")
     return {
         "input": text,
@@ -131,6 +143,7 @@ def translate_and_normalize(
         "mt_model": model_name,
         "moses": bool(use_moses and moses_ok()),
         "pipeline": "marian_en_pcm+rules",
+        "max_length": max_length,
     }
 
 
@@ -174,6 +187,12 @@ def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(description="Translate English → Pidgin (local) then SNO-normalize.")
     p.add_argument("text", nargs="?", help="English sentence")
     p.add_argument("--model", default=DEFAULT_MODEL, help="Hugging Face model id")
+    p.add_argument(
+        "--max-length",
+        type=int,
+        default=128,
+        help="Marian encode/generate max_length (same as translate_raw)",
+    )
     p.add_argument("--json", action="store_true", help="Emit full JSON")
     p.add_argument("--check-deps", action="store_true", help="Verify optional packages")
     p.add_argument("--eval", action="store_true", help="Run soft smoke eval cases")
@@ -202,7 +221,10 @@ def main(argv: list[str] | None = None) -> int:
 
     try:
         result = translate_and_normalize(
-            args.text, model_name=args.model, use_moses=not args.no_moses
+            args.text,
+            model_name=args.model,
+            max_length=args.max_length,
+            use_moses=not args.no_moses,
         )
     except Exception as e:
         print(str(e), file=sys.stderr)

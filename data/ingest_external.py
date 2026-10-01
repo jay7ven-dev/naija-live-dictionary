@@ -10,7 +10,7 @@ import zipfile
 from io import BytesIO
 from pathlib import Path
 from urllib.error import HTTPError, URLError
-from urllib.parse import quote
+from urllib.parse import quote, urlparse
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -18,11 +18,23 @@ CORPUS = ROOT / "data" / "corpus"
 EXTERNAL = CORPUS / "external"
 SOURCES = CORPUS / "sources.json"
 
+# Pin HF Hub revisions; bump intentionally when upgrading.
+HF_NAIJASENTI_REVISION = "main"
+
 NAIJASENTI_URLS = [
     "https://github.com/hausanlp/NaijaSenti/releases/download/v0.1.1/data.zip",
     "https://raw.githubusercontent.com/hausanlp/NaijaSenti/main/data/annotated_tweets/pcm_train.csv",
 ]
 CENCOS_ZENODO = "https://zenodo.org/records/7314016/files/CENCOS%20corpus.zip?download=1"
+
+
+def _urlopen(url_or_req, timeout: float):
+    """urlopen restricted to http(s) (bandit B310)."""
+    url = url_or_req.full_url if isinstance(url_or_req, Request) else str(url_or_req)
+    scheme = urlparse(url).scheme.lower()
+    if scheme not in ("http", "https"):
+        raise ValueError(f"refusing non-http(s) URL scheme: {scheme!r}")
+    return urlopen(url_or_req, timeout=timeout)  # nosec B310 — scheme checked above
 
 TOKEN = re.compile(r"[a-zA-Zàáèéìíòóùú'-]+")
 
@@ -104,7 +116,12 @@ def _lines_from_zip(data: bytes, pcm_only: bool = True) -> list[str]:
 def _lines_from_hf_datasets_lib() -> list[str]:
     from datasets import load_dataset
 
-    ds = load_dataset("HausaNLP/NaijaSenti-Twitter", "pcm", split="train")
+    ds = load_dataset(
+        "HausaNLP/NaijaSenti-Twitter",
+        "pcm",
+        split="train",
+        revision=HF_NAIJASENTI_REVISION,
+    )
     col = "text" if "text" in ds.column_names else "tweet"
     return [str(row[col]).strip() for row in ds if str(row[col]).strip()]
 
@@ -122,7 +139,7 @@ def _lines_from_hf_pcm(max_rows: int = 6000) -> list[str]:
             f"&offset={offset}&length={length}"
         )
         req = Request(url, headers={"User-Agent": "pidgin-dictionary-ingest/1.0"})
-        with urlopen(req, timeout=120) as resp:
+        with _urlopen(req, timeout=120) as resp:
             payload = json.loads(resp.read().decode("utf-8"))
         rows = payload.get("rows") or []
         if not rows:
@@ -167,7 +184,7 @@ def ingest_naijasenti() -> int:
         for url in NAIJASENTI_URLS:
             try:
                 print(f"Fetching NaijaSenti from {url} …")
-                with urlopen(url, timeout=180) as resp:
+                with _urlopen(url, timeout=180) as resp:
                     data = resp.read()
                 if url.endswith(".zip"):
                     lines = _lines_from_zip(data, pcm_only=True)
@@ -175,7 +192,7 @@ def ingest_naijasenti() -> int:
                     lines = _lines_from_csv(data.decode("utf-8", errors="replace"))
                 if lines:
                     break
-            except (HTTPError, URLError, RuntimeError, zipfile.BadZipFile) as exc:
+            except (HTTPError, URLError, RuntimeError, zipfile.BadZipFile, ValueError) as exc:
                 last_err = exc
                 print(f"  skip: {exc}", file=sys.stderr)
     if not lines:
@@ -194,7 +211,7 @@ def ingest_cencos() -> int:
     EXTERNAL.mkdir(parents=True, exist_ok=True)
     out = EXTERNAL / "cencos-transcripts.txt"
     print("Fetching CENCOS zip from Zenodo …")
-    with urlopen(CENCOS_ZENODO, timeout=180) as resp:
+    with _urlopen(CENCOS_ZENODO, timeout=180) as resp:
         data = resp.read()
     texts: list[str] = []
     with zipfile.ZipFile(BytesIO(data)) as zf:
@@ -202,7 +219,8 @@ def ingest_cencos() -> int:
             if name.lower().endswith((".txt", ".csv")) and "speaker" not in name.lower():
                 try:
                     content = zf.read(name).decode("utf-8", errors="replace")
-                except Exception:
+                except Exception as exc:
+                    print(f"  skip zip member {name!r}: {exc}", file=sys.stderr)
                     continue
                 if name.lower().endswith(".csv"):
                     reader = csv.reader(content.splitlines())
@@ -224,7 +242,7 @@ def ingest_cencos() -> int:
 
 
 def main(argv: list[str]) -> int:
-    which = argv[1] if len(argv) > 1 else "all"
+    which = argv[0] if argv else "all"
     errors: list[str] = []
     if which in ("naijasenti", "all"):
         try:
@@ -246,4 +264,4 @@ def main(argv: list[str]) -> int:
 
 
 if __name__ == "__main__":
-    raise SystemExit(main(sys.argv))
+    raise SystemExit(main(sys.argv[1:]))

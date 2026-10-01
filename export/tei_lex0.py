@@ -6,7 +6,7 @@ import json
 import sys
 from datetime import date
 from pathlib import Path
-from xml.etree import ElementTree as ET
+from xml.etree import ElementTree as ET  # nosec B405 — write-only TEI export; no untrusted parse
 
 ROOT = Path(__file__).resolve().parent.parent
 DICT_PATH = ROOT / "data" / "dictionary.json"

@@ -83,7 +83,10 @@ def clean_entry(entry: dict) -> tuple[list[str], list[dict], bool]:
         kept.append(secondary)
 
     # Any extras already handled; if primary was last-resort and others failed, quarantined above
-    assert 1 <= len(kept) <= MAX_PUBLIC_EXAMPLES
+    if not (1 <= len(kept) <= MAX_PUBLIC_EXAMPLES):
+        raise ValueError(
+            f"example keep count {len(kept)} outside 1..{MAX_PUBLIC_EXAMPLES}"
+        )
     return kept, quarantine, secondary is not None
 
 

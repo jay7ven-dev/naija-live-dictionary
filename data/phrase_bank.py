@@ -250,11 +250,17 @@ def cmd_evidence() -> int:
         return 1
 
     blobs: dict[str, str] = {}
+    read_errors: list[str] = []
     for f in files:
         try:
             blobs[f.name] = norm_text(f.read_text(encoding="utf-8", errors="ignore"))
         except OSError as e:
-            print(f"skip {f}: {e}", file=sys.stderr)
+            msg = f"unreadable corpus file {f}: {e}"
+            print(msg, file=sys.stderr)
+            read_errors.append(msg)
+    if read_errors:
+        print(f"corpus read failed for {len(read_errors)} file(s)", file=sys.stderr)
+        return 1
 
     # Focus evidence on phrases + words that have informal variants (editor aid)
     targets = [e for e in entries if e.get("part_of_speech") == "phrase" or e.get("informal_variants")]

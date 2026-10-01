@@ -8,6 +8,8 @@ import sys
 from collections import Counter
 from pathlib import Path
 
+from text_norm import norm_key
+
 ROOT = Path(__file__).resolve().parent.parent
 CORPUS_DIR = ROOT / "data" / "corpus"
 SOURCES = CORPUS_DIR / "sources.json"
@@ -35,10 +37,6 @@ def save_json(path: Path, data) -> None:
     with path.open("w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
         f.write("\n")
-
-
-def norm_key(s: str) -> str:
-    return s.casefold()
 
 
 def load_dictionary() -> list[dict]:
@@ -137,7 +135,6 @@ def cmd_extract() -> int:
             "candidates": candidates,
         },
     )
-    print(f"Extracted {len(counts)} unique tokens ({unmatched} unmatched) -> {CANDIDATES_PATH}")
     return 0
 
 
@@ -266,10 +263,10 @@ def cmd_suggest() -> int:
 
 
 def main(argv: list[str]) -> int:
-    if len(argv) < 2:
+    if not argv or argv[0] in {"-h", "--help"}:
         print("Usage: collect_variants.py extract|suggest|fst-suggest|apply|index", file=sys.stderr)
         return 1
-    cmd = argv[1]
+    cmd = argv[0]
     if cmd == "extract":
         return cmd_extract()
     if cmd == "suggest" or cmd == "fst-suggest":
@@ -283,4 +280,4 @@ def main(argv: list[str]) -> int:
 
 
 if __name__ == "__main__":
-    raise SystemExit(main(sys.argv))
+    raise SystemExit(main(sys.argv[1:]))

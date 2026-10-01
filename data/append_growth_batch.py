@@ -6,7 +6,7 @@ import json
 import sys
 from pathlib import Path
 
-ROOT = Path(r"C:\Users\boija\OneDrive - UMass Lowell") / "'26Hussell shit" / "Pidgin Writng system"
+ROOT = Path(__file__).resolve().parent.parent
 DICT = ROOT / "data" / "dictionary.json"
 
 # Keep in sync with build_seed.py growth batch 2 (2026-09-27).

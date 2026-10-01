@@ -7,9 +7,11 @@ import re
 import sys
 import unicodedata
 from pathlib import Path
+from urllib.parse import urlparse
 from urllib.request import urlopen
 
 from example_quality import passes_quality
+from text_norm import norm
 
 ROOT = Path(__file__).resolve().parent.parent
 DICT_PATH = ROOT / "data" / "dictionary.json"
@@ -29,6 +31,14 @@ MAX_NEW_FROM_UD = 1  # never bulk-add more than one filtered secondary
 WORD = re.compile(r"[a-zA-ZàáèéìíòóùúÀÁÈÉÌÍÒÓÙÚ]+(?:[-'][a-zA-ZàáèéìíòóùúÀÁÈÉÌÍÒÓÙÚ]+)*")
 
 
+def _urlopen(url: str, timeout: float):
+    """urlopen restricted to http(s) (bandit B310)."""
+    scheme = urlparse(url).scheme.lower()
+    if scheme not in ("http", "https"):
+        raise ValueError(f"refusing non-http(s) URL scheme: {scheme!r}")
+    return urlopen(url, timeout=timeout)  # nosec B310 — scheme checked above
+
+
 def load_json(path: Path):
     with path.open(encoding="utf-8") as f:
         return json.load(f)
@@ -39,10 +49,6 @@ def save_json(path: Path, data) -> None:
     with path.open("w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
         f.write("\n")
-
-
-def norm(s: str) -> str:
-    return unicodedata.normalize("NFC", s).casefold()
 
 
 def strip_diacritics(s: str) -> str:
@@ -79,7 +85,7 @@ def cmd_ingest() -> int:
         url = UD_BASE + name
         out = CORPUS / name
         print(f"Fetching {name} …")
-        with urlopen(url, timeout=300) as resp:
+        with _urlopen(url, timeout=300) as resp:
             out.write_bytes(resp.read())
         print(f"  -> {out} ({out.stat().st_size // 1024} KB)")
     register_ud_source()
@@ -311,10 +317,10 @@ def cmd_report() -> int:
 
 
 def main(argv: list[str]) -> int:
-    if len(argv) < 2:
+    if not argv or argv[0] in {"-h", "--help"}:
         print("Usage: enrich_examples.py ingest|extract|apply|report", file=sys.stderr)
         return 1
-    cmd = argv[1]
+    cmd = argv[0]
     try:
         if cmd == "ingest":
             return cmd_ingest()
@@ -332,4 +338,4 @@ def main(argv: list[str]) -> int:
 
 
 if __name__ == "__main__":
-    raise SystemExit(main(sys.argv))
+    raise SystemExit(main(sys.argv[1:]))

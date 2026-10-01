@@ -9,8 +9,9 @@ import argparse
 import json
 import re
 import sys
-import unicodedata
 from pathlib import Path
+
+from text_norm import norm_key
 
 ROOT = Path(__file__).resolve().parent.parent
 DICT_PATH = ROOT / "data" / "dictionary.json"
@@ -29,10 +30,6 @@ GOLD = [
     ("I wan book.", "I wan buk."),
     ("Yu sabi wetin?", "yu sabi wetin?"),
 ]
-
-
-def norm_key(s: str) -> str:
-    return unicodedata.normalize("NFC", s).casefold()
 
 
 def load_assets() -> tuple[dict[str, str], dict[str, str], list[tuple[str, str]], int]:

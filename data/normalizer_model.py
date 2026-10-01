@@ -8,9 +8,10 @@ from __future__ import annotations
 import json
 import random
 import re
-import unicodedata
 from collections import Counter
 from pathlib import Path
+
+from text_norm import norm_key
 
 ROOT = Path(__file__).resolve().parent.parent
 DICT_PATH = ROOT / "data" / "dictionary.json"
@@ -21,10 +22,6 @@ HELDOUT_PATH = ROOT / "data" / "normalizer_heldout.jsonl"
 WORD_RE = re.compile(
     r"^[a-zA-ZàáèéìíòóùúÀÁÈÉÌÍÒÓÙÚ]+(?:[-'][a-zA-ZàáèéìíòóùúÀÁÈÉÌÍÒÓÙÚ]+)*$"
 )
-
-
-def norm_key(s: str) -> str:
-    return unicodedata.normalize("NFC", s).casefold()
 
 
 def levenshtein(a: str, b: str) -> int:
@@ -86,7 +83,8 @@ def collect_pairs() -> list[dict]:
 def split_pairs(
     pairs: list[dict], holdout_frac: float = 0.2, seed: int = 42
 ) -> tuple[list[dict], list[dict]]:
-    rng = random.Random(seed)
+    # Reproducible train/holdout shuffle — not cryptographic.
+    rng = random.Random(seed)  # nosec B311
     shuffled = list(pairs)
     rng.shuffle(shuffled)
     n_hold = max(1, int(round(len(shuffled) * holdout_frac))) if shuffled else 0
