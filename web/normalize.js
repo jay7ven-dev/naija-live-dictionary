@@ -1,6 +1,14 @@
 /** Sentence normalizer (Part II). Backends: rules | model. */
 
 const DATA = "../data";
+
+/** Project root path for APIs ('' locally; '/repo' on GitHub Pages). Static hosts have no translate API. */
+function apiRoot() {
+  const path = window.location.pathname;
+  const i = path.indexOf("/web/");
+  return i >= 0 ? path.slice(0, i) : "";
+}
+
 const $in = /** @type {HTMLTextAreaElement} */ (document.getElementById("in"));
 const $run = /** @type {HTMLButtonElement} */ (document.getElementById("run"));
 const $backend = /** @type {HTMLSelectElement} */ (document.getElementById("backend"));
@@ -214,7 +222,7 @@ async function translate() {
   $status.setAttribute("aria-busy", "true");
   $translate.disabled = true;
   try {
-    const res = await fetch("/api/translate", {
+    const res = await fetch(`${apiRoot()}/api/translate`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ text }),

@@ -13,6 +13,8 @@ python web/serve.py
 Opens **Fix spelling** at http://localhost:8765/web/normalize.html  
 Dictionary: http://localhost:8765/web/index.html  
 
+**Hosted (static):** https://jay7ven-dev.github.io/naija-live-dictionary/ — Fix spelling + dictionary lookup. Advanced English→Pidgin needs local `python web/serve.py` (no server-side MT on Pages).
+
 Do not open HTML as a `file://` URL — dictionary data will not load.
 
 ## What this is
