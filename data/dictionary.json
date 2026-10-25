@@ -251,7 +251,8 @@
     "standard_spelling": "notin",
     "informal_variants": [
       "nothing",
-      "nutin"
+      "nutin",
+      "noting"
     ],
     "part_of_speech": "pronoun",
     "definitions": [
@@ -271,7 +272,10 @@
       "something",
       "sometin",
       "ting",
-      "thing"
+      "thing",
+      "someting",
+      "tins",
+      "things"
     ],
     "part_of_speech": "pronoun",
     "definitions": [
@@ -1667,7 +1671,8 @@
     "id": "wuman",
     "standard_spelling": "wuman",
     "informal_variants": [
-      "woman"
+      "woman",
+      "women"
     ],
     "part_of_speech": "noun",
     "definitions": [
@@ -2384,7 +2389,8 @@
     "id": "moto",
     "standard_spelling": "moto",
     "informal_variants": [
-      "car"
+      "car",
+      "motor"
     ],
     "part_of_speech": "noun",
     "definitions": [
@@ -5167,7 +5173,8 @@
     "id": "dea",
     "standard_spelling": "dea",
     "informal_variants": [
-      "there"
+      "there",
+      "dere"
     ],
     "part_of_speech": "adverb",
     "definitions": [
@@ -6173,7 +6180,8 @@
     "id": "mtchew",
     "standard_spelling": "mtchew",
     "informal_variants": [
-      "mchew"
+      "mchew",
+      "mtschew"
     ],
     "part_of_speech": "interjection",
     "definitions": [
@@ -7967,5 +7975,544 @@
       "Sombodi de dia."
     ],
     "pronunciation": "S-oh-m-b-oh-d-ee"
+  },
+  {
+    "id": "pesin",
+    "standard_spelling": "pesin",
+    "informal_variants": [
+      "person"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "person"
+    ],
+    "example_sentences": [
+      "Di pesin don go."
+    ],
+    "pronunciation": "P-eh-s-ee-n"
+  },
+  {
+    "id": "laik",
+    "standard_spelling": "laik",
+    "informal_variants": [
+      "like"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to like"
+    ],
+    "example_sentences": [
+      "I laik am."
+    ],
+    "pronunciation": "L-eye-k"
+  },
+  {
+    "id": "tel",
+    "standard_spelling": "tel",
+    "informal_variants": [
+      "tell"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to tell"
+    ],
+    "example_sentences": [
+      "Tel mi."
+    ],
+    "pronunciation": "T-eh-l"
+  },
+  {
+    "id": "beta",
+    "standard_spelling": "beta",
+    "informal_variants": [
+      "better"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "better"
+    ],
+    "example_sentences": [
+      "Dis wan beta."
+    ],
+    "pronunciation": "B-eh-t-ah"
+  },
+  {
+    "id": "mebi",
+    "standard_spelling": "mebi",
+    "informal_variants": [
+      "maybe"
+    ],
+    "part_of_speech": "adverb",
+    "definitions": [
+      "maybe"
+    ],
+    "example_sentences": [
+      "Mebi tumoro."
+    ],
+    "pronunciation": "M-eh-b-ee"
+  },
+  {
+    "id": "anoda",
+    "standard_spelling": "anoda",
+    "informal_variants": [
+      "another",
+      "anoder"
+    ],
+    "part_of_speech": "determiner",
+    "definitions": [
+      "another"
+    ],
+    "example_sentences": [
+      "Anoda pesin."
+    ],
+    "pronunciation": "AH-n-oh-d-ah"
+  },
+  {
+    "id": "oda",
+    "standard_spelling": "oda",
+    "informal_variants": [
+      "other",
+      "oder"
+    ],
+    "part_of_speech": "determiner",
+    "definitions": [
+      "other"
+    ],
+    "example_sentences": [
+      "Di oda wan."
+    ],
+    "pronunciation": "OH-d-ah"
+  },
+  {
+    "id": "andastand",
+    "standard_spelling": "andastand",
+    "informal_variants": [
+      "understand"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to understand"
+    ],
+    "example_sentences": [
+      "I andastand."
+    ],
+    "pronunciation": "AH-n-d-ah-s-t-ah-n-d"
+  },
+  {
+    "id": "pepe",
+    "standard_spelling": "pepe",
+    "informal_variants": [
+      "pepper"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "chili pepper"
+    ],
+    "example_sentences": [
+      "Di sup get pepe."
+    ],
+    "pronunciation": "P-eh-p-eh"
+  },
+  {
+    "id": "mata",
+    "standard_spelling": "mata",
+    "informal_variants": [
+      "matter"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "matter; issue"
+    ],
+    "example_sentences": [
+      "No bi di mata."
+    ],
+    "pronunciation": "M-ah-t-ah"
+  },
+  {
+    "id": "nem",
+    "standard_spelling": "nem",
+    "informal_variants": [
+      "name"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "name"
+    ],
+    "example_sentences": [
+      "Wetin bi di nem?"
+    ],
+    "pronunciation": "N-eh-m"
+  },
+  {
+    "id": "klas",
+    "standard_spelling": "klas",
+    "informal_variants": [
+      "class"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "class; lesson"
+    ],
+    "example_sentences": [
+      "Di klas don stat."
+    ],
+    "pronunciation": "K-l-ah-s"
+  },
+  {
+    "id": "chenj",
+    "standard_spelling": "chenj",
+    "informal_variants": [
+      "change"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to change"
+    ],
+    "example_sentences": [
+      "Chenj di moni."
+    ],
+    "pronunciation": "CH-eh-n-j"
+  },
+  {
+    "id": "na-im",
+    "standard_spelling": "na im",
+    "informal_variants": [
+      "naim"
+    ],
+    "part_of_speech": "phrase",
+    "definitions": [
+      "it is; that is the one"
+    ],
+    "example_sentences": [
+      "Na im e bi."
+    ],
+    "pronunciation": "N-eye-m"
+  },
+  {
+    "id": "dia",
+    "standard_spelling": "dia",
+    "informal_variants": [
+      "their",
+      "deir"
+    ],
+    "part_of_speech": "pronoun",
+    "definitions": [
+      "their"
+    ],
+    "example_sentences": [
+      "Na dia moto."
+    ],
+    "pronunciation": "D-ee-ah"
+  },
+  {
+    "id": "doz",
+    "standard_spelling": "doz",
+    "informal_variants": [
+      "those",
+      "dose"
+    ],
+    "part_of_speech": "determiner",
+    "definitions": [
+      "those"
+    ],
+    "example_sentences": [
+      "Doz pesin."
+    ],
+    "pronunciation": "D-oh-z"
+  },
+  {
+    "id": "diz",
+    "standard_spelling": "diz",
+    "informal_variants": [
+      "these",
+      "dese"
+    ],
+    "part_of_speech": "determiner",
+    "definitions": [
+      "these"
+    ],
+    "example_sentences": [
+      "Diz wan."
+    ],
+    "pronunciation": "D-ee-z"
+  },
+  {
+    "id": "nobodi",
+    "standard_spelling": "nobodi",
+    "informal_variants": [
+      "nobody"
+    ],
+    "part_of_speech": "pronoun",
+    "definitions": [
+      "nobody"
+    ],
+    "example_sentences": [
+      "Nobodi de dea."
+    ],
+    "pronunciation": "N-oh-b-oh-d-ee"
+  },
+  {
+    "id": "gree",
+    "standard_spelling": "gree",
+    "informal_variants": [
+      "agree"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to agree"
+    ],
+    "example_sentences": [
+      "Abeg gree."
+    ],
+    "pronunciation": "G-r-ee"
+  },
+  {
+    "id": "klot",
+    "standard_spelling": "klot",
+    "informal_variants": [
+      "cloth"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "cloth; clothes"
+    ],
+    "example_sentences": [
+      "Di klot red."
+    ],
+    "pronunciation": "K-l-oh-t"
+  },
+  {
+    "id": "suffa",
+    "standard_spelling": "suffa",
+    "informal_variants": [
+      "suffer"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to suffer"
+    ],
+    "example_sentences": [
+      "I dé suffa."
+    ],
+    "pronunciation": "S-oo-f-f-ah"
+  },
+  {
+    "id": "pawa",
+    "standard_spelling": "pawa",
+    "informal_variants": [
+      "power"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "power"
+    ],
+    "example_sentences": [
+      "Pawa don go."
+    ],
+    "pronunciation": "P-ah-w-ah"
+  },
+  {
+    "id": "sirios",
+    "standard_spelling": "sirios",
+    "informal_variants": [
+      "serious"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "serious"
+    ],
+    "example_sentences": [
+      "Na sirios mata."
+    ],
+    "pronunciation": "S-ee-r-ee-oh-s"
+  },
+  {
+    "id": "biliv",
+    "standard_spelling": "biliv",
+    "informal_variants": [
+      "believe"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to believe"
+    ],
+    "example_sentences": [
+      "I biliv am."
+    ],
+    "pronunciation": "B-ee-l-ee-v"
+  },
+  {
+    "id": "wori",
+    "standard_spelling": "wori",
+    "informal_variants": [
+      "worry"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to worry"
+    ],
+    "example_sentences": [
+      "No wori."
+    ],
+    "pronunciation": "W-oh-r-ee"
+  },
+  {
+    "id": "fil",
+    "standard_spelling": "fil",
+    "informal_variants": [
+      "feel"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to feel"
+    ],
+    "example_sentences": [
+      "I fil am."
+    ],
+    "pronunciation": "F-ee-l"
+  },
+  {
+    "id": "stori",
+    "standard_spelling": "stori",
+    "informal_variants": [
+      "story"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "story"
+    ],
+    "example_sentences": [
+      "Tel mi di stori."
+    ],
+    "pronunciation": "S-t-oh-r-ee"
+  },
+  {
+    "id": "wach",
+    "standard_spelling": "wach",
+    "informal_variants": [
+      "watch"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to watch"
+    ],
+    "example_sentences": [
+      "Wach am."
+    ],
+    "pronunciation": "W-ah-ch"
+  },
+  {
+    "id": "leta",
+    "standard_spelling": "leta",
+    "informal_variants": [
+      "later"
+    ],
+    "part_of_speech": "adverb",
+    "definitions": [
+      "later"
+    ],
+    "example_sentences": [
+      "Wi go leta."
+    ],
+    "pronunciation": "L-eh-t-ah"
+  },
+  {
+    "id": "mari",
+    "standard_spelling": "mari",
+    "informal_variants": [
+      "marry"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to marry"
+    ],
+    "example_sentences": [
+      "Dem wan mari."
+    ],
+    "pronunciation": "M-ah-r-ee"
+  },
+  {
+    "id": "fes",
+    "standard_spelling": "fes",
+    "informal_variants": [
+      "face"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "face"
+    ],
+    "example_sentences": [
+      "Wash di fes."
+    ],
+    "pronunciation": "F-eh-s"
+  },
+  {
+    "id": "maind",
+    "standard_spelling": "maind",
+    "informal_variants": [
+      "mind"
+    ],
+    "part_of_speech": "noun",
+    "definitions": [
+      "mind"
+    ],
+    "example_sentences": [
+      "Chenj di maind."
+    ],
+    "pronunciation": "M-eye-n-d"
+  },
+  {
+    "id": "ova",
+    "standard_spelling": "ova",
+    "informal_variants": [
+      "over"
+    ],
+    "part_of_speech": "preposition",
+    "definitions": [
+      "over"
+    ],
+    "example_sentences": [
+      "E don ova."
+    ],
+    "pronunciation": "OH-v-ah"
+  },
+  {
+    "id": "side",
+    "standard_spelling": "side",
+    "informal_variants": [],
+    "part_of_speech": "noun",
+    "definitions": [
+      "side"
+    ],
+    "example_sentences": [
+      "Di oda side."
+    ],
+    "pronunciation": "S-ee-d-eh"
+  },
+  {
+    "id": "boil",
+    "standard_spelling": "boil",
+    "informal_variants": [],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to boil"
+    ],
+    "example_sentences": [
+      "Boil di wota."
+    ],
+    "pronunciation": "B-oh-ee-l"
+  },
+  {
+    "id": "join",
+    "standard_spelling": "join",
+    "informal_variants": [],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to join"
+    ],
+    "example_sentences": [
+      "Join wi."
+    ],
+    "pronunciation": "J-oh-ee-n"
   }
 ]

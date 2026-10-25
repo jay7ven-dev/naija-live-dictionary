@@ -79,6 +79,10 @@
       "id": "agege"
     },
     {
+      "term": "agree",
+      "id": "gree"
+    },
+    {
       "term": "ai",
       "id": "ai"
     },
@@ -151,6 +155,10 @@
       "id": "amala"
     },
     {
+      "term": "andastand",
+      "id": "andastand"
+    },
+    {
       "term": "angri",
       "id": "angri"
     },
@@ -165,6 +173,18 @@
     {
       "term": "animal",
       "id": "anima"
+    },
+    {
+      "term": "anoda",
+      "id": "anoda"
+    },
+    {
+      "term": "anoder",
+      "id": "anoda"
+    },
+    {
+      "term": "another",
+      "id": "anoda"
     },
     {
       "term": "ans",
@@ -315,6 +335,10 @@
       "id": "belleful"
     },
     {
+      "term": "believe",
+      "id": "biliv"
+    },
+    {
       "term": "bell",
       "id": "belle"
     },
@@ -345,6 +369,14 @@
     {
       "term": "bendown",
       "id": "bend-down"
+    },
+    {
+      "term": "beta",
+      "id": "beta"
+    },
+    {
+      "term": "better",
+      "id": "beta"
     },
     {
       "term": "bia",
@@ -379,6 +411,10 @@
       "id": "bikos"
     },
     {
+      "term": "biliv",
+      "id": "biliv"
+    },
+    {
       "term": "binch",
       "id": "beans"
     },
@@ -401,6 +437,10 @@
     {
       "term": "boi",
       "id": "boi"
+    },
+    {
+      "term": "boil",
+      "id": "boil"
     },
     {
       "term": "bole",
@@ -579,8 +619,16 @@
       "id": "chairman"
     },
     {
+      "term": "change",
+      "id": "chenj"
+    },
+    {
       "term": "che",
       "id": "che"
+    },
+    {
+      "term": "chenj",
+      "id": "chenj"
     },
     {
       "term": "chief",
@@ -619,6 +667,10 @@
       "id": "siti"
     },
     {
+      "term": "class",
+      "id": "klas"
+    },
+    {
       "term": "clean",
       "id": "klin"
     },
@@ -633,6 +685,10 @@
     {
       "term": "close",
       "id": "kloz"
+    },
+    {
+      "term": "cloth",
+      "id": "klot"
     },
     {
       "term": "coffee",
@@ -743,6 +799,10 @@
       "id": "dei"
     },
     {
+      "term": "deir",
+      "id": "dia"
+    },
+    {
       "term": "dem",
       "id": "dem"
     },
@@ -751,12 +811,24 @@
       "id": "dem"
     },
     {
+      "term": "dere",
+      "id": "dea"
+    },
+    {
+      "term": "dese",
+      "id": "diz"
+    },
+    {
       "term": "dey",
       "id": "de-copula"
     },
     {
       "term": "di",
       "id": "di"
+    },
+    {
+      "term": "dia",
+      "id": "dia"
     },
     {
       "term": "die",
@@ -769,6 +841,10 @@
     {
       "term": "dise",
       "id": "dis"
+    },
+    {
+      "term": "diz",
+      "id": "diz"
     },
     {
       "term": "do",
@@ -805,6 +881,14 @@
     {
       "term": "door",
       "id": "do"
+    },
+    {
+      "term": "dose",
+      "id": "doz"
+    },
+    {
+      "term": "doz",
+      "id": "doz"
     },
     {
       "term": "draiv",
@@ -991,6 +1075,10 @@
       "id": "fa"
     },
     {
+      "term": "face",
+      "id": "fes"
+    },
+    {
       "term": "fai",
       "id": "fai"
     },
@@ -1047,12 +1135,20 @@
       "id": "faya"
     },
     {
+      "term": "feel",
+      "id": "fil"
+    },
+    {
       "term": "feet",
       "id": "fut"
     },
     {
       "term": "feil",
       "id": "feil"
+    },
+    {
+      "term": "fes",
+      "id": "fes"
     },
     {
       "term": "fest",
@@ -1073,6 +1169,10 @@
     {
       "term": "fight",
       "id": "fai"
+    },
+    {
+      "term": "fil",
+      "id": "fil"
     },
     {
       "term": "find",
@@ -1349,6 +1449,10 @@
     {
       "term": "graund",
       "id": "graund"
+    },
+    {
+      "term": "gree",
+      "id": "gree"
     },
     {
       "term": "ground",
@@ -1743,6 +1847,10 @@
       "id": "wok-job"
     },
     {
+      "term": "join",
+      "id": "join"
+    },
+    {
       "term": "jollof",
       "id": "jollof"
     },
@@ -1803,12 +1911,20 @@
       "id": "klaim"
     },
     {
+      "term": "klas",
+      "id": "klas"
+    },
+    {
       "term": "klimb",
       "id": "klaim"
     },
     {
       "term": "klin",
       "id": "klin"
+    },
+    {
+      "term": "klot",
+      "id": "klot"
     },
     {
       "term": "kloz",
@@ -1915,12 +2031,20 @@
       "id": "laif"
     },
     {
+      "term": "laik",
+      "id": "laik"
+    },
+    {
       "term": "lait",
       "id": "lait"
     },
     {
       "term": "lamba",
       "id": "lamba"
+    },
+    {
+      "term": "later",
+      "id": "leta"
     },
     {
       "term": "laugh",
@@ -1951,6 +2075,10 @@
       "id": "mek"
     },
     {
+      "term": "leta",
+      "id": "leta"
+    },
+    {
       "term": "level",
       "id": "level"
     },
@@ -1961,6 +2089,10 @@
     {
       "term": "light",
       "id": "lait"
+    },
+    {
+      "term": "like",
+      "id": "laik"
     },
     {
       "term": "lock",
@@ -2019,6 +2151,10 @@
       "id": "majishan"
     },
     {
+      "term": "maind",
+      "id": "maind"
+    },
+    {
       "term": "majishan",
       "id": "majishan"
     },
@@ -2035,8 +2171,24 @@
       "id": "man"
     },
     {
+      "term": "mari",
+      "id": "mari"
+    },
+    {
       "term": "market",
       "id": "market"
+    },
+    {
+      "term": "marry",
+      "id": "mari"
+    },
+    {
+      "term": "mata",
+      "id": "mata"
+    },
+    {
+      "term": "matter",
+      "id": "mata"
     },
     {
       "term": "maut",
@@ -2051,6 +2203,10 @@
       "id": "mornin"
     },
     {
+      "term": "maybe",
+      "id": "mebi"
+    },
+    {
       "term": "mchew",
       "id": "mtchew"
     },
@@ -2061,6 +2217,10 @@
     {
       "term": "meat",
       "id": "mit"
+    },
+    {
+      "term": "mebi",
+      "id": "mebi"
     },
     {
       "term": "medicine",
@@ -2085,6 +2245,10 @@
     {
       "term": "mezho",
       "id": "mezho"
+    },
+    {
+      "term": "mind",
+      "id": "maind"
     },
     {
       "term": "minit",
@@ -2151,6 +2315,10 @@
       "id": "moto"
     },
     {
+      "term": "motor",
+      "id": "moto"
+    },
+    {
       "term": "mout",
       "id": "maut"
     },
@@ -2160,6 +2328,10 @@
     },
     {
       "term": "mtchew",
+      "id": "mtchew"
+    },
+    {
+      "term": "mtschew",
       "id": "mtchew"
     },
     {
@@ -2193,6 +2365,10 @@
     {
       "term": "na",
       "id": "na"
+    },
+    {
+      "term": "na im",
+      "id": "na-im"
     },
     {
       "term": "na so",
@@ -2239,12 +2415,20 @@
       "id": "naija"
     },
     {
+      "term": "naim",
+      "id": "na-im"
+    },
+    {
       "term": "nait",
       "id": "nait"
     },
     {
       "term": "nak",
       "id": "nak"
+    },
+    {
+      "term": "name",
+      "id": "nem"
     },
     {
       "term": "nau",
@@ -2285,6 +2469,10 @@
     {
       "term": "neighbor",
       "id": "neba"
+    },
+    {
+      "term": "nem",
+      "id": "nem"
     },
     {
       "term": "nepa",
@@ -2355,6 +2543,14 @@
       "id": "no-dulling"
     },
     {
+      "term": "nobodi",
+      "id": "nobodi"
+    },
+    {
+      "term": "nobody",
+      "id": "nobodi"
+    },
+    {
       "term": "nodulling",
       "id": "no-dulling"
     },
@@ -2388,6 +2584,10 @@
     },
     {
       "term": "notin",
+      "id": "notin"
+    },
+    {
+      "term": "noting",
       "id": "notin"
     },
     {
@@ -2425,6 +2625,14 @@
     {
       "term": "o",
       "id": "o"
+    },
+    {
+      "term": "oda",
+      "id": "oda"
+    },
+    {
+      "term": "oder",
+      "id": "oda"
     },
     {
       "term": "ofada",
@@ -2543,6 +2751,10 @@
       "id": "ospitul"
     },
     {
+      "term": "other",
+      "id": "oda"
+    },
+    {
       "term": "out",
       "id": "outsai"
     },
@@ -2553,6 +2765,14 @@
     {
       "term": "outside",
       "id": "outsai"
+    },
+    {
+      "term": "ova",
+      "id": "ova"
+    },
+    {
+      "term": "over",
+      "id": "ova"
     },
     {
       "term": "owambe",
@@ -2627,6 +2847,10 @@
       "id": "pati"
     },
     {
+      "term": "pawa",
+      "id": "pawa"
+    },
+    {
       "term": "pay",
       "id": "pay"
     },
@@ -2651,6 +2875,14 @@
       "id": "pepa"
     },
     {
+      "term": "pepe",
+      "id": "pepe"
+    },
+    {
+      "term": "pepper",
+      "id": "pepe"
+    },
+    {
       "term": "pepper soup",
       "id": "pepper-soup"
     },
@@ -2661,6 +2893,10 @@
     {
       "term": "peppersoup",
       "id": "pepper-soup"
+    },
+    {
+      "term": "person",
+      "id": "pesin"
     },
     {
       "term": "pesin",
@@ -2797,6 +3033,10 @@
     {
       "term": "potopoto",
       "id": "potopoto"
+    },
+    {
+      "term": "power",
+      "id": "pawa"
     },
     {
       "term": "prais",
@@ -3059,6 +3299,10 @@
       "id": "sinio"
     },
     {
+      "term": "serious",
+      "id": "sirios"
+    },
+    {
       "term": "sey",
       "id": "se"
     },
@@ -3167,6 +3411,10 @@
       "id": "sik"
     },
     {
+      "term": "side",
+      "id": "side"
+    },
+    {
       "term": "sidon",
       "id": "sidon"
     },
@@ -3181,6 +3429,10 @@
     {
       "term": "sinio",
       "id": "sinio"
+    },
+    {
+      "term": "sirios",
+      "id": "sirios"
     },
     {
       "term": "sis",
@@ -3331,6 +3583,10 @@
       "id": "somtin"
     },
     {
+      "term": "someting",
+      "id": "somtin"
+    },
+    {
       "term": "somtin",
       "id": "somtin"
     },
@@ -3427,6 +3683,14 @@
       "id": "shop"
     },
     {
+      "term": "stori",
+      "id": "stori"
+    },
+    {
+      "term": "story",
+      "id": "stori"
+    },
+    {
       "term": "street",
       "id": "strit"
     },
@@ -3453,6 +3717,14 @@
     {
       "term": "studet",
       "id": "studet"
+    },
+    {
+      "term": "suffa",
+      "id": "suffa"
+    },
+    {
+      "term": "suffer",
+      "id": "suffa"
     },
     {
       "term": "sun",
@@ -3531,8 +3803,16 @@
       "id": "tek"
     },
     {
+      "term": "tel",
+      "id": "tel"
+    },
+    {
       "term": "telephone",
       "id": "fone"
+    },
+    {
+      "term": "tell",
+      "id": "tel"
     },
     {
       "term": "tenki",
@@ -3559,6 +3839,10 @@
       "id": "di"
     },
     {
+      "term": "their",
+      "id": "dia"
+    },
+    {
       "term": "them",
       "id": "dem"
     },
@@ -3567,11 +3851,19 @@
       "id": "dea"
     },
     {
+      "term": "these",
+      "id": "diz"
+    },
+    {
       "term": "thief",
       "id": "tif"
     },
     {
       "term": "thing",
+      "id": "somtin"
+    },
+    {
+      "term": "things",
       "id": "somtin"
     },
     {
@@ -3585,6 +3877,10 @@
     {
       "term": "thorns",
       "id": "chukuchuku"
+    },
+    {
+      "term": "those",
+      "id": "doz"
     },
     {
       "term": "though",
@@ -3620,6 +3916,10 @@
     },
     {
       "term": "ting",
+      "id": "somtin"
+    },
+    {
+      "term": "tins",
       "id": "somtin"
     },
     {
@@ -3747,6 +4047,10 @@
       "id": "uncle"
     },
     {
+      "term": "understand",
+      "id": "andastand"
+    },
+    {
       "term": "unna",
       "id": "una"
     },
@@ -3791,6 +4095,10 @@
       "id": "vilej"
     },
     {
+      "term": "wach",
+      "id": "wach"
+    },
+    {
       "term": "wahala",
       "id": "wahala"
     },
@@ -3833,6 +4141,10 @@
     {
       "term": "wata",
       "id": "wata"
+    },
+    {
+      "term": "watch",
+      "id": "wach"
     },
     {
       "term": "water",
@@ -4035,8 +4347,16 @@
       "id": "wuman"
     },
     {
+      "term": "women",
+      "id": "wuman"
+    },
+    {
       "term": "won",
       "id": "want"
+    },
+    {
+      "term": "wori",
+      "id": "wori"
     },
     {
       "term": "work",
@@ -4045,6 +4365,10 @@
     {
       "term": "worker",
       "id": "woka"
+    },
+    {
+      "term": "worry",
+      "id": "wori"
     },
     {
       "term": "wosh",

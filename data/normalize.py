@@ -23,6 +23,7 @@ HELDOUT_PATH = ROOT / "data" / "normalizer_heldout.jsonl"
 WORD_RE = re.compile(
     r"[a-zA-ZàáèéìíòóùúÀÁÈÉÌÍÒÓÙÚ]+(?:[-'][a-zA-ZàáèéìíòóùúÀÁÈÉÌÍÒÓÙÚ]+)*"
 )
+_VOWELS = frozenset("aeiouàáèéìíòóùú")
 
 # Gold sentences for --self-check (exact index hits — matches live variant_index).
 GOLD = [
@@ -65,6 +66,23 @@ def levenshtein(a: str, b: str) -> int:
     return prev[-1]
 
 
+def fuzzy_edit_ok(query: str, term: str) -> bool:
+    """Distance-1 edits that are still safe.
+
+    Allowed: one string is the other plus a trailing s (girls→girl), or a
+    3-letter vowel swap (bok→buk). Same first letter. Blocks and→ans,
+    will→wel, naira→Naijá.
+    """
+    if not query or not term or query[0] != term[0]:
+        return False
+    if query == term + "s" or term == query + "s":
+        return True
+    if len(query) == len(term) == 3:
+        diffs = [(a, b) for a, b in zip(query, term) if a != b]
+        return len(diffs) == 1 and diffs[0][0] in _VOWELS and diffs[0][1] in _VOWELS
+    return False
+
+
 def resolve_token_rules(
     core: str,
     index: dict[str, str],
@@ -83,22 +101,16 @@ def resolve_token_rules(
 
     nq = norm_key(core)
     # Fuzzy on 1–2 letter tokens is almost always English residue noise (be→bed).
-    if len(nq) <= 2:
+    if len(nq) <= 2 or max_d < 1:
         return {"input": core, "output": core, "method": "unknown", "entry_id": None}
-
-    # Distance 1 only. Distance 2 rewrites unrelated words (whine→fain, speaker→tok).
-    # 3-letter: same-length edits only (bok→buk; not be-length traps).
-    lim = min(1, max_d)
 
     best: list[tuple[int, str, str]] = []
     for term, tid in fuzzy_terms:
         nt = norm_key(term)
-        if abs(len(nt) - len(nq)) > lim:
-            continue
-        if len(nq) <= 3 and len(nt) != len(nq):
+        if not fuzzy_edit_ok(nq, nt):
             continue
         d = levenshtein(nq, nt)
-        if 0 < d <= lim:
+        if d == 1:
             best.append((d, term, tid))
     if not best:
         return {"input": core, "output": core, "method": "unknown", "entry_id": None}

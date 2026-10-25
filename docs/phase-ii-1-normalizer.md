@@ -14,7 +14,7 @@
 | Web UI | `web/normalize.html`, `web/normalize.js` |
 | Link from dictionary | `web/index.html` footer → Normalize |
 
-**Lookup order (per token):** exact `variant_index` → fuzzy distance ≤ 1 (3-letter: same length only; tied entry ids left unknown) → leave + `unknown`. Distance 2 is not applied (`whine` must not become `fain`).  
+**Lookup order (per token):** exact `variant_index` → fuzzy only for a trailing `s` or a 3-letter vowel swap (same first letter; tied entry ids left unknown) → leave + `unknown`. This blocks `and`→`ans`, `will`→`wel`, and `naira`→`Naijá`.  
 Resolves entry ids to `standard_spelling`. Does **not** write the lexicon.
 
 ## Commands

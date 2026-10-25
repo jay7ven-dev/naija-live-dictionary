@@ -50,9 +50,26 @@ function levenshtein(a, b) {
 }
 
 /**
- * Rules resolve — keep in sync with data/normalize.py resolve_token_rules
- * (len<=2 skip; distance 1 only; len<=3 same length; tied entry ids → unknown).
+ * Rules resolve — keep in sync with data/normalize.py fuzzy_edit_ok / resolve_token_rules.
+ * Fuzzy: trailing s, or a 3-letter vowel swap. Same first letter. Tied ids → unknown.
  */
+function fuzzyEditOk(query, term) {
+  if (!query || !term || query[0] !== term[0]) return false;
+  if (query === term + "s" || term === query + "s") return true;
+  if (query.length === 3 && term.length === 3) {
+    const vowels = "aeiouàáèéìíòóùú";
+    let diffs = 0;
+    let vowelSwap = true;
+    for (let i = 0; i < 3; i++) {
+      if (query[i] === term[i]) continue;
+      diffs += 1;
+      if (!vowels.includes(query[i]) || !vowels.includes(term[i])) vowelSwap = false;
+    }
+    return diffs === 1 && vowelSwap;
+  }
+  return false;
+}
+
 function resolveRules(core) {
   if (!core) return { input: core, output: core, method: "identity", entry_id: null };
   const eid = variantLookup.get(norm(core));
@@ -65,17 +82,12 @@ function resolveRules(core) {
   // Fuzzy on 1–2 letter tokens is almost always English residue noise (be→bed).
   if (nq.length <= 2) return { input: core, output: core, method: "unknown", entry_id: null };
 
-  // Distance 1 only. Distance 2 rewrites unrelated words (whine→fain).
-  // 3-letter: same-length edits only (bok→buk; not be-length traps).
-  const lim = 1;
-
   const hits = [];
   for (const { term, id } of fuzzyTerms) {
     const nt = norm(term);
-    if (Math.abs(nt.length - nq.length) > lim) continue;
-    if (nq.length <= 3 && nt.length !== nq.length) continue;
+    if (!fuzzyEditOk(nq, nt)) continue;
     const d = levenshtein(nq, nt);
-    if (d > 0 && d <= lim) hits.push({ d, term, id });
+    if (d === 1) hits.push({ d, term, id });
   }
   if (!hits.length) return { input: core, output: core, method: "unknown", entry_id: null };
   hits.sort((a, b) => a.d - b.d || a.term.localeCompare(b.term));

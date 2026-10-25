@@ -45,13 +45,22 @@ def test_gold_sentences() -> None:
 
 
 def test_distance_2_does_not_rewrite() -> None:
-    """Longer tokens must not fuzzy at distance 2 (whine/fine, white/wit)."""
+    """Unrelated near-spellings stay unchanged (and/ans, will/wel, naira/Naijá)."""
     index, by_id, fuzzy_terms, max_d = load_assets()
-    for tok in ("white", "speaker", "understand"):
+    for tok in ("white", "speaker", "and", "will", "naira", "three", "back"):
         if index.get(tok):
             continue
         dec = resolve_token_rules(tok, index, by_id, fuzzy_terms, max_d)
         assert dec["method"] == "unknown", f"{tok!r} -> {dec}"
+
+
+def test_safe_fuzzy_still_works() -> None:
+    index, by_id, fuzzy_terms, max_d = load_assets()
+    if not index.get("bok"):
+        dec = resolve_token_rules("bok", index, by_id, fuzzy_terms, max_d)
+        assert dec["method"] == "fuzzy" and dec["output"] == "buk", dec
+    dec = resolve_token_rules("girls", index, by_id, fuzzy_terms, max_d)
+    assert dec["output"] == "gel", dec
 
 
 def test_whine_sentence() -> None:
@@ -86,7 +95,9 @@ def main() -> int:
     test_short_token_no_fuzzy()
     print("OK short-token no-fuzzy")
     test_distance_2_does_not_rewrite()
-    print("OK no distance-2 rewrite")
+    print("OK no unsafe fuzzy")
+    test_safe_fuzzy_still_works()
+    print("OK safe fuzzy")
     test_whine_sentence()
     print("OK whine sentence")
     test_gold_sentences()

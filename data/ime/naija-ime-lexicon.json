@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-23T17:55:00Z",
+  "generated_at": "2026-10-25T07:50:22Z",
   "source": {
     "dictionary": "data/dictionary.json",
     "variant_index": "data/variant_index.json"
   },
   "counts": {
-    "entries": 510,
-    "index_keys": 1043,
-    "suggestions": 1043
+    "entries": 546,
+    "index_keys": 1124,
+    "suggestions": 1124
   },
   "digraphs": [
     "ch",
@@ -121,6 +121,11 @@
       "standard": "agege"
     },
     {
+      "variant": "agree",
+      "entry_id": "gree",
+      "standard": "gree"
+    },
+    {
       "variant": "ai",
       "entry_id": "ai",
       "standard": "ai"
@@ -211,6 +216,11 @@
       "standard": "amala"
     },
     {
+      "variant": "andastand",
+      "entry_id": "andastand",
+      "standard": "andastand"
+    },
+    {
       "variant": "angri",
       "entry_id": "angri",
       "standard": "angri"
@@ -229,6 +239,21 @@
       "variant": "animal",
       "entry_id": "anima",
       "standard": "anima"
+    },
+    {
+      "variant": "anoda",
+      "entry_id": "anoda",
+      "standard": "anoda"
+    },
+    {
+      "variant": "anoder",
+      "entry_id": "anoda",
+      "standard": "anoda"
+    },
+    {
+      "variant": "another",
+      "entry_id": "anoda",
+      "standard": "anoda"
     },
     {
       "variant": "ans",
@@ -416,6 +441,11 @@
       "standard": "belleful"
     },
     {
+      "variant": "believe",
+      "entry_id": "biliv",
+      "standard": "biliv"
+    },
+    {
       "variant": "bell",
       "entry_id": "belle",
       "standard": "belle"
@@ -454,6 +484,16 @@
       "variant": "bendown",
       "entry_id": "bend-down",
       "standard": "bend down"
+    },
+    {
+      "variant": "beta",
+      "entry_id": "beta",
+      "standard": "beta"
+    },
+    {
+      "variant": "better",
+      "entry_id": "beta",
+      "standard": "beta"
     },
     {
       "variant": "bia",
@@ -496,6 +536,11 @@
       "standard": "bikos"
     },
     {
+      "variant": "biliv",
+      "entry_id": "biliv",
+      "standard": "biliv"
+    },
+    {
       "variant": "binch",
       "entry_id": "beans",
       "standard": "beans"
@@ -524,6 +569,11 @@
       "variant": "boi",
       "entry_id": "boi",
       "standard": "boi"
+    },
+    {
+      "variant": "boil",
+      "entry_id": "boil",
+      "standard": "boil"
     },
     {
       "variant": "bole",
@@ -746,9 +796,19 @@
       "standard": "chairman"
     },
     {
+      "variant": "change",
+      "entry_id": "chenj",
+      "standard": "chenj"
+    },
+    {
       "variant": "che",
       "entry_id": "che",
       "standard": "che"
+    },
+    {
+      "variant": "chenj",
+      "entry_id": "chenj",
+      "standard": "chenj"
     },
     {
       "variant": "chief",
@@ -796,6 +856,11 @@
       "standard": "siti"
     },
     {
+      "variant": "class",
+      "entry_id": "klas",
+      "standard": "klas"
+    },
+    {
       "variant": "clean",
       "entry_id": "klin",
       "standard": "klin"
@@ -814,6 +879,11 @@
       "variant": "close",
       "entry_id": "kloz",
       "standard": "kloz"
+    },
+    {
+      "variant": "cloth",
+      "entry_id": "klot",
+      "standard": "klot"
     },
     {
       "variant": "coffee",
@@ -951,6 +1021,11 @@
       "standard": "dei"
     },
     {
+      "variant": "deir",
+      "entry_id": "dia",
+      "standard": "dia"
+    },
+    {
       "variant": "dem",
       "entry_id": "dem",
       "standard": "dem"
@@ -961,6 +1036,16 @@
       "standard": "dem"
     },
     {
+      "variant": "dere",
+      "entry_id": "dea",
+      "standard": "dea"
+    },
+    {
+      "variant": "dese",
+      "entry_id": "diz",
+      "standard": "diz"
+    },
+    {
       "variant": "dey",
       "entry_id": "de-copula",
       "standard": "dé"
@@ -969,6 +1054,11 @@
       "variant": "di",
       "entry_id": "di",
       "standard": "di"
+    },
+    {
+      "variant": "dia",
+      "entry_id": "dia",
+      "standard": "dia"
     },
     {
       "variant": "die",
@@ -984,6 +1074,11 @@
       "variant": "dise",
       "entry_id": "dis",
       "standard": "dis"
+    },
+    {
+      "variant": "diz",
+      "entry_id": "diz",
+      "standard": "diz"
     },
     {
       "variant": "do",
@@ -1029,6 +1124,16 @@
       "variant": "door",
       "entry_id": "do",
       "standard": "do"
+    },
+    {
+      "variant": "dose",
+      "entry_id": "doz",
+      "standard": "doz"
+    },
+    {
+      "variant": "doz",
+      "entry_id": "doz",
+      "standard": "doz"
     },
     {
       "variant": "draiv",
@@ -1261,6 +1366,11 @@
       "standard": "fa"
     },
     {
+      "variant": "face",
+      "entry_id": "fes",
+      "standard": "fes"
+    },
+    {
       "variant": "fai",
       "entry_id": "fai",
       "standard": "fai"
@@ -1331,6 +1441,11 @@
       "standard": "faya"
     },
     {
+      "variant": "feel",
+      "entry_id": "fil",
+      "standard": "fil"
+    },
+    {
       "variant": "feet",
       "entry_id": "fut",
       "standard": "fut"
@@ -1339,6 +1454,11 @@
       "variant": "feil",
       "entry_id": "feil",
       "standard": "feil"
+    },
+    {
+      "variant": "fes",
+      "entry_id": "fes",
+      "standard": "fes"
     },
     {
       "variant": "fest",
@@ -1364,6 +1484,11 @@
       "variant": "fight",
       "entry_id": "fai",
       "standard": "fai"
+    },
+    {
+      "variant": "fil",
+      "entry_id": "fil",
+      "standard": "fil"
     },
     {
       "variant": "find",
@@ -1709,6 +1834,11 @@
       "variant": "graund",
       "entry_id": "graund",
       "standard": "graund"
+    },
+    {
+      "variant": "gree",
+      "entry_id": "gree",
+      "standard": "gree"
     },
     {
       "variant": "ground",
@@ -2201,6 +2331,11 @@
       "standard": "wok"
     },
     {
+      "variant": "join",
+      "entry_id": "join",
+      "standard": "join"
+    },
+    {
       "variant": "jollof",
       "entry_id": "jollof",
       "standard": "jollof"
@@ -2276,6 +2411,11 @@
       "standard": "klaim"
     },
     {
+      "variant": "klas",
+      "entry_id": "klas",
+      "standard": "klas"
+    },
+    {
       "variant": "klimb",
       "entry_id": "klaim",
       "standard": "klaim"
@@ -2284,6 +2424,11 @@
       "variant": "klin",
       "entry_id": "klin",
       "standard": "klin"
+    },
+    {
+      "variant": "klot",
+      "entry_id": "klot",
+      "standard": "klot"
     },
     {
       "variant": "kloz",
@@ -2416,6 +2561,11 @@
       "standard": "laif"
     },
     {
+      "variant": "laik",
+      "entry_id": "laik",
+      "standard": "laik"
+    },
+    {
       "variant": "lait",
       "entry_id": "lait",
       "standard": "lait"
@@ -2424,6 +2574,11 @@
       "variant": "lamba",
       "entry_id": "lamba",
       "standard": "lamba"
+    },
+    {
+      "variant": "later",
+      "entry_id": "leta",
+      "standard": "leta"
     },
     {
       "variant": "laugh",
@@ -2461,6 +2616,11 @@
       "standard": "mek"
     },
     {
+      "variant": "leta",
+      "entry_id": "leta",
+      "standard": "leta"
+    },
+    {
       "variant": "level",
       "entry_id": "level",
       "standard": "level"
@@ -2474,6 +2634,11 @@
       "variant": "light",
       "entry_id": "lait",
       "standard": "lait"
+    },
+    {
+      "variant": "like",
+      "entry_id": "laik",
+      "standard": "laik"
     },
     {
       "variant": "lock",
@@ -2546,6 +2711,11 @@
       "standard": "majishan"
     },
     {
+      "variant": "maind",
+      "entry_id": "maind",
+      "standard": "maind"
+    },
+    {
       "variant": "majishan",
       "entry_id": "majishan",
       "standard": "majishan"
@@ -2566,9 +2736,29 @@
       "standard": "man"
     },
     {
+      "variant": "mari",
+      "entry_id": "mari",
+      "standard": "mari"
+    },
+    {
       "variant": "market",
       "entry_id": "market",
       "standard": "market"
+    },
+    {
+      "variant": "marry",
+      "entry_id": "mari",
+      "standard": "mari"
+    },
+    {
+      "variant": "mata",
+      "entry_id": "mata",
+      "standard": "mata"
+    },
+    {
+      "variant": "matter",
+      "entry_id": "mata",
+      "standard": "mata"
     },
     {
       "variant": "maut",
@@ -2586,6 +2776,11 @@
       "standard": "mornin"
     },
     {
+      "variant": "maybe",
+      "entry_id": "mebi",
+      "standard": "mebi"
+    },
+    {
       "variant": "mchew",
       "entry_id": "mtchew",
       "standard": "mtchew"
@@ -2599,6 +2794,11 @@
       "variant": "meat",
       "entry_id": "mit",
       "standard": "mit"
+    },
+    {
+      "variant": "mebi",
+      "entry_id": "mebi",
+      "standard": "mebi"
     },
     {
       "variant": "medicine",
@@ -2629,6 +2829,11 @@
       "variant": "mezho",
       "entry_id": "mezho",
       "standard": "mezho"
+    },
+    {
+      "variant": "mind",
+      "entry_id": "maind",
+      "standard": "maind"
     },
     {
       "variant": "minit",
@@ -2711,6 +2916,11 @@
       "standard": "moto"
     },
     {
+      "variant": "motor",
+      "entry_id": "moto",
+      "standard": "moto"
+    },
+    {
       "variant": "mout",
       "entry_id": "maut",
       "standard": "maut"
@@ -2722,6 +2932,11 @@
     },
     {
       "variant": "mtchew",
+      "entry_id": "mtchew",
+      "standard": "mtchew"
+    },
+    {
+      "variant": "mtschew",
       "entry_id": "mtchew",
       "standard": "mtchew"
     },
@@ -2764,6 +2979,11 @@
       "variant": "na",
       "entry_id": "na",
       "standard": "na"
+    },
+    {
+      "variant": "na im",
+      "entry_id": "na-im",
+      "standard": "na im"
     },
     {
       "variant": "na so",
@@ -2821,6 +3041,11 @@
       "standard": "Naijá"
     },
     {
+      "variant": "naim",
+      "entry_id": "na-im",
+      "standard": "na im"
+    },
+    {
       "variant": "nait",
       "entry_id": "nait",
       "standard": "nait"
@@ -2829,6 +3054,11 @@
       "variant": "nak",
       "entry_id": "nak",
       "standard": "nak"
+    },
+    {
+      "variant": "name",
+      "entry_id": "nem",
+      "standard": "nem"
     },
     {
       "variant": "nau",
@@ -2879,6 +3109,11 @@
       "variant": "neighbor",
       "entry_id": "neba",
       "standard": "neba"
+    },
+    {
+      "variant": "nem",
+      "entry_id": "nem",
+      "standard": "nem"
     },
     {
       "variant": "nepa",
@@ -2966,6 +3201,16 @@
       "standard": "no dulling"
     },
     {
+      "variant": "nobodi",
+      "entry_id": "nobodi",
+      "standard": "nobodi"
+    },
+    {
+      "variant": "nobody",
+      "entry_id": "nobodi",
+      "standard": "nobodi"
+    },
+    {
       "variant": "nodulling",
       "entry_id": "no-dulling",
       "standard": "no dulling"
@@ -3007,6 +3252,11 @@
     },
     {
       "variant": "notin",
+      "entry_id": "notin",
+      "standard": "notin"
+    },
+    {
+      "variant": "noting",
       "entry_id": "notin",
       "standard": "notin"
     },
@@ -3054,6 +3304,16 @@
       "variant": "o",
       "entry_id": "o",
       "standard": "o"
+    },
+    {
+      "variant": "oda",
+      "entry_id": "oda",
+      "standard": "oda"
+    },
+    {
+      "variant": "oder",
+      "entry_id": "oda",
+      "standard": "oda"
     },
     {
       "variant": "ofada",
@@ -3201,6 +3461,11 @@
       "standard": "ospitul"
     },
     {
+      "variant": "other",
+      "entry_id": "oda",
+      "standard": "oda"
+    },
+    {
       "variant": "out",
       "entry_id": "outsai",
       "standard": "outsai"
@@ -3214,6 +3479,16 @@
       "variant": "outside",
       "entry_id": "outsai",
       "standard": "outsai"
+    },
+    {
+      "variant": "ova",
+      "entry_id": "ova",
+      "standard": "ova"
+    },
+    {
+      "variant": "over",
+      "entry_id": "ova",
+      "standard": "ova"
     },
     {
       "variant": "owambe",
@@ -3306,6 +3581,11 @@
       "standard": "pati"
     },
     {
+      "variant": "pawa",
+      "entry_id": "pawa",
+      "standard": "pawa"
+    },
+    {
       "variant": "pay",
       "entry_id": "pay",
       "standard": "pay"
@@ -3336,6 +3616,16 @@
       "standard": "pepa"
     },
     {
+      "variant": "pepe",
+      "entry_id": "pepe",
+      "standard": "pepe"
+    },
+    {
+      "variant": "pepper",
+      "entry_id": "pepe",
+      "standard": "pepe"
+    },
+    {
       "variant": "pepper soup",
       "entry_id": "pepper-soup",
       "standard": "pepper soup"
@@ -3349,6 +3639,11 @@
       "variant": "peppersoup",
       "entry_id": "pepper-soup",
       "standard": "pepper soup"
+    },
+    {
+      "variant": "person",
+      "entry_id": "pesin",
+      "standard": "pesin"
     },
     {
       "variant": "pesin",
@@ -3519,6 +3814,11 @@
       "variant": "potopoto",
       "entry_id": "potopoto",
       "standard": "potopoto"
+    },
+    {
+      "variant": "power",
+      "entry_id": "pawa",
+      "standard": "pawa"
     },
     {
       "variant": "prais",
@@ -3846,6 +4146,11 @@
       "standard": "sinio"
     },
     {
+      "variant": "serious",
+      "entry_id": "sirios",
+      "standard": "sirios"
+    },
+    {
       "variant": "sey",
       "entry_id": "se",
       "standard": "se"
@@ -3981,6 +4286,11 @@
       "standard": "sik"
     },
     {
+      "variant": "side",
+      "entry_id": "side",
+      "standard": "side"
+    },
+    {
       "variant": "sidon",
       "entry_id": "sidon",
       "standard": "sidon"
@@ -3999,6 +4309,11 @@
       "variant": "sinio",
       "entry_id": "sinio",
       "standard": "sinio"
+    },
+    {
+      "variant": "sirios",
+      "entry_id": "sirios",
+      "standard": "sirios"
     },
     {
       "variant": "sis",
@@ -4186,6 +4501,11 @@
       "standard": "somtin"
     },
     {
+      "variant": "someting",
+      "entry_id": "somtin",
+      "standard": "somtin"
+    },
+    {
       "variant": "somtin",
       "entry_id": "somtin",
       "standard": "somtin"
@@ -4306,6 +4626,16 @@
       "standard": "shop"
     },
     {
+      "variant": "stori",
+      "entry_id": "stori",
+      "standard": "stori"
+    },
+    {
+      "variant": "story",
+      "entry_id": "stori",
+      "standard": "stori"
+    },
+    {
       "variant": "street",
       "entry_id": "strit",
       "standard": "strit"
@@ -4339,6 +4669,16 @@
       "variant": "studet",
       "entry_id": "studet",
       "standard": "studet"
+    },
+    {
+      "variant": "suffa",
+      "entry_id": "suffa",
+      "standard": "suffa"
+    },
+    {
+      "variant": "suffer",
+      "entry_id": "suffa",
+      "standard": "suffa"
     },
     {
       "variant": "sun",
@@ -4436,9 +4776,19 @@
       "standard": "tek"
     },
     {
+      "variant": "tel",
+      "entry_id": "tel",
+      "standard": "tel"
+    },
+    {
       "variant": "telephone",
       "entry_id": "fone",
       "standard": "fone"
+    },
+    {
+      "variant": "tell",
+      "entry_id": "tel",
+      "standard": "tel"
     },
     {
       "variant": "tenki",
@@ -4471,6 +4821,11 @@
       "standard": "di"
     },
     {
+      "variant": "their",
+      "entry_id": "dia",
+      "standard": "dia"
+    },
+    {
       "variant": "them",
       "entry_id": "dem",
       "standard": "dem"
@@ -4481,12 +4836,22 @@
       "standard": "dea"
     },
     {
+      "variant": "these",
+      "entry_id": "diz",
+      "standard": "diz"
+    },
+    {
       "variant": "thief",
       "entry_id": "tif",
       "standard": "tif"
     },
     {
       "variant": "thing",
+      "entry_id": "somtin",
+      "standard": "somtin"
+    },
+    {
+      "variant": "things",
       "entry_id": "somtin",
       "standard": "somtin"
     },
@@ -4504,6 +4869,11 @@
       "variant": "thorns",
       "entry_id": "chukuchuku",
       "standard": "chukuchuku"
+    },
+    {
+      "variant": "those",
+      "entry_id": "doz",
+      "standard": "doz"
     },
     {
       "variant": "though",
@@ -4547,6 +4917,11 @@
     },
     {
       "variant": "ting",
+      "entry_id": "somtin",
+      "standard": "somtin"
+    },
+    {
+      "variant": "tins",
       "entry_id": "somtin",
       "standard": "somtin"
     },
@@ -4706,6 +5081,11 @@
       "standard": "uncle"
     },
     {
+      "variant": "understand",
+      "entry_id": "andastand",
+      "standard": "andastand"
+    },
+    {
       "variant": "unna",
       "entry_id": "una",
       "standard": "una"
@@ -4761,6 +5141,11 @@
       "standard": "vilej"
     },
     {
+      "variant": "wach",
+      "entry_id": "wach",
+      "standard": "wach"
+    },
+    {
       "variant": "wahala",
       "entry_id": "wahala",
       "standard": "wahala"
@@ -4814,6 +5199,11 @@
       "variant": "wata",
       "entry_id": "wata",
       "standard": "wata"
+    },
+    {
+      "variant": "watch",
+      "entry_id": "wach",
+      "standard": "wach"
     },
     {
       "variant": "water",
@@ -5066,9 +5456,19 @@
       "standard": "wuman"
     },
     {
+      "variant": "women",
+      "entry_id": "wuman",
+      "standard": "wuman"
+    },
+    {
       "variant": "won",
       "entry_id": "want",
       "standard": "want"
+    },
+    {
+      "variant": "wori",
+      "entry_id": "wori",
+      "standard": "wori"
     },
     {
       "variant": "work",
@@ -5079,6 +5479,11 @@
       "variant": "worker",
       "entry_id": "woka",
       "standard": "woka"
+    },
+    {
+      "variant": "worry",
+      "entry_id": "wori",
+      "standard": "wori"
     },
     {
       "variant": "wosh",
