@@ -1,5 +1,5 @@
 {
-  "max_distance": 2,
+  "max_distance": 1,
   "generated_from": "data\\variant_index.json",
   "terms": [
     {
@@ -181,6 +181,14 @@
     {
       "term": "anyone",
       "id": "enibodi"
+    },
+    {
+      "term": "anything",
+      "id": "enitin"
+    },
+    {
+      "term": "anyting",
+      "id": "enitin"
     },
     {
       "term": "area boy",
@@ -887,6 +895,10 @@
       "id": "ehen"
     },
     {
+      "term": "ehn",
+      "id": "ehen"
+    },
+    {
       "term": "elda",
       "id": "elda"
     },
@@ -901,6 +913,10 @@
     {
       "term": "enibodi",
       "id": "enibodi"
+    },
+    {
+      "term": "enitin",
+      "id": "enitin"
     },
     {
       "term": "enta",
@@ -939,12 +955,24 @@
       "id": "evribodi"
     },
     {
+      "term": "everything",
+      "id": "evritin"
+    },
+    {
+      "term": "everyting",
+      "id": "evritin"
+    },
+    {
       "term": "evri",
       "id": "evri"
     },
     {
       "term": "evribodi",
       "id": "evribodi"
+    },
+    {
+      "term": "evritin",
+      "id": "evritin"
     },
     {
       "term": "ewedu",
@@ -2723,6 +2751,14 @@
       "id": "abeg"
     },
     {
+      "term": "plenti",
+      "id": "plenti"
+    },
+    {
+      "term": "plenty",
+      "id": "plenti"
+    },
+    {
       "term": "ples",
       "id": "ples"
     },
@@ -2957,6 +2993,10 @@
     {
       "term": "sansan",
       "id": "sansan"
+    },
+    {
+      "term": "sapos",
+      "id": "sapos"
     },
     {
       "term": "sawa",
@@ -3271,8 +3311,16 @@
       "id": "som"
     },
     {
+      "term": "sombodi",
+      "id": "sombodi"
+    },
+    {
       "term": "some",
       "id": "som"
+    },
+    {
+      "term": "somebody",
+      "id": "sombodi"
     },
     {
       "term": "something",
@@ -3413,6 +3461,10 @@
     {
       "term": "sup",
       "id": "sup"
+    },
+    {
+      "term": "suppose",
+      "id": "sapos"
     },
     {
       "term": "suya",
@@ -3707,6 +3759,14 @@
       "id": "find"
     },
     {
+      "term": "veks",
+      "id": "veks"
+    },
+    {
+      "term": "vex",
+      "id": "veks"
+    },
+    {
       "term": "vibe",
       "id": "vibe"
     },
@@ -3733,6 +3793,10 @@
     {
       "term": "wahala",
       "id": "wahala"
+    },
+    {
+      "term": "wain",
+      "id": "wain"
     },
     {
       "term": "wait",
@@ -3905,6 +3969,10 @@
     {
       "term": "which",
       "id": "wey"
+    },
+    {
+      "term": "whine",
+      "id": "wain"
     },
     {
       "term": "white-man",

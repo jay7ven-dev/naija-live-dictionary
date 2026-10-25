@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-01",
-  "entries": 503,
-  "index_keys": 1026,
-  "note": "growth batch 7",
+  "date": "2026-10-23",
+  "entries": 510,
+  "index_keys": 1043,
+  "note": "growth batch 8: wain plenti sapos veks enitin evritin sombodi; ehn to ehen",
   "policy": "evidence-triggered: grow when suggestions/misses queue warrants human review; update this file on each apply"
 }

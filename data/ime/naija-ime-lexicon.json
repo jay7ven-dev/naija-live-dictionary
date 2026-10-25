@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T18:02:39Z",
+  "generated_at": "2026-10-23T17:55:00Z",
   "source": {
     "dictionary": "data/dictionary.json",
     "variant_index": "data/variant_index.json"
   },
   "counts": {
-    "entries": 503,
-    "index_keys": 1026,
-    "suggestions": 1026
+    "entries": 510,
+    "index_keys": 1043,
+    "suggestions": 1043
   },
   "digraphs": [
     "ch",
@@ -249,6 +249,16 @@
       "variant": "anyone",
       "entry_id": "enibodi",
       "standard": "enibodi"
+    },
+    {
+      "variant": "anything",
+      "entry_id": "enitin",
+      "standard": "enitin"
+    },
+    {
+      "variant": "anyting",
+      "entry_id": "enitin",
+      "standard": "enitin"
     },
     {
       "variant": "area boy",
@@ -1131,6 +1141,11 @@
       "standard": "ehen"
     },
     {
+      "variant": "ehn",
+      "entry_id": "ehen",
+      "standard": "ehen"
+    },
+    {
       "variant": "elda",
       "entry_id": "elda",
       "standard": "elda"
@@ -1149,6 +1164,11 @@
       "variant": "enibodi",
       "entry_id": "enibodi",
       "standard": "enibodi"
+    },
+    {
+      "variant": "enitin",
+      "entry_id": "enitin",
+      "standard": "enitin"
     },
     {
       "variant": "enta",
@@ -1196,6 +1216,16 @@
       "standard": "evribodi"
     },
     {
+      "variant": "everything",
+      "entry_id": "evritin",
+      "standard": "evritin"
+    },
+    {
+      "variant": "everyting",
+      "entry_id": "evritin",
+      "standard": "evritin"
+    },
+    {
       "variant": "evri",
       "entry_id": "evri",
       "standard": "evri"
@@ -1204,6 +1234,11 @@
       "variant": "evribodi",
       "entry_id": "evribodi",
       "standard": "evribodi"
+    },
+    {
+      "variant": "evritin",
+      "entry_id": "evritin",
+      "standard": "evritin"
     },
     {
       "variant": "ewedu",
@@ -3426,6 +3461,16 @@
       "standard": "abeg"
     },
     {
+      "variant": "plenti",
+      "entry_id": "plenti",
+      "standard": "plenti"
+    },
+    {
+      "variant": "plenty",
+      "entry_id": "plenti",
+      "standard": "plenti"
+    },
+    {
       "variant": "ples",
       "entry_id": "ples",
       "standard": "ples"
@@ -3719,6 +3764,11 @@
       "variant": "sansan",
       "entry_id": "sansan",
       "standard": "sansan"
+    },
+    {
+      "variant": "sapos",
+      "entry_id": "sapos",
+      "standard": "sapos"
     },
     {
       "variant": "sawa",
@@ -4111,9 +4161,19 @@
       "standard": "som"
     },
     {
+      "variant": "sombodi",
+      "entry_id": "sombodi",
+      "standard": "sombodi"
+    },
+    {
       "variant": "some",
       "entry_id": "som",
       "standard": "som"
+    },
+    {
+      "variant": "somebody",
+      "entry_id": "sombodi",
+      "standard": "sombodi"
     },
     {
       "variant": "something",
@@ -4289,6 +4349,11 @@
       "variant": "sup",
       "entry_id": "sup",
       "standard": "sup"
+    },
+    {
+      "variant": "suppose",
+      "entry_id": "sapos",
+      "standard": "sapos"
     },
     {
       "variant": "suya",
@@ -4656,6 +4721,16 @@
       "standard": "fain"
     },
     {
+      "variant": "veks",
+      "entry_id": "veks",
+      "standard": "veks"
+    },
+    {
+      "variant": "vex",
+      "entry_id": "veks",
+      "standard": "veks"
+    },
+    {
       "variant": "vibe",
       "entry_id": "vibe",
       "standard": "vibe"
@@ -4689,6 +4764,11 @@
       "variant": "wahala",
       "entry_id": "wahala",
       "standard": "wahala"
+    },
+    {
+      "variant": "wain",
+      "entry_id": "wain",
+      "standard": "wain"
     },
     {
       "variant": "wait",
@@ -4904,6 +4984,11 @@
       "variant": "which",
       "entry_id": "wey",
       "standard": "wey"
+    },
+    {
+      "variant": "whine",
+      "entry_id": "wain",
+      "standard": "wain"
     },
     {
       "variant": "white-man",

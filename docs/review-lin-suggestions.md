@@ -1,6 +1,8 @@
 # Lin Suggestion Review (Batch 2)
 
-Sorted by corpus count (desc). Use this for manual approve/reject before adding to `variant_mappings.json`.
+**Closed 2026-10-23:** all 57 rows in `suggestions.json` are `rejected` or `already_mapped`. None were added to `variant_mappings.json`.
+
+Sorted by corpus count (desc). Historical approve/reject notes before the close:
 
 **Auto batch 2 rule:** `method=lin`, count ≥ 5, forward Lin match, not blocklisted, not already mapped.
 

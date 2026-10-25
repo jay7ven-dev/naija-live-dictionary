@@ -9,4 +9,4 @@
 {"id": "s09", "input": "Dem don chop finish.", "expected": "dem don chop fini."}
 {"id": "s10", "input": "Make we yarn small.", "expected": "mek wi yarn smol."}
 {"id": "s11", "input": "I no sabi book well.", "expected": "I no sabi buk wel."}
-{"id": "s12", "input": "Abeg give me chance.", "expected": "abeg giv me dan."}
+{"id": "s12", "input": "Abeg give me chance.", "expected": "abeg giv me chance."}

@@ -44,6 +44,33 @@ def test_gold_sentences() -> None:
         assert got == want, f"{src!r}: got {got!r} want {want!r}"
 
 
+def test_distance_2_does_not_rewrite() -> None:
+    """Longer tokens must not fuzzy at distance 2 (whine/fine, white/wit)."""
+    index, by_id, fuzzy_terms, max_d = load_assets()
+    for tok in ("white", "speaker", "understand"):
+        if index.get(tok):
+            continue
+        dec = resolve_token_rules(tok, index, by_id, fuzzy_terms, max_d)
+        assert dec["method"] == "unknown", f"{tok!r} -> {dec}"
+
+
+def test_whine_sentence() -> None:
+    index, by_id, fuzzy_terms, max_d = load_assets()
+    got = normalize_sentence(
+        "You Dey whine me",
+        backend="rules",
+        index=index,
+        by_id=by_id,
+        fuzzy_terms=fuzzy_terms,
+        max_d=max_d,
+    )
+    by_in = {t["input"]: t for t in got["tokens"]}
+    assert by_in["whine"]["method"] == "exact", by_in["whine"]
+    assert by_in["whine"]["output"] == "wain", by_in["whine"]
+    assert by_in["me"]["method"] == "unknown", by_in["me"]
+    assert "fain" not in got["output"]
+
+
 def test_exact_index_hits() -> None:
     index, by_id, fuzzy_terms, max_d = load_assets()
     for variant, eid in (("pickin", "pikin"), ("book", "buk")):
@@ -58,6 +85,10 @@ def main() -> int:
     print("OK exact index hits")
     test_short_token_no_fuzzy()
     print("OK short-token no-fuzzy")
+    test_distance_2_does_not_rewrite()
+    print("OK no distance-2 rewrite")
+    test_whine_sentence()
+    print("OK whine sentence")
     test_gold_sentences()
     print(f"OK gold ({len(GOLD)} sentences)")
     rc = self_check()

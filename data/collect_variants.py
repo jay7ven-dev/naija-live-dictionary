@@ -195,7 +195,7 @@ def cmd_index() -> int:
     save_json(
         FUZZY_PATH,
         {
-            "max_distance": 2,
+            "max_distance": 1,
             "generated_from": str(INDEX_PATH.relative_to(ROOT)),
             "terms": fuzzy_terms,
         },

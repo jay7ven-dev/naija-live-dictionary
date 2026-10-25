@@ -44,6 +44,8 @@ ans	ans	ans
 answer	ans	ans
 anybody	enibodi	enibodi
 anyone	enibodi	enibodi
+anything	enitin	enitin
+anyting	enitin	enitin
 area boy	area boy	area-boy
 area-boys	area boy	area-boy
 areaboy	area boy	area-boy
@@ -220,10 +222,12 @@ efo	efo	efo
 egusi	egusi	egusi
 ehen	ehen	ehen
 ehhen	ehen	ehen
+ehn	ehen	ehen
 elda	elda	elda
 elder	elda	elda
 elder dem	elda	elda
 enibodi	enibodi	enibodi
+enitin	enitin	enitin
 enta	enta	enta
 enter	enta	enta
 escape	eskep	eskep
@@ -233,8 +237,11 @@ evenin	ivnin	ivnin
 evening	ivnin	ivnin
 every	evri	evri
 everybody	evribodi	evribodi
+everything	evritin	evritin
+everyting	evritin	evritin
 evri	evri	evri
 evribodi	evribodi	evribodi
+evritin	evritin	evritin
 ewedu	ewedu	ewedu
 extra	jara	jara
 eye	ai	ai
@@ -679,6 +686,8 @@ plase	ples	ples
 play	ple	ple
 ple	ple	ple
 please	abeg	abeg
+plenti	plenti	plenti
+plenty	plenti	plenti
 ples	ples	ples
 plis	plis	plis
 pls	plis	plis
@@ -738,6 +747,7 @@ sad	sad	sad
 san	san	san
 sand	sansan	sansan
 sansan	sansan	sansan
+sapos	sapos	sapos
 sawa	sawa	sawa
 say	se	se
 school	skul	skul
@@ -816,7 +826,9 @@ softlife	soft life	soft-life
 soldia	soldia	soldia
 soldier	soldia	soldia
 som	som	som
+sombodi	sombodi	sombodi
 some	som	som
+somebody	sombodi	sombodi
 something	somtin	somtin
 sometin	somtin	somtin
 somtin	somtin	somtin
@@ -852,6 +864,7 @@ student	studet	studet
 studet	studet	studet
 sun	san	san
 sup	sup	sup
+suppose	sapos	sapos
 suya	suya	suya
 sweet	swit	swit
 swit	swit	swit
@@ -925,6 +938,8 @@ uncle	uncle	uncle
 unna	una	una
 until	til	til
 vain	fain	find
+veks	veks	veks
+vex	veks	veks
 vibe	vibe	vibe
 vibes	vibe	vibe
 video	vidio	vidio
@@ -932,6 +947,7 @@ vidio	vidio	vidio
 vilej	vilej	vilej
 village	vilej	vilej
 wahala	wahala	wahala
+wain	wain	wain
 wait	wét	wét
 waka	waka	waka
 wake	wek op	wok-op
@@ -975,6 +991,7 @@ what's happening	wetin de happen	wetin-de-happen
 when	wen	wen
 where	wia	wia
 which	wey	wey
+whine	wain	wain
 white-man	oyibo	oyibo
 who	wey	wey
 whose	hus	hus

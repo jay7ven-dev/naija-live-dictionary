@@ -22,7 +22,6 @@ let variantLookup = new Map();
 let byId = new Map();
 /** @type {{ term: string, id: string }[]} */
 let fuzzyTerms = [];
-let fuzzyMaxDistance = 2;
 
 const WORD_RE =
   /[a-zA-ZàáèéìíòóùúÀÁÈÉÌÍÒÓÙÚ]+(?:[-'][a-zA-ZàáèéìíòóùúÀÁÈÉÌÍÒÓÙÚ]+)*/;
@@ -52,7 +51,7 @@ function levenshtein(a, b) {
 
 /**
  * Rules resolve — keep in sync with data/normalize.py resolve_token_rules
- * (short-token fuzzy guards: len<=2 skip; len<=3 → distance 1 + same length).
+ * (len<=2 skip; distance 1 only; len<=3 same length; tied entry ids → unknown).
  */
 function resolveRules(core) {
   if (!core) return { input: core, output: core, method: "identity", entry_id: null };
@@ -66,8 +65,9 @@ function resolveRules(core) {
   // Fuzzy on 1–2 letter tokens is almost always English residue noise (be→bed).
   if (nq.length <= 2) return { input: core, output: core, method: "unknown", entry_id: null };
 
-  // 3-letter: same-length edits only, max distance 1 (bok→buk; not be-length traps).
-  const lim = nq.length <= 3 ? 1 : fuzzyMaxDistance;
+  // Distance 1 only. Distance 2 rewrites unrelated words (whine→fain).
+  // 3-letter: same-length edits only (bok→buk; not be-length traps).
+  const lim = 1;
 
   const hits = [];
   for (const { term, id } of fuzzyTerms) {
@@ -79,7 +79,10 @@ function resolveRules(core) {
   }
   if (!hits.length) return { input: core, output: core, method: "unknown", entry_id: null };
   hits.sort((a, b) => a.d - b.d || a.term.localeCompare(b.term));
-  const tid = hits[0].id;
+  const bestD = hits[0].d;
+  const ids = new Set(hits.filter((h) => h.d === bestD).map((h) => h.id));
+  if (ids.size !== 1) return { input: core, output: core, method: "unknown", entry_id: null };
+  const tid = hits.find((h) => h.d === bestD).id;
   return { input: core, output: byId.get(tid) ?? core, method: "fuzzy", entry_id: tid };
 }
 
@@ -212,7 +215,6 @@ async function boot() {
       if (!variantLookup.has(nk)) variantLookup.set(nk, v);
     }
     fuzzyTerms = fuzzy.terms ?? [];
-    fuzzyMaxDistance = fuzzy.max_distance ?? 2;
     $status.textContent = "Ready · Fix spelling (rules). English → Pidgin under Advanced.";
     const grownEl = document.getElementById("last-grown");
     if (grownEl) {

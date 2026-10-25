@@ -6157,7 +6157,8 @@
     "id": "ehen",
     "standard_spelling": "ehen",
     "informal_variants": [
-      "ehhen"
+      "ehhen",
+      "ehn"
     ],
     "part_of_speech": "interjection",
     "definitions": [
@@ -7859,5 +7860,112 @@
       "Dem drink burukutu."
     ],
     "pronunciation": "B-oo-r-oo-k-oo-t-oo"
+  },
+  {
+    "id": "wain",
+    "standard_spelling": "wain",
+    "informal_variants": [
+      "whine"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to whine; complain at someone"
+    ],
+    "example_sentences": [
+      "Yu dé wain mi."
+    ],
+    "pronunciation": "W-eye-n"
+  },
+  {
+    "id": "plenti",
+    "standard_spelling": "plenti",
+    "informal_variants": [
+      "plenty"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "plenty; many"
+    ],
+    "example_sentences": [
+      "Plenti pipul de dia."
+    ],
+    "pronunciation": "P-l-eh-n-t-ee"
+  },
+  {
+    "id": "sapos",
+    "standard_spelling": "sapos",
+    "informal_variants": [
+      "suppose"
+    ],
+    "part_of_speech": "verb",
+    "definitions": [
+      "to suppose"
+    ],
+    "example_sentences": [
+      "Sapos yu go."
+    ],
+    "pronunciation": "S-ah-p-oh-s"
+  },
+  {
+    "id": "veks",
+    "standard_spelling": "veks",
+    "informal_variants": [
+      "vex"
+    ],
+    "part_of_speech": "adjective",
+    "definitions": [
+      "angry; vexed"
+    ],
+    "example_sentences": [
+      "I veks."
+    ],
+    "pronunciation": "V-eh-k-s"
+  },
+  {
+    "id": "enitin",
+    "standard_spelling": "enitin",
+    "informal_variants": [
+      "anyting",
+      "anything"
+    ],
+    "part_of_speech": "pronoun",
+    "definitions": [
+      "anything"
+    ],
+    "example_sentences": [
+      "Enitin fit hapen."
+    ],
+    "pronunciation": "EH-n-ee-t-ee-n"
+  },
+  {
+    "id": "evritin",
+    "standard_spelling": "evritin",
+    "informal_variants": [
+      "everyting",
+      "everything"
+    ],
+    "part_of_speech": "pronoun",
+    "definitions": [
+      "everything"
+    ],
+    "example_sentences": [
+      "Evritin de ok."
+    ],
+    "pronunciation": "EH-v-r-ee-t-ee-n"
+  },
+  {
+    "id": "sombodi",
+    "standard_spelling": "sombodi",
+    "informal_variants": [
+      "somebody"
+    ],
+    "part_of_speech": "pronoun",
+    "definitions": [
+      "somebody"
+    ],
+    "example_sentences": [
+      "Sombodi de dia."
+    ],
+    "pronunciation": "S-oh-m-b-oh-d-ee"
   }
 ]

@@ -14,7 +14,7 @@
 | Web UI | `web/normalize.html`, `web/normalize.js` |
 | Link from dictionary | `web/index.html` footer → Normalize |
 
-**Lookup order (per token):** exact `variant_index` → fuzzy ≤ 2 → leave + `unknown`.  
+**Lookup order (per token):** exact `variant_index` → fuzzy distance ≤ 1 (3-letter: same length only; tied entry ids left unknown) → leave + `unknown`. Distance 2 is not applied (`whine` must not become `fain`).  
 Resolves entry ids to `standard_spelling`. Does **not** write the lexicon.
 
 ## Commands

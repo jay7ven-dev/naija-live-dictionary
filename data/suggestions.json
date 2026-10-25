@@ -1,5 +1,5 @@
 {
-  "note": "Suggestions only — add approved rows to variant_mappings.json; never auto-applied.",
+  "note": "Closed 2026-10-23. Rejected rows were not added to variant_mappings.json. already_mapped rows were applied in an earlier curated batch.",
   "engine": "lin",
   "count": 57,
   "suggestions": [
@@ -15,7 +15,8 @@
         "external\\pcm_nsc-ud-dev.conllu",
         "external\\pcm_nsc-ud-test.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "they",
@@ -29,7 +30,8 @@
         "external\\pcm_nsc-ud-dev.conllu",
         "external\\pcm_nsc-ud-test.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "try",
@@ -43,7 +45,8 @@
         "external\\pcm_nsc-ud-dev.conllu",
         "external\\pcm_nsc-ud-test.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "reach",
@@ -57,7 +60,8 @@
         "external\\pcm_nsc-ud-dev.conllu",
         "external\\pcm_nsc-ud-test.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "three",
@@ -71,7 +75,8 @@
         "external\\pcm_nsc-ud-dev.conllu",
         "external\\pcm_nsc-ud-test.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "They",
@@ -85,7 +90,8 @@
         "external\\pcm_nsc-ud-dev.conllu",
         "external\\pcm_nsc-ud-test.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "She",
@@ -99,7 +105,8 @@
         "external\\pcm_nsc-ud-dev.conllu",
         "external\\pcm_nsc-ud-test.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "check",
@@ -113,7 +120,8 @@
         "external\\pcm_nsc-ud-dev.conllu",
         "external\\pcm_nsc-ud-test.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "State",
@@ -127,7 +135,8 @@
         "external\\pcm_nsc-ud-dev.conllu",
         "external\\pcm_nsc-ud-test.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "state",
@@ -141,7 +150,8 @@
         "external\\pcm_nsc-ud-dev.conllu",
         "external\\pcm_nsc-ud-test.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "done",
@@ -155,7 +165,8 @@
         "external\\pcm_nsc-ud-dev.conllu",
         "external\\pcm_nsc-ud-test.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "than",
@@ -169,7 +180,8 @@
         "external\\pcm_nsc-ud-dev.conllu",
         "external\\pcm_nsc-ud-test.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "peace",
@@ -181,7 +193,8 @@
         "external\\cencos-transcripts.txt",
         "external\\pcm_nsc-ud-train.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "date",
@@ -193,7 +206,8 @@
         "external\\cencos-transcripts.txt",
         "external\\pcm_nsc-ud-train.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "fry",
@@ -205,7 +219,8 @@
         "external\\pcm_nsc-ud-train.conllu",
         "external\\pcm_nsc-ud-dev.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "white",
@@ -218,7 +233,8 @@
         "external\\pcm_nsc-ud-dev.conllu",
         "external\\pcm_nsc-ud-test.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "steal",
@@ -231,7 +247,8 @@
         "external\\pcm_nsc-ud-train.conllu",
         "external\\pcm_nsc-ud-dev.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "bath",
@@ -244,7 +261,8 @@
         "external\\pcm_nsc-ud-train.conllu",
         "external\\pcm_nsc-ud-dev.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "both",
@@ -256,7 +274,8 @@
         "external\\cencos-transcripts.txt",
         "external\\pcm_nsc-ud-train.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "style",
@@ -268,7 +287,8 @@
         "external\\pcm_nsc-ud-train.conllu",
         "external\\pcm_nsc-ud-dev.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "sele",
@@ -279,7 +299,8 @@
       "sources": [
         "external\\pcm_nsc-ud-train.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "ride",
@@ -291,7 +312,8 @@
         "external\\cencos-transcripts.txt",
         "external\\pcm_nsc-ud-train.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "Peace",
@@ -302,7 +324,8 @@
       "sources": [
         "external\\pcm_nsc-ud-train.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "luck",
@@ -314,7 +337,8 @@
         "external\\cencos-transcripts.txt",
         "external\\pcm_nsc-ud-train.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "Wike",
@@ -325,7 +349,8 @@
       "sources": [
         "external\\pcm_nsc-ud-train.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "hole",
@@ -337,7 +362,8 @@
         "external\\pcm_nsc-ud-train.conllu",
         "external\\pcm_nsc-ud-test.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "Both",
@@ -349,7 +375,8 @@
         "external\\cencos-transcripts.txt",
         "external\\pcm_nsc-ud-train.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "woke",
@@ -361,7 +388,8 @@
         "external\\cencos-transcripts.txt",
         "external\\pcm_nsc-ud-train.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "Check",
@@ -374,7 +402,8 @@
         "external\\pcm_nsc-ud-train.conllu",
         "external\\pcm_nsc-ud-dev.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "Try",
@@ -386,7 +415,8 @@
         "external\\cencos-transcripts.txt",
         "external\\pcm_nsc-ud-train.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "sweat",
@@ -398,7 +428,8 @@
         "external\\cencos-transcripts.txt",
         "external\\pcm_nsc-ud-train.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "bright",
@@ -410,7 +441,8 @@
         "external\\pcm_nsc-ud-train.conllu",
         "external\\pcm_nsc-ud-dev.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "Luke",
@@ -421,7 +453,8 @@
       "sources": [
         "external\\pcm_nsc-ud-train.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "Theo",
@@ -432,7 +465,8 @@
       "sources": [
         "external\\pcm_nsc-ud-train.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "bore",
@@ -443,7 +477,8 @@
       "sources": [
         "external\\pcm_nsc-ud-train.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "Three",
@@ -455,7 +490,8 @@
         "external\\cencos-transcripts.txt",
         "external\\pcm_nsc-ud-train.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "feet",
@@ -466,7 +502,7 @@
       "sources": [
         "external\\pcm_nsc-ud-train.conllu"
       ],
-      "status": "pending_review"
+      "status": "already_mapped"
     },
     {
       "variant": "Ea",
@@ -477,7 +513,8 @@
       "sources": [
         "external\\pcm_nsc-ud-dev.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "pu",
@@ -488,7 +525,8 @@
       "sources": [
         "external\\pcm_nsc-ud-dev.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "buck",
@@ -499,7 +537,8 @@
       "sources": [
         "external\\pcm_nsc-ud-dev.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "pol",
@@ -510,7 +549,8 @@
       "sources": [
         "external\\pcm_nsc-ud-test.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "sy",
@@ -521,7 +561,8 @@
       "sources": [
         "external\\pcm_nsc-ud-test.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "thee",
@@ -532,7 +573,8 @@
       "sources": [
         "external\\pcm_nsc-ud-train.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "lege",
@@ -543,7 +585,8 @@
       "sources": [
         "external\\cencos-transcripts.txt"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "peak",
@@ -554,7 +597,8 @@
       "sources": [
         "external\\cencos-transcripts.txt"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "Beacause",
@@ -565,7 +609,7 @@
       "sources": [
         "external\\pcm_nsc-ud-train.conllu"
       ],
-      "status": "pending_review"
+      "status": "already_mapped"
     },
     {
       "variant": "spy",
@@ -576,7 +620,7 @@
       "sources": [
         "external\\pcm_nsc-ud-train.conllu"
       ],
-      "status": "pending_review"
+      "status": "already_mapped"
     },
     {
       "variant": "Sweat",
@@ -587,7 +631,8 @@
       "sources": [
         "external\\cencos-transcripts.txt"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "een",
@@ -598,7 +643,8 @@
       "sources": [
         "external\\cencos-transcripts.txt"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "bell",
@@ -609,7 +655,7 @@
       "sources": [
         "external\\cencos-transcripts.txt"
       ],
-      "status": "pending_review"
+      "status": "already_mapped"
     },
     {
       "variant": "DY",
@@ -620,7 +666,8 @@
       "sources": [
         "external\\cencos-transcripts.txt"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "Mac",
@@ -631,7 +678,8 @@
       "sources": [
         "external\\cencos-transcripts.txt"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "Bright",
@@ -642,7 +690,8 @@
       "sources": [
         "external\\cencos-transcripts.txt"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "ea",
@@ -653,7 +702,8 @@
       "sources": [
         "external\\pcm_nsc-ud-train.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "Reach",
@@ -664,7 +714,8 @@
       "sources": [
         "external\\pcm_nsc-ud-dev.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     },
     {
       "variant": "vain",
@@ -675,7 +726,7 @@
       "sources": [
         "external\\pcm_nsc-ud-dev.conllu"
       ],
-      "status": "pending_review"
+      "status": "already_mapped"
     },
     {
       "variant": "thi",
@@ -686,7 +737,9 @@
       "sources": [
         "external\\pcm_nsc-ud-dev.conllu"
       ],
-      "status": "pending_review"
+      "status": "rejected",
+      "review_note": "lin close 2026-10-23: english/name false positive or not a forward match"
     }
-  ]
+  ],
+  "closed": "2026-10-23"
 }

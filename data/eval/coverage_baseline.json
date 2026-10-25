@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-01",
+  "date": "2026-10-23",
   "sample": "data/eval/messy_pidgin_sample.jsonl",
   "backend": "rules",
   "n": 12,
@@ -7,5 +7,5 @@
   "sentence_exact": 1.0,
   "word_ok": 12,
   "sent_ok": 12,
-  "note": "Frozen messy-Pidgin coverage baseline after North Star realign. Re-run: python data/normalize.py --eval data/eval/messy_pidgin_sample.jsonl"
+  "note": "s12 expected no longer maps chance to dan (dan = dance). Fuzzy distance is 1. Re-run: python data/normalize.py --eval data/eval/messy_pidgin_sample.jsonl"
 }

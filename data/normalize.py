@@ -86,8 +86,9 @@ def resolve_token_rules(
     if len(nq) <= 2:
         return {"input": core, "output": core, "method": "unknown", "entry_id": None}
 
-    # 3-letter: same-length edits only, max distance 1 (bok→buk; not be-length traps).
-    lim = 1 if len(nq) <= 3 else max_d
+    # Distance 1 only. Distance 2 rewrites unrelated words (whine→fain, speaker→tok).
+    # 3-letter: same-length edits only (bok→buk; not be-length traps).
+    lim = min(1, max_d)
 
     best: list[tuple[int, str, str]] = []
     for term, tid in fuzzy_terms:
@@ -103,7 +104,11 @@ def resolve_token_rules(
         return {"input": core, "output": core, "method": "unknown", "entry_id": None}
 
     best.sort(key=lambda x: (x[0], x[1].casefold()))
-    _d, _term, tid = best[0]
+    top_d = best[0][0]
+    top_ids = {tid for d, _term, tid in best if d == top_d}
+    if len(top_ids) != 1:
+        return {"input": core, "output": core, "method": "unknown", "entry_id": None}
+    tid = next(iter(top_ids))
     std = by_id.get(tid, core)
     return {"input": core, "output": std, "method": "fuzzy", "entry_id": tid}
 
